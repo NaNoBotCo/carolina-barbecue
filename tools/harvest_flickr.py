@@ -253,7 +253,7 @@ def parse_photo(html: str, page_url: str) -> dict:
         "title": main.get("title") or "",
         "description": desc,
         "page_url": page_url,
-        "holder": holder,
+        "holder": holder, "holder_short": owner.get("username") or "",
         "owner_nsid": owner.get("nsid") or "",
         "owner_path": owner.get("pathAlias") or "",
         "photographer": shot.group(1).strip(" .") if shot else "",
@@ -351,10 +351,21 @@ def write_triage(name: str, rows: list[dict]):
 
 
 # ------------------------------------------------------------------ harvest
+def holder_name(p: dict) -> str:
+    """The institution as it should be credited. An account's realname often has the town
+    appended — 'State Archives of North Carolina Raleigh, NC' — while its username does
+    not, so the username is preferred and the realname is only the fallback."""
+    for h in (p.get("holder_short"), p.get("holder")):
+        h = (h or "").strip()
+        if h:
+            return h
+    return ""
+
+
 def author_line(p: dict, override: str = "") -> str:
     if override:
         return override
-    bits = [b for b in (p.get("photographer"), p.get("holder")) if b]
+    bits = [b for b in (p.get("photographer"), holder_name(p)) if b]
     return "; ".join(dict.fromkeys(bits))
 
 
@@ -406,19 +417,20 @@ def harvest(ids: list[str], apply: bool):
         date = it.get("date") or p["date_taken"] or ""
         side = {
             "title": p["title"], "photo_id": p["id"], "page_url": p["page_url"], "original": p["url"],
-            "author": author_line(p, it.get("author", "")), "credit": it.get("credit") or p["holder"],
+            "author": author_line(p, it.get("author", "")), "credit": it.get("credit") or holder_name(p),
             "date": date, "date_posted_to_flickr": p["date_posted"],
             "description": p["description"], "width": p["width"], "height": p["height"],
             "license": p["license"], "license_url": p["license_url"],
             "rights_statement_on_page": p["rights_statement"], "flickr_license_id": p["license_num"],
             "sha256": sha, "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-            "source": it.get("source") or f"{p['holder']} via Flickr Commons",
+            "source": it.get("source") or (f"{holder_name(p)} via Flickr Commons" if p["license_num"] == 7
+                                          else f"{holder_name(p)} via Flickr"),
         }
         jdump(side, dest.with_suffix(dest.suffix + ".json"))
         entry = {
             "file": fname, "source": "flickr", "title": p["title"], "url": p["url"], "page_url": p["page_url"],
             "license": p["license"], "license_url": p["license_url"], "author": author_line(p, it.get("author", "")),
-            "credit": it.get("credit") or p["holder"], "alt": it.get("alt") or p["description"][:300],
+            "credit": it.get("credit") or holder_name(p), "alt": it.get("alt") or p["description"][:300],
             "date": date, "primary": bool(it.get("primary")), "sha256": sha,
             "width": p["width"], "height": p["height"],
         }

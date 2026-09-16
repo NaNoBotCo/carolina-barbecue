@@ -102,7 +102,10 @@
   "s:web-cecelski-adam-scott",
   "s:web-scottsbarbecuesauce",
   "s:web-ncarts-goldsboro",
-  "s:wp-scotts-variety-store-and-bar-b-q"
+  "s:wp-scotts-variety-store-and-bar-b-q",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -128,12 +131,35 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "town centroid; directory listings put the sauce company at 1205 N William St but no read source gives the restaurant's last address"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
  "confidence": "medium",
  "needs_verification": true,
- "images": [],
+ "images": [
+  {
+   "file": "scotts-famous-barbecue/scotts-famous-barbecue-adam-scotts-place-goldsboro-1944.jpg",
+   "source": "flickr",
+   "title": "ConDev4504_Overview",
+   "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "Bill Sharpe; State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+   "alt": "A News Bureau photo sheet: two prints mounted on a printed North Carolina Department of Conservation and Development form, filled in by hand — subject, Barbeque Pit; locality, Goldsboro, Adam Scotts Place; date, Aug-44. In the left print a man in a white shirt and apron stands at a table with two tall enamel stockpots and an open pan of chopped meat, a short-handled tool in his raised hand and printed notices tacked to the board wall behind him. The right print looks down the inside of a long brick pit: a bed of pale ash between low brick walls, iron bars laid across it, the far end lost in smoke.",
+   "date": "1944-08",
+   "primary": true,
+   "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+   "width": 2048,
+   "height": 1843
+  }
+ ],
  "updated": "2026-09-16",
  "tags": [
   {
@@ -249,6 +275,33 @@
    "title": "Scott's Variety Store and Bar-B-Q — Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Scott%27s_Variety_Store_and_Bar-B-Q",
    "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:flickr-commons",
+   "kind": "dataset",
+   "title": "Flickr Commons",
+   "publisher": "Flickr, with participating libraries, archives and museums",
+   "url": "https://www.flickr.com/commons/usage/",
+   "accessed": "2026-09-16",
+   "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+  },
+  {
+   "id": "s:flickr-ncsa",
+   "kind": "dataset",
+   "title": "State Archives of North Carolina on Flickr Commons",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+  },
+  {
+   "id": "s:ncsa-condev",
+   "kind": "dataset",
+   "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+   "accessed": "2026-09-16",
+   "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
   }
  ],
  "tiers": {
@@ -279,7 +332,23 @@
    "source": "s:web-aahc-scotts-cafe"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "scotts-famous-barbecue/scotts-famous-barbecue-adam-scotts-place-goldsboro-1944.jpg",
+  "source": "flickr",
+  "title": "ConDev4504_Overview",
+  "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+  "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+  "license": "No known copyright restrictions",
+  "license_url": "https://www.flickr.com/commons/usage/",
+  "author": "Bill Sharpe; State Archives of North Carolina",
+  "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+  "alt": "A News Bureau photo sheet: two prints mounted on a printed North Carolina Department of Conservation and Development form, filled in by hand — subject, Barbeque Pit; locality, Goldsboro, Adam Scotts Place; date, Aug-44. In the left print a man in a white shirt and apron stands at a table with two tall enamel stockpots and an open pan of chopped meat, a short-handled tool in his raised hand and printed notices tacked to the board wall behind him. The right print looks down the inside of a long brick pit: a bed of pale ash between low brick walls, iron bars laid across it, the far end lost in smoke.",
+  "date": "1944-08",
+  "primary": true,
+  "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+  "width": 2048,
+  "height": 1843
+ },
  "tag_facts": [
   {
    "key": "closed",

@@ -6,3 +6,5 @@ Allow: /
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml
+# Corpus for language models: https://nanobotco.github.io/carolina-barbecue/llms.txt and https://nanobotco.github.io/carolina-barbecue/llms-full.txt
+# Machine terms: https://nanobotco.github.io/carolina-barbecue/ai.txt

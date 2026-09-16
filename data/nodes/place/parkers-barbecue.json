@@ -92,7 +92,10 @@
   "s:web-ourstate-parkers",
   "s:web-parkersbbqwilson",
   "s:sfa-parkers-barbecue",
-  "s:osm"
+  "s:osm",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-massengill"
  ],
  "provenance": {
   "default": {
@@ -118,12 +121,35 @@
     "tier": "cited",
     "source": "s:web-ourstate-parkers",
     "note": "Gas cookers since the 1950s, so no wood-cooked tag; the whole-hog tag stands on its own."
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-massengill",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
  "confidence": "high",
  "needs_verification": false,
- "images": [],
+ "images": [
+  {
+   "file": "parkers-barbecue/parkers-barbecue-postcard-us-301-wilson.jpg",
+   "source": "flickr",
+   "title": "Parkers Barbecue",
+   "url": "https://live.staticflickr.com/585/21952129989_462edfbed1_o.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/21952129989/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "State Archives of North Carolina",
+   "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+   "alt": "A colour-tinted postcard of a long low white building with a small columned porch at the centre, seen across a bare sand lot with eight or nine cars of the 1940s parked nose-in. A steel post at the left carries a sign in two panels: PARKERS BAR-B-Q over STEAKS CHICKEN, with a smaller board beneath reading OYSTER BAR. Pines and open field run along behind the roofline.",
+   "date": "",
+   "primary": true,
+   "sha256": "99447f5ae15f34994483a1ccc8a8ce7fa5e162f294d2057b14f6f9fc21428eb9",
+   "width": 1670,
+   "height": 1079
+  }
+ ],
  "updated": "2026-09-16",
  "tags": [
   {

@@ -4,7 +4,10 @@
  "type": "term",
  "names": {
   "name": "hog",
-  "aliases": ["whole hog", "hogg"],
+  "aliases": [
+   "whole hog",
+   "hogg"
+  ],
   "said": "A Carolina pit cooks a hog, not a pig — 'we cook whole hog', 'a hundred-and-twenty-pound hog' — and gives its size in dressed weight, the carcass with the innards out."
  },
  "etymology": {
@@ -14,40 +17,162 @@
   "tier": "cited",
   "source": "s:etymonline"
  },
- "region": ["carolinas", "us-south"],
- "facets": {"letter": "H", "part_of_speech": "noun"},
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "letter": "H",
+  "part_of_speech": "noun"
+ },
  "text": {
   "what": "In Carolina barbecue speech the animal is a hog. Whole hog is the eastern North Carolina and Pee Dee style; a hog killing is the winter work of the farm; a hog's size is its dressed weight. American dictionaries make a hog a domesticated swine of 120 pounds or more raised for market and a pig the younger, smaller animal; the pit's small hogs of 80 to 120 pounds dressed sit at the bottom of that range. The pig pickin' hog is a barrow, a castrated male, or a gilt, a young female — boars and sows are too big.",
   "story": "Hog is older than pig for the grown animal. Old English hogg meant a swine of a certain age — a castrated male, or one reared for slaughter at about a year; pig, until the fourteenth century, meant a young one. Dressed weight is the pit's unit: the weight after the organs, head and inedible parts are removed, about 72 per cent of live weight for a pig by Wikipedia's example. A pig pickin' hog is 80 to 120 pounds dressed; elsewhere hogs run to 300 pounds, but in the Carolinas small hogs cooked hot so the skin crisps and can be chopped in. Hog killing was the farm's winter work: NCpedia describes it beginning on the first frigid day of autumn or winter, neighbours gathering before dawn, as many as 100 hogs penned and fattened on gleaned peas, potatoes and corn, and the weeks after full of spare ribs, liver and sausage, the hams a month or two later. *Tradition holds —* the barbecue was what a hog killing or a church homecoming did with fresh meat before curing. 'Go the whole hog', American English of 1828, is the same animal as a figure of speech."
  },
  "kin": [
-  {"to": "whole-hog", "as": "the cut that is the whole animal; the phrase and the style share the word.", "rel": "part"},
-  {"to": "hog-killing", "as": "the winter farm work the word names: neighbours before dawn, scalding water, and the first frigid day.", "rel": "event"},
-  {"to": "eastern-nc", "as": "the style whose answer to what barbecue is, is the hog, entire.", "rel": "term"},
-  {"to": "sc-pee-dee", "as": "the South Carolina region where whole hog over hardwood coals is the common style.", "rel": "term"},
-  {"to": "pig-pickin", "as": "the gathering named for pulling meat off the hog by hand; its hog is a barrow or gilt of 80 to 120 pounds dressed.", "rel": "event"},
-  {"to": "pork-skins", "as": "the skin of the hog, fried; in the Pee Dee the hog is sometimes skinned before cooking and the skin fried.", "rel": "part"},
-  {"to": "hash-and-rice", "as": "what the head and liver of the hog become in South Carolina.", "rel": "part"},
-  {"to": "pork-shoulder", "as": "the cut the Piedmont takes instead of the hog.", "rel": "contrast"},
-  {"to": "barbecue", "as": "the word that in the east means the hog after cooking.", "rel": "term"}
+  {
+   "to": "whole-hog",
+   "as": "the cut that is the whole animal; the phrase and the style share the word.",
+   "rel": "part"
+  },
+  {
+   "to": "hog-killing",
+   "as": "the winter farm work the word names: neighbours before dawn, scalding water, and the first frigid day.",
+   "rel": "event"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style whose answer to what barbecue is, is the hog, entire.",
+   "rel": "term"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the South Carolina region where whole hog over hardwood coals is the common style.",
+   "rel": "term"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the gathering named for pulling meat off the hog by hand; its hog is a barrow or gilt of 80 to 120 pounds dressed.",
+   "rel": "event"
+  },
+  {
+   "to": "pork-skins",
+   "as": "the skin of the hog, fried; in the Pee Dee the hog is sometimes skinned before cooking and the skin fried.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "what the head and liver of the hog become in South Carolina.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut the Piedmont takes instead of the hog.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word that in the east means the hog after cooking.",
+   "rel": "term"
+  }
  ],
  "confusable_with": [
-  {"id": "whole-hog", "tell": "'Hog' is the animal; 'whole hog' is the cut and the style. The pig-or-hog tell is size: a hog is the market-weight animal, a pig the young one; the pit's hog is small, 80 to 120 pounds dressed."}
+  {
+   "id": "whole-hog",
+   "tell": "'Hog' is the animal; 'whole hog' is the cut and the style. The pig-or-hog tell is size: a hog is the market-weight animal, a pig the young one; the pit's hog is small, 80 to 120 pounds dressed."
+  }
  ],
  "links": [
-  {"label": "hog — Online Etymology Dictionary", "url": "https://www.etymonline.com/word/hog"},
-  {"label": "Dressed weight — Wikipedia", "url": "https://en.wikipedia.org/wiki/Dressed_weight"},
-  {"label": "NCpedia — Hog Killing", "url": "https://www.ncpedia.org/hog-killing"}
+  {
+   "label": "hog — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/hog"
+  },
+  {
+   "label": "Dressed weight — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dressed_weight"
+  },
+  {
+   "label": "NCpedia — Hog Killing",
+   "url": "https://www.ncpedia.org/hog-killing"
+  }
  ],
- "sources": ["s:etymonline", "s:web-dictionary-com-hog", "s:wiktionary-hog", "s:wp-dressed-weight", "s:wp-pig-pickin", "s:wp-whole-hog-barbecue", "s:web-ncpedia-hog-killing", "s:wp-barbecue-in-south-carolina", "s:wp-hash-stew"],
+ "sources": [
+  "s:etymonline",
+  "s:web-dictionary-com-hog",
+  "s:wiktionary-hog",
+  "s:wp-dressed-weight",
+  "s:wp-pig-pickin",
+  "s:wp-whole-hog-barbecue",
+  "s:web-ncpedia-hog-killing",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-hash-stew",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-brimley"
+ ],
  "provenance": {
-  "default": {"tier": "cited", "source": "s:etymonline"},
+  "default": {
+   "tier": "cited",
+   "source": "s:etymonline"
+  },
   "fields": {
-   "text.story": {"tier": "cited", "source": "s:etymonline", "note": "dressed weight from its Wikipedia article; hog sizes from the Pig pickin' and Whole hog barbecue articles; hog killing from NCpedia; one sentence marked tradition"},
-   "names.said": {"tier": "tradition", "note": "usage; the dressed-weight convention is in the Pig pickin' article"}
+   "text.story": {
+    "tier": "cited",
+    "source": "s:etymonline",
+    "note": "dressed weight from its Wikipedia article; hog sizes from the Pig pickin' and Whole hog barbecue articles; hog killing from NCpedia; one sentence marked tradition"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage; the dressed-weight convention is in the Pig pickin' article"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-brimley",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[1]": {
+    "tier": "harvested",
+    "source": "s:ncsa-brimley",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   }
   }
  },
- "images": [],
+ "images": [
+  {
+   "file": "hog/hog-scrub-pig-cape-hatteras.jpg",
+   "source": "flickr",
+   "title": "PhC42_Bx2_Agriculture_Hogs_F1",
+   "url": "https://live.staticflickr.com/65535/51960944380_9e82cdb529_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51960944380/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "H. H. Brimley; State Archives of North Carolina",
+   "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+   "alt": "A dark, rough-coated hog stands alone on flat sandy ground with its snout down, rooting. The ground is bare but for tufts of coarse grass. On the horizon behind it are a shingled barn with a lean-to, a line of low scrub, and a beached hull lying on its side.",
+   "date": "c. 1900",
+   "primary": true,
+   "sha256": "3e9b7438b798c22214a9250e8cbbeb8db750c13ae97a4895037485262d7c353d",
+   "width": 2048,
+   "height": 1612
+  },
+  {
+   "file": "hog/hog-razorback-hog-cape-hatteras.jpg",
+   "source": "flickr",
+   "title": "PhC42_Bx2_Agriculture_Hogs_F4",
+   "url": "https://live.staticflickr.com/65535/51959374242_11f3dcdb86_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51959374242/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "H. H. Brimley; State Archives of North Carolina",
+   "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+   "alt": "A lean black hog with a ridge of bristles standing up along its back walks across open white sand, snout lowered, its own tracks running away behind it. The beach and the sky beyond are blank and almost the same tone, with a faint line of surf at the right.",
+   "date": "c. 1905",
+   "primary": false,
+   "sha256": "1532f8ec8c6d5ed090299830f31342e2741c0e54c3b18b05a550dd3fdae83695",
+   "width": 2048,
+   "height": 1259
+  }
+ ],
  "confidence": "high",
  "needs_verification": false,
  "updated": "2026-09-15"

@@ -1,0 +1,23 @@
+# Carolina Barbecue — https://nanobotco.github.io/carolina-barbecue/
+# Everything here is meant to be read by machines as well as people.
+
+User-agent: *
+Allow: /
+
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Corpus: https://nanobotco.github.io/carolina-barbecue/llms.txt
+Full-text: https://nanobotco.github.io/carolina-barbecue/llms-full.txt
+Records: https://nanobotco.github.io/carolina-barbecue/api/nodes.json
+Places: https://nanobotco.github.io/carolina-barbecue/api/places.json
+Kin edges: https://nanobotco.github.io/carolina-barbecue/api/kin.json
+Scope and gaps: https://nanobotco.github.io/carolina-barbecue/api/coverage.json
+Schema: https://nanobotco.github.io/carolina-barbecue/schema/node.schema.json
+Tabular: https://nanobotco.github.io/carolina-barbecue/nodes.csv · https://nanobotco.github.io/carolina-barbecue/nodes.jsonl
+
+Licence: records CC BY 4.0. Place points OpenStreetMap, ODbL 1.0 (share-alike).
+Pictures carry their own licence, stated per file in the record and beside the image.
+Attribution: Carolina Barbecue, https://nanobotco.github.io/carolina-barbecue/
+
+Every field carries a provenance tier: cited, harvested, tradition, inference, field.
+A tag on a place names its evidence. A missing tag means unread, not absent.

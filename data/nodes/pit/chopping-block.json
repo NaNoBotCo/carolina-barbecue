@@ -119,7 +119,10 @@
   "s:web-leisuregrouptravel-lexington",
   "s:web-lexbbq-menu",
   "s:web-barbecue-center-menu",
-  "s:ncpedia-barbecue"
+  "s:ncpedia-barbecue",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -139,6 +142,11 @@
    "names.said": {
     "tier": "cited",
     "source": "s:web-lexbbq-menu"
+   },
+   "images[2]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -172,6 +180,23 @@
    "date": "2013-03-19 11:56:13",
    "primary": false,
    "sha256": "ba29b232b4b4dff37fe4b68b09fafcfdf2f38e8adce67f4ab36d3af6db545069"
+  },
+  {
+   "file": "chopping-block/chopping-block-chopping-barbecue-braswell-1944.jpg",
+   "source": "flickr",
+   "title": "ConDev4650_5_Overview",
+   "url": "https://live.staticflickr.com/65535/47848615702_900fb5b1db_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848615702/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "John Hemmer; State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+   "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. In the top right print two pairs of hands work over a wooden trough: one brings a cleaver down through a pile of cooked pork, another rakes the chopped meat towards a wooden bushel tub already heaped full. The other prints show a plank table running away down a slope set with dozens of loaded plates, a man stirring a black iron cauldron over a wood fire under a shed roof, and a man in overalls basting meat laid on poles over an open trench.",
+   "date": "1944-09",
+   "primary": false,
+   "sha256": "9d0e415dc29d56a5f4fe42cad08046cd8d2b92aecd35a84a48be38353cd6ac55",
+   "width": 2048,
+   "height": 1831
   }
  ],
  "confidence": "high",

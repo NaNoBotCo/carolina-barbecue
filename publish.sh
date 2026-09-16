@@ -11,6 +11,7 @@ if [ -n "$DOMAIN" ]; then SITE_URL="https://$DOMAIN"; else SITE_URL="https://nan
 
 python3 tools/validate.py
 SITE_URL="$SITE_URL" python3 tools/build.py
+python3 tools/cards.py                     # draws only the cards that are missing
 SITE_URL="$SITE_URL" python3 tools/site.py
 
 rm -rf docs

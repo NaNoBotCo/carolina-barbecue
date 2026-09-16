@@ -122,7 +122,10 @@
   "s:web-npr-scott-pit-burned",
   "s:web-truecue-wood",
   "s:web-ourstate-historic-barbecue-trail",
-  "s:web-barbecuebible-campaign"
+  "s:web-barbecuebible-campaign",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-barden"
  ],
  "provenance": {
   "default": {
@@ -143,10 +146,33 @@
     "tier": "cited",
     "source": "s:web-ourstate-historic-barbecue-trail",
     "note": "Lewis Barbecue's method is hedged inline; not verified on this disk"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-barden",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
- "images": [],
+ "images": [
+  {
+   "file": "direct-heat/direct-heat-cooking-over-an-open-trench.jpg",
+   "source": "flickr",
+   "title": "N_53_17_314",
+   "url": "https://live.staticflickr.com/2824/32810373053_6ee0b9a8b5_o.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/32810373053/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "Albert Barden; State Archives of North Carolina",
+   "credit": "Albert Barden Collection, State Archives of North Carolina",
+   "alt": "A man in a straw hat, white shirt and braces bends over a shallow trench dug in bare ground. Green poles are laid across the trench as a grate and meat lies on them, smoke rising through. He holds a small tin pail low in his right hand and reaches into the meat with his left. A barefoot boy in a light suit stands at one side of the clearing and a girl in a checked dress and wide hat at the other, both watching. Felled logs and woods behind.",
+   "date": "",
+   "primary": true,
+   "sha256": "9d0211a8c225c5a023e9b1341f666f175e2b45885b49c9aa0719ed1299f7b1ed",
+   "width": 1100,
+   "height": 815
+  }
+ ],
  "x_commons_files": [],
  "confidence": "medium",
  "needs_verification": true,
@@ -343,6 +369,34 @@
    "publisher": "BarbecueBible.com",
    "url": "https://barbecuebible.com/2018/01/23/campaign-real-barbecue/",
    "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:flickr-commons",
+   "kind": "dataset",
+   "title": "Flickr Commons",
+   "publisher": "Flickr, with participating libraries, archives and museums",
+   "url": "https://www.flickr.com/commons/usage/",
+   "accessed": "2026-09-16",
+   "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+  },
+  {
+   "id": "s:flickr-ncsa",
+   "kind": "dataset",
+   "title": "State Archives of North Carolina on Flickr Commons",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+  },
+  {
+   "id": "s:ncsa-barden",
+   "kind": "dataset",
+   "title": "Albert Barden Collection, State Archives of North Carolina",
+   "author": "Albert Barden",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "A Raleigh commercial photographer's negatives, roughly 1900 to the 1950s: shopfronts, filling stations, company dinners and one much-reproduced open-pit barbecue. Catalogue number N.53.17.314 appears in the stream three times — twice under 'No known copyright restrictions' and once, in an older upload, under 'All rights reserved' — and the two released scans are mirror images of each other, so the negative's orientation is not settled by this source."
   }
  ],
  "tiers": {
@@ -365,7 +419,23 @@
    "note": "Lewis Barbecue's method is hedged inline; not verified on this disk"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "direct-heat/direct-heat-cooking-over-an-open-trench.jpg",
+  "source": "flickr",
+  "title": "N_53_17_314",
+  "url": "https://live.staticflickr.com/2824/32810373053_6ee0b9a8b5_o.jpg",
+  "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/32810373053/",
+  "license": "No known copyright restrictions",
+  "license_url": "https://www.flickr.com/commons/usage/",
+  "author": "Albert Barden; State Archives of North Carolina",
+  "credit": "Albert Barden Collection, State Archives of North Carolina",
+  "alt": "A man in a straw hat, white shirt and braces bends over a shallow trench dug in bare ground. Green poles are laid across the trench as a grate and meat lies on them, smoke rising through. He holds a small tin pail low in his right hand and reaches into the meat with his left. A barefoot boy in a light suit stands at one side of the clearing and a girl in a checked dress and wide hat at the other, both watching. Felled logs and woods behind.",
+  "date": "",
+  "primary": true,
+  "sha256": "9d0211a8c225c5a023e9b1341f666f175e2b45885b49c9aa0719ed1299f7b1ed",
+  "width": 1100,
+  "height": 815
+ },
  "tag_facts": [],
  "recognition_facts": [],
  "acclaim": 0,

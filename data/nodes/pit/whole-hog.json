@@ -154,7 +154,10 @@
   "s:web-ourstate-historic-barbecue-trail",
   "s:wp-rodney-scotts-whole-hog-bbq",
   "s:moss-barbecue-history",
-  "s:fertel-one-true-barbecue"
+  "s:fertel-one-true-barbecue",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -171,6 +174,11 @@
     "tier": "cited",
     "source": "s:web-ourstate-historic-barbecue-trail",
     "note": "restaurant list from the Historic Barbecue Trail and the SFA North and South Carolina projects; Rodney Scott's from its article"
+   },
+   "images[2]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -204,6 +212,23 @@
    "date": "2007-09-04 16:38:02",
    "primary": false,
    "sha256": "fc61fddee0dbd583e9a33d14548262c5b5ab3ae79a572c046e222d87d6c9ac29"
+  },
+  {
+   "file": "whole-hog/whole-hog-hogs-on-the-pit-braswell-1944.jpg",
+   "source": "flickr",
+   "title": "ConDev4659_Overview",
+   "url": "https://live.staticflickr.com/65535/47900676451_7718b5f063_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47900676451/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "John Hemmer; State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+   "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. Two of them show a man in a cap and overalls standing over a long open trench beside a cinder-block building: split hogs lie flat on close-laid poles across the trench, and he leans out over them with a pan in one hand and a long-handled mop in the other. A third print shows two men at a wooden trough, one bringing a cleaver down on a heap of cooked pork while the other steadies it, with a bushel tub of chopped meat below. The fourth shows mule wagons full of people coming up a sand road between pines.",
+   "date": "1944-09",
+   "primary": false,
+   "sha256": "2b9a09cf4aad1b6fed33bf69c7150208fea1fec4eecbd5c1597daea5b8180993",
+   "width": 2048,
+   "height": 1825
   }
  ],
  "confidence": "high",

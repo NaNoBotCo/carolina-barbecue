@@ -4,10 +4,20 @@
  "type": "pit",
  "names": {
   "name": "direct heat",
-  "aliases": ["coals under the meat", "open-pit", "pit-cooked", "cooking on coals"]
+  "aliases": [
+   "coals under the meat",
+   "open-pit",
+   "pit-cooked",
+   "cooking on coals"
+  ]
  },
- "region": ["carolinas", "us-south"],
- "facets": {"kind": "method"},
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "kind": "method"
+ },
  "text": {
   "what": "The Carolina way of putting fire to meat: a bed of hardwood coals directly beneath the hog or the shoulders, with no flame and no separate firebox. The coals are made elsewhere — in a burn barrel or a fireplace — and shoveled in, so the meat sits over glowing charcoal and its own dripping fat rather than in a stream of smoke. The contrast is the offset smoker of Central Texas: a cylinder with a smaller firebox attached at one end, whose burning post-oak fire sends heat and smoke sideways through the chamber past the meat — indirect heat. The whole-hog article, the Mallard Creek church and the Barbecue Center all describe the coals going under the meat.",
   "story": "The word carries the method. The Wikipedia article on barbecue draws its line between the indirect barbecues of the United States — meat roasted or smoked over wood or charcoal at low temperature for hours — and the direct grilling of most of the world, done over hot coals for minutes; in a typical American home barbecue the coals are dispersed to the sides. The Carolina pit sits across that line: the coals are directly under the meat, as on a grill, but far enough below and slow enough that the cook is barbecuing, not grilling. True 'Cue quotes a federal meat-labeling rule that defines barbecued meat as 'cooked by the direct action of dry heat resulting from the burning of hard wood'. Texas divides the same way: Central Texas cooks with indirect heat from a pecan, post-oak or mesquite fire, and West Texas over direct mesquite heat 'in a method very similar to grilling'. *Inference —* in geometry the Carolina pit is closer to the West Texas cowboy fire than to the Austin smoker, and the reason both Carolina styles burn their wood to coals first is that flame under a fat hog is a fire. Ed Mitchell in Wilson cooks 'hot and fast' with a bank of coals surrounding the hog, starting at 500 degrees and letting it fall to 250; Rodney Scott shovels coals under a hog lying belly-down for eight to twelve hours; the Barbecue Center in Lexington 'fires the pits' by distributing coals evenly beneath the shoulders.",
@@ -15,38 +25,154 @@
   "today": "Every pit on the North Carolina Historic Barbecue Trail and every True 'Cue certificate cooks this way by definition — on grates over pits with wood or charcoal. *Tradition holds —* the offset smoker has arrived too: Lewis Barbecue in Charleston cooks Central Texas brisket in offset smokers, and is described here the same way as a wood pit."
  },
  "kin": [
-  {"to": "burn-barrel", "as": "makes the coals that go under the meat.", "rel": "part"},
-  {"to": "hickory-and-oak", "as": "the wood burned down for the bed.", "rel": "part"},
-  {"to": "block-pit", "as": "the open pit built for it.", "rel": "kin"},
-  {"to": "brick-pit", "as": "the closed pit built for it: coals on the floor, rack above, chimney over.", "rel": "kin"},
-  {"to": "whole-hog", "as": "the cut cooked over a bed of coals for a night.", "rel": "kin"},
-  {"to": "pork-shoulder", "as": "the Piedmont's cut, over the same coals in a brick pit.", "rel": "kin"},
-  {"to": "pig-cooker", "as": "on charcoal it works the same way; on gas the burner stands in for the coals.", "rel": "kin"},
-  {"to": "gas-and-electric-cookers", "as": "heat from a burner or an element, smoke from a chip box: neither coals nor firebox.", "rel": "contrast"},
-  {"to": "ed-mitchell", "as": "cooks hot and fast with a bank of coals around the hog, 500 degrees falling to 250.", "rel": "person"},
-  {"to": "rodney-scott", "as": "shovels burn-barrel coals under a belly-down hog for eight to twelve hours.", "rel": "person"},
-  {"to": "campaign-for-real-barbecue", "as": "quotes the federal definition — direct dry heat from burning hardwood — on its wood page.", "rel": "kin"},
-  {"to": "pit", "as": "the word for the hole, then the box, that holds the coals under the meat.", "rel": "term"},
-  {"to": "lewis-barbecue", "as": "the Charleston restaurant that, tradition holds, cooks Texas brisket the other way, in offset smokers.", "rel": "contrast"}
+  {
+   "to": "burn-barrel",
+   "as": "makes the coals that go under the meat.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the wood burned down for the bed.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "as": "the open pit built for it.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the closed pit built for it: coals on the floor, rack above, chimney over.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut cooked over a bed of coals for a night.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the Piedmont's cut, over the same coals in a brick pit.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-cooker",
+   "as": "on charcoal it works the same way; on gas the burner stands in for the coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "heat from a burner or an element, smoke from a chip box: neither coals nor firebox.",
+   "rel": "contrast"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "cooks hot and fast with a bank of coals around the hog, 500 degrees falling to 250.",
+   "rel": "person"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "shovels burn-barrel coals under a belly-down hog for eight to twelve hours.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "quotes the federal definition — direct dry heat from burning hardwood — on its wood page.",
+   "rel": "kin"
+  },
+  {
+   "to": "pit",
+   "as": "the word for the hole, then the box, that holds the coals under the meat.",
+   "rel": "term"
+  },
+  {
+   "to": "lewis-barbecue",
+   "as": "the Charleston restaurant that, tradition holds, cooks Texas brisket the other way, in offset smokers.",
+   "rel": "contrast"
+  }
  ],
  "confusable_with": [
-  {"id": "hickory-and-oak", "tell": "Direct heat is where the fuel sits; hickory and oak are the fuel. A Texas firebox burns the same woods beside the meat instead of beneath it."}
+  {
+   "id": "hickory-and-oak",
+   "tell": "Direct heat is where the fuel sits; hickory and oak are the fuel. A Texas firebox burns the same woods beside the meat instead of beneath it."
+  }
  ],
  "links": [
-  {"label": "Barbecue — Wikipedia (direct and indirect)", "url": "https://en.wikipedia.org/wiki/Barbecue"},
-  {"label": "Smoker (cooking) — Wikipedia (offset smoker)", "url": "https://en.wikipedia.org/wiki/Smoker_(cooking)"},
-  {"label": "Barbecue in Texas — Wikipedia", "url": "https://en.wikipedia.org/wiki/Barbecue_in_Texas"}
+  {
+   "label": "Barbecue — Wikipedia (direct and indirect)",
+   "url": "https://en.wikipedia.org/wiki/Barbecue"
+  },
+  {
+   "label": "Smoker (cooking) — Wikipedia (offset smoker)",
+   "url": "https://en.wikipedia.org/wiki/Smoker_(cooking)"
+  },
+  {
+   "label": "Barbecue in Texas — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_Texas"
+  }
  ],
- "sources": ["s:wp-barbecue", "s:wp-smoker-cooking", "s:wp-barbecue-in-texas", "s:wp-whole-hog-barbecue", "s:web-mallard-creek-history", "s:web-leisuregrouptravel-lexington", "s:wp-ed-mitchell-pitmaster", "s:web-npr-scott-pit-burned", "s:web-truecue-wood", "s:web-ourstate-historic-barbecue-trail", "s:web-barbecuebible-campaign"],
+ "sources": [
+  "s:wp-barbecue",
+  "s:wp-smoker-cooking",
+  "s:wp-barbecue-in-texas",
+  "s:wp-whole-hog-barbecue",
+  "s:web-mallard-creek-history",
+  "s:web-leisuregrouptravel-lexington",
+  "s:wp-ed-mitchell-pitmaster",
+  "s:web-npr-scott-pit-burned",
+  "s:web-truecue-wood",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:web-barbecuebible-campaign",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-barden"
+ ],
  "provenance": {
-  "default": {"tier": "cited", "source": "s:wp-whole-hog-barbecue"},
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
   "fields": {
-   "text.story": {"tier": "cited", "source": "s:wp-barbecue", "note": "the geometry comparison is this project's inference, marked inline"},
-   "text.how": {"tier": "tradition", "note": "the coal bed as pitmasters describe it; the fat-vapor flavor is inference, marked inline"},
-   "text.today": {"tier": "cited", "source": "s:web-ourstate-historic-barbecue-trail", "note": "Lewis Barbecue's method is hedged inline; not verified on this disk"}
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-barbecue",
+    "note": "the geometry comparison is this project's inference, marked inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the coal bed as pitmasters describe it; the fat-vapor flavor is inference, marked inline"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-historic-barbecue-trail",
+    "note": "Lewis Barbecue's method is hedged inline; not verified on this disk"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-barden",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   }
   }
  },
- "images": [],
+ "images": [
+  {
+   "file": "direct-heat/direct-heat-cooking-over-an-open-trench.jpg",
+   "source": "flickr",
+   "title": "N_53_17_314",
+   "url": "https://live.staticflickr.com/2824/32810373053_6ee0b9a8b5_o.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/32810373053/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "Albert Barden; State Archives of North Carolina",
+   "credit": "Albert Barden Collection, State Archives of North Carolina",
+   "alt": "A man in a straw hat, white shirt and braces bends over a shallow trench dug in bare ground. Green poles are laid across the trench as a grate and meat lies on them, smoke rising through. He holds a small tin pail low in his right hand and reaches into the meat with his left. A barefoot boy in a light suit stands at one side of the clearing and a girl in a checked dress and wide hat at the other, both watching. Felled logs and woods behind.",
+   "date": "",
+   "primary": true,
+   "sha256": "9d0211a8c225c5a023e9b1341f666f175e2b45885b49c9aa0719ed1299f7b1ed",
+   "width": 1100,
+   "height": 815
+  }
+ ],
  "x_commons_files": [],
  "confidence": "medium",
  "needs_verification": true,

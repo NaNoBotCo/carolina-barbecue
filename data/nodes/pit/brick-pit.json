@@ -126,7 +126,10 @@
   "s:wp-lexington-north-carolina",
   "s:wp-lexington-barbecue",
   "s:web-ourstate-historic-barbecue-trail",
-  "s:reed-holy-smoke"
+  "s:reed-holy-smoke",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -143,6 +146,11 @@
     "tier": "cited",
     "source": "s:web-lexbbq",
     "note": "the site names owners Rick and Wayne Monk and a 1962 founding by Rick's father; the founder's identity as Wayne Monk senior is the cast list's"
+   },
+   "images[1]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -161,6 +169,23 @@
    "date": "2007-09-04 16:42:53",
    "primary": true,
    "sha256": "b8798499e837f236baa48f870f35297934fef63ccc97b43498c7575f39131e4d"
+  },
+  {
+   "file": "brick-pit/brick-pit-barbecue-pit-goldsboro-1944.jpg",
+   "source": "flickr",
+   "title": "ConDev4504_Overview",
+   "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "Bill Sharpe; State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+   "alt": "The right-hand print on a 1944 state News Bureau sheet looks straight down the inside of a masonry barbecue pit at Goldsboro: a low wall of brick on each side, a floor of pale ash and charred wood between them, iron bars laid across the opening, and the far end of the chamber dark with smoke. The sheet's handwritten caption reads Barbeque Pit, Goldsboro, Adam Scotts Place, Aug-44.",
+   "date": "1944-08",
+   "primary": false,
+   "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+   "width": 2048,
+   "height": 1843
   }
  ],
  "confidence": "high",

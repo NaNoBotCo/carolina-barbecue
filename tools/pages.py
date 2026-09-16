@@ -225,7 +225,8 @@ document.getElementById("town").addEventListener("keydown",function(e){{if(e.key
     return page(f"Find the Q — Carolina Barbecue", body, 1,
                 "Barbecue near you in North and South Carolina, and the pits worth a drive: wood-cooked, whole hog, Black-owned, woman-owned, LGBTQ+ welcoming — each tag with its evidence.",
                 [{"@context": "https://schema.org", "@type": "WebPage", "name": "Find the Q", "url": f"{site_url}/near/"}],
-                f"{site_url}/near/", extra_head=f"<style>{NEAR_CSS}</style>")
+                f"{site_url}/near/", extra_head=f"<style>{NEAR_CSS}</style>", card="near",
+                og_alt="Find the Q: every barbecue pit in North and South Carolina, sorted from where you are")
 
 
 # ---------------------------------------------------------------- sauce charts
@@ -352,7 +353,7 @@ def sauce_page(page, sauces: dict, recs: list, states_geo: dict, project, box, s
         body.append('<p class="mute">The label survey has not been built yet — run the sauce harvest. The sauce pages themselves are up: '
                     + " · ".join(f'<a href="../sauce/{E(r["id"])}/index.html">{E(r["names"]["name"])}</a>' for r in sauce_recs) + "</p>")
         return page("What is in the sauce — Carolina Barbecue", "".join(body), 1, "The sauce spectrum.", None, f"{site_url}/sauce/",
-                    extra_head=f"<style>{CHART_CSS}</style>")
+                    extra_head=f"<style>{CHART_CSS}</style>", card="sauce")
 
     withsugar = [s for s in rows if s.get("sugar_g_per_tbsp") is not None]
     withing = [s for s in rows if s.get("ingredients")]
@@ -437,7 +438,8 @@ def sauce_page(page, sauces: dict, recs: list, states_geo: dict, project, box, s
                 "Carolina barbecue sauce measured from the label: sugar per tablespoon, what comes first on the ingredient list, and where the makers are.",
                 [{"@context": "https://schema.org", "@type": "Dataset", "name": "Carolina barbecue sauce labels", "url": f"{site_url}/sauce/",
                   "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{site_url}/api/sauces.json"}]}],
-                f"{site_url}/sauce/", extra_head=f"<style>{CHART_CSS}</style>")
+                f"{site_url}/sauce/", extra_head=f"<style>{CHART_CSS}</style>", card="sauce",
+                og_alt="Sugar, tomato, vinegar and mustard measured off 68 Carolina barbecue sauce labels")
 
 
 # ---------------------------------------------------------------- the quiz
@@ -498,7 +500,8 @@ document.getElementById("again").addEventListener("click",function(){{
 }})();
 </script>
 """
-    return page(f'{quiz["title"]} — Carolina Barbecue', body, 1, quiz["lede"], None, f"{site_url}/quiz/")
+    return page(f'{quiz["title"]} — Carolina Barbecue', body, 1, quiz["lede"], None, f"{site_url}/quiz/", card="quiz",
+                og_alt="Which side are you on? A six-question Carolina barbecue quiz")
 
 
 # ---------------------------------------------------------------- the pig
@@ -594,4 +597,5 @@ def pig_page(page, by_id: dict, site_url: str) -> str:
                 'the lines are where the styles differ, not where a knife goes. For the actual seams, a pork cutting chart from a state extension service is the thing to read.</p>')
     return page("Which part of the pig — Carolina Barbecue", "".join(body), 1,
                 "A diagram of the hog with what each Carolina barbecue style cooks: whole hog in the east and the Pee Dee, the shoulder in Lexington, hams and shoulders in the Midlands.",
-                None, f"{site_url}/pig/", extra_head=f"<style>{CHART_CSS}</style>")
+                None, f"{site_url}/pig/", extra_head=f"<style>{CHART_CSS}</style>", card="pig",
+                og_alt="A hog in side view with the cuts each Carolina barbecue style cooks")

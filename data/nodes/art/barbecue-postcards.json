@@ -81,7 +81,10 @@
  ],
  "sources": [
   "s:commons-bpl-tichnor",
-  "s:commons"
+  "s:commons",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-massengill"
  ],
  "provenance": {
   "default": {
@@ -98,6 +101,16 @@
    "sections[2].text": {
     "tier": "tradition",
     "note": "the pairing of barbecue and lodging on U.S. 301 and U.S. 1 is hedged: it is what these cards show, not something counted for this record"
+   },
+   "images[6]": {
+    "tier": "harvested",
+    "source": "s:ncsa-massengill",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[7]": {
+    "tier": "harvested",
+    "source": "s:ncsa-massengill",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -191,6 +204,40 @@
    "date": "2011-02-11 10:44",
    "primary": false,
    "sha256": "87691de095430053348cabe0227b1153c4124bc48ad7a07472546e9692f556a9"
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-barbecue-lodge-raleigh-postcard.jpg",
+   "source": "flickr",
+   "title": "Barbecue Lodge, Raleigh",
+   "url": "https://live.staticflickr.com/772/21951194018_c82b116b05_o.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/21951194018/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "State Archives of North Carolina",
+   "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+   "alt": "A colour postcard divided into three panels. Across the top, a long flat-roofed brick and stucco restaurant with BARBECUE LODGE in raised letters over the entrance and cars and pickups of the late 1970s parked in front. Lower left, a smaller shingled building with a steep roof on a street corner. Lower right, a low white building whose sign reads BARBECUE LODGE TAKE OUT SERVICE, with trucks at the kerb and a petrol pump beside the door.",
+   "date": "",
+   "primary": false,
+   "sha256": "e059a9a2e24964954ba88769ac5b9df2c5ed26e1266c1ca09ad3af36d0d3677c",
+   "width": 1645,
+   "height": 1053
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-parkers-bar-b-q-wilson.jpg",
+   "source": "flickr",
+   "title": "Parkers Barbecue",
+   "url": "https://live.staticflickr.com/585/21952129989_462edfbed1_o.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/21952129989/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "State Archives of North Carolina",
+   "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+   "alt": "A colour-tinted linen postcard of a long low white restaurant with a columned centre porch, across a bare sand lot holding eight or nine parked cars of the 1940s. A steel post at the left carries PARKERS BAR-B-Q over STEAKS CHICKEN, and a smaller board below reads OYSTER BAR. The sky is tinted a flat blue and the lot a flat cream.",
+   "date": "",
+   "primary": false,
+   "sha256": "99447f5ae15f34994483a1ccc8a8ce7fa5e162f294d2057b14f6f9fc21428eb9",
+   "width": 1670,
+   "height": 1079
   }
  ],
  "confidence": "medium",

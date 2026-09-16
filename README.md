@@ -49,10 +49,25 @@ validator refuses them at the tradition and inference tiers.
 A place with no tag has not been read yet. That is a fact about this project, not about
 the place, and [the finder says so on its own page](https://nanobotco.github.io/carolina-barbecue/near/#gaps).
 
+## Sharing
+
+Every page carries its own 1200x630 card, drawn from the pictures in the corpus — the pit's
+own photograph where there is one, a picture from a page it points at where there is not,
+always credited and licensed. A place card shows the town, the tags it has earned and how
+many people have written it down; a sauce card shows where its sugar sits against a spoonful
+of sugar; a word card shows the root. `tools/cards.py` draws all 190 in about a minute.
+
+Every page also has a Pass it on row: copy the link, or hand it to Bluesky, Mastodon, X,
+Facebook, Reddit, WhatsApp, email, or the phone's own share sheet. No third-party script,
+no tracking pixel, nothing loaded from anywhere else.
+
 ## For machines
 
-`llms.txt`, `llms-full.txt`, JSON-LD on every page, a sitemap with the image extension,
-an Atom feed, CSV and JSONL dumps, and the whole corpus as JSON under `/api/`:
+`llms.txt`, `llms-full.txt`, `ai.txt`, `humans.txt`, a sitemap with the image extension, an
+Atom feed, OpenSearch, CSV and JSONL dumps, and JSON-LD on every page — `Restaurant` with
+coordinates for a pit, `Recipe` with its ingredients and its licence for all 142 recipes,
+`DefinedTerm` for the vocabulary, `ImageObject` with the licence for every picture, and a
+`BreadcrumbList` throughout. The whole corpus as JSON under `/api/`:
 [`nodes.json`](https://nanobotco.github.io/carolina-barbecue/api/nodes.json) ·
 [`places.json`](https://nanobotco.github.io/carolina-barbecue/api/places.json) ·
 [`kin.json`](https://nanobotco.github.io/carolina-barbecue/api/kin.json) ·

@@ -109,7 +109,10 @@
   "s:web-clydecoopersbbq-story",
   "s:sfa-clyde-coopers-barbecue",
   "s:web-visitraleigh-clyde-coopers",
-  "s:osm"
+  "s:osm",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-fcx"
  ],
  "provenance": {
   "default": {
@@ -138,12 +141,35 @@
    "address": {
     "tier": "harvested",
     "source": "s:osm"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-fcx",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
  "confidence": "high",
  "needs_verification": false,
- "images": [],
+ "images": [
+  {
+   "file": "clyde-coopers/clyde-coopers-east-davie-street-1963.jpg",
+   "source": "flickr",
+   "title": "PhC_23_1_2570_12",
+   "url": "https://live.staticflickr.com/4740/39519124674_27c9f2105c_b.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/39519124674/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "State Archives of North Carolina",
+   "credit": "FCX Photograph Collection, PhC.23, State Archives of North Carolina",
+   "alt": "A black-and-white photograph taken from across a downtown street. A two-storey brick building holds the corner; over its ground-floor windows a painted fascia reads COOPER'S, AIR CONDITIONED, and a second awning beside it reads BARBECUE, AIR CONDITIONED, with a hanging bracket sign between them repeating Cooper's Barbecue. Two women walk past the door carrying bags, a long sedan is parked at the kerb and a bus stands in the alley beyond. NO SIGNS is painted on a wall at the left edge.",
+   "date": "1963",
+   "primary": true,
+   "sha256": "35dd5702e6335a57dbeb7c17cada9be644cbc6477cf6b1d8ab31b788b68195b5",
+   "width": 988,
+   "height": 1000
+  }
+ ],
  "updated": "2026-09-16",
  "tags": [
   {
@@ -277,6 +303,33 @@
    "url": "https://www.openstreetmap.org/copyright",
    "license": "ODbL 1.0",
    "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:flickr-commons",
+   "kind": "dataset",
+   "title": "Flickr Commons",
+   "publisher": "Flickr, with participating libraries, archives and museums",
+   "url": "https://www.flickr.com/commons/usage/",
+   "accessed": "2026-09-16",
+   "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+  },
+  {
+   "id": "s:flickr-ncsa",
+   "kind": "dataset",
+   "title": "State Archives of North Carolina on Flickr Commons",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+  },
+  {
+   "id": "s:ncsa-fcx",
+   "kind": "dataset",
+   "title": "FCX Photograph Collection, PhC.23",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "Photographs of the Farmers Cooperative Exchange, including Raleigh street views. The Clyde Cooper's Barbecue frame is captioned 1963 by the archive; the cars in it read later than that, so the date is carried as the archive's and not as this project's."
   }
  ],
  "tiers": {
@@ -307,7 +360,23 @@
    "source": "s:osm"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "clyde-coopers/clyde-coopers-east-davie-street-1963.jpg",
+  "source": "flickr",
+  "title": "PhC_23_1_2570_12",
+  "url": "https://live.staticflickr.com/4740/39519124674_27c9f2105c_b.jpg",
+  "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/39519124674/",
+  "license": "No known copyright restrictions",
+  "license_url": "https://www.flickr.com/commons/usage/",
+  "author": "State Archives of North Carolina",
+  "credit": "FCX Photograph Collection, PhC.23, State Archives of North Carolina",
+  "alt": "A black-and-white photograph taken from across a downtown street. A two-storey brick building holds the corner; over its ground-floor windows a painted fascia reads COOPER'S, AIR CONDITIONED, and a second awning beside it reads BARBECUE, AIR CONDITIONED, with a hanging bracket sign between them repeating Cooper's Barbecue. Two women walk past the door carrying bags, a long sedan is parked at the kerb and a bus stands in the alley beyond. NO SIGNS is painted on a wall at the left edge.",
+  "date": "1963",
+  "primary": true,
+  "sha256": "35dd5702e6335a57dbeb7c17cada9be644cbc6477cf6b1d8ab31b788b68195b5",
+  "width": 988,
+  "height": 1000
+ },
  "tag_facts": [
   {
    "key": "woman-owned",

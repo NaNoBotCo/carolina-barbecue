@@ -105,7 +105,10 @@
   "s:wp-whole-hog-barbecue",
   "s:web-ncpedia-hog-killing",
   "s:wp-barbecue-in-south-carolina",
-  "s:wp-hash-stew"
+  "s:wp-hash-stew",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-brimley"
  ],
  "provenance": {
   "default": {
@@ -121,10 +124,55 @@
    "names.said": {
     "tier": "tradition",
     "note": "usage; the dressed-weight convention is in the Pig pickin' article"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-brimley",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[1]": {
+    "tier": "harvested",
+    "source": "s:ncsa-brimley",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
- "images": [],
+ "images": [
+  {
+   "file": "hog/hog-scrub-pig-cape-hatteras.jpg",
+   "source": "flickr",
+   "title": "PhC42_Bx2_Agriculture_Hogs_F1",
+   "url": "https://live.staticflickr.com/65535/51960944380_9e82cdb529_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51960944380/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "H. H. Brimley; State Archives of North Carolina",
+   "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+   "alt": "A dark, rough-coated hog stands alone on flat sandy ground with its snout down, rooting. The ground is bare but for tufts of coarse grass. On the horizon behind it are a shingled barn with a lean-to, a line of low scrub, and a beached hull lying on its side.",
+   "date": "c. 1900",
+   "primary": true,
+   "sha256": "3e9b7438b798c22214a9250e8cbbeb8db750c13ae97a4895037485262d7c353d",
+   "width": 2048,
+   "height": 1612
+  },
+  {
+   "file": "hog/hog-razorback-hog-cape-hatteras.jpg",
+   "source": "flickr",
+   "title": "PhC42_Bx2_Agriculture_Hogs_F4",
+   "url": "https://live.staticflickr.com/65535/51959374242_11f3dcdb86_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51959374242/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "H. H. Brimley; State Archives of North Carolina",
+   "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+   "alt": "A lean black hog with a ridge of bristles standing up along its back walks across open white sand, snout lowered, its own tracks running away behind it. The beach and the sky beyond are blank and almost the same tone, with a faint line of surf at the right.",
+   "date": "c. 1905",
+   "primary": false,
+   "sha256": "1532f8ec8c6d5ed090299830f31342e2741c0e54c3b18b05a550dd3fdae83695",
+   "width": 2048,
+   "height": 1259
+  }
+ ],
  "confidence": "high",
  "needs_verification": false,
  "updated": "2026-09-15",
@@ -277,6 +325,34 @@
    "url": "https://en.wikipedia.org/wiki/Hash_(stew)",
    "license": "CC BY-SA 4.0",
    "note": "revision 1334401453"
+  },
+  {
+   "id": "s:flickr-commons",
+   "kind": "dataset",
+   "title": "Flickr Commons",
+   "publisher": "Flickr, with participating libraries, archives and museums",
+   "url": "https://www.flickr.com/commons/usage/",
+   "accessed": "2026-09-16",
+   "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+  },
+  {
+   "id": "s:flickr-ncsa",
+   "kind": "dataset",
+   "title": "State Archives of North Carolina on Flickr Commons",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+  },
+  {
+   "id": "s:ncsa-brimley",
+   "kind": "dataset",
+   "title": "H. H. Brimley Collection, PhC.42",
+   "author": "H. H. Brimley",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "The photographs of Herbert Hutchinson Brimley, naturalist and first director of the North Carolina State Museum. The agriculture folders include free-ranging hogs on the Outer Banks around 1900 to 1905, captioned in the collection as scrub pigs and razorbacks."
   }
  ],
  "tiers": {
@@ -294,7 +370,23 @@
    "source": "s:etymonline"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "hog/hog-scrub-pig-cape-hatteras.jpg",
+  "source": "flickr",
+  "title": "PhC42_Bx2_Agriculture_Hogs_F1",
+  "url": "https://live.staticflickr.com/65535/51960944380_9e82cdb529_k.jpg",
+  "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51960944380/",
+  "license": "No known copyright restrictions",
+  "license_url": "https://www.flickr.com/commons/usage/",
+  "author": "H. H. Brimley; State Archives of North Carolina",
+  "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+  "alt": "A dark, rough-coated hog stands alone on flat sandy ground with its snout down, rooting. The ground is bare but for tufts of coarse grass. On the horizon behind it are a shingled barn with a lean-to, a line of low scrub, and a beached hull lying on its side.",
+  "date": "c. 1900",
+  "primary": true,
+  "sha256": "3e9b7438b798c22214a9250e8cbbeb8db750c13ae97a4895037485262d7c353d",
+  "width": 2048,
+  "height": 1612
+ },
  "tag_facts": [],
  "recognition_facts": [],
  "acclaim": 0,

@@ -119,7 +119,10 @@
   "s:web-leisuregrouptravel-lexington",
   "s:web-lexbbq-menu",
   "s:web-barbecue-center-menu",
-  "s:ncpedia-barbecue"
+  "s:ncpedia-barbecue",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -139,6 +142,11 @@
    "names.said": {
     "tier": "cited",
     "source": "s:web-lexbbq-menu"
+   },
+   "images[2]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -172,6 +180,23 @@
    "date": "2013-03-19 11:56:13",
    "primary": false,
    "sha256": "ba29b232b4b4dff37fe4b68b09fafcfdf2f38e8adce67f4ab36d3af6db545069"
+  },
+  {
+   "file": "chopping-block/chopping-block-chopping-barbecue-braswell-1944.jpg",
+   "source": "flickr",
+   "title": "ConDev4650_5_Overview",
+   "url": "https://live.staticflickr.com/65535/47848615702_900fb5b1db_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848615702/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "John Hemmer; State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+   "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. In the top right print two pairs of hands work over a wooden trough: one brings a cleaver down through a pile of cooked pork, another rakes the chopped meat towards a wooden bushel tub already heaped full. The other prints show a plank table running away down a slope set with dozens of loaded plates, a man stirring a black iron cauldron over a wood fire under a shed roof, and a man in overalls basting meat laid on poles over an open trench.",
+   "date": "1944-09",
+   "primary": false,
+   "sha256": "9d0e415dc29d56a5f4fe42cad08046cd8d2b92aecd35a84a48be38353cd6ac55",
+   "width": 2048,
+   "height": 1831
   }
  ],
  "confidence": "high",
@@ -348,6 +373,33 @@
    "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
    "url": "https://www.ncpedia.org/barbecue",
    "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:flickr-commons",
+   "kind": "dataset",
+   "title": "Flickr Commons",
+   "publisher": "Flickr, with participating libraries, archives and museums",
+   "url": "https://www.flickr.com/commons/usage/",
+   "accessed": "2026-09-16",
+   "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+  },
+  {
+   "id": "s:flickr-ncsa",
+   "kind": "dataset",
+   "title": "State Archives of North Carolina on Flickr Commons",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+  },
+  {
+   "id": "s:ncsa-condev",
+   "kind": "dataset",
+   "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+   "accessed": "2026-09-16",
+   "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
   }
  ],
  "tiers": {

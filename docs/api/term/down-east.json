@@ -114,7 +114,10 @@
   "s:wp-meltons-barbecue",
   "s:wp-ed-mitchell-pitmaster",
   "s:wp-skylight-inn-bbq",
-  "s:wp-barbecue-in-north-carolina"
+  "s:wp-barbecue-in-north-carolina",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -130,10 +133,33 @@
    "names.said": {
     "tier": "tradition",
     "note": "usage; the eastern-nc record lists 'Down East barbecue' among the style's names"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
- "images": [],
+ "images": [
+  {
+   "file": "down-east/down-east-cropping-tobacco-eastern-nc-1946.jpg",
+   "source": "flickr",
+   "title": "ConDev5779A Tobacco harvest, eastern North Carolina",
+   "url": "https://live.staticflickr.com/8525/8475119249_85037503d3_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/8475119249/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel and Tourism photo files, State Archives of North Carolina",
+   "alt": "A barefoot man in a felt hat and bib overalls walks up a sandy row between two head-high rows of tobacco, a bundle of broad cropped leaves gripped under each arm. The plants on the right have flowered at the top. The soil of the row is pale sand, printed with bare footprints.",
+   "date": "1946-08",
+   "primary": true,
+   "sha256": "f061c18c77967481952ae0527308d563650d579d2e6fe369bbafc399fb7d5e72",
+   "width": 2048,
+   "height": 1591
+  }
+ ],
  "confidence": "high",
  "needs_verification": false,
  "updated": "2026-09-15",
@@ -284,6 +310,33 @@
    "title": "Barbecue in North Carolina — Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
    "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:flickr-commons",
+   "kind": "dataset",
+   "title": "Flickr Commons",
+   "publisher": "Flickr, with participating libraries, archives and museums",
+   "url": "https://www.flickr.com/commons/usage/",
+   "accessed": "2026-09-16",
+   "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+  },
+  {
+   "id": "s:flickr-ncsa",
+   "kind": "dataset",
+   "title": "State Archives of North Carolina on Flickr Commons",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "accessed": "2026-09-16",
+   "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+  },
+  {
+   "id": "s:ncsa-condev",
+   "kind": "dataset",
+   "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+   "publisher": "State Archives of North Carolina, Raleigh",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+   "accessed": "2026-09-16",
+   "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
   }
  ],
  "tiers": {
@@ -301,7 +354,23 @@
    "source": "s:wp-down-east-north-carolina"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "down-east/down-east-cropping-tobacco-eastern-nc-1946.jpg",
+  "source": "flickr",
+  "title": "ConDev5779A Tobacco harvest, eastern North Carolina",
+  "url": "https://live.staticflickr.com/8525/8475119249_85037503d3_k.jpg",
+  "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/8475119249/",
+  "license": "No known copyright restrictions",
+  "license_url": "https://www.flickr.com/commons/usage/",
+  "author": "State Archives of North Carolina",
+  "credit": "Department of Conservation and Development, Travel and Tourism photo files, State Archives of North Carolina",
+  "alt": "A barefoot man in a felt hat and bib overalls walks up a sandy row between two head-high rows of tobacco, a bundle of broad cropped leaves gripped under each arm. The plants on the right have flowered at the top. The soil of the row is pale sand, printed with bare footprints.",
+  "date": "1946-08",
+  "primary": true,
+  "sha256": "f061c18c77967481952ae0527308d563650d579d2e6fe369bbafc399fb7d5e72",
+  "width": 2048,
+  "height": 1591
+ },
  "tag_facts": [],
  "recognition_facts": [],
  "acclaim": 0,

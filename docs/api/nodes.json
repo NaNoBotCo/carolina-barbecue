@@ -15128,7 +15128,10 @@
     "s:web-clydecoopersbbq-story",
     "s:wp-barbecue-in-north-carolina",
     "s:book-housekeeping-in-old-virginia",
-    "s:book-dixie-cookery"
+    "s:book-dixie-cookery",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -15160,6 +15163,11 @@
       "tier": "cited",
       "source": "s:book-housekeeping-in-old-virginia",
       "note": "each recipe carries its own source, licence and page"
+     },
+     "images[1]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -15216,6 +15224,23 @@
      "date": "30 April 2025 (according to Exif data)",
      "primary": true,
      "sha256": "2b6478a418c09c183b26b3aac743d3fd7f804cdd1196070b826a7854f4f54d22"
+    },
+    {
+     "file": "boiled-potatoes/boiled-potatoes-peeling-potatoes-braswell-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4651_5_Overview",
+     "url": "https://live.staticflickr.com/65535/40934240573_3338adc9f4_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/40934240573/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "John Hemmer; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "In the top right print of a 1944 state News Bureau sheet from a barbecue at Braswell Plantation, three men in hats and shirtsleeves stand at a trestle table peeling and cutting vegetables. A galvanised washtub heaped with whole potatoes sits between them, a second tub holds the cut pieces under water, and two more buckets and a tub wait on the table. A fourth man works at a bench behind, and a long plank counter runs off to a fence and an open field.",
+     "date": "1944-09",
+     "primary": false,
+     "sha256": "2175b9a48276af0137c3eedb2ddf816a14a5984522db25cea92ce6e94eb7fd43",
+     "width": 2048,
+     "height": 1827
     }
    ],
    "confidence": "medium",
@@ -15447,6 +15472,33 @@
      "accessed": "2026-09-16",
      "license": "Public domain",
      "note": "Written in Concord, Cabarrus County, North Carolina. Published in the United States in 1867 and in the public domain. Read in the Internet Archive scan; recipe texts copied from it verbatim, spelling and punctuation as printed."
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -15665,7 +15717,10 @@
     "s:web-scencyclopedia-hash",
     "s:book-aunt-carolines-dixieland-recipes",
     "s:book-what-mrs-fisher-knows",
-    "s:book-dixie-cookery"
+    "s:book-dixie-cookery",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -15690,6 +15745,11 @@
       "tier": "cited",
       "source": "s:book-aunt-carolines-dixieland-recipes",
       "note": "each recipe carries its own source, licence and page"
+     },
+     "images[2]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -15762,6 +15822,23 @@
      "date": "10/12/2019 (according to Exif data)",
      "primary": false,
      "sha256": "b7400d2a2e4523079a32db12e3d8670f3682cc6d7a8f60cede606e0ed9d44fe4"
+    },
+    {
+     "file": "brunswick-stew/brunswick-stew-cauldrons-braswell-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4651_5_Overview",
+     "url": "https://live.staticflickr.com/65535/40934240573_3338adc9f4_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/40934240573/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "John Hemmer; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. In the bottom right print three black iron cauldrons stand on stones over open wood fires under a shed roof, steam pouring off all three, with mule wagons and a field behind. The other prints show a plank table lined with jars of preserves and a string band playing from the bed of a truck, wagons parked among the pines with children running between them, and three men in hats peeling and cutting vegetables into galvanised washtubs.",
+     "date": "1944-09",
+     "primary": false,
+     "sha256": "2175b9a48276af0137c3eedb2ddf816a14a5984522db25cea92ce6e94eb7fd43",
+     "width": 2048,
+     "height": 1827
     }
    ],
    "confidence": "medium",
@@ -15956,6 +16033,33 @@
      "accessed": "2026-09-16",
      "license": "Public domain",
      "note": "Written in Concord, Cabarrus County, North Carolina. Published in the United States in 1867 and in the public domain. Read in the Internet Archive scan; recipe texts copied from it verbatim, spelling and punctuation as printed."
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -26151,7 +26255,10 @@
     "s:wp-lexington-north-carolina",
     "s:wp-lexington-barbecue",
     "s:web-ourstate-historic-barbecue-trail",
-    "s:reed-holy-smoke"
+    "s:reed-holy-smoke",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -26168,6 +26275,11 @@
       "tier": "cited",
       "source": "s:web-lexbbq",
       "note": "the site names owners Rick and Wayne Monk and a 1962 founding by Rick's father; the founder's identity as Wayne Monk senior is the cast list's"
+     },
+     "images[1]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -26186,6 +26298,23 @@
      "date": "2007-09-04 16:42:53",
      "primary": true,
      "sha256": "b8798499e837f236baa48f870f35297934fef63ccc97b43498c7575f39131e4d"
+    },
+    {
+     "file": "brick-pit/brick-pit-barbecue-pit-goldsboro-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4504_Overview",
+     "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "Bill Sharpe; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "The right-hand print on a 1944 state News Bureau sheet looks straight down the inside of a masonry barbecue pit at Goldsboro: a low wall of brick on each side, a floor of pale ash and charred wood between them, iron bars laid across the opening, and the far end of the chamber dark with smoke. The sheet's handwritten caption reads Barbeque Pit, Goldsboro, Adam Scotts Place, Aug-44.",
+     "date": "1944-08",
+     "primary": false,
+     "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+     "width": 2048,
+     "height": 1843
     }
    ],
    "confidence": "high",
@@ -26375,6 +26504,33 @@
      "publisher": "University of North Carolina Press",
      "year": 2008,
      "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -27063,7 +27219,10 @@
     "s:web-leisuregrouptravel-lexington",
     "s:web-lexbbq-menu",
     "s:web-barbecue-center-menu",
-    "s:ncpedia-barbecue"
+    "s:ncpedia-barbecue",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -27083,6 +27242,11 @@
      "names.said": {
       "tier": "cited",
       "source": "s:web-lexbbq-menu"
+     },
+     "images[2]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -27116,6 +27280,23 @@
      "date": "2013-03-19 11:56:13",
      "primary": false,
      "sha256": "ba29b232b4b4dff37fe4b68b09fafcfdf2f38e8adce67f4ab36d3af6db545069"
+    },
+    {
+     "file": "chopping-block/chopping-block-chopping-barbecue-braswell-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4650_5_Overview",
+     "url": "https://live.staticflickr.com/65535/47848615702_900fb5b1db_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848615702/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "John Hemmer; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. In the top right print two pairs of hands work over a wooden trough: one brings a cleaver down through a pile of cooked pork, another rakes the chopped meat towards a wooden bushel tub already heaped full. The other prints show a plank table running away down a slope set with dozens of loaded plates, a man stirring a black iron cauldron over a wood fire under a shed roof, and a man in overalls basting meat laid on poles over an open trench.",
+     "date": "1944-09",
+     "primary": false,
+     "sha256": "9d0e415dc29d56a5f4fe42cad08046cd8d2b92aecd35a84a48be38353cd6ac55",
+     "width": 2048,
+     "height": 1831
     }
    ],
    "confidence": "high",
@@ -27292,6 +27473,33 @@
      "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
      "url": "https://www.ncpedia.org/barbecue",
      "publisher": "State Library of North Carolina"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -27521,7 +27729,10 @@
     "s:web-npr-scott-pit-burned",
     "s:web-truecue-wood",
     "s:web-ourstate-historic-barbecue-trail",
-    "s:web-barbecuebible-campaign"
+    "s:web-barbecuebible-campaign",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-barden"
    ],
    "provenance": {
     "default": {
@@ -27542,10 +27753,33 @@
       "tier": "cited",
       "source": "s:web-ourstate-historic-barbecue-trail",
       "note": "Lewis Barbecue's method is hedged inline; not verified on this disk"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-barden",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
-   "images": [],
+   "images": [
+    {
+     "file": "direct-heat/direct-heat-cooking-over-an-open-trench.jpg",
+     "source": "flickr",
+     "title": "N_53_17_314",
+     "url": "https://live.staticflickr.com/2824/32810373053_6ee0b9a8b5_o.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/32810373053/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "Albert Barden; State Archives of North Carolina",
+     "credit": "Albert Barden Collection, State Archives of North Carolina",
+     "alt": "A man in a straw hat, white shirt and braces bends over a shallow trench dug in bare ground. Green poles are laid across the trench as a grate and meat lies on them, smoke rising through. He holds a small tin pail low in his right hand and reaches into the meat with his left. A barefoot boy in a light suit stands at one side of the clearing and a girl in a checked dress and wide hat at the other, both watching. Felled logs and woods behind.",
+     "date": "",
+     "primary": true,
+     "sha256": "9d0211a8c225c5a023e9b1341f666f175e2b45885b49c9aa0719ed1299f7b1ed",
+     "width": 1100,
+     "height": 815
+    }
+   ],
    "x_commons_files": [],
    "confidence": "medium",
    "needs_verification": true,
@@ -27742,6 +27976,34 @@
      "publisher": "BarbecueBible.com",
      "url": "https://barbecuebible.com/2018/01/23/campaign-real-barbecue/",
      "accessed": "2026-09-15"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-barden",
+     "kind": "dataset",
+     "title": "Albert Barden Collection, State Archives of North Carolina",
+     "author": "Albert Barden",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "A Raleigh commercial photographer's negatives, roughly 1900 to the 1950s: shopfronts, filling stations, company dinners and one much-reproduced open-pit barbecue. Catalogue number N.53.17.314 appears in the stream three times — twice under 'No known copyright restrictions' and once, in an older upload, under 'All rights reserved' — and the two released scans are mirror images of each other, so the negative's orientation is not settled by this source."
     }
    ],
    "tiers": {
@@ -27764,7 +28026,23 @@
      "note": "Lewis Barbecue's method is hedged inline; not verified on this disk"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "direct-heat/direct-heat-cooking-over-an-open-trench.jpg",
+    "source": "flickr",
+    "title": "N_53_17_314",
+    "url": "https://live.staticflickr.com/2824/32810373053_6ee0b9a8b5_o.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/32810373053/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "Albert Barden; State Archives of North Carolina",
+    "credit": "Albert Barden Collection, State Archives of North Carolina",
+    "alt": "A man in a straw hat, white shirt and braces bends over a shallow trench dug in bare ground. Green poles are laid across the trench as a grate and meat lies on them, smoke rising through. He holds a small tin pail low in his right hand and reaches into the meat with his left. A barefoot boy in a light suit stands at one side of the clearing and a girl in a checked dress and wide hat at the other, both watching. Felled logs and woods behind.",
+    "date": "",
+    "primary": true,
+    "sha256": "9d0211a8c225c5a023e9b1341f666f175e2b45885b49c9aa0719ed1299f7b1ed",
+    "width": 1100,
+    "height": 815
+   },
    "tag_facts": [],
    "recognition_facts": [],
    "acclaim": 0,
@@ -30775,7 +31053,10 @@
     "s:web-ourstate-historic-barbecue-trail",
     "s:wp-rodney-scotts-whole-hog-bbq",
     "s:moss-barbecue-history",
-    "s:fertel-one-true-barbecue"
+    "s:fertel-one-true-barbecue",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -30792,6 +31073,11 @@
       "tier": "cited",
       "source": "s:web-ourstate-historic-barbecue-trail",
       "note": "restaurant list from the Historic Barbecue Trail and the SFA North and South Carolina projects; Rodney Scott's from its article"
+     },
+     "images[2]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -30825,6 +31111,23 @@
      "date": "2007-09-04 16:38:02",
      "primary": false,
      "sha256": "fc61fddee0dbd583e9a33d14548262c5b5ab3ae79a572c046e222d87d6c9ac29"
+    },
+    {
+     "file": "whole-hog/whole-hog-hogs-on-the-pit-braswell-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4659_Overview",
+     "url": "https://live.staticflickr.com/65535/47900676451_7718b5f063_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47900676451/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "John Hemmer; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. Two of them show a man in a cap and overalls standing over a long open trench beside a cinder-block building: split hogs lie flat on close-laid poles across the trench, and he leans out over them with a pan in one hand and a long-handled mop in the other. A third print shows two men at a wooden trough, one bringing a cleaver down on a heap of cooked pork while the other steadies it, with a bushel tub of chopped meat below. The fourth shows mule wagons full of people coming up a sand road between pines.",
+     "date": "1944-09",
+     "primary": false,
+     "sha256": "2b9a09cf4aad1b6fed33bf69c7150208fea1fec4eecbd5c1597daea5b8180993",
+     "width": 2048,
+     "height": 1825
     }
    ],
    "confidence": "high",
@@ -31079,6 +31382,33 @@
      "publisher": "Touchstone",
      "year": 2016,
      "note": "subtitle as on the publisher's page"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -37964,7 +38294,10 @@
     "s:web-clydecoopersbbq-story",
     "s:sfa-clyde-coopers-barbecue",
     "s:web-visitraleigh-clyde-coopers",
-    "s:osm"
+    "s:osm",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-fcx"
    ],
    "provenance": {
     "default": {
@@ -37993,12 +38326,35 @@
      "address": {
       "tier": "harvested",
       "source": "s:osm"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-fcx",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
    "confidence": "high",
    "needs_verification": false,
-   "images": [],
+   "images": [
+    {
+     "file": "clyde-coopers/clyde-coopers-east-davie-street-1963.jpg",
+     "source": "flickr",
+     "title": "PhC_23_1_2570_12",
+     "url": "https://live.staticflickr.com/4740/39519124674_27c9f2105c_b.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/39519124674/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "State Archives of North Carolina",
+     "credit": "FCX Photograph Collection, PhC.23, State Archives of North Carolina",
+     "alt": "A black-and-white photograph taken from across a downtown street. A two-storey brick building holds the corner; over its ground-floor windows a painted fascia reads COOPER'S, AIR CONDITIONED, and a second awning beside it reads BARBECUE, AIR CONDITIONED, with a hanging bracket sign between them repeating Cooper's Barbecue. Two women walk past the door carrying bags, a long sedan is parked at the kerb and a bus stands in the alley beyond. NO SIGNS is painted on a wall at the left edge.",
+     "date": "1963",
+     "primary": true,
+     "sha256": "35dd5702e6335a57dbeb7c17cada9be644cbc6477cf6b1d8ab31b788b68195b5",
+     "width": 988,
+     "height": 1000
+    }
+   ],
    "updated": "2026-09-16",
    "tags": [
     {
@@ -38132,6 +38488,33 @@
      "url": "https://www.openstreetmap.org/copyright",
      "license": "ODbL 1.0",
      "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-fcx",
+     "kind": "dataset",
+     "title": "FCX Photograph Collection, PhC.23",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Photographs of the Farmers Cooperative Exchange, including Raleigh street views. The Clyde Cooper's Barbecue frame is captioned 1963 by the archive; the cars in it read later than that, so the date is carried as the archive's and not as this project's."
     }
    ],
    "tiers": {
@@ -38162,7 +38545,23 @@
      "source": "s:osm"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "clyde-coopers/clyde-coopers-east-davie-street-1963.jpg",
+    "source": "flickr",
+    "title": "PhC_23_1_2570_12",
+    "url": "https://live.staticflickr.com/4740/39519124674_27c9f2105c_b.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/39519124674/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "State Archives of North Carolina",
+    "credit": "FCX Photograph Collection, PhC.23, State Archives of North Carolina",
+    "alt": "A black-and-white photograph taken from across a downtown street. A two-storey brick building holds the corner; over its ground-floor windows a painted fascia reads COOPER'S, AIR CONDITIONED, and a second awning beside it reads BARBECUE, AIR CONDITIONED, with a hanging bracket sign between them repeating Cooper's Barbecue. Two women walk past the door carrying bags, a long sedan is parked at the kerb and a bus stands in the alley beyond. NO SIGNS is painted on a wall at the left edge.",
+    "date": "1963",
+    "primary": true,
+    "sha256": "35dd5702e6335a57dbeb7c17cada9be644cbc6477cf6b1d8ab31b788b68195b5",
+    "width": 988,
+    "height": 1000
+   },
    "tag_facts": [
     {
      "key": "woman-owned",
@@ -47953,7 +48352,10 @@
     "s:web-ourstate-parkers",
     "s:web-parkersbbqwilson",
     "s:sfa-parkers-barbecue",
-    "s:osm"
+    "s:osm",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-massengill"
    ],
    "provenance": {
     "default": {
@@ -47979,12 +48381,35 @@
       "tier": "cited",
       "source": "s:web-ourstate-parkers",
       "note": "Gas cookers since the 1950s, so no wood-cooked tag; the whole-hog tag stands on its own."
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-massengill",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
    "confidence": "high",
    "needs_verification": false,
-   "images": [],
+   "images": [
+    {
+     "file": "parkers-barbecue/parkers-barbecue-postcard-us-301-wilson.jpg",
+     "source": "flickr",
+     "title": "Parkers Barbecue",
+     "url": "https://live.staticflickr.com/585/21952129989_462edfbed1_o.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/21952129989/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "State Archives of North Carolina",
+     "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+     "alt": "A colour-tinted postcard of a long low white building with a small columned porch at the centre, seen across a bare sand lot with eight or nine cars of the 1940s parked nose-in. A steel post at the left carries a sign in two panels: PARKERS BAR-B-Q over STEAKS CHICKEN, with a smaller board beneath reading OYSTER BAR. Pines and open field run along behind the roofline.",
+     "date": "",
+     "primary": true,
+     "sha256": "99447f5ae15f34994483a1ccc8a8ce7fa5e162f294d2057b14f6f9fc21428eb9",
+     "width": 1670,
+     "height": 1079
+    }
+   ],
    "updated": "2026-09-16",
    "tags": [
     {
@@ -48097,6 +48522,33 @@
      "url": "https://www.openstreetmap.org/copyright",
      "license": "ODbL 1.0",
      "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-massengill",
+     "kind": "dataset",
+     "title": "PhC.184 Massengill Postcard Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "North Carolina postcards, including linen-era and later chrome cards of named barbecue houses: Wilber's at Goldsboro, Parker's at Wilson, the Barbecue Lodge at Raleigh. Cards are undated in the collection's captions; the dates this project gives come from what is in the frame and are marked as such."
     }
    ],
    "tiers": {
@@ -48127,7 +48579,23 @@
      "source": "s:web-parkersbbqwilson"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "parkers-barbecue/parkers-barbecue-postcard-us-301-wilson.jpg",
+    "source": "flickr",
+    "title": "Parkers Barbecue",
+    "url": "https://live.staticflickr.com/585/21952129989_462edfbed1_o.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/21952129989/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "State Archives of North Carolina",
+    "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+    "alt": "A colour-tinted postcard of a long low white building with a small columned porch at the centre, seen across a bare sand lot with eight or nine cars of the 1940s parked nose-in. A steel post at the left carries a sign in two panels: PARKERS BAR-B-Q over STEAKS CHICKEN, with a smaller board beneath reading OYSTER BAR. Pines and open field run along behind the roofline.",
+    "date": "",
+    "primary": true,
+    "sha256": "99447f5ae15f34994483a1ccc8a8ce7fa5e162f294d2057b14f6f9fc21428eb9",
+    "width": 1670,
+    "height": 1079
+   },
    "tag_facts": [
     {
      "key": "whole-hog",
@@ -50360,7 +50828,10 @@
     "s:web-cecelski-adam-scott",
     "s:web-scottsbarbecuesauce",
     "s:web-ncarts-goldsboro",
-    "s:wp-scotts-variety-store-and-bar-b-q"
+    "s:wp-scotts-variety-store-and-bar-b-q",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -50386,12 +50857,35 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "town centroid; directory listings put the sauce company at 1205 N William St but no read source gives the restaurant's last address"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
    "confidence": "medium",
    "needs_verification": true,
-   "images": [],
+   "images": [
+    {
+     "file": "scotts-famous-barbecue/scotts-famous-barbecue-adam-scotts-place-goldsboro-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4504_Overview",
+     "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "Bill Sharpe; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "A News Bureau photo sheet: two prints mounted on a printed North Carolina Department of Conservation and Development form, filled in by hand — subject, Barbeque Pit; locality, Goldsboro, Adam Scotts Place; date, Aug-44. In the left print a man in a white shirt and apron stands at a table with two tall enamel stockpots and an open pan of chopped meat, a short-handled tool in his raised hand and printed notices tacked to the board wall behind him. The right print looks down the inside of a long brick pit: a bed of pale ash between low brick walls, iron bars laid across it, the far end lost in smoke.",
+     "date": "1944-08",
+     "primary": true,
+     "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+     "width": 2048,
+     "height": 1843
+    }
+   ],
    "updated": "2026-09-16",
    "tags": [
     {
@@ -50507,6 +51001,33 @@
      "title": "Scott's Variety Store and Bar-B-Q — Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Scott%27s_Variety_Store_and_Bar-B-Q",
      "license": "CC BY-SA 4.0"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -50537,7 +51058,23 @@
      "source": "s:web-aahc-scotts-cafe"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "scotts-famous-barbecue/scotts-famous-barbecue-adam-scotts-place-goldsboro-1944.jpg",
+    "source": "flickr",
+    "title": "ConDev4504_Overview",
+    "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "Bill Sharpe; State Archives of North Carolina",
+    "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+    "alt": "A News Bureau photo sheet: two prints mounted on a printed North Carolina Department of Conservation and Development form, filled in by hand — subject, Barbeque Pit; locality, Goldsboro, Adam Scotts Place; date, Aug-44. In the left print a man in a white shirt and apron stands at a table with two tall enamel stockpots and an open pan of chopped meat, a short-handled tool in his raised hand and printed notices tacked to the board wall behind him. The right print looks down the inside of a long brick pit: a bed of pale ash between low brick walls, iron bars laid across it, the far end lost in smoke.",
+    "date": "1944-08",
+    "primary": true,
+    "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+    "width": 2048,
+    "height": 1843
+   },
    "tag_facts": [
     {
      "key": "closed",
@@ -55890,7 +56427,10 @@
     "s:web-uncpress-wilber-shirley",
     "s:reed-holy-smoke",
     "s:web-truecue-nc",
-    "s:web-barbecuebros-nc-trail"
+    "s:web-barbecuebros-nc-trail",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-massengill"
    ],
    "provenance": {
     "default": {
@@ -55920,6 +56460,11 @@
      "address": {
       "tier": "cited",
       "source": "s:web-wilbersbbq"
+     },
+     "images[3]": {
+      "tier": "harvested",
+      "source": "s:ncsa-massengill",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -55970,6 +56515,23 @@
      "date": "2005-10-01",
      "primary": false,
      "sha256": "df6a8340f5a71256ba634c0dafd5ca30bf9db37a006d0a3fd7549381dc0a1e5e"
+    },
+    {
+     "file": "wilbers-barbecue/wilbers-barbecue-postcard-plate-and-sauce.jpg",
+     "source": "flickr",
+     "title": "Wilbur's Barbecue 001",
+     "url": "https://live.staticflickr.com/745/22130466182_86a3da8f5d_o.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/22130466182/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "State Archives of North Carolina",
+     "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+     "alt": "A colour postcard of a meal laid on a red-and-white checked tablecloth, the words WILBER'S BARBECUE across the top in gold. On the large plate, a mound of chopped pork, a scoop of pale slaw, french fries and a piece of chicken under gravy. Beside it a side plate of hushpuppies, a tall glass of iced tea with a lemon wedge, a bottle of Wilber's barbecue sauce with a pig on the label, and a knife, fork and spoon laid on a red napkin.",
+     "date": "",
+     "primary": false,
+     "sha256": "cf86a2c105bae0036941f8490504a71c6bdac9774102a344d3921fa228c28377",
+     "width": 1062,
+     "height": 1664
     }
    ],
    "updated": "2026-09-16",
@@ -56175,6 +56737,33 @@
      "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
      "accessed": "2026-09-16",
      "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-massengill",
+     "kind": "dataset",
+     "title": "PhC.184 Massengill Postcard Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "North Carolina postcards, including linen-era and later chrome cards of named barbecue houses: Wilber's at Goldsboro, Parker's at Wilson, the Barbecue Lodge at Raleigh. Cards are undated in the collection's captions; the dates this project gives come from what is in the frame and are marked as such."
     }
    ],
    "tiers": {
@@ -56461,7 +57050,10 @@
     "s:web-scotts-history",
     "s:web-ncarts-goldsboro",
     "s:web-moss-bbq-hof-2022",
-    "s:miller-black-smoke"
+    "s:miller-black-smoke",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -56478,10 +57070,33 @@
       "tier": "cited",
       "source": "s:web-ncarts-goldsboro",
       "note": "the 2001 closure from Cecelski and the Arts Council; stores from the sauce record's sources"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
-   "images": [],
+   "images": [
+    {
+     "file": "adam-scott/adam-scott-adam-scotts-place-goldsboro-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4504_Overview",
+     "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "Bill Sharpe; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "A state News Bureau photo sheet headed Barbeque Pit, locality Goldsboro, Adam Scotts Place, dated Aug-44 in pencil. Two prints are mounted on it. One shows a man in a white shirt and apron at a table with two tall enamel stockpots and a pan of chopped meat, working with a short-handled tool; notices are tacked to the plank wall behind him. The other looks along the inside of a long brick pit, ash on the floor between brick walls and iron bars laid across.",
+     "date": "1944-08",
+     "primary": true,
+     "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+     "width": 2048,
+     "height": 1843
+    }
+   ],
    "confidence": "medium",
    "needs_verification": true,
    "updated": "2026-09-15",
@@ -56606,6 +57221,33 @@
      "publisher": "University of North Carolina Press",
      "year": 2021,
      "url": "https://uncpress.org/book/9781469662800/black-smoke/"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -56624,7 +57266,23 @@
      "note": "the 2001 closure from Cecelski and the Arts Council; stores from the sauce record's sources"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "adam-scott/adam-scott-adam-scotts-place-goldsboro-1944.jpg",
+    "source": "flickr",
+    "title": "ConDev4504_Overview",
+    "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "Bill Sharpe; State Archives of North Carolina",
+    "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+    "alt": "A state News Bureau photo sheet headed Barbeque Pit, locality Goldsboro, Adam Scotts Place, dated Aug-44 in pencil. Two prints are mounted on it. One shows a man in a white shirt and apron at a table with two tall enamel stockpots and a pan of chopped meat, working with a short-handled tool; notices are tacked to the plank wall behind him. The other looks along the inside of a long brick pit, ash on the floor between brick walls and iron bars laid across.",
+    "date": "1944-08",
+    "primary": true,
+    "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+    "width": 2048,
+    "height": 1843
+   },
    "tag_facts": [],
    "recognition_facts": [],
    "acclaim": 0,
@@ -70696,7 +71354,10 @@
     "s:web-ourstate-mallard-creek",
     "s:web-wfae-mallard-creek-ends",
     "s:wp-lexington-barbecue-festival",
-    "s:osm"
+    "s:osm",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -70713,6 +71374,11 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "a concept given the coordinates of its standing South Carolina example"
+     },
+     "images[3]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -70761,6 +71427,23 @@
      "date": "1834",
      "primary": false,
      "sha256": "411d54eed50f1f5066a83d46c06309ee158600265e0540be2c830fd4748fa98f"
+    },
+    {
+     "file": "political-barbecue/political-barbecue-speaking-at-the-barbecue-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4649_5_Overview",
+     "url": "https://live.staticflickr.com/65535/40934240803_e199a67eb4_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/40934240803/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "John Hemmer; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. In one, several hundred people sit on plank benches among pines facing a low wooden platform where a man in shirtsleeves stands at the front and others sit in chairs behind him. Another looks the same crowd in the face, rows deep, cars parked in the trees behind. A third shows two mule wagons carrying people along a sand road. The fourth shows people sitting on the grass with plates, a man in overalls walking towards the camera carrying his.",
+     "date": "1944-09",
+     "primary": false,
+     "sha256": "6a1e0b8106ecad393c3bb17cba0994130ca47c7ea511505c91c5d3417df77eb2",
+     "width": 2048,
+     "height": 1827
     }
    ],
    "confidence": "medium",
@@ -70931,6 +71614,33 @@
      "url": "https://www.openstreetmap.org/copyright",
      "license": "ODbL 1.0",
      "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -71122,7 +71832,10 @@
     "s:etymonline",
     "s:wp-barbecue",
     "s:oed",
-    "s:moss-barbecue-history"
+    "s:moss-barbecue-history",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -71142,10 +71855,33 @@
       "tier": "cited",
       "source": "s:wp-barbecue",
       "note": "OED dates as quoted there; etymonline agrees on the Taíno origin"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
-   "images": [],
+   "images": [
+    {
+     "file": "barbecue/barbecue-crowd-braswell-1944.jpg",
+     "source": "flickr",
+     "title": "ConDev4649_Overview",
+     "url": "https://live.staticflickr.com/65535/47111378764_3d51e8c93f_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47111378764/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "John Hemmer; State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+     "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation near Rocky Mount, Sept 1944. One shows a crowd standing among tall pines with plates in their hands, children in front, wagons and mules at the treeline. One shows a queue several hundred people long curving away under the trees. One looks down on servers working a line of trestle tables spread with large pans, people filing past with plates. The fourth is close: a woman and three small children sitting on the grass, plates of food and a cup set out on the ground beside them, the smallest child in a white sun hat eating with her fingers.",
+     "date": "1944-09",
+     "primary": true,
+     "sha256": "692460bd7dfa658e8884a320bee196ca1259943b4c8bced1709869397e4f9969",
+     "width": 2048,
+     "height": 1797
+    }
+   ],
    "confidence": "high",
    "needs_verification": false,
    "updated": "2026-09-15",
@@ -71216,6 +71952,33 @@
      "publisher": "University of Alabama Press",
      "year": 2010,
      "note": "revised edition 2020"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -71233,7 +71996,23 @@
      "note": "OED dates as quoted there; etymonline agrees on the Taíno origin"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "barbecue/barbecue-crowd-braswell-1944.jpg",
+    "source": "flickr",
+    "title": "ConDev4649_Overview",
+    "url": "https://live.staticflickr.com/65535/47111378764_3d51e8c93f_k.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47111378764/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "John Hemmer; State Archives of North Carolina",
+    "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+    "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation near Rocky Mount, Sept 1944. One shows a crowd standing among tall pines with plates in their hands, children in front, wagons and mules at the treeline. One shows a queue several hundred people long curving away under the trees. One looks down on servers working a line of trestle tables spread with large pans, people filing past with plates. The fourth is close: a woman and three small children sitting on the grass, plates of food and a cup set out on the ground beside them, the smallest child in a white sun hat eating with her fingers.",
+    "date": "1944-09",
+    "primary": true,
+    "sha256": "692460bd7dfa658e8884a320bee196ca1259943b4c8bced1709869397e4f9969",
+    "width": 2048,
+    "height": 1797
+   },
    "tag_facts": [],
    "recognition_facts": [],
    "acclaim": 0,
@@ -72531,7 +73310,10 @@
     "s:wp-meltons-barbecue",
     "s:wp-ed-mitchell-pitmaster",
     "s:wp-skylight-inn-bbq",
-    "s:wp-barbecue-in-north-carolina"
+    "s:wp-barbecue-in-north-carolina",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-condev"
    ],
    "provenance": {
     "default": {
@@ -72547,10 +73329,33 @@
      "names.said": {
       "tier": "tradition",
       "note": "usage; the eastern-nc record lists 'Down East barbecue' among the style's names"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-condev",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
-   "images": [],
+   "images": [
+    {
+     "file": "down-east/down-east-cropping-tobacco-eastern-nc-1946.jpg",
+     "source": "flickr",
+     "title": "ConDev5779A Tobacco harvest, eastern North Carolina",
+     "url": "https://live.staticflickr.com/8525/8475119249_85037503d3_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/8475119249/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "State Archives of North Carolina",
+     "credit": "Department of Conservation and Development, Travel and Tourism photo files, State Archives of North Carolina",
+     "alt": "A barefoot man in a felt hat and bib overalls walks up a sandy row between two head-high rows of tobacco, a bundle of broad cropped leaves gripped under each arm. The plants on the right have flowered at the top. The soil of the row is pale sand, printed with bare footprints.",
+     "date": "1946-08",
+     "primary": true,
+     "sha256": "f061c18c77967481952ae0527308d563650d579d2e6fe369bbafc399fb7d5e72",
+     "width": 2048,
+     "height": 1591
+    }
+   ],
    "confidence": "high",
    "needs_verification": false,
    "updated": "2026-09-15",
@@ -72701,6 +73506,33 @@
      "title": "Barbecue in North Carolina — Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
      "license": "CC BY-SA 4.0"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-condev",
+     "kind": "dataset",
+     "title": "Department of Conservation and Development, Travel Information Division Photograph Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
     }
    ],
    "tiers": {
@@ -72718,7 +73550,23 @@
      "source": "s:wp-down-east-north-carolina"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "down-east/down-east-cropping-tobacco-eastern-nc-1946.jpg",
+    "source": "flickr",
+    "title": "ConDev5779A Tobacco harvest, eastern North Carolina",
+    "url": "https://live.staticflickr.com/8525/8475119249_85037503d3_k.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/8475119249/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "State Archives of North Carolina",
+    "credit": "Department of Conservation and Development, Travel and Tourism photo files, State Archives of North Carolina",
+    "alt": "A barefoot man in a felt hat and bib overalls walks up a sandy row between two head-high rows of tobacco, a bundle of broad cropped leaves gripped under each arm. The plants on the right have flowered at the top. The soil of the row is pale sand, printed with bare footprints.",
+    "date": "1946-08",
+    "primary": true,
+    "sha256": "f061c18c77967481952ae0527308d563650d579d2e6fe369bbafc399fb7d5e72",
+    "width": 2048,
+    "height": 1591
+   },
    "tag_facts": [],
    "recognition_facts": [],
    "acclaim": 0,
@@ -73608,7 +74456,10 @@
     "s:wp-whole-hog-barbecue",
     "s:web-ncpedia-hog-killing",
     "s:wp-barbecue-in-south-carolina",
-    "s:wp-hash-stew"
+    "s:wp-hash-stew",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-brimley"
    ],
    "provenance": {
     "default": {
@@ -73624,10 +74475,55 @@
      "names.said": {
       "tier": "tradition",
       "note": "usage; the dressed-weight convention is in the Pig pickin' article"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:ncsa-brimley",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[1]": {
+      "tier": "harvested",
+      "source": "s:ncsa-brimley",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
-   "images": [],
+   "images": [
+    {
+     "file": "hog/hog-scrub-pig-cape-hatteras.jpg",
+     "source": "flickr",
+     "title": "PhC42_Bx2_Agriculture_Hogs_F1",
+     "url": "https://live.staticflickr.com/65535/51960944380_9e82cdb529_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51960944380/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "H. H. Brimley; State Archives of North Carolina",
+     "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+     "alt": "A dark, rough-coated hog stands alone on flat sandy ground with its snout down, rooting. The ground is bare but for tufts of coarse grass. On the horizon behind it are a shingled barn with a lean-to, a line of low scrub, and a beached hull lying on its side.",
+     "date": "c. 1900",
+     "primary": true,
+     "sha256": "3e9b7438b798c22214a9250e8cbbeb8db750c13ae97a4895037485262d7c353d",
+     "width": 2048,
+     "height": 1612
+    },
+    {
+     "file": "hog/hog-razorback-hog-cape-hatteras.jpg",
+     "source": "flickr",
+     "title": "PhC42_Bx2_Agriculture_Hogs_F4",
+     "url": "https://live.staticflickr.com/65535/51959374242_11f3dcdb86_k.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51959374242/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "H. H. Brimley; State Archives of North Carolina",
+     "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+     "alt": "A lean black hog with a ridge of bristles standing up along its back walks across open white sand, snout lowered, its own tracks running away behind it. The beach and the sky beyond are blank and almost the same tone, with a faint line of surf at the right.",
+     "date": "c. 1905",
+     "primary": false,
+     "sha256": "1532f8ec8c6d5ed090299830f31342e2741c0e54c3b18b05a550dd3fdae83695",
+     "width": 2048,
+     "height": 1259
+    }
+   ],
    "confidence": "high",
    "needs_verification": false,
    "updated": "2026-09-15",
@@ -73780,6 +74676,34 @@
      "url": "https://en.wikipedia.org/wiki/Hash_(stew)",
      "license": "CC BY-SA 4.0",
      "note": "revision 1334401453"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-brimley",
+     "kind": "dataset",
+     "title": "H. H. Brimley Collection, PhC.42",
+     "author": "H. H. Brimley",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "The photographs of Herbert Hutchinson Brimley, naturalist and first director of the North Carolina State Museum. The agriculture folders include free-ranging hogs on the Outer Banks around 1900 to 1905, captioned in the collection as scrub pigs and razorbacks."
     }
    ],
    "tiers": {
@@ -73797,7 +74721,23 @@
      "source": "s:etymonline"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "hog/hog-scrub-pig-cape-hatteras.jpg",
+    "source": "flickr",
+    "title": "PhC42_Bx2_Agriculture_Hogs_F1",
+    "url": "https://live.staticflickr.com/65535/51960944380_9e82cdb529_k.jpg",
+    "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/51960944380/",
+    "license": "No known copyright restrictions",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "author": "H. H. Brimley; State Archives of North Carolina",
+    "credit": "H. H. Brimley Collection, PhC.42, State Archives of North Carolina",
+    "alt": "A dark, rough-coated hog stands alone on flat sandy ground with its snout down, rooting. The ground is bare but for tufts of coarse grass. On the horizon behind it are a shingled barn with a lean-to, a line of low scrub, and a beached hull lying on its side.",
+    "date": "c. 1900",
+    "primary": true,
+    "sha256": "3e9b7438b798c22214a9250e8cbbeb8db750c13ae97a4895037485262d7c353d",
+    "width": 2048,
+    "height": 1612
+   },
    "tag_facts": [],
    "recognition_facts": [],
    "acclaim": 0,
@@ -76697,7 +77637,10 @@
    ],
    "sources": [
     "s:commons-bpl-tichnor",
-    "s:commons"
+    "s:commons",
+    "s:flickr-commons",
+    "s:flickr-ncsa",
+    "s:ncsa-massengill"
    ],
    "provenance": {
     "default": {
@@ -76714,6 +77657,16 @@
      "sections[2].text": {
       "tier": "tradition",
       "note": "the pairing of barbecue and lodging on U.S. 301 and U.S. 1 is hedged: it is what these cards show, not something counted for this record"
+     },
+     "images[6]": {
+      "tier": "harvested",
+      "source": "s:ncsa-massengill",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[7]": {
+      "tier": "harvested",
+      "source": "s:ncsa-massengill",
+      "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -76807,6 +77760,40 @@
      "date": "2011-02-11 10:44",
      "primary": false,
      "sha256": "87691de095430053348cabe0227b1153c4124bc48ad7a07472546e9692f556a9"
+    },
+    {
+     "file": "barbecue-postcards/barbecue-postcards-barbecue-lodge-raleigh-postcard.jpg",
+     "source": "flickr",
+     "title": "Barbecue Lodge, Raleigh",
+     "url": "https://live.staticflickr.com/772/21951194018_c82b116b05_o.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/21951194018/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "State Archives of North Carolina",
+     "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+     "alt": "A colour postcard divided into three panels. Across the top, a long flat-roofed brick and stucco restaurant with BARBECUE LODGE in raised letters over the entrance and cars and pickups of the late 1970s parked in front. Lower left, a smaller shingled building with a steep roof on a street corner. Lower right, a low white building whose sign reads BARBECUE LODGE TAKE OUT SERVICE, with trucks at the kerb and a petrol pump beside the door.",
+     "date": "",
+     "primary": false,
+     "sha256": "e059a9a2e24964954ba88769ac5b9df2c5ed26e1266c1ca09ad3af36d0d3677c",
+     "width": 1645,
+     "height": 1053
+    },
+    {
+     "file": "barbecue-postcards/barbecue-postcards-parkers-bar-b-q-wilson.jpg",
+     "source": "flickr",
+     "title": "Parkers Barbecue",
+     "url": "https://live.staticflickr.com/585/21952129989_462edfbed1_o.jpg",
+     "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/21952129989/",
+     "license": "No known copyright restrictions",
+     "license_url": "https://www.flickr.com/commons/usage/",
+     "author": "State Archives of North Carolina",
+     "credit": "PhC.184 Massengill Postcard Collection, State Archives of North Carolina",
+     "alt": "A colour-tinted linen postcard of a long low white restaurant with a columned centre porch, across a bare sand lot holding eight or nine parked cars of the 1940s. A steel post at the left carries PARKERS BAR-B-Q over STEAKS CHICKEN, and a smaller board below reads OYSTER BAR. The sky is tinted a flat blue and the lot a flat cream.",
+     "date": "",
+     "primary": false,
+     "sha256": "99447f5ae15f34994483a1ccc8a8ce7fa5e162f294d2057b14f6f9fc21428eb9",
+     "width": 1670,
+     "height": 1079
     }
    ],
    "confidence": "medium",
@@ -76884,6 +77871,33 @@
      "title": "Wikimedia Commons",
      "url": "https://commons.wikimedia.org/",
      "note": "each picture carries its own licence in its sidecar"
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-ncsa",
+     "kind": "dataset",
+     "title": "State Archives of North Carolina on Flickr Commons",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "Around 117,000 photographs from the State Archives' photograph collections. Uploads made from about 2015 onward generally carry 'No known copyright restrictions'; a body of 2008-era uploads of the same collections, and in places the same images, carries 'All rights reserved'. Photographs taken here were verified one page at a time; the refused ones are listed in data/harvest/picture-sources.json."
+    },
+    {
+     "id": "s:ncsa-massengill",
+     "kind": "dataset",
+     "title": "PhC.184 Massengill Postcard Collection",
+     "publisher": "State Archives of North Carolina, Raleigh",
+     "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+     "accessed": "2026-09-16",
+     "note": "North Carolina postcards, including linen-era and later chrome cards of named barbecue houses: Wilber's at Goldsboro, Parker's at Wilson, the Barbecue Lodge at Raleigh. Cards are undated in the collection's captions; the dates this project gives come from what is in the frame and are marked as such."
     }
    ],
    "tiers": {

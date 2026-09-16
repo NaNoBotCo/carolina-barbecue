@@ -108,7 +108,10 @@
   "s:web-scencyclopedia-hash",
   "s:book-aunt-carolines-dixieland-recipes",
   "s:book-what-mrs-fisher-knows",
-  "s:book-dixie-cookery"
+  "s:book-dixie-cookery",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -133,6 +136,11 @@
     "tier": "cited",
     "source": "s:book-aunt-carolines-dixieland-recipes",
     "note": "each recipe carries its own source, licence and page"
+   },
+   "images[2]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -205,6 +213,23 @@
    "date": "10/12/2019 (according to Exif data)",
    "primary": false,
    "sha256": "b7400d2a2e4523079a32db12e3d8670f3682cc6d7a8f60cede606e0ed9d44fe4"
+  },
+  {
+   "file": "brunswick-stew/brunswick-stew-cauldrons-braswell-1944.jpg",
+   "source": "flickr",
+   "title": "ConDev4651_5_Overview",
+   "url": "https://live.staticflickr.com/65535/40934240573_3338adc9f4_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/40934240573/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "John Hemmer; State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+   "alt": "A state News Bureau sheet of four prints headed Barbeque, Braswell Plantation, Sept 1944. In the bottom right print three black iron cauldrons stand on stones over open wood fires under a shed roof, steam pouring off all three, with mule wagons and a field behind. The other prints show a plank table lined with jars of preserves and a string band playing from the bed of a truck, wagons parked among the pines with children running between them, and three men in hats peeling and cutting vegetables into galvanised washtubs.",
+   "date": "1944-09",
+   "primary": false,
+   "sha256": "2175b9a48276af0137c3eedb2ddf816a14a5984522db25cea92ce6e94eb7fd43",
+   "width": 2048,
+   "height": 1827
   }
  ],
  "confidence": "medium",

@@ -102,7 +102,10 @@
   "s:web-cecelski-adam-scott",
   "s:web-scottsbarbecuesauce",
   "s:web-ncarts-goldsboro",
-  "s:wp-scotts-variety-store-and-bar-b-q"
+  "s:wp-scotts-variety-store-and-bar-b-q",
+  "s:flickr-commons",
+  "s:flickr-ncsa",
+  "s:ncsa-condev"
  ],
  "provenance": {
   "default": {
@@ -128,12 +131,35 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "town centroid; directory listings put the sauce company at 1205 N William St but no read source gives the restaurant's last address"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:ncsa-condev",
+    "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
  "confidence": "medium",
  "needs_verification": true,
- "images": [],
+ "images": [
+  {
+   "file": "scotts-famous-barbecue/scotts-famous-barbecue-adam-scotts-place-goldsboro-1944.jpg",
+   "source": "flickr",
+   "title": "ConDev4504_Overview",
+   "url": "https://live.staticflickr.com/65535/47848599202_72897477dc_k.jpg",
+   "page_url": "https://www.flickr.com/photos/north-carolina-state-archives/47848599202/",
+   "license": "No known copyright restrictions",
+   "license_url": "https://www.flickr.com/commons/usage/",
+   "author": "Bill Sharpe; State Archives of North Carolina",
+   "credit": "Department of Conservation and Development, Travel Information Division Photograph Collection, State Archives of North Carolina",
+   "alt": "A News Bureau photo sheet: two prints mounted on a printed North Carolina Department of Conservation and Development form, filled in by hand — subject, Barbeque Pit; locality, Goldsboro, Adam Scotts Place; date, Aug-44. In the left print a man in a white shirt and apron stands at a table with two tall enamel stockpots and an open pan of chopped meat, a short-handled tool in his raised hand and printed notices tacked to the board wall behind him. The right print looks down the inside of a long brick pit: a bed of pale ash between low brick walls, iron bars laid across it, the far end lost in smoke.",
+   "date": "1944-08",
+   "primary": true,
+   "sha256": "45368e72eca9b3a47f202f505b3b462065b8bf93233ae7d0d7ce88bc156b0f37",
+   "width": 2048,
+   "height": 1843
+  }
+ ],
  "updated": "2026-09-16",
  "tags": [
   {

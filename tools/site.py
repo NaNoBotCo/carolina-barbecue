@@ -24,6 +24,7 @@ import random
 import re
 import shutil
 import sys
+import urllib.parse
 import time
 from pathlib import Path
 
@@ -117,8 +118,11 @@ mark.tier{background:transparent;color:var(--mute);font-style:italic}
 """
 
 
-def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None = None, canonical: str = "", extra_head: str = "", og_image: str = "", alt_json: str = "") -> str:
+def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None = None, canonical: str = "", extra_head: str = "",
+         og_image: str = "", alt_json: str = "", og_alt: str = "", og_type: str = "website", card: str = "", share_title: str = "") -> str:
     r = rel(depth)
+    if card and (CARDS_DIR / f"{card}.jpg").exists():
+        og_image = f"{SITE_URL}/cards/{card}.jpg"
     ld = "".join(f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False)}</script>' for o in (jsonld or []))
     return f"""<!doctype html>
 <html lang="en">
@@ -129,7 +133,9 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <meta name="description" content="{E(desc[:300])}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta name="color-scheme" content="light dark">
-<meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc[:200])}"><meta property="og:type" content="website">{f'<meta property="og:image" content="{E(og_image)}"><meta name="twitter:card" content="summary_large_image">' if og_image else ''}
+<meta property="og:site_name" content="{E(SITE_NAME)}"><meta property="og:locale" content="en_US">
+<meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc[:200])}"><meta property="og:type" content="{E(og_type)}">
+{f'<meta property="og:image" content="{E(og_image)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="{E(og_alt or title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{E(og_image)}"><meta name="twitter:image:alt" content="{E(og_alt or title)}"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc[:200])}">' if og_image else ''}
 {f'<link rel="canonical" href="{E(canonical)}">' if canonical else ''}
 {f'<link rel="alternate" type="application/json" href="{E(alt_json)}">' if alt_json else ''}
 <link rel="manifest" href="{r}manifest.webmanifest">
@@ -138,7 +144,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <link rel="search" type="application/opensearchdescription+xml" title="{E(SITE_NAME)}" href="{r}opensearch.xml">
 <link rel="alternate" type="application/atom+xml" title="{E(SITE_NAME)} updates" href="{r}feed.xml">
 {extra_head}
-<style>{CSS}</style>
+<style>{CSS}{SHARE_CSS}</style>
 {ld}
 </head>
 <body>
@@ -146,6 +152,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Sources</a> · <a href="{r}coverage/index.html">Coverage</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Wander</a></nav></header>
 <main>
 {body}
+{share_row(canonical, share_title or title) if canonical else ""}
 </main>
 <script>document.addEventListener("keydown",function(e){{if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="{r}wander.html"}});</script>
 <footer>
@@ -316,7 +323,38 @@ def node_jsonld(r: dict) -> list:
         base.update({"@type": "DefinedTerm", "inDefinedTermSet": f"{SITE_URL}/words/"})
     else:
         base.update({"@type": "DefinedTerm", "inDefinedTermSet": f"{SITE_URL}/{DIR_OF[r['type']]}/"})
-    out = [base]
+    out = [base, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": SITE_NAME, "item": SITE_URL + "/"},
+        {"@type": "ListItem", "position": 2, "name": DIR_OF[r["type"]].replace("-", " ").title(), "item": f"{SITE_URL}/{DIR_OF[r['type']]}/"},
+        {"@type": "ListItem", "position": 3, "name": r["names"]["name"], "item": url}]}]
+    # a recipe a reader may actually cook is worth saying so in the machine layer
+    for i, rc in enumerate(r.get("recipes", []), 1):
+        lic = (rc.get("license") or "").strip()
+        rec_ld = {"@context": "https://schema.org", "@type": "Recipe", "name": rc.get("title", r["names"]["name"]),
+                  "url": f"{url}#recipe-{i}", "isPartOf": {"@type": "WebPage", "@id": url},
+                  "recipeCuisine": "Barbecue, Southern United States", "inLanguage": "en"}
+        if rc.get("ingredients"):
+            rec_ld["recipeIngredient"] = rc["ingredients"]
+        if rc.get("text"):
+            steps = [x.strip() for x in re.split(r"(?<=[.;])\s{1,}(?=[A-Z])", rc["text"]) if len(x.strip()) > 12]
+            rec_ld["recipeInstructions"] = ([{"@type": "HowToStep", "text": x} for x in steps] if len(steps) > 1
+                                            else rc["text"])
+        if rc.get("author") or rc.get("book"):
+            rec_ld["author"] = {"@type": "Person" if rc.get("author") else "Organization", "name": rc.get("author") or rc.get("book")}
+        if rc.get("book"):
+            rec_ld["isBasedOn"] = {"@type": "Book", "name": rc["book"], **({"datePublished": str(rc["year"])} if rc.get("year") else {})}
+        if rc.get("year"):
+            rec_ld["datePublished"] = str(rc["year"])
+        if rc.get("url"):
+            rec_ld["sameAs"] = rc["url"]
+        if lic:
+            rec_ld["license"] = ("https://creativecommons.org/licenses/by-sa/4.0/" if "by-sa" in lic.lower()
+                                 else "https://creativecommons.org/publicdomain/mark/1.0/" if "public domain" in lic.lower() else lic)
+        if rc.get("yield"):
+            rec_ld["recipeYield"] = rc["yield"]
+        if (r.get("facets") or {}).get("course"):
+            rec_ld["recipeCategory"] = r["facets"]["course"]
+        out.append(rec_ld)
     for im in r.get("images", []):
         out.append({"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": f"{SITE_URL}/images/{im['file']}", "license": im.get("license_url") or im.get("license", ""),
                     "acquireLicensePage": im.get("page_url", ""), "creator": {"@type": "Person", "name": im.get("author", "")}, "creditText": im.get("author", ""), "name": r["names"]["name"], "description": im.get("alt", "")})
@@ -475,7 +513,10 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
              '<span class="chip tier-tradition">Tradition</span> general knowledge of the tradition, hedged · <span class="chip tier-inference">Inference</span> this project\'s reasoning · <span class="chip tier-field">Field</span> someone stood there. '
              f'<a href="{rel(depth)}api/{E(r["type"])}/{E(r["id"])}.json">This record as JSON</a>.</p>')
     og = f"{SITE_URL}/images/{r['primary_image']['file']}" if r.get("primary_image") else ""
-    return page(f"{n['name']} — {SITE_NAME}", body, depth, r["blurb"], node_jsonld(r), f"{SITE_URL}/{url_of(r)}", og_image=og, alt_json=f"{SITE_URL}/api/{r['type']}/{r['id']}.json")
+    return page(f"{n['name']} — {SITE_NAME}", body, depth, r["blurb"], node_jsonld(r), f"{SITE_URL}/{url_of(r)}", og_image=og,
+                alt_json=f"{SITE_URL}/api/{r['type']}/{r['id']}.json", og_alt=f'{n["name"]} — {r["blurb"][:110]}',
+                og_type="article" if r["type"] in ("story", "art") else "website",
+                card=f'{r["type"]}__{r["id"]}', share_title=n["name"])
 
 
 def art_index(t: dict, recs: list[dict]) -> str:
@@ -500,7 +541,7 @@ def art_index(t: dict, recs: list[dict]) -> str:
         else:
             body += '<p class="mute">No picture on file yet for this one.</p>'
     jl = [{"@context": "https://schema.org", "@type": "ImageGallery", "name": f"{t['name']} — {SITE_NAME}", "url": f"{SITE_URL}/art/"}]
-    return page(f"{t['name']} — {SITE_NAME}", body, depth, t["blurb"], jl, f"{SITE_URL}/art/")
+    return page(f"{t['name']} — {SITE_NAME}", body, depth, t["blurb"], jl, f"{SITE_URL}/art/", card="art")
 
 
 def type_index(t: dict, recs: list[dict], by_id: dict) -> str:
@@ -524,7 +565,48 @@ def type_index(t: dict, recs: list[dict], by_id: dict) -> str:
             body += '<h2>Other pages with a root</h2><ul>' + "".join(f'<li>{name_link(r, depth)} <span class="mute">— {E((r["etymology"]["root"])[:120])}</span></li>' for r in sorted(others, key=lambda r: r["names"]["name"].lower())) + "</ul>"
     jl = [{"@context": "https://schema.org", "@type": "DefinedTermSet" if t["key"] != "place" else "ItemList", "name": f"{t['name']} — {SITE_NAME}", "url": f"{SITE_URL}/{DIR_OF[t['key']]}/",
            ("hasDefinedTerm" if t["key"] != "place" else "itemListElement"): [{"@type": "DefinedTerm" if t["key"] != "place" else "ListItem", "name": r["names"]["name"], "url": f"{SITE_URL}/{url_of(r)}"} for r in rs]}]
-    return page(f"{t['name']} — {SITE_NAME}", body, depth, t["blurb"], jl, f"{SITE_URL}/{DIR_OF[t['key']]}/")
+    return page(f"{t['name']} — {SITE_NAME}", body, depth, t["blurb"], jl, f"{SITE_URL}/{DIR_OF[t['key']]}/", card=DIR_OF[t["key"]])
+
+
+CARDS_DIR = ROOT / "cards"
+
+SHARE_CSS = """
+.shareme{margin:2.6rem 0 .4rem;padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.95rem;margin-bottom:.55rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.87rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;padding:.4rem .85rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--ember);color:var(--ember)}
+.shareme .said{font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--ember);color:#fff;background:var(--ember)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+"""
+
+
+def share_row(url: str, title: str) -> str:
+    u, t = urllib.parse.quote(url, safe=""), urllib.parse.quote(title)
+    links = [
+        ("Bluesky", f"https://bsky.app/intent/compose?text={t}%20{u}"),
+        ("Mastodon", f"https://mastodonshare.com/?text={t}&url={u}"),
+        ("X", f"https://twitter.com/intent/tweet?text={t}&url={u}"),
+        ("Facebook", f"https://www.facebook.com/sharer/sharer.php?u={u}"),
+        ("Reddit", f"https://www.reddit.com/submit?url={u}&title={t}"),
+        ("WhatsApp", f"https://api.whatsapp.com/send?text={t}%20{u}"),
+        ("Email", f"mailto:?subject={t}&body={u}"),
+    ]
+    btns = "".join(f'<a href="{E(href)}" target="_blank" rel="noopener">{E(name)}</a>' for name, href in links)
+    return (f'<section class="shareme" data-url="{E(url)}" data-title="{E(title)}">'
+            f'<b>Pass it on</b><div class="row">'
+            f'<button type="button" class="copy" data-sh="copy">Copy link</button>'
+            f'<button type="button" data-sh="native" hidden>Share…</button>{btns}'
+            f'<span class="said" aria-live="polite"></span></div></section>'
+            '<script>(function(){var s=document.currentScript.previousElementSibling;'
+            'var n=s.querySelector(\'[data-sh="native"]\');if(navigator.share)n.hidden=false;'
+            's.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;'
+            'var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");'
+            'if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject())'
+            '.then(function(){said.textContent="copied"},function(){said.textContent=url});}'
+            'else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>')
 
 
 TAGV: dict = {}
@@ -608,7 +690,7 @@ def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
     body += '<p class="legend">Point data © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> — the derived table at <a href="../api/places.json">api/places.json</a> is offered under the same licence. State outlines: Natural Earth, public domain.</p>'
     jl = [{"@context": "https://schema.org", "@type": "Dataset", "name": f"Barbecue places in North and South Carolina — {SITE_NAME}", "url": f"{SITE_URL}/places/", "license": "https://opendatacommons.org/licenses/odbl/1-0/",
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/api/places.json"}], "creator": AUTHOR}]
-    return page(f"Pits and places — {SITE_NAME}", body, depth, "Every barbecue place in North and South Carolina we know of, on one map: the pits written up here plus every OpenStreetMap row.", jl, f"{SITE_URL}/places/")
+    return page(f"Pits and places — {SITE_NAME}", body, depth, "Every barbecue place in North and South Carolina we know of, on one map: the pits written up here plus every OpenStreetMap row.", jl, f"{SITE_URL}/places/", card="places")
 
 
 def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverage: dict) -> str:
@@ -662,7 +744,8 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/api/nodes.json"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"{SITE_URL}/nodes.csv"},
                             {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": f"{SITE_URL}/nodes.jsonl"}]},
           {"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": SITE_URL + "/", "potentialAction": {"@type": "SearchAction", "target": f"{SITE_URL}/search/?q={{search_term_string}}", "query-input": "required name=search_term_string"}}]
-    return page(f"{SITE_NAME} — {TAGLINE}", body, depth, "A directory of barbecue in North and South Carolina: styles, sauces, dishes, pits, places, people, events and words, each with its sources.", jl, SITE_URL + "/")
+    return page(f"{SITE_NAME} — {TAGLINE}", body, depth, "A directory of barbecue in North and South Carolina: styles, sauces, dishes, pits, places, people, events and words, each with its sources.", jl, SITE_URL + "/",
+                card="index", og_alt="Carolina Barbecue: a directory of a living tradition", share_title=SITE_NAME)
 
 
 def wander_page(recs: list[dict]) -> str:
@@ -686,7 +769,7 @@ def sources_page(sources: dict) -> str:
             f'<li><code class="mute" style="font-size:.8rem">{E(s["id"])}</code> {E(s.get("title", ""))}' + (f' — {E(s["author"])}' if s.get("author") else "") + (f', {E(s["publisher"])}' if s.get("publisher") else "") + (f' {E(str(s["year"]))}' if s.get("year") else "") +
             (f' · <a href="{E(s["url"])}" rel="noopener">link</a>' if s.get("url") else "") + (f' <span class="mute">({E(s["license"])})</span>' if s.get("license") else "") + (f'<br><span class="mute" style="font-size:.85rem">{E(s["note"])}</span>' if s.get("note") else "") + "</li>"
             for s in sorted(rows, key=lambda s: s.get("title", ""))) + "</ul>"
-    return page(f"Sources — {SITE_NAME}", body, 1, "Every source the records cite.", None, f"{SITE_URL}/sources/")
+    return page(f"Sources — {SITE_NAME}", body, 1, "Every source the records cite.", None, f"{SITE_URL}/sources/", card="sources")
 
 
 def coverage_page(cov: dict) -> str:
@@ -699,7 +782,7 @@ def coverage_page(cov: dict) -> str:
             '<h2>Not yet</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
             '<h2>Tiers</h2><table>' + "".join(f"<tr><th>{E(k)}</th><td>{E(v)}</td></tr>" for k, v in cov["tiers"].items()) + "</table>"
             '<p class="mute">The same object as JSON: <a href="../api/coverage.json">api/coverage.json</a>.</p>')
-    return page(f"Coverage — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not have yet.", None, f"{SITE_URL}/coverage/")
+    return page(f"Coverage — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not have yet.", None, f"{SITE_URL}/coverage/", card="coverage")
 
 
 def search_page(docs: list[dict]) -> str:
@@ -756,7 +839,7 @@ document.getElementById("q").addEventListener("input",function(){{if(index)run()
 }})();
 </script>
 """
-    return page(f"Search — {SITE_NAME}", body, 1, "Search the directory; misspellings and near spellings understood.", None, f"{SITE_URL}/search/")
+    return page(f"Search — {SITE_NAME}", body, 1, "Search the directory; misspellings and near spellings understood.", None, f"{SITE_URL}/search/", card="search")
 
 
 def manifest() -> str:
@@ -839,10 +922,44 @@ def sitemap(recs: list[dict]) -> str:
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">' + "".join(body) + "</urlset>\n")
 
 
+def ai_txt() -> str:
+    return (f"# {SITE_NAME} — {SITE_URL}/\n"
+            "# Everything here is meant to be read by machines as well as people.\n\n"
+            "User-agent: *\nAllow: /\n\n"
+            "Content-Signal: search=yes, ai-input=yes, ai-train=yes\n\n"
+            f"Corpus: {SITE_URL}/llms.txt\nFull-text: {SITE_URL}/llms-full.txt\n"
+            f"Records: {SITE_URL}/api/nodes.json\nPlaces: {SITE_URL}/api/places.json\n"
+            f"Kin edges: {SITE_URL}/api/kin.json\nScope and gaps: {SITE_URL}/api/coverage.json\n"
+            f"Schema: {SITE_URL}/schema/node.schema.json\nTabular: {SITE_URL}/nodes.csv · {SITE_URL}/nodes.jsonl\n\n"
+            "Licence: records CC BY 4.0. Place points OpenStreetMap, ODbL 1.0 (share-alike).\n"
+            "Pictures carry their own licence, stated per file in the record and beside the image.\n"
+            "Attribution: Carolina Barbecue, " + SITE_URL + "/\n\n"
+            "Every field carries a provenance tier: cited, harvested, tradition, inference, field.\n"
+            "A tag on a place names its evidence. A missing tag means unread, not absent.\n")
+
+
+def humans_txt(recs: list[dict], cov: dict) -> str:
+    n = {t: cov["records"].get(t, 0) for t in TYPES}
+    return ("/* CAROLINA BARBECUE */\n\n"
+            "Built by NaN — https://wichaa.net\n"
+            f"{sum(n.values())} records · {cov['recipes']} free-to-use recipes · {cov['images']['count']} pictures · {cov['sources']} sources\n\n"
+            "/* THANKS */\n"
+            "OpenStreetMap contributors, for every place point.\n"
+            "Wikimedia Commons photographers, each named beside their picture.\n"
+            "The Southern Foodways Alliance, for the oral histories.\n"
+            "The cooks, most of them Black, who worked these pits through the night for two\n"
+            "centuries and whose names came off the signs.\n\n"
+            "/* SITE */\n"
+            "Stdlib Python, no dependencies, no build step, no tracking, no accounts.\n"
+            "Standards: HTML, JSON-LD, llms.txt, Atom, OpenSearch, ODbL, CC BY.\n")
+
+
 def robots() -> str:
     return (f"# {SITE_NAME}: everything here is meant to be read, indexed, quoted and learned from.\nUser-agent: *\nAllow: /\n\n"
             "# Content signals (https://contentsignals.org): yes to search, yes to AI input, yes to AI training.\nContent-Signal: search=yes, ai-input=yes, ai-train=yes\n\n"
-            f"Sitemap: {SITE_URL}/sitemap.xml\n")
+            f"Sitemap: {SITE_URL}/sitemap.xml\n"
+            f"# Corpus for language models: {SITE_URL}/llms.txt and {SITE_URL}/llms-full.txt\n"
+            f"# Machine terms: {SITE_URL}/ai.txt\n")
 
 
 def opensearch() -> str:
@@ -963,6 +1080,14 @@ def main() -> int:
     (SITE / "opensearch.xml").write_text(opensearch(), encoding="utf-8")
     (SITE / "feed.xml").write_text(feed(recs), encoding="utf-8")
     (SITE / "manifest.webmanifest").write_text(manifest(), encoding="utf-8")
+    if CARDS_DIR.exists():
+        shutil.copytree(CARDS_DIR, SITE / "cards")
+    (SITE / "humans.txt").write_text(humans_txt(recs, cov), encoding="utf-8")
+    wk = SITE / ".well-known"
+    wk.mkdir(exist_ok=True)
+    (wk / "ai.txt").write_text(ai_txt(), encoding="utf-8")
+    (SITE / "ai.txt").write_text(ai_txt(), encoding="utf-8")
+    (SITE / ".nojekyll").write_text("", encoding="utf-8")
     (SITE / "icon.svg").write_text(icon_svg(), encoding="utf-8")
     dumps(recs)
     n_html = sum(1 for _ in SITE.rglob("*.html"))
