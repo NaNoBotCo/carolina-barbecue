@@ -1,0 +1,160 @@
+{
+ "schema": 1,
+ "id": "scotts-famous-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Scott's Famous Barbecue",
+  "aliases": [
+   "Scott's Barbecue",
+   "Scott's Cafe",
+   "Adam Scott's",
+   "Scott's Sauce Company"
+  ],
+  "sort": "Scotts Famous Barbecue"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "1917",
+  "fuel": "unknown",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "The Goldsboro barbecue of the Rev. Adam Scott, a Black cook and preacher who catered barbecues from the 1910s, sold from the back door of his house on Brazil Street from the early 1930s, and whose son A. Martel Scott patented the family's vinegar sauce as Scott's Famous Barbecue Sauce in 1946. The company dates the sauce to 1917 and sells about a million bottles a year. The restaurants — three around Goldsboro by 1950 — are closed: after a first closure in 2001 the family ran on Thursday and Friday lunches for a while, then stopped to make sauce.",
+  "story": "Adam Scott was born in 1890 and took his first cooking job in 1911 at the Elberon Hotel in Atlantic City; back in Goldsboro he catered barbecues from about the mid-1910s, and between 1931 and 1933 opened a back-door restaurant at his home on Brazil Street — two hogs a week on Saturdays at first, later four to seven a day, with an enclosed porch for a dining room. His first customers were mostly white. In 1933 he cooked barbecue for Franklin Roosevelt in the White House Rose Garden. He said the final recipe for the sauce came to him in a vision. In the 1940s he moved to Winston-Salem to cook for R.J. Reynolds, and his son Alvin Martel Scott, born 1913, patented Scott's Famous Barbecue Sauce in 1946 and put it in stores. By 1950 there were three Scott's around Goldsboro — Martel's on the Mount Olive highway, Ed Scott's on the Wilson highway, Adam's on the Raleigh road — and the Green Book, the travel guide for Black motorists, listed a Scott's at 404 Gulley Street from 1950 to 1955. Martel ran the business until his death in 1992; his wife Ann chaired the company until hers in 2009. Adam Scott died in 1983 at 93. The restaurant closed in 2001, reopened on Thursday and Friday lunches when customers kept calling, then closed for good; the Scotts' children and grandchildren make the sauce. The National Barbecue Hall of Fame inducted Adam Scott in 2022.",
+  "how": "Hogs cooked at the house, two a week and then several a day, chopped and dressed with the vinegar sauce; the later restaurants served chopped pork with hushpuppies and fried chicken. What survives is the sauce: vinegar, salt and spices, no tomato, fat-free and sugar-free, sold in grocery stores across the east and by the case online.",
+  "today": "Closed. The Scott family's sauce company continues in Goldsboro; the restaurant's last address is not confirmed on this disk, so the map point marks the town."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style whose sauce it put in a bottle before anyone else did.",
+   "rel": "whole"
+  },
+  {
+   "to": "adam-scott",
+   "as": "its founder, cook, preacher and the man who cooked for Roosevelt in 1933.",
+   "rel": "person"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "as": "the product that outlived the restaurant; patented by Martel Scott in 1946.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the family sauce is the eastern sauce: vinegar, salt, spices, no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "as": "Goldsboro's other barbecue name, on U.S. 70, still cooking.",
+   "rel": "kin"
+  },
+  {
+   "to": "gradys-barbecue",
+   "as": "the Black-owned whole-hog pit south of Goldsboro that carries the county's tradition on.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "scotts-bar-b-que",
+   "tell": "That Scott's is in Hemingway, South Carolina, opened as a store and gas station by Roosevelt and Ella Scott in 1972 and known for whole hog; this one is Adam Scott's in Goldsboro, a generation older, and closed. No relation is recorded."
+  },
+  {
+   "id": "rodney-scotts-whole-hog-bbq",
+   "tell": "Rodney Scott is the Hemingway family's pitmaster, with restaurants since 2017 starting in Charleston; the Goldsboro Scotts bottle a sauce and no longer cook."
+  }
+ ],
+ "geo": {
+  "lat": 35.3848841,
+  "lon": -77.9927651,
+  "precision": "town",
+  "source": "OpenStreetMap (Nominatim, town centroid of Goldsboro, 2026-09-15)"
+ },
+ "address": {
+  "city": "Goldsboro",
+  "county": "Wayne",
+  "state": "NC"
+ },
+ "links": [
+  {
+   "label": "Scott's Cafe — The Green Book in North Carolina (NC African American Heritage Commission)",
+   "url": "https://aahc.nc.gov/green-book/scotts-cafe"
+  },
+  {
+   "label": "Scott's Barbecue Sauce — official",
+   "url": "https://scottsbarbecuesauce.com/"
+  },
+  {
+   "label": "David Cecelski on the Rev. Adam Scott (2025)",
+   "url": "https://davidcecelski.com/2025/11/21/the-artist-of-barbecue-the-rev-adam-scott-and-a-family-journey-from-slavery-to-the-white-house/"
+  }
+ ],
+ "sources": [
+  "s:web-aahc-scotts-cafe",
+  "s:web-cecelski-adam-scott",
+  "s:web-scottsbarbecuesauce",
+  "s:web-ncarts-goldsboro",
+  "s:wp-scotts-variety-store-and-bar-b-q"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-aahc-scotts-cafe"
+  },
+  "fields": {
+   "facets": {
+    "tier": "cited",
+    "source": "s:web-scottsbarbecuesauce",
+    "note": "1917 is the company's own date for the sauce; Cecelski puts the catering start in the mid-1910s and the home restaurant at 1931–33"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-cecelski-adam-scott",
+    "note": "the 1950 locations, Green Book years and Martel and Ann Scott's dates from the AAHC essay; the 2001 closure and limited hours from Cecelski and the NC Arts Council"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ncarts-goldsboro"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "town centroid; directory listings put the sauce company at 1205 N William St but no read source gives the restaurant's last address"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:web-ncarts-goldsboro",
+   "tier": "cited",
+   "note": "The restaurants closed; after a first closure in 2001 the family ran Thursday and Friday lunches for a while, then stopped to make sauce. The sauce company continues in Goldsboro."
+  },
+  {
+   "tag": "black-owned",
+   "source": "s:web-aahc-scotts-cafe",
+   "tier": "cited",
+   "note": "The N.C. African American Heritage Commission's Green Book entry for Scott's Cafe, Goldsboro; the Green Book listed businesses that served Black travellers. David Cecelski (2025) calls the Rev. Adam Scott a Black cook and preacher."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "listed in the Negro Motorist Green Book as a Goldsboro business",
+   "source": "s:web-aahc-scotts-cafe",
+   "url": "https://aahc.nc.gov/green-book/scotts-cafe"
+  }
+ ]
+}

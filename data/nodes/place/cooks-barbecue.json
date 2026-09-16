@@ -1,0 +1,160 @@
+{
+ "schema": 1,
+ "id": "cooks-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Cook's Barbecue",
+  "aliases": [
+   "Cook's BBQ",
+   "Cooks & BBQ Still Smoking"
+  ],
+  "sort": "Cooks Barbecue"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "1969",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A pork-shoulder pit off Valiant Drive south of Lexington, Davidson County, built by hand in 1969 by Doug Cook on a cul-de-sac plot down the road from his house — a pit and kitchen, a wooden chopping block, a drive-up window — with a dining room he framed from oaks felled on the lot. His son Brandon, born a year after the restaurant, came back as pitmaster in 2001 and kept the original brick pit and the hickory coals. In an October report DavidsonLocal recorded that the restaurant, by then trading as Cooks & BBQ Still Smoking, had announced on July 28 that it was closed indefinitely and would be sold; no reopening is on this disk.",
+  "story": "Doug Cook built his stand in 1969 with his own hands; when customers wanted somewhere to sit he cut trees from the oak grove around it and framed a dining room. Brandon Cook grew up in the place — crawling into the fireplace as a child, flirting with the waitresses as a teenager — and learned under his father to tend the pits, shovel the cherry-red hickory coals and cook Lexington-style shoulders. He returned in 2001 as pitmaster and told the Southern Foodways Alliance's Rien Fertel in November 2011, 'Believe it or not, I'm related to half of the people around here that run the barbecue places, so yeah, I eat a bunch of it.' Customers dip their plates rather than pour sauce. DavidsonLocal, in an October roundup of Davidson County barbecue houses changing hands, reported that Cooks & BBQ Still Smoking on Valiant Drive had posted on July 28 that it was closed 'indefinitely' and was to be sold, with no buyer announced.",
+  "how": "Shoulders cook over hickory coals in the original brick pit, the coals shoveled in from the fireplace; the meat is chopped on the wooden block and served Lexington style, with the dip beside the plate for dipping rather than poured over.",
+  "today": "Closed. DavidsonLocal reported the indefinite closure and a planned sale; listings still showed it closed in September 2026 and no reopening is recorded on this disk. The building sits at 366 Valiant Drive, Lexington."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style, in a one-family pit built by hand on the south side of town.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut.",
+   "rel": "part"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the original 1969 brick pit, still the one Brandon Cook tended.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "cherry-red hickory coals, shoveled from the fireplace.",
+   "rel": "part"
+  },
+  {
+   "to": "chopping-block",
+   "as": "the wooden block that was one of the three things the stand began with.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "served for dipping the plate, not pouring.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "the Monk pit across town; Brandon Cook counts himself kin to half the town's barbecue families.",
+   "rel": "kin"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "the Conrads' pit on Main Street.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "interviewed Brandon Cook for the Southern Foodways Alliance in 2011.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 35.7089148,
+  "lon": -80.2732086,
+  "precision": "street",
+  "source": "OpenStreetMap (node 6509381885 via Overpass, 2026-09-15)"
+ },
+ "address": {
+  "street": "366 Valiant Dr",
+  "city": "Lexington",
+  "county": "Davidson",
+  "state": "NC",
+  "postcode": "27292"
+ },
+ "links": [
+  {
+   "label": "Cook's Barbecue — SFA oral history with Brandon Cook (2011)",
+   "url": "https://www.southernfoodways.org/interview/cooks-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:sfa-cooks-barbecue",
+  "s:web-davidsonlocal-bbq-reopen",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:sfa-cooks-barbecue"
+  },
+  "fields": {
+   "facets": {
+    "tier": "cited",
+    "source": "s:web-davidsonlocal-bbq-reopen",
+    "note": "status closed rests on the DavidsonLocal report (year not printed in the text read; context says 2022) and on 2026 directory listings; no newspaper closure date on disk"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-davidsonlocal-bbq-reopen"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; OSM node 'Cook's BBQ' found by Overpass, no address tags"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "street from DavidsonLocal; the house number is from directory listings"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:web-davidsonlocal-bbq-reopen",
+   "tier": "cited",
+   "note": "Announced on July 28 that it was closed indefinitely and would be sold; listings still showed it closed in September 2026."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:sfa-cooks-barbecue",
+   "tier": "cited",
+   "note": "The original brick pit and hickory coals, shoveled in from the fireplace."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:sfa-cooks-barbecue",
+   "tier": "cited",
+   "note": "Built by hand in 1969 by Doug Cook; his son Brandon came back as pitmaster in 2001."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-cooks-barbecue"
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "id": "lake-high",
+ "type": "person",
+ "names": {
+  "name": "Lake High",
+  "aliases": [
+   "Lake E. High Jr.",
+   "Lake Edward High Jr."
+  ],
+  "sort": "High, Lake"
+ },
+ "region": [
+  "sc",
+  "sc-midlands"
+ ],
+ "facets": {
+  "state": "SC",
+  "role": [
+   "founder",
+   "organizer",
+   "writer"
+  ],
+  "styles": [
+   "sc-mustard",
+   "sc-pee-dee",
+   "sc-light-tomato",
+   "sc-heavy-tomato"
+  ]
+ },
+ "text": {
+  "what": "Lake E. High Jr. of Columbia, a wine judge and, in his own account, a born critic, who founded the South Carolina Barbeque Association with the psychologist Walter Rolandi in 2004 to train judges and promote the state's barbecue, and wrote its history: A History of South Carolina Barbeque (The History Press, 2013). His account gives South Carolina all four of the barbecue sauces he counts — vinegar-and-pepper, mustard, light tomato and heavy tomato — each with a region and a date, and the association publishes them as a map.",
+  "story": "High was 74 when South Carolina Living profiled him in September 2015 as 'the guru of 'que': a master judge of the association he founded, certified as well by the Kansas City Barbeque Society, the Memphis Barbecue Network and the American Wine Society, who said he had probably eaten more barbeque than anyone in the state. When he and Rolandi founded the association the state had two cook-offs a year; by 2015 it had thirty-seven, more per head than any other state, and the association had certified more than 800 judges. His book, published in June 2013 while he was the association's president, runs from the 1500s — Native Americans cooking pork on frames after the Spanish brought the pig, and, in his telling, Europeans learning barbecue at the sixteenth-century colony of Santa Elena at what is now Port Royal — through the 1920s, when the craft settled into restaurants, to the cook-off era. The sauce account, posted on the association's site over his name as founder, runs in order of age: vinegar-and-pepper first, hundreds of years old; mustard from the German settlers of the 1730s to 1750s, distinct to South Carolina; light tomato, vinegar-and-pepper with ketchup, from around 1900; heavy tomato, the newest, of the last sixty years. Only South Carolina, he holds, has all four. Robert Moss, another South Carolinian, counts two: sweet mustard and spicy vinegar. In 2015 High told the magazine, 'Barbeque is a noun, not a verb. It's something Southerners eat, not do.' In August 2018 the co-founders named Jim Wellman of Lexington president and Don Adkins of Seneca vice president.",
+  "today": "The association is active in 2026 with a full cook-off calendar; its site names High as founder and 'a professional wine judge' and lists no current officers. His book remains in print with The History Press. No later interview with High was found for this record (checked September 15, 2026)."
+ },
+ "kin": [
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "co-founded it in 2004 with Walter Rolandi; its president when his book appeared in 2013; its historian.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "one of his four regions: the German mustard of the Midlands, which he dates to the settlers of the 1730s to 1750s.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "one of his four: vinegar-and-pepper, which he calls the oldest sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "one of his four: vinegar-and-pepper with ketchup, from around 1900.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "as": "one of his four: the newest, of the last sixty years.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce his history credits to the German families — Bessinger, Shealy, Hite, Sweatman among them.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the oldest sauce in his account, hundreds of years old.",
+   "rel": "sauce"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "vinegar-and-pepper with ketchup, from around 1900, in his account.",
+   "rel": "sauce"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "the newest sauce in his account.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the name the mustard sauce carries on his association's map.",
+   "rel": "term"
+  },
+  {
+   "to": "dutch-fork",
+   "as": "the German-settled fork of the Midlands; his history credits those settlers with the mustard sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "as": "the historian who counts two sauces where High counts four.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "South Carolina Barbeque Association — About Us",
+   "url": "https://www.scbarbeque.com/about-us/"
+  },
+  {
+   "label": "SCBA — BBQ History, by Lake E. High Jr.",
+   "url": "https://www.scbarbeque.com/bbq-history/"
+  },
+  {
+   "label": "A History of South Carolina Barbeque — Google Books",
+   "url": "https://books.google.com/books/about/A_History_of_South_Carolina_Barbeque.html?id=3ZMDEAAAQBAJ"
+  },
+  {
+   "label": "The guru of 'que — South Carolina Living, 2015",
+   "url": "https://scliving.coop/sc-life/sc-stories/the-guru-of-que/"
+  }
+ ],
+ "sources": [
+  "s:web-scliving-guru-of-que",
+  "s:web-scba-about",
+  "s:web-scba-bbq-history",
+  "s:web-google-books-high-sc-barbeque",
+  "s:web-columbia-star-scba-leadership",
+  "s:high-sc-barbeque",
+  "s:scba",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-dutch-fork"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-scliving-guru-of-que"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-scliving-guru-of-que",
+    "note": "age, certifications, counts and quotes from South Carolina Living (2015); the book's span and his title from the publisher's blurb on Google Books; the sauce account from the association's history page; the 2018 officers from the Columbia Star's paywalled preview"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:scba",
+    "note": "site as read on 2026-09-15; High's current role is not stated there"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

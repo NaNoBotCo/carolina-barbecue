@@ -1,0 +1,650 @@
+{
+ "schema": 1,
+ "id": "hickory-and-oak",
+ "type": "pit",
+ "names": {
+  "name": "hickory and oak",
+  "aliases": [
+   "hickory",
+   "oak",
+   "hardwood",
+   "pecan",
+   "wood"
+  ],
+  "said": "'Hickory-smoked' is the sign's word; on the pit it is 'wood' or 'coals'."
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "kind": "fuel"
+ },
+ "text": {
+  "what": "The hardwoods of the Carolina pit. Hickory and oak are the woods a Carolina cook burns, usually together and usually burned down to coals before they go under the meat: Lexington pits cook over oak and hickory coals, the Skylight Inn burns oak and hickory logs in fireplaces beside its pits, and Scott's in Hemingway feeds hickory, oak and pecan through the top of a burn barrel. South Carolina's barbecue is smoked over hickory or oak; Lexington's over a hardwood fire, usually hickory. Both are dense, slow-burning and abundant in the eastern forest, and both give the strong smoke that pork carries. Pecan is itself a hickory — Carya illinoinensis — with a sweeter, milder smoke.",
+  "story": "Wood smoke flavors the meat, so the woods a region has decide how its barbecue tastes; hickory, oak and mesquite give a strong smoke, and pecan, maple, alder and the fruit woods a milder, sweeter one, which is why the strong woods go with pork and beef. Pecan, a hickory native to the south-central United States, is sold as a smoking wood for a 'sweet and nutty flavor stronger than many fruit woods'; Rodney Scott burns it with hickory and oak. Skin takes up more of the smoke than meat does, which is one reason the eastern chop keeps its skin. Ed Mitchell in Wilson burns oak and hickory logs and adds charcoal briquettes. *Inference —* in a Carolina pit the wood is burned to coals before it reaches the meat, so most of the flame's smoke is spent; what the meat then breathes is largely its own fat and juices vaporizing on the coals, and that is the flavor Carolina cooks call 'wood' rather than 'smoke' — the same log gives a different result in a Texas offset smoker, where the meat sits in the smoke of a burning fire. True 'Cue, the campaign that certifies wood-cooked pits, calls wood smoke 'the umami of barbecue' and 'barbecue's soul'.",
+  "how": "Logs burn down to coals in a fireplace or a burn barrel; the coals are shoveled into the pit under the meat, and Lexington crews 'fire the pits' by spreading them evenly beneath the shoulders. At a pig pickin' the fuel is often bagged charcoal with chunks of blackjack oak or hickory added for flavor, or a separate stove of hardwood whose coals are shoveled under the grate; Ed Mitchell adds charcoal briquettes to his oak and hickory.",
+  "today": "Hickory is the sign-painter's word across both states and oak the workhorse beside it; every pit on the North Carolina Historic Barbecue Trail and every True 'Cue certificate is a wood fire of one or both. Scott's in Hemingway burns pecan with the other two."
+ },
+ "kin": [
+  {
+   "to": "burn-barrel",
+   "as": "where these woods become coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "as": "the way the coals are used: spread under the meat.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the Piedmont pit these coals are shoveled into.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "as": "the open whole-hog pit these coals are shoveled into.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut whose skin takes the most smoke.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "as": "cooked over hickory and oak coals; the shoulder's crust is the wood's work.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the Skylight Inn's oak and hickory fireplaces are the east's version.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "burns oak and hickory logs in fireplaces beside its pits.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "as": "feeds hickory, oak and pecan through the top of a burn barrel.",
+   "rel": "place"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "burns oak and hickory logs with charcoal briquettes.",
+   "rel": "person"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "the fuels that replaced these woods at many pits, for cost and labor.",
+   "rel": "contrast"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certifies pits that use only wood for heat.",
+   "rel": "kin"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "its Historic Barbecue Trail admits only pits cooking over wood or charcoal.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "direct-heat",
+   "tell": "Hickory and oak are the fuel; direct heat is where the fuel sits. The same woods burn in a Texas firebox beside the meat and in a Carolina pit beneath it."
+  }
+ ],
+ "links": [
+  {
+   "label": "Barbecue in the United States — Wikipedia (the wood)",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_the_United_States"
+  },
+  {
+   "label": "True 'Cue — Wood",
+   "url": "http://www.truecue.org/wood"
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-the-united-states",
+  "s:wp-pecan",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-lexington-north-carolina",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-ed-mitchell-pitmaster",
+  "s:web-npr-scott-pit-burned",
+  "s:web-lexbbq",
+  "s:web-leisuregrouptravel-lexington",
+  "s:wp-pig-pickin",
+  "s:web-truecue-wood",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:web-barbecuebible-campaign"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-the-united-states"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-in-the-united-states",
+    "note": "the coals-versus-smoke reasoning is this project's inference, marked inline"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage as heard on signs and menus"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The hardwoods of the Carolina pit. Hickory and oak are the woods a Carolina cook burns, usually together and usually burned down to coals before they go under the meat: Lexington pits cook over oak and hickory coals…",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "where these woods become coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the way the coals are used: spread under the meat.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the Piedmont pit these coals are shoveled into.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the open whole-hog pit these coals are shoveled into.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut whose skin takes the most smoke.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "cooked over hickory and oak coals; the shoulder's crust is the wood's work.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the Skylight Inn's oak and hickory fireplaces are the east's version.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "burns oak and hickory logs in fireplaces beside its pits.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "feeds hickory, oak and pecan through the top of a burn barrel.",
+   "rel": "place"
+  },
+  {
+   "to": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "burns oak and hickory logs with charcoal briquettes.",
+   "rel": "person"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the fuels that replaced these woods at many pits, for cost and labor.",
+   "rel": "contrast"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "certifies pits that use only wood for heat.",
+   "rel": "kin"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "its Historic Barbecue Trail admits only pits cooking over wood or charcoal.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-the-united-states",
+   "kind": "wikipedia",
+   "title": "Barbecue in the United States — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_the_United_States",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-pecan",
+   "kind": "wikipedia",
+   "title": "Pecan — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pecan",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-ed-mitchell-pitmaster",
+   "kind": "wikipedia",
+   "title": "Ed Mitchell (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ed_Mitchell_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-npr-scott-pit-burned",
+   "kind": "web",
+   "title": "When His Pit Burned Down, A Southern BBQ Master Took Hogs On Tour (Debbie Elliott, February 4, 2014)",
+   "publisher": "NPR, The Salt",
+   "url": "https://www.npr.org/sections/thesalt/2014/02/04/271526910/when-his-pit-burned-down-a-southern-bbq-master-took-hogs-on-tour",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq",
+   "kind": "web",
+   "title": "Lexington Barbecue — official site",
+   "publisher": "Lexington Barbecue",
+   "url": "https://www.lexbbq.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-leisuregrouptravel-lexington",
+   "kind": "web",
+   "title": "Lexington, North Carolina Barbecue is All About the Pork (Randy Mink)",
+   "publisher": "Leisure Group Travel",
+   "url": "https://leisuregrouptravel.com/pork-paradise-savoring-the-flavors-of-lexington-north-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:web-truecue-wood",
+   "kind": "web",
+   "title": "Wood — The Campaign for Real Barbecue",
+   "publisher": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "http://www.truecue.org/wood",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-historic-barbecue-trail",
+   "kind": "web",
+   "title": "Running on Full: The North Carolina Historic Barbecue Trail (Bryan Mims, January 29, 2016)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebible-campaign",
+   "kind": "web",
+   "title": "The Campaign for Real Barbecue (John Shelton Reed, January 23, 2018)",
+   "publisher": "BarbecueBible.com",
+   "url": "https://barbecuebible.com/2018/01/23/campaign-real-barbecue/",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-the-united-states"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-the-united-states",
+   "note": "the coals-versus-smoke reasoning is this project's inference, marked inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-the-united-states"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-the-united-states"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "its fuel: Lexington shoulders roast over oak and hickory coals, hickory when it can be had.",
+   "rel": "part"
+  },
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "the hickory logs in Henry's open pits.",
+   "rel": "part"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the coals under Sweatman's hogs and Hite's, and the hickory under Maurice's hams.",
+   "rel": "part"
+  },
+  {
+   "from": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the coals whose smoke makes the crust; Lexington Barbecue burns mostly oak, hickory when it can get it.",
+   "rel": "part"
+  },
+  {
+   "from": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the wood burned down for its coals.",
+   "rel": "part"
+  },
+  {
+   "from": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the coals on its floor.",
+   "rel": "part"
+  },
+  {
+   "from": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the wood it turns into coals.",
+   "rel": "part"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the wood burned down for the bed.",
+   "rel": "part"
+  },
+  {
+   "from": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the wood that goes in the chip box.",
+   "rel": "kin"
+  },
+  {
+   "from": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "the chunks added to the charcoal for smoke.",
+   "rel": "part"
+  },
+  {
+   "from": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "hickory, split by hand by the owner for the heat and the flavor.",
+   "rel": "part"
+  },
+  {
+   "from": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "hickory, in airtight pits installed around 2013.",
+   "rel": "part"
+  },
+  {
+   "from": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "cherry-red hickory coals, shoveled from the fireplace.",
+   "rel": "part"
+  },
+  {
+   "from": "fuzzys-bar-b-q",
+   "type": "place",
+   "name": "Fuzzy's Bar-B-Q",
+   "as": "its wood — hickory burned to coals in the pits out back.",
+   "rel": "part"
+  },
+  {
+   "from": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "as": "its fuel, cut from storm-downed trees across Wayne County and stacked in view of the door.",
+   "rel": "part"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "hickory logs in open pits; oak and pecan by a 2025 account.",
+   "rel": "part"
+  },
+  {
+   "from": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "as": "its wood, burned to coals campfire-fashion and shoveled under the meat.",
+   "rel": "part"
+  },
+  {
+   "from": "hurseys-bar-b-q",
+   "type": "place",
+   "name": "Hursey's Bar-B-Q",
+   "as": "hickory smoke; the cooker type is not described in the sources read.",
+   "rel": "part"
+  },
+  {
+   "from": "jack-cobb-and-son",
+   "type": "place",
+   "name": "Jack Cobb & Son Barbecue Place",
+   "as": "its wood: oak, pecan and hickory, banked around the pit to burn through the night.",
+   "rel": "part"
+  },
+  {
+   "from": "jackie-hites-bar-b-q",
+   "type": "place",
+   "name": "Jackie Hite's Bar-B-Q",
+   "as": "hickory, burned to coals in the barrel.",
+   "rel": "part"
+  },
+  {
+   "from": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "its fuel, burned to coals in the fireplaces under four brick chimneys.",
+   "rel": "part"
+  },
+  {
+   "from": "luellas-bar-b-que",
+   "type": "place",
+   "name": "Luella's Bar-B-Que",
+   "as": "the wood a 2011 account watched cycling under the meat around the clock.",
+   "rel": "part"
+  },
+  {
+   "from": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "hickory coals under the hams, twenty-four hours, at the West Columbia pits.",
+   "rel": "part"
+  },
+  {
+   "from": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "hickory, for the shoulders and hams.",
+   "rel": "part"
+  },
+  {
+   "from": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "its fuel; the family says no gas and no electric.",
+   "rel": "part"
+  },
+  {
+   "from": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "its wood — hickory, oak and pecan — burned to coals for the pit.",
+   "rel": "part"
+  },
+  {
+   "from": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "hickory coals in two pits in sight of the counter.",
+   "rel": "part"
+  },
+  {
+   "from": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "hickory coals, still.",
+   "rel": "part"
+  },
+  {
+   "from": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "oak here, split and cut by the staff all year round.",
+   "rel": "part"
+  },
+  {
+   "from": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "his fuel, oak and hickory logs with charcoal briquettes.",
+   "rel": "part"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "the fuel his Trail requires: wood or charcoal, on grates.",
+   "rel": "kin"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "the only heat the campaign he co-founded certifies.",
+   "rel": "kin"
+  },
+  {
+   "from": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "oak, split and cut by his staff all year.",
+   "rel": "part"
+  },
+  {
+   "from": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "the only heat its certificate allows.",
+   "rel": "kin"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "the Trail's rule: wood or charcoal on grates, nothing else.",
+   "rel": "kin"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "hickory coals in the ditches in 1929; hickory-smoked to the end.",
+   "rel": "part"
+  },
+  {
+   "from": "pit",
+   "type": "term",
+   "name": "pit",
+   "as": "what burns beside the pit to make its coals.",
+   "rel": "part"
+  }
+ ]
+}

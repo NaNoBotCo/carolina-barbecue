@@ -1,0 +1,337 @@
+{
+ "schema": 1,
+ "id": "adrian-miller",
+ "type": "person",
+ "names": {
+  "name": "Adrian Miller",
+  "aliases": [
+   "Adrian E. Miller",
+   "the Soul Food Scholar"
+  ],
+  "sort": "Miller, Adrian"
+ },
+ "region": [
+  "us-south"
+ ],
+ "facets": {
+  "role": [
+   "writer",
+   "scholar"
+  ]
+ },
+ "text": {
+  "what": "A Denver writer and lawyer, the 'Soul Food Scholar' of his own site, whose Black Smoke: African Americans and the United States of Barbecue (UNC Press, 2021) is the history of the Black cooks, pitmasters and restaurant owners behind American barbecue and of their absence from its legends. It won the James Beard Foundation's 2022 Media Award for Reference, History, and Scholarship, his second after Soul Food (2013; award 2014). A former special assistant to President Clinton, he directs the Colorado Council of Churches and is a certified barbecue judge.",
+  "story": "Miller left the White House when the Clinton administration ended — he had been special assistant to the president and deputy director of the President's Initiative for One America — and between jobs took up food writing after reading John Egerton's Southern Food. Soul Food: The Surprising Story of an American Cuisine, One Plate at a Time (UNC Press, 2013) took him to 150 restaurants in 35 cities and won the 2014 Beard award for reference and scholarship; The President's Kitchen Cabinet (2017) named 150 African Americans who had cooked in the White House. Black Smoke came out in April 2021: essays on how barbecue was built on Black labor, enslaved cooks and then paid ones, and on how the menus, the television and the legends that followed left them out, with profiles of forgotten cooks and twenty-two recipes. The Beard Foundation gave it the Media Award for Reference, History, and Scholarship in Chicago on May 12, 2022. Miller sat on the board of the Southern Foodways Alliance from 2004 to 2010 and received its Ruth Fertel Keeper of the Flame award in 2018; he is a certified Kansas City Barbeque Society judge and was a consultant on Netflix's Chef's Table: BBQ. *Tradition holds —* the cooks at the eastern Carolina trenches were Black men for most of two centuries, enslaved and then paid; Black Smoke is the book this catalogue cites for that labor and its erasure.",
+  "today": "Executive director of the Colorado Council of Churches since June 2013, in Denver. His 2025 book with Deborah Chang, Cooking to the President's Taste: Asian Heritage Chefs in White House History (White House Historical Association), followed Black Smoke; in 2026 he earned a James Beard Media Award nomination for feature reporting."
+ },
+ "kin": [
+  {
+   "to": "pitmaster",
+   "as": "Black Smoke tells the history of the Black pitmasters the word was late to name.",
+   "rel": "term"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "his book is the record this catalogue cites for the Black cooks at the eastern pits and their erasure from the menus and legends.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the oldest cooking, whose labor — Black and mostly unnamed — Black Smoke traces.",
+   "rel": "kin"
+  },
+  {
+   "to": "backyard-bbq-pit",
+   "as": "the Durham pit the press framed with his book: a Black-owned pit and what it takes to keep one.",
+   "rel": "place"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "he sat on its board from 2004 to 2010 and received its Ruth Fertel Keeper of the Flame award in 2018.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Adrian Miller — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Adrian_Miller"
+  },
+  {
+   "label": "Black Smoke — UNC Press",
+   "url": "https://uncpress.org/book/9781469662800/black-smoke/"
+  },
+  {
+   "label": "Meet Adrian — adrianemiller.com",
+   "url": "https://adrianemiller.com/about/meet-adrian/"
+  },
+  {
+   "label": "2022 James Beard Media Award winners",
+   "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-media-award-winners"
+  }
+ ],
+ "sources": [
+  "s:wp-adrian-miller",
+  "s:miller-black-smoke",
+  "s:web-adrianemiller-meet-adrian",
+  "s:web-adrianemiller-home",
+  "s:web-cochurches-exec",
+  "s:web-jbf-2022-media-award-winners",
+  "s:web-uncpressblog-miller-second-beard"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-adrian-miller"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-adrian-miller",
+    "note": "the award's name and date from the Beard Foundation's own list and the UNC Press blog; the SFA board years, the 2018 award and the Netflix credit from his site and the UNC Press blog; the closing sentence is the eastern-nc record's tradition-tier claim, marked inline"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-adrianemiller-home",
+    "note": "the council role from cochurches.org; the 2025 book and 2026 nomination from his site as read on 2026-09-15"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "adrian-miller/adrian-miller-adrian-miller-1.jpg",
+   "source": "commons",
+   "title": "File:Adrian Miller 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Adrian_Miller_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AAdrian_Miller_1.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Aemlegal",
+   "credit": "Own work",
+   "alt": "Headshot of Adrian Miller, award-winning author and professional speaker",
+   "date": "2024-09-14",
+   "primary": true,
+   "sha256": "c25eb7a0b4472bc761d4f4e68178d41a1b76137002a9ad12f101c3f927178049"
+  },
+  {
+   "file": "adrian-miller/adrian-miller-adrian-miller-the-soul-food-scholar.jpg",
+   "source": "commons",
+   "title": "File:Adrian Miller the Soul Food Scholar.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Adrian_Miller_the_Soul_Food_Scholar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AAdrian_Miller_the_Soul_Food_Scholar.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Aemlegal",
+   "credit": "Own work",
+   "alt": "Adrian Miller, the Soul Food Scholar",
+   "date": "2023-07-24 15:29:53",
+   "primary": false,
+   "sha256": "e570d74d6215f83560f4b929ff98e8feb62b10aae6fe34649bc632c135a5dc0d"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A Denver writer and lawyer, the 'Soul Food Scholar' of his own site, whose Black Smoke: African Americans and the United States of Barbecue (UNC Press, 2021) is the history of the Black cooks, pitmasters and restaurant…",
+ "region_terms": [
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "Black Smoke tells the history of the Black pitmasters the word was late to name.",
+   "rel": "term"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "his book is the record this catalogue cites for the Black cooks at the eastern pits and their erasure from the menus and legends.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the oldest cooking, whose labor — Black and mostly unnamed — Black Smoke traces.",
+   "rel": "kin"
+  },
+  {
+   "to": "backyard-bbq-pit",
+   "type": "place",
+   "name": "Backyard BBQ Pit",
+   "as": "the Durham pit the press framed with his book: a Black-owned pit and what it takes to keep one.",
+   "rel": "place"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "he sat on its board from 2004 to 2010 and received its Ruth Fertel Keeper of the Flame award in 2018.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-adrian-miller",
+   "kind": "wikipedia",
+   "title": "Adrian Miller — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Adrian_Miller",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:miller-black-smoke",
+   "kind": "book",
+   "title": "Black Smoke: African Americans and the United States of Barbecue",
+   "author": "Adrian Miller",
+   "publisher": "University of North Carolina Press",
+   "year": 2021,
+   "url": "https://uncpress.org/book/9781469662800/black-smoke/"
+  },
+  {
+   "id": "s:web-adrianemiller-meet-adrian",
+   "kind": "web",
+   "title": "Meet Adrian",
+   "publisher": "adrianemiller.com (Adrian Miller)",
+   "url": "https://adrianemiller.com/about/meet-adrian/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-adrianemiller-home",
+   "kind": "web",
+   "title": "Adrian Miller — Soul Food Scholar (home page)",
+   "publisher": "adrianemiller.com (Adrian Miller)",
+   "url": "https://adrianemiller.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-cochurches-exec",
+   "kind": "web",
+   "title": "Who We Are — Council Executive",
+   "publisher": "Colorado Council of Churches",
+   "url": "https://cochurches.org/about/council-exec/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-jbf-2022-media-award-winners",
+   "kind": "web",
+   "title": "The 2022 James Beard Media Award Winners (May 12, 2022)",
+   "publisher": "James Beard Foundation",
+   "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-media-award-winners",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uncpressblog-miller-second-beard",
+   "kind": "web",
+   "title": "Adrian Miller Wins Second Beard Foundation Award for Black Smoke (June 13, 2022)",
+   "publisher": "UNC Press Blog",
+   "url": "https://uncpressblog.com/2022/06/13/adrian-miller-wins-second-beard-foundation-award-for-black-smoke/",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-adrian-miller"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-adrian-miller",
+   "note": "the award's name and date from the Beard Foundation's own list and the UNC Press blog; the SFA board years, the 2018 award and the Netflix credit from his site and the UNC Press blog; the closing sentence is the eastern-nc record's tradition-tier claim, marked inline"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-adrianemiller-home",
+   "note": "the council role from cochurches.org; the 2025 book and 2026 nomination from his site as read on 2026-09-15"
+  }
+ },
+ "primary_image": {
+  "file": "adrian-miller/adrian-miller-adrian-miller-1.jpg",
+  "source": "commons",
+  "title": "File:Adrian Miller 1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Adrian_Miller_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AAdrian_Miller_1.jpg",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "Aemlegal",
+  "credit": "Own work",
+  "alt": "Headshot of Adrian Miller, award-winning author and professional speaker",
+  "date": "2024-09-14",
+  "primary": true,
+  "sha256": "c25eb7a0b4472bc761d4f4e68178d41a1b76137002a9ad12f101c3f927178049"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "backyard-bbq-pit",
+   "type": "place",
+   "name": "Backyard BBQ Pit",
+   "as": "whose Black Smoke is the frame the press used for it: a Black-owned pit and what it takes to keep one.",
+   "rel": "person"
+  },
+  {
+   "from": "big-t-bar-b-q",
+   "type": "place",
+   "name": "Big T Bar-B-Q",
+   "as": "wrote the history of African American barbecue that the Black-owned directories sit downstream of.",
+   "rel": "person"
+  },
+  {
+   "from": "bobbee-os-bbq",
+   "type": "place",
+   "name": "Bobbee O's BBQ",
+   "as": "wrote the book on African American barbecue that frames why a directory of Black-owned pits exists at all.",
+   "rel": "person"
+  },
+  {
+   "from": "true-bbq",
+   "type": "place",
+   "name": "True BBQ",
+   "as": "wrote the history of African American barbecue that the Black-owned directories sit downstream of.",
+   "rel": "person"
+  },
+  {
+   "from": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "as": "whose Black Smoke tells the history of Black cooks like Scott, whose customers were white and whose name went on the bottle.",
+   "rel": "person"
+  },
+  {
+   "from": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "whose Black Smoke tells the history of the Black pitmasters the word was late to name.",
+   "rel": "person"
+  },
+  {
+   "from": "fsa-barbecue-photographs",
+   "type": "art",
+   "name": "The FSA photographs of Carolina eating",
+   "as": "whose Black Smoke follows the cooks the FSA caption sheet records as feeding two sittings.",
+   "rel": "person"
+  },
+  {
+   "from": "free-to-use",
+   "type": "story",
+   "name": "Where all of this came from",
+   "as": "whose Black Smoke is the history behind half the directories on this page.",
+   "rel": "person"
+  },
+  {
+   "from": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "as": "whose Black Smoke follows the cooks both camps forgot to argue about.",
+   "rel": "person"
+  }
+ ]
+}

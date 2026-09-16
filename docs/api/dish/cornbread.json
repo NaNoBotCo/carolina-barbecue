@@ -1,0 +1,728 @@
+{
+ "schema": 1,
+ "id": "cornbread",
+ "type": "dish",
+ "names": {
+  "name": "cornbread",
+  "aliases": [
+   "corn bread",
+   "corn sticks",
+   "cornsticks",
+   "bread"
+  ],
+  "said": "'Bread' on an eastern menu board means the corn stick or the cornbread square; the sandwich roll is light bread."
+ },
+ "etymology": {
+  "root": "corn (American English for maize) + bread. The bread is Native American in origin — the Hidatsa call baked cornbread naktsi, the Choctaw bvnaha — and the English name is the settlers' description of it",
+  "first_attested": "",
+  "note": "Corn pone, the egg-less and milk-less dough baked in an iron pan, keeps the older name; in the Appalachians a round of cornbread baked in a skillet is still a 'pone'.",
+  "tier": "cited",
+  "source": "s:wp-cornbread"
+ },
+ "region": [
+  "nc-east",
+  "nc",
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "course": "bread",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A quick bread of cornmeal — meal, water or buttermilk, salt, fat, often egg and soda — baked in a pan, a skillet or a stick mould. It comes with eastern North Carolina barbecue in two forms. At the Skylight Inn in Ayden it is a flat, dense cake of stone-ground cornmeal, water, salt and the day's hog drippings, spread thin on a sheet pan, baked and cut in squares; Our State calls it more grit cake than bread. At Parker's, B's, Bum's and a third of the pits in six Coastal Plain counties it is the corn stick, an eight-inch baton of meal, fat and boiling water, baked, then deep-fried. West of the Coastal Plain the bread is hushpuppies.",
+  "story": "Cornbread is the older bread of the South. Wheat withered and turned rancid in the heat and humidity, so the colonies baked ground corn and water over the fire or in the hearth, a bread learned from Native cooks; buttermilk, eggs, soda and pork fat came into it in the 1700s and 1800s, and sugar and wheat flour mostly in the 1900s, when steel roller mills replaced stone ones and the meal lost sweetness and turned from white to yellow. The Skylight Inn's cornbread stays on the old side of that line: cornmeal, water, salt and pork drippings, made the same way since Pete Jones opened in 1947, and served at his grandson Sam Jones's restaurants as 'Skylight Inn-style cornbread'. The corn stick is younger than it looks. Bob Melton's Rocky Mount restaurant, the state's first sit-down barbecue house, served cornsticks beside boiled potatoes and hushpuppies from 1924 until it closed in 2005, and NCpedia lists baked corn sticks first among the Coastal Plain's sides; but nearly every corn stick sold in the region now comes from Atkinson's Mills in Selma, which began making them in the mid-to-late 1970s. In the six counties around Wilson and Greenville about one pit in three serves them and the rest serve hushpuppies, and on B's menu board in Greenville they are simply 'bread'.",
+  "how": "The Skylight cake is stone-ground cornmeal stirred with water and salt to a pourable batter, enriched with drippings from the pit, spread on a sheet pan and baked until it sets and browns; it comes out coarse, heavy and chewy, and is cut in squares for the tray. A corn stick is meal, fat and boiling water with a little soda, baked in an eight-inch stick and then dropped in the fryer, so that most of it is crisp and the middle soft; the grease keeps it from drying out the way a hushpuppy does, and it reheats. At B's the corn sticks are the plate's bread; at Bum's cornbread sits on the buffet with the vegetables. Skillet cornbread — batter poured into hot fat in a cast-iron pan — is the home form.",
+  "today": "Skylight Inn serves it on every tray and sells it by the slice, a dollar each in September 2025; Sam Jones BBQ in Winterville and Raleigh lists 'Skylight Inn-style cornbread' with the Jones Family Original tray (2026). Parker's in Wilson sells cornsticks and hushpuppies both by the bulk order and puts hushpuppies on every plate. Corn sticks hold in six counties; the rest of the state fries hushpuppies."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style whose tray it belongs to; in the Piedmont the bread is hushpuppies.",
+   "rel": "whole"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where it is a flat cake of meal, water, salt and hog drippings, cut in squares for the tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "whose menu names it 'Skylight Inn-style cornbread' with the family tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "where the corn stick is 'bread' on the menu board.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bums-restaurant",
+   "as": "on the buffet with the collards and the cabbage pastry; the mill's corn sticks too.",
+   "rel": "served-at"
+  },
+  {
+   "to": "parkers-barbecue",
+   "as": "which lists cornsticks beside hushpuppies in its bulk orders.",
+   "rel": "served-at"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "which served corn sticks and hushpuppies on one table, beside boiled potatoes.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the fried bread that displaced it from the 1940s; in the east two pits in three give hushpuppies.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the bread in the eastern tray, a square or a stick beside the slaw.",
+   "rel": "part"
+  },
+  {
+   "to": "white-slaw",
+   "as": "its partner on the Skylight tray: barbecue, slaw, cornbread.",
+   "rel": "kin"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "the other eastern side on the same plate at B's and Melton's.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-skins",
+   "as": "crackling bread is this bread with cracklings baked in.",
+   "rel": "kin"
+  },
+  {
+   "to": "light-bread",
+   "as": "the yeast loaf it is named against; the sandwich is on light bread, the tray gets cornbread.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fixins",
+   "as": "the eastern fixin that is not slaw.",
+   "rel": "term"
+  },
+  {
+   "to": "pete-jones",
+   "as": "whose 1947 recipe — meal, water, salt, drippings — the Skylight still bakes.",
+   "rel": "person"
+  },
+  {
+   "to": "sam-jones",
+   "as": "who carries the Skylight cake to his own restaurants.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hushpuppies",
+   "tell": "A hushpuppy is a fried ball or finger of batter, light inside. A corn stick is a baked-then-fried baton the length of a hand; Skylight's cornbread is a flat baked square. Fried and round means hushpuppy."
+  },
+  {
+   "id": "light-bread",
+   "tell": "Light bread is the soft white roll under the sandwich; cornbread is cornmeal and comes with the tray."
+  }
+ ],
+ "links": [
+  {
+   "label": "Cornbread — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cornbread"
+  },
+  {
+   "label": "The Food Section — Beating uniformity with a corn stick",
+   "url": "https://thefoodsection.com/beating-uniformity-with-a-corn-stick/"
+  },
+  {
+   "label": "Food Republic — the Skylight Inn's two-ingredient cornbread",
+   "url": "https://www.foodrepublic.com/1979434/two-ingredient-cornbread-skylight-inn-north-carolina-bbq/"
+  }
+ ],
+ "sources": [
+  "s:wp-cornbread",
+  "s:wp-skylight-inn-bbq",
+  "s:web-foodrepublic-skylight-cornbread",
+  "s:web-ourstate-sam-jones-legacy",
+  "s:web-samjones-menu",
+  "s:web-thefoodsection-corn-stick",
+  "s:wp-meltons-barbecue",
+  "s:ncpedia-barbecue",
+  "s:web-barbecuebros-bs-barbecue",
+  "s:web-bbqjew-bs-barbecue",
+  "s:sfa-bums-restaurant",
+  "s:web-parkers-bbq-wilson-menu",
+  "s:web-parkers-bbq-wilson",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-whole-hog-barbecue",
+  "s:wikibooks-southern-cornbread",
+  "s:wikibooks-cornbread-i",
+  "s:book-virginia-house-wife",
+  "s:book-kentucky-housewife"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cornbread"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-skylight-inn-bbq",
+    "note": "the one-in-three count and the six counties from The Food Section (2025); 'grit cake' from Our State (2016)"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-cornbread",
+    "note": "Skylight from Food Republic (2025) and the Sam Jones menu; corn sticks and Atkinson's from The Food Section; Melton's from Wikipedia; 'bread' from Barbecue Bros (2022) and BBQ Jew (2011)"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-foodrepublic-skylight-cornbread",
+    "note": "corn stick method from The Food Section; reheating from BBQ Jew; Bum's buffet from the SFA interview"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-foodrepublic-skylight-cornbread",
+    "note": "$1 a slice as Food Republic printed it, 2025-09-30; Sam Jones and Parker's menus read 2026-09-15"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-southern-cornbread",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Southern Cornbread",
+   "source": "s:wikibooks-southern-cornbread",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASouthern_Cornbread",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "2 cups yellow or white self-rising corn meal",
+    "1 large egg",
+    "1¼–1½ cups buttermilk or whole milk",
+    "¼ cup olive oil or vegetable oil"
+   ],
+   "text": "1. Preheat the oven to 425°F. If using cast-iron skillet, place it in the oven to heat. Do not preheat other types of skillets or baking pans.\n2. If using non-cast-iron skillet or baking pan, coat with a non-stick spray.\n3. Beat egg in the bowl. Stir in buttermilk and oil.\n4. Stir in the cornmeal and mix until just moistened. The batter will be somewhat lumpy. Take care not to overmix.\n5. Pour the batter into the skillet and place in the oven.\n6. Bake until crust is a light golden brown and a toothpick inserted into the center comes out clean. For an 8-inch skillet this can be 25–30 minutes; for a 10-inch skillet or an 8x8-inch baking pan about 20–25 minutes.\n7. Allow to cool for 5 minutes in pan before serving.",
+   "note": "Unsweetened, in a cast-iron skillet; the form a Carolina kitchen bakes at home."
+  },
+  {
+   "title": "Cornbread I",
+   "source": "s:wikibooks-cornbread-i",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ACornbread_I",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup (140 g / 4.9 oz) cornmeal",
+    "1 cup (140 g / 4.9 oz) all-purpose flour",
+    "4 tsp baking powder",
+    "½ tsp salt",
+    "1 cup (250 ml / 8.5 fl oz) milk",
+    "1 ea. (50 g) egg",
+    "¼ cup (60 g / 2.1 oz) shortening, melted",
+    "¼ cup (55 g / 1.9 oz) white granulated sugar (optional)",
+    "½ of a can whole corn kernels, drained (optional)",
+    "¼ ea. onion, finely chopped (optional)"
+   ],
+   "text": "1. Preheat oven to . Grease an baking pan.\n2. Combine cornmeal, flour, baking powder, salt, and sugar in a large mixing bowl.\n3. Add egg, milk, and shortening.\n4. Beat until fairly smooth (about a minute).\n5. If using corn and/or onion, fold in these ingredients.\n6. Pour the mixture into the baking pan.\n7. Bake for 20–25 minutes or until a toothpick inserted in center comes out clean. If corn is added to batter, increase time by ~50%\n8. Serve hot!",
+   "yield": "8 servings"
+  },
+  {
+   "title": "Corn Meal Bread",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "page": 141,
+   "text": "Rub a piece of butter the size of an egg, into a pint of corn meal—make it a batter with two eggs, and some new milk—add a spoonful of yeast, set it by the fire an hour to rise, butter little pans, and bake it.",
+   "note": "A yeast-risen cornmeal bread, from the first cookbook of the American South. The dash is Mrs. Randolph's punctuation."
+  },
+  {
+   "title": "Batter Bread",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "page": 140,
+   "text": "Take six spoonsful of flour and three of corn meal, with a little salt—sift them, and make a thin batter with four eggs, and a sufficient quantity of rich milk; bake it in little tin moulds in a quick oven.",
+   "note": "Batter bread is the loose, spoonable cornbread — the ancestor of spoonbread; 'little tin moulds' are the forerunner of the stick mould that makes an eastern corn stick."
+  },
+  {
+   "title": "Indian Hoe Cakes",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "page": 314,
+   "text": "Sift a quart of Indian meal, mix with it a large teaspoonful of salt, two large spoonfuls of butter, and make it a thin dough with sweet milk. Bake them as the pumpkin hoe cakes, and butter and eat them warm.\n\n[Pumpkin Hoe Cakes, the receipt it refers to:] Heat your griddle rather brisk, place it over a bed of clear coals, grease it well with lard or butter, put on your dough in small thin cakes, and bake them hastily, turning them over once. As soon as both sides have a thin crust, and are of a light brown, send them to table, that they may be split and buttered while warm.",
+   "note": "Indian meal is cornmeal. The method is borrowed from the receipt for pumpkin hoe cakes on the same page, which is quoted here in brackets so the receipt can be followed; the brackets are this site's, everything inside them is the book's."
+  }
+ ],
+ "images": [
+  {
+   "file": "cornbread/cornbread-corn-bread-1a.jpg",
+   "source": "commons",
+   "title": "File:Corn Bread 1A.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Corn_Bread_1A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACorn_Bread_1A.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Wheeler Cowperthwaite",
+   "credit": "Flickr: Corn Bread 1A (78)",
+   "alt": "Cornbread cooked in a cast iron skillet.",
+   "date": "2013-09-22 11:24:24",
+   "primary": true,
+   "sha256": "db820b9a7f74fa5677819e94605e4f7726706bfe9ebb406af1a019ece2c88bba"
+  },
+  {
+   "file": "cornbread/cornbread-corn-bread-3a-70.jpg",
+   "source": "commons",
+   "title": "File:Corn Bread 3A (70).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Corn_Bread_3A_%2870%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACorn_Bread_3A_%2870%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Wheeler Cowperthwaite",
+   "credit": "https://www.flickr.com/photos/60756254@N07/24595950514/",
+   "alt": "Corn bread baked in a cast iron skillet.",
+   "date": "2013-09-22 11:23:56",
+   "primary": false,
+   "sha256": "da57a18e3a537c25e160963c8473e5fba9632e4803aeb6494b11f8cec5bce7ca"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A quick bread of cornmeal — meal, water or buttermilk, salt, fat, often egg and soda — baked in a pan, a skillet or a stick mould. It comes with eastern North Carolina barbecue in two forms.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style whose tray it belongs to; in the Piedmont the bread is hushpuppies.",
+   "rel": "whole"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "where it is a flat cake of meal, water, salt and hog drippings, cut in squares for the tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "whose menu names it 'Skylight Inn-style cornbread' with the family tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "as": "where the corn stick is 'bread' on the menu board.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bums-restaurant",
+   "type": "place",
+   "name": "Bum's Restaurant",
+   "as": "on the buffet with the collards and the cabbage pastry; the mill's corn sticks too.",
+   "rel": "served-at"
+  },
+  {
+   "to": "parkers-barbecue",
+   "type": "place",
+   "name": "Parker's Barbecue",
+   "as": "which lists cornsticks beside hushpuppies in its bulk orders.",
+   "rel": "served-at"
+  },
+  {
+   "to": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "which served corn sticks and hushpuppies on one table, beside boiled potatoes.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the fried bread that displaced it from the 1940s; in the east two pits in three give hushpuppies.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the bread in the eastern tray, a square or a stick beside the slaw.",
+   "rel": "part"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "its partner on the Skylight tray: barbecue, slaw, cornbread.",
+   "rel": "kin"
+  },
+  {
+   "to": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the other eastern side on the same plate at B's and Melton's.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "crackling bread is this bread with cracklings baked in.",
+   "rel": "kin"
+  },
+  {
+   "to": "light-bread",
+   "type": "term",
+   "name": "light bread",
+   "as": "the yeast loaf it is named against; the sandwich is on light bread, the tray gets cornbread.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the eastern fixin that is not slaw.",
+   "rel": "term"
+  },
+  {
+   "to": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "whose 1947 recipe — meal, water, salt, drippings — the Skylight still bakes.",
+   "rel": "person"
+  },
+  {
+   "to": "sam-jones",
+   "type": "person",
+   "name": "Sam Jones",
+   "as": "who carries the Skylight cake to his own restaurants.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cornbread",
+   "kind": "wikipedia",
+   "title": "Cornbread — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cornbread",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1371329180"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-foodrepublic-skylight-cornbread",
+   "kind": "web",
+   "title": "This North Carolina BBQ Restaurant Only Uses 2 Ingredients To Make Cornbread (Nikita Ephanov, 2025-09-30)",
+   "publisher": "Food Republic",
+   "url": "https://www.foodrepublic.com/1979434/two-ingredient-cornbread-skylight-inn-north-carolina-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-sam-jones-legacy",
+   "kind": "web",
+   "title": "Pitmaster of Pitt County: Sam Jones Upholds Family Legacy Established at Skylight Inn (Billy Ball, 2016-02-12)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/sam-jones-bbq-upholds-family-legacy-established-at-skylight-inn/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-samjones-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Sam Jones BBQ, Winterville and Raleigh NC",
+   "url": "https://www.samjonesbbq.com/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-thefoodsection-corn-stick",
+   "kind": "web",
+   "title": "Beating uniformity with a corn stick (S. Farhan Mustafa, 2025-03-24)",
+   "publisher": "The Food Section",
+   "url": "https://thefoodsection.com/beating-uniformity-with-a-corn-stick/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:web-barbecuebros-bs-barbecue",
+   "kind": "web",
+   "title": "Eastern NC Whole Hog Tour: B's Barbecue – Greenville, NC (Monk, 2022-05-02)",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/2022/05/02/eastern-nc-whole-hog-tour-bs-barbecue-greenville-nc/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-bbqjew-bs-barbecue",
+   "kind": "web",
+   "title": "BBQ Jew's View: B's Barbecue (Porky LeSwine, 2011-04-18)",
+   "publisher": "BBQ Jew",
+   "url": "https://bbqjew.com/2011/04/18/bbq-jews-view-bs-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-bums-restaurant",
+   "kind": "oral-history",
+   "title": "Bum's Restaurant — Latham 'Bum' Dennis and Larry Dennis, interviewed by Rien T. Fertel, 5 Dec 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/bums-restaurant/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-parkers-bbq-wilson-menu",
+   "kind": "web",
+   "title": "Menu (no prices posted)",
+   "publisher": "Parker's Barbecue, Wilson NC",
+   "url": "https://parkersbbqwilson.com/menu/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-parkers-bbq-wilson",
+   "kind": "web",
+   "title": "The Original Parker's BBQ of Wilson, NC",
+   "publisher": "Parker's Barbecue",
+   "url": "https://parkersbbqwilson.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wikibooks-southern-cornbread",
+   "kind": "web",
+   "title": "Cookbook:Southern Cornbread — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASouthern_Cornbread",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-cornbread-i",
+   "kind": "web",
+   "title": "Cookbook:Cornbread I — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ACornbread_I",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:book-virginia-house-wife",
+   "kind": "book",
+   "title": "The Virginia House-Wife, or Methodical Cook",
+   "author": "Mrs. Mary Randolph",
+   "publisher": "Plaskitt & Cugle, Baltimore",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1824, the first cookbook of the American South. Read in the stereotype printing scanned by the Internet Archive as virginiahousewif00rand, whose page numbers are used here; the fourth-edition scan (virginiahousewi00rand, printed about 1830) was read alongside it to settle characters each scan loses."
+  },
+  {
+   "id": "s:book-kentucky-housewife",
+   "kind": "book",
+   "title": "The Kentucky Housewife, Containing Nearly Thirteen Hundred Full Receipts",
+   "author": "Mrs. Lettice Bryan",
+   "publisher": "Shepard & Stearns, Cincinnati",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "accessed": "2026-09-16",
+   "license": "Public domain"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-skylight-inn-bbq",
+   "note": "the one-in-three count and the six counties from The Food Section (2025); 'grit cake' from Our State (2016)"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cornbread",
+   "note": "Skylight from Food Republic (2025) and the Sam Jones menu; corn sticks and Atkinson's from The Food Section; Melton's from Wikipedia; 'bread' from Barbecue Bros (2022) and BBQ Jew (2011)"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-foodrepublic-skylight-cornbread",
+   "note": "corn stick method from The Food Section; reheating from BBQ Jew; Bum's buffet from the SFA interview"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-foodrepublic-skylight-cornbread",
+   "note": "$1 a slice as Food Republic printed it, 2025-09-30; Sam Jones and Parker's menus read 2026-09-15"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-cornbread"
+  }
+ },
+ "primary_image": {
+  "file": "cornbread/cornbread-corn-bread-1a.jpg",
+  "source": "commons",
+  "title": "File:Corn Bread 1A.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Corn_Bread_1A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ACorn_Bread_1A.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "Wheeler Cowperthwaite",
+  "credit": "Flickr: Corn Bread 1A (78)",
+  "alt": "Cornbread cooked in a cast iron skillet.",
+  "date": "2013-09-22 11:24:24",
+  "primary": true,
+  "sha256": "db820b9a7f74fa5677819e94605e4f7726706bfe9ebb406af1a019ece2c88bba"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the bread of the eastern tray; at Skylight Inn it is a dense skillet cake baked in pork fat.",
+   "rel": "serves"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the bread of the eastern tray at Skylight Inn and at the corn-stick houses.",
+   "rel": "part"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the bread beside them on the eastern plate; at B's the corn stick.",
+   "rel": "kin"
+  },
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "the bread that takes up the pot liquor.",
+   "rel": "kin"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the baked or stick-shaped bread it displaced across most of the state.",
+   "rel": "contrast"
+  },
+  {
+   "from": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "crackling bread is cornbread with these baked in.",
+   "rel": "kin"
+  },
+  {
+   "from": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "on the tray here as at the Skylight.",
+   "rel": "serves"
+  },
+  {
+   "from": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "its cornbread is its own — a dense pork-fat cake, the one side that visitors argue about.",
+   "rel": "serves"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the Skylight's fixin, a dense pork-fat cake.",
+   "rel": "part"
+  },
+  {
+   "from": "light-bread",
+   "type": "term",
+   "name": "light bread",
+   "as": "the other bread, and the older; light bread is named against it.",
+   "rel": "contrast"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "id": "carolina-gold",
+ "type": "term",
+ "names": {
+  "name": "Carolina Gold",
+  "aliases": ["Carolina Gold rice", "Carolina Gold sauce", "Carolina Gold BBQ sauce"],
+  "said": "'Carolina Gold' on a sauce bottle in the Midlands means mustard; on a Charleston menu it means the rice under the shrimp. Both are South Carolina's, and neither knows the other."
+ },
+ "etymology": {
+  "root": "Carolina + gold. For the rice, the colour of the unhulled grain (Wikipedia); for the sauce, the colour of yellow mustard and the brand name under which Maurice Bessinger's Piggie Park sold it (Wikipedia). Two coinages, one name, no common root but the state",
+  "first_attested": "rice: 'first popularized in South Carolina in the 1780s' (Wikipedia); sauce: undated — Bessinger sold sauce under the Carolina Gold brand by the 1990s, and Wikipedia says the mustard sauce 'is sometimes called Carolina Gold'",
+  "note": "A third thing wears the name: Riviana Foods sells a parboiled 'Carolina Gold' under its Carolina Rice brand with, Wikipedia says, no connection to the heirloom variety. *Inference —* the sauce borrowed a name the rice had made mean the state's own treasure, and its use for any yellow mustard sauce is a brand gone generic.",
+  "tier": "cited",
+  "source": "s:wp-carolina-gold"
+ },
+ "region": ["sc-midlands", "sc-lowcountry", "sc"],
+ "facets": {"letter": "C", "part_of_speech": "noun"},
+ "text": {
+  "what": "Two South Carolina things with one name. The sauce: the yellow-mustard barbecue sauce of the Midlands — mustard, vinegar, sugar and spices — which Wikipedia says is sometimes called Carolina Gold and which Maurice Bessinger of Piggie Park sold in supermarkets under that brand. The rice: an heirloom variety of Oryza sativa named for the gold of its unhulled grain, grown in the Lowcountry by enslaved people from the 1780s, the staple of Lowcountry cooking, last harvested commercially in 1927 and revived from a seed bank in the 1980s.",
+  "story": "The rice came first. Carolina Gold was popularized in South Carolina in the 1780s; at the outset of the Civil War 3.5 million of the 5 million bushels of rice grown in the United States were Carolina Gold, grown in the Lowcountry by enslaved people. The last commercial crop was harvested in 1927. In the 1980s Richard and Patricia Schulze, restoring rice ponds at Hardeeville, found a stock in a USDA seed bank in Texas, planted 14 pounds and harvested 64; by 1988 they had 10,000 pounds a year, and Anson Mills and Carolina Plantation Rice sold it to the public from 1998. The sauce's name is younger. Mustard sauce belongs to the German-settled Midlands. Maurice Bessinger, who opened Maurice's Piggie Park in West Columbia with his brother Joe in 1953, sold a sauce of mustard, brown sugar, soy sauce and vinegar under the Carolina Gold brand and by 1999 had the largest barbecue operation in the country; in 2000, when he raised Confederate flags over his restaurants, grocery chains dropped the sauce from their shelves. *Inference —* Carolina Gold for any yellow mustard sauce is the brand gone generic, wearing a name the rice made first."
+ },
+ "kin": [
+  {"to": "mustard-sauce", "as": "the sauce the name is used for on bottles and in the press.", "rel": "term"},
+  {"to": "sc-mustard", "as": "the style whose sauce goes by this name.", "rel": "term"},
+  {"to": "maurice-bessinger", "as": "who sold his mustard sauce under the Carolina Gold brand, and lost the shelves for it in 2000.", "rel": "person"},
+  {"to": "joe-bessinger", "as": "Maurice's father, to whom some accounts attribute the mustard sauce itself.", "rel": "person"},
+  {"to": "maurices-piggie-park", "as": "the West Columbia drive-in, opened 1953, the brand's home.", "rel": "place"},
+  {"to": "hash-and-rice", "as": "rice is the other half of the dish, and Carolina Gold is the Lowcountry's historic variety of it.", "rel": "kin"},
+  {"to": "chicken-bog", "as": "a Pee Dee and Lowcountry rice dish; rice is the crop the name first belonged to.", "rel": "kin"},
+  {"to": "dutch-fork", "as": "the German Midlands the mustard sauce is credited to.", "rel": "kin"}
+ ],
+ "confusable_with": [
+  {"id": "mustard-sauce", "tell": "The bottle says Carolina Gold; the sauce is mustard sauce. The rice is on a Charleston menu, not a barbecue one."}
+ ],
+ "links": [
+  {"label": "Carolina Gold — Wikipedia", "url": "https://en.wikipedia.org/wiki/Carolina_Gold"},
+  {"label": "Maurice Bessinger — Wikipedia (Piggie Park and Carolina Gold)", "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger"},
+  {"label": "Barbecue in South Carolina — Wikipedia (Mustard)", "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina"}
+ ],
+ "sources": ["s:wp-carolina-gold", "s:wp-maurice-bessinger", "s:wp-barbecue-in-south-carolina", "s:wp-barbecue-sandwich", "s:wp-barbecue-sauce", "s:wp-chicken-bog", "s:wp-hash-stew"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-carolina-gold"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:wp-carolina-gold", "note": "the rice from its article; the sauce and the 2000 boycott from the Maurice Bessinger article; the last sentence is inference"},
+   "names.said": {"tier": "tradition", "note": "usage as observed; the two senses are each cited above"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

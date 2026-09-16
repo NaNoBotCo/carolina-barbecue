@@ -1,0 +1,399 @@
+{
+ "schema": 1,
+ "id": "texas-pete",
+ "type": "sauce",
+ "names": {
+  "name": "Texas Pete",
+  "aliases": [
+   "Texas Pete Hot Sauce",
+   "Texas Pete Original"
+  ],
+  "said": "Asked for by name at the table: 'pass the Texas Pete'."
+ },
+ "etymology": {
+  "root": "Texas + Pete: 'Texas' for a state known for hot food, chosen over a marketing adviser's 'Mexican Joe' because Sam Garner wanted an American name; 'Pete' was the nickname of his son Harold Garner.",
+  "first_attested": "1929, when the sauce was introduced (Wikipedia)",
+  "note": "The sauce has never had anything to do with Texas; it has been made in Winston-Salem since 1929.",
+  "tier": "cited",
+  "source": "s:wp-texas-pete"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "base": "other",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A cayenne-pepper hot sauce made by the T.W. Garner Food Company of Winston-Salem, North Carolina, since 1929 — mild as hot sauces go, 747 on the Scoville scale — in a flip-top bottle with a red cowboy on a white-and-yellow label. It is not a barbecue sauce and is on this list because of where it stands: on the table at eastern North Carolina barbecue houses beside the vinegar, and, at Skylight Inn in Ayden, in the dressing itself, where the chopped hog is seasoned with vinegar, salt, pepper and Texas Pete.",
+  "story": "Sam Garner ran the Dixie Pig, a barbecue stand in Winston-Salem, with his sons Thad, Ralph and Harold. Customers asked for a spicier sauce, and the family made one from cayenne peppers and put it out in 1929. A marketing adviser proposed 'Mexican Joe', to suggest Mexico's spicy cooking; Sam Garner wanted an American name, so Texas — a state known for hot food — was joined to Pete, Harold's nickname. Thad W. Garner founded the T.W. Garner Food Company the same year, and the company still makes the sauce in Winston-Salem, twenty miles north of Lexington, in dip country. *Inference —* a Piedmont barbecue stand's table sauce became the east's hot sauce because it was the one made in the state and stocked everywhere in it; the bottle joined the vinegar on Coastal Plain tables at some point this project has no date for, and Skylight Inn, cooking whole hogs since 1947, names it in its own seasoning. The company has since made an Eastern Carolina BBQ Sauce of its own — apple cider vinegar, tomato paste, red pepper flakes and sugar — along with a sriracha, 'Cha!', in 2013 and a Mexican-style sauce, Sabor!, in 2016; it dropped its hot-dog chili sauce in 2015.",
+  "how": "Shaken over chopped pork at the table for the heat the vinegar sauce lacks; stirred into the house dressing at some pits — Skylight Inn's is vinegar, salt, pepper and Texas Pete; and, *Tradition holds —* the pepper of choice in home versions of the eastern sauce, a few dashes into a cup of vinegar.",
+  "today": "The seventh-best-selling hot sauce in the United States in 2022 by Instacart's count, in 6-, 12- and 24-ounce bottles, with a Hotter Hot Sauce, a garlic sauce, a sriracha and the Eastern Carolina BBQ Sauce beside it. Still made in Winston-Salem."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the tradition whose tables it stands on: shaken over chopped whole hog beside the vinegar.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sauce it goes into at Skylight Inn and sits beside everywhere else.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where the chop is dressed with vinegar, salt, pepper and Texas Pete.",
+   "rel": "served-at"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "its own Eastern Carolina BBQ Sauce — cider vinegar, tomato paste, red pepper flakes, sugar — is one, by the South Carolina map's terms.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "as": "its home ground: Winston-Salem is twenty miles north of Lexington, in dip country, and the sauce began at a barbecue stand there.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "as": "the other North Carolina bottle: Scott's is a barbecue sauce from Goldsboro, this a hot sauce from the Piedmont.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the bottle on the table beside the tray.",
+   "rel": "serves"
+  }
+ ],
+ "links": [
+  {
+   "label": "Texas Pete — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Texas_Pete"
+  },
+  {
+   "label": "Texas Pete Eastern Carolina BBQ Sauce — texaspete.com",
+   "url": "https://texaspete.com/shop/eastern-carolina-bbq-sauce/"
+  },
+  {
+   "label": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ"
+  }
+ ],
+ "sources": [
+  "s:wp-texas-pete",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-lexington-north-carolina",
+  "s:web-texas-pete-eastern-carolina",
+  "s:reed-holy-smoke",
+  "s:web-texaspete-original",
+  "s:book-virginia-house-wife"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-texas-pete"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-texas-pete",
+    "note": "the company history from the Wikipedia article; the distance from the Lexington article; the Eastern Carolina sauce from the company's product page; the how-it-reached-the-east paragraph is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "Skylight's dressing is cited; the table habit and home use are the tradition's (Reed)"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-texas-pete"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:web-texaspete-original",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Texas Pete Original Hot Sauce — the label",
+   "source": "s:web-texaspete-original",
+   "license": "ingredients-only",
+   "url": "https://texaspete.com/products/original-hot-sauce/",
+   "ingredients": [
+    "Vinegar",
+    "Aged Peppers (Peppers, Salt, Vinegar)",
+    "Water",
+    "Xanthan Gum",
+    "Benzoate of Soda (To Preserve Freshness and Flavor)"
+   ],
+   "note": "Ingredients only, in label order, from the maker's own product page read 16 September 2026. The panel there gives a 1-teaspoon serving at 0 calories and 115 mg sodium.",
+   "region": "Winston-Salem, North Carolina"
+  },
+  {
+   "title": "Pepper Vinegar",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Get one dozen pods of pepper when ripe, take out the stems, and cut them in two; put them in a kettle with three pints of vinegar, boil it away to one quart, and strain it through a sieve. A little of this is excellent in gravy of every kind, and gives a flavour greatly superior to black pepper; it is also very fine when added to each of the various catsups for fish sauce.",
+   "page": 163,
+   "note": "Peppers and vinegar and nothing else, boiled down and strained: the household ancestor of a bottled cayenne sauce, a century before the Garners began making one."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "hot-sauce",
+  "maker": "T.W. Garner Food Company",
+  "town": "Winston-Salem",
+  "state": "NC",
+  "ingredients": [
+   "VINEGAR",
+   "AGED PEPPERS (PEPPERS, SALT, VINEGAR)",
+   "WATER",
+   "XANTHAN GUM AND BENZOATE OF SODA (TO PRESERVE FRESHNESS AND FLAVOR)"
+  ],
+  "tomato_rank": 0,
+  "vinegar_rank": 1,
+  "mustard_rank": 0,
+  "sugar_rank": 0,
+  "serving_tbsp": 1,
+  "sugar_g_per_tbsp": null,
+  "sodium_mg_per_tbsp": null,
+  "heat": "hot",
+  "source": "s:web-usda-fdc-branded",
+  "url": "https://fdc.nal.usda.gov/food-details/2133115/nutrients",
+  "accessed": "2026-09-16",
+  "note": "The Original Hot Sauce bottle that sits on the table, not the company's Eastern Carolina BBQ Sauce. Vinegar, peppers, water and a thickener: the same two ingredients an eastern dip is built on, in the same order, which is why a shaker of it doubles as a sauce. The serving is a teaspoon and the panel declares no sugars or sodium figure, so those are null. USDA FoodData Central record 2133115, GTIN 075500003523. Its Eastern Carolina BBQ Sauce is profiled on the light tomato sauce page."
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "A cayenne-pepper hot sauce made by the T.W. Garner Food Company of Winston-Salem, North Carolina, since 1929 — mild as hot sauces go, 747 on the Scoville scale — in a flip-top bottle with a red cowboy on a…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the tradition whose tables it stands on: shaken over chopped whole hog beside the vinegar.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the sauce it goes into at Skylight Inn and sits beside everywhere else.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "where the chop is dressed with vinegar, salt, pepper and Texas Pete.",
+   "rel": "served-at"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "its own Eastern Carolina BBQ Sauce — cider vinegar, tomato paste, red pepper flakes, sugar — is one, by the South Carolina map's terms.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "its home ground: Winston-Salem is twenty miles north of Lexington, in dip country, and the sauce began at a barbecue stand there.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "the other North Carolina bottle: Scott's is a barbecue sauce from Goldsboro, this a hot sauce from the Piedmont.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the bottle on the table beside the tray.",
+   "rel": "serves"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-texas-pete",
+   "kind": "wikipedia",
+   "title": "Texas Pete — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Texas_Pete",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1314228689"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-texas-pete-eastern-carolina",
+   "kind": "web",
+   "title": "Eastern Carolina BBQ Sauce — product page",
+   "publisher": "T.W. Garner Food Company (texaspete.com)",
+   "url": "https://texaspete.com/shop/eastern-carolina-bbq-sauce/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:web-texaspete-original",
+   "kind": "web",
+   "title": "Original Hot Sauce — product page, ingredients and nutrition panel",
+   "publisher": "T.W. Garner Food Company",
+   "url": "https://texaspete.com/products/original-hot-sauce/",
+   "accessed": "2026-09-16",
+   "note": "The maker's own ingredient statement and nutrition panel, read 16 September 2026."
+  },
+  {
+   "id": "s:book-virginia-house-wife",
+   "kind": "book",
+   "title": "The Virginia House-Wife, or Methodical Cook",
+   "author": "Mrs. Mary Randolph",
+   "publisher": "Plaskitt & Cugle, Baltimore",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1824, the first cookbook of the American South. Read in the stereotype printing scanned by the Internet Archive as virginiahousewif00rand, whose page numbers are used here; the fourth-edition scan (virginiahousewi00rand, printed about 1830) was read alongside it to settle characters each scan loses."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-texas-pete"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-texas-pete",
+   "note": "the company history from the Wikipedia article; the distance from the Lexington article; the Eastern Carolina sauce from the company's product page; the how-it-reached-the-east paragraph is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "Skylight's dressing is cited; the table habit and home use are the tradition's (Reed)"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-texas-pete"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-texas-pete"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "golding-farms-sauces",
+   "type": "sauce",
+   "name": "Golding Farms Foods",
+   "as": "the other Winston-Salem sauce house, three miles away, whose bottle carries its own name.",
+   "rel": "kin"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "whose bottled Eastern Carolina BBQ Sauce — cider vinegar, tomato paste, red pepper flakes, sugar — is a light tomato sauce by this map's terms.",
+   "rel": "kin"
+  },
+  {
+   "from": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "the other North Carolina bottle on eastern tables — that one a hot sauce from the Piedmont, this one a barbecue sauce from the east.",
+   "rel": "kin"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the hot sauce that goes into it at Skylight Inn and stands beside it on eastern tables.",
+   "rel": "kin"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the hot sauce in Tad Everett's pot and in the Parker's-style broth.",
+   "rel": "sauce"
+  },
+  {
+   "from": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "as": "the state's other bottled name on the barbecue table, from Winston-Salem, twelve years younger.",
+   "rel": "kin"
+  },
+  {
+   "from": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "part of the Skylight Inn's seasoning at the block.",
+   "rel": "sauce"
+  },
+  {
+   "from": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "on the table for the hash.",
+   "rel": "sauce"
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "schema": 1,
+ "id": "dennis-rogers",
+ "type": "person",
+ "names": {
+  "name": "Dennis Rogers",
+  "aliases": [
+   "the oracle of the holy grub"
+  ],
+  "sort": "Rogers, Dennis"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "role": [
+   "writer"
+  ],
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "Dennis Rogers (October 10, 1942 – August 8, 2020), a News & Observer columnist for more than thirty years, raised in Wilson and an Army veteran, who wrote about small-town eastern North Carolina and its soldiers and, in barbecue, spoke for the east: whole hog with vinegar and pepper and nothing else. He called himself the 'oracle of the holy grub' in a long mock war of columns with Jerry Bledsoe of Greensboro over ketchup in the sauce. His columns were collected in Home Grown (1979), Second Harvest (1981), Crossroads (1984) and It's Bad News When the Bartender Cries (1988).",
+  "story": "The war ran in print for decades, Rogers from Raleigh for the whole hog of Wilson, Greenville and Goldsboro, Bledsoe from Greensboro for the Piedmont's shoulder and red dip, each with a self-conferred title. Rogers's line, in one column, was that people who would put ketchup in the sauce they feed to innocent children are capable of most anything, and that the eastern purveyors of pure barbecue would not be roadkill for their western kin. When the 2005 bills over the Lexington Barbecue Festival's title brought the argument to the General Assembly, ABC's World News Tonight put the two men on air: Rogers said of the eastern sauce, 'It doesn't need anything else', and that somebody who would put ketchup on barbecue and give it to a child was capable of pretty much anything; Bledsoe answered that America loves ketchup and that Rogers had ruined any chance of the state being distinguished in its barbecue. In January 2007, after thirty years as a columnist, Rogers gave up the column at 64 for a new beat — the home front and the war's weight on eastern North Carolina, reported from Sanford — telling WRAL, 'I'm not dead yet!' and that he could not walk away with the soldiers' stories untold. He retired later that year, kept a website of his and his wife's RV travels, wrote a novel, acted in local theatre and rode motorcycles. He died in his sleep on August 8, 2020, at 77, after a long illness.",
+  "today": "Died August 8, 2020, at 77. His column collections, published by the News & Observer between 1979 and 1988, survive in libraries and used bookshops; his family promised a barbecue in his memory once the pandemic allowed."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style he spoke for: the whole hog of Wilson, Greenville and Goldsboro.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "'It doesn't need anything else': his verdict on it, to ABC in 2005.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "ketchup in sauce fed to innocent children — his charge against it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington",
+   "as": "the style his columns needled for decades.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "as": "his opponent from Greensboro, the self-styled world's leading, foremost barbecue authority.",
+   "rel": "person"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "whose 2005–07 bills brought the war back onto the air.",
+   "rel": "event"
+  },
+  {
+   "to": "down-east",
+   "as": "the country he came from, Wilson, and wrote about.",
+   "rel": "term"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the eastern cut, 'with vinegar and pepper sauce only', as he put his side.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Dennis Rogers dies at 77 — WRAL, 2020",
+   "url": "https://www.wral.com/former-wral-contributor-n-o-columnist-dennis-rogers-dies-at-77/19226449/"
+  },
+  {
+   "label": "Dennis Rogers obituary — Bryan-Lee Funeral Home",
+   "url": "https://www.bryan-leefuneralhome.com/obituaries/Dennis-Rogers?obId=20051678"
+  },
+  {
+   "label": "Longtime N&O columnist begins new beat — WRAL, 2007",
+   "url": "https://www.wral.com/news/local/story/1182921/"
+  },
+  {
+   "label": "Smoke, Fire as BBQ Bigshots Battle Over Ketchup — ABC News, 2005",
+   "url": "https://abcnews.go.com/WNT/story?id=813146"
+  }
+ ],
+ "sources": [
+  "s:web-wral-dennis-rogers-dies",
+  "s:web-bryan-lee-dennis-rogers-obituary",
+  "s:web-wral-rogers-new-beat-2007",
+  "s:web-openlibrary-dennis-rogers",
+  "s:web-abc-barbecue-feud",
+  "s:web-bbqjew-defining-styles",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-lexington-barbecue-festival"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wral-dennis-rogers-dies"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-bryan-lee-dennis-rogers-obituary",
+    "note": "birth date from the funeral home; the book years from Open Library, whose author page mixes in other men of the name — only the four News & Observer titles are used"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-abc-barbecue-feud",
+    "note": "the column quotation from BBQ Jew (2009); the 2007 beat and quotes from WRAL (2007); the retirement, the RV site, the novel and the death from WRAL (2020) and the funeral home"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-bryan-lee-dennis-rogers-obituary"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Dennis Rogers (October 10, 1942 – August 8, 2020), a News & Observer columnist for more than thirty years, raised in Wilson and an Army veteran, who wrote about small-town eastern North Carolina and its soldiers and, in…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style he spoke for: the whole hog of Wilson, Greenville and Goldsboro.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "'It doesn't need anything else': his verdict on it, to ABC in 2005.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "ketchup in sauce fed to innocent children — his charge against it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style his columns needled for decades.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "his opponent from Greensboro, the self-styled world's leading, foremost barbecue authority.",
+   "rel": "person"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "whose 2005–07 bills brought the war back onto the air.",
+   "rel": "event"
+  },
+  {
+   "to": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "the country he came from, Wilson, and wrote about.",
+   "rel": "term"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the eastern cut, 'with vinegar and pepper sauce only', as he put his side.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-wral-dennis-rogers-dies",
+   "kind": "web",
+   "title": "Former WRAL contributor, N&O columnist Dennis Rogers dies at 77 (August 8, 2020)",
+   "publisher": "WRAL",
+   "url": "https://www.wral.com/former-wral-contributor-n-o-columnist-dennis-rogers-dies-at-77/19226449/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-bryan-lee-dennis-rogers-obituary",
+   "kind": "web",
+   "title": "Dennis Rogers obituary (August 8, 2020)",
+   "publisher": "Bryan-Lee Funeral Home, Garner NC",
+   "url": "https://www.bryan-leefuneralhome.com/obituaries/Dennis-Rogers?obId=20051678",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wral-rogers-new-beat-2007",
+   "kind": "web",
+   "title": "Longtime N&O Columnist Begins New Beat (January 29, 2007)",
+   "publisher": "WRAL",
+   "url": "https://www.wral.com/news/local/story/1182921/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-openlibrary-dennis-rogers",
+   "kind": "web",
+   "title": "Dennis Rogers — author page",
+   "publisher": "Open Library",
+   "url": "https://openlibrary.org/authors/OL1240356A/Dennis_Rogers",
+   "accessed": "2026-09-15",
+   "note": "the page mixes several authors of the name; used only for the four News & Observer column collections and their years"
+  },
+  {
+   "id": "s:web-abc-barbecue-feud",
+   "kind": "web",
+   "title": "Smoke, Fire as BBQ Bigshots Battle Over Ketchup (John Berman, World News Tonight, 2 Jun 2005)",
+   "publisher": "ABC News",
+   "url": "https://abcnews.go.com/WNT/story?id=813146",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-bbqjew-defining-styles",
+   "kind": "web",
+   "title": "Defining the Styles (30 Nov 2009)",
+   "publisher": "BBQ Jew",
+   "url": "https://bbqjew.com/2009/11/30/cantwealljustgetalong/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-barbecue-festival",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-bryan-lee-dennis-rogers-obituary",
+   "note": "birth date from the funeral home; the book years from Open Library, whose author page mixes in other men of the name — only the four News & Observer titles are used"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-abc-barbecue-feud",
+   "note": "the column quotation from BBQ Jew (2009); the 2007 beat and quotes from WRAL (2007); the retirement, the RV site, the novel and the death from WRAL (2020) and the funeral home"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-bryan-lee-dennis-rogers-obituary"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the east's columnist, whose ketchup jokes this style answered for decades.",
+   "rel": "person"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its accuser: ketchup in sauce fed to children.",
+   "rel": "person"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the columnist who said of it, 'It doesn't need anything else'.",
+   "rel": "person"
+  },
+  {
+   "from": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "his opponent for decades, the Raleigh columnist and 'oracle of the holy grub'.",
+   "rel": "person"
+  },
+  {
+   "from": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the eastern columnist on the other side of that war.",
+   "rel": "person"
+  },
+  {
+   "from": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "the Raleigh News & Observer columnist on the eastern side of the 1980s barbecue feud with Jerry Bledsoe.",
+   "rel": "person"
+  },
+  {
+   "from": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "as": "the east's columnist, the oracle of the holy grub, who took the whole hog's side for decades.",
+   "rel": "person"
+  }
+ ]
+}

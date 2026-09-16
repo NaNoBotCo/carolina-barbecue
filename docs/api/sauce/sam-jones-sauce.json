@@ -1,0 +1,341 @@
+{
+ "schema": 1,
+ "id": "sam-jones-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "Sam Jones BBQ sauce",
+  "aliases": [
+   "Sam Jones Sweet BBQ Sauce",
+   "Sam Jones Vinegar"
+  ],
+  "said": "The sauce from the Ayden family's Winterville restaurant."
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "base": "heavy-tomato",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A bottled line from the whole-hog house Sam Jones opened at Winterville in 2015, third generation of the Skylight Inn family at Ayden. The Sweet bottle's Nutrition Facts give 10 grams of total sugars and 210 milligrams of sodium in a 2-tablespoon serving, which is 5 grams of sugar and 105 milligrams of sodium to the tablespoon, but the record carries no ingredient list, so its order cannot be read and its base is recorded as other.",
+  "story": "The Jones family cooks whole hogs over wood at Ayden and has since Pete Jones opened the Skylight Inn in 1947, in a line the family traces to Skilton Dennis in 1830. The sauce a whole-hog pit of that kind puts on chopped pork is vinegar, pepper and salt, mixed by the bucket at the block.\n\n*Inference —* the bottle is a separate object from the bucket. A sweet sauce at five grams of sugar to the tablespoon is not what goes on the meat at the pit; it is what a customer takes home, and what ships. The distance between a pit's own sauce and the pit's bottled sauce is one of the things this project can only measure on one side.",
+  "today": "Sold from the restaurant's online store at Winterville. The Sweet bottle's panel is recorded in Open Food Facts; no ingredient list is published with it."
+ },
+ "kin": [
+  {
+   "to": "sam-jones-bbq",
+   "as": "the Winterville restaurant whose name the bottle carries.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones",
+   "as": "the third-generation pitmaster the bottle is named for.",
+   "rel": "person"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style the pit cooks, which the sweet bottle is not a bottling of.",
+   "rel": "style"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "what goes on the chopped pork at the block, against the five grams of sugar a tablespoon in the bottle.",
+   "rel": "contrast"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cook the house is built on.",
+   "rel": "pit"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the Ayden pit the family has cooked at since 1947.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Sam Jones BBQ — online store",
+   "url": "https://www.samjonesbbq.com/online-store"
+  },
+  {
+   "label": "Open Food Facts 0806802958422",
+   "url": "https://world.openfoodfacts.org/product/0806802958422"
+  }
+ ],
+ "sources": [
+  "s:web-openfoodfacts",
+  "s:web-samjones-store",
+  "s:web-ourstate-sam-jones-legacy",
+  "s:web-gardenandgun-sam-jones-2019",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+  "s:wikibooks-eastern-north-carolina-barbecued-pig",
+  "s:wikibooks-barbecue-sauce-sweet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:web-openfoodfacts"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the family line and the 1947 and 1830 dates are carried on the Skylight Inn and Sam Jones records; the closing paragraph is marked inference"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:web-openfoodfacts"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Eastern North Carolina Barbecue Sauce",
+   "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¾ gallons apple cider vinegar",
+    "⅛ cup salt",
+    "¼ cup ground black pepper",
+    "¼ cup red pepper flakes",
+    "1 cup molasses",
+    "2 cups honey"
+   ],
+   "text": "1. Start with apple cider vinegar in saucepan over medium heat.\n2. Add salt, ground black pepper, crushed red pepper, molasses, and honey.\n3. Let mixture heat up, but not quite boil.\n4. Mix well.\n5. Return sauce to the jug that the vinegar came in to cool.",
+   "yield": "¾ gallon",
+   "note": "The vinegar sauce of the county the Jones family cooks in, freely licensed. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "Eastern North Carolina Barbecued Pig",
+   "source": "s:wikibooks-eastern-north-carolina-barbecued-pig",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecued_Pig",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "80 pound pig (butchered with head removed)",
+    "Salt",
+    "40 pounds charcoal (for charcoal cooking option)",
+    "Your favorite vinegar-based Eastern NC sauce"
+   ],
+   "text": "1. Salt hams, ribs/midsection and shoulders liberally and place skin side up on either a gas or charcoal grill or a BBQ pit.\n2. Keep lid closed, and aim for a heat of approximately 275–350°F.\n3. Allow 1 hour per 10 pounds cooking time (gas or charcoal).\n4. 2 hours before being done, place pig with the skin side down. As soon as it is flipped, pour BBQ sauce on meat side.\n5. Close lid and allow skin to crisp.\n6. The pig will be done to perfection when the ham bone can be twisted freely.\n7. Lift lid and allow guests to pick/pull meat, or the chef can remove meat and chop to their liking on a chopping block.",
+   "yield": "about 27 lb of meat, serving 30–40",
+   "note": "The whole hog the sauce is made for, at a size a home pit can manage.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving.",
+   "note": "Ketchup, cider vinegar and brown sugar, for the sweet bottle's end of the range."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "other",
+  "maker": "Sam Jones BBQ",
+  "town": "Winterville",
+  "state": "NC",
+  "ingredients": [],
+  "tomato_rank": null,
+  "vinegar_rank": null,
+  "mustard_rank": null,
+  "sugar_rank": null,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 5.0,
+  "sodium_mg_per_tbsp": 105.0,
+  "heat": null,
+  "source": "s:web-openfoodfacts",
+  "url": "https://world.openfoodfacts.org/product/0806802958422",
+  "accessed": "2026-09-16",
+  "note": "The Sweet BBQ Sauce bottle, Open Food Facts barcode 0806802958422: 2 Tbsp (33.25 g), 10 g total sugars, 210 mg sodium, 47 kcal. The record carries no ingredient list, so every rank is null and the base is other — the word Sweet on the bottle names a taste, not a base."
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A bottled line from the whole-hog house Sam Jones opened at Winterville in 2015, third generation of the Skylight Inn family at Ayden.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "the Winterville restaurant whose name the bottle carries.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones",
+   "type": "person",
+   "name": "Sam Jones",
+   "as": "the third-generation pitmaster the bottle is named for.",
+   "rel": "person"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style the pit cooks, which the sweet bottle is not a bottling of.",
+   "rel": "style"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "what goes on the chopped pork at the block, against the five grams of sugar a tablespoon in the bottle.",
+   "rel": "contrast"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cook the house is built on.",
+   "rel": "pit"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "the Ayden pit the family has cooked at since 1947.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-openfoodfacts",
+   "kind": "web",
+   "title": "Open Food Facts",
+   "publisher": "Open Food Facts",
+   "url": "https://world.openfoodfacts.org/",
+   "license": "Open Database License 1.0",
+   "note": "Label photographs and transcriptions contributed by the public. Each row names the barcode it came from.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-samjones-store",
+   "kind": "web",
+   "title": "Online store",
+   "publisher": "Sam Jones BBQ, Winterville NC",
+   "url": "https://www.samjonesbbq.com/online-store",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ourstate-sam-jones-legacy",
+   "kind": "web",
+   "title": "Pitmaster of Pitt County: Sam Jones Upholds Family Legacy Established at Skylight Inn (Billy Ball, 2016-02-12)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/sam-jones-bbq-upholds-family-legacy-established-at-skylight-inn/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-gardenandgun-sam-jones-2019",
+   "kind": "web",
+   "title": "Sam Jones, North Carolina's Barbecue Baron — Garden & Gun (Kathleen Purvis, April/May 2019)",
+   "publisher": "Garden & Gun",
+   "url": "https://gardenandgun.com/sam-jones-interview",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sauce-harvest-2026-09-16",
+   "kind": "web",
+   "title": "Bottled Carolina barbecue sauce labels, 68 rows",
+   "publisher": "This project — data/harvest/sauces.json",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "The harvest file itself: every label this project could read on 2026-09-16, with the page each row came from. Cited where a record reports a figure computed across the harvest rather than from one bottle.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "kind": "web",
+   "title": "Cookbook:Eastern North Carolina Barbecue Sauce — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-eastern-north-carolina-barbecued-pig",
+   "kind": "web",
+   "title": "Cookbook:Eastern North Carolina Barbecued Pig — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecued_Pig",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-sweet",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce (Sweet) — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:web-openfoodfacts"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the family line and the 1947 and 1830 dates are carried on the Skylight Inn and Sam Jones records; the closing paragraph is marked inference"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:web-openfoodfacts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

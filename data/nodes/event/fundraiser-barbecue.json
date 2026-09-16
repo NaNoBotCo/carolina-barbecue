@@ -1,0 +1,52 @@
+{
+ "schema": 1,
+ "id": "fundraiser-barbecue",
+ "type": "event",
+ "names": {
+  "name": "fundraiser barbecue",
+  "aliases": ["plate sale", "barbecue plate sale", "church barbecue", "fire department barbecue", "hash sale", "BBQ fundraiser"]
+ },
+ "region": ["carolinas"],
+ "facets": {"state": "both", "when": "Saturdays; spring and fall", "status": "open"},
+ "text": {
+  "what": "The plate sale: a church, a volunteer fire department, a Ruritan club or a scout troop cooks pork — a whole hog or a stack of butts — and sells it by the plate on a Saturday to pay for a roof, a truck or a mission. In eastern North Carolina the plate is barbecue or barbecue chicken with slaw and bread; Back Swamp Volunteer Fire Department in Richlands sold pork or chicken plates for $10 on April 18, 2026, from 11 a.m. until the food ran out. In South Carolina the same money is often raised on hash: the Highway 34 Volunteer Fire Department outside Ninety Six cooks it in cast-iron pots and sells it by the quart to neighbors who read the notice in the paper and phone in an order.",
+  "story": "The fundraiser is where the whole-hog barbecue of the colonial Carolinas went when the plantation left: barbecues for fundraisers, church gatherings and political rallies are on record in the Carolina colonies, and John Shelton Reed's line is that until the early twentieth century barbecue was reserved for harvests, fundraisers and rallies. Mallard Creek Presbyterian Church in Charlotte is the form at full scale: begun in 1929 to pay $89.50 of Sunday-school debt, it grew to 14,600 pounds of pork and 20,000 eaters by 2015 and ran ninety-three years on volunteers taking a week off work. Hillsborough's Hog Day began in 1983 as a chamber-of-commerce fundraiser and since 2014 has been the Orange County Optimist Club's, its proceeds to children's programs — Future Farmers of America, the Hillsborough 4-H and a church youth group in 2025. On the coast the volunteer fire departments own the Saturday calendar: Back Swamp's annual barbecue and raffle at the station on Catherine Lake Road is one of dozens. South Carolina's version is the hash sale: fire stations, churches and civic groups stew pork, liver and onions in iron kettles over a wood fire and sell hash by the quart; at Highway 34 VFD, Melvin Fouchee learned the recipe from Ike Berry and the department buys its equipment on the proceeds. The South Carolina Barbeque Association's cook-off calendar is much the same list under another name — Troop 61's competition at Pomaria, the Hopeful Hog Festival at Lancaster.",
+  "how": "A Saturday, 11 a.m. until sold out. The pigs or butts cook overnight on a rented or department-owned cooker; volunteers make slaw and stew; plates are packed to go — barbecue, slaw, bread, sometimes potatoes or beans — and sold at a window or a drive-through for a set price, with a raffle beside the table. Hash is ordered by the quart in advance and picked up; Mallard Creek sold by the plate, sandwich, pound and quart.",
+  "today": "Continuous. Back Swamp VFD's plate was $10 in April 2026; Mallard Creek's was $15 in October 2024 and is no more; the SCBA calendar listed eight cook-offs for the autumn of 2026."
+ },
+ "kin": [
+  {"to": "mallard-creek-barbecue", "as": "the church plate sale at its largest scale, 1929 to 2024.", "rel": "event"},
+  {"to": "hillsborough-hog-day", "as": "a chamber's, then a service club's, fundraiser for youth programs.", "rel": "event"},
+  {"to": "political-barbecue", "as": "the candidates come to the fundraiser's crowd.", "rel": "event"},
+  {"to": "pig-pickin", "as": "the same pig, sold by the plate instead of picked.", "rel": "event"},
+  {"to": "pig-cooker", "as": "what the pigs cook on behind the fire station.", "rel": "part"},
+  {"to": "block-pit", "as": "the other thing they cook on.", "rel": "kin"},
+  {"to": "hash-and-rice", "as": "the South Carolina fundraiser's product, sold by the quart.", "rel": "serves"},
+  {"to": "barbecue-chicken", "as": "the other plate at a fire-department sale.", "rel": "serves"},
+  {"to": "brunswick-stew", "as": "in the church's kettles beside the pork.", "rel": "serves"},
+  {"to": "slaw", "as": "on every plate.", "rel": "term"},
+  {"to": "south-carolina-barbeque-association", "as": "sanctions the cook-off version.", "rel": "kin"},
+  {"to": "whole-hog", "as": "the fire department's Saturday pig.", "rel": "part"},
+  {"to": "pork-shoulder", "as": "the butts that replaced the pig at many sales.", "rel": "part"}
+ ],
+ "confusable_with": [
+  {"id": "political-barbecue", "tell": "A fundraiser sells the plate; a political barbecue gives it away and the candidate pays."}
+ ],
+ "links": [
+  {"label": "WCTI, 2026 — Back Swamp VFD barbecue", "url": "https://wcti12.com/news/local/back-swamp-volunteer-fire-department-to-host-annual-bbq-fundraiser-and-raffle"},
+  {"label": "SCETV Knowitall — Hwy 34 VFD hash", "url": "https://www.knowitall.org/series/digital-traditions/foodways/hwy-34-volunteer-fire-department"}
+ ],
+ "sources": ["s:wp-whole-hog-barbecue", "s:web-sfa-north-carolina-bbq", "s:web-mallard-creek-history", "s:web-ourstate-mallard-creek", "s:web-wfae-mallard-creek-ends", "s:web-mallard-creek-annual-barbecue", "s:web-wral-hog-day-canceled", "s:web-chapelboro-hog-day-returns-2014", "s:web-dailytarheel-hog-day-2025", "s:web-wcti-back-swamp-vfd", "s:web-knowitall-hwy-34-vfd", "s:wp-hash-stew", "s:scba"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:web-wcti-back-swamp-vfd"},
+  "fields": {
+   "text.how": {"tier": "tradition", "note": "the Saturday routine generalized from the cited sales; the hash ordering from SCETV"},
+   "text.today": {"tier": "cited", "source": "s:scba", "note": "prices with their dates; SCBA calendar as posted on 2026-09-15"}
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

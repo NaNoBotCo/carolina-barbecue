@@ -1,0 +1,169 @@
+{
+ "schema": 1,
+ "id": "baked-beans",
+ "type": "dish",
+ "names": {
+  "name": "baked beans",
+  "aliases": [
+   "barbecue beans",
+   "pit beans"
+  ],
+  "said": "'Beans' on a Carolina barbecue board means these, sweet and brown, not the field peas or butter beans of a vegetable buffet."
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "lexington",
+   "eastern-nc",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "White beans — navy or pea beans — cooked slow in a sweet brown sauce of molasses or brown sugar with pork in it, and served hot in a cup or a compartment of the tray. On a Carolina barbecue plate they usually come from a large can, warmed and doctored at the pit with more sugar, mustard, onion or a handful of chopped barbecue; the traditional form is dried beans parboiled and then baked for hours in a covered pot, and the canned form is cooked through steam rather than baked at all. They belong to the pig pickin' — the outdoor party where guests pull the meat off a whole hog — as much as to the counter.",
+  "story": "The dish is North American before it is Southern. Native peoples of the northeast cooked beans with bear fat and maple syrup; British colonists in New England put molasses or brown sugar in place of the syrup and bacon or ham in place of the fat, and simmered the pot over the fire rather than under the ground, and by the nineteenth century each colony had its own bean — navy in Massachusetts, Jacob's Cattle in Maine, yellow-eye in Vermont. Molasses, used from the eighteenth century partly to dodge British sugar duty, is what ties the sweet brown style to Boston. Mrs. A. P. Hill printed a Southern version in 1867 that parboils the beans three times and buries a scored pound of pickled pork in them. What put beans on the barbecue tray was the can: H. J. Heinz began mass canning them in Pennsylvania in 1895, and by the early twentieth century canned beans were among the first convenience foods. *Tradition holds —* the pit adopted them because a number ten can feeds a crowd and needs no cook. *Inference —* the sweet-and-smoky seasoning most pits add is a way of making a Northern factory bean taste like it came off the pit.",
+  "how": "Dried beans are soaked overnight, parboiled until tender, then baked slowly in a ceramic or cast-iron pot with salt pork, molasses or brown sugar, onion and mustard, until the liquid thickens and the top darkens. The pit version starts from the can: the beans go in a hotel pan with brown sugar, mustard, onion, sometimes ketchup and a scoop of chopped barbecue or the burnt ends of the shoulder, and sit at the back of the pit or in a low oven until the sauce reduces and a skin forms on top. Served hot, in a cup beside the meat or a compartment of the tray.",
+  "today": "On the tray at Piedmont pits beside hushpuppies and red slaw. At Brown's Bar-B-Que in Kingstree, South Carolina, a whole-hog plate with bread, baked beans and slaw is the take-out order. Beans, slaw and hushpuppies are the standing list for a pig pickin'."
+ },
+ "kin": [
+  {
+   "to": "barbecue-tray",
+   "as": "a compartment of it, beside the slaw.",
+   "rel": "part"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "one of the three things a pickin' is eaten with: hushpuppies, coleslaw, baked beans.",
+   "rel": "event"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "where a whole-hog take-out plate is bread, baked beans and slaw.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the bread on the same tray.",
+   "rel": "kin"
+  },
+  {
+   "to": "red-slaw",
+   "as": "its partner in a Lexington tray, with the hushpuppies.",
+   "rel": "kin"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "the other thing a pickin' serves in a cup, instead of these.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fixins",
+   "as": "one of the fixins, in the word the menus use.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "brunswick-stew",
+   "tell": "Both come in a cup beside the meat. Beans are whole and brown in a sweet sauce; the stew is red, thick with corn and butter beans, and has chicken or pork shredded through it."
+  }
+ ],
+ "links": [
+  {
+   "label": "Baked beans — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Baked_beans"
+  }
+ ],
+ "sources": [
+  "s:wp-baked-beans",
+  "s:wp-pig-pickin",
+  "s:web-sfa-browns-bar-b-q",
+  "s:web-destination-bbq-browns",
+  "s:wp-barbecue-in-north-carolina"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-baked-beans"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-baked-beans",
+    "note": "the pig pickin' list from Wikipedia's pig pickin' article; the 1867 receipt from Mrs. Hill"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-sfa-browns-bar-b-q",
+    "note": "Brown's take-out plate from the Southern Foodways interview and Destination BBQ"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-mrs-hills-new-cook-book",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Baked Pork and Beans (receipt 184)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Wash a quart of good white beans early in the morning; put them in a kettle with sufficient water to cover them; place the kettle upon the fire, and when the water becomes boiling hot — but it should not boil — pour the water and beans into a colander, until the water drains from them. Put them again into the kettle, and cover with cold water, adding a piece of soda, or saleratus, as large as a bean. Scald and again drain the water from them, and put the beans in cold water. Soak a pound of pickled pork of the lean part of the middling, in water enough to cover it, three hours. Put the pork and beans to stew in separate kettles. Half an hour before the beans are done, put them in a deep earthen pan, clear of the water they were boiled in. Take up the pork; score it across in gashes or slits, a quarter of an inch apart. Season it highly with pepper, and put it down in the dish of beans, until only the rind is visible; pour in a pint of warm water, and bake until the beans are soft and the meat entirely done. The water in which they were boiled makes a wholesome soup.",
+   "page": 105,
+   "note": "Saleratus is the old name for baking soda; the middling is the side of the hog, the cut bacon comes from. A Southern baked bean of 1867, with the pork sunk in the pot to the rind."
+  },
+  {
+   "title": "Baked Beans",
+   "source": "s:wikibooks-baked-beans",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABaked_Beans",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "2 pounds (900 g) Navy, Great Northern, or Pea beans, though black, kidney, or lima beans may be used for a different taste.",
+    "1 pound (450g) bacon, diced",
+    "2 large onions, chopped",
+    "1½ cups brown sugar",
+    "¾ cup molasses"
+   ],
+   "text": "1. Soak dry beans overnight, or use 4 cans cooked beans.\n2. Preheat oven to 350°F (175°C).\n3. Stir all ingredients together, then pour into casserole dish, bean pot or Dutch oven.\n4. Add water from beans, or preferably stock or fresh water. Just enough to barely cover. Canned beans may need less water. Beans will absorb more water as they cook.\n5. Bake 2½ hours. Check after an hour for moisture level, add more water as needed to keep appropriate moistness. If beans have too much liquid, remove lid and cook a bit longer.",
+   "yield": "8 servings"
+  },
+  {
+   "title": "Boston Baked Beans",
+   "source": "s:wikibooks-boston-baked-beans",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABoston_Baked_Beans",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "6 rashers thick cut bacon, sliced (or 5 drops liquid smoke)",
+    "4 cups canned kidney beans, rinsed and drained",
+    "½ cup molasses",
+    "¼ cup blackstrap molasses, plus more as needed",
+    "¼ cup dark brown sugar",
+    "2 tbsp dark rum",
+    "½ tsp salt",
+    "½ tsp black pepper",
+    "1 tbsp dry mustard"
+   ],
+   "text": "1. Cook bacon. Separate the meat from the fat, and chop the bacon.\n2. Place 1 tbsp of the bacon fat into a large stainless steel pan. Add kidney beans and sauté over medium-high heat.\n3. Add rum and tilt to ignite. If you do not have a gas stove, simply light with a fire stick.\n4. Add remaining ingredients and chopped bacon and fold to combine.\n5. Bake in a 325°F oven for 1 ½ hours, adding blackstrap molasses occasionally to prevent drying.",
+   "note": "The molasses-and-salt-pork form the sweet canned bean descends from."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

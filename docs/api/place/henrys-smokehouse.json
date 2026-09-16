@@ -1,0 +1,490 @@
+{
+ "schema": 1,
+ "id": "henrys-smokehouse",
+ "type": "place",
+ "names": {
+  "name": "Henry's Smokehouse",
+  "aliases": [
+   "Henry's",
+   "Henry's Smokehouse BBQ"
+  ],
+  "sort": "Henry's Smokehouse"
+ },
+ "region": [
+  "sc-upstate",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1991",
+  "fuel": "wood",
+  "styles": [
+   "sc-light-tomato",
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "An Upstate barbecue house at 240 Wade Hampton Boulevard on the edge of downtown Greenville, opened by Beau Hammond — in 1991 by the company's own account, in 1992 by the Greenville Journal's — in a small building that had been other eateries before. It cooks pork butts twelve hours and ribs six to eight over hickory logs in open pits, hand-pulls and chops the pork, and serves it with two sauces, a mild tomato-based one in the Piedmont manner and a spicy mustard one, with hash and rice on the side. A second house is in Simpsonville and a food truck, Henry's Hog Hauler, travels; the Barbeque Association lists it as 100-Mile Barbecue.",
+  "story": "Beau Hammond opened Henry's with a menu so short that the sides were coleslaw and simmered green beans, and a rule he kept repeating: 'You want to be fair to the customer first. The money will come after that.' The house grew, added stores in Simpsonville and on Woodruff Road, and passed to Tiger O'Rourke and Bo Wilder, partners who added hand-cut fries in O'Rourke's years. Playboy ranked it first in the world in June 2002, a line the house still quotes; it took the Upstate readers' award seventeen years running; and in 2024 Southern Living picked it for the state. John Malik, writing in the Greenville Journal in October 2025, found a pulled-pork sandwich with fries and half-and-half tea at about $13 and the fire still built every day: 'You have to baby great barbecue. The fire changes every day... The result of great smoked pork should stay the same.'",
+  "how": "Pork butts cook twelve hours and ribs, St. Louis cut, six to eight, in open pits over hickory logs — cured oak and pecan too, by Malik's account — at low temperatures, the fire built and tended all day. The pork is pulled by hand from the bone and chopped; the sauces are a mild tomato-based one and a spicy mustard; hash and rice, a stew of pork over rice, is on the menu with the hand-cut fries. About $13 for a sandwich, fries and tea in October 2025.",
+  "today": "Open Monday to Saturday 11 a.m. to 8 p.m. and Sunday 11 to 3 at 240 Wade Hampton Boulevard, Greenville, with the same hours at 123 North Main Street, Simpsonville, per the company's site on September 15, 2026."
+ },
+ "kin": [
+  {
+   "to": "sc-light-tomato",
+   "as": "the Upstate style it belongs to: pork butts, hickory, a thin tomato sauce beside the mustard.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "its second sauce is the Midlands' mustard, spicy.",
+   "rel": "kin"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "its mild sauce, tomato-based, in the Piedmont manner.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "its spicy sauce.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "pork butts — the upper shoulder — twelve hours over hickory.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory logs in open pits; oak and pecan by a 2025 account.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "on the menu, the Upstate's pork version.",
+   "rel": "serves"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "Henry's pulls the butts by hand, then chops.",
+   "rel": "term"
+  },
+  {
+   "to": "lewis-barbecue",
+   "as": "Greenville's Texas-style newcomer since 2022; Henry's is the older Carolina house.",
+   "rel": "kin"
+  },
+  {
+   "to": "home-team-bbq",
+   "as": "the Charleston company's Greenville branch, since 2021.",
+   "rel": "kin"
+  },
+  {
+   "to": "midway-bbq",
+   "as": "the Upstate's other old name, forty miles east in Union County, where the hash is beef.",
+   "rel": "kin"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "lists it as 100-Mile Barbecue.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 34.86283,
+  "lon": -82.38386,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "240 Wade Hampton Blvd",
+  "city": "Greenville",
+  "county": "Greenville",
+  "state": "SC",
+  "postcode": "29609"
+ },
+ "links": [
+  {
+   "label": "Henry's Smokehouse — official",
+   "url": "https://henryssmokehouse.com/"
+  },
+  {
+   "label": "Henry's Smokehouse remains an essential Greenville tradition — Greenville Journal (2025)",
+   "url": "https://greenvillejournal.com/eat-drink/henrys-smokehouse-remains-an-essential-greenville-tradition-city-juice-with-john-malik/"
+  }
+ ],
+ "sources": [
+  "s:web-henrys-home",
+  "s:web-henrys-blog-2024",
+  "s:web-greenville-journal-henrys-2025",
+  "s:web-destination-bbq-henrys",
+  "s:osm",
+  "s:web-truecue-sc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-henrys-home"
+  },
+  "fields": {
+   "facets.founded": {
+    "tier": "cited",
+    "source": "s:web-henrys-blog-2024",
+    "note": "the company's blog says 1991; the Greenville Journal (2025) says 1992; the earlier year is kept and both are given in the text"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-greenville-journal-henrys-2025",
+    "note": "the Playboy line, the seventeen years and the Southern Living pick from Destination BBQ and the company's blog"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-henrys-home"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-henrys-home"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-henrys-home",
+   "tier": "cited",
+   "note": "Pork butts cook twelve hours and ribs six to eight in open pits over hickory logs. Also on the True 'Cue SC certified list, read 2026-09-16."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-henrys-home",
+   "tier": "cited",
+   "note": "Hash and rice on the menu at both houses."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Henry's Smokehouse, Greenville",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "scba",
+   "what": "listed as 100-Mile Barbecue",
+   "source": "s:web-destination-bbq-henrys"
+  },
+  {
+   "by": "southern-living",
+   "what": "a South's Best list",
+   "source": "s:web-henrys-blog-2024"
+  }
+ ],
+ "blurb": "An Upstate barbecue house at 240 Wade Hampton Boulevard on the edge of downtown Greenville, opened by Beau Hammond — in 1991 by the company's own account, in 1992 by the Greenville Journal's — in a small building that…",
+ "region_terms": [
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "the Upstate style it belongs to: pork butts, hickory, a thin tomato sauce beside the mustard.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "its second sauce is the Midlands' mustard, spicy.",
+   "rel": "kin"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "its mild sauce, tomato-based, in the Piedmont manner.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "its spicy sauce.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "pork butts — the upper shoulder — twelve hours over hickory.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "hickory logs in open pits; oak and pecan by a 2025 account.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "on the menu, the Upstate's pork version.",
+   "rel": "serves"
+  },
+  {
+   "to": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "Henry's pulls the butts by hand, then chops.",
+   "rel": "term"
+  },
+  {
+   "to": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "as": "Greenville's Texas-style newcomer since 2022; Henry's is the older Carolina house.",
+   "rel": "kin"
+  },
+  {
+   "to": "home-team-bbq",
+   "type": "place",
+   "name": "Home Team BBQ",
+   "as": "the Charleston company's Greenville branch, since 2021.",
+   "rel": "kin"
+  },
+  {
+   "to": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "the Upstate's other old name, forty miles east in Union County, where the hash is beef.",
+   "rel": "kin"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "lists it as 100-Mile Barbecue.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-henrys-home",
+   "kind": "web",
+   "title": "Henry's Smokehouse — official site",
+   "publisher": "Henry's Smokehouse, Greenville",
+   "url": "https://henryssmokehouse.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-henrys-blog-2024",
+   "kind": "web",
+   "title": "Henry's Smokehouse blog (May 28, 2024)",
+   "publisher": "Henry's Smokehouse, Greenville",
+   "url": "https://www.henryssmokehouse.com/blog/best-bbq-spot-in-south-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-greenville-journal-henrys-2025",
+   "kind": "web",
+   "title": "Henry's Smokehouse remains an essential Greenville tradition — John Malik, City Juice (October 29, 2025)",
+   "publisher": "Greenville Journal",
+   "url": "https://greenvillejournal.com/eat-drink/henrys-smokehouse-remains-an-essential-greenville-tradition-city-juice-with-john-malik/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-destination-bbq-henrys",
+   "kind": "web",
+   "title": "Henry's Smokehouse on Wade Hampton in Greenville",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/henrys-smoke-house/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-henrys-home"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-greenville-journal-henrys-2025",
+   "note": "the Playboy line, the seventeen years and the Southern Living pick from Destination BBQ and the company's blog"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-henrys-home"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-henrys-home"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-henrys-home",
+   "note": "Pork butts cook twelve hours and ribs six to eight in open pits over hickory logs. Also on the True 'Cue SC certified list, read 2026-09-16.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-henrys-home",
+   "note": "Hash and rice on the menu at both houses.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Henry's Smokehouse, Greenville",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  },
+  {
+   "key": "scba",
+   "label": "South Carolina Barbeque Association",
+   "what": "listed as 100-Mile Barbecue",
+   "url": "",
+   "year": null,
+   "source": "s:web-destination-bbq-henrys"
+  },
+  {
+   "key": "southern-living",
+   "label": "Southern Living",
+   "what": "a South's Best list",
+   "url": "",
+   "year": null,
+   "source": "s:web-henrys-blog-2024"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "Greenville's pits, with a tomato-based mild sauce and a mustard-based spicy one on the table.",
+   "rel": "place"
+  },
+  {
+   "from": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "Greenville's tomato-based mild sauce, made by hand, beside a mustard one.",
+   "rel": "served-at"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "Greenville, where a mustard-based spicy sauce sits beside the tomato one.",
+   "rel": "served-at"
+  },
+  {
+   "from": "green-beans",
+   "type": "dish",
+   "name": "green beans",
+   "as": "half the original side list, with the coleslaw.",
+   "rel": "served-at"
+  },
+  {
+   "from": "home-team-bbq",
+   "type": "place",
+   "name": "Home Team BBQ",
+   "as": "Greenville's older barbecue house; Home Team's Greenville store opened in 2021.",
+   "rel": "kin"
+  },
+  {
+   "from": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "as": "Greenville's older barbecue house; Lewis's 2022 store is the Texas newcomer.",
+   "rel": "kin"
+  },
+  {
+   "from": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "the Upstate's other old name, forty miles west in Greenville, where the hash is pork.",
+   "rel": "kin"
+  },
+  {
+   "from": "pit",
+   "type": "term",
+   "name": "pit",
+   "as": "a Greenville, South Carolina pit that calls itself a smokehouse — the two words meet on the sign.",
+   "rel": "place"
+  }
+ ]
+}

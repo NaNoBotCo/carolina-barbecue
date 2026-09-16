@@ -1,0 +1,489 @@
+{
+ "schema": 1,
+ "id": "chicken-bog",
+ "type": "dish",
+ "names": {
+  "name": "chicken bog",
+  "aliases": [
+   "bog",
+   "chicken perlo"
+  ],
+  "said": "'Bog' to the people who cook it; 'chicken bog' on the sign at the Loris Bog-Off."
+ },
+ "etymology": {
+  "root": "English bog 'wet, soft, spongy ground', c. 1500, from Gaelic and Irish bogach 'bog', from bog 'soft, moist'; applied to the dish for its wet rice",
+  "first_attested": "The Loris historical marker (2022) says the dish fed crowds by the 1920s. No source this project has read gives a first print date for the name; Stan Woodward, who filmed the dish in 2002, found it 'never well documented by its users'.",
+  "note": "Two accounts, both reported in the South Carolina Encyclopedia. The documented one: James Villas writes that a bog, unlike a pilau, is any stew with wet, soggy rice, and Karen Hess that a pilau cooked in a big batch always ends up wet. The folk one: that the dish is named for the boggy ground of the Pee Dee where it is cooked. Wikipedia calls the wetness the likelier reading.",
+  "tier": "cited",
+  "source": "s:web-scencyclopedia-chicken-bog"
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "course": "main",
+  "meat": "chicken",
+  "styles": [
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "Chicken, rice and smoked sausage cooked together in the chicken's own broth until the rice has taken up the liquid and sits wet and plump — a pilau (rice cooked in stock) that is deliberately wetter than a pilau. It belongs to the Pee Dee, the northeast of South Carolina from Horry County west to Florence, and to the Lowcountry beyond it; Loris, a town of about two thousand north of Myrtle Beach, has held a Bog-Off cook-off every October since 1979. The pot is a fifty-gallon wash pot and the dish is cooked for crowds: tobacco crews, church suppers, the stump meeting at Galivants Ferry.",
+  "story": "The rice came first. South Carolina grew more rice than any other state from the 1700s until the Civil War — Carolina Gold, planted and worked by enslaved people in the Lowcountry — and the culinary historian Damon Lee Fowler reads chicken bog as a localized pilau, 'probably of African provenance', found nowhere else in the country. The name was never written down by the people who used it; Stan Woodward, who made a documentary on the dish in 2002, concluded it went unrecorded because it was a commonplace high-protein meal that fed a lot of people in a poor place. The marker that Loris put up in 2022 says the dish fed crowds by the 1920s and was eaten after gathering tobacco in the northeast of the state: the crew that had primed and strung the leaves all day sat down to a wash pot of bog. The Democratic stump meeting at Galivants Ferry, on the Little Pee Dee, serves it with snap beans, white rolls and Pepsi, and Loris, which calls itself the chicken bog capital of the world, made it the theme of an October festival in 1979; by 2001 the Bog-Off drew about twenty thousand people. To the south, in Georgetown County, the same pot is cooked drier and called chicken pilau.",
+  "how": "An old hen past laying is the first choice, a fat rooster the second. The bird is poached whole with onion, salt and plenty of black pepper; the meat is pulled from the bone, not chopped, the fat is skimmed from the broth, and the rice, chicken, smoked sausage and onion go back in to simmer until the rice is done and still wet. Woodward's bogmaster's test: the rice is plump and moist, holds together, sits up above a little gravy in the bottom, and does not cling to the chicken. Fork or spoon depends on the cook. Green peppers and other vegetables appear in some recipes; the Loris standard is chicken, sausage, rice, salt, pepper and perhaps onion.",
+  "today": "The Loris Bog-Off runs every October; the town's marker, put up by the William G. Pomeroy Foundation in 2022, stands on Main Street outside the library. Bog is a church-supper and fundraiser dish across Horry County and the Pee Dee, and the Galivants Ferry stump meeting still serves it."
+ },
+ "kin": [
+  {
+   "to": "sc-pee-dee",
+   "as": "the region's own pot, cooked for the tobacco crew where the pit cooks the whole hog.",
+   "rel": "whole"
+  },
+  {
+   "to": "pee-dee",
+   "as": "the river and the country the dish belongs to.",
+   "rel": "term"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the rice South Carolina grew, whose descendant is under the chicken.",
+   "rel": "term"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the other rice dish of the South Carolina table, at the barbecue rather than the tobacco barn.",
+   "rel": "kin"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "cooked in fifty-gallon wash pots for the same crowds.",
+   "rel": "event"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "the Galivants Ferry stump meeting serves it with snap beans, rolls and Pepsi.",
+   "rel": "event"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hash-and-rice",
+   "tell": "Hash is a gravy ladled over rice; in bog the rice is cooked in the pot with the chicken and the sausage, and there is no barbecue in it."
+  }
+ ],
+ "links": [
+  {
+   "label": "South Carolina Encyclopedia — Chicken bog",
+   "url": "https://www.scencyclopedia.org/sce/entries/chicken-bog/"
+  },
+  {
+   "label": "Chicken bog — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_bog"
+  }
+ ],
+ "sources": [
+  "s:web-scencyclopedia-chicken-bog",
+  "s:wp-chicken-bog",
+  "s:web-hmdb-chicken-bog-marker",
+  "s:web-discoversc-chicken-bog",
+  "s:wp-carolina-gold",
+  "s:etymonline",
+  "s:wikibooks-chicken-bog-i",
+  "s:wikibooks-chicken-bog-grand-strand",
+  "s:wikibooks-chicken-bog-ii",
+  "s:book-aunt-carolines-dixieland-recipes",
+  "s:book-kentucky-housewife"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-scencyclopedia-chicken-bog"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-scencyclopedia-chicken-bog",
+    "note": "rice history from the Carolina Gold article; the marker's text from the Historical Marker Database"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-scencyclopedia-chicken-bog"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-hmdb-chicken-bog-marker",
+    "note": "the festival's month from the Encyclopedia and Discover South Carolina"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-chicken-bog-i",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Chicken Bog I",
+   "source": "s:wikibooks-chicken-bog-i",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Bog_I",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 ea. (5–6 lb) fat hen",
+    "1 small onion (about the size of a lemon or smaller)",
+    "1 small green bell pepper, chopped small",
+    "1 stick butter (¼ lb), if needed",
+    "2 lb uncooked long grain white rice (not instant rice)",
+    "¼ lb bacon",
+    "Salt",
+    "Black pepper"
+   ],
+   "text": "1. Put chicken in heavy aluminum pot and cover with hot water. Be sure there is enough water so that there will be at least 6 cups of broth after cooking chicken. Bring to a boil, then reduce heat, cover, and simmer until chicken is very tender (an hour or more).\n2. While the chicken is cooking, put 4 cups of rice into a bowl, cover with cold water, and let soak.\n3. When chicken is very tender, remove pot from stove and let cool until the chicken can be handled.\n4. Take chicken from pot, and pull meat from bones in large pieces; do not cut it up. Discard any fat-heavy skin.\n5. Pour broth from pot into a bowl. If chicken was very fat and broth is very fatty, pour off about 1 cup of fat from broth.\n6. Wash pot, then put bacon in pot and cook slowly until bacon is crisp.\n7. Take bacon from pot and drain; leave bacon grease in pot.\n8. Put in chopped onion, green pepper and brown slightly.\n9. Add 6 cups chicken broth to pot, and season to taste with salt and pepper (at least a tablespoon of each—use a heavy hand since rice will absorb salt).\n10. Increase heat, bring broth to a boil, and put chicken in pot.\n11. Drain rice and put rice in pot.\n12. Add a stick of butter and mix well. Reduce heat, cover with lid, and simmer very slowly for about an hour. To avoid gooey rice, avoid stirring.\n13. When rice is tender and has absorbed the liquids, remove from stove. Serve hot. You can crumble bacon for a topping, according to taste.",
+   "yield": "10 servings"
+  },
+  {
+   "title": "Chicken Bog (Grand Strand)",
+   "source": "s:wikibooks-chicken-bog-grand-strand",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Bog_%28Grand_Strand%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "2 ½ lb chicken pieces",
+    "1 cup chopped onion",
+    "1 ½ lb smoked sausage",
+    "1 tsp black pepper",
+    "2 cups long-grain rice"
+   ],
+   "text": "1. Boil chicken and onions in 4 cups of water until tender. If desired, debone chicken.\n2. Slice sausage into ½-inch pieces. Add sausage, pepper and rice to chicken.\n3. Simmer until all broth is absorbed and rice is cooked.",
+   "yield": "8 servings",
+   "region": "Grand Strand, South Carolina"
+  },
+  {
+   "title": "Chicken Bog II",
+   "source": "s:wikibooks-chicken-bog-ii",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Bog_II",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "6 cups water",
+    "1 tbsp salt",
+    "1 medium onion, finely chopped",
+    "1 ea. (3 lb) whole chicken",
+    "1 cup long-grain rice",
+    "½ lb smoked sausage, sliced",
+    "2 tbsp herb seasoning",
+    "1 packet \"chicken and herb\" seasoning"
+   ],
+   "text": "1. Put water, salt, onion, and chicken in pot. Boil until tender (about 1 hour).\n2. Remove chicken, let cool, and remove bones.\n3. Chop meat into bite-sized pieces.\n4. Skim off fat from juices. Measure 3 ½ cups of this broth into a 6-quart saucepan. Add rice, chicken pieces and smoked sausage, herb seasoning and \"chicken and herb\" seasoning.\n5. Cook these ingredients for 30 minutes. Bring to a boil and reduce heat and simmer, keeping covered the entire time. If rice mixture is too wet, cook uncovered until desired consistency.",
+   "yield": "6 servings"
+  },
+  {
+   "title": "Perlean",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "page": 81,
+   "text": "Dress and cut up one chicken as for frying. Boil until very tender, then add two cups of rice, half a cup of butter, some salt and plenty of pepper. Cook until it can be eaten with a fork.",
+   "note": "'Perlean' is one of the spellings of perloo, the Lowcountry word for a rice pilau; the dish is the bog with the sausage left out."
+  },
+  {
+   "title": "A Chicken Pilau",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "page": "121–122",
+   "text": "Take a fat young fowl, that has been nicely cleaned, skewer the legs to the body, chop the liver and gizzard small, with two onions and two boiled eggs; season them with salt, pepper and mace, and put them into the fowl, having moistened them with butter. Skewer some thin slices of ham to the breast, put it in a pan, with just enough water to cover it well, and boil it for half an hour, carefully removing the scum as it rises. Then put in a pint of rice, which has been picked and washed clean; boil them together till all are done; then serve it up, covering the fowl entirely with the rice, and send with it to table a boat of drawn butter, seasoned with pepper and nutmeg.",
+   "note": "The pilau the bog descends from: one bird, its own broth, rice cooked in it. The fowl is left whole here; a bog is pulled off the bone."
+  }
+ ],
+ "images": [
+  {
+   "file": "chicken-bog/chicken-bog-bowl-of-chicken-bog.jpg",
+   "source": "commons",
+   "title": "File:Bowl of Chicken Bog.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bowl_of_Chicken_Bog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABowl_of_Chicken_Bog.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "DogsRNice",
+   "credit": "Own work",
+   "alt": "A bowl of homemade Chicken Bog",
+   "date": "2026-01-14 19:36:41",
+   "primary": true,
+   "sha256": "9ac06dcea612331b0de2287f7a4f60594bec89d7ec02bcb6bac70c00433032f3"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Chicken, rice and smoked sausage cooked together in the chicken's own broth until the rice has taken up the liquid and sits wet and plump — a pilau (rice cooked in stock) that is deliberately wetter than a pilau.",
+ "region_terms": [
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the region's own pot, cooked for the tobacco crew where the pit cooks the whole hog.",
+   "rel": "whole"
+  },
+  {
+   "to": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the river and the country the dish belongs to.",
+   "rel": "term"
+  },
+  {
+   "to": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "the rice South Carolina grew, whose descendant is under the chicken.",
+   "rel": "term"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the other rice dish of the South Carolina table, at the barbecue rather than the tobacco barn.",
+   "rel": "kin"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "cooked in fifty-gallon wash pots for the same crowds.",
+   "rel": "event"
+  },
+  {
+   "to": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "the Galivants Ferry stump meeting serves it with snap beans, rolls and Pepsi.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-scencyclopedia-chicken-bog",
+   "kind": "web",
+   "title": "Chicken bog",
+   "publisher": "South Carolina Encyclopedia, University of South Carolina",
+   "url": "https://www.scencyclopedia.org/sce/entries/chicken-bog/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-chicken-bog",
+   "kind": "wikipedia",
+   "title": "Chicken bog — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_bog",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1364534069"
+  },
+  {
+   "id": "s:web-hmdb-chicken-bog-marker",
+   "kind": "web",
+   "title": "Chicken Bog Historical Marker, Loris SC (erected 2022 by the William G. Pomeroy Foundation)",
+   "publisher": "The Historical Marker Database",
+   "url": "https://www.hmdb.org/m.asp?m=268464",
+   "accessed": "2026-09-15",
+   "note": "inscription read from the database's indexed text; the page itself refused a direct fetch"
+  },
+  {
+   "id": "s:web-discoversc-chicken-bog",
+   "kind": "web",
+   "title": "A Taste of South Carolina: Just What Is Chicken Bog? (Gwen Fowler)",
+   "publisher": "Discover South Carolina (SC Department of Parks, Recreation & Tourism)",
+   "url": "https://discoversouthcarolina.com/articles/a-taste-of-south-carolina-just-what-is-chicken-bog",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-carolina-gold",
+   "kind": "wikipedia",
+   "title": "Carolina Gold — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carolina_Gold",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1372910731"
+  },
+  {
+   "id": "s:etymonline",
+   "kind": "web",
+   "title": "Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "id": "s:wikibooks-chicken-bog-i",
+   "kind": "web",
+   "title": "Cookbook:Chicken Bog I — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Bog_I",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-chicken-bog-grand-strand",
+   "kind": "web",
+   "title": "Cookbook:Chicken Bog (Grand Strand) — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Bog_%28Grand_Strand%29",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-chicken-bog-ii",
+   "kind": "web",
+   "title": "Cookbook:Chicken Bog II — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AChicken_Bog_II",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:book-aunt-carolines-dixieland-recipes",
+   "kind": "book",
+   "title": "Aunt Caroline's Dixieland Recipes: A Rare Collection of Choice Southern Dishes",
+   "author": "Emma and William McKinney",
+   "publisher": "Laird & Lee, Inc., Chicago",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "A white-authored book framed around 'Aunt Caroline', a Black cook drawn as a minstrel figure, with several recipe titles in that idiom; the recipes themselves are written plainly. Read in the Cornell University copy, which carries the Library's no-known-copyright-restrictions statement. Recipes quoted here keep the book's own titles and are chosen from the plainly named ones."
+  },
+  {
+   "id": "s:book-kentucky-housewife",
+   "kind": "book",
+   "title": "The Kentucky Housewife, Containing Nearly Thirteen Hundred Full Receipts",
+   "author": "Mrs. Lettice Bryan",
+   "publisher": "Shepard & Stearns, Cincinnati",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "accessed": "2026-09-16",
+   "license": "Public domain"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-scencyclopedia-chicken-bog"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-scencyclopedia-chicken-bog",
+   "note": "rice history from the Carolina Gold article; the marker's text from the Historical Marker Database"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-scencyclopedia-chicken-bog"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-hmdb-chicken-bog-marker",
+   "note": "the festival's month from the Encyclopedia and Discover South Carolina"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:web-scencyclopedia-chicken-bog"
+  }
+ },
+ "primary_image": {
+  "file": "chicken-bog/chicken-bog-bowl-of-chicken-bog.jpg",
+  "source": "commons",
+  "title": "File:Bowl of Chicken Bog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bowl_of_Chicken_Bog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABowl_of_Chicken_Bog.jpg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "author": "DogsRNice",
+  "credit": "Own work",
+  "alt": "A bowl of homemade Chicken Bog",
+  "date": "2026-01-14 19:36:41",
+  "primary": true,
+  "sha256": "9ac06dcea612331b0de2287f7a4f60594bec89d7ec02bcb6bac70c00433032f3"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the Pee Dee's chicken-and-rice pilaf, most at home from Florence to the coast.",
+   "rel": "serves"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the other rice pot of South Carolina, cooked for the tobacco crew where hash is cooked for the barbecue.",
+   "rel": "kin"
+  },
+  {
+   "from": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "its perloo is the same chicken-and-rice under the Pee Dee name.",
+   "rel": "serves"
+  },
+  {
+   "from": "mccabes-bar-b-q",
+   "type": "place",
+   "name": "McCabe's Bar-B-Q",
+   "as": "its perloo is the Pee Dee's chicken-and-rice, the same dish under the coast's other name.",
+   "rel": "serves"
+  },
+  {
+   "from": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "the Pee Dee's rally dish, tradition holds, at Galivants Ferry.",
+   "rel": "serves"
+  },
+  {
+   "from": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "a Pee Dee and Lowcountry rice dish; rice is the crop the name first belonged to.",
+   "rel": "kin"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the Pee Dee's rice dish, most common there and in the Lowcountry.",
+   "rel": "serves"
+  }
+ ]
+}

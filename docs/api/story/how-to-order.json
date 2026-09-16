@@ -1,0 +1,232 @@
+{
+ "schema": 1,
+ "id": "how-to-order",
+ "type": "story",
+ "names": {
+  "name": "How to order",
+  "aliases": [
+   "what to say at the counter",
+   "ordering"
+  ],
+  "said": "The counter moves fast and the person behind it has heard every joke."
+ },
+ "region": [
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "At a Carolina barbecue counter the words are short and they mean particular things. Barbecue is the meat, not the event. A tray has no bread; a plate does. Chopped, coarse chopped and sliced are three different textures off the same shoulder. Outside brown is the crust and you have to ask for it. This is the vocabulary, west and east, with what it gets you."
+ },
+ "sections": [
+  {
+   "h": "Say the meat first",
+   "text": "\"Barbecue\" on its own means chopped pork here, and ordering \"pulled pork\" marks you as from somewhere else — which is fine, and will be understood, and may be remarked upon.\n\nIn the Piedmont the shoulder comes three ways. **Chopped** is worked small on the block with cleavers. **Coarse chopped** is left in bigger pieces, which holds the smoke better and is what half the regulars order. **Sliced** is what it sounds like, and is the oldest form; Lexington Barbecue will do all three.\n\nIn the east it is chopped, and the crisp skin is chopped through it. That is the texture; there is no other option and no one wants one."
+  },
+  {
+   "h": "Outside brown",
+   "text": "The outside of a shoulder that has been over coals for ten hours goes dark and firm and tastes more of smoke and dip than anything else on the tray. In Lexington you ask for **outside brown**, or **brownies**, or just **brown**, and you get it chopped through the rest or on its own. Some pits charge the same; some charge more; a few will tell you they ran out at eleven.\n\nThe eastern equivalent is not a cut but a texture: ask for **more skin** and the block will oblige."
+  },
+  {
+   "h": "Tray, plate, sandwich",
+   "text": "A **tray** is barbecue and slaw in a paper boat, no bread. A **plate** adds hushpuppies or cornbread and usually a second side. A **sandwich** is chopped pork on a soft white bun with slaw on the meat, not beside it — if you do not want slaw, say so when you order, because it goes on by default.\n\nBy the **pound** is how a family eats. A pound feeds three people who are not very hungry. Sauce comes in a jar if you ask."
+  },
+  {
+   "h": "South Carolina adds one word",
+   "text": "**Hash.** It is a thick meat gravy cooked from the hog, ladled over white rice, and in the Midlands it is not a side but half the reason to be there. Order **hash and rice** and you will be taken seriously. Many South Carolina pits run a **buffet** on Friday and Saturday only, which is the other thing to know before driving out."
+  },
+  {
+   "h": "What not to say",
+   "text": "Do not ask for brisket in a whole-hog house; they will point at the pig on the sign. Do not ask which sauce is correct — you will get an answer, at length, and it will be the house's. Do not arrive at two in the afternoon on a Saturday expecting a whole-hog pit to still be open: several of them close when the hogs are gone, which is the point of cooking only as many as they cook.\n\nAnd whatever you order, they have heard it. The counter is not a test."
+  }
+ ],
+ "kin": [
+  {
+   "to": "chopped",
+   "as": "the word for how the meat comes off the block, and the three textures it names.",
+   "rel": "term"
+  },
+  {
+   "to": "outside-brown",
+   "as": "the crust you have to ask for by name.",
+   "rel": "dish"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "what you get when you say tray: meat and slaw, no bread.",
+   "rel": "dish"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "slaw goes on the meat unless you say otherwise.",
+   "rel": "dish"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the South Carolina order that changes the conversation.",
+   "rel": "dish"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word itself, which here is a noun for pork.",
+   "rel": "term"
+  },
+  {
+   "to": "dip",
+   "as": "the Piedmont's word for the sauce on the table.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "the Lexington counter where all three textures are on the board.",
+   "rel": "place"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the eastern counter where the menu is short and the answer is a tray.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:reed-holy-smoke",
+  "s:garner-book-of-barbecue",
+  "s:wp-barbecue-in-north-carolina",
+  "s:moss-barbecue-lovers-carolinas"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition",
+   "note": "the ordering vocabulary as the pits' own menus and the standard books use it; no single page states all of it"
+  },
+  "fields": {
+   "sections[3].text": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-in-south-carolina"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "At a Carolina barbecue counter the words are short and they mean particular things. Barbecue is the meat, not the event. A tray has no bread; a plate does.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the word for how the meat comes off the block, and the three textures it names.",
+   "rel": "term"
+  },
+  {
+   "to": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the crust you have to ask for by name.",
+   "rel": "dish"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "what you get when you say tray: meat and slaw, no bread.",
+   "rel": "dish"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "slaw goes on the meat unless you say otherwise.",
+   "rel": "dish"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the South Carolina order that changes the conversation.",
+   "rel": "dish"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word itself, which here is a noun for pork.",
+   "rel": "term"
+  },
+  {
+   "to": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the Piedmont's word for the sauce on the table.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the Lexington counter where all three textures are on the board.",
+   "rel": "place"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "the eastern counter where the menu is short and the answer is a tray.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:garner-book-of-barbecue",
+   "kind": "book",
+   "title": "Bob Garner's Book of Barbecue: North Carolina's Favorite Food",
+   "author": "Bob Garner",
+   "publisher": "John F. Blair",
+   "year": 2012
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:moss-barbecue-lovers-carolinas",
+   "kind": "book",
+   "title": "Barbecue Lover's the Carolinas: Restaurants, Markets, Recipes & Traditions",
+   "author": "Robert F. Moss",
+   "publisher": "Globe Pequot",
+   "year": 2015
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition",
+   "note": "the ordering vocabulary as the pits' own menus and the standard books use it; no single page states all of it"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

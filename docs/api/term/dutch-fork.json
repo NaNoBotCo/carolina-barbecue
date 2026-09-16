@@ -1,0 +1,335 @@
+{
+ "schema": 1,
+ "id": "dutch-fork",
+ "type": "term",
+ "names": {
+  "name": "Dutch Fork",
+  "aliases": [
+   "the Dutch Fork",
+   "the Fork"
+  ],
+  "said": "The Dutch Fork is the wedge between the Saluda and the Broad above Columbia; a mustard-sauce pit in Newberry County is in it, and the 'Dutch' are Germans."
+ },
+ "etymology": {
+  "root": "Dutch, in its older English sense 'German': from the late 14th century Dutch meant German and the non-Scandinavian continental Germanic peoples generally, from Middle Dutch duutsch, cognate with German deutsch, from Proto-Germanic *theudo 'of the people'; the sense narrowed to the Netherlands around 1600 in England, but in America the older sense lasted, as in Pennsylvania Dutch (etymonline) + fork, Old English forca from Latin furca, of rivers from 1753 (etymonline): the land between the Saluda and the Broad, which join to form the Congaree at Columbia",
+  "first_attested": "the name is undated in the sources consulted; the settlement it names began between 1730 and 1766 (Wikipedia) or in the 1740s (South Carolina Encyclopedia)",
+  "note": "The South Carolina Encyclopedia gives the name as 'Dutch Fork for deutsch Volk (German people)'; Wikipedia gives Dutch as an anglicization of deutsch. Nobody from the Netherlands is involved — the Dutch of slaw, koolsla, is the other Dutch.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": [
+  "sc-midlands"
+ ],
+ "facets": {
+  "letter": "D",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The land between the Saluda and the Broad rivers above their meeting at Columbia, in Lexington, Newberry and Richland counties, settled by German-speaking Protestants in the middle of the eighteenth century and named for them, Dutch for deutsch. It is the upstream end of the mustard belt: the yellow mustard barbecue sauce of the Midlands is linked to the German families who settled between Orangeburg County and Newberry County, and the Fork is the Newberry end of that line. Lutheran churches, place names and family names are what remains of the German; the dialect is gone.",
+  "story": "The British colony offered incentives to foreign Protestants to settle its backcountry, and between 1730 and 1766 German-speaking families took up the fork of the Saluda and the Broad; the South Carolina Encyclopedia dates the first European settlement to the 1740s and says German language and culture lasted in the Fork's isolation into the early twentieth century. The name is English for what the settlers called themselves. Their mark on the plate is mustard. Wikipedia says South Carolina's mustard sauce may have originated with the French and German immigrants of the eighteenth century and is linked to a 'Mustard Belt' from Orangeburg County to Newberry County where Germans settled; the Dukes family of Orangeburg County, of German origin, is the example historians give; and mustard goes into the hash of the German Midlands. Newberry is still the only South Carolina county more than a tenth Lutheran. *Inference —* the Fork is not the whole belt but its upstream end; Orangeburg, the other end, lies south of the Congaree and outside it. *Tradition holds —* the Dutch Fork is claimed as the birthplace of mustard sauce; no document in the sources consulted places the first pot."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "the style the Fork's Germans are credited with.",
+   "rel": "term"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce the German families of the Midlands are credited with.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the brand name the mustard sauce goes by on bottles.",
+   "rel": "term"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "mustard goes into the hash in the German Midlands.",
+   "rel": "serves"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "an Orangeburg County family of German origin whose mustard sauce historians point to — the other end of the mustard belt.",
+   "rel": "place"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "the Midlands' best-known mustard-sauce pit, in West Columbia, a few miles from the Fork.",
+   "rel": "place"
+  },
+  {
+   "to": "slaw",
+   "as": "the other Dutch: koolsla came from the Netherlands, the Fork's Dutch from Germany.",
+   "rel": "same-word"
+  },
+  {
+   "to": "piedmont",
+   "as": "the Fork's rivers join at Columbia on the fall line, where the Piedmont ends.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "slaw",
+   "tell": "Two Dutches. The Fork's Dutch is deutsch, German; slaw's Dutch is the Netherlands' koolsla. One brought mustard, the other cabbage."
+  }
+ ],
+ "links": [
+  {
+   "label": "Dutch Fork — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dutch_Fork"
+  },
+  {
+   "label": "Dutch Fork — South Carolina Encyclopedia",
+   "url": "https://www.scencyclopedia.org/sce/entries/dutch-fork/"
+  },
+  {
+   "label": "Dutch — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/Dutch"
+  }
+ ],
+ "sources": [
+  "s:etymonline",
+  "s:wp-dutch-fork",
+  "s:web-sc-encyclopedia-dutch-fork",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-barbecue-sauce",
+  "s:wp-dukes-bar-b-que",
+  "s:wp-hash-stew",
+  "s:wp-congaree-river"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dutch-fork"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-dutch-fork",
+    "note": "settlement dates from Wikipedia and the SC Encyclopedia (they differ; both given); the mustard belt from the SC barbecue article; the Dukes from their article; the last two sentences are inference and tradition"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage; the boundaries are Wikipedia's"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The land between the Saluda and the Broad rivers above their meeting at Columbia, in Lexington, Newberry and Richland counties, settled by German-speaking Protestants in the middle of the eighteenth century and named…",
+ "region_terms": [
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the style the Fork's Germans are credited with.",
+   "rel": "term"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the sauce the German families of the Midlands are credited with.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "the brand name the mustard sauce goes by on bottles.",
+   "rel": "term"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "mustard goes into the hash in the German Midlands.",
+   "rel": "serves"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "an Orangeburg County family of German origin whose mustard sauce historians point to — the other end of the mustard belt.",
+   "rel": "place"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "the Midlands' best-known mustard-sauce pit, in West Columbia, a few miles from the Fork.",
+   "rel": "place"
+  },
+  {
+   "to": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "the other Dutch: koolsla came from the Netherlands, the Fork's Dutch from Germany.",
+   "rel": "same-word"
+  },
+  {
+   "to": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the Fork's rivers join at Columbia on the fall line, where the Piedmont ends.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline",
+   "kind": "web",
+   "title": "Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "id": "s:wp-dutch-fork",
+   "kind": "wikipedia",
+   "title": "Dutch Fork — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dutch_Fork",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-sc-encyclopedia-dutch-fork",
+   "kind": "web",
+   "title": "Dutch Fork — South Carolina Encyclopedia",
+   "publisher": "University of South Carolina, Institute for Southern Studies",
+   "url": "https://www.scencyclopedia.org/sce/entries/dutch-fork/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-sauce",
+   "kind": "wikipedia",
+   "title": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-dukes-bar-b-que",
+   "kind": "wikipedia",
+   "title": "Dukes Bar-B-Que — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dukes_Bar-B-Que",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1373146410"
+  },
+  {
+   "id": "s:wp-hash-stew",
+   "kind": "wikipedia",
+   "title": "Hash (stew) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hash_(stew)",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1334401453"
+  },
+  {
+   "id": "s:wp-congaree-river",
+   "kind": "wikipedia",
+   "title": "Congaree River — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Congaree_River",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-dutch-fork"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-dutch-fork",
+   "note": "settlement dates from Wikipedia and the SC Encyclopedia (they differ; both given); the mustard belt from the SC barbecue article; the Dukes from their article; the last two sentences are inference and tradition"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-dutch-fork"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the German-settled fork of the Saluda and Broad whose families the sauce is traced to.",
+   "rel": "term"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the German-settled country the sauce is traced to.",
+   "rel": "term"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the German-settled fork of the rivers where mustard goes into the hash.",
+   "rel": "term"
+  },
+  {
+   "from": "cannons-bbq",
+   "type": "place",
+   "name": "Cannon's BBQ",
+   "as": "the country it stood in: German-settled land between the Broad and the Saluda, home ground of the mustard sauce.",
+   "rel": "term"
+  },
+  {
+   "from": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "as": "the German-settled country whose roots the family and the Sweatmans credit the sauce to.",
+   "rel": "term"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "the German-settled fork of the Midlands; his history credits those settlers with the mustard sauce.",
+   "rel": "term"
+  },
+  {
+   "from": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "the German Midlands the mustard sauce is credited to.",
+   "rel": "kin"
+  },
+  {
+   "from": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the Fork lies where the Piedmont's rivers join at the fall line.",
+   "rel": "kin"
+  },
+  {
+   "from": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "the other Dutch: the Fork's Dutch is deutsch, German; slaw's Dutch is the Netherlands' koolsla.",
+   "rel": "same-word"
+  }
+ ]
+}

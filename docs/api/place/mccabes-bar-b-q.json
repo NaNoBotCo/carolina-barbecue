@@ -1,0 +1,492 @@
+{
+ "schema": 1,
+ "id": "mccabes-bar-b-q",
+ "type": "place",
+ "names": {
+  "name": "McCabe's Bar-B-Q",
+  "aliases": [
+   "McCabe's Bar-B-Que",
+   "McCabe's BBQ",
+   "McCabe's"
+  ],
+  "sort": "McCabe's"
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "fuel": "wood",
+  "styles": [
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "A family buffet house on North Brooks Street in Manning, Clarendon County, where the McCabes cook whole hogs, shoulders and hams together for ten to twelve hours over wood coals, on pits David McCabe built in a screened room off the back porch. The pulled meat is mixed and dressed with a vinegar-and-pepper sauce, slightly sweet with a little heat — the Pee Dee's sauce, not the Midlands' mustard — and set out with hash and rice, perloo, fried chicken and a table of vegetables. Open Friday and Saturday middays, cash only, closed for January. Southern Living has listed it among the South's top fifty barbecue houses.",
+  "story": "Two sons of Jessie McCabe opened the restaurant some thirty years before Gwen Fowler wrote it up for the state tourism office, and almost everyone working in the small place was a McCabe. Mrs. McCabe, ninety at the time, still cooked the sides — rice and hash, perlo, green beans, turnip greens, cabbage, sweet potatoes, peas, coleslaw, hushpuppies — and her fried chicken went faster than it could be fried. The pork cooked on pits in a screened room in the back, and there was one sauce, vinegar and pepper, slightly sweet. Garden & Gun wrote the place up in its June/July 2010 issue; the South Carolina Barbeque Association put it on its 100-Mile list, the houses worth a hundred-mile drive; Southern Living named it among the South's top fifty. David McCabe, who runs it now, cooks whole hog, shoulders and hams together for ten to twelve hours on pits he built himself over coals he makes himself, and keeps the sauce as 'the big secret': 'vinegar-based with salt, pepper, and ketchup... and our secret ingredient.'",
+  "how": "Whole hogs, shoulders and hams share the pits for ten to twelve hours; the meat is picked and mixed, then dressed with the vinegar-pepper sauce — vinegar, salt, pepper, ketchup and the secret. The buffet: hash and rice, perloo (rice cooked with chicken, the Pee Dee's chicken bog under its other name), fried chicken, green beans, greens, cabbage, sweet potatoes, peas, okra, tomatoes, butter beans, coleslaw and hushpuppies. Cash only.",
+  "today": "Open Friday and Saturday, 11 a.m. to 2 p.m., closed the month of January; the state tourism office's older listing gave Thursday to Saturday. 480 North Brooks Street, Manning. Cash only. Checked September 15, 2026 against Destination BBQ's page, which carries a March 2026 menu."
+ },
+ "kin": [
+  {
+   "to": "sc-pee-dee",
+   "as": "its style: whole hog and vinegar-pepper, at the Pee Dee's inland edge.",
+   "rel": "whole"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "its sauce — vinegar, salt, pepper and a little ketchup — the Pee Dee's, not the mustard of the Midlands an hour west.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the neighbouring style: Manning's sauce is vinegar, the Midlands' is mustard.",
+   "rel": "contrast"
+  },
+  {
+   "to": "whole-hog",
+   "as": "whole hogs on the pit with shoulders and hams, all mixed in the pull.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "on the buffet, with Mrs. McCabe's rice.",
+   "rel": "serves"
+  },
+  {
+   "to": "chicken-bog",
+   "as": "its perloo is the Pee Dee's chicken-and-rice, the same dish under the coast's other name.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the buffet.",
+   "rel": "serves"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "lists it as 100-Mile Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "the Kingstree buffet forty minutes east, the same whole-hog-and-vegetables form.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 33.7050719,
+  "lon": -80.2090309,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap) geocode of 480 N Brooks St, 2026-09-15"
+ },
+ "address": {
+  "street": "480 N Brooks St",
+  "city": "Manning",
+  "county": "Clarendon",
+  "state": "SC",
+  "postcode": "29102"
+ },
+ "links": [
+  {
+   "label": "100-Mile Barbecue: McCabe's Bar-B-Que in Manning — Discover South Carolina",
+   "url": "https://discoversouthcarolina.com/articles/100-mile-barbecue-mccabes-bar-b-que-in-manning"
+  },
+  {
+   "label": "McCabe's BBQ — Destination BBQ",
+   "url": "https://destination-bbq.com/stores/mccabes/"
+  }
+ ],
+ "sources": [
+  "s:web-discoversc-mccabes",
+  "s:web-destination-bbq-mccabes",
+  "s:wp-lowcountry-cuisine",
+  "s:osm",
+  "s:web-truecue-sc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-mccabes"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-discoversc-mccabes",
+    "note": "the tourism office article is undated, so no founding year is given; the sauce quote and David McCabe from Destination BBQ"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-mccabes"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest; Nominatim geocode of the street address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-mccabes"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:web-destination-bbq-mccabes",
+   "tier": "cited",
+   "note": "Whole hogs, shoulders and hams share the pits for ten to twelve hours."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-destination-bbq-mccabes",
+   "tier": "cited",
+   "note": "Ten to twelve hours over wood coals, on pits David McCabe built in a screened room off the back porch."
+  },
+  {
+   "tag": "cash-only",
+   "source": "s:web-destination-bbq-mccabes",
+   "tier": "cited",
+   "note": "Cash only."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-destination-bbq-mccabes",
+   "tier": "cited",
+   "note": "Hash and rice, perloo, fried chicken and a table of vegetables."
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-destination-bbq-mccabes",
+   "tier": "cited",
+   "note": "Friday and Saturday, 11 a.m. to 2 p.m., closed the month of January."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-mccabes",
+   "tier": "cited",
+   "note": "Hash and rice on the buffet."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-destination-bbq-mccabes",
+   "tier": "cited",
+   "note": "A family buffet house; David McCabe built the pits."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as McCabe's Bar-B-Q, Manning",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "southern-living",
+   "what": "listed among the South's top fifty barbecue houses",
+   "source": "s:web-discoversc-mccabes"
+  }
+ ],
+ "blurb": "A family buffet house on North Brooks Street in Manning, Clarendon County, where the McCabes cook whole hogs, shoulders and hams together for ten to twelve hours over wood coals, on pits David McCabe built in a screened…",
+ "region_terms": [
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "its style: whole hog and vinegar-pepper, at the Pee Dee's inland edge.",
+   "rel": "whole"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "its sauce — vinegar, salt, pepper and a little ketchup — the Pee Dee's, not the mustard of the Midlands an hour west.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the neighbouring style: Manning's sauce is vinegar, the Midlands' is mustard.",
+   "rel": "contrast"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "whole hogs on the pit with shoulders and hams, all mixed in the pull.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "on the buffet, with Mrs. McCabe's rice.",
+   "rel": "serves"
+  },
+  {
+   "to": "chicken-bog",
+   "type": "dish",
+   "name": "chicken bog",
+   "as": "its perloo is the Pee Dee's chicken-and-rice, the same dish under the coast's other name.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "on the buffet.",
+   "rel": "serves"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "lists it as 100-Mile Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "the Kingstree buffet forty minutes east, the same whole-hog-and-vegetables form.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-discoversc-mccabes",
+   "kind": "web",
+   "title": "100-Mile Barbecue: McCabe's Bar-B-Que in Manning — Gwen Fowler",
+   "publisher": "Discover South Carolina (South Carolina Department of Parks, Recreation & Tourism)",
+   "url": "https://discoversouthcarolina.com/articles/100-mile-barbecue-mccabes-bar-b-que-in-manning",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-destination-bbq-mccabes",
+   "kind": "web",
+   "title": "McCabe's BBQ Restaurant in Manning, SC",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/mccabes/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-lowcountry-cuisine",
+   "kind": "wikipedia",
+   "title": "Lowcountry cuisine — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lowcountry_cuisine",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-mccabes"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-discoversc-mccabes",
+   "note": "the tourism office article is undated, so no founding year is given; the sauce quote and David McCabe from Destination BBQ"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-mccabes"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-mccabes"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest; Nominatim geocode of the street address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-mccabes"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-mccabes",
+   "note": "Whole hogs, shoulders and hams share the pits for ten to twelve hours.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-destination-bbq-mccabes",
+   "note": "Ten to twelve hours over wood coals, on pits David McCabe built in a screened room off the back porch.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-mccabes",
+   "note": "Cash only.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "buffet",
+   "label": "Buffet",
+   "icon": "🍽",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-mccabes",
+   "note": "Hash and rice, perloo, fried chicken and a table of vegetables.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "weekends-only",
+   "label": "Weekends only",
+   "icon": "📅",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-mccabes",
+   "note": "Friday and Saturday, 11 a.m. to 2 p.m., closed the month of January.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-mccabes",
+   "note": "Hash and rice on the buffet.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-destination-bbq-mccabes",
+   "note": "A family buffet house; David McCabe built the pits.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as McCabe's Bar-B-Q, Manning",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  },
+  {
+   "key": "southern-living",
+   "label": "Southern Living",
+   "what": "listed among the South's top fifty barbecue houses",
+   "url": "",
+   "year": null,
+   "source": "s:web-discoversc-mccabes"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "Manning's whole-hog pit: pigs cooked up to twelve hours, then picked and mixed.",
+   "rel": "place"
+  },
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "as turnip greens, cooked by Mrs. McCabe with the rest of the buffet.",
+   "rel": "served-at"
+  },
+  {
+   "from": "fried-okra",
+   "type": "dish",
+   "name": "fried okra",
+   "as": "on the buffet with the tomatoes, butter beans and perloo.",
+   "rel": "served-at"
+  },
+  {
+   "from": "green-beans",
+   "type": "dish",
+   "name": "green beans",
+   "as": "on the Manning buffet with the greens and the butter beans.",
+   "rel": "served-at"
+  },
+  {
+   "from": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "the Manning buffet forty minutes west, the same whole-hog-and-vegetables form.",
+   "rel": "kin"
+  }
+ ]
+}

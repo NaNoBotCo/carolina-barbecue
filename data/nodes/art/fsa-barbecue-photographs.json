@@ -1,0 +1,273 @@
+{
+ "schema": 1,
+ "id": "fsa-barbecue-photographs",
+ "type": "art",
+ "names": {
+  "name": "The FSA photographs of Carolina eating",
+  "aliases": [
+   "Marion Post Wolcott in the Carolinas",
+   "FSA/OWI Carolina photographs",
+   "the 1939 Farm Security Administration series"
+  ],
+  "sort": "FSA photographs"
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "sc",
+  "sc-lowcountry"
+ ],
+ "facets": {
+  "kind": "photograph",
+  "state": "both"
+ },
+ "text": {
+  "what": "The Farm Security Administration — a New Deal agency for rural poverty — kept photographers on the road from 1935, and their negatives went to the Library of Congress as federal work, free of copyright. Marion Post Wolcott worked North and South Carolina in 1939. What survives of Carolina eating is the occasion rather than the pit: a corn shucking at Tally Ho, near Stem in Granville County, North Carolina, with the tables that followed it; ministers and deacons at an outdoor picnic near Yanceyville; and a Fourth of July on St. Helena Island, South Carolina, shot on Kodachrome, which was new."
+ },
+ "sections": [
+  {
+   "h": "Tally Ho, Granville County, November 1939",
+   "text": "A corn shucking was a work party: neighbours came, shucked a farmer's crop, and were fed. Wolcott photographed one at Uncle Henry Garrett's place near Stem. The men sit on kitchen chairs in a chest-high drift of shucks with the crib behind them, hats on, working through the pile.\n\nThe agency's own caption sheet says who ate when, and the project reproduces its wording because the arrangement is the fact: 'White women don't go to Negro shucking to help with the cooking but white men are fed by Negro women just the same as at other shucking week previous at Mr. Fred Wilkins' home.' A second frame is captioned 'The Negro tenants and neighbors eating dinner after the white men have finished.' It shows a long white-clothed table, ten or twelve men at it, glasses and plates and a big enamel basin at the near end. Two sittings, in that order, at a meal the second sitting had cooked.",
+   "images": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "h": "St. Helena Island, July 1939",
+   "text": "The FSA shot most of its work in black and white and a small part on Kodachrome, a colour film then a few years old. Wolcott's St. Helena Island Fourth of July is in that colour set, which is why these frames look nothing like the rest of the period.\n\nUnder pines hung with Spanish moss, a crowd stands around a cloth-covered table and a scatter of washtubs, pots and crates; one frame takes in a Texaco filling station behind the flag. The catalogue calls it a Fourth of July celebration and a Fourth of July picnic. It does not call it a barbecue.",
+   "images": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "h": "What is not in the file",
+   "text": "No photograph in the Carolina part of this collection that reached Wikimedia Commons is captioned as a barbecue, and none shows a hog on a pit. The agency's photographers caught Carolina barbecue only in its surroundings: the work party, the church meeting, the holiday crowd, the table afterwards. Two frames from near Yanceyville in Caswell County are captioned as an outdoor picnic held during the noon intermission of an all-day meeting of ministers and deacons — the church dinner, mid-century, in a field.\n\n*Inference —* that is a fact about the photographers' brief rather than about the food. The FSA sent people to document rural poverty and federal relief, so a camera went where a committee met or a crop came in. An all-night pit in a shed behind a store was nobody's assignment. The pictures that do exist of a Carolina hog on a pit come later, from restaurants and from towns, and are mostly still in copyright.\n\nA caution on the captions: the descriptions carried with these files are the agency's, written in 1939, and they use the racial vocabulary of that year. They are quoted rather than rewritten so that what the file says and what the file shows can be read against each other.",
+   "images": [
+    8,
+    9
+   ]
+  }
+ ],
+ "kin": [
+  {
+   "to": "hog-killing",
+   "as": "the other November work party a Carolina farm held, and the one Wolcott did not photograph here.",
+   "rel": "pit"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "the church dinner the Yanceyville picnic is an early frame of.",
+   "rel": "event"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the gathering these photographs stand next to: a crowd, a yard, food set out on boards.",
+   "rel": "event"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "whose Black Smoke follows the cooks the FSA caption sheet records as feeding two sittings.",
+   "rel": "person"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the style whose region reaches down to St. Helena Island; the Fourth of July frames are the Lowcountry's oldest colour pictures here.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "Granville County lies at its western edge, where the whole hog and the Piedmont shoulder meet.",
+   "rel": "kin"
+  },
+  {
+   "to": "roadside-barbecue-signs",
+   "as": "the other government-owned picture collection this project draws on, from fifty years later.",
+   "rel": "art"
+  }
+ ],
+ "links": [
+  {
+   "label": "Farm Security Administration photographs by Marion Post Wolcott — Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Farm_Security_Administration_photographs_by_Marion_Post_Wolcott"
+  }
+ ],
+ "sources": [
+  "s:commons-fsa-owi",
+  "s:commons",
+  "s:miller-black-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:commons-fsa-owi",
+   "note": "captions, dates, places and photographer from the Library of Congress catalogue records carried on the Commons file pages"
+  },
+  "fields": {
+   "sections[2].text": {
+    "tier": "inference",
+    "note": "the absence of a barbecue caption is what this project found in the Commons mirror of the collection, not a claim about the whole Library of Congress holding, which could not be searched from this machine"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-corn-shucking-on-uncle-henry-garrett-s-place-negro-t-3cbae19.jpg",
+   "source": "commons",
+   "title": "File:Corn shucking on Uncle Henry Garrett's place, Negro tenant of Mr. Fred Wilkins 8a41643v.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Corn_shucking_on_Uncle_Henry_Garrett%27s_place%2C_Negro_tenant_of_Mr._Fred_Wilkins_8a41643v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACorn_shucking_on_Uncle_Henry_Garrett%27s_place%2C_Negro_tenant_of_Mr._Fred_Wilkins_8a41643v.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8a41643.This tag does not indicate the copyright status of the attached w",
+   "alt": "Men in hats and overalls sit on kitchen chairs in a chest-high drift of corn shucks, working through the pile, with a wooden corn crib behind them. Corn shucking at Uncle Henry Garrett's place, Tally Ho near Stem, Granville County, North Carolina, November 1939.",
+   "date": "1939-11",
+   "primary": true,
+   "sha256": "85b4e6dff33e29c2672bcbebce83a019a1e5c86a9c1edf7415d40cbb0942cd6a"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-corn-shucking-on-uncle-henry-garrett-s-place-negro-t-4b51e1a.jpg",
+   "source": "commons",
+   "title": "File:Corn shucking on Uncle Henry Garrett's place, Negro tenant of Mr. Fred Wilkins 8a41803v.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Corn_shucking_on_Uncle_Henry_Garrett%27s_place%2C_Negro_tenant_of_Mr._Fred_Wilkins_8a41803v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACorn_shucking_on_Uncle_Henry_Garrett%27s_place%2C_Negro_tenant_of_Mr._Fred_Wilkins_8a41803v.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8a41803.This tag does not indicate the copyright status of the attached w",
+   "alt": "A second frame of the same corn shucking near Stem, Granville County, North Carolina, November 1939.",
+   "date": "1939-11",
+   "primary": false,
+   "sha256": "71467652478ccae277b58bb40db028d9a336f9ec316efcfc7b23e5a59df43aaa"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-untitled-photo-possibly-related-to-corn-shucking-on-ccc7e50.jpg",
+   "source": "commons",
+   "title": "File:Untitled photo, possibly related to Corn shucking on Uncle Henry Garrett's place 8a41638v.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Untitled_photo%2C_possibly_related_to_Corn_shucking_on_Uncle_Henry_Garrett%27s_place_8a41638v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AUntitled_photo%2C_possibly_related_to_Corn_shucking_on_Uncle_Henry_Garrett%27s_place_8a41638v.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8a41638.This tag does not indicate the copyright status of the attached w",
+   "alt": "An unlabelled frame from the same corn shucking at Tally Ho near Stem, Granville County, North Carolina, November 1939.",
+   "date": "1939-11",
+   "primary": false,
+   "sha256": "c247da602d1c793ccc6a431f4ced5c78c68f01980f4838ee7bada560dcbae720"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-untitled-photo-possibly-related-to-corn-shucking-on-1efecf4.jpg",
+   "source": "commons",
+   "title": "File:Untitled photo, possibly related to Corn shucking on Uncle Henry Garrett's place 8a41642v.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Untitled_photo%2C_possibly_related_to_Corn_shucking_on_Uncle_Henry_Garrett%27s_place_8a41642v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AUntitled_photo%2C_possibly_related_to_Corn_shucking_on_Uncle_Henry_Garrett%27s_place_8a41642v.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8a41642.This tag does not indicate the copyright status of the attached w",
+   "alt": "A second unlabelled frame from the same corn shucking near Stem, Granville County, North Carolina, November 1939.",
+   "date": "1939-11",
+   "primary": false,
+   "sha256": "9c0b53ef8b718687fb30d8c7b1bf2243c02d62f929ba478514d5700b8acd0be2"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-the-negro-tenants-and-neighbors-eating-dinner-after-5c3fb9a.jpg",
+   "source": "commons",
+   "title": "File:The Negro tenants and neighbors eating dinner after the whit... (3109741227).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/The_Negro_tenants_and_neighbors_eating_dinner_after_the_whit..._%283109741227%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_Negro_tenants_and_neighbors_eating_dinner_after_the_whit..._%283109741227%29.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8c11076.This tag does not indicate the copyright status of the attached w",
+   "alt": "A long table under a white cloth in a farmhouse room, ten or twelve men eating, glasses and plates down its length and a large enamel basin at the near end; a woman stands at the back. The agency caption reads: the Negro tenants and neighbors eating dinner after the white men have finished, at the Wilkins place, Tallyho, Stem, Granville County, November 1939.",
+   "date": "1939-11",
+   "primary": false,
+   "sha256": "4237d4c0be32ece18ca17ffa60801b006fcffdac00fd182e68bfae3273086e58"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-a-fourth-of-july-celebration-st-helena-island-s-c-lc-bed6522.jpg",
+   "source": "commons",
+   "title": "File:A Fourth of July celebration, St. Helena Island, S.C. LCCN2017877575.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/A_Fourth_of_July_celebration%2C_St._Helena_Island%2C_S.C._LCCN2017877575.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AA_Fourth_of_July_celebration%2C_St._Helena_Island%2C_S.C._LCCN2017877575.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Wolcott, Marion Post, 1910-1990, photographer",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2017877575\nImage download: https://cdn.loc.gov/service/pnp/fsac/1a34000/1a34300/1a34302v.jpg\nOriginal url: https://www.loc.gov/pictures/item/20178775",
+   "alt": "Colour transparency, 1939: a crowd under pines hung with Spanish moss at a Fourth of July celebration on St. Helena Island, South Carolina, with washtubs and cooking pots on the ground.",
+   "date": "1939-07",
+   "primary": false,
+   "sha256": "5d625834e2a428d6eb7beb1bb0703cae09e9490bb6b9b8482fd4c4b7ee721f58"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-a-fourth-of-july-celebration-by-a-group-of-negroes-s-ce6a9b9.jpg",
+   "source": "commons",
+   "title": "File:A Fourth of July celebration by a group of Negroes, St. Helena Island, S.C. LCCN2017877572.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/A_Fourth_of_July_celebration_by_a_group_of_Negroes%2C_St._Helena_Island%2C_S.C._LCCN2017877572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AA_Fourth_of_July_celebration_by_a_group_of_Negroes%2C_St._Helena_Island%2C_S.C._LCCN2017877572.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Wolcott, Marion Post, 1910-1990, photographer",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2017877572\nImage download: https://cdn.loc.gov/service/pnp/fsac/1a34000/1a34200/1a34299v.jpg\nOriginal url: https://www.loc.gov/pictures/item/20178775",
+   "alt": "Colour transparency, 1939: people standing and talking at the Fourth of July celebration on St. Helena Island, South Carolina.",
+   "date": "1939",
+   "primary": false,
+   "sha256": "88358362a1b8bc3671a69bf043d2e5e6dfdd48cc8ce9ac361472275b17ddf4ce"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-fourth-of-july-picnic-by-negroes-st-helena-island-s-c9ebb18.jpg",
+   "source": "commons",
+   "title": "File:Fourth of July picnic by Negroes, St. Helena Island, S.C. LCCN2017877571.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Fourth_of_July_picnic_by_Negroes%2C_St._Helena_Island%2C_S.C._LCCN2017877571.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AFourth_of_July_picnic_by_Negroes%2C_St._Helena_Island%2C_S.C._LCCN2017877571.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Wolcott, Marion Post, 1910-1990, photographer",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2017877571\nImage download: https://cdn.loc.gov/service/pnp/fsac/1a34000/1a34200/1a34298v.jpg\nOriginal url: https://www.loc.gov/pictures/item/20178775",
+   "alt": "Colour transparency, 1939: a cloth-covered table under the pines at the Fourth of July picnic on St. Helena Island, South Carolina, with tubs, crates and a pot set out around it.",
+   "date": "1939-07",
+   "primary": false,
+   "sha256": "f21b8e0740802e9e89bbb3080596854ebcd86c016c56facac85a9167b8a06ad3"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-yanceyville-vicinity-n-c-an-outdoor-picnic-being-hel-e16e09f.jpg",
+   "source": "commons",
+   "title": "File:Yanceyville (vicinity), N.C. An outdoor picnic being held during the noon intermission of an all day meeting of ministers and deacons, at the Negro church.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Yanceyville_%28vicinity%29%2C_N.C._An_outdoor_picnic_being_held_during_the_noon_intermission_of_an_all_day_meeting_of_ministers_and_deacons%2C_at_the_Negro_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AYanceyville_%28vicinity%29%2C_N.C._An_outdoor_picnic_being_held_during_the_noon_intermission_of_an_all_day_meeting_of_ministers_and_deacons%2C_at_the_Negro_church.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ds.01276.This tag does not indicate the copyright status of the attached work",
+   "alt": "An outdoor picnic held during the noon intermission of an all-day meeting of ministers and deacons at a church near Yanceyville, Caswell County, North Carolina, 1940.",
+   "date": "1940-10",
+   "primary": false,
+   "sha256": "7322793821677c1498d6b102b4926857f6731f935982cc3adf5f3e9fa0903d55"
+  },
+  {
+   "file": "fsa-barbecue-photographs/fsa-barbecue-photographs-yanceyville-vicinity-n-c-an-outdoor-picnic-being-hel-3075096.jpg",
+   "source": "commons",
+   "title": "File:Yanceyville (vicinity), N.C. An outdoor picnic being held during the noon intermission of a meeting of ministers and deacons of the Negro church.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Yanceyville_%28vicinity%29%2C_N.C._An_outdoor_picnic_being_held_during_the_noon_intermission_of_a_meeting_of_ministers_and_deacons_of_the_Negro_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AYanceyville_%28vicinity%29%2C_N.C._An_outdoor_picnic_being_held_during_the_noon_intermission_of_a_meeting_of_ministers_and_deacons_of_the_Negro_church.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8a43728.This tag does not indicate the copyright status of the attached w",
+   "alt": "A second frame of the same church picnic near Yanceyville, Caswell County, North Carolina, 1940.",
+   "date": "1940-10",
+   "primary": false,
+   "sha256": "ef2af09c62bc593bb12e4fb089dfbcfa3149108233af28e4168a5f56cd4eeeb0"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

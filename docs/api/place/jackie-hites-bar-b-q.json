@@ -1,0 +1,522 @@
+{
+ "schema": 1,
+ "id": "jackie-hites-bar-b-q",
+ "type": "place",
+ "names": {
+  "name": "Jackie Hite's Bar-B-Q",
+  "aliases": [
+   "Jackie Hite's Bar-B-Que",
+   "Jackie Hite's BBQ",
+   "Jackie Hite's"
+  ],
+  "sort": "Jackie Hite's"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "closed",
+  "founded": "1979",
+  "fuel": "wood",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog buffet house on East Railroad Avenue in Leesville, across the tracks from the town, that James Lee 'Jackie' Hite opened in May 1979 and ran until his death in September 2016; his family closed it in 2018. Hogs cooked whole over hickory coals, the coals made in a burn barrel — a steel drum in which the logs burn down — and the chopped meat was dressed with a mustard, vinegar and pepper sauce and set on a buffet with fried chicken, hash and rice, collards, field peas and creamed corn, paid for on the way out. Hite was also Leesville's mayor and fire chief.",
+  "story": "Jackie Hite's father was a plumber, a fisherman and a part-time barbecue man, and the son learned the pit helping him cook for the annual Firemen's Ball. Hite went into Leesville's public life from 1966 — fire chief, water commissioner, councilman, magistrate, and three terms as mayor — and in May 1979 opened the restaurant across the railroad tracks. He cooked hogs whole over hickory as his father had, and told Rien Fertel of the Southern Foodways Alliance in June 2012, five years after open-heart surgery and with constituents asking him to run for mayor again: 'Once you been there, you can't get it out of your blood', and 'We just never done nothing but what we're doing and that's why it's so hard.' He died in September 2016 after weeks of failing health; WIS called him a Midlands barbecue legend, and the restaurant had then been open more than thirty-five years. *Tradition holds —* his family kept the pits going two more years and closed the doors on September 23, 2018, the anniversary of his burial, saying it was what Jackie Hite himself would have wanted.",
+  "how": "Whole hogs over hickory coals, the wood burned down in a burn barrel and shoveled under the meat — *Tradition holds —* on pits of concrete block. The chopped pork got a sauce a visitor called 'like straight mustard': mustard seed and vinegar. Service was a buffet: fried chicken, hash and rice, coleslaw, collards sweet and smoky, salad, creamed corn, mac and cheese, field peas. Guests ate first and paid on the way out. The last listed hours were Wednesday and Thursday 9 to 2, Friday and Saturday 9 to 3, Sunday 9 to 2, cash or card.",
+  "today": "Closed since 2018. The building stands at 460 East Railroad Avenue, Leesville (Batesburg-Leesville); Destination BBQ marks it permanently closed. Nothing continues under the name as of September 15, 2026, so far as this project's sources show."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "its style: whole hog under a mustard-vinegar sauce, in Lexington County.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "mustard cut with vinegar and pepper — 'like straight mustard' to one visitor.",
+   "rel": "sauce"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, cooked whole over hickory as Jackie Hite's father had.",
+   "rel": "part"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "where its hickory burned down to coals before the shovel.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "as": "its pits, by the tradition's account: concrete block, hickory coals shoveled in.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory, burned to coals in the barrel.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "on the buffet beside the fried chicken.",
+   "rel": "serves"
+  },
+  {
+   "to": "hites-bar-b-q",
+   "as": "the other Hite's — the West Columbia stand, still open; no business link shown.",
+   "rel": "kin"
+  },
+  {
+   "to": "shealys-bar-b-que",
+   "as": "the town's other barbecue house, a quarter mile across the tracks, still open.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Jackie Hite here in June 2012.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "interviewed Jackie Hite here in June 2012.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hites-bar-b-q",
+   "tell": "Jackie Hite's was the Leesville buffet house, 1979 to 2018, now closed. Hite's is the Dreher Road take-out stand in West Columbia, open Friday and Saturday since 1957."
+  }
+ ],
+ "geo": {
+  "lat": 33.9173595,
+  "lon": -81.5130142,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap) geocode of 460 E Railroad Ave, 2026-09-15"
+ },
+ "address": {
+  "street": "460 E Railroad Ave",
+  "city": "Batesburg-Leesville",
+  "county": "Lexington",
+  "state": "SC",
+  "postcode": "29070"
+ },
+ "links": [
+  {
+   "label": "Jackie Hite's Bar-B-Q — Southern Foodways Alliance interview (2012)",
+   "url": "https://www.southernfoodways.org/interview/jackie-hites-bar-b-q/"
+  },
+  {
+   "label": "Jackie Hite's BBQ — Destination BBQ",
+   "url": "https://destination-bbq.com/jackie-hites-bbq-batesburg-sc/"
+  }
+ ],
+ "sources": [
+  "s:web-sfa-jackie-hites-bar-b-q",
+  "s:sfa-oral-histories",
+  "s:web-wis-jackie-hite-dies-2016",
+  "s:web-destination-bbq-jackie-hites",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sfa-jackie-hites-bar-b-q"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-sfa-jackie-hites-bar-b-q",
+    "note": "death from WIS, Sept 21, 2016; the September 23, 2018 closing was reported by WLTX and the Post and Courier, neither of which this project could fetch, so it is marked as tradition inline"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-jackie-hites",
+    "note": "the concrete-block pits are marked as tradition inline"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-jackie-hites"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest; Nominatim geocode of the street address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-jackie-hites",
+    "note": "street address from the listing sites"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:web-destination-bbq-jackie-hites",
+   "tier": "cited",
+   "note": "Jackie Hite died in September 2016 and his family closed the restaurant in 2018; Destination BBQ marks it permanently closed.",
+   "since": "2018"
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "tier": "cited",
+   "note": "Hogs cooked whole over hickory coals."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "tier": "cited",
+   "note": "Hickory coals made in a burn barrel — a steel drum in which the logs burn down — and shoveled under the meat."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "tier": "cited",
+   "note": "A buffet of fried chicken, hash and rice, collards, field peas and creamed corn; guests ate first and paid on the way out."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "tier": "cited",
+   "note": "Hash and rice on the buffet."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "tier": "cited",
+   "note": "James Lee 'Jackie' Hite opened it in May 1979 and ran it until his death in September 2016; his family closed it in 2018."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/jackie-hites-bar-b-q/"
+  }
+ ],
+ "blurb": "A whole-hog buffet house on East Railroad Avenue in Leesville, across the tracks from the town, that James Lee 'Jackie' Hite opened in May 1979 and ran until his death in September 2016; his family closed it in 2018.",
+ "region_terms": [
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "its style: whole hog under a mustard-vinegar sauce, in Lexington County.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "mustard cut with vinegar and pepper — 'like straight mustard' to one visitor.",
+   "rel": "sauce"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, cooked whole over hickory as Jackie Hite's father had.",
+   "rel": "part"
+  },
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "where its hickory burned down to coals before the shovel.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "its pits, by the tradition's account: concrete block, hickory coals shoveled in.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "hickory, burned to coals in the barrel.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "on the buffet beside the fried chicken.",
+   "rel": "serves"
+  },
+  {
+   "to": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "as": "the other Hite's — the West Columbia stand, still open; no business link shown.",
+   "rel": "kin"
+  },
+  {
+   "to": "shealys-bar-b-que",
+   "type": "place",
+   "name": "Shealy's Bar-B-Que",
+   "as": "the town's other barbecue house, a quarter mile across the tracks, still open.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded Jackie Hite here in June 2012.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Jackie Hite here in June 2012.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-sfa-jackie-hites-bar-b-q",
+   "kind": "web",
+   "title": "Jackie Hite's Bar-B-Q — James Lee 'Jackie' Hite, interviewed by Rien Fertel, June 13, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/jackie-hites-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-oral-histories",
+   "kind": "oral-history",
+   "title": "Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina)",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "note": "interviews with pitmasters and owners; cite the individual interview page in the record's links"
+  },
+  {
+   "id": "s:web-wis-jackie-hite-dies-2016",
+   "kind": "web",
+   "title": "Longtime Midlands BBQ restaurant owner dies (September 21, 2016)",
+   "publisher": "WIS-TV, Columbia",
+   "url": "https://www.wistv.com/story/33145561/notable-midlands-bbq-restaurant-owner-dies/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-destination-bbq-jackie-hites",
+   "kind": "web",
+   "title": "Jackie Hite's BBQ, Batesburg, SC",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/jackie-hites-bbq-batesburg-sc/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-sfa-jackie-hites-bar-b-q"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "note": "death from WIS, Sept 21, 2016; the September 23, 2018 closing was reported by WLTX and the Post and Courier, neither of which this project could fetch, so it is marked as tradition inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-jackie-hites",
+   "note": "the concrete-block pits are marked as tradition inline"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-jackie-hites"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest; Nominatim geocode of the street address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-jackie-hites",
+   "note": "street address from the listing sites"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": [],
+   "source": "s:web-destination-bbq-jackie-hites",
+   "note": "Jackie Hite died in September 2016 and his family closed the restaurant in 2018; Destination BBQ marks it permanently closed.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "note": "Hogs cooked whole over hickory coals.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "note": "Hickory coals made in a burn barrel — a steel drum in which the logs burn down — and shoveled under the meat.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "buffet",
+   "label": "Buffet",
+   "icon": "🍽",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "note": "A buffet of fried chicken, hash and rice, collards, field peas and creamed corn; guests ate first and paid on the way out.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "note": "Hash and rice on the buffet.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-sfa-jackie-hites-bar-b-q",
+   "note": "James Lee 'Jackie' Hite opened it in May 1979 and ran it until his death in September 2016; his family closed it in 2018.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "https://www.southernfoodways.org/interview/jackie-hites-bar-b-q/",
+   "year": 2012,
+   "source": "s:web-sfa-jackie-hites-bar-b-q"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "Jackie Hite's pit at Leesville, opened May 1979 by the town's fire chief and later mayor: hickory-smoked pigs, a sauce of mustard, vinegar and pepper.",
+   "rel": "place"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "Leesville, since 1979: mustard, vinegar and pepper on hickory-smoked pigs.",
+   "rel": "served-at"
+  },
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "remembered sweet and smoky on the buffet, beside hash and rice.",
+   "rel": "served-at"
+  },
+  {
+   "from": "mac-and-cheese",
+   "type": "dish",
+   "name": "mac and cheese",
+   "as": "on the buffet beside the hash and rice.",
+   "rel": "served-at"
+  },
+  {
+   "from": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "as": "the other Hite's, in Leesville, closed in 2018; same surname, same county, no business link shown.",
+   "rel": "kin"
+  },
+  {
+   "from": "shealys-bar-b-que",
+   "type": "place",
+   "name": "Shealy's Bar-B-Que",
+   "as": "the town's other barbecue house, across the tracks, closed in 2018.",
+   "rel": "kin"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Jackie Hite there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "schema": 1,
+ "id": "georges-barbecue-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "George's Barbecue Sauce",
+  "aliases": [
+   "George's Sauce",
+   "George's Original",
+   "George's of Nashville"
+  ],
+  "said": "George's, on shelves across eastern North Carolina; the label says George's Barbecue Sauce."
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "base": "lexington-dip",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A bottled sauce from Nashville, North Carolina, a Nash County town on the edge of the Coastal Plain, sold in three strengths: Original, Hot and Special. The Original's label reads vinegar, water, tomato concentrate, tomato paste, sugar, apples, salt, high fructose corn syrup, corn syrup, red pepper and spices — vinegar leading, tomato third and fourth, and a sweetening that runs to three separate entries. It carries 3.5 grams of sugar in a tablespoon and 180 milligrams of sodium. The Special reverses the first four: tomato concentrate and tomato paste come before the water and the vinegar, and jalapenos join the list.",
+  "story": "The company dates itself to 1975 and names George Stallings as its founder, who worked the recipe out in his outdoor garage; after it caught on at home, he and his brother cooked, bottled and sold it by hand. The maker's own page says the sauces are still made by hand in small batches to that recipe, and that 4,500 bottles a day are poured, packed and shipped by hand from Womble Road in Nashville.\n\n*Inference —* the label is worth reading against the map. Nashville sits in the eastern half of the state, where the sauce that goes on a chopped hog is vinegar and pepper with no tomato in it. George's pours vinegar first, then puts tomato third — the order of the Piedmont dip, not the Coastal Plain's — and sells it as an eastern-style sauce. A bottle that has to keep on a shelf and please a wide market is not the same object as a sauce mixed in a bucket behind a pit, and the reading here describes the bottle.",
+  "how": "Poured over chopped or pulled pork, brushed on chicken and ribs, used as a mop while a shoulder cooks. It is thin enough to soak rather than coat. Three strengths sit beside each other on the same shelf: Original, Hot, and Special, which is the tomato-first one with jalapenos.",
+  "today": "Made and shipped from Nashville, North Carolina. The three bottles are sold from the company's site and through eastern North Carolina grocers."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style it is sold as, and the region it is made in: the Coastal Plain, where the pits' own sauce carries no tomato.",
+   "rel": "style"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the order its label actually reads in: vinegar first, tomato behind it, sugar behind that.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sauce of its own region, which stops where this bottle adds tomato and sugar.",
+   "rel": "contrast"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "as": "the other eastern North Carolina bottle on the same shelves, sixty miles south at Goldsboro, with four ingredients to this one's ten and no sugar at all.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "what the bottle is bought for.",
+   "rel": "serves"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "scotts-barbecue-sauce",
+   "tell": "Both are eastern North Carolina bottles. Scott's label names four ingredients and no sugar; George's names ten, of which three are sweeteners."
+  }
+ ],
+ "links": [
+  {
+   "label": "George's BBQ Sauce — Our Story",
+   "url": "https://www.georgesbbqsauce.com/our-story"
+  },
+  {
+   "label": "USDA FoodData Central 1851011",
+   "url": "https://fdc.nal.usda.gov/food-details/1851011/nutrients"
+  }
+ ],
+ "sources": [
+  "s:web-georges-our-story",
+  "s:web-usda-fdc-branded",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+  "s:book-mrs-hills-new-cook-book",
+  "s:wikibooks-barbecue-sauce-sweet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-georges-our-story"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-georges-our-story",
+    "note": "the year, the founder's name, the garage and the by-hand figures are the maker's own page; the paragraph reading the label against the map is marked inference"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:web-usda-fdc-branded"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Eastern North Carolina Barbecue Sauce",
+   "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¾ gallons apple cider vinegar",
+    "⅛ cup salt",
+    "¼ cup ground black pepper",
+    "¼ cup red pepper flakes",
+    "1 cup molasses",
+    "2 cups honey"
+   ],
+   "text": "1. Start with apple cider vinegar in saucepan over medium heat.\n2. Add salt, ground black pepper, crushed red pepper, molasses, and honey.\n3. Let mixture heat up, but not quite boil.\n4. Mix well.\n5. Return sauce to the jug that the vinegar came in to cool.",
+   "yield": "¾ gallon",
+   "note": "Vinegar first, as on this label. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "Vinegar, salt and both peppers, with butter and mustard: the Southern mop of 1867."
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving.",
+   "note": "Cider vinegar and ketchup in the other proportion, for the sweeter end of the range."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "lexington-dip",
+  "maker": "George's Sauce Company",
+  "town": "Nashville",
+  "state": "NC",
+  "ingredients": [
+   "VINEGAR",
+   "WATER",
+   "TOMATO CONCENTRATE",
+   "TOMATO PASTE",
+   "SUGAR",
+   "APPLES",
+   "SALT",
+   "HIGH FRUCTOSE CORN SYRUP",
+   "CORN SYRUP",
+   "RED PEPPER AND SPICES"
+  ],
+  "tomato_rank": 3,
+  "vinegar_rank": 1,
+  "mustard_rank": 0,
+  "sugar_rank": 5,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 3.5,
+  "sodium_mg_per_tbsp": 179.8,
+  "heat": "mild",
+  "source": "s:web-usda-fdc-branded",
+  "url": "https://fdc.nal.usda.gov/food-details/1851011/nutrients",
+  "accessed": "2026-09-16",
+  "note": "The Original bottle. USDA FoodData Central record 1851011, GTIN 008453353537, 2 Tbsp (33 g) serving. The Hot bottle declares the same ingredient list; the Special reads tomato first and is profiled as a separate row in data/harvest/sauces.json."
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A bottled sauce from Nashville, North Carolina, a Nash County town on the edge of the Coastal Plain, sold in three strengths: Original, Hot and Special.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style it is sold as, and the region it is made in: the Coastal Plain, where the pits' own sauce carries no tomato.",
+   "rel": "style"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the order its label actually reads in: vinegar first, tomato behind it, sugar behind that.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the sauce of its own region, which stops where this bottle adds tomato and sugar.",
+   "rel": "contrast"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "the other eastern North Carolina bottle on the same shelves, sixty miles south at Goldsboro, with four ingredients to this one's ten and no sugar at all.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "what the bottle is bought for.",
+   "rel": "serves"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-georges-our-story",
+   "kind": "web",
+   "title": "Our Story",
+   "publisher": "George's Sauce Company, Nashville NC (georgesbbqsauce.com)",
+   "url": "https://www.georgesbbqsauce.com/our-story",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-usda-fdc-branded",
+   "kind": "web",
+   "title": "FoodData Central, Branded Foods",
+   "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "Nutrition Facts and ingredient statements submitted by manufacturers. Each row in the harvest names the record it came from in source_url and its numeric id in the note. Public domain.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sauce-harvest-2026-09-16",
+   "kind": "web",
+   "title": "Bottled Carolina barbecue sauce labels, 68 rows",
+   "publisher": "This project — data/harvest/sauces.json",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "The harvest file itself: every label this project could read on 2026-09-16, with the page each row came from. Cited where a record reports a figure computed across the harvest rather than from one bottle.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "kind": "web",
+   "title": "Cookbook:Eastern North Carolina Barbecue Sauce — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-sweet",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce (Sweet) — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-georges-our-story"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-georges-our-story",
+   "note": "the year, the founder's name, the garage and the by-hand figures are the maker's own page; the paragraph reading the label against the map is marked inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-georges-our-story"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-georges-our-story"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

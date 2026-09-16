@@ -1,0 +1,478 @@
+{
+ "schema": 1,
+ "id": "brick-pit",
+ "type": "pit",
+ "names": {
+  "name": "brick pit",
+  "aliases": [
+   "Lexington pit",
+   "closed pit",
+   "pit house",
+   "the pits"
+  ],
+  "said": "In Lexington the pits are 'the pits', and the hand on them is 'firing the pits'."
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "kind": "pit"
+ },
+ "text": {
+  "what": "The masonry pit of the Piedmont: a closed brick chamber with a rack for the shoulders and a chimney through the roof to carry off the smoke. Coals made from oak and hickory go in through the door and are spread on the floor under the meat; the door shuts and the shoulders cook nine to twelve hours at about 200 to 225 degrees. The Barbecue Center in Lexington describes its pit as a brick oven with three chambers, 'comparable to an oversized smoker', and Lexington Barbecue's roof carries a row of smoking stacks. The line of chimneys on a Lexington roof is how you know a wood pit from the road.",
+  "story": "The closed pit is the restaurant's answer to the trench. *Tradition holds —* the Lexington style began under tents on the courthouse square in the 1910s and moved indoors as its cooks built permanent pits, and the pits they built were brick because brick holds heat and a chimney takes the smoke out of a dining room. NCpedia's entry records that few commercial pits today are dug in the ground, and that economy, fastidiousness and health rules keep most Piedmont pits from basting with the ketchup-and-vinegar sauce, which flares; it goes on at the table instead, hence its name, dip. The Barbecue Center has cooked in its pit since 1955 under the Conrad family, and Lexington Barbecue, founded in 1962, cooks 'with wood, not gas' over oak and hickory coals only; a new pit hand there trains for a year before working the pits alone, and the heat from the fires, one visitor wrote, is overwhelming as the coals are turned. The North Carolina Historic Barbecue Trail admits only pits that cook on grates over wood or charcoal, so its Piedmont stops — Stamey's in Greensboro, Short Sugar's in Reidsville, the Bar-B-Q Center, Red Bridges in Shelby — are brick pits by definition.",
+  "how": "Oak and hickory logs burn to coals in a fireplace or burner at the end of the pit house; a crew member shovels the coals through the pit door and spreads them evenly under the shoulders — the round Lexington calls 'firing the pits' — then shuts the door. The shoulders sit on the rack, salted but not basted or marinated, for nine to twelve hours at 200 to 225 degrees; the Barbecue Center puts three hundred a week through its three chambers. The smoke leaves by the chimney. Finished shoulders come off to the block to be chopped, coarse chopped or sliced.",
+  "today": "The brick pit is still the plant of the Lexington restaurants — Lexington Barbecue, the Barbecue Center — and of the Piedmont stops on the Historic Barbecue Trail. Lexington Barbecue's site says it cooks with wood, not gas."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style cooked in it: shoulders only, over hickory and oak coals, under a chimney.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut sized to its rack.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the coals on its floor.",
+   "rel": "part"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "the fireplace or burner beside it does the barrel's job.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "as": "coals on the floor directly beneath the rack.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "as": "the open, unmortared whole-hog pit of the east; the brick pit is closed and chimneyed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "what replaced the brick pit at many restaurants.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "not basted in a closed pit because it flares; served at the table instead, which is why it is called dip.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "cooks over oak and hickory coals under a roof of smoking stacks; a new hand trains a year.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "a three-chamber brick oven cooking three hundred shoulders a week since 1955.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "the Greensboro pit house on the Historic Barbecue Trail.",
+   "rel": "place"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "founded Lexington Barbecue in 1962; his sons Rick and Wayne run it.",
+   "rel": "person"
+  },
+  {
+   "to": "pit",
+   "as": "the word, which in the Piedmont means this brick chamber.",
+   "rel": "term"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "its Trail's rule — wood or charcoal on grates — makes the Piedmont stops brick pits.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "block-pit",
+   "tell": "A brick pit is closed, with a door and a chimney, and cooks shoulders; a block pit is open, stacked from cinder blocks, and is sized to a split whole hog. Both are called 'the pit'."
+  },
+  {
+   "id": "pig-cooker",
+   "tell": "A brick pit is masonry and stays put; a pig cooker is steel on wheels."
+  }
+ ],
+ "links": [
+  {
+   "label": "Lexington Barbecue — official site",
+   "url": "https://www.lexbbq.com/"
+  },
+  {
+   "label": "Leisure Group Travel — Lexington's pits",
+   "url": "https://leisuregrouptravel.com/pork-paradise-savoring-the-flavors-of-lexington-north-carolina/"
+  }
+ ],
+ "sources": [
+  "s:web-leisuregrouptravel-lexington",
+  "s:web-lexbbq",
+  "s:web-visitnc-lexington-barbecue",
+  "s:web-traveladdicts-lexington",
+  "s:ncpedia-barbecue",
+  "s:wp-lexington-north-carolina",
+  "s:wp-lexington-barbecue",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-leisuregrouptravel-lexington"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-leisuregrouptravel-lexington",
+    "note": "the courthouse-square tents are hedged inline as tradition (Reed & Reed 2008 tell the lineage); NCpedia (Dough 2006) for the dip; Travel Addicts for the year of training"
+   },
+   "kin[11].as": {
+    "tier": "cited",
+    "source": "s:web-lexbbq",
+    "note": "the site names owners Rick and Wayne Monk and a 1962 founding by Rick's father; the founder's identity as Wayne Monk senior is the cast list's"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "brick-pit/brick-pit-barbecue-pit.jpg",
+   "source": "commons",
+   "title": "File:Barbecue pit.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Barbecue_pit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue_pit.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Southern Foodways Alliance",
+   "credit": "originally posted to Flickr as making coals at Wilbur's Barbecue",
+   "alt": "A wood-fired barbecue pit at Wilbur's Barbecue - Goldsboro, NC, USA.",
+   "date": "2007-09-04 16:42:53",
+   "primary": true,
+   "sha256": "b8798499e837f236baa48f870f35297934fef63ccc97b43498c7575f39131e4d"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The masonry pit of the Piedmont: a closed brick chamber with a rack for the shoulders and a chimney through the roof to carry off the smoke.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style cooked in it: shoulders only, over hickory and oak coals, under a chimney.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut sized to its rack.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the coals on its floor.",
+   "rel": "part"
+  },
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the fireplace or burner beside it does the barrel's job.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "coals on the floor directly beneath the rack.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the open, unmortared whole-hog pit of the east; the brick pit is closed and chimneyed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "what replaced the brick pit at many restaurants.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "not basted in a closed pit because it flares; served at the table instead, which is why it is called dip.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "cooks over oak and hickory coals under a roof of smoking stacks; a new hand trains a year.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "a three-chamber brick oven cooking three hundred shoulders a week since 1955.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the Greensboro pit house on the Historic Barbecue Trail.",
+   "rel": "place"
+  },
+  {
+   "to": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "founded Lexington Barbecue in 1962; his sons Rick and Wayne run it.",
+   "rel": "person"
+  },
+  {
+   "to": "pit",
+   "type": "term",
+   "name": "pit",
+   "as": "the word, which in the Piedmont means this brick chamber.",
+   "rel": "term"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "its Trail's rule — wood or charcoal on grates — makes the Piedmont stops brick pits.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-leisuregrouptravel-lexington",
+   "kind": "web",
+   "title": "Lexington, North Carolina Barbecue is All About the Pork (Randy Mink)",
+   "publisher": "Leisure Group Travel",
+   "url": "https://leisuregrouptravel.com/pork-paradise-savoring-the-flavors-of-lexington-north-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq",
+   "kind": "web",
+   "title": "Lexington Barbecue — official site",
+   "publisher": "Lexington Barbecue",
+   "url": "https://www.lexbbq.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-visitnc-lexington-barbecue",
+   "kind": "web",
+   "title": "Lexington Barbecue",
+   "publisher": "Visit North Carolina (Economic Development Partnership of North Carolina)",
+   "url": "https://www.visitnc.com/lexington-barbecue",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-traveladdicts-lexington",
+   "kind": "web",
+   "title": "The Art and Heritage of Lexington Barbecue in North Carolina (Laura Longwell, updated April 18, 2020)",
+   "publisher": "Travel Addicts",
+   "url": "https://traveladdicts.net/lexington-barbecue-north-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-barbecue",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-ourstate-historic-barbecue-trail",
+   "kind": "web",
+   "title": "Running on Full: The North Carolina Historic Barbecue Trail (Bryan Mims, January 29, 2016)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-leisuregrouptravel-lexington"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-leisuregrouptravel-lexington",
+   "note": "the courthouse-square tents are hedged inline as tradition (Reed & Reed 2008 tell the lineage); NCpedia (Dough 2006) for the dip; Travel Addicts for the year of training"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-leisuregrouptravel-lexington"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-leisuregrouptravel-lexington"
+  }
+ },
+ "primary_image": {
+  "file": "brick-pit/brick-pit-barbecue-pit.jpg",
+  "source": "commons",
+  "title": "File:Barbecue pit.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Barbecue_pit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue_pit.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Southern Foodways Alliance",
+  "credit": "originally posted to Flickr as making coals at Wilbur's Barbecue",
+  "alt": "A wood-fired barbecue pit at Wilbur's Barbecue - Goldsboro, NC, USA.",
+  "date": "2007-09-04 16:42:53",
+  "primary": true,
+  "sha256": "b8798499e837f236baa48f870f35297934fef63ccc97b43498c7575f39131e4d"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the closed, chimneyed Piedmont pit for shoulders; the block pit is open and for hogs.",
+   "rel": "contrast"
+  },
+  {
+   "from": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the closed Piedmont pit fed the same way, from a fireplace or burner at the end of the pit house.",
+   "rel": "kin"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the closed pit built for it: coals on the floor, rack above, chimney over.",
+   "rel": "kin"
+  },
+  {
+   "from": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the Piedmont wood pit these replaced at many restaurants.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the Piedmont pit these coals are shoveled into.",
+   "rel": "kin"
+  },
+  {
+   "from": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the closed Piedmont pit a rack of shoulders fits.",
+   "rel": "kin"
+  },
+  {
+   "from": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "the original 1969 brick pit, still the one Brandon Cook tended.",
+   "rel": "part"
+  },
+  {
+   "from": "tarheel-q",
+   "type": "place",
+   "name": "Tarheel Q",
+   "as": "its pits — brick masonry, out behind the building, with the stacks showing.",
+   "rel": "part"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "what the Trail's Piedmont stops cook in.",
+   "rel": "kin"
+  },
+  {
+   "from": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "the pits under his four chimneys, whose smoke shows from the road.",
+   "rel": "part"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "what the Trail's Piedmont stops cook in.",
+   "rel": "kin"
+  },
+  {
+   "from": "pit",
+   "type": "term",
+   "name": "pit",
+   "as": "the masonry pit, the first form above ground.",
+   "rel": "part"
+  }
+ ]
+}

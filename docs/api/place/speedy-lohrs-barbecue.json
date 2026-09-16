@@ -1,0 +1,336 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "speedy-lohrs-barbecue",
+ "names": {
+  "name": "Speedy Lohr's Barbecue",
+  "aliases": [
+   "Speedy Lohr's",
+   "Speedy Lohr's BBQ"
+  ],
+  "sort": "Speedy Lohr's Barbecue"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "2013",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A wood-burning pork house on NC 8 south of Lexington, Davidson County, run by Randy and Amy Lohr, who bought the building in June 2013 from Whitley's Barbecue and carried the family name onto it. Randy's father was Sherman Paul 'Speedy' Lohr, who started the first Speedy's on Highway 52 and learned under Warner Stamey. The pits burn wood and the family says plainly that they always will. The tray is the Piedmont tray, chopped shoulder with the dip and red slaw; pork-skin sandwiches come out on Thursdays.",
+  "story": "There are three businesses in the Carolinas carrying the Lohr name and they do not cook alike, which is the first thing to settle. This is the NC 8 house. Amy Lohr set out the line herself, in a comment on a visiting writer's post on February 2, 2023: her father-in-law founded the original Speedy's on Highway 52, and Randy bought this building in 2013. She wrote, of the pits, that they still cook over them with wood, have never stopped and never will, Lord willing — which is as direct a statement of method as a pit gives, and it comes from an owner rather than from a listing. Highway work had already cost the family twice: Randy's father's place went in an earlier expansion of Highway 8, and a Speedy Lohr's at Southmont closed in 2005 for the same reason. Then in 2015 this building caught fire and closed. It reopened in August 2016, thirteen months and about $200,000 later, with the pits rebuilt to code. Randy and Amy's son Luke is the named successor, and a visiting writer recorded in 2018 that he means to keep cooking with wood. The Campaign for Real Barbecue certified the pit.",
+  "how": "Pork cooks over wood in pits behind the building, rebuilt after the 2015 fire. The meat is chopped and served the Piedmont way, with the dip — thin vinegar reddened with ketchup — and red slaw dressed from the same jug. Pork-skin sandwiches are a Thursday item rather than an everyday one.",
+  "today": "Open at 3664 NC Highway 8 South, Lexington, and carried on Visit Lexington's current barbecue list. The map point here is the town, not the building: no street-level coordinate for the address came back from the geocoder. Hours are not on this disk. Check before driving."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style of its tray: shoulder over wood, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut of the Piedmont houses, chopped from the pit.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its sauce, and the dressing that makes its slaw red.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-skins",
+   "as": "a Thursday sandwich here rather than a daily side.",
+   "rel": "serves"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "taught Randy Lohr's father, Sherman Paul 'Speedy' Lohr, whose name the business carries.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "speedys-barbecue",
+   "tell": "Two Speedys, four miles apart, cooking differently. Speedy's Barbecue on Piedmont Drive is Roy and Ella Dunn's, bought from Paul Lohr in the early 1970s, and cooks on electric cookers. Speedy Lohr's on NC 8 is Randy and Amy Lohr's, bought in 2013, and burns wood."
+  }
+ ],
+ "geo": {
+  "lat": 35.82403,
+  "lon": -80.25338,
+  "precision": "town",
+  "source": "OpenStreetMap via Nominatim — Lexington town boundary"
+ },
+ "address": {
+  "street": "3664 NC Highway 8 S",
+  "city": "Lexington",
+  "county": "Davidson",
+  "state": "NC",
+  "postcode": "27292"
+ },
+ "links": [
+  {
+   "label": "True 'Cue NC — certified pits",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "label": "Speedy Lohr's Barbecue — John Tanner's Barbecue Blog (2023)",
+   "url": "https://johntannersbbqblog.wordpress.com/2023/02/02/speedy-lohrs-barbecue-lexington-north-carolina/"
+  },
+  {
+   "label": "Speedy Lohr's BBQ — Barbecue Bros (2018)",
+   "url": "https://barbecuebros.co/2018/01/22/speedy-lohrs-bbq-lexington-nc/"
+  }
+ ],
+ "sources": [
+  "s:web-johntanner-speedy-lohrs-2023",
+  "s:web-barbecuebros-speedy-lohrs",
+  "s:web-truecue-nc",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-speedy-lohrs"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-johntanner-speedy-lohrs-2023",
+    "note": "Amy Lohr's own words in a comment dated February 2, 2023; the 2015 fire, the thirteen months, the $200,000 and Luke Lohr from Barbecue Bros, January 22, 2018."
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "neither the OSM harvest nor Nominatim returned a point for the NC 8 address; the Lexington town boundary stands in, so the map point is the town"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-barbecuebros-speedy-lohrs",
+    "note": "no hours on this disk"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-johntanner-speedy-lohrs-2023",
+   "tier": "cited",
+   "note": "Amy Lohr, in her own words on February 2, 2023: 'We still cook over pits with wood, we have never stopped doing that and never will, Lord willing.' Also True 'Cue certified."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-johntanner-speedy-lohrs-2023",
+   "tier": "cited",
+   "note": "Amy Lohr writes in the first person as an owner, naming her father-in-law as founder of the original Speedy's and her husband Randy as the 2013 purchaser. Barbecue Bros (2018) names the pair together.",
+   "since": "2013"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-barbecuebros-speedy-lohrs",
+   "tier": "cited",
+   "note": "Randy and Amy Lohr, with their son Luke named as the successor who will also cook with wood."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Speedy Lohr's Barbecue, Lexington",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A wood-burning pork house on NC 8 south of Lexington, Davidson County, run by Randy and Amy Lohr, who bought the building in June 2013 from Whitley's Barbecue and carried the family name onto it.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style of its tray: shoulder over wood, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut of the Piedmont houses, chopped from the pit.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its sauce, and the dressing that makes its slaw red.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "a Thursday sandwich here rather than a daily side.",
+   "rel": "serves"
+  },
+  {
+   "to": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "taught Randy Lohr's father, Sherman Paul 'Speedy' Lohr, whose name the business carries.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-johntanner-speedy-lohrs-2023",
+   "kind": "web",
+   "title": "Speedy Lohr's Barbecue, Lexington, North Carolina",
+   "publisher": "John Tanner's Barbecue Blog",
+   "year": 2023,
+   "url": "https://johntannersbbqblog.wordpress.com/2023/02/02/speedy-lohrs-barbecue-lexington-north-carolina/",
+   "accessed": "2026-09-16",
+   "note": "Amy Lohr's first-person comment on the post, dated February 2, 2023, is the ownership and fuel evidence."
+  },
+  {
+   "id": "s:web-barbecuebros-speedy-lohrs",
+   "kind": "web",
+   "title": "Speedy Lohr's BBQ — Lexington, NC",
+   "publisher": "Barbecue Bros",
+   "year": 2018,
+   "url": "https://barbecuebros.co/2018/01/22/speedy-lohrs-bbq-lexington-nc/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-speedy-lohrs"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-johntanner-speedy-lohrs-2023",
+   "note": "Amy Lohr's own words in a comment dated February 2, 2023; the 2015 fire, the thirteen months, the $200,000 and Luke Lohr from Barbecue Bros, January 22, 2018."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-speedy-lohrs"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-speedy-lohrs",
+   "note": "no hours on this disk"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "neither the OSM harvest nor Nominatim returned a point for the NC 8 address; the Lexington town boundary stands in, so the map point is the town"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-speedy-lohrs"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-johntanner-speedy-lohrs-2023",
+   "note": "Amy Lohr, in her own words on February 2, 2023: 'We still cook over pits with wood, we have never stopped doing that and never will, Lord willing.' Also True 'Cue certified.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-johntanner-speedy-lohrs-2023",
+   "note": "Amy Lohr writes in the first person as an owner, naming her father-in-law as founder of the original Speedy's and her husband Randy as the 2013 purchaser. Barbecue Bros (2018) names the pair together.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-barbecuebros-speedy-lohrs",
+   "note": "Randy and Amy Lohr, with their son Luke named as the successor who will also cook with wood.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Speedy Lohr's Barbecue, Lexington",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": []
+}

@@ -1,0 +1,67 @@
+{
+ "built": "2026-09-16",
+ "scope": "Barbecue as cooked, sold, eaten and talked about in North Carolina and South Carolina. Neighbouring states appear only as origins or contrasts.",
+ "records": {
+  "style": 6,
+  "sauce": 15,
+  "dish": 27,
+  "pit": 11,
+  "place": 58,
+  "person": 25,
+  "org": 4,
+  "event": 7,
+  "term": 15,
+  "art": 7,
+  "story": 3
+ },
+ "how_records_are_made": "Hand-written JSON, one per node, each field carrying a provenance tier (cited / harvested / tradition / inference / field). Cited fields name a source in sources.json. Tradition fields are general knowledge of the tradition and are hedged in the text.",
+ "places": {
+  "curated": 58,
+  "harvested_from_osm": 335,
+  "osm_fetched_at": "2026-09-16T03:25:25Z",
+  "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
+  "osm_query": "[out:json][timeout:120];area[\"ISO3166-2\"=\"US-NC\"]->.nc;area[\"ISO3166-2\"=\"US-SC\"]->.sc;(nwr[\"cuisine\"~\"barbecue|bbq\",i](area.nc);nwr[\"cuisine\"~\"barbecue|bbq\",i](area.sc););out center tags;"
+ },
+ "images": {
+  "count": 115,
+  "licences_accepted": [
+   "CC0",
+   "Public domain",
+   "CC BY",
+   "CC BY-SA",
+   "FAL"
+  ]
+ },
+ "tags": {
+  "black-owned": 9,
+  "woman-owned": 16,
+  "lgbtq-friendly": 1,
+  "wood-cooked": 40,
+  "whole-hog": 19,
+  "family-run": 41,
+  "cash-only": 5,
+  "sold-out-closes": 2,
+  "buffet": 11,
+  "weekends-only": 8,
+  "hash": 19,
+  "closed": 11
+ },
+ "tags_note": "A tag names its evidence (the owner's words, a press profile, a public directory or list). No evidence, no tag; absence of a tag says nothing about a place.",
+ "recognitions": 118,
+ "recipes": 142,
+ "sources": 590,
+ "not_yet": [
+  "field observations (no record carries the field tier yet)",
+  "menu prices with dates on most places",
+  "Georgia, Virginia and Tennessee cousins beyond a mention",
+  "photographs for most records",
+  "oral-history links per person"
+ ],
+ "tiers": {
+  "cited": "Cited — a named source, linked",
+  "harvested": "Harvested — fetched from an open dataset, with its licence",
+  "tradition": "Tradition — general knowledge of the tradition, hedged",
+  "inference": "Inference — this project's own reasoning from the above",
+  "field": "Field — someone stood there"
+ }
+}

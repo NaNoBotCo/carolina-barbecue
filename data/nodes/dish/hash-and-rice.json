@@ -1,0 +1,284 @@
+{
+ "schema": 1,
+ "id": "hash-and-rice",
+ "type": "dish",
+ "names": {
+  "name": "hash and rice",
+  "aliases": [
+   "hash",
+   "barbecue hash",
+   "South Carolina hash",
+   "pork hash",
+   "liver hash",
+   "liver and lights hash",
+   "hash on rice"
+  ],
+  "said": "Just 'hash'. The rice is understood; 'hash and rice' is how the menu writes it."
+ },
+ "etymology": {
+  "root": "French hacher 'to chop up' (from Old French hache 'axe') → English hash, verb, 1650s, 'to hack, chop into small pieces' → hash, noun, 1660s, 'a stew of meat cut into small pieces'",
+  "first_attested": "English verb 1650s, noun 1660s (Online Etymology Dictionary). The South Carolina dish is in print by 1854, when the Abbeville Press and Banner reported 'rich hash' at a barbecue at Matthews' Spring (Moss, 2020).",
+  "note": "Robert Moss traces the dish's name to 'haslet', an old English word for the viscera of a butchered animal — the head, liver and lights that went into the first hash pots. That is a claim about the dish; the dictionary word is the French chopping verb, and the two may have met in the pot. Folk — a Huguenot 'hachis' brought to Charleston is proposed on Destination BBQ without a citation.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": [
+  "sc",
+  "sc-midlands",
+  "sc-upstate",
+  "sc-lowcountry",
+  "sc-pee-dee",
+  "us-south"
+ ],
+ "facets": {
+  "course": "side",
+  "meat": "mixed",
+  "styles": [
+   "sc-mustard",
+   "sc-pee-dee",
+   "sc-light-tomato",
+   "sc-heavy-tomato"
+  ]
+ },
+ "text": {
+  "what": "A thick stew, or gravy, of pork cooked down with onions until it can be eaten with a spoon, ladled over white rice beside the barbecue. It is South Carolina's side the way Brunswick stew is Georgia's, Virginia's and North Carolina's, and it is barely known outside the state. The old hash was made from what the whole hog left after the barbecue — the head, the liver and the lights (the lungs) — simmered for a day in an iron pot; most restaurants now use shoulder or ham. Three loose regions: mustard in the Midlands, vinegar and liver in the Lowcountry, beef and onions in the Upstate.",
+  "story": "Hash was on the table before the Civil War in the counties along the Savannah River. Robert Moss found it in the Abbeville Press and Banner — 'rich hash' at a barbecue at Matthews' Spring in 1854, 'smoking hash' at Robinson's Spring in 1858 — and at an 1861 barbecue for the Edgefield Riflemen, and Estella Jones, who had been enslaved on plantations near Augusta, remembered the men cooking hash and rice there. The cooks were Black, the pots were iron, the fire was wood and the cooking took a day; what went in was the head, the liver and the lights that the whole hog left behind, which Moss reads in the name itself, haslet, the old word for the viscera. Howard Conyers, who grew up with it in the Black churches of the Midlands, calls it liver-and-lights hash and says it is now nearly impossible to get unless you kill your own hog, because federal rules keep lungs out of commercial processing. Hash houses stood across the Upstate, some set up by textile-mill owners to draw farmers to town. The Post and Courier reported in 2020 that hash was fading from the state's restaurants; Moss answered in Southern Living that new places were adding it to their menus. *Tradition holds —* the pot is stirred all night, and some say it must be cooked by the light of the moon; Lake High of the South Carolina Barbeque Association calls the finished thing 'liquid sausage'.",
+  "how": "The meat — shoulder, ham, or the head and liver where a pit still uses them — is boiled until it falls from the bone, picked, then ground through a hand-crank grinder or chopped, and returned to the pot with onions and its own stock to simmer until it thickens to gravy. The seasoning marks the region: mustard in the Midlands and the Dutch Fork, vinegar and ketchup in the Lowcountry, beef with onions and butter and no dominant base in the Upstate (called white hash), a red hash around Sumter. Potatoes go in at some pits and never at others. Served by the ladle over white rice, beside the pork, on a buffet plate or in a styrofoam bowl.",
+  "today": "Hash is on the buffet at Dukes in Orangeburg and Walterboro, at Sweatman's in Holly Hill, at Midway in Buffalo and at True BBQ in West Columbia; Big T in Gadsden and Brown's in Kingstree still put hog's head and liver in the pot (Moss, 2020). A survey found it most common around Columbia. Fire departments and civic clubs cook it in big pots for fundraisers."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "the style whose plate it sits on, over rice, beside mustard-sauced pork; in the Midlands the mustard is in the hash too.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "where liver hash holds on, around Florence, Latta and Hemingway.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the hog whose head and organs made the first hash.",
+   "rel": "origin"
+  },
+  {
+   "to": "hog-killing",
+   "as": "the source of the head, liver and lights, and of the wash pot it was cooked in.",
+   "rel": "origin"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "the stew that holds hash's place in Georgia, Virginia and North Carolina: tomato, corn and beans, and no rice under it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chicken-bog",
+   "as": "the other rice pot of South Carolina, cooked for the tobacco crew where hash is cooked for the barbecue.",
+   "rel": "kin"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the word for both the Lowcountry rice the dish sits on and the mustard sauce beside it.",
+   "rel": "term"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "in the Midlands pot as well as on the meat.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dutch-fork",
+   "as": "the German-settled fork of the rivers where mustard goes into the hash.",
+   "rel": "term"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "where hash and rice has been on the buffet since Earl Dukes opened in Orangeburg in 1955.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "where hash sits beside whole hog and mustard sauce in Holly Hill.",
+   "rel": "served-at"
+  },
+  {
+   "to": "midway-bbq",
+   "as": "the Upstate's hash, in Buffalo.",
+   "rel": "served-at"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "one of the pits that still cooks hash from hog's head and liver.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lake-high",
+   "as": "who calls it liquid sausage.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "as": "who found it in the 1854 newspapers and traced the name to haslet.",
+   "rel": "person"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "Lake High's association, which judges hash with the barbecue.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "in South Carolina the pickin's side is hash or pilau over rice.",
+   "rel": "event"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "the fire-department and club hash pots.",
+   "rel": "event"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "brunswick-stew",
+   "tell": "Brunswick stew is red with tomato and full of corn and butter beans; hash is brown or mustard-yellow, smooth enough to spoon, and comes over rice."
+  },
+  {
+   "id": "chicken-bog",
+   "tell": "In bog the rice is cooked in the pot with the chicken; hash is a gravy ladled over rice cooked apart."
+  }
+ ],
+ "links": [
+  {
+   "label": "Hash (stew) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hash_(stew)"
+  },
+  {
+   "label": "Robert F. Moss — The Story of Hash & Rice",
+   "url": "https://robertfmoss.com/features/The-Story-of-South-Carolina-Hash-and-Rice"
+  },
+  {
+   "label": "South Carolina Encyclopedia — Hash",
+   "url": "https://www.scencyclopedia.org/sce/entries/hash/"
+  }
+ ],
+ "sources": [
+  "s:wp-hash-stew",
+  "s:web-moss-hash-and-rice",
+  "s:web-scencyclopedia-hash",
+  "s:web-discoversc-hash",
+  "s:web-conyers-liver-lights-hash",
+  "s:web-destination-bbq-sc-hash",
+  "s:wp-dukes-bar-b-que",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-pig-pickin",
+  "s:etymonline",
+  "s:book-housekeeping-in-old-virginia",
+  "s:book-aunt-carolines-dixieland-recipes",
+  "s:book-mrs-hills-new-cook-book"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hash-stew"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-moss-hash-and-rice",
+    "note": "the moonlight and the all-night stir are marked tradition inline; the Post and Courier date is Wikipedia's"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-scencyclopedia-hash",
+    "note": "regions from the Encyclopedia and Discover South Carolina; the grinder from Conyers; Sumter red hash from Destination BBQ"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-discoversc-hash",
+    "note": "restaurant list from Discover South Carolina and Moss, 2020; the Columbia survey from Wikipedia"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-housekeeping-in-old-virginia",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "To Hash Pig's Head",
+   "source": "s:book-housekeeping-in-old-virginia",
+   "license": "Public domain",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "author": "Marion Cabell Tyree, editor",
+   "book": "Housekeeping in Old Virginia",
+   "page": "135–136",
+   "text": "Take head, feet, and haslet of pig; boil them until done, then cut them up fine, taking out the bones.\n\nPut it back in the same vessel with liquor and cook till done, then thicken with a little flour. Add two hard-boiled eggs and one cup walnut catsup. — Mrs. Dr. G.",
+   "ingredients": [
+    "Black pepper, salt, a little sage.",
+    "2 onions chopped fine.",
+    "A little red pepper.",
+    "1 teaspoonful mace.",
+    "1 teaspoonful cloves."
+   ],
+   "note": "The haslet is the heart, liver and lights (lungs). This is the head-and-organ hash that South Carolina pits still cook, written down in 1879 without the state's name on it; the rice is not in the receipt, because in Virginia it was eaten on its own."
+  },
+  {
+   "title": "Southern Hash",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "page": 79,
+   "text": "Put vegetables through the meat chopper, using coarse cutter; cook in the stock, covered, until tender; add beef, salt, and pepper, and when hot turn on a platter and garnish with toast points. If corned beef and stock are used, use salt with care.",
+   "ingredients": [
+    "4 raw potatoes,",
+    "½ cup of water,",
+    "2 green peppers,",
+    "1½ cups cold chopped beef,",
+    "2 tomatoes,",
+    "Salt and pepper,",
+    "1 onion,",
+    "Toast points."
+   ],
+   "note": "A beef hash, not a hog's-head hash, and served on toast rather than rice; printed in 1922 as the Southern one."
+  },
+  {
+   "title": "To Make Hash (receipt 123)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "page": "72–73",
+   "text": "Meats that have been once done, only require to be warmed over. To cook them again renders them tough and insipid. Cut up the vegetables to be used for seasoning — onions, potatoes, tomatoes, etc., as may be preferred. Put the butter, flour, salt, pepper, and vegetables (or spices if preferred as seasoning) into the stew-pan with all the cold gravy that may have been saved; essence of ham answers a good purpose; a few inches of portable soup is very good if there should not be sufficiency of gravy; a teacup of boiling water for a pound of meat; very little water should be used. Cover the stew-pan and let this stew gently a quarter of an hour, shaking the stew-pan frequently. Have the meat minced fine, removing all bones and gristle, add to the gravy, stirring it in well. Let it remain until the meat is thoroughly hot, and serve. Use catsup upon the plate for extempore dressing. Very little cooking is necessary and very little gravy. When there is stuffing, a small quantity may be used.",
+   "note": "Hash in its older, wider sense — cooked meat minced and warmed in its own gravy. A few words in this paragraph are damaged in the scan and are read from context."
+  }
+ ],
+ "images": [
+  {
+   "file": "hash-and-rice/hash-and-rice-plate-of-food-at-maurice-s-gourmet-bbq.jpg",
+   "source": "commons",
+   "title": "File:Plate of food at Maurice's Gourmet BBQ.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Plate_of_food_at_Maurice%27s_Gourmet_BBQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APlate_of_food_at_Maurice%27s_Gourmet_BBQ.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Nathan Cardozo",
+   "credit": "https://www.flickr.com/photos/natecardozo/2829098096/",
+   "alt": "A plate of South Carolina-style barbecue at Maurice's Gourmet BBQ. It includes a pulled pork sandwich, hushpuppies, potato wedges, and hash. A side of coleslaw is in a cup.",
+   "date": "2008-08-28 10:04:55",
+   "primary": true,
+   "sha256": "226de8894a41fdcaff3dfc0ac92c97a32b0e0df71a90f55ae068ef53fdf233b8"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

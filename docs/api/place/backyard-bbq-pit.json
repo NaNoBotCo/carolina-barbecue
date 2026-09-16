@@ -1,0 +1,307 @@
+{
+ "schema": 1,
+ "id": "backyard-bbq-pit",
+ "type": "place",
+ "names": {
+  "name": "Backyard BBQ Pit",
+  "aliases": [
+   "Backyard Barbecue Pit",
+   "The Backyard BBQ Pit"
+  ],
+  "sort": "Backyard BBQ Pit"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "unknown",
+  "founded": "2007",
+  "fuel": "wood",
+  "styles": []
+ },
+ "text": {
+  "what": "A Black-owned barbecue restaurant on N.C. 55, the Apex Highway, in southeast Durham, opened in April 2007 by Fabianne and Melvin Simmons, who bought a struggling restaurant and made it a neighborhood institution: chopped barbecue and sandwiches, ribs, smoked chicken and oxtails, cooked over wood coals and made from scratch. Its later years were hard — a $50,000 GoFundMe in 2023, a change of owners, eight months dark for renovations before a March 2024 reopening, and in April 2026 a report that it was weeks from closing unless a buyer came. Its status in September 2026 is not confirmed on this disk.",
+  "story": "Melvin Simmons ran the pit for more than sixteen years, Fabianne with him, from the April 2007 opening through recessions and the pandemic. In 2023 the family asked the public for $50,000 to keep the doors open. The reports on disk then part: Spectacular Magazine wrote in April 2026 that Angela McLean had taken the restaurant over in 2023, while CBS 17 reported in March 2024 that Damien Holloway, as new owner, had redone 'every single thing in the building' — equipment, floors, walls, ceilings, bathrooms — over eight closed months and was set to reopen, the grand opening slipping for weather. The Assembly, surveying the state's Black-owned pits in February 2026, found the restaurant exploring a sale, its future uncertain. By April 2026 McLean told Spectacular that customers were choosing between a meal and gas for the car, and that without a buyer the restaurant could close by the end of the month.",
+  "how": "Barbecue chopped and sandwiched, ribs, smoked chicken and oxtails, cooked over wood coals and made from scratch, by the owners' accounts to the Durham press. Which cut, which sauce and which sides are not described in the sources on this disk, and no price is recorded.",
+  "today": "Status unknown as of September 2026: the last reports on this disk, from February and April 2026, had it for sale and near closing. The address is 5122 N.C. Highway 55 (Apex Highway), Durham."
+ },
+ "kin": [
+  {
+   "to": "chopped",
+   "as": "chopped barbecue was the first line of its menu.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "the sandwich, with ribs and oxtails beside it.",
+   "rel": "serves"
+  },
+  {
+   "to": "gradys-barbecue",
+   "as": "the other Black-owned pit The Assembly surveyed in 2026, cooking whole hog in Wayne County.",
+   "rel": "kin"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "whose Black Smoke is the frame the press used for it: a Black-owned pit and what it takes to keep one.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 35.89406,
+  "lon": -78.89769,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "5122 Apex Hwy",
+  "city": "Durham",
+  "county": "Durham",
+  "state": "NC",
+  "postcode": "27713"
+ },
+ "links": [
+  {
+   "label": "Durham's Backyard BBQ Pit Nearing Closure — Spectacular Magazine (April 2026)",
+   "url": "https://spectacularmag.com/2026/04/durhams-backyard-bbq-pit-nearing-closure-as-rising-costs-threaten-local-icon/"
+  },
+  {
+   "label": "N.C.'s Black-Owned BBQ Restaurants Are Keeping The Fire Alive — The Assembly (2026)",
+   "url": "https://www.theassemblync.com/news/culture/food/north-carolina-black-owned-whole-hog-bbq/"
+  }
+ ],
+ "sources": [
+  "s:web-spectacular-backyard",
+  "s:web-cbs17-backyard-returns",
+  "s:web-assembly-black-owned-bbq",
+  "s:miller-black-smoke",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-spectacular-backyard"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-spectacular-backyard",
+    "note": "the CBS 17 page refused fetch; its March 2024 date and Holloway quotation come from search excerpts. The two owners named for 2023–24 are reported as the sources give them, unreconciled"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:web-spectacular-backyard",
+    "note": "Fabianne Simmons is named with Melvin Simmons as having bought the restaurant in 2007, which would carry a woman-owned tag; the record also carries a later change of owners, and who holds it in September 2026 is not on this disk, so no woman-owned tag is set."
+   }
+  }
+ },
+ "confidence": "low",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-assembly-black-owned-bbq",
+   "tier": "cited",
+   "note": "The Assembly (Nikki Miller-Ka, February 13, 2026), in an article on the state's Black-owned barbecue restaurants: 'Backyard BBQ Pit in Durham has long served as a family-owned community institution.'"
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-spectacular-backyard",
+   "tier": "cited",
+   "note": "Cooked over wood coals, by the owners' accounts to the Durham press."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-assembly-black-owned-bbq",
+   "tier": "cited",
+   "note": "'a family-owned community institution' (The Assembly, February 13, 2026)."
+  }
+ ],
+ "blurb": "A Black-owned barbecue restaurant on N.C. 55, the Apex Highway, in southeast Durham, opened in April 2007 by Fabianne and Melvin Simmons, who bought a struggling restaurant and made it a neighborhood institution…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "chopped barbecue was the first line of its menu.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the sandwich, with ribs and oxtails beside it.",
+   "rel": "serves"
+  },
+  {
+   "to": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "as": "the other Black-owned pit The Assembly surveyed in 2026, cooking whole hog in Wayne County.",
+   "rel": "kin"
+  },
+  {
+   "to": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "whose Black Smoke is the frame the press used for it: a Black-owned pit and what it takes to keep one.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-spectacular-backyard",
+   "kind": "web",
+   "title": "Durham's Backyard BBQ Pit Nearing Closure as Rising Costs Threaten Local Icon — Spectacular Magazine (10 Apr 2026)",
+   "publisher": "Spectacular Magazine",
+   "url": "https://spectacularmag.com/2026/04/durhams-backyard-bbq-pit-nearing-closure-as-rising-costs-threaten-local-icon/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-cbs17-backyard-returns",
+   "kind": "web",
+   "title": "'It's like we didn't miss a beat': Durham barbecue restaurant returns after undergoing major renovations — CBS 17 (9 Mar 2024)",
+   "publisher": "CBS 17",
+   "url": "https://www.cbs17.com/news/local-news/durham-county-news/its-like-we-didnt-miss-a-beat-durham-barbecue-restaurant-returns-after-undergoing-major-renovations/",
+   "accessed": "2026-09-15",
+   "note": "the page refused this project's fetch (403); its date and quotes were read from search excerpts"
+  },
+  {
+   "id": "s:web-assembly-black-owned-bbq",
+   "kind": "web",
+   "title": "N.C.'s Black-Owned BBQ Restaurants Are Keeping The Fire Alive — The Assembly (Nikki Miller-Ka, 13 Feb 2026)",
+   "publisher": "The Assembly",
+   "url": "https://www.theassemblync.com/news/culture/food/north-carolina-black-owned-whole-hog-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:miller-black-smoke",
+   "kind": "book",
+   "title": "Black Smoke: African Americans and the United States of Barbecue",
+   "author": "Adrian Miller",
+   "publisher": "University of North Carolina Press",
+   "year": 2021,
+   "url": "https://uncpress.org/book/9781469662800/black-smoke/"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-spectacular-backyard"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-spectacular-backyard",
+   "note": "the CBS 17 page refused fetch; its March 2024 date and Holloway quotation come from search excerpts. The two owners named for 2023–24 are reported as the sources give them, unreconciled"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-spectacular-backyard"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-spectacular-backyard"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory, an SFA oral history",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:nc-black-owned-lists",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-assembly-black-owned-bbq",
+   "note": "The Assembly (Nikki Miller-Ka, February 13, 2026), in an article on the state's Black-owned barbecue restaurants: 'Backyard BBQ Pit in Durham has long served as a family-owned community institution.'",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-spectacular-backyard",
+   "note": "Cooked over wood coals, by the owners' accounts to the Durham press.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-assembly-black-owned-bbq",
+   "note": "'a family-owned community institution' (The Assembly, February 13, 2026).",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "the Durham pit the press framed with his book: a Black-owned pit and what it takes to keep one.",
+   "rel": "place"
+  },
+  {
+   "from": "pit",
+   "type": "term",
+   "name": "pit",
+   "as": "a Durham restaurant named for the thing.",
+   "rel": "place"
+  }
+ ]
+}

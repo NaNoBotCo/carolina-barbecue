@@ -1,0 +1,170 @@
+{
+ "schema": 1,
+ "id": "short-sugars",
+ "type": "place",
+ "names": {
+  "name": "Short Sugar's Pit Bar-B-Q",
+  "aliases": [
+   "Short Sugar's",
+   "Short Sugars BBQ",
+   "Short Sugar's Drive-In"
+  ],
+  "sort": "Short Sugars"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "1949",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A drive-in barbecue on South Scales Street in Reidsville, Rockingham County, opened in June 1949 by the Overby brothers and named for the one who died two days before the opening, and closed in January 2025 after 75 years. It cooked over hickory coals in two small pits visible from the counter — hams for sliced barbecue, shoulders for chopped — and dressed the meat with a thin dark sauce built on Worcestershire and sugar rather than the ketchup of the Piedmont dips, a sauce that fit neither of North Carolina's camps. Curb service ran to the end.",
+  "story": "Johnny, Clyde and Eldridge Overby meant to open the Overby Brothers Drive-In in June 1949; two days before opening Eldridge was killed in a car crash, and his brothers named the place for him alone, by his nickname, Short Sugar — a small man, whether friendly or fetching Our State leaves open. In 1982 Short Sugar's won the Barbecue Bowl, the first restaurant from either Carolina to do so. The Wilson family ran it in its later decades: David Wilson, whose wife was an Overby daughter, and his son John David, who told the Southern Foodways Alliance in 2011 that a barbecue place with no pit in sight was 'an insult to those families who still do it the way it's supposed to be done.' A dining room was added about the 1980s to the 1950s drive-in. Hobbled by the pandemic closures and then by the economy, it served its last plates in mid-January 2025; a Reidsville writer who went by on January 16 found it shut, and The State You're In wrote the farewell the next day.",
+  "how": "Two small hickory-coal pits behind the counter; hams for the sliced, shoulders for the chopped, cooked fresh to order rather than held. The sauce was thin and dark, sugar and Worcestershire, runny and salty-sweet, with less ketchup or tomato paste than the Piedmont dips; it went on sandwiches sliced or chopped, and the kitchen sold it by the gallon.",
+  "today": "Closed since mid-January 2025. The building stands at 1328 South Scales Street, Reidsville; no successor is recorded on this disk."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style's shoulders and its region, with a sauce that belonged to neither North Carolina camp.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "for the chopped; hams were for the sliced.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "what its sauce was not: Worcestershire and sugar in place of the ketchup.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory coals in two pits in sight of the counter.",
+   "rel": "part"
+  },
+  {
+   "to": "chopped",
+   "as": "chopped from shoulders, sliced from hams — the two words meant two cuts here.",
+   "rel": "term"
+  },
+  {
+   "to": "kepleys-barbecue",
+   "as": "the other Piedmont drive-in of the same generation, closed the same winter, February 2025.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded the Wilsons in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 36.34422,
+  "lon": -79.66475,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "1328 S Scales St",
+  "city": "Reidsville",
+  "county": "Rockingham",
+  "state": "NC",
+  "postcode": "27320"
+ },
+ "links": [
+  {
+   "label": "Short Sugar's Pit Bar-B-Q — SFA oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/short-sugars-pit-bar-b-q/"
+  },
+  {
+   "label": "Short Sugar's Pit Bar-B-Q — Our State",
+   "url": "https://www.ourstate.com/short-sugars-pit-bar-b-q/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-short-sugars",
+  "s:sfa-short-sugars-pit-bar-b-q",
+  "s:web-stateyourein-short-sugars",
+  "s:web-knightshift-short-sugars",
+  "s:osm",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-short-sugars"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-short-sugars",
+    "note": "closing date bracketed by a blog post of 16 Jan 2025 and The State You're In of 17 Jan 2025; no newspaper date on disk"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-stateyourein-short-sugars"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ourstate-short-sugars",
+    "note": "the harvest row way/810282918 has no address tags"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:web-stateyourein-short-sugars",
+   "tier": "cited",
+   "note": "Closed mid-January 2025 after 75 years; no successor is recorded on this disk.",
+   "since": "2025-01"
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-ourstate-short-sugars",
+   "tier": "cited",
+   "note": "Two small hickory-coal pits behind the counter — hams for the sliced, shoulders for the chopped."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-ourstate-short-sugars",
+   "tier": "cited",
+   "note": "Opened in June 1949 by the Overby brothers and named for the one who died two days before the opening."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Short Sugar's Drive-Inn, Reidsville",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "note": "Both trail rosters read date from before the January 2025 closing."
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-short-sugars-pit-bar-b-q"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-short-sugars"
+  }
+ ]
+}

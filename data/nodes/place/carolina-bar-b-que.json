@@ -1,0 +1,181 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "carolina-bar-b-que",
+ "names": {
+  "name": "Carolina Bar-B-Que",
+  "aliases": [
+   "Carolina BBQ",
+   "Carolina Bar-B-Que of New Ellenton"
+  ],
+  "sort": "Carolina Bar-B-Que"
+ },
+ "region": [
+  "sc-midlands"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1969",
+  "fuel": "wood",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "A mustard-sauce buffet house on South Main Street in New Ellenton, Aiken County, founded by Willie Mae Walker and her son Jess. She was born Willie Mae Baltzegar, daughter of the Rowesville pitmaster Willie Baltzegar, which puts a pit-cooking line behind the place two generations deep. Pork shoulders cook over wood in smokers out back — not open-pit whole hog. The buffet was twelve dollars in April 2025 and the hash is rust-orange and thick enough to lift on a fork. Thomas Zeigler has run it since about 2022.",
+  "story": "Willie Mae Walker came out of Rowesville, where her father Willie Baltzegar cooked, and she and her son Jess opened in New Ellenton — 1969 by two accounts, 1968 by a third. Naming her as a founder is not a courtesy: the sources put her first, with her son second, which is unusual enough in this trade to be worth saying once. Jess 'Bubba' Walker carried it on. Then the place slipped. Michael Stern, writing for The Food Section on April 22, 2025, said it had been losing its footing four or five years earlier — the food not up to standard and the staff getting cranky — before Thomas Zeigler took the business over about three years before he wrote, tweaked a few recipes and turned it round. Destination BBQ's page, updated April 2025, still names Bubba Walker as the owner, so the two listings disagree and the later, purpose-built piece is followed here. Southern Living put it on the South's Top 50 barbecue list in 2016, a list Robert Moss compiled, and the Barbeque Association gives it the hundred-mile designation. The Campaign for Real Barbecue certified it. Destination BBQ traces the hash recipe to the Dukes family tradition, which is the Orangeburg line reaching west.",
+  "how": "Pork shoulders only — no ribs — cook over wood in smokers behind the building, which is not the open-pit whole-hog method of the Pee Dee and is described that way by the writers who visit. The sauce is the Midlands mustard. The buffet is all you can eat, twelve dollars in April 2025. The hash is rust-orange, thick, with an organ-meat sweetness, ladled over rice; one writer put it slightly thicker than Maurice's and a little less tart.",
+  "today": "Open Wednesday 11 to 1:30 and Thursday to Saturday 11 to 8, closed Sunday to Tuesday, at 109 South Main Street, New Ellenton. Cards and cash. A search result circulating a South Main address in the eight hundreds is not supported by any page read here."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "the sauce belt it sits in, west of Orangeburg on the Savannah River side.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "its sauce, the Midlands yellow one.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut — shoulders only, and no ribs.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "its rust-orange hash over rice, traced to the Dukes family tradition.",
+   "rel": "serves"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "the Orangeburg family whose hash tradition a listing traces this one to.",
+   "rel": "kin"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "to": "robert-moss",
+   "as": "compiled the 2016 Southern Living list of the South's top fifty barbecue houses that carried it.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 33.4186,
+  "lon": -81.68524,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "109 S Main St",
+  "city": "New Ellenton",
+  "county": "Aiken",
+  "state": "SC",
+  "postcode": "29809"
+ },
+ "links": [
+  {
+   "label": "Carolina Bar-B-Que shines again under new owner — The Food Section (2025)",
+   "url": "https://thefoodsection.com/carolina-bar-b-que-shines-again-under-new-owner/"
+  },
+  {
+   "label": "Let's 'Meat' and Try Some New 'Cue — Southern Flavor Magazine (2022)",
+   "url": "https://southernflavormagazine.com/features/lets-meat-and-try-some-new-cue32022"
+  },
+  {
+   "label": "Carolina Bar-B-Que, New Ellenton — John Tanner's Barbecue Blog (2024)",
+   "url": "https://johntannersbbqblog.wordpress.com/2024/04/30/carolina-bar-b-que-new-ellenton-south-carolina/"
+  }
+ ],
+ "sources": [
+  "s:web-thefoodsection-carolina-bbq-2025",
+  "s:web-southernflavor-sc-cue-2022",
+  "s:web-johntanner-carolina-bbq-2024",
+  "s:web-carolina-bbq-new-ellenton",
+  "s:web-truecue-sc",
+  "s:web-destination-bbq-hash-map",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-thefoodsection-carolina-bbq-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-southernflavor-sc-cue-2022",
+    "note": "Willie Mae Walker and her father Willie Baltzegar from Southern Flavor Magazine, March 11, 2022, which gives 1969; Destination BBQ gives 1968. The Zeigler handover and the decline from The Food Section, Michael Stern, April 22, 2025, against Destination BBQ's April 2025 page, which still names Bubba Walker as owner."
+   },
+   "facets.founded": {
+    "tier": "cited",
+    "source": "s:web-southernflavor-sc-cue-2022",
+    "note": "1969 per Southern Flavor and The Food Section; 1968 per Destination BBQ"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the OSM barbecue harvest; Nominatim matched the house number on South Main Street"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-carolina-bbq-new-ellenton"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "woman-owned",
+   "source": "s:web-southernflavor-sc-cue-2022",
+   "tier": "cited",
+   "note": "Southern Flavor Magazine, March 11, 2022, names the founders as 'Willie Mae Walker, born Baltzegar, and her son Jess Walker'. She founded it; who owns it today is disputed between a 2025 piece naming Thomas Zeigler and a listing naming Jess 'Bubba' Walker, and no source read names a woman as the current owner.",
+   "since": "1969"
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-johntanner-carolina-bbq-2024",
+   "tier": "cited",
+   "note": "Described as wood-cooked barbecue by two writers, April 30, 2024 and March 11, 2022; the smoke comes from smokers out back rather than an open pit. Also True 'Cue certified as Carolina BBQ, New Ellenton."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-thefoodsection-carolina-bbq-2025",
+   "tier": "cited",
+   "note": "All you can eat, twelve dollars in April 2025."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-thefoodsection-carolina-bbq-2025",
+   "tier": "cited",
+   "note": "Rust-orange, thick enough to lift on a fork, with an organ-meat sweetness, over rice; on Destination BBQ's South Carolina hash map, read 2026-09-16."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Carolina BBQ, New Ellenton",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "southern-living",
+   "what": "named on the South's Top 50 Barbecue Joints, a list Robert Moss compiled",
+   "source": "s:web-johntanner-carolina-bbq-2024",
+   "year": 2016
+  },
+  {
+   "by": "scba",
+   "what": "given the hundred-mile designation",
+   "source": "s:web-johntanner-carolina-bbq-2024"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16"
+}

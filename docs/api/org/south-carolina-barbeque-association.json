@@ -1,0 +1,447 @@
+{
+ "schema": 1,
+ "id": "south-carolina-barbeque-association",
+ "type": "org",
+ "names": {
+  "name": "South Carolina Barbeque Association",
+  "aliases": [
+   "SCBA",
+   "SC Barbeque Association",
+   "South Carolina Barbecue Association"
+  ],
+  "said": "Spelled barbeque, with a q, as its founder spells it.",
+  "sort": "South Carolina Barbeque Association"
+ },
+ "region": [
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "founded": "2004",
+  "status": "open"
+ },
+ "text": {
+  "what": "A judging body and booster founded in 2004 by Lake E. High Jr., a wine judge, and Walter Rolandi, a psychologist, 'to train the best BBQ judges in the world and to preserve and promote the unique nature of South Carolina Barbecue'. It runs judging seminars in Columbia that turn eaters into certified judges — more than 800 by 2015 — sanctions cook-offs across the state, eight of them listed between September 12 and October 24, 2026, and keeps a points championship for the teams. Its account of the state's barbecue is Lake High's: South Carolina as the home of all four sauces — mustard, vinegar-pepper, light tomato and heavy tomato — mapped by region.",
+  "story": "When High and Rolandi founded the association, South Carolina had two barbecue cook-offs a year; by 2015 it had thirty-seven, more per head than any other state, and the association's judge-training system was being copied elsewhere. High is its historian as well as its founder. His A History of South Carolina Barbeque (2013) and the association's history page hold that Europeans first learned barbecue from the Native Americans at Santa Elena, the sixteenth-century colony in what is now South Carolina; that vinegar-and-pepper is the original sauce, hundreds of years old; that mustard came with the German settlers of the 1730s to 1750s; that light tomato is vinegar-and-pepper with ketchup added, from around 1900; and that heavy tomato is the newest, of the last sixty years. Only South Carolina, the page says, is home to all four. Robert Moss, another South Carolinian, counts two — sweet mustard and spicy vinegar — and the state's Wikipedia article gives both counts, along with the four-or-five-region division first drawn by Charles Kovacik and John Winberry in South Carolina: A Geography (1987). High's line, to South Carolina Living in 2015: 'Barbeque is a noun, not a verb. It's something Southerners eat, not do.' In August 2018 the association named Jim Wellman of Lexington president and Don Adkins of Seneca vice president.",
+  "how": "Judges train at an annual seminar in Columbia and advance through levels; a team enters a sanctioned cook-off, is scored by certified judges, and earns points toward the SCBA Championship. The cook-offs are run by towns, churches, scout troops and civic groups — Troop 61's competition at Pomaria and the Hopeful Hog Festival at Lancaster were on the 2026 list — with the association supplying the judging.",
+  "today": "Active. The 2026 calendar lists cook-offs from Mauldin to Barnwell through October 24, the judge seminars are held in Columbia each year, and the association posts from PO Box 115, Blythewood."
+ },
+ "kin": [
+  {
+   "to": "lake-high",
+   "as": "its co-founder and historian, author of the four-sauce account.",
+   "rel": "person"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "one of the four regions on its sauce map: the Midlands' German mustard.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "one of the four: vinegar-and-pepper, which the association calls the original sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "one of the four: vinegar-and-pepper with ketchup, from around 1900.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "as": "one of the four: the newest, of the last sixty years.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce it calls distinct to South Carolina.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sauce it dates back hundreds of years.",
+   "rel": "sauce"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "the sauce it dates to the arrival of bottled ketchup.",
+   "rel": "sauce"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "the sauce it calls the newest.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the name the mustard sauce carries on its map.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "as": "the South Carolina historian who counts two sauces where the association counts four.",
+   "rel": "person"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "the North Carolina society founded two years later, a trail rather than a judging program.",
+   "rel": "contrast"
+  },
+  {
+   "to": "festival-of-discovery",
+   "as": "the Greenwood festival's cook-off is sanctioned by the Kansas City Barbeque Society, not by the SCBA.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "most of its sanctioned cook-offs are somebody's fundraiser.",
+   "rel": "event"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "north-carolina-barbecue-society",
+   "tell": "The SCBA trains judges and sanctions cook-offs; the NCBS drew a restaurant trail. Different states, different founders, two years apart."
+  }
+ ],
+ "links": [
+  {
+   "label": "South Carolina Barbeque Association — official",
+   "url": "https://www.scbarbeque.com/"
+  },
+  {
+   "label": "SCBA — About Us",
+   "url": "https://www.scbarbeque.com/about-us/"
+  },
+  {
+   "label": "SCBA — BBQ History",
+   "url": "https://www.scbarbeque.com/bbq-history/"
+  }
+ ],
+ "sources": [
+  "s:web-scba-about",
+  "s:web-scba-bbq-history",
+  "s:web-scliving-guru-of-que",
+  "s:web-columbia-star-scba-leadership",
+  "s:scba",
+  "s:high-sc-barbeque",
+  "s:wp-barbecue-in-south-carolina"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-scba-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-scliving-guru-of-que",
+    "note": "the 2018 officers from the Columbia Star's paywalled preview; no later officer list is on the association's site"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:scba",
+    "note": "events calendar as posted on 2026-09-15"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A judging body and booster founded in 2004 by Lake E. High Jr., a wine judge, and Walter Rolandi, a psychologist, 'to train the best BBQ judges in the world and to preserve and promote the unique nature of South…",
+ "region_terms": [
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "its co-founder and historian, author of the four-sauce account.",
+   "rel": "person"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "one of the four regions on its sauce map: the Midlands' German mustard.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "one of the four: vinegar-and-pepper, which the association calls the original sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "one of the four: vinegar-and-pepper with ketchup, from around 1900.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "one of the four: the newest, of the last sixty years.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the sauce it calls distinct to South Carolina.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the sauce it dates back hundreds of years.",
+   "rel": "sauce"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the sauce it dates to the arrival of bottled ketchup.",
+   "rel": "sauce"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "the sauce it calls the newest.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "the name the mustard sauce carries on its map.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "the South Carolina historian who counts two sauces where the association counts four.",
+   "rel": "person"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "the North Carolina society founded two years later, a trail rather than a judging program.",
+   "rel": "contrast"
+  },
+  {
+   "to": "festival-of-discovery",
+   "type": "event",
+   "name": "South Carolina Festival of Discovery",
+   "as": "the Greenwood festival's cook-off is sanctioned by the Kansas City Barbeque Society, not by the SCBA.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "most of its sanctioned cook-offs are somebody's fundraiser.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-scba-about",
+   "kind": "web",
+   "title": "About Us",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/about-us/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scliving-guru-of-que",
+   "kind": "web",
+   "title": "The guru of 'que (Diane Veto Parham, September 1, 2015)",
+   "publisher": "South Carolina Living",
+   "url": "https://scliving.coop/sc-life/sc-stories/the-guru-of-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-columbia-star-scba-leadership",
+   "kind": "web",
+   "title": "S.C. Barbeque Association announces new leadership (August 17, 2018; paywalled, preview only)",
+   "publisher": "The Columbia Star",
+   "url": "https://www.thecolumbiastar.com/articles/s-c-barbeque-association-announces-new-leadership/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:scba",
+   "kind": "org",
+   "title": "South Carolina Barbeque Association",
+   "url": "https://scbarbeque.com/"
+  },
+  {
+   "id": "s:high-sc-barbeque",
+   "kind": "book",
+   "title": "A History of South Carolina Barbeque",
+   "author": "Lake E. High Jr.",
+   "publisher": "The History Press",
+   "year": 2013
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-scba-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-scliving-guru-of-que",
+   "note": "the 2018 officers from the Columbia Star's paywalled preview; no later officer list is on the association's site"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-scba-about"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:scba",
+   "note": "events calendar as posted on 2026-09-15"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "the association whose map gives the western corner to heavy tomato.",
+   "rel": "kin"
+  },
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "the association whose map draws the light-tomato band.",
+   "rel": "kin"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the association whose sauce map puts mustard in the middle of the state.",
+   "rel": "kin"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "Lake High's association, which judges hash with the barbecue.",
+   "rel": "kin"
+  },
+  {
+   "from": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "lists it as 100-Mile Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "from": "big-t-bar-b-q",
+   "type": "place",
+   "name": "Big T Bar-B-Q",
+   "as": "files it under Worth the Trip and describes the coals-and-wood method at Gadsden.",
+   "rel": "org"
+  },
+  {
+   "from": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "names it among the state's top barbecue houses.",
+   "rel": "kin"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "lists it as 100-Mile Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "from": "mccabes-bar-b-q",
+   "type": "place",
+   "name": "McCabe's Bar-B-Q",
+   "as": "lists it as 100-Mile Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "from": "shulers-bar-b-que",
+   "type": "place",
+   "name": "Shuler's Bar-B-Que",
+   "as": "gives it the hundred-mile designation, the association's highest.",
+   "rel": "org"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "co-founded it in 2004 with Walter Rolandi; its president when his book appeared in 2013; its historian.",
+   "rel": "kin"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "counts four sauces where he counts two.",
+   "rel": "kin"
+  },
+  {
+   "from": "festival-of-discovery",
+   "type": "event",
+   "name": "South Carolina Festival of Discovery",
+   "as": "not its sanctioning body; the cook-off is KCBS.",
+   "rel": "contrast"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "sanctions the cook-off version.",
+   "rel": "kin"
+  },
+  {
+   "from": "free-to-use",
+   "type": "story",
+   "name": "Where all of this came from",
+   "as": "publishes South Carolina's trail and the four-sauce map.",
+   "rel": "org"
+  }
+ ]
+}

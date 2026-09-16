@@ -1,0 +1,211 @@
+{
+ "schema": 1,
+ "id": "potato-salad",
+ "type": "dish",
+ "names": {
+  "name": "potato salad",
+  "aliases": [
+   "tater salad"
+  ],
+  "said": "Ordered as a side at the counter; in the east it is the cold one, against the hot boiled potatoes on the same plate."
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "eastern-nc",
+   "lexington",
+   "sc-mustard",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "Boiled potatoes cut up cold and dressed with mayonnaise, with hard-boiled egg, onion, celery, sweet pickle or relish and often a spoon of yellow mustard that colours the whole bowl. It is served cold beside the barbecue, and in the Carolinas it is the mayonnaise side that answers to the vinegar of the meat. Mustard in the dressing is common enough in South Carolina that a bowl of it can read as the same yellow as the sauce.",
+  "story": "American potato salad came in with German immigrants in the nineteenth century, and the earliest American recipes are the German kind: cooked potatoes dressed with oil, vinegar and herbs, served warm. The north German version — cold, with mayonnaise, hard-boiled egg and sweet or sour pickle — is the one the American bowl most resembles. Mayonnaise made the change possible on this scale, and in the Carolinas that means Eugenia Duke, who began bottling hers in Greenville, South Carolina around 1923. Aunt Caroline's Dixieland Recipes, printed in Chicago in 1922, already gives the Southern shape of it: five cold boiled Irish potatoes diced, three hard-boiled eggs, parsley, celery, salt and both peppers, bound with an oil dressing made at home. *Inference —* the sweet pickle and the mustard that distinguish a Carolina bowl from a German one are the same two things that distinguish the region's slaw and its sauce.",
+  "how": "Potatoes are boiled in their skins, peeled and diced while still warm so they take the dressing, then cooled. Hard-boiled eggs are chopped in, with onion, celery and sweet pickle relish; the dressing is mayonnaise, sometimes cut with a little of the pickle liquor, and yellow mustard to taste. Salt, black pepper and paprika finish it. It is made in the morning and kept cold, and at a pit it is dished with an ice-cream scoop.",
+  "today": "On the plate at Grady's in Dudley, where the day's vegetables are peeled and chopped by hand that morning; on the buffet at Brown's in Kingstree; among the sides at Lewis Barbecue in Charleston, which lists it as creamy potato salad; on the Dukes buffets in the Orangeburg family of houses."
+ },
+ "kin": [
+  {
+   "to": "gradys-barbecue",
+   "as": "one of the day's vegetables, peeled and chopped by hand that morning.",
+   "rel": "served-at"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "on the buffet with the macaroni and the farm's vegetables.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lewis-barbecue",
+   "as": "listed as creamy potato salad among the Charleston sides.",
+   "rel": "served-at"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "on the buffet line with the collards and the mac and cheese.",
+   "rel": "served-at"
+  },
+  {
+   "to": "dukes-mayonnaise",
+   "as": "the mayonnaise most Carolina kitchens bind it with.",
+   "rel": "part"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "the same potato, hot and undressed, on the eastern plate.",
+   "rel": "contrast"
+  },
+  {
+   "to": "white-slaw",
+   "as": "the other cold mayonnaise side; a plate often carries both.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "a scoop in the tray, cold against the hot meat.",
+   "rel": "part"
+  },
+  {
+   "to": "fixins",
+   "as": "one of the fixins on a South Carolina buffet.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "boiled-potatoes",
+   "tell": "Boiled potatoes come hot, whole or halved, with no dressing but butter or the pork's sauce. Potato salad is cold, cut small and bound with mayonnaise."
+  }
+ ],
+ "links": [
+  {
+   "label": "Potato salad — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Potato_salad"
+  }
+ ],
+ "sources": [
+  "s:wp-potato-salad",
+  "s:web-ourstate-gradys",
+  "s:sfa-gradys-barbecue",
+  "s:web-sfa-browns-bar-b-q",
+  "s:web-lewis-charleston",
+  "s:wp-dukes-bar-b-que",
+  "s:wp-dukes-mayonnaise"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-potato-salad"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-potato-salad",
+    "note": "Duke's date from the Duke's Mayonnaise article; the 1922 proportions from Aunt Caroline's Dixieland Recipes"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-gradys",
+    "note": "Lewis menu as posted 15 September 2026; Dukes buffet from Wikipedia and the SFA interview"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-aunt-carolines-dixieland-recipes",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Potato Salad",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "text": "Five medium sized, cold, boiled Irish potatoes, diced; three hard boiled eggs and a few pieces of parsley chopped fine, and one cup of diced celery. Season with salt, black and red pepper and mix well with oil dressing.\n\n[Wesson Oil Dressing, the dressing it calls for, printed with it:] Yolks of three eggs, one-half teaspoon of salt, one-fourth teaspoon of mustard, one-fourth teaspoon of red pepper, juice of one lemon, pint of Wesson Oil. Beat yolks until thick; then add salt, pepper, mustard and part of lemon juice. Lastly add the oil one drop at a time at first, then slowly until dressing is thick, and then the remainder of the lemon juice.",
+   "page": 121,
+   "note": "The dressing is a hand-made mayonnaise; the brackets are this site's, everything inside them is the book's. Irish potato is the old Southern name for the white potato, said against the sweet potato."
+  },
+  {
+   "title": "Potato Salad",
+   "source": "s:wikibooks-potato-salad",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3APotato_Salad",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "2 pounds (~1 kg) potatoes",
+    "6 slices of bacon",
+    "½ cup (120 g) finely-chopped yellow onion",
+    "2 tablespoons white granulated sugar",
+    "½ teaspoon celery seed",
+    "2 hard boiled eggs",
+    "¼ cup (60 g) flour",
+    "½ cup (120 ml) vinegar",
+    "1 cup (240 ml) water",
+    "1 tablespoon fresh parsley",
+    "1 ½ teaspoon salt",
+    "Pepper",
+    "Paprika"
+   ],
+   "text": "1. Cook bacon strips, cut into small pieces, and set aside for later.\n2. Boil potatoes for 5–10 minutes or until softened; cut into small chunks or thick slices.\n3. Place potatoes in a large bowl and let them come to room temperature.\n4. In a bowl combine flour, celery seed, parsley, chopped onion, salt, and pepper.\n5. Pour the water and vinegar into a pot, stir in sugar and bring to a boil. Add the dry mixture and stir until thickened.\n6. In the original bowl place potatoes and bacon, pour on thickened mixture.\n7. Break apart eggs and stir lightly into the bowl to combine.\n8. Place in large serving bowl and sprinkle with paprika.\n9. Serve"
+  },
+  {
+   "title": "American Potato Salad I",
+   "source": "s:wikibooks-american-potato-salad-i",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AAmerican_Potato_Salad_I",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "2 pounds (3–4 ea.) medium russet potatoes",
+    "1 tablespoon plus ½ teaspoon salt",
+    "2 tablespoons distilled white vinegar",
+    "1 medium rib of celery",
+    "¾ teaspoon celery seed",
+    "¾ cup mayonnaise",
+    "¾ teaspoon powdered mustard",
+    "2 tablespoons minced onion",
+    "2 tablespoons minced fresh parsley leaves",
+    "¼ teaspoon ground black pepper",
+    "3 tablespoons sweet pickle relish"
+   ],
+   "text": "1. Peel and cut potatoes into ¾ inch cubes.\n2. Cover potatoes with an inch of water in a large saucepan and bring to a boil.\n3. Add 1 tablespoon salt to boiling water and reduce heat to medium.\n4. Simmer about 8 minutes, stirring gently once or twice, until potatoes are tender. Taste a piece—don't overcook.\n5. Drain potatoes and place in a large bowl.\n6. Toss potatoes gently with vinegar using a rubber spatula.\n7. Cool potatoes. They must be no more than barely warm to mix.\n8. Chop celery fine.\n9. Stir together celery, celery seeds, mayonnaise, dry mustard, onion, parsley, pepper, and ½ teaspoon salt.\n10. Gently fold together dressing mix and potatoes.\n11. Cover and refrigerate at least an hour, until thoroughly chilled.",
+   "yield": "6 servings"
+  },
+  {
+   "title": "American Potato Salad II",
+   "source": "s:wikibooks-american-potato-salad-ii",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AAmerican_Potato_Salad_II",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "3 pounds small white potatoes (use waxy or red potatoes)",
+    "Salt",
+    "Ground pepper",
+    "5 large hard boiled eggs, chopped",
+    "1 medium red onion, chopped finely",
+    "2 tbsp chopped sweet basil leaves",
+    "1 cup corn",
+    "½ cup freshly-squeezed lemon juice (from 2–3 lemons)",
+    "½ cup extra-virgin olive oil",
+    "2 tbsp pasta seasoning"
+   ],
+   "text": "1. Place potatoes and 2 tablespoons of salt in a large pot of water. Bring the water to a boil, and cook for 15–20 minutes, until the potatoes are tender when pierced with a knife. Drain the potatoes in a colander.\n2. Place the chopped eggs in a large bowl.\n3. Sauté the onions until light golden brown and add to the bowl with the eggs.\n4. When the potatoes are cool enough to handle, cut them in quarters, or smaller, depending on their size. Place the potatoes in the bowl with the eggs. Add the corn along with some salt, pepper and pasta seasoning to the potato and egg mixture. Set aside.\n5. In a small bowl add the lemon juice while whisking in olive oil slowly. Add to the potatoes, mix all ingredients. Chill for 30 minutes before eating."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,344 @@
+{
+ "schema": 1,
+ "id": "keatons-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Keaton's Barbecue",
+  "aliases": [
+   "Keaton's",
+   "Keaton's Original BBQ",
+   "Keaton's Barbecue, Inc."
+  ],
+  "sort": "Keatons Barbecue"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1953",
+  "fuel": "unknown",
+  "styles": []
+ },
+ "text": {
+  "what": "A chicken house in the crossroads community of Cleveland, Rowan County, west of Salisbury, where since 1953 the chicken has been fried (or baked) and then dipped whole in a hot vinegar-and-tomato barbecue sauce — 'dipped chicken', a North Carolina barbecue of its own kind. Burette Walker 'B.W.' Keaton, a Black railroad man laid off in 1953, started it in a shack and turned down moves to Statesville and Charlotte; he died in 1989, and his niece Kathleen Murray has run it since 1991. Half or whole, white or dark, hot or mild, with a slice of white bread and a hot vinegar slaw.",
+  "story": "B.W. Keaton lost his railroad job in 1953 and started selling chicken from a shack on Cool Springs Road. The lore, as Our State tells it: the Schlitz Brewing Company offered $10,000 for the sauce recipe and Keaton countered at $100,000; a shotgun lived under the checkout counter; no weapons, no swearing, no photographing the staff; no utensils, because he did not believe in them. He refused offers to relocate to bigger towns. David Cecelski wrote it up for the North Carolina Folklife Institute in December 2010 as a place found on the back roads between Statesville and Winston-Salem, the chicken fried or baked and then dipped in the hot vinegar-tomato sauce, with a slaw of cabbage in a spicy red dressing of vinegar, tomato, cayenne and celery seed. Keaton died in 1989; Kathleen Murray, his niece, took over in 1991. Cash orders want exact change in small bills; cards are taken over five dollars.",
+  "how": "Chicken is fried or baked, then dipped in the hot vinegar-tomato sauce and served with a white-bread bun — half or whole bird, white or dark meat, hot or mild sauce. The sides are secondary; the slaw is cabbage in a spicy red vinegar-tomato dressing. Plastic forks are now available; the founder did not provide them.",
+  "today": "Open Tuesday 11 to 2 and Wednesday to Saturday 11 to 2 and 5 to 8, closed Sunday and Monday, at 17365 Cool Springs Road, Cleveland — hours as the restaurant's site listing and Our State give them, with the warning that they vary. Cash preferred."
+ },
+ "kin": [
+  {
+   "to": "barbecue-chicken",
+   "as": "the dish turned inside out: the bird is fried, then dipped in the barbecue sauce, and the town calls the result barbecue.",
+   "rel": "contrast"
+  },
+  {
+   "to": "red-slaw",
+   "as": "its slaw is cabbage in a spicy red vinegar-tomato dressing, the Piedmont's red slaw with cayenne.",
+   "rel": "serves"
+  },
+  {
+   "to": "dip",
+   "as": "the word means the act here: the chicken is dipped, whole, in the sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington",
+   "as": "the sauce is the Piedmont's, vinegar and tomato; the meat is not.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.8340052,
+  "lon": -80.7093506,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "17365 Cool Springs Rd",
+  "city": "Cleveland",
+  "county": "Rowan",
+  "state": "NC",
+  "postcode": "27013"
+ },
+ "links": [
+  {
+   "label": "Keaton's Barbecue — official",
+   "url": "https://www.keatonsoriginalbbq.com/"
+  },
+  {
+   "label": "Keaton's — North Carolina Folklife Institute (2010)",
+   "url": "https://ncfolk.org/2010/keatons/"
+  },
+  {
+   "label": "Keaton's Barbecue — Our State",
+   "url": "https://www.ourstate.com/the-legend-behind-keatons-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-keatons",
+  "s:web-ncfolk-keatons",
+  "s:web-keatonsoriginalbbq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-keatons"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-keatonsoriginalbbq",
+    "note": "hours read from the site's search listing (2026); the page body did not render"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded from the street address via Nominatim"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ncfolk-keatons"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [
+  {
+   "file": "keatons-barbecue/keatons-barbecue-keaton-s-bbq-cheerwine-sweet-tea.jpg",
+   "source": "commons",
+   "title": "File:Keaton's bbq cheerwine & sweet tea.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Keaton%27s_bbq_cheerwine_%26_sweet_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKeaton%27s_bbq_cheerwine_%26_sweet_tea.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Krista",
+   "credit": "https://www.flickr.com/photos/scaredykat/6131699205/",
+   "alt": "Get the full scoop",
+   "date": "2011-09-02 17:13:37",
+   "primary": true,
+   "sha256": "7a163c658efd795f0a0f5636a8c12c645444520e5a0ba851a312a4d0cf6b4796"
+  }
+ ],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-ncfolk-keatons",
+   "tier": "cited",
+   "note": "NCFolk (David Cecelski, December 8, 2010): 'Founded by a legendary African-American ’cue man named Burette Walker Keaton.' Our State (Joe Posnanski, April 3, 2017) adds that his niece Kathleen Murray has run it since 1991. Neither source read uses the word owner."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-ourstate-keatons",
+   "tier": "cited",
+   "note": "Our State (Joe Posnanski, April 3, 2017): 'His niece Kathleen Murray has run Keaton's since 1991.' The source says run, not own; no source read here uses the word owner.",
+   "since": "1991"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-ourstate-keatons",
+   "tier": "cited",
+   "note": "B.W. Keaton started it in a shack in 1953 and died in 1989; his niece Kathleen Murray has run it since 1991."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-keatons",
+   "year": 2017
+  }
+ ],
+ "blurb": "A chicken house in the crossroads community of Cleveland, Rowan County, west of Salisbury, where since 1953 the chicken has been fried (or baked) and then dipped whole in a hot vinegar-and-tomato barbecue sauce …",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the dish turned inside out: the bird is fried, then dipped in the barbecue sauce, and the town calls the result barbecue.",
+   "rel": "contrast"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "its slaw is cabbage in a spicy red vinegar-tomato dressing, the Piedmont's red slaw with cayenne.",
+   "rel": "serves"
+  },
+  {
+   "to": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the word means the act here: the chicken is dipped, whole, in the sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the sauce is the Piedmont's, vinegar and tomato; the meat is not.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-keatons",
+   "kind": "web",
+   "title": "Keaton's Barbecue: Where the Chicken is Dipped in a Secret Sauce — and Lore (Joe Posnanski, 2017-04-03)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/the-legend-behind-keatons-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ncfolk-keatons",
+   "kind": "web",
+   "title": "Keaton's (David Cecelski, 2010-12-08)",
+   "publisher": "North Carolina Folklife Institute",
+   "url": "https://ncfolk.org/2010/keatons/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-keatonsoriginalbbq",
+   "kind": "web",
+   "title": "Keaton's Barbecue, Inc. — official site",
+   "publisher": "Keaton's Barbecue",
+   "url": "https://www.keatonsoriginalbbq.com/",
+   "accessed": "2026-09-15",
+   "note": "hours read from the site's search listing; the page body did not render for this project"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-keatons"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-keatons"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-keatons"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-keatonsoriginalbbq",
+   "note": "hours read from the site's search listing (2026); the page body did not render"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest file; geocoded from the street address via Nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-ncfolk-keatons"
+  }
+ },
+ "primary_image": {
+  "file": "keatons-barbecue/keatons-barbecue-keaton-s-bbq-cheerwine-sweet-tea.jpg",
+  "source": "commons",
+  "title": "File:Keaton's bbq cheerwine & sweet tea.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Keaton%27s_bbq_cheerwine_%26_sweet_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AKeaton%27s_bbq_cheerwine_%26_sweet_tea.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Krista",
+  "credit": "https://www.flickr.com/photos/scaredykat/6131699205/",
+  "alt": "Get the full scoop",
+  "date": "2011-09-02 17:13:37",
+  "primary": true,
+  "sha256": "7a163c658efd795f0a0f5636a8c12c645444520e5a0ba851a312a4d0cf6b4796"
+ },
+ "tag_facts": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory, an SFA oral history",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:nc-black-owned-lists",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-ncfolk-keatons",
+   "note": "NCFolk (David Cecelski, December 8, 2010): 'Founded by a legendary African-American ’cue man named Burette Walker Keaton.' Our State (Joe Posnanski, April 3, 2017) adds that his niece Kathleen Murray has run it since 1991. Neither source read uses the word owner.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-ourstate-keatons",
+   "note": "Our State (Joe Posnanski, April 3, 2017): 'His niece Kathleen Murray has run Keaton's since 1991.' The source says run, not own; no source read here uses the word owner.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-ourstate-keatons",
+   "note": "B.W. Keaton started it in a shack in 1953 and died in 1989; his niece Kathleen Murray has run it since 1991.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": 2017,
+   "source": "s:web-ourstate-keatons"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "where the chicken is fried and dipped, since 1953.",
+   "rel": "served-at"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "where the slaw on the bun is a hot vinegar slaw.",
+   "rel": "served-at"
+  },
+  {
+   "from": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "whose hot vinegar slaw is red slaw with cayenne.",
+   "rel": "served-at"
+  }
+ ]
+}

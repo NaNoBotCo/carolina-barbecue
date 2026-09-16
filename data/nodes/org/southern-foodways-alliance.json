@@ -1,0 +1,229 @@
+{
+ "schema": 1,
+ "id": "southern-foodways-alliance",
+ "type": "org",
+ "names": {
+  "name": "Southern Foodways Alliance",
+  "aliases": [
+   "SFA"
+  ],
+  "sort": "Southern Foodways Alliance"
+ },
+ "region": [
+  "us-south",
+  "carolinas"
+ ],
+ "facets": {
+  "founded": "1999",
+  "status": "open",
+  "state": "us"
+ },
+ "text": {
+  "what": "An institute of the Center for the Study of Southern Culture at the University of Mississippi, founded in 1999 and directed since then by John T. Edge, that documents the food of the South: oral histories, films, writing, awards and events, funded by about 800 members. For the Carolinas its work is the Southern BBQ Trail, an oral-history project begun in February 2011 across nine states, whose North Carolina set includes the Skylight Inn, Parker's, Grady's, B's, Bum's, Stamey's, Short Sugar's, Red Bridges, Cook's, Clyde Cooper's, the Barbecue Center and Ed Mitchell, and whose South Carolina set holds eight interviews: Sweatman's, Scott's, Midway, Jackie Hite's, Dukes, Cooper's Country Store, Brown's and Melvin's. Each interview is a transcript with audio, free online.",
+  "story": "The SFA came out of a 1999 meeting called by the journalist John Egerton, with John Martin Taylor among the founders, and John T. Edge has directed it since. It gives the Ruth Fertel Keeper of the Flame award with the Fertel Foundation and the John Egerton Prize, and Corby Kummer in the Atlantic called it 'this country's most intellectually engaged (and probably most engaging) food society'. The Southern BBQ Trail went up on February 22, 2011, and the Carolina sets on April 25 of that year. The North Carolina introduction, by John Shelton Reed, opens on the point that barbecue was never home cooking — too much trouble — and until the early twentieth century was reserved for harvests, fundraisers and political rallies; the South Carolina introduction opens: 'Like everything in South Carolina, we cook barbeque cantankerously.' Rien Fertel interviewed Samuel Jones at the Skylight Inn for the project and went on to write The One True Barbecue (2016) about the whole-hog pitmasters; John and Dale Reed drew on the North Carolina interviews for Holy Smoke; in 2009 Edge himself profiled the Scott family of Hemingway. Rodney Scott's interview sits in the South Carolina set beside Bub Sweatman's and Jackie Hite's; Chip Stamey's, Sonny Conrad's of the Barbecue Center and Ed Mitchell's are in the North Carolina set.",
+  "how": "Interviews are recorded by SFA oral historians, transcribed and posted with audio, a portrait and a short biography, under the project and the state; the site filters by state and by tag. Membership funds the work; the awards and events run alongside it.",
+  "today": "Active at the University of Mississippi; the Carolina barbecue interviews remain online under the Southern BBQ Trail."
+ },
+ "kin": [
+  {
+   "to": "rien-fertel",
+   "as": "interviewed the Skylight Inn for its North Carolina project before writing The One True Barbecue.",
+   "rel": "person"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "wrote the introduction to its North Carolina barbecue project.",
+   "rel": "person"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "interviewed for its South Carolina project; profiled by John T. Edge in 2009.",
+   "rel": "person"
+  },
+  {
+   "to": "sam-jones",
+   "as": "interviewed at the Skylight Inn for its North Carolina project.",
+   "rel": "person"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "interviewed in Wilson for its North Carolina project.",
+   "rel": "person"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "parkers-barbecue",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "gradys-barbecue",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "bums-restaurant",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "cooks-barbecue",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "clyde-coopers",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "midway-bbq",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "jackie-hites-bar-b-q",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "coopers-country-store",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  }
+ ],
+ "links": [
+  {
+   "label": "SFA — oral history",
+   "url": "https://www.southernfoodways.org/oral-history/"
+  },
+  {
+   "label": "Southern BBQ Trail",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/"
+  },
+  {
+   "label": "North Carolina BBQ — the interviews",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/north-carolina-bbq/"
+  },
+  {
+   "label": "South Carolina BBQ — the interviews",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/south-carolina-bbq/"
+  },
+  {
+   "label": "Skylight Inn — interview",
+   "url": "https://www.southernfoodways.org/interview/skylight-inn/"
+  }
+ ],
+ "sources": [
+  "s:wp-southern-foodways-alliance",
+  "s:web-sfa-southern-bbq-trail",
+  "s:web-sfa-north-carolina-bbq",
+  "s:web-sfa-south-carolina-bbq",
+  "s:sfa-oral-histories",
+  "s:wp-rodney-scott-pitmaster",
+  "s:fertel-one-true-barbecue",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-southern-foodways-alliance"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-sfa-north-carolina-bbq",
+    "note": "interview lists as posted; the North Carolina page's own count reads sixteen while seventeen entries are listed"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-sfa-southern-bbq-trail",
+    "note": "Fertel as the Skylight interviewer and the Reeds' use of the interviews come from the SFA interview page and a 2013 Oral History Association notice seen in search results"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "southern-foodways-alliance/southern-foodways-alliance-southern-foodways-alliance-chops-specialty-meats-bro-0e7fdb9.jpg",
+   "source": "commons",
+   "title": "File:Southern Foodways Alliance - Chops Specialty Meats Broussard LA.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Southern_Foodways_Alliance_-_Chops_Specialty_Meats_Broussard_LA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASouthern_Foodways_Alliance_-_Chops_Specialty_Meats_Broussard_LA.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Southern Foodways Alliance",
+   "credit": "https://www.flickr.com/photos/southernfoodwaysalliance/3291364991/",
+   "alt": "Chop's Specialty Meats\nBroussard, LA\nPhotos from fieldwork conducted by SFA oral historian Mary Beth Lasseter for a project documenting boudin, February 2009.\n\nwww.southernboudintrail.com",
+   "date": "2009-02-18 16:45:04",
+   "primary": true,
+   "sha256": "bb529887b724926ba54f138202bea5a6ffeda6941562f128d4d5a6e72553af25"
+  },
+  {
+   "file": "southern-foodways-alliance/southern-foodways-alliance-southern-foodways-alliance-hot-boudin-window.jpg",
+   "source": "commons",
+   "title": "File:Southern Foodways Alliance - Hot Boudin window.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Southern_Foodways_Alliance_-_Hot_Boudin_window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASouthern_Foodways_Alliance_-_Hot_Boudin_window.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Southern Foodways Alliance",
+   "credit": "https://www.flickr.com/photos/25257922@N07/3294618166/",
+   "alt": "Ray's\nOpelousas, LA\nPhotos from fieldwork conducted by SFA oral historian Mary Beth Lasseter for a project documenting boudin, February 2009.\n\nwww.southernboudintrail.com",
+   "date": "2009-02-19 14:37:14",
+   "primary": false,
+   "sha256": "87a455b11a6ab4eb118dd7f3408fa4eda7be5a75a602c41062754c5caa06abcb"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

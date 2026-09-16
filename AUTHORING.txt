@@ -1,0 +1,151 @@
+CAROLINA BARBECUE — WRITING A RECORD
+====================================
+
+One JSON file per node, in data/nodes/<type>/<id>.json. The schema is
+schema/node.schema.json. Copy an exemplar and change every field:
+
+  data/nodes/style/eastern-nc.json      a style (rich: what / story / how / today, kin, confusable)
+  data/nodes/term/barbecue.json         a word (etymology block)
+  data/nodes/place/skylight-inn.json    a place (geo, address, links, harvested fields)
+
+Run  python3 tools/validate.py  until your records pass. Kin targets that are
+still unwritten show as errors; that is expected while the set is being built.
+
+TYPES
+  style   a regional tradition            sauce   a sauce or dip
+  dish    a thing eaten                    pit     a cut, fuel, pit, cooker, tool or method
+  place   a restaurant, stand, pit house   person  a pitmaster, family, writer, organizer
+  org     a society, campaign, archive     event   a festival, fundraiser, political barbecue
+  term    a word, with its root
+
+FIELDS THAT CARRY THE WEIGHT
+  names.name     the term as the tradition uses it. names.said = how it is said locally.
+  text.what      one plain paragraph. Present tense. What it is.
+  text.story     the narrative, told as narrative, where there is one. Scenes, dates,
+                 names. Mark the tier of each stretch inline:
+                   plain prose        = cited in this record's sources
+                   *Tradition holds —*  general knowledge of the tradition, hedged
+                   *Inference —*        this project's own reasoning
+  text.how       how it is made, served, eaten, done. text.today = current state, dated.
+  kin[]          what another node IS to this one, said from here. Each entry is one
+                 sentence a reader standing on this page would want: not "see also",
+                 but the fact that makes the connection ("its slaw is red because it is
+                 dressed with the dip"). The other record says its own sentence back.
+                 Link only to ids in the cast list below.
+  etymology      required for type=term, welcome on any node whose name has a root.
+                 root = the etymon chain or morpheme split; first_attested = a date you
+                 can name with a source, else blank; folk etymologies go in note,
+                 labelled as folk.
+  facets         open keys per type, see data/vocab/facets.json. state, meat, base,
+                 course, kind, role, status, founded, fuel, styles, when, letter.
+  sources[]      ids from data/sources/sources.json ONLY. Add new ones to
+                 data/sources/new-<yourname>.json in the same shape; they are merged.
+                 Wikipedia: s:wp-<slug>. A web page: s:web-<slug> with title, publisher,
+                 url, and the date you read it. A book: title, author, publisher, year —
+                 never an ISBN you did not see.
+  provenance     default tier + per-field overrides. Tiers: cited, harvested, tradition,
+                 inference, field. A date, a founding year, a death, a court case, a
+                 price: cited or it is hedged.
+  geo / address  places and events. Coordinates from OSM (data/harvest/osm-places.json)
+                 or the address geocoded by hand; precision says which.
+  images[]       leave empty. Put candidate Commons file titles in x_commons_files:
+                 ["File:Whole hog at Wilbur's Barbecue.jpg"]; tools/harvest_commons.py
+                 downloads them with licences. Only CC0 / PD / CC BY / CC BY-SA / FAL.
+  confidence     high / medium / low. needs_verification: true when a fact is unchecked.
+
+WORDS
+  Reader-facing text is checked by validate.py. It refuses: load-bearing, honest,
+  authentic, inauthentic, purist, tourist, "real barbecue", "true barbecue".
+  Describe; do not rank. Gas cookers, chain restaurants, bottled sauces and
+  Texas-style pits in Charleston are part of the living tradition and are
+  described the same way as a wood pit. A campaign that certifies wood pits
+  is reported as a fact about the tradition, not adopted as its standard.
+  No sentence that announces what the next sentence will do. No closing
+  summary. Every non-obvious word defined in a clause at first use.
+  Prices, when a source gives them, go in with their date.
+  Stories are told as stories: the 1980s columnists' war, the Piggie Park
+  case, the Lexington lineage, the 1830 wagon. Source-marked, never padded.
+
+CAST LIST (the ids that exist or are being written; link only to these)
+  style   eastern-nc lexington sc-mustard sc-pee-dee sc-light-tomato sc-heavy-tomato
+  sauce   vinegar-pepper-sauce lexington-dip mustard-sauce light-tomato-sauce
+          heavy-tomato-sauce scotts-barbecue-sauce texas-pete
+  dish    barbecue-tray barbecue-sandwich outside-brown pork-skins hash-and-rice
+          brunswick-stew chicken-bog barbecue-chicken red-slaw white-slaw hushpuppies
+          cornbread boiled-potatoes banana-pudding sweet-tea pig-pickin-cake cheerwine
+  pit     whole-hog pork-shoulder hickory-and-oak burn-barrel brick-pit block-pit
+          pig-cooker gas-and-electric-cookers chopping-block direct-heat hog-killing
+  place   NC: skylight-inn sam-jones-bbq bs-barbecue gradys-barbecue wilbers-barbecue
+              parkers-barbecue meltons-barbecue scotts-famous-barbecue bums-restaurant
+              clyde-coopers stephensons-bar-b-q lexington-barbecue bar-b-q-center
+              stameys-barbecue red-bridges-barbecue-lodge short-sugars hurseys-bar-b-q
+              kepleys-barbecue cooks-barbecue keatons-barbecue allen-and-son
+              backyard-bbq-pit buxton-hall-barbecue smithfields-chicken-n-bar-b-q
+          SC: scotts-bar-b-que rodney-scotts-whole-hog-bbq sweatmans-bar-b-que
+              dukes-bar-b-que maurices-piggie-park bessingers-bar-b-q hites-bar-b-q
+              shealys-bar-b-que jackie-hites-bar-b-q cannons-bbq mccabes-bar-b-q
+              browns-bar-b-que coopers-country-store henrys-smokehouse midway-bbq
+              lewis-barbecue home-team-bbq
+  person  pete-jones sam-jones rodney-scott ed-mitchell wayne-monk warner-stamey
+          sid-weaver jess-swicegood adam-scott bob-melton maurice-bessinger
+          joe-bessinger bob-garner john-shelton-reed adrian-miller jim-early lake-high
+          robert-moss rien-fertel jerry-bledsoe dennis-rogers skilton-dennis
+          wilber-shirley bum-dennis elliott-moss
+  org     north-carolina-barbecue-society south-carolina-barbeque-association
+          campaign-for-real-barbecue southern-foodways-alliance
+  event   lexington-barbecue-festival pig-pickin mallard-creek-barbecue
+          political-barbecue fundraiser-barbecue festival-of-discovery hillsborough-hog-day
+  term    barbecue pulled-pork chopped dip slaw hog pit pitmaster carolina-gold
+          down-east pee-dee dutch-fork piedmont light-bread fixins
+  towns are not nodes; name them in address.city and in prose.
+
+SECOND WAVE FIELDS (added 2026-09-16)
+  tags[]          on places: {tag, source, tier?, note?, since?, url?}. Keys in
+                  data/vocab/tags.json: black-owned woman-owned lgbtq-friendly
+                  wood-cooked whole-hog family-run cash-only sold-out-closes buffet
+                  weekends-only hash closed. EVERY tag names its evidence. Ownership
+                  and welcome tags (black-owned, woman-owned, lgbtq-friendly) come only
+                  from the owner's own words, a press profile that names the owner, or
+                  a public directory — never from a name, a photograph or a guess. A
+                  place with no evidence gets no tag; absence of a tag says nothing.
+  recognitions[]  on places: {by, what, year?, source, url?}. `by` from
+                  data/vocab/recognizers.json (james-beard ncbs-trail true-cue scba
+                  sfa garner reed-holy-smoke fertel miller-black-smoke michelin
+                  southern-living garden-and-gun our-state eater national-geographic
+                  nc-legislature other). One entry per recognizer per place. The
+                  count is a fact about attention paid, not a ranking by us.
+  recipes[]       on dishes and sauces: {title, source, license, year?, url?, author?,
+                  book?, page?, ingredients[]?, text?, yield?, note?, region?}.
+                  Public-domain cookbooks (US, before 1929) may be copied in full
+                  into `text`; CC BY / CC BY-SA texts too, with the source named;
+                  anything else is `license: "ingredients-only"` with ingredients[]
+                  and no text. Modernise nothing; keep the old spellings.
+  profile         on sauces: measured from a label or a recipe: {kind: bottle|recipe
+                  |house, base, maker, town, state, ingredients[] (label order),
+                  tomato_rank, vinegar_rank, mustard_rank, sugar_rank (1-based
+                  position, 0 absent, null unknown), sugar_g_per_tbsp, serving_tbsp,
+                  sodium_mg_per_tbsp, heat, source, url, accessed, note}.
+  sections[]      on art and story records: [{h, text, images?[indices]}] after
+                  text.what. Same source marks as text.story.
+  type art        a piece or genre: a sign, a mascot, a print, a postcard, a statue,
+                  a mural, a photograph series. facets.kind from facets.json.
+                  images[] are the point; text.what says what the genre is.
+  type story      a long read: the wars, a map explained, resources. facets.kind
+                  essay | map | quiz | resources.
+  x_commons_files on any record: Commons file titles for tools/harvest_commons.py.
+  x_loc_ids       on any record: loc.gov item ids for tools/harvest_loc.py
+                  (public-domain / no-known-restrictions items only).
+
+VERIFICATION CORPUS
+  Plain-text copies of the Wikipedia articles the set cites sit in the scratchpad
+  folder named in your brief (wiki/*.txt, each with URL and revision). Read them
+  before writing; fetch others with WebFetch when a fact is not there. A fact you
+  could not find is written as *Tradition holds —* or left out. Never invent a
+  date, a quote, a price, a menu item or a person's death.
+
+WAVE 2 PLACES: morris-barbeque fuzzys-bar-b-q tarheel-q speedy-lohrs-barbecue speedys-barbecue alston-bridges-barbecue jack-cobb-and-son bobbee-os-bbq 12-bones-smokehouse luellas-bar-b-que big-t-bar-b-q true-bbq bobbys-bbq shulers-bar-b-que carolina-bar-b-que melvins-legendary-bar-b-que
+
+WAVE 2 SAUCES: georges-barbecue-sauce wells-hog-heaven carolina-treet bone-suckin-sauce
+  golding-farms-sauces maurices-southern-gold sam-jones-sauce melvins-golden-sauce
+
+WAVE 2 DISHES: baked-beans potato-salad collards mac-and-cheese fried-okra peach-cobbler pickles dukes-mayonnaise blenheim-ginger-ale green-beans

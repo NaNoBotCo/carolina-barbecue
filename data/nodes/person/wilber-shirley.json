@@ -1,0 +1,126 @@
+{
+ "schema": 1,
+ "id": "wilber-shirley",
+ "type": "person",
+ "names": {
+  "name": "Wilber Shirley",
+  "aliases": [
+   "Wilberdean Shirley",
+   "Wilberdean 'Wilber' Shirley"
+  ],
+  "sort": "Shirley, Wilber"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder"
+  ],
+  "state": "NC",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "Wilberdean 'Wilber' Shirley (1930–2021) learned barbecue at Griffin's in Goldsboro, bought the former Hill's Barbecue on U.S. 70 east of town in 1962 and put his name on it, and cooked split whole hogs over oak coals there for more than forty years. Wilber's fed presidents, governors and senators and, on a holiday weekend, up to 130 pigs. It closed in March 2019 over unpaid taxes; a group of customers bought it and reopened it in July 2020, while he lived. He died on April 5, 2021, at ninety.",
+  "story": "'I went to work at a place called Griffin's Barbecue... That's how I first learned to cook it,' he told John Shelton Reed and Dale Volberg Reed for Holy Smoke. In 1962 — July 24, 1961, by WRAL's obituary — he bought Hill's Barbecue on Highway 70 and renamed it. 'Split halves of whole hogs over oak coals in closed pits,' he said of his method: 'That grease hitting those coals makes the smoked flavor. You can't spray it on there, paint it on there, put it on there.' The pits ran overnight, from about ten at night to ten in the morning; in season the place cooked 100 to 125 pigs a week, and Our State counts 130 on a Labor Day weekend and dining rooms for more than 300. 'I work seven days a week,' he said. 'Some weeks I come in eight days a week.' A waitress had been there more than thirty years, a cook since before he bought the place. Presidents George H.W. Bush and Bill Clinton, Governors Terry Sanford and Jim Hunt and Senator Jesse Helms ate there. The restaurant was shut in March 2019 for nonpayment of taxes. Willis B. Underwood III, an insurance salesman who had eaten there all his life, gathered other regulars into Goldpit Partners, bought it, and reopened it in July 2020 for curbside orders: 'I just didn't want to see the smoke die.' Shirley, a longtime member of First Free Will Baptist Church in Goldsboro, died at a retirement community in Kinston on April 5, 2021. The Campaign for Real Barbecue quotes him on its wood page: cooking whole hogs over hardwood coals overnight 'is not easy or cheap, but it is the right way, and something we as a community take a lot of pride in'.",
+  "today": "Dead: April 5, 2021, at Kinston, aged ninety. Wilber's Barbecue is open under Goldpit Partners at 4172 U.S. Highway 70 East, Goldsboro, cooking whole hogs over oak; his portrait hangs in the dining room."
+ },
+ "kin": [
+  {
+   "to": "wilbers-barbecue",
+   "as": "the pit he bought and named in 1962 and ran until the 2019 closure.",
+   "rel": "place"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style as he stated it: split whole hogs over oak coals, a thin vinegar sauce, grease on the coals for the smoke.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, split in halves, 100 to 125 a week in season.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "oak, split and cut by his staff all year.",
+   "rel": "part"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "interviewed him for Holy Smoke; the quotations here are from that book.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "quotes him on its wood page on the cost and the pride of overnight hardwood coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "scotts-famous-barbecue",
+   "as": "Goldsboro's earlier barbecue name, whose founder began at his back door in 1917.",
+   "rel": "kin"
+  },
+  {
+   "to": "adam-scott",
+   "as": "the Goldsboro cook of the generation before his; Scott's sauce is still sold in the town where Wilber's still cooks.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Wilber's Barbecue — official",
+   "url": "https://www.wilbersbbq.com/"
+  },
+  {
+   "label": "Wilber Shirley dies at 90 — WRAL (2021)",
+   "url": "https://www.wral.com/story/wilber-shirley-original-owner-of-wilber-s-barbecue-in-goldsboro-dies-at-90/19611180/"
+  },
+  {
+   "label": "Celebrating the Life of Wilber Shirley — UNC Press Blog (2021), excerpting Holy Smoke",
+   "url": "https://uncpressblog.com/2021/04/16/celebrating-the-life-of-north-carolinas-barbecue-legend-wilber-shirley/"
+  }
+ ],
+ "sources": [
+  "s:web-wral-wilber-shirley-dies",
+  "s:web-uncpress-wilber-shirley",
+  "s:reed-holy-smoke",
+  "s:web-ourstate-wilbers-way",
+  "s:web-ourstate-wilbers",
+  "s:web-wral-wilbers-reopens",
+  "s:web-gardenandgun-wilbers",
+  "s:web-wilbersbbq",
+  "s:web-truecue-wood"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wral-wilber-shirley-dies"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-wral-wilber-shirley-dies",
+    "note": "1930 is derived: ninety at death in April 2021 with a June 14 birthday, per WRAL; 1962 per Our State, Garden & Gun and the Holy Smoke excerpt, where WRAL prints July 24, 1961"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-uncpress-wilber-shirley",
+    "note": "Griffin's, the closed pits, the grease, the weekly count, the hours and the staff from the Holy Smoke excerpt on the UNC Press blog; the presidents, the church and the death from WRAL; Hill's, the 130 pigs, the 300 seats, Underwood and the curbside reopening from the Our State and WRAL pieces the place record cites; the wood-page quote from the Campaign's site"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wilbersbbq",
+    "note": "the portrait from Our State (Rice, 2023)"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

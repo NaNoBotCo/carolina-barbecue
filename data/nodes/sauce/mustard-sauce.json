@@ -1,0 +1,334 @@
+{
+ "schema": 1,
+ "id": "mustard-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "mustard-based barbecue sauce",
+  "aliases": [
+   "Carolina Gold",
+   "South Carolina mustard sauce",
+   "yellow sauce",
+   "gold sauce",
+   "Southern Gold (Maurice's)"
+  ],
+  "said": "'Mustard-based' on the menu; 'Carolina Gold' on the bottle; 'yellow' at the counter."
+ },
+ "etymology": {
+  "root": "Carolina Gold: Maurice Bessinger's supermarket brand name for his mustard sauce, from the sauce's colour and the state. 'Carolina Gold' is also the name of the Lowcountry's rice variety, popularised in South Carolina in the 1780s and named for the golden colour of its unhulled grain; the sauce and the rice are unrelated, and the rice's name is the older by two centuries.",
+  "first_attested": "no dated first use of 'Carolina Gold' for the sauce found by this project; the rice carries the name from the 1780s",
+  "note": "The Bessinger family's restaurants now sell the sauce as Southern Gold, and 'Carolina Gold' has become a generic name for any South Carolina mustard sauce, used that way by Wikipedia's articles on the state's barbecue and on the barbecue sandwich.",
+  "tier": "cited",
+  "source": "s:wp-maurice-bessinger"
+ },
+ "region": [
+  "sc-midlands",
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "base": "mustard",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "Prepared yellow mustard thinned with vinegar and sweetened with sugar or brown sugar, with black and red pepper and whatever else the house keeps to itself — Bessinger's bottled version listed mustard, brown sugar, soy sauce and vinegar. It is yellow to gold, pourable, sweet-sour with a mustard bite. It belongs to the Midlands of South Carolina, the belt of German-settled counties from Newberry and Lexington through Orangeburg toward Charleston, and is the sauce the state is known for elsewhere. It goes on chopped or pulled pork at the block, is basted on whole hogs at some pits, and goes into hash.",
+  "story": "German settlers took land along the Broad, Saluda and Congaree from the 1730s — Orangeburg's colony of Swiss, German and Dutch families arrived in 1735 — and the mustard sauce is credited to them by the state tourism office, the South Carolina Barbeque Association and Wikipedia alike, on the evidence of the names on the bottles: Bessinger, Shealy, Hite, Sweatman, Dukes. Wikipedia adds a colonial belief that mustard kept off mosquitoes. *Tradition holds —* the sauce was a farm and church-supper sauce long before anyone bottled it; Joe Bessinger served it with pit-cooked pork at Holly Hill from 1939, and some accounts name him its inventor.\n\nMaurice Bessinger made it a product. He and his brother Joe Jr. opened Maurice's Piggie Park at West Columbia in 1953; by 1968 there were four drive-ins and by 2002 nine restaurants, and the sauce went into supermarkets nationwide in the 1990s as Carolina Gold, until by 1999 his was the largest barbecue business in the country. The same restaurants had refused Black customers until Anne Newman's 1964 suit under the Civil Rights Act; Bessinger argued that his religion required segregation, lost in the Fourth Circuit, and lost again at the Supreme Court in 1968, where Newman v. Piggie Park set the rule that a winning civil-rights plaintiff ordinarily recovers attorney's fees. On July 1, 2000, the day the Confederate flag came down from the State House, he raised it over his restaurants and distributed tracts arguing that slavery was not inherently evil; Bi-Lo, Food Lion, Harris Teeter, Kroger, Piggly Wiggly, Publix, Sam's Club, Wal-Mart and Winn-Dixie dropped the sauce, his $50 million suit against them failed at the state Supreme Court in 2007, and his children took down the last flag in 2013. He died in 2014. The family sells the sauce today as Southern Gold.",
+  "how": "Whisk yellow mustard with cider vinegar, brown sugar, salt, black and red pepper — and, in Bessinger's bottle, soy sauce — and simmer briefly; it keeps. At Sweatman's it is basted on whole hogs through a twelve-to-fourteen-hour cook over oak and hickory; at Maurice's the chopped ham is coated with it for the plate; at Hite's the base flavour is a stronger yellow mustard without the sweetness. In the Midlands it is stirred into hash; in Orangeburg it is mixed with ketchup into a 'rust' sauce.",
+  "today": "Restaurants bottle it — Maurice's Southern Gold, Shealy's sold online — and the mustard sauce has become more popular across the state this century, by Wikipedia's account. Henry's Smokehouse in Greenville keeps a mustard-based spicy sauce beside its tomato one."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "the style it names: Midlands pork, chopped or pulled, under a yellow sauce, with hash and rice.",
+   "rel": "whole"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "it goes into the hash pot in the German Midlands.",
+   "rel": "serves"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the older Carolina sauce it stands against: clear and sour where this is yellow and sweet.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the Piedmont's red sauce; the two are the Carolinas' colored sauces.",
+   "rel": "contrast"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "the sauce to its north on the map; some Orangeburg houses blend the two into 'rust'.",
+   "rel": "kin"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "the sauce beside it on Upstate tables, as at Henry's in Greenville.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "basted with it through a twelve-to-fourteen-hour cook at Sweatman's.",
+   "rel": "serves"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "its name on the bottle, from Maurice Bessinger's brand; also the name of an unrelated Lowcountry rice.",
+   "rel": "term"
+  },
+  {
+   "to": "dutch-fork",
+   "as": "the German-settled country the sauce is traced to.",
+   "rel": "term"
+  },
+  {
+   "to": "maurice-bessinger",
+   "as": "bottled it as Carolina Gold, sold it in supermarkets nationwide in the 1990s, and lost those shelves in 2000 over the Confederate flag.",
+   "rel": "person"
+  },
+  {
+   "to": "joe-bessinger",
+   "as": "served it with pit-cooked pork at Holly Hill from 1939; some accounts credit him with inventing it.",
+   "rel": "person"
+  },
+  {
+   "to": "lake-high",
+   "as": "whose history lists the German families behind the sauce — Bessinger, Shealy, Hite, Sweatman.",
+   "rel": "person"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "where chopped hickory-cooked ham is coated with it, now labelled Southern Gold.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "Thomas Bessinger's Charleston pit, shoulders and hams over wood coals under the family sauce.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "basted on whole hogs over oak and hickory at Holly Hill.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hites-bar-b-q",
+   "as": "where the base flavor is a stronger yellow mustard, since 1957.",
+   "rel": "served-at"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "the Orangeburg buffets, with mustard and the mustard-and-ketchup 'rust'.",
+   "rel": "served-at"
+  },
+  {
+   "to": "shealys-bar-b-que",
+   "as": "the Batesburg-Leesville buffet, since 1969, which sells its sauce online.",
+   "rel": "served-at"
+  },
+  {
+   "to": "jackie-hites-bar-b-q",
+   "as": "Leesville, since 1979: mustard, vinegar and pepper on hickory-smoked pigs.",
+   "rel": "served-at"
+  },
+  {
+   "to": "cannons-bbq",
+   "as": "Little Mountain, in the Dutch Fork.",
+   "rel": "served-at"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "as": "Greenville, where a mustard-based spicy sauce sits beside the tomato one.",
+   "rel": "served-at"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "pulled pork with the yellow sauce and slaw on a bun, the South Carolina sandwich.",
+   "rel": "serves"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "light-tomato-sauce",
+   "tell": "Yellow is mustard; a thin orange-red is light tomato; a brownish blend is Orangeburg's rust, made of both."
+  }
+ ],
+ "links": [
+  {
+   "label": "Maurice Bessinger — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger"
+  },
+  {
+   "label": "Newman v. Piggie Park Enterprises, Inc. — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Newman_v._Piggie_Park_Enterprises,_Inc."
+  },
+  {
+   "label": "How Mustard BBQ Sauce Got Famous — Maurice's Piggie Park",
+   "url": "https://www.piggiepark.com/how-mustard-got-into-south-carolina-bbq/"
+  },
+  {
+   "label": "BBQ History — South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/"
+  }
+ ],
+ "sources": ["s:web-melvinsbbq-golden", "s:web-piggiepark-shop", "s:web-sauce-harvest-2026-09-16", 
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-barbecue-sauce",
+  "s:wp-maurice-bessinger",
+  "s:wp-newman-v-piggie-park",
+  "s:wp-dukes-bar-b-que",
+  "s:wp-hash-stew",
+  "s:wp-carolina-gold",
+  "s:wp-barbecue-sandwich",
+  "s:wp-orangeburg-south-carolina",
+  "s:wp-dutch-fork",
+  "s:web-sc-four-sauces",
+  "s:web-scba-bbq-history",
+  "s:web-piggiepark-mustard",
+  "s:web-charlestonmag-mustard-migration",
+  "s:web-bessingers-destination-bbq",
+  "s:web-sweatmans-history",
+  "s:web-hites-destination-bbq",
+  "s:web-sfa-jackie-hites",
+  "s:web-henrys-destination-bbq",
+  "s:web-shealys",
+  "s:book-mrs-hills-new-cook-book",
+  "s:wikibooks-savory-mustard-sauce",
+  "s:wikibooks-barbecue-sauce-sweet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-maurice-bessinger",
+    "note": "settlement from the Orangeburg and Dutch Fork articles; the German attribution from the tourism office and the SCBA history; Joe Bessinger 1939 from the Piggie Park site; the case from the Newman article; the flags and grocers from the Bessinger article; the farm-sauce sentence is marked tradition"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-sweatmans-history",
+    "note": "the base recipe is the tradition's; the bottle's contents from the Bessinger article; Sweatman's, Maurice's and Hite's from their own pages and Destination BBQ; rust from the state article"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-in-south-carolina"
+   },
+   "etymology": {
+    "tier": "cited",
+    "source": "s:wp-maurice-bessinger",
+    "note": "the rice from the Carolina Gold article; the generic use from the state and sandwich articles"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-mrs-hills-new-cook-book",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "The nearest thing to a mustard barbecue sauce in a nineteenth-century Southern cookbook: a large tablespoonful of mustard in half a pound of butter, sharpened with vinegar and both peppers, and mopped on. Sugar, which the Midlands sauce depends on, is not in it."
+  },
+  {
+   "title": "Savory Mustard Sauce",
+   "source": "s:wikibooks-savory-mustard-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASavory_Mustard_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "½ cup Dijon mustard",
+    "¼ cup chicken broth",
+    "1 ¼ tsp cornstarch",
+    "1 pinch of salt",
+    "¼ tsp freshly ground black pepper",
+    "1 tbsp olive oil",
+    "1 shallot, very finely minced",
+    "3 tbsp unsalted butter, divided"
+   ],
+   "text": "1. Heat olive oil in a large slope-sided skillet over medium high heat. Add shallot and sauté until golden.\n2. Meanwhile, combine broth and starch. Set aside.\n3. Once shallot has cooked, add mustard, salt, and pepper to pan. Decrease heat to medium low heat.\n4. Once sauce heats to just below a simmer, add broth mixture. Cook, whisking continuously, until sauce thickens slightly.\n5. Whisk in butter 1 tbsp at a time, waiting for the one before it to fully melt before adding another.\n6. Once all butter has been used, remove sauce from heat.\n7. Serve with a steak or some pork tenderloin, or use as a grilling baste.",
+   "note": "A modern mustard baste built on Dijon, broth and butter rather than the prepared yellow mustard, vinegar and sugar of an Orangeburg bottle; the page names grilling among its uses."
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving.",
+   "note": "Mustard here is two or three tablespoons in a cup of ketchup — the proportion a South Carolina mustard sauce reverses."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "mustard",
+  "maker": "Lillie's Q",
+  "town": "Chicago",
+  "state": "other",
+  "ingredients": [
+   "MUSTARD (DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, TURMERIC, PAPRIKA, SPICES, GARLIC POWDER)",
+   "BROWN SUGAR",
+   "APPLE CIDER VINEGAR",
+   "KETCHUP (TOMATO CONCENTRATE, SUGAR, DISTILLED VINEGAR, SALT, ONION POWDER, SPICE, NATURAL FLAVORS)",
+   "FILTERED WATER",
+   "TOMATO PASTE",
+   "CONTAINS LESS THAN 2% OF SALT",
+   "APPLE JUICE CONCENTRATE",
+   "LIME JUICE CONCENTRATE",
+   "WORCESTERSHIRE SAUCE (DISTILLED VINEGAR, MOLASSES, SEA SALT, SUGAR, SPICES [CELERY], TAMARIND)",
+   "GARLIC POWDER",
+   "ONION POWDER",
+   "ALLSPICE",
+   "PAPRIKA",
+   "BLACK PEPPER",
+   "SUGAR",
+   "CAYENNE PEPPER",
+   "DISTILLED VINEGAR"
+  ],
+  "tomato_rank": 4,
+  "vinegar_rank": 3,
+  "mustard_rank": 1,
+  "sugar_rank": 2,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 4.5,
+  "sodium_mg_per_tbsp": 165.0,
+  "heat": null,
+  "source": "s:web-usda-fdc-branded",
+  "url": "https://fdc.nal.usda.gov/food-details/2584569/nutrients",
+  "accessed": "2026-09-16",
+  "note": "None of the Midlands pits — Maurice's, Bessinger's, Dukes, Sweatman's, Shealy's, Hite's, Jackie Hite's, Cannon's, Hudson's, Melvin's — publishes a panel for its mustard sauce, so the measured mustard bottles in data/harvest/sauces.json are all made outside the state. This one is named for it. Mustard first, brown sugar second, ketchup fourth and tomato paste sixth: tomato is in the bottle, four and six places behind the mustard. The six measured mustard-base bottles run from 3.5 to 6.5 g of sugar per tablespoon, a median of 5.3; the seven heavy-tomato bottles run from 3.0 to 6.0, a median of 5.0. Those two groups sit above every other base in the file. USDA FoodData Central record 2584569."
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

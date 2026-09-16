@@ -1,0 +1,494 @@
+{
+ "schema": 1,
+ "id": "cannibal-pig-sign",
+ "type": "art",
+ "names": {
+  "name": "the pig that serves itself",
+  "aliases": [
+   "cannibal pig",
+   "suicide food",
+   "the self-serving pig",
+   "pig in a chef's hat"
+  ],
+  "said": "Nobody who paints one calls it anything. It is just the pig.",
+  "sort": "pig that serves itself"
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "kind": "sign",
+  "state": "both"
+ },
+ "text": {
+  "what": "A barbecue sign on which the pig is not the meat but the staff: a pig in a chef's toque carrying a covered tray, a pig in an apron at a pit, a pig in sunglasses eating a pork sandwich, a pig holding the restaurant's own name over its head. The animal about to be served is drawn recommending the meal, and the joke is never explained on the sign because it does not need to be. The form runs from nineteenth-century trade cards to lit plastic on a bypass, and both Carolinas are full of it."
+ },
+ "sections": [
+  {
+   "h": "What the pig is doing",
+   "text": "Three arrangements cover most of them, and a reader can sort a sign from a moving car.\n\nThe pig is the cook. A toque — the tall white pleated chef's hat — an apron, sometimes a fork. Red Pig Drive-In at Nahunta, Georgia, photographed by John Margolies in 1979, is the neon version: a white pig in a toque, upright on two trotters, carrying a domed serving tray at shoulder height, the words RED PIG running down a red pylon beside it and DRIVE IN in neon along the base.\n\nThe pig is the customer. Carol Highsmith's photograph of the Pig on Beale sign in Memphis catches a neon pig in wraparound sunglasses with both trotters round a pork sandwich, mid-bite, under the line PORK WITH AN ATTITUDE!\n\nThe pig is the employee. Three Little Pigs Bar-B-Q in Memphis has a pig in blue dungarees holding the whole signboard over its head, and three more along the roofline each carrying one letter of BAR-B-Q. The pig here is not eating and not cooking. It is working for the business that sells it.",
+   "images": [
+    1,
+    0,
+    4,
+    5
+   ]
+  },
+  {
+   "h": "The blog that named it",
+   "text": "For five years a Seattle blogger collected these. Suicide Food ran from 20 December 2006 to 27 December 2011 and posted 929 times, most posts carrying several images. Its author signs himself Ben; the surname Grossblatt comes from a profile Lindy West wrote in The Stranger in November 2007, and appears nowhere in the blog itself.\n\nThe blog's own definition, from its header, is a depiction of animals that \"act as though they wish to be consumed\". Every entry got a rating on a five-point scale headed Psych Evaluations and counted in nooses, from one noose, mildly troubling, to five. The pig tag holds 539 posts and the bbq tag 399, which is the largest strand in the file by a wide margin; chef hat runs to 114 and sunglasses to 107. An eleven-part series across four years gave the recycled stock-clipart pig its own name: Repetitious Porcine Emblemology.\n\nThe blog is vegan advocacy and says so; the last post calls the project a pause rather than an ending. It is still online. This project uses it as what it is — the only systematic catalogue of the genre anyone has made — without taking up its argument.",
+   "images": []
+  },
+  {
+   "h": "Older than the neon",
+   "text": "The pig was doing this before electricity. Richard Sheaff, writing for the Ephemera Society of America, notes that American chromolithograph trade-card makers had a particular fondness for pigs on two legs, and singles out cards from J. S. & M. Peckham of Utica, New York — a firm that made agricultural furnaces and pig scalders — as apparently cannibalistic. The cards are not dated on that page, and Peckham was a nineteenth-century firm, so the genre is older than 1900 by an unfixed margin.\n\n*Inference —* what the form solves is a drawing problem. A barbecue restaurant has to put an animal on its sign, because that is what it sells, and a dead pig does not sell lunch. Standing the pig up, dressing it and handing it a tray moves it out of the category of carcass and into the category of host. The sign painter is not making a point about slaughter. He is avoiding one."
+  },
+  {
+   "h": "In the Carolinas",
+   "text": "The Carolina examples that are free to show are the ones a government camera happened to catch. Margolies photographed Maurice Bessinger's sign at West Columbia, South Carolina, in 1988: a pig called Little Joe in a red shirt, hands behind its back, standing on the crown of a BAR-B-Q sign over the words Flying Pig, Coast to Coast. The pit offices burned in October 2024 and the sign survived.\n\n*Tradition holds —* the form is everywhere in both states, on plastic pylons, on painted plywood at a firehouse fundraiser, on a smoker trailer's door, and most of those pigs are the same few pieces of clip art bought by a sign shop and reused across a county. What is scarce is not the pigs but free photographs of them: most Carolina signs standing today are photographed under copyright, so this record leans on Georgia, Tennessee and one South Carolina survivor to show a form the Carolinas are thick with.",
+   "images": [
+    2,
+    3
+   ]
+  }
+ ],
+ "kin": [
+  {
+   "to": "pig-mascot",
+   "as": "the same animal without a job: a smiling pig that stands for the business but is not cooking, eating or serving.",
+   "rel": "art"
+  },
+  {
+   "to": "roadside-barbecue-signs",
+   "as": "the pylon the pig usually stands on, and the sign trade that put it there.",
+   "rel": "art"
+  },
+  {
+   "to": "pigs-in-the-city",
+   "as": "Lexington's painted sculptures, which take the upright pig and give it every job except this one.",
+   "rel": "art"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "whose West Columbia sign carries Little Joe, the best-documented Carolina example.",
+   "rel": "place"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "the Charleston side of the same family, and the same pig on its packaging.",
+   "rel": "place"
+  },
+  {
+   "to": "maurice-bessinger",
+   "as": "who put the pig on the sign and kept it there for half a century.",
+   "rel": "person"
+  },
+  {
+   "to": "hog",
+   "as": "the animal, drawn as a person, which is the whole trick.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word most of these signs spell Bar-B-Q, because the hyphens fit a pylon better.",
+   "rel": "term"
+  },
+  {
+   "to": "political-barbecue-prints",
+   "as": "the 1830s habit of drawing a pig with a part to play, which the sign painters inherited.",
+   "rel": "art"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the occasion a hand-painted plywood pig usually announces.",
+   "rel": "event"
+  }
+ ],
+ "links": [
+  {
+   "label": "Suicide Food — the blog that catalogued the genre",
+   "url": "https://suicidefood.blogspot.com/"
+  },
+  {
+   "label": "Pig Scalders and Such — Ephemera Society of America",
+   "url": "https://www.ephemerasociety.org/pig-scalders-and-such/"
+  }
+ ],
+ "sources": [
+  "s:blog-suicide-food",
+  "s:web-stranger-suicide-food",
+  "s:web-boingboing-suicide-foods",
+  "s:web-laweekly-smiling-pigs",
+  "s:web-ourhenhouse-suicide-food",
+  "s:web-ephemera-pigs-trade-cards",
+  "s:commons-margolies",
+  "s:commons-highsmith",
+  "s:commons",
+  "s:wp-maurice-bessinger"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:blog-suicide-food"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "harvested",
+    "source": "s:commons-margolies",
+    "note": "each sign described from the photograph itself; dates and photographers from the Library of Congress records on the Commons file pages"
+   },
+   "sections[1].text": {
+    "tier": "cited",
+    "source": "s:blog-suicide-food",
+    "note": "post count, run dates, scale and tag counts read off the blog and its feed on 2026-09-16; the authorship attribution is The Stranger's, flagged as such. English Wikipedia dates the term to the early 2010s, which the blog's own archive contradicts."
+   },
+   "sections[2].text": {
+    "tier": "cited",
+    "source": "s:web-ephemera-pigs-trade-cards",
+    "note": "Sheaff for the trade cards, which are undated on that page; the closing paragraph is this project's reading and is marked inference"
+   },
+   "sections[3].text": {
+    "tier": "harvested",
+    "source": "s:commons-margolies",
+    "note": "the Bessinger sign is described from Margolies's 1988 photograph; the sign's survival of the October 2024 fire is from the Wikipedia article. The second paragraph is hedged as tradition: no count of Carolina pig signs was made for this record."
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "cannibal-pig-sign/cannibal-pig-sign-pig-neon-sign-beale-street-memphis-tennessee-lccn2010630376.jpg",
+   "source": "commons",
+   "title": "File:Pig neon sign, Beale Street, Memphis, Tennessee LCCN2010630376.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pig_neon_sign%2C_Beale_Street%2C_Memphis%2C_Tennessee_LCCN2010630376.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APig_neon_sign%2C_Beale_Street%2C_Memphis%2C_Tennessee_LCCN2010630376.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Carol M. Highsmith",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2010630376\nImage download: https://cdn.loc.gov/master/pnp/highsm/04300/04388a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/highsm.04388",
+   "alt": "Neon sign at night: a pink pig in blue wraparound sunglasses holds a pork sandwich in both trotters and is biting into it, the word PIG in turquoise above and PORK WITH AN ATTITUDE! on a panel below. The Pig on Beale, Beale Street, Memphis.",
+   "date": "Taken on 11 October 2008, 21:50 (accordi",
+   "primary": true,
+   "sha256": "a8b3e2610989f0aa8913d6243a9c3d34f1f8e0a385f3c617dcbf1ee41fbbe977"
+  },
+  {
+   "file": "cannibal-pig-sign/cannibal-pig-sign-red-pig-drive-in-sign-nahunta-georgia-lccn2017709836.jpg",
+   "source": "commons",
+   "title": "File:Red Pig Drive-in sign, Nahunta, Georgia LCCN2017709836.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Red_Pig_Drive-in_sign%2C_Nahunta%2C_Georgia_LCCN2017709836.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARed_Pig_Drive-in_sign%2C_Nahunta%2C_Georgia_LCCN2017709836.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709836\nImage download: https://cdn.loc.gov/master/pnp/mrg/07700/07745a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07745",
+   "alt": "Neon sign of the Red Pig Drive-In at Nahunta, Georgia: a white pig standing upright in a chef's toque, carrying a domed serving tray at shoulder height, with RED PIG lettered down a red pylon beside it and DRIVE IN in neon along the base.",
+   "date": "1979",
+   "primary": false,
+   "sha256": "ce7affe4ddf45c8c1c487a99579517fe7709b39d9e881b3d2f59f959ee6fff04"
+  },
+  {
+   "file": "cannibal-pig-sign/cannibal-pig-sign-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg",
+   "source": "commons",
+   "title": "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709630.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709630\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07539a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07539",
+   "alt": "Tall roadside sign photographed against a deep blue sky: a pink pig in a red shirt lettered LITTLE JOE stands on the crown of a red panel reading BAR-B-Q in bulb-lit capitals, over a white board reading Maurice Bessinger's Flying Pig, Coast to Coast, with a changeable letterboard below saying NOW HIRING WAITRESSES.",
+   "date": "1988",
+   "primary": false,
+   "sha256": "18f1715ba3c3adfd21d20e881b1390c505ccdd63d9cb506e2c1bd735cba379bb"
+  },
+  {
+   "file": "cannibal-pig-sign/cannibal-pig-sign-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-897b1ae.jpg",
+   "source": "commons",
+   "title": "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709631.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709631.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709631.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709631\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07540a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07540",
+   "alt": "The same Bessinger's sign at West Columbia, South Carolina, photographed side on, showing the striped pylon and the Little Joe pig from a second angle.",
+   "date": "1988",
+   "primary": false,
+   "sha256": "6cd163d44487ad6093502671731c7b74bc04bf4e5bb87821e7c26820c60a8098"
+  },
+  {
+   "file": "cannibal-pig-sign/cannibal-pig-sign-three-little-pigs-bar-b-q-memphis-tn-2013-01-12-003.jpg",
+   "source": "commons",
+   "title": "File:Three Little Pigs Bar-B-Q Memphis TN 2013-01-12 003.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Three_Little_Pigs_Bar-B-Q_Memphis_TN_2013-01-12_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThree_Little_Pigs_Bar-B-Q_Memphis_TN_2013-01-12_003.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Thomas R Machnitzki (thomasmachnitzki.com)",
+   "credit": "Own work",
+   "alt": "Three Little Pigs Bar-B-Q, Memphis, on a wet January day: a smiling pig in blue dungarees holds the whole signboard over its head at the kerb, and three more pigs along the building's roofline each carry one letter of BAR-B-Q.",
+   "date": "2013-01-08",
+   "primary": false,
+   "sha256": "1880c9b250963f36ec8439f77708cdb3421c218d4ee285da5882ccfd1ccaf73d"
+  },
+  {
+   "file": "cannibal-pig-sign/cannibal-pig-sign-three-little-pigs-bar-b-q-memphis-tn-2013-01-12-004.jpg",
+   "source": "commons",
+   "title": "File:Three Little Pigs Bar-B-Q Memphis TN 2013-01-12 004.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Three_Little_Pigs_Bar-B-Q_Memphis_TN_2013-01-12_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThree_Little_Pigs_Bar-B-Q_Memphis_TN_2013-01-12_004.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Thomas R Machnitzki (thomasmachnitzki.com)",
+   "credit": "Own work",
+   "alt": "The building at Three Little Pigs Bar-B-Q, Memphis, with the roofline pigs and a catering trailer carrying the same three pigs on its side.",
+   "date": "2013-01-08",
+   "primary": false,
+   "sha256": "b248f006bbc63cbfc49a39546424ca28a318396fbadbf01d78cb8373e6333e68"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A barbecue sign on which the pig is not the meat but the staff: a pig in a chef's toque carrying a covered tray, a pig in an apron at a pit, a pig in sunglasses eating a pork sandwich, a pig holding the restaurant's own…",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "the same animal without a job: a smiling pig that stands for the business but is not cooking, eating or serving.",
+   "rel": "art"
+  },
+  {
+   "to": "roadside-barbecue-signs",
+   "type": "art",
+   "name": "roadside barbecue signs",
+   "as": "the pylon the pig usually stands on, and the sign trade that put it there.",
+   "rel": "art"
+  },
+  {
+   "to": "pigs-in-the-city",
+   "type": "art",
+   "name": "Pigs in the City",
+   "as": "Lexington's painted sculptures, which take the upright pig and give it every job except this one.",
+   "rel": "art"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "whose West Columbia sign carries Little Joe, the best-documented Carolina example.",
+   "rel": "place"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "the Charleston side of the same family, and the same pig on its packaging.",
+   "rel": "place"
+  },
+  {
+   "to": "maurice-bessinger",
+   "type": "person",
+   "name": "Maurice Bessinger",
+   "as": "who put the pig on the sign and kept it there for half a century.",
+   "rel": "person"
+  },
+  {
+   "to": "hog",
+   "type": "term",
+   "name": "hog",
+   "as": "the animal, drawn as a person, which is the whole trick.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word most of these signs spell Bar-B-Q, because the hyphens fit a pylon better.",
+   "rel": "term"
+  },
+  {
+   "to": "political-barbecue-prints",
+   "type": "art",
+   "name": "Going the whole hog — the 1830s barbecue lithographs",
+   "as": "the 1830s habit of drawing a pig with a part to play, which the sign painters inherited.",
+   "rel": "art"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the occasion a hand-painted plywood pig usually announces.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:blog-suicide-food",
+   "kind": "web",
+   "title": "Suicide Food",
+   "author": "Ben (surname not given on the blog; named as Ben Grossblatt by The Stranger)",
+   "publisher": "suicidefood.blogspot.com",
+   "url": "https://suicidefood.blogspot.com/",
+   "accessed": "2026-09-16",
+   "note": "929 posts, 20 December 2006 to 27 December 2011, still online. Catalogued depictions of animals presented as wanting to be eaten and rated each on a five-point scale headed Psych Evaluations, counted in nooses. Post tags: pig 539, bbq 399, chicken 238, cow 210, chef hat 114, sunglasses 107. An eleven-part series from 2007 to 2011 named the recycled stock pig logo 'Repetitious Porcine Emblemology'. The last post calls itself an indefinite pause rather than a closure. Archived at the Wayback Machine from 14 June 2007."
+  },
+  {
+   "id": "s:web-stranger-suicide-food",
+   "kind": "web",
+   "title": "Suicide Food",
+   "author": "Lindy West",
+   "publisher": "The Stranger, Seattle",
+   "url": "https://www.thestranger.com/features/2007/11/01/429022/suicide-food",
+   "year": 2007,
+   "accessed": "2026-09-16",
+   "note": "1 November 2007. The profile that names the blog's author as Ben Grossblatt of Seattle; the surname appears nowhere in the blog's own 929 posts."
+  },
+  {
+   "id": "s:web-boingboing-suicide-foods",
+   "kind": "web",
+   "title": "Suicide foods: eager-to-be-eaten food mascots",
+   "author": "Cory Doctorow",
+   "publisher": "Boing Boing",
+   "url": "https://boingboing.net/2007/04/19/suicide-foods-eagert.html",
+   "year": 2007,
+   "accessed": "2026-09-16",
+   "note": "19 April 2007, four months into the blog's run — the earliest press notice found. Read through the Wayback Machine; the live page refuses automated requests."
+  },
+  {
+   "id": "s:web-laweekly-smiling-pigs",
+   "kind": "web",
+   "title": "The Smiling Pigs of Suicide Food",
+   "author": "Andrew Simmons",
+   "publisher": "LA Weekly",
+   "url": "https://www.laweekly.com/the-smiling-pigs-of-suicide-food/",
+   "year": 2011,
+   "accessed": "2026-09-16",
+   "note": "7 July 2011."
+  },
+  {
+   "id": "s:web-ourhenhouse-suicide-food",
+   "kind": "web",
+   "title": "Suicide Food",
+   "author": "Mariann Sullivan",
+   "publisher": "Our Hen House",
+   "url": "https://www.ourhenhouse.org/suicide-food/",
+   "year": 2011,
+   "accessed": "2026-09-16",
+   "note": "6 July 2011."
+  },
+  {
+   "id": "s:web-ephemera-pigs-trade-cards",
+   "kind": "web",
+   "title": "Pig Scalders and Such",
+   "author": "Richard Sheaff",
+   "publisher": "The Ephemera Society of America",
+   "url": "https://www.ephemerasociety.org/pig-scalders-and-such/",
+   "accessed": "2026-09-16",
+   "note": "Nineteenth-century American chromolithograph trade cards with anthropomorphic pigs, including cards from J. S. & M. Peckham of Utica, New York, a maker of agricultural furnaces and pig scalders, which the article calls apparently cannibalistic. The page carries a 2019 update; the cards themselves are not dated there."
+  },
+  {
+   "id": "s:commons-margolies",
+   "kind": "dataset",
+   "title": "John Margolies Roadside America Photograph Archive, 1972-2008",
+   "author": "John Margolies",
+   "publisher": "Library of Congress Prints and Photographs Division; mirrored on Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:John_Margolies_Roadside_America_Photograph_Archive",
+   "accessed": "2026-09-16",
+   "note": "Margolies photographed American roadside commercial architecture and signs for thirty-five years; the Library of Congress bought the archive and placed it in the public domain, with no known restrictions on publication. Fetched from Commons because loc.gov refuses requests from this machine."
+  },
+  {
+   "id": "s:commons-highsmith",
+   "kind": "dataset",
+   "title": "Carol M. Highsmith's America — photographs in the Carol M. Highsmith Archive",
+   "author": "Carol M. Highsmith",
+   "publisher": "Library of Congress Prints and Photographs Division; mirrored on Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Photographs_by_Carol_M._Highsmith",
+   "accessed": "2026-09-16",
+   "note": "Highsmith gives her photographs to the Library of Congress free of copyright; the Commons files carry the Library's no-known-restrictions statement."
+  },
+  {
+   "id": "s:commons",
+   "kind": "dataset",
+   "title": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/",
+   "note": "each picture carries its own licence in its sidecar"
+  },
+  {
+   "id": "s:wp-maurice-bessinger",
+   "kind": "wikipedia",
+   "title": "Maurice Bessinger — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:blog-suicide-food"
+  }
+ },
+ "primary_image": {
+  "file": "cannibal-pig-sign/cannibal-pig-sign-pig-neon-sign-beale-street-memphis-tennessee-lccn2010630376.jpg",
+  "source": "commons",
+  "title": "File:Pig neon sign, Beale Street, Memphis, Tennessee LCCN2010630376.tif",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pig_neon_sign%2C_Beale_Street%2C_Memphis%2C_Tennessee_LCCN2010630376.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3APig_neon_sign%2C_Beale_Street%2C_Memphis%2C_Tennessee_LCCN2010630376.tif",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "Carol M. Highsmith",
+  "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2010630376\nImage download: https://cdn.loc.gov/master/pnp/highsm/04300/04388a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/highsm.04388",
+  "alt": "Neon sign at night: a pink pig in blue wraparound sunglasses holds a pork sandwich in both trotters and is biting into it, the word PIG in turquoise above and PORK WITH AN ATTITUDE! on a panel below. The Pig on Beale, Beale Street, Memphis.",
+  "date": "Taken on 11 October 2008, 21:50 (accordi",
+  "primary": true,
+  "sha256": "a8b3e2610989f0aa8913d6243a9c3d34f1f8e0a385f3c617dcbf1ee41fbbe977"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "the same pig given something to do — a tray, a fork, a sandwich — which changes the joke.",
+   "rel": "art"
+  },
+  {
+   "from": "pigs-in-the-city",
+   "type": "art",
+   "name": "Pigs in the City",
+   "as": "the genre these sculptures leave out: a Lexington pig is a character, never a cook.",
+   "rel": "contrast"
+  },
+  {
+   "from": "political-barbecue-prints",
+   "type": "art",
+   "name": "Going the whole hog — the 1830s barbecue lithographs",
+   "as": "the later American habit of putting a pig on a sign and giving it a part to play.",
+   "rel": "art"
+  },
+  {
+   "from": "roadside-barbecue-signs",
+   "type": "art",
+   "name": "roadside barbecue signs",
+   "as": "what goes on the crown of the pylon when the pit pays for its own sign.",
+   "rel": "art"
+  }
+ ]
+}

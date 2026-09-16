@@ -1,0 +1,878 @@
+{
+ "schema": 1,
+ "id": "eastern-nc",
+ "type": "style",
+ "names": {
+  "name": "Eastern North Carolina barbecue",
+  "aliases": [
+   "Eastern-style",
+   "Down East barbecue",
+   "whole-hog barbecue",
+   "Eastern Carolina barbecue"
+  ],
+  "said": "In the east, 'barbecue' is the meat itself: chopped pork from a whole hog. Nobody says 'pulled pork'."
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "meat": "whole hog",
+  "base": "vinegar-pepper",
+  "fuel": "mixed"
+ },
+ "text": {
+  "what": "The whole pig, split and cooked over coals or on a gas or electric cooker, then chopped — skin, ham, shoulder, loin and belly together, 'every part of the hog except the squeal' — and dressed after cooking with a thin sauce of vinegar, salt, black pepper and crushed red pepper. No tomato. It is served with mayonnaise slaw, cornbread or hushpuppies, and often boiled potatoes, on a tray or a sandwich with the slaw on the meat. The style belongs to the Coastal Plain east of Raleigh; Ayden, Goldsboro, Wilson, Kinston, Rocky Mount and Greenville are its towns.",
+  "story": "The whole hog is the older way, across the whole South. *Tradition holds —* it grew out of plantation and farm life, where a pig was killed, cooked over a trench of hardwood coals through the night and eaten by the whole community at church homecomings, political rallies and hog killings. The cooks at those pits were, for most of two centuries, Black men, enslaved and then paid; Adrian Miller's *Black Smoke* traces that labor and its erasure from the menus and legends that followed. The vinegar-and-pepper dressing is the sauce of the English colonial kitchen — vinegar was the preservative and the seasoning both — and the absence of tomato is what the east points to when it explains itself against the Piedmont.\n\nThe named lineages start in the twentieth century. Bob Melton opened a pit at Rocky Mount in 1924 and was called the 'king of Southern barbecue' by Life magazine. Adam Scott, a Black cook and preacher in Goldsboro, began selling barbecue from his back yard in 1917 and bottled a sauce that still carries his name. The Jones family of Ayden claims a cooking line back to Skilton Dennis, who *tradition holds* sold barbecue from a wagon in 1830; Pete Jones opened the Skylight Inn in 1947, and after a 1979 National Geographic article called his restaurant 'the barbecue capital of the world' he put a copy of the U.S. Capitol dome on the roof.\n\nThe east's argument with the west is a set-piece. Two newspaper columnists ran a mock war over it: Jerry Bledsoe, self-styled 'world's leading, foremost barbecue authority', for Lexington, and Dennis Rogers of the Raleigh News & Observer, 'oracle of the holy grub', for the east — Bledsoe wrote that Rogers 'has ruined any chances of this state being distinguished in its barbecue'. The joke reached the legislature: bills in 2006 to make the Lexington Barbecue Festival the state's official barbecue festival were defeated, and the 2007 compromise named it the official food festival of the Piedmont Triad instead, so that no one style could be called the state's. Readers still take sides, and the two styles are the axis on which every North Carolina barbecue conversation turns.",
+  "how": "A hog of 80 to 180 pounds dressed weight is split down the backbone and laid skin-up over the heat, then turned skin-down to crisp at the end; on a wood pit the coals are shoveled in from a burn barrel every half hour through a night. At many eastern pits the cooker is gas or electric, which the state's health rules made easier than a wood pit. The meat is chopped on a block with cleavers, the crisp skin chopped in for texture, and seasoned on the block with the vinegar sauce and salt. A plate is barbecue, slaw and cornbread; a sandwich is barbecue and slaw on a soft bun; a tray is the same without bread.",
+  "today": "The whole-hog pits of the east are the ones the national press writes about: Skylight Inn and Sam Jones BBQ in Pitt County, B's in Greenville, Grady's in Dudley, Wilber's in Goldsboro (reopened 2021 after a 2019 closure), Parker's in Wilson. Many more eastern places cook shoulders or hams rather than the whole animal and are still called eastern by their sauce."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the other North Carolina: shoulders instead of the whole hog, a red dip instead of clear vinegar, red slaw instead of white. The two define each other.",
+   "rel": "contrast"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "its sauce, and the one thing every eastern pit agrees on: vinegar, salt, pepper, no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut it is named for — the entire pig, cooked as one piece and chopped together.",
+   "rel": "part"
+  },
+  {
+   "to": "white-slaw",
+   "as": "the slaw on its tray, mayonnaise-dressed and pale, against the red slaw of the Piedmont.",
+   "rel": "serves"
+  },
+  {
+   "to": "cornbread",
+   "as": "the bread of the eastern tray; at Skylight Inn it is a dense skillet cake baked in pork fat.",
+   "rel": "serves"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the social form of the same cooking: the whole hog cooked for a crowd, and the crowd pulling the meat off the bones by hand.",
+   "rel": "event"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "its best-known pit, in Ayden since 1947, cooking whole hogs over wood.",
+   "rel": "place"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "its nearest cousin across the state line: the Pee Dee also cooks the whole hog with a vinegar-pepper sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word, which in the east is a noun for this chopped pork and nothing else.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lexington",
+   "tell": "Look at the slaw and the sauce. Red slaw and a reddish dip mean Lexington; pale slaw and a clear, thin vinegar sauce mean the east. If the meat has chopped crisp skin through it, it is whole hog."
+  }
+ ],
+ "geo": {
+  "lat": 35.47,
+  "lon": -77.42,
+  "precision": "region",
+  "source": "centre of the Coastal Plain pits (Ayden)"
+ },
+ "links": [
+  {
+   "label": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina"
+  },
+  {
+   "label": "NCpedia — Barbecue",
+   "url": "https://www.ncpedia.org/barbecue"
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-north-carolina",
+  "s:reed-holy-smoke",
+  "s:garner-flavored-by-time",
+  "s:miller-black-smoke",
+  "s:ncpedia-barbecue",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-meltons-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the plantation and hog-killing origins are general knowledge of the tradition (Reed; Miller); the named pits and dates are cited in the linked articles"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method as described by the pitmasters' own books (Jones & Vaughn 2019) and Reed"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-in-north-carolina",
+    "note": "list of pits from the article and NCBS trail; Wilber's reopening date from its article"
+   }
+  }
+ },
+ "x_composition": {
+  "tomato_pct": 0.0,
+  "sugar_pct": 25.6,
+  "vinegar_pct": 72.3,
+  "mustard_pct": 0.0,
+  "water_pct": 0.0,
+  "method": "Volumes from the Wikibooks Cookbook's Eastern North Carolina Barbecue Sauce, converted to weights at 1 cup = 236.6 mL and standard USDA weights: cider vinegar 239 g a cup, molasses 337 g a cup, honey 339 g a cup, table salt 6 g a teaspoon, ground black pepper 2.3 g a teaspoon, ground red pepper 1.8 g a teaspoon. Twelve cups of vinegar is 2,868 g; one cup of molasses plus two of honey is 1,015 g; salt and the two peppers together are 85 g; the batch is 3,968 g. Percentages are of that total by weight. No water is added, so water_pct is zero even though vinegar is mostly water. No tomato and no mustard appear in the recipe.",
+  "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+  "tier": "inference"
+ },
+ "images": [
+  {
+   "file": "eastern-nc/eastern-nc-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+   "source": "commons",
+   "title": "File:Cooked and chopped hogs at B's Barbecue.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cooked_and_chopped_hogs_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACooked_and_chopped_hogs_at_B%27s_Barbecue.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "City of Greenville, North Carolina",
+   "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248355806/",
+   "alt": "Taken at B's Barbecue, a Greenville barbecue restaurant that opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+   "date": "2023-09-19 09:13:44",
+   "primary": true,
+   "sha256": "ada44eed068a81c3f2995ac530303b10d34c7bf29adad1261a36d9bff097380a"
+  },
+  {
+   "file": "eastern-nc/eastern-nc-northcarolinabarbecuebanner.jpg",
+   "source": "commons",
+   "title": "File:NorthCarolinaBarbecueBanner.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/NorthCarolinaBarbecueBanner.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANorthCarolinaBarbecueBanner.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Rastapopulous",
+   "credit": "Own work",
+   "alt": "Chopping barbecue at a restaurant in Eastern North Carolina",
+   "date": "2013-03-19 11:56:13",
+   "primary": false,
+   "sha256": "ba29b232b4b4dff37fe4b68b09fafcfdf2f38e8adce67f4ab36d3af6db545069"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "The whole pig, split and cooked over coals or on a gas or electric cooker, then chopped — skin, ham, shoulder, loin and belly together, 'every part of the hog except the squeal' — and dressed after cooking with a thin…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the other North Carolina: shoulders instead of the whole hog, a red dip instead of clear vinegar, red slaw instead of white. The two define each other.",
+   "rel": "contrast"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "its sauce, and the one thing every eastern pit agrees on: vinegar, salt, pepper, no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut it is named for — the entire pig, cooked as one piece and chopped together.",
+   "rel": "part"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the slaw on its tray, mayonnaise-dressed and pale, against the red slaw of the Piedmont.",
+   "rel": "serves"
+  },
+  {
+   "to": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "the bread of the eastern tray; at Skylight Inn it is a dense skillet cake baked in pork fat.",
+   "rel": "serves"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the social form of the same cooking: the whole hog cooked for a crowd, and the crowd pulling the meat off the bones by hand.",
+   "rel": "event"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "its best-known pit, in Ayden since 1947, cooking whole hogs over wood.",
+   "rel": "place"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "its nearest cousin across the state line: the Pee Dee also cooks the whole hog with a vinegar-pepper sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word, which in the east is a noun for this chopped pork and nothing else.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:garner-flavored-by-time",
+   "kind": "book",
+   "title": "North Carolina Barbecue: Flavored by Time",
+   "author": "Bob Garner",
+   "publisher": "John F. Blair",
+   "year": 1996
+  },
+  {
+   "id": "s:miller-black-smoke",
+   "kind": "book",
+   "title": "Black Smoke: African Americans and the United States of Barbecue",
+   "author": "Adrian Miller",
+   "publisher": "University of North Carolina Press",
+   "year": 2021,
+   "url": "https://uncpress.org/book/9781469662800/black-smoke/"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the plantation and hog-killing origins are general knowledge of the tradition (Reed; Miller); the named pits and dates are cited in the linked articles"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the method as described by the pitmasters' own books (Jones & Vaughn 2019) and Reed"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina",
+   "note": "list of pits from the article and NCBS trail; Wilber's reopening date from its article"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  }
+ },
+ "primary_image": {
+  "file": "eastern-nc/eastern-nc-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+  "source": "commons",
+  "title": "File:Cooked and chopped hogs at B's Barbecue.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cooked_and_chopped_hogs_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ACooked_and_chopped_hogs_at_B%27s_Barbecue.jpg",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "City of Greenville, North Carolina",
+  "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248355806/",
+  "alt": "Taken at B's Barbecue, a Greenville barbecue restaurant that opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+  "date": "2023-09-19 09:13:44",
+  "primary": true,
+  "sha256": "ada44eed068a81c3f2995ac530303b10d34c7bf29adad1261a36d9bff097380a"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the other North Carolina: the whole hog with clear vinegar and white slaw, where this is the shoulder with a red dip and red slaw. Each defines itself against the other.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the whole-hog cooking it shares at Sweatman's and Hite's; only the sauce on the hog differs.",
+   "rel": "kin"
+  },
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the same cooking north of the line: whole hog, vinegar and pepper, no tomato. The Pee Dee is the eastern tradition's southern half.",
+   "rel": "kin"
+  },
+  {
+   "from": "bone-suckin-sauce",
+   "type": "sauce",
+   "name": "Bone Suckin' Sauce",
+   "as": "the region it is made in, whose own sauce its Eastern Vinegar bottle is aimed at.",
+   "rel": "style"
+  },
+  {
+   "from": "carolina-treet",
+   "type": "sauce",
+   "name": "Carolina Treet",
+   "as": "the region it is made and sold in, though its label matches none of that region's sauce.",
+   "rel": "style"
+  },
+  {
+   "from": "georges-barbecue-sauce",
+   "type": "sauce",
+   "name": "George's Barbecue Sauce",
+   "as": "the style it is sold as, and the region it is made in: the Coastal Plain, where the pits' own sauce carries no tomato.",
+   "rel": "style"
+  },
+  {
+   "from": "sam-jones-sauce",
+   "type": "sauce",
+   "name": "Sam Jones BBQ sauce",
+   "as": "the style the pit cooks, which the sweet bottle is not a bottling of.",
+   "rel": "style"
+  },
+  {
+   "from": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "the style it bottles: the vinegar sauce of the Coastal Plain, from a Goldsboro whole-hog cook.",
+   "rel": "whole"
+  },
+  {
+   "from": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "the tradition whose tables it stands on: shaken over chopped whole hog beside the vinegar.",
+   "rel": "kin"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the style it dresses: whole hog, chopped, on the Coastal Plain; the one thing every eastern pit agrees on.",
+   "rel": "whole"
+  },
+  {
+   "from": "wells-hog-heaven",
+   "type": "sauce",
+   "name": "Wells Hog Heaven Barbecue Sauce",
+   "as": "the style it seasons: the vinegar sauce of the Coastal Plain, here at its southeastern corner.",
+   "rel": "style"
+  },
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "on the menu at Sam Jones BBQ beside the whole hog.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the style whose pits cook a half chicken as the second meat, brushed with the vinegar sauce.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the style whose sandwich is whole hog, vinegar and white slaw on a bun.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the other home of the form: whole hog on a tray or plate with white slaw and cornbread.",
+   "rel": "whole"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the style whose plate carries it; no Piedmont tray does.",
+   "rel": "whole"
+  },
+  {
+   "from": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "the eastern plate's stew, with potatoes in it.",
+   "rel": "whole"
+  },
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "the style whose vegetable buffets it anchors.",
+   "rel": "whole"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "the style whose tray it belongs to; in the Piedmont the bread is hushpuppies.",
+   "rel": "whole"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the bread at two eastern pits in three; the third gives corn sticks.",
+   "rel": "whole"
+  },
+  {
+   "from": "pig-pickin-cake",
+   "type": "dish",
+   "name": "pig pickin' cake",
+   "as": "whole hog is what a pickin cooks, and vinegar pork is what the orange and pineapple are said to cool.",
+   "rel": "whole"
+  },
+  {
+   "from": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "the style that chops the skin into the meat instead of setting it aside.",
+   "rel": "whole"
+  },
+  {
+   "from": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the style that dresses its slaw white; the two slaws divide the state with the two sauces.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "the drink Wikipedia names as whole hog's accompaniment; Grady's brews it on the stove.",
+   "rel": "whole"
+  },
+  {
+   "from": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the style whose slaw this is, mayonnaise-dressed against the vinegar of the meat.",
+   "rel": "whole"
+  },
+  {
+   "from": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "many eastern pits cook shoulders or hogs on gas and are eastern by their sauce.",
+   "rel": "kin"
+  },
+  {
+   "from": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the Skylight Inn's oak and hickory fireplaces are the east's version.",
+   "rel": "kin"
+  },
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the style whose name it is: the east cooks the entire pig and chops it, skin and all.",
+   "rel": "whole"
+  },
+  {
+   "from": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "the sauce was the east's, hot vinegar from his father, on Piedmont meat.",
+   "rel": "kin"
+  },
+  {
+   "from": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "as": "the style, in its plainest form: whole hog, vinegar sauce, chopped by hand.",
+   "rel": "whole"
+  },
+  {
+   "from": "bums-restaurant",
+   "type": "place",
+   "name": "Bum's Restaurant",
+   "as": "the style, with a vegetable table most eastern pits do not keep.",
+   "rel": "whole"
+  },
+  {
+   "from": "buxton-hall-barbecue",
+   "type": "place",
+   "name": "Buxton Hall Barbecue",
+   "as": "the chopped whole hog was cooked the eastern way, in a city that had not had one.",
+   "rel": "whole"
+  },
+  {
+   "from": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "as": "its sauce leans east — tangy, vinegar-forward — though the meat is shoulder.",
+   "rel": "whole"
+  },
+  {
+   "from": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "as": "the style, cooked the way the Gradys' grandparents cooked it in pits dug in the ground.",
+   "rel": "whole"
+  },
+  {
+   "from": "jack-cobb-and-son",
+   "type": "place",
+   "name": "Jack Cobb & Son Barbecue Place",
+   "as": "the style it cooked: whole hog over wood coals, chopped, with vinegar.",
+   "rel": "whole"
+  },
+  {
+   "from": "luellas-bar-b-que",
+   "type": "place",
+   "name": "Luella's Bar-B-Que",
+   "as": "the sauce it uses — Coastal Plain vinegar, three hundred miles west of the Coastal Plain.",
+   "rel": "whole"
+  },
+  {
+   "from": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "the style's first restaurant, which put the vinegar-sauced whole hog on a menu in 1924.",
+   "rel": "whole"
+  },
+  {
+   "from": "morris-barbeque",
+   "type": "place",
+   "name": "Morris Barbeque",
+   "as": "the style of its plate: whole hog chopped, vinegar and pepper, in the Coastal Plain.",
+   "rel": "whole"
+  },
+  {
+   "from": "parkers-barbecue",
+   "type": "place",
+   "name": "Parker's Barbecue",
+   "as": "the style at industrial scale: 150 whole hogs a week, chopped fine, vinegar and red pepper.",
+   "rel": "whole"
+  },
+  {
+   "from": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "the style it cooks, whole hog over wood with a vinegar dressing, carried from Ayden to Raleigh.",
+   "rel": "whole"
+  },
+  {
+   "from": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "the style whose sauce it put in a bottle before anyone else did.",
+   "rel": "whole"
+  },
+  {
+   "from": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "the style it is the standing example of: whole hog, wood coals, vinegar and pepper, white slaw.",
+   "rel": "whole"
+  },
+  {
+   "from": "smithfields-chicken-n-bar-b-q",
+   "type": "place",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "as": "the style in its chain form: chopped pork, fried chicken, a counter, 41 doors.",
+   "rel": "whole"
+  },
+  {
+   "from": "stephensons-bar-b-q",
+   "type": "place",
+   "name": "Stephenson's Bar-B-Q",
+   "as": "the style, on shoulders now rather than the whole hog it began with.",
+   "rel": "whole"
+  },
+  {
+   "from": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "the style; Wilber's is one of the pits the press names first when it names the east.",
+   "rel": "whole"
+  },
+  {
+   "from": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "as": "the style he cooked and bottled: whole hog and vinegar in Goldsboro from 1917.",
+   "rel": "whole"
+  },
+  {
+   "from": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "his book is the record this catalogue cites for the Black cooks at the eastern pits and their erasure from the menus and legends.",
+   "rel": "kin"
+  },
+  {
+   "from": "bob-garner",
+   "type": "person",
+   "name": "Bob Garner",
+   "as": "the style his wife's brothers taught him: whole pigs, in the northeast of the state.",
+   "rel": "kin"
+  },
+  {
+   "from": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "the style's first restaurant menu was his: whole hog, vinegar sauce, boiled potatoes, corn sticks.",
+   "rel": "whole"
+  },
+  {
+   "from": "bum-dennis",
+   "type": "person",
+   "name": "Bum Dennis",
+   "as": "the style, with a vegetable table beside it.",
+   "rel": "whole"
+  },
+  {
+   "from": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "the style he spoke for: the whole hog of Wilson, Greenville and Goldsboro.",
+   "rel": "kin"
+  },
+  {
+   "from": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "the style he cooks and speaks for: whole hog over wood, a vinegar-and-pepper sauce, from Wilson.",
+   "rel": "whole"
+  },
+  {
+   "from": "elliott-moss",
+   "type": "person",
+   "name": "Elliott Moss",
+   "as": "the chopped whole hog at Buxton Hall was cooked the eastern way, in a city that had not had one.",
+   "rel": "kin"
+  },
+  {
+   "from": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "the other side; he wrote that Rogers had ruined the state's chances of distinction in barbecue.",
+   "rel": "contrast"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "the eastern half of a Trail that runs Manteo to Murphy; he took no side.",
+   "rel": "kin"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "one of the two styles Holy Smoke sets out, history and recipes together.",
+   "rel": "kin"
+  },
+  {
+   "from": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "the style he is named for first when the east is named: whole hog over wood, vinegar and pepper, cornbread.",
+   "rel": "whole"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "the North Carolina whole-hog country his book crosses.",
+   "rel": "kin"
+  },
+  {
+   "from": "sam-jones",
+   "type": "person",
+   "name": "Sam Jones",
+   "as": "the style he cooks and wrote the book on: whole hog, wood coals, vinegar and pepper.",
+   "rel": "whole"
+  },
+  {
+   "from": "skilton-dennis",
+   "type": "person",
+   "name": "Skilton Dennis",
+   "as": "the style whose oldest dated claim — a wagon, 1830, Ayden — is his.",
+   "rel": "whole"
+  },
+  {
+   "from": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "the style as he stated it: split whole hogs over oak coals, a thin vinegar sauce, grease on the coals for the smoke.",
+   "rel": "whole"
+  },
+  {
+   "from": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "one of the 'styles traditional in their area' its certificate requires.",
+   "rel": "kin"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "the society's Trail runs from Manteo to Murphy without ranking east against west.",
+   "rel": "kin"
+  },
+  {
+   "from": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the other North Carolina, whose legislators kept the festival from being the state's official one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "the style of its sauce, in a Piedmont city.",
+   "rel": "kin"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the style whose sauce bastes the eastern pig: vinegar and red pepper.",
+   "rel": "kin"
+  },
+  {
+   "from": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "one of the two North Carolina answers to what the word means: the whole hog, chopped, with vinegar.",
+   "rel": "term"
+  },
+  {
+   "from": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the style that chops everything — the whole hog, skin included — fine enough to hold vinegar.",
+   "rel": "term"
+  },
+  {
+   "from": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "the style, which is also called Down East barbecue.",
+   "rel": "term"
+  },
+  {
+   "from": "hog",
+   "type": "term",
+   "name": "hog",
+   "as": "the style whose answer to what barbecue is, is the hog, entire.",
+   "rel": "term"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the same cooking north of the line: whole hog, vinegar and pepper.",
+   "rel": "kin"
+  },
+  {
+   "from": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the style that chops after pulling from the bone, so its meat is never called pulled.",
+   "rel": "contrast"
+  },
+  {
+   "from": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "white slaw there.",
+   "rel": "term"
+  },
+  {
+   "from": "fsa-barbecue-photographs",
+   "type": "art",
+   "name": "The FSA photographs of Carolina eating",
+   "as": "Granville County lies at its western edge, where the whole hog and the Piedmont shoulder meet.",
+   "rel": "kin"
+  },
+  {
+   "from": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "as": "one of the two combatants: whole hog, clear vinegar, white slaw, cornbread.",
+   "rel": "part"
+  }
+ ]
+}

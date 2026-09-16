@@ -1,0 +1,69 @@
+{
+ "note": "Open list. A record may name a region not listed here; validate.py warns so it can be added. Regions are the tradition's own geography, not administrative units.",
+ "entries": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc-mountains",
+   "name": "The North Carolina mountains",
+   "state": "NC",
+   "note": "Asheville and the Blue Ridge"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  },
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "tarheel-q",
+ "names": {
+  "name": "Tarheel Q",
+  "aliases": [
+   "TarHeel Q",
+   "Tarheel Q BBQ"
+  ],
+  "sort": "Tarheel Q"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A pork-shoulder pit on US 64 west of Lexington, Davidson County, cooking on brick masonry pits behind the building. Leon and Becky Simmons have owned it since December 2017. Smoke shows from the stacks when wood and pork go on together; the tray is the Piedmont tray, chopped shoulder with the dip, red slaw and hushpuppies, and a weekend pork-and-chicken special ran at $11.95 in April 2026. It carries True 'Cue certification, which turns on wood or charcoal being the only heat under the meat. It is not a stop on the Historic Barbecue Trail.",
+  "story": "The founding year and the first owner are not on this disk; the business is older than the current owners, who took it over in December 2017. Leon and Becky Simmons had worked for the Lohrs about twenty-five years before that, a visiting writer recorded in 2019 — and Paul 'Speedy' Lohr had learned under Warner Stamey, so the line back to Lexington's teaching pit runs through two hands rather than one, and no source read states a Stamey line for Tarheel Q itself. In December 2018 the Simmonses opened a second house, Arcadia Q, on NC 150, taking over from Roger and Lisa Lohr; it closed in late August, and the manager Toni London reopened the room days later under her own name for it, Southern Fire Pit Barbecue and Home Cooking. The hardest thing in the record is older. In the summer of 2015 a Salmonella Typhimurium outbreak traced to Tarheel Q sickened 280 people across twenty-one North Carolina counties and six states and killed one; state health officials declared it over on July 8, 2015, and a wrongful death suit followed that August. The restaurant is open, and John Tanner ate there and wrote it up on April 18, 2026.",
+  "how": "Pork shoulders cook on brick masonry pits out back, wood and meat going on together through the day; the smokestacks run hard in the afternoon. The meat is chopped and served the Piedmont way, with the dip — thin vinegar reddened with ketchup — and red slaw dressed from the same jug. Barbecue chicken shares the weekend special with the pork.",
+  "today": "Open Monday to Saturday, closed Sunday, at 6835 West US Highway 64, Lexington. Last confirmed by a visiting writer's meal on April 18, 2026. The restaurant's own site refused the fetch, so the hours here come from a listing rather than from the house."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style of its tray: shoulder over wood, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut, as every Lexington-style house cooks it.",
+   "rel": "part"
+  },
+  {
+   "to": "brick-pit",
+   "as": "its pits — brick masonry, out behind the building, with the stacks showing.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its sauce, and the dressing on its slaw.",
+   "rel": "sauce"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "two hands back: the Simmonses worked for the Lohrs, and Paul Lohr learned under Stamey.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  }
+ ],
+ "geo": {
+  "lat": 35.85743,
+  "lon": -80.3821,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "6835 W US Highway 64",
+  "city": "Lexington",
+  "county": "Davidson",
+  "state": "NC",
+  "postcode": "27295"
+ },
+ "links": [
+  {
+   "label": "True 'Cue NC — certified pits",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "label": "Tarheel Q — Barbecue Bros (2019)",
+   "url": "https://barbecuebros.co/2019/12/02/tarheel-q-lexington-nc/"
+  },
+  {
+   "label": "Tarheel Q Salmonella outbreak over — Food Safety News (2015)",
+   "url": "https://www.foodsafetynews.com/2015/07/tarheel-q-salmonella-outbreak-over-1-death-280-illnesses/"
+  }
+ ],
+ "sources": [
+  "s:web-barbecuebros-tarheel-q",
+  "s:web-truecue-nc",
+  "s:web-davidsonlocal-restaurant-workers",
+  "s:web-foodsafetynews-tarheel-q-2015",
+  "s:web-johntanner-tarheel-q-2026",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-tarheel-q"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-foodsafetynews-tarheel-q-2015",
+    "note": "The Simmonses' December 2017 purchase and the Lohr apprenticeship from Barbecue Bros (2019); Arcadia Q and Toni London from DavidsonLocal, whose page prints no year; the outbreak from Food Safety News (July 29, 2015) and the suit from Courthouse News (August 3, 2015). No founding year for Tarheel Q is on this disk."
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-johntanner-tarheel-q-2026",
+    "note": "tarheelqbbq.com returned 403; hours are a directory listing, not the restaurant's own"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the OSM barbecue harvest; Nominatim matched the restaurant object at the street address"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified: wood coals or charcoal as the sole heat source. A visiting writer in December 2019 watched wood and pork going into the brick masonry pits out back.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-davidsonlocal-restaurant-workers",
+   "tier": "cited",
+   "note": "DavidsonLocal names 'owners Leon and Becky Simmons'; Barbecue Bros (December 2, 2019) names the same pair as the owners since December 2017."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-barbecuebros-tarheel-q",
+   "tier": "cited",
+   "note": "Owned and worked by Leon and Becky Simmons, who ran a second house together until it changed hands."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Tarheel Q, Lexington",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A pork-shoulder pit on US 64 west of Lexington, Davidson County, cooking on brick masonry pits behind the building. Leon and Becky Simmons have owned it since December 2017.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style of its tray: shoulder over wood, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut, as every Lexington-style house cooks it.",
+   "rel": "part"
+  },
+  {
+   "to": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "its pits — brick masonry, out behind the building, with the stacks showing.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its sauce, and the dressing on its slaw.",
+   "rel": "sauce"
+  },
+  {
+   "to": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "two hands back: the Simmonses worked for the Lohrs, and Paul Lohr learned under Stamey.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-barbecuebros-tarheel-q",
+   "kind": "web",
+   "title": "Tarheel Q — Lexington, NC",
+   "publisher": "Barbecue Bros",
+   "year": 2019,
+   "url": "https://barbecuebros.co/2019/12/02/tarheel-q-lexington-nc/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-davidsonlocal-restaurant-workers",
+   "kind": "web",
+   "title": "Restaurant Workers Appreciation",
+   "author": "Vikki Broughton Hodges",
+   "publisher": "DavidsonLocal",
+   "url": "https://www.davidsonlocal.com/news/ps66zi0yhruier1x9jcao6infbkask",
+   "accessed": "2026-09-16",
+   "note": "The page prints a day and month but no year; context puts it in 2022. Covers Tarheel Q, Arcadia Q, Smiley's and Speedy's."
+  },
+  {
+   "id": "s:web-foodsafetynews-tarheel-q-2015",
+   "kind": "web",
+   "title": "Tarheel Q Salmonella outbreak over: 1 death, 280 illnesses",
+   "publisher": "Food Safety News",
+   "year": 2015,
+   "url": "https://www.foodsafetynews.com/2015/07/tarheel-q-salmonella-outbreak-over-1-death-280-illnesses/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-johntanner-tarheel-q-2026",
+   "kind": "web",
+   "title": "Tarheel Q, Lexington, North Carolina",
+   "publisher": "John Tanner's Barbecue Blog",
+   "year": 2026,
+   "url": "https://johntannersbbqblog.wordpress.com/2026/04/18/tarheel-q-lexington-north-carolina-2/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-tarheel-q"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-foodsafetynews-tarheel-q-2015",
+   "note": "The Simmonses' December 2017 purchase and the Lohr apprenticeship from Barbecue Bros (2019); Arcadia Q and Toni London from DavidsonLocal, whose page prints no year; the outbreak from Food Safety News (July 29, 2015) and the suit from Courthouse News (August 3, 2015). No founding year for Tarheel Q is on this disk."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-tarheel-q"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-johntanner-tarheel-q-2026",
+   "note": "tarheelqbbq.com returned 403; hours are a directory listing, not the restaurant's own"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the OSM barbecue harvest; Nominatim matched the restaurant object at the street address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-tarheel-q"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-nc",
+   "note": "True 'Cue certified: wood coals or charcoal as the sole heat source. A visiting writer in December 2019 watched wood and pork going into the brick masonry pits out back.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-davidsonlocal-restaurant-workers",
+   "note": "DavidsonLocal names 'owners Leon and Becky Simmons'; Barbecue Bros (December 2, 2019) names the same pair as the owners since December 2017.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-barbecuebros-tarheel-q",
+   "note": "Owned and worked by Leon and Becky Simmons, who ran a second house together until it changed hands.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Tarheel Q, Lexington",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": []
+}

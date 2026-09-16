@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "id": "hickory-and-oak",
+ "type": "pit",
+ "names": {
+  "name": "hickory and oak",
+  "aliases": ["hickory", "oak", "hardwood", "pecan", "wood"],
+  "said": "'Hickory-smoked' is the sign's word; on the pit it is 'wood' or 'coals'."
+ },
+ "region": ["carolinas", "us-south"],
+ "facets": {"kind": "fuel"},
+ "text": {
+  "what": "The hardwoods of the Carolina pit. Hickory and oak are the woods a Carolina cook burns, usually together and usually burned down to coals before they go under the meat: Lexington pits cook over oak and hickory coals, the Skylight Inn burns oak and hickory logs in fireplaces beside its pits, and Scott's in Hemingway feeds hickory, oak and pecan through the top of a burn barrel. South Carolina's barbecue is smoked over hickory or oak; Lexington's over a hardwood fire, usually hickory. Both are dense, slow-burning and abundant in the eastern forest, and both give the strong smoke that pork carries. Pecan is itself a hickory — Carya illinoinensis — with a sweeter, milder smoke.",
+  "story": "Wood smoke flavors the meat, so the woods a region has decide how its barbecue tastes; hickory, oak and mesquite give a strong smoke, and pecan, maple, alder and the fruit woods a milder, sweeter one, which is why the strong woods go with pork and beef. Pecan, a hickory native to the south-central United States, is sold as a smoking wood for a 'sweet and nutty flavor stronger than many fruit woods'; Rodney Scott burns it with hickory and oak. Skin takes up more of the smoke than meat does, which is one reason the eastern chop keeps its skin. Ed Mitchell in Wilson burns oak and hickory logs and adds charcoal briquettes. *Inference —* in a Carolina pit the wood is burned to coals before it reaches the meat, so most of the flame's smoke is spent; what the meat then breathes is largely its own fat and juices vaporizing on the coals, and that is the flavor Carolina cooks call 'wood' rather than 'smoke' — the same log gives a different result in a Texas offset smoker, where the meat sits in the smoke of a burning fire. True 'Cue, the campaign that certifies wood-cooked pits, calls wood smoke 'the umami of barbecue' and 'barbecue's soul'.",
+  "how": "Logs burn down to coals in a fireplace or a burn barrel; the coals are shoveled into the pit under the meat, and Lexington crews 'fire the pits' by spreading them evenly beneath the shoulders. At a pig pickin' the fuel is often bagged charcoal with chunks of blackjack oak or hickory added for flavor, or a separate stove of hardwood whose coals are shoveled under the grate; Ed Mitchell adds charcoal briquettes to his oak and hickory.",
+  "today": "Hickory is the sign-painter's word across both states and oak the workhorse beside it; every pit on the North Carolina Historic Barbecue Trail and every True 'Cue certificate is a wood fire of one or both. Scott's in Hemingway burns pecan with the other two."
+ },
+ "kin": [
+  {"to": "burn-barrel", "as": "where these woods become coals.", "rel": "kin"},
+  {"to": "direct-heat", "as": "the way the coals are used: spread under the meat.", "rel": "kin"},
+  {"to": "brick-pit", "as": "the Piedmont pit these coals are shoveled into.", "rel": "kin"},
+  {"to": "block-pit", "as": "the open whole-hog pit these coals are shoveled into.", "rel": "kin"},
+  {"to": "whole-hog", "as": "the cut whose skin takes the most smoke.", "rel": "kin"},
+  {"to": "lexington", "as": "cooked over hickory and oak coals; the shoulder's crust is the wood's work.", "rel": "kin"},
+  {"to": "eastern-nc", "as": "the Skylight Inn's oak and hickory fireplaces are the east's version.", "rel": "kin"},
+  {"to": "skylight-inn", "as": "burns oak and hickory logs in fireplaces beside its pits.", "rel": "place"},
+  {"to": "scotts-bar-b-que", "as": "feeds hickory, oak and pecan through the top of a burn barrel.", "rel": "place"},
+  {"to": "ed-mitchell", "as": "burns oak and hickory logs with charcoal briquettes.", "rel": "person"},
+  {"to": "gas-and-electric-cookers", "as": "the fuels that replaced these woods at many pits, for cost and labor.", "rel": "contrast"},
+  {"to": "campaign-for-real-barbecue", "as": "certifies pits that use only wood for heat.", "rel": "kin"},
+  {"to": "north-carolina-barbecue-society", "as": "its Historic Barbecue Trail admits only pits cooking over wood or charcoal.", "rel": "kin"}
+ ],
+ "confusable_with": [
+  {"id": "direct-heat", "tell": "Hickory and oak are the fuel; direct heat is where the fuel sits. The same woods burn in a Texas firebox beside the meat and in a Carolina pit beneath it."}
+ ],
+ "links": [
+  {"label": "Barbecue in the United States — Wikipedia (the wood)", "url": "https://en.wikipedia.org/wiki/Barbecue_in_the_United_States"},
+  {"label": "True 'Cue — Wood", "url": "http://www.truecue.org/wood"}
+ ],
+ "sources": ["s:wp-barbecue-in-the-united-states", "s:wp-pecan", "s:wp-whole-hog-barbecue", "s:wp-barbecue-in-south-carolina", "s:wp-lexington-north-carolina", "s:wp-skylight-inn-bbq", "s:wp-ed-mitchell-pitmaster", "s:web-npr-scott-pit-burned", "s:web-lexbbq", "s:web-leisuregrouptravel-lexington", "s:wp-pig-pickin", "s:web-truecue-wood", "s:web-ourstate-historic-barbecue-trail", "s:web-barbecuebible-campaign"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-barbecue-in-the-united-states"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:wp-barbecue-in-the-united-states", "note": "the coals-versus-smoke reasoning is this project's inference, marked inline"},
+   "names.said": {"tier": "tradition", "note": "usage as heard on signs and menus"}
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

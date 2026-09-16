@@ -1,0 +1,905 @@
+{
+ "accessed": "2026-09-16",
+ "note": "Public lists of wood-cooking pits, harvested 2026-09-16, printed as each list prints them. build.py marks an OSM row wood-cooked when its normalised name and state match a row in ANY list here, so a list whose rows are not a wood claim carries wood_claim: false — the james-beard list is one; none of its non-pit rows are in the OSM barbecue harvest today, but a later harvest could change that.",
+ "lists": [
+  {
+   "list": "true-cue",
+   "title": "True 'Cue NC — certified pits",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "source": "s:true-cue",
+   "accessed": "2026-09-16",
+   "wood_claim": true,
+   "criteria": "wood coals or charcoal as the sole heat source; no electricity or gas except for ignition or reheating; cooked and served on site; barbecue at least monthly; chopped or pulled shoulder or whole hog; a regionally appropriate sauce",
+   "rows": [
+    {
+     "name": "Apple City BBQ",
+     "town": "Taylorsville",
+     "state": "NC"
+    },
+    {
+     "name": "B's Barbecue",
+     "town": "Greenville",
+     "state": "NC"
+    },
+    {
+     "name": "Backcountry Barbeque",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Bar-B-Q House",
+     "town": "Oak Island",
+     "state": "NC"
+    },
+    {
+     "name": "Bar-B-Q King",
+     "town": "Lincolnton",
+     "state": "NC"
+    },
+    {
+     "name": "The Barbecue Center",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Beach Burgers",
+     "town": "Atlantic Beach",
+     "state": "NC"
+    },
+    {
+     "name": "Ben's Backdraft Barbecue",
+     "town": "Waynesville",
+     "state": "NC"
+    },
+    {
+     "name": "Black Powder Smokehouse",
+     "town": "Jamestown",
+     "state": "NC"
+    },
+    {
+     "name": "Bohemian Cattle Co.",
+     "town": "Sherrills Ford",
+     "state": "NC"
+    },
+    {
+     "name": "Bum's Restaurant",
+     "town": "Ayden",
+     "state": "NC"
+    },
+    {
+     "name": "Captain Bob's",
+     "town": "Hertford",
+     "state": "NC"
+    },
+    {
+     "name": "Clark's Barbecue",
+     "town": "Kernersville",
+     "state": "NC"
+    },
+    {
+     "name": "College Bar-B-Que",
+     "town": "Salisbury",
+     "state": "NC"
+    },
+    {
+     "name": "Dickie-Do's BBQ",
+     "town": "Haw River",
+     "state": "NC"
+    },
+    {
+     "name": "East of Texas",
+     "town": "Winston-Salem",
+     "state": "NC"
+    },
+    {
+     "name": "Fuzzy's Barbecue",
+     "town": "Madison",
+     "state": "NC"
+    },
+    {
+     "name": "Grady's Barbecue",
+     "town": "Dudley",
+     "state": "NC"
+    },
+    {
+     "name": "Green River Barbeque",
+     "town": "Saluda",
+     "state": "NC"
+    },
+    {
+     "name": "Herb's Pit Bar-B-Que",
+     "town": "Murphy",
+     "state": "NC"
+    },
+    {
+     "name": "Hillsborough BBQ Company",
+     "town": "Hillsborough",
+     "state": "NC"
+    },
+    {
+     "name": "Hubba Hubba Smokehouse",
+     "town": "Flat Rock",
+     "state": "NC"
+    },
+    {
+     "name": "Hursey's Barbecue",
+     "town": "Burlington",
+     "state": "NC"
+    },
+    {
+     "name": "JD's Smokehouse",
+     "town": "Rutherford College",
+     "state": "NC"
+    },
+    {
+     "name": "Jimmy's Smokehouse",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Jon G's Barbecue",
+     "town": "Charlotte",
+     "state": "NC"
+    },
+    {
+     "name": "Kyle Fletcher's Barbeque and Catering",
+     "town": "Gastonia",
+     "state": "NC"
+    },
+    {
+     "name": "Lawrence Barbecue",
+     "town": "Durham",
+     "state": "NC"
+    },
+    {
+     "name": "Lefler's Place",
+     "town": "Mount Gilead",
+     "state": "NC"
+    },
+    {
+     "name": "Leland Smokehouse",
+     "town": "Leland",
+     "state": "NC"
+    },
+    {
+     "name": "Lexington Barbecue #1",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Martelle's Feed House",
+     "town": "Engelhard",
+     "state": "NC"
+    },
+    {
+     "name": "Midwood Smokehouse",
+     "town": "Charlotte",
+     "state": "NC"
+    },
+    {
+     "name": "Midwood Smokehouse",
+     "town": "Huntersville",
+     "state": "NC"
+    },
+    {
+     "name": "Mr. Barbecue",
+     "town": "Winston-Salem",
+     "state": "NC"
+    },
+    {
+     "name": "Noble Smoke Barbecue",
+     "town": "Charlotte",
+     "state": "NC"
+    },
+    {
+     "name": "Oakwood BBQ",
+     "town": "Richlands",
+     "state": "NC"
+    },
+    {
+     "name": "Ocracoke Oyster Company",
+     "town": "Ocracoke",
+     "state": "NC"
+    },
+    {
+     "name": "Okie Dokies Smokehouse",
+     "town": "Swannanoa",
+     "state": "NC"
+    },
+    {
+     "name": "Old Colony Smokehouse",
+     "town": "Edenton",
+     "state": "NC"
+    },
+    {
+     "name": "Pharr Mill Brewing & BBQ",
+     "town": "Harrisburg",
+     "state": "NC"
+    },
+    {
+     "name": "Picnic",
+     "town": "Durham",
+     "state": "NC"
+    },
+    {
+     "name": "Pik 'n' Pig",
+     "town": "Carthage",
+     "state": "NC"
+    },
+    {
+     "name": "The Pit Authentic Barbecue",
+     "town": "Raleigh",
+     "state": "NC"
+    },
+    {
+     "name": "Prime Barbecue",
+     "town": "Knightdale",
+     "state": "NC"
+    },
+    {
+     "name": "Real Q",
+     "town": "Winston-Salem",
+     "state": "NC"
+    },
+    {
+     "name": "Red Bridges Barbecue Lodge",
+     "town": "Shelby",
+     "state": "NC"
+    },
+    {
+     "name": "Sam Jones BBQ",
+     "town": "Raleigh",
+     "state": "NC"
+    },
+    {
+     "name": "Shepard Barbecue",
+     "town": "Emerald Isle",
+     "state": "NC"
+    },
+    {
+     "name": "Sid's Catering",
+     "town": "Beulaville",
+     "state": "NC"
+    },
+    {
+     "name": "Skylight Inn",
+     "town": "Ayden",
+     "state": "NC"
+    },
+    {
+     "name": "Smokehouse at Steve's",
+     "town": "Graham",
+     "state": "NC"
+    },
+    {
+     "name": "Smokey and the Pig",
+     "town": "Fairview",
+     "state": "NC"
+    },
+    {
+     "name": "Smokey Joe's Barbecue",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Smoky Tony's BBQ",
+     "town": "Holly Ridge",
+     "state": "NC"
+    },
+    {
+     "name": "Southern Smoke BBQ",
+     "town": "Garland",
+     "state": "NC"
+    },
+    {
+     "name": "Southport Smoke House",
+     "town": "Southport",
+     "state": "NC"
+    },
+    {
+     "name": "Speedy Lohr's Barbecue",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Stamey's Barbecue",
+     "town": "Greensboro",
+     "state": "NC"
+    },
+    {
+     "name": "Stamey's Barbecue of Tyro",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Stephenson's Barbecue",
+     "town": "Willow Springs",
+     "state": "NC"
+    },
+    {
+     "name": "Stratford Bar-B-Que",
+     "town": "King",
+     "state": "NC"
+    },
+    {
+     "name": "Sweet Lew's BBQ",
+     "town": "Charlotte",
+     "state": "NC"
+    },
+    {
+     "name": "Switzerland Cafe & General Store",
+     "town": "Marion",
+     "state": "NC"
+    },
+    {
+     "name": "Tarheel Q",
+     "town": "Lexington",
+     "state": "NC"
+    },
+    {
+     "name": "Troutman's Barbecue",
+     "town": "Concord",
+     "state": "NC"
+    },
+    {
+     "name": "Troutman's Barbecue",
+     "town": "Denton",
+     "state": "NC"
+    },
+    {
+     "name": "Whispering Pines BBQ",
+     "town": "Albemarle",
+     "state": "NC"
+    },
+    {
+     "name": "Wilber's Barbecue",
+     "town": "Goldsboro",
+     "state": "NC"
+    }
+   ]
+  },
+  {
+   "list": "true-cue",
+   "title": "True 'Cue SC — certified pits",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "source": "s:true-cue",
+   "accessed": "2026-09-16",
+   "wood_claim": true,
+   "rows": [
+    {
+     "name": "Bar-B-Q House",
+     "town": "North Myrtle Beach",
+     "state": "SC"
+    },
+    {
+     "name": "Bar-B-Q House",
+     "town": "Surfside Beach",
+     "state": "SC"
+    },
+    {
+     "name": "Big Bull's Bang'n BBQ & Southern Comfort Food",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Big T Bar-B-Que",
+     "town": "Gadsden",
+     "state": "SC"
+    },
+    {
+     "name": "Big T Bar-B-Que",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Bobby's BBQ",
+     "town": "Fountain Inn",
+     "state": "SC"
+    },
+    {
+     "name": "Boondocks Fish Camp & BBQ",
+     "town": "Gray Court",
+     "state": "SC"
+    },
+    {
+     "name": "Broke Leg BBQ",
+     "town": "Pickens",
+     "state": "SC"
+    },
+    {
+     "name": "Bucky's Bar-B-Q",
+     "town": "Greenville",
+     "state": "SC"
+    },
+    {
+     "name": "Bucky's Bar-B-Q",
+     "town": "Fountain Inn",
+     "state": "SC"
+    },
+    {
+     "name": "Buttermilk's Barbecue and Catering",
+     "town": "Chester",
+     "state": "SC"
+    },
+    {
+     "name": "Carolina BBQ",
+     "town": "New Ellenton",
+     "state": "SC"
+    },
+    {
+     "name": "Circle M BBQ",
+     "town": "Liberty",
+     "state": "SC"
+    },
+    {
+     "name": "City Limits Barbeque",
+     "town": "West Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Creekside Bar-be-que",
+     "town": "Anderson",
+     "state": "SC"
+    },
+    {
+     "name": "Elliott's BBQ Lounge",
+     "town": "Florence",
+     "state": "SC"
+    },
+    {
+     "name": "Fork Grove Barbecue",
+     "town": "Anderson",
+     "state": "SC"
+    },
+    {
+     "name": "Francis Campbell Quick Stop",
+     "town": "Rembert",
+     "state": "SC"
+    },
+    {
+     "name": "Freeman's Bar-B-Que",
+     "town": "Beech Island",
+     "state": "SC"
+    },
+    {
+     "name": "Game Day BBQ",
+     "town": "Duncan",
+     "state": "SC"
+    },
+    {
+     "name": "Henry's Smokehouse",
+     "town": "Greenville",
+     "state": "SC"
+    },
+    {
+     "name": "Hite's Bar-B-Que",
+     "town": "West Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Holmes BBQ",
+     "town": "Great Falls",
+     "state": "SC"
+    },
+    {
+     "name": "Home Team BBQ",
+     "town": "Sullivan's Island",
+     "state": "SC"
+    },
+    {
+     "name": "Home Team BBQ",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Home Team BBQ",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Home Team BBQ",
+     "town": "Greenville",
+     "state": "SC"
+    },
+    {
+     "name": "Jo Jo's Backyard BBQ",
+     "town": "Lancaster",
+     "state": "SC"
+    },
+    {
+     "name": "Jolly Rogers Woodfired BBQ",
+     "town": "Pacolet",
+     "state": "SC"
+    },
+    {
+     "name": "KennyBo's Bar-B-Que",
+     "town": "Prosperity",
+     "state": "SC"
+    },
+    {
+     "name": "Lancaster's Big Oak BBQ",
+     "town": "Buffalo",
+     "state": "SC"
+    },
+    {
+     "name": "Lewis Barbecue",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Maurices' Piggie Park BBQ",
+     "town": "",
+     "state": "SC",
+     "note": "multiple locations, as the list prints it"
+    },
+    {
+     "name": "Maple's BBQ",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "McCabe's Bar-B-Q",
+     "town": "Manning",
+     "state": "SC"
+    },
+    {
+     "name": "Melvin's Legendary Barbecue",
+     "town": "Mount Pleasant",
+     "state": "SC"
+    },
+    {
+     "name": "Melvin's Legendary Barbecue",
+     "town": "James Island",
+     "state": "SC"
+    },
+    {
+     "name": "Midway BBQ",
+     "town": "Buffalo",
+     "state": "SC"
+    },
+    {
+     "name": "Mother Smokin' Good",
+     "town": "Lobeco",
+     "state": "SC"
+    },
+    {
+     "name": "Palmira Barbecue",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Price's BBQ",
+     "town": "Gilbert",
+     "state": "SC"
+    },
+    {
+     "name": "Ricky Scott's BBQ",
+     "town": "Kingstree",
+     "state": "SC"
+    },
+    {
+     "name": "Riverside Bar-B-Que",
+     "town": "Georgetown",
+     "state": "SC"
+    },
+    {
+     "name": "Rodney Scott's Whole Hog BBQ",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Ronnie's Ribs",
+     "town": "Elgin",
+     "state": "SC"
+    },
+    {
+     "name": "Roy's Grille",
+     "town": "Lexington",
+     "state": "SC"
+    },
+    {
+     "name": "Scott's Bar-B-Que",
+     "town": "Hemingway",
+     "state": "SC"
+    },
+    {
+     "name": "Shelton's Smoking Butts BBQ & Catering",
+     "town": "Greer",
+     "state": "SC"
+    },
+    {
+     "name": "Shuler's BBQ",
+     "town": "Latta",
+     "state": "SC"
+    },
+    {
+     "name": "Slabs",
+     "town": "Lake City",
+     "state": "SC"
+    },
+    {
+     "name": "Smitty's Smokin' Soul Food",
+     "town": "Easley",
+     "state": "SC"
+    },
+    {
+     "name": "Smoky Dreams Barbecue and Catering",
+     "town": "Greenville",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine",
+     "town": "Moncks Corner",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine",
+     "town": "Mt. Pleasant",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine",
+     "town": "Myrtle Beach",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine",
+     "town": "Summerville",
+     "state": "SC"
+    },
+    {
+     "name": "True BBQ",
+     "town": "West Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "True BBQ",
+     "town": "Myrtle Beach",
+     "state": "SC"
+    },
+    {
+     "name": "The Twisted Pig BBQ & More",
+     "town": "Lugoff",
+     "state": "SC"
+    },
+    {
+     "name": "The Twisted Pig BBQ & More",
+     "town": "Summerton",
+     "state": "SC"
+    },
+    {
+     "name": "The Warmouth",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Wholy Smoke Family Restaurant",
+     "town": "Mauldin",
+     "state": "SC"
+    }
+   ]
+  },
+  {
+   "list": "ncbs-trail",
+   "title": "NC Barbecue Society Historic Barbecue Trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "source": "s:ncbs",
+   "accessed": "2026-09-16",
+   "wood_claim": true,
+   "criteria": "meat cooked on grates over pits burning wood or charcoal; the proprietor makes the sauce; the pit has run fifteen consecutive years; two pits per town at most (Our State, Jan 29 2016, Bryan Mims)",
+   "note": "ncbbqsociety.com does not resolve (DNS) on 2026-09-16 and the Wayback Machine returns no snapshot of its trail page, so the trail is recorded from two secondary lists that each say the trail holds 23 stops: Barbecue Bros (https://barbecuebros.co/nc-historic-barbecue-trail/, updated 2017-12-04) and Grillax (https://grillax.com/north-carolina-trail/). They agree on 22 and differ on two, which the rows say. Our State (2016) names a subset that includes Switzerland Cafe.",
+   "rows": [
+    {
+     "name": "Skylight Inn",
+     "town": "Ayden",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "B's Barbecue",
+     "town": "Greenville",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Jack Cobb & Son Barbecue Place",
+     "town": "Farmville",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Wilber's Barbecue",
+     "town": "Goldsboro",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Grady's Barbecue",
+     "town": "Dudley",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Stephenson's Barbecue",
+     "town": "Willow Springs",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Allen & Son Barbecue",
+     "town": "Chapel Hill",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Hursey's Barbecue",
+     "town": "Burlington",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Stamey's Barbecue",
+     "town": "Greensboro",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Short Sugar's Drive-Inn",
+     "town": "Reidsville",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Fuzzy's",
+     "town": "Madison",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Hill's Lexington BBQ",
+     "town": "Winston-Salem",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Little Richard's Bar-B-Que",
+     "town": "Winston-Salem",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Speedy Lohr's BBQ of Arcadia",
+     "town": "Lexington",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Smiley's Lexington BBQ",
+     "town": "Lexington",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "The Barbecue Center",
+     "town": "Lexington",
+     "state": "NC",
+     "note": "named by both secondary lists read; Grillax prints it Lexington Bar-B-Q Center"
+    },
+    {
+     "name": "Richard's Bar-B-Que",
+     "town": "Salisbury",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Wink's Bar-B-Que",
+     "town": "Salisbury",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "M&K Barbecue & Country Cooking",
+     "town": "Granite Quarry",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Carolina Bar-B-Q",
+     "town": "Statesville",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Bridges Barbecue Lodge",
+     "town": "Shelby",
+     "state": "NC",
+     "note": "named by both secondary lists read; the restaurant's own name is Red Bridges Barbecue Lodge"
+    },
+    {
+     "name": "Herb's Pit BBQ",
+     "town": "Murphy",
+     "state": "NC",
+     "note": "named by both secondary lists read"
+    },
+    {
+     "name": "Switzerland Cafe and General Store",
+     "town": "Little Switzerland",
+     "state": "NC",
+     "note": "named by Barbecue Bros only; Grillax does not carry it"
+    },
+    {
+     "name": "Deano's Barbecue",
+     "town": "Mocksville",
+     "state": "NC",
+     "note": "named by Grillax only; Barbecue Bros does not carry it"
+    }
+   ]
+  },
+  {
+   "list": "scba",
+   "title": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/",
+   "source": "s:scba",
+   "accessed": "2026-09-16",
+   "wood_claim": true,
+   "note": "No restaurant list, trail or wood certification found on the SCBA's public pages read on 2026-09-16 (https://www.scbarbeque.com/ and https://www.scbarbeque.com/bbq-history). Those pages cover cookoff events, judge certification, teams and Lake E. High Jr.'s history of the four SC sauces. This is what was on the pages fetched; it is not a claim that the association keeps no such list.",
+   "rows": []
+  },
+  {
+   "list": "destination-bbq",
+   "title": "Destination BBQ — South Carolina listings",
+   "url": "https://destination-bbq.com/sc-bbq-map-locator/",
+   "source": "s:web-destination-bbq-map-locator",
+   "accessed": "2026-09-16",
+   "wood_claim": true,
+   "note": "Destination BBQ's SC trail map filters on 100 Mile BBQ, Buffet, Cards and Cash, Cash Only, Hash, Heavy Tomato Sauce, Light Tomato Sauce, Mustard Sauce, True 'Cue Certified, Vinegar Pepper Sauce, White Sauce and Whole Hog. It has no wood filter of its own: its wood flag IS the True 'Cue certification already harvested above, so no rows are duplicated here. The map is a script and its filtered results cannot be read by fetching the page. Its separate hash map, read the same day, is recorded in data/harvest/sc-hash-list.json — hash is not a wood claim and those rows must not live in this file.",
+   "rows": []
+  },
+  {
+   "list": "james-beard",
+   "title": "James Beard Foundation America's Classics — North and South Carolina",
+   "url": "https://en.wikipedia.org/wiki/List_of_James_Beard_America%27s_Classics",
+   "source": "s:wp-james-beard-americas-classics",
+   "accessed": "2026-09-16",
+   "wood_claim": false,
+   "note": "An award to family-owned restaurants of at least ten years' standing, not a wood certification. Three of the five Carolina recipients are not barbecue pits at all.",
+   "rows": [
+    {
+     "name": "Lexington Barbecue",
+     "town": "Lexington",
+     "state": "NC",
+     "note": "America's Classic, 2003"
+    },
+    {
+     "name": "Skylight Inn BBQ",
+     "town": "Ayden",
+     "state": "NC",
+     "note": "America's Classic, 2003"
+    },
+    {
+     "name": "Bowen's Island Restaurant",
+     "town": "Charleston",
+     "state": "SC",
+     "note": "America's Classic, 2006 — an oyster roast, not a barbecue pit"
+    },
+    {
+     "name": "Bertha's Kitchen",
+     "town": "Charleston",
+     "state": "SC",
+     "note": "America's Classic, 2016 — a soul-food kitchen, not a barbecue pit"
+    },
+    {
+     "name": "Wade's Restaurant",
+     "town": "Spartanburg",
+     "state": "SC",
+     "note": "America's Classic, 2024 — a meat-and-three, not a barbecue pit"
+    }
+   ]
+  }
+ ]
+}

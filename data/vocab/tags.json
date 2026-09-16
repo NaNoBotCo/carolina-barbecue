@@ -1,0 +1,120 @@
+{
+ "note": "Tag keys a place record may carry. Each tag needs a named source; ownership and welcome tags are never inferred from a name, a photograph or a hunch. Tier cited = a named page; harvested = a public directory or list fetched by a tool; field = someone stood there.",
+ "entries": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory, an SFA oral history",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:nc-black-owned-lists",
+    "r:sfa-oral-histories"
+   ]
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ]
+  },
+  {
+   "key": "lgbtq-friendly",
+   "label": "LGBTQ+ welcoming",
+   "icon": "🏳️‍🌈",
+   "group": "welcome",
+   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome); never inferred",
+   "resources": [
+    "r:charlotte-lgbt-chamber",
+    "r:sc-pride-directory",
+    "r:blue-ridge-pride",
+    "r:afa-charleston",
+    "r:osm-lgbtq",
+    "r:cardinal-pine"
+   ]
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ]
+  },
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": []
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": []
+  },
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "sold-out-closes",
+   "label": "Closes when sold out",
+   "icon": "⏳",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "buffet",
+   "label": "Buffet",
+   "icon": "🍽",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "weekends-only",
+   "label": "Weekends only",
+   "icon": "📅",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": []
+  },
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": []
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "schema": 1,
+ "id": "sc-mustard",
+ "type": "style",
+ "names": {
+  "name": "South Carolina mustard barbecue",
+  "aliases": ["Midlands barbecue", "mustard-based barbecue", "Carolina Gold barbecue", "Dutch Fork barbecue"],
+  "said": "Midlands menus say 'barbecue' or 'pork' and let the color of the sauce speak; the bottles say Carolina Gold or Southern Gold."
+ },
+ "region": ["sc-midlands", "sc"],
+ "facets": {"state": "SC", "meat": "mixed", "base": "mustard", "fuel": "mixed"},
+ "text": {
+  "what": "Pork — whole hogs at some pits, hams or shoulders at others — cooked over hardwood coals or on cookers, chopped or pulled, and dressed with a yellow sauce of prepared mustard, vinegar, sugar and spices. Hash, a stew of pork and onions that in the Midlands often takes mustard too, comes over white rice beside it, and the meal is often a buffet. The style belongs to the Midlands, the counties around Columbia: a belt the geographers Charles Kovacik and John Winberry drew in 1987 from Newberry and Lexington counties down through Orangeburg toward Charleston, the German-settled country whose fork of the Saluda and Broad rivers is called the Dutch Fork.",
+  "story": "German Protestants took up land between the Saluda and Broad rivers from the 1730s, in what became Lexington, Newberry and Richland counties — the Dutch Fork, 'Dutch' from deutsch — and at Orangeburg, where a colony of Swiss, German and Dutch families settled in 1735. The state's accounts lay the mustard sauce at their door: the tourism office says they 'brought their love of mustard', and the South Carolina Barbeque Association's history names the families who sell it — Bessinger, Shealy, Hite, Sweatman, Dukes. *Tradition holds —* the sauce was on farm tables long before any bottle; the earliest name attached to it is Joe Bessinger, who served it with pit-cooked pork at Holly Hill from 1939, and some accounts credit him with inventing it.\n\nHis sons carried it out of Orangeburg County. Maurice opened Maurice's Piggie Park at West Columbia in 1953 with his brother Joe Jr.; Thomas opened Bessinger's in Charleston, and Melvin opened Melvin's in Mount Pleasant in 1982; the Dukes family opened buffet restaurants from the 1950s — the two families, Charleston Magazine says, brought Midlands barbecue to the Lowcountry after the war. Maurice bottled the sauce as Carolina Gold, sold it in supermarkets nationwide in the 1990s, and by 1999 ran the largest barbecue business in the country.\n\nThe name also carries a civil-rights case. In 1964 Anne Newman, the wife of a Black minister, was refused entry to a Piggie Park drive-in and sued under the Civil Rights Act; Bessinger argued that his religion forbade serving Black customers. The Fourth Circuit ordered the restaurants opened to all, and in 1968 the Supreme Court, in Newman v. Piggie Park Enterprises, held that a plaintiff who wins such an injunction ordinarily recovers attorney's fees. On July 1, 2000, the day the Confederate flag came down from the State House, he raised it over his restaurants and handed out tracts arguing that slavery was not inherently evil; grocery chains dropped Carolina Gold, his $50 million suit against them failed at the state Supreme Court in 2007, and his children took down the last flag in 2013. He died in 2014.",
+  "how": "At Sweatman's, whole hogs cook twelve to fourteen hours over oak and hickory coals and are basted with the mustard sauce as they go; at Maurice's, hams cook sixteen hours over hickory and the chopped meat is coated with the sauce for the plate; at Hite's, whole hogs and hams go over oak and hickory coals rendered from a wood fire. The sauce is prepared yellow mustard, vinegar, sugar or brown sugar and pepper — Bessinger's supermarket bottle listed soy sauce too. It goes on at the block, stands on the buffet line, and in the Midlands goes into the hash pot; some Orangeburg places blend it with ketchup into a 'rust' sauce.",
+  "today": "Mustard sauce has spread from the Midlands to menus across the state this century. Maurice's is open in West Columbia — its offices, pits and side factory burned on October 26, 2024; the restaurant and its sign survived — with Bessinger's in Charleston, Sweatman's at Holly Hill and Hite's in West Columbia on Fridays and Saturdays, Shealy's at Batesburg-Leesville, and Dukes restaurants around Orangeburg."
+ },
+ "kin": [
+  {"to": "mustard-sauce", "as": "its sauce, and the thing South Carolina is known for beyond its borders: prepared mustard, vinegar, sugar and pepper.", "rel": "sauce"},
+  {"to": "hash-and-rice", "as": "its side: the pork-and-onion stew over white rice, which in the German Midlands often takes mustard too.", "rel": "serves"},
+  {"to": "sc-pee-dee", "as": "the other South Carolina: whole hog and clear vinegar-pepper in the northeast, where this is mustard in the middle.", "rel": "contrast"},
+  {"to": "sc-light-tomato", "as": "the band to its north on the four-sauce map, where ketchup goes into the vinegar instead of mustard.", "rel": "kin"},
+  {"to": "sc-heavy-tomato", "as": "the western corner, where the sauce is thick and sweet with tomato.", "rel": "kin"},
+  {"to": "eastern-nc", "as": "the whole-hog cooking it shares at Sweatman's and Hite's; only the sauce on the hog differs.", "rel": "kin"},
+  {"to": "whole-hog", "as": "the cut at Sweatman's and Hite's, basted with mustard sauce as it cooks.", "rel": "part"},
+  {"to": "pork-shoulder", "as": "the cut, with hams, at Bessinger's in Charleston and at Maurice's, where hams cook sixteen hours over hickory.", "rel": "part"},
+  {"to": "hickory-and-oak", "as": "the coals under Sweatman's hogs and Hite's, and the hickory under Maurice's hams.", "rel": "part"},
+  {"to": "dutch-fork", "as": "the German-settled fork of the Saluda and Broad whose families the sauce is traced to.", "rel": "term"},
+  {"to": "carolina-gold", "as": "the name the sauce is bottled and known under, from Maurice Bessinger's supermarket brand.", "rel": "term"},
+  {"to": "maurice-bessinger", "as": "made the sauce a supermarket product and his company the largest barbecue business in the country by 1999; the defendant in Newman v. Piggie Park, and the man who raised Confederate flags over his restaurants in 2000.", "rel": "person"},
+  {"to": "joe-bessinger", "as": "served the sauce with pit-cooked pork at Holly Hill from 1939; some accounts credit him with inventing it.", "rel": "person"},
+  {"to": "lake-high", "as": "the SC Barbeque Association's founder, whose history maps the sauce onto the German-settled counties.", "rel": "person"},
+  {"to": "robert-moss", "as": "the historian who says the state has two sauces, sweet mustard and spicy vinegar, not four.", "rel": "person"},
+  {"to": "maurices-piggie-park", "as": "West Columbia, since 1953: hams over hickory, chopped and coated with the sauce the family now bottles as Southern Gold.", "rel": "place"},
+  {"to": "bessingers-bar-b-q", "as": "Thomas Bessinger's Charleston pit on Savannah Highway, cooking shoulders and hams over wood coals.", "rel": "place"},
+  {"to": "sweatmans-bar-b-que", "as": "Holly Hill's farmhouse pit, whole hogs basted with mustard sauce over oak and hickory, in its brick pits since 1977.", "rel": "place"},
+  {"to": "dukes-bar-b-que", "as": "the Orangeburg-country buffets of Manuel Dukes's descendants, from the 1950s, with mustard and 'rust' sauces.", "rel": "place"},
+  {"to": "hites-bar-b-q", "as": "West Columbia, since 1957: whole hogs and hams over oak and hickory coals, and a sauce built on a strong yellow mustard.", "rel": "place"},
+  {"to": "shealys-bar-b-que", "as": "the Batesburg-Leesville buffet, established 1969.", "rel": "place"},
+  {"to": "jackie-hites-bar-b-q", "as": "Jackie Hite's pit at Leesville, opened May 1979 by the town's fire chief and later mayor: hickory-smoked pigs, a sauce of mustard, vinegar and pepper.", "rel": "place"},
+  {"to": "cannons-bbq", "as": "a pit at Little Mountain, in Newberry County's share of the Dutch Fork.", "rel": "place"},
+  {"to": "south-carolina-barbeque-association", "as": "the association whose sauce map puts mustard in the middle of the state.", "rel": "kin"},
+  {"to": "barbecue-sandwich", "as": "in South Carolina, pulled pork with the yellow sauce and slaw on a bun.", "rel": "serves"}
+ ],
+ "confusable_with": [
+  {"id": "sc-light-tomato", "tell": "Yellow on the meat is mustard; a thin orange-red is light tomato; a brownish blend of both is Orangeburg's rust sauce, which is still mustard country."},
+  {"id": "sc-pee-dee", "tell": "Both put hash and rice on the plate and both may cook the whole hog; the Pee Dee's sauce is clear and peppery, the Midlands' is yellow and sweet."}
+ ],
+ "geo": {"lat": 34.0006, "lon": -81.0347, "precision": "region", "source": "Columbia, the middle of the Midlands mustard belt (Wikipedia coordinates)"},
+ "links": [
+  {"label": "Barbecue in South Carolina — Wikipedia", "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina"},
+  {"label": "South Carolina's Four Barbecue Sauces — Discover South Carolina", "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces"},
+  {"label": "BBQ History — South Carolina Barbeque Association", "url": "https://www.scbarbeque.com/bbq-history/"},
+  {"label": "Newman v. Piggie Park Enterprises, Inc. — Wikipedia", "url": "https://en.wikipedia.org/wiki/Newman_v._Piggie_Park_Enterprises,_Inc."}
+ ],
+ "sources": ["s:wp-barbecue-in-south-carolina", "s:wp-dutch-fork", "s:wp-orangeburg-south-carolina", "s:wp-maurice-bessinger", "s:wp-newman-v-piggie-park", "s:wp-dukes-bar-b-que", "s:wp-hash-stew", "s:web-sc-four-sauces", "s:sc-parks-sauce-map", "s:web-scba-bbq-history", "s:web-piggiepark-mustard", "s:web-charlestonmag-mustard-migration", "s:web-bessingers-destination-bbq", "s:web-sfa-sweatmans", "s:web-sweatmans-history", "s:web-hites-destination-bbq", "s:web-sfa-jackie-hites", "s:web-shealys", "s:high-sc-barbeque"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-barbecue-in-south-carolina"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:wp-maurice-bessinger", "note": "settlement from the Dutch Fork and Orangeburg articles; the German attribution from the tourism office and the SCBA history; Joe Bessinger 1939 from the Piggie Park site; the Lowcountry migration from Charleston Magazine; Newman v. Piggie Park and the flags from the two Wikipedia articles; the farm-table sentence is marked tradition"},
+   "text.how": {"tier": "cited", "source": "s:web-sweatmans-history", "note": "Sweatman's from its own site and the SFA; Maurice's from the Piggie Park site; Hite's from Destination BBQ; the bottle's contents and rust sauce from Wikipedia"},
+   "text.today": {"tier": "cited", "source": "s:wp-maurice-bessinger", "note": "the 2024 fire from the Bessinger article; hours from the restaurants' own pages and Destination BBQ; check before driving"},
+   "geo": {"tier": "inference", "note": "Wikipedia coordinates for Columbia; region precision"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

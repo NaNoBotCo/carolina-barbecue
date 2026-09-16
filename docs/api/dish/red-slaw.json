@@ -1,0 +1,655 @@
+{
+ "schema": 1,
+ "id": "red-slaw",
+ "type": "dish",
+ "names": {
+  "name": "red slaw",
+  "aliases": [
+   "barbecue slaw",
+   "Lexington slaw",
+   "red coleslaw",
+   "BBQ slaw"
+  ],
+  "said": "'Slaw' in Lexington means this one; you ask for white slaw if you want the other."
+ },
+ "etymology": {
+  "root": "Dutch koolsla 'cabbage salad' (kool 'cabbage', from Latin caulis, + sla 'salad') → American English coleslaw, 1794 → slaw, the American clipping; 'red' is the Lexington marker for the ketchup or dip in the dressing, against 'white' for mayonnaise",
+  "first_attested": "coleslaw 1794 in American English (Online Etymology Dictionary); the 1667 Dutch cookbook De Verstandige Kock already has cabbage strips dressed with melted butter, vinegar and oil (Wikipedia, Coleslaw)",
+  "note": "Folk: 'cold slaw', a reshaping by ear, was the common spelling until about the 1860s, when cole was restored.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Finely chopped green cabbage dressed with vinegar, ketchup, sugar, salt and black pepper — or with the pit's own dip — and no mayonnaise. It is the slaw of Lexington and the Piedmont, red-pink in the boat beside the chopped shoulder, on the sandwich under the meat, and on hot dogs as a relish; it is what the counter means by 'slaw' from Lexington to Shelby. Because it carries no mayonnaise it keeps without refrigeration, which suits an outdoor pit. Across the rest of the state the pale mayonnaise slaw is the default and this one is called barbecue slaw.",
+  "story": "The dressing is the dip. In Lexington the thin sauce of vinegar, ketchup, water, salt and pepper that dresses the shoulder also goes into the cabbage, so the slaw is coloured by the same bottle as the meat; NCpedia records it as red coleslaw, 'barbecue slaw', coloured with ketchup or dip. The Lexington sandwich is defined by it — the town's own account calls red slaw the sandwich's most distinguishing feature — and it goes on hot dogs as a relish, where the Carolina hot dog's chili, slaw and onions are the same three things in a bun. *Tradition holds —* the slaw went red because the first pits were tents and curb stands without ice, and a vinegar dressing holds where mayonnaise will not; it was also the dressing a pit already had on the block. In the late 1990s Wendy's put red slaw on a 'Carolina Classic' burger with chili, onions and American cheese and trademarked the name, which is as far as the slaw has travelled under its own. At Keaton's in Rowan County the house slaw is the same idea run hot: cabbage in vinegar, tomato, cayenne and celery seed.",
+  "how": "Green cabbage chopped fine — finer than a Northern slaw, close to minced — and dressed with vinegar, ketchup, sugar, salt and black pepper, or with a ladle of the house dip; some pits add hot sauce, mustard seed or onion. It is made ahead and kept cold, and the vinegar keeps it. Served in the second half of the tray, on the sandwich under the meat, and on a hot dog with chili and onions; the Barbecue Center and Lexington Barbecue both put it on the sandwich unless you ask for none.",
+  "today": "Every Lexington pit serves it and most keep a mayonnaise white slaw for the asking. It rides in the boat with a chopped tray at $8.00 cash at Lexington Barbecue and on the $5.70 chopped sandwich (September 2026). Outside the Piedmont, red slaw on the tray is the sign of a pit cooking in the Lexington manner."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style it marks: the slaw is red because the pit's dip is in it.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its dressing, or the model for it: vinegar, ketchup, salt, pepper, sugar.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-slaw",
+   "as": "the other slaw, mayonnaise-dressed and pale, which the east and South Carolina eat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style that dresses its slaw white; the two slaws divide the state with the two sauces.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "goes on it, under the meat, and defines the Lexington sandwich.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "fills the other half of the boat.",
+   "rel": "part"
+  },
+  {
+   "to": "slaw",
+   "as": "the word, Dutch koolsla clipped to one syllable.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "where it is on every sandwich and in every tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "the other Lexington counter that puts it on the sandwich by default.",
+   "rel": "served-at"
+  },
+  {
+   "to": "keatons-barbecue",
+   "as": "whose hot vinegar slaw is red slaw with cayenne.",
+   "rel": "served-at"
+  },
+  {
+   "to": "barbecue-chicken",
+   "as": "at Keaton's the hot slaw sits beside dipped chicken.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "white-slaw",
+   "tell": "Colour. Red slaw is pink to red from ketchup or dip and tastes of vinegar; white slaw is pale, creamy and sweet with mayonnaise. Red means Piedmont."
+  }
+ ],
+ "links": [
+  {
+   "label": "Red slaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_slaw"
+  },
+  {
+   "label": "coleslaw — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/coleslaw"
+  }
+ ],
+ "sources": [
+  "s:wp-red-slaw",
+  "s:wp-coleslaw",
+  "s:wp-lexington-north-carolina",
+  "s:wp-barbecue-in-north-carolina",
+  "s:ncpedia-barbecue",
+  "s:wp-carolina-style",
+  "s:web-ncfolk-keatons",
+  "s:web-leisuregrouptravel-lexington",
+  "s:web-lexbbq-menu",
+  "s:etymonline",
+  "s:book-dixie-cookery",
+  "s:book-mrs-porters-new-southern-cookery-book",
+  "s:book-mrs-hills-new-cook-book"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-red-slaw"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-lexington-north-carolina",
+    "note": "the no-ice explanation is marked tradition inline; Wendy's from the Red slaw article; Keaton's from NC Folklife"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-red-slaw",
+    "note": "additions vary by house"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "prices read 2026-09-15; white slaw on request from Leisure Group Travel"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-dixie-cookery",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Cold Slaw",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "page": 33,
+   "text": "Take vinegar and water in equal proportions (unless the vinegar is very strong); add butter, the size of an egg, and a little flour. Pour into a saucepan over the fire, and stir until it is thick; then pour in the beaten yolks of two eggs, and some salt. When it has been on the fire ten minutes more, stir in the cabbage, nicely shreded with a cabbage-cutter. The cabbage must be taken up, as soon as it is hot.\n\nYou may add a saltspoonful of mustard to the sauce, if you like it. Salt the cabbage.",
+   "note": "The word is the old one: before mayonnaise reached the Southern kitchen, 'cold slaw' meant shredded cabbage under a cooked dressing of vinegar, butter and egg. This is the ancestor of the barbecue slaws, not the thing itself. Barringer cooked in Concord, Cabarrus County, thirty miles from Lexington; her dressing is vinegar, butter, egg and mustard, with no mayonnaise in it.",
+   "region": "North Carolina"
+  },
+  {
+   "title": "Cold and Hot Slaws",
+   "source": "s:book-mrs-porters-new-southern-cookery-book",
+   "license": "Public domain",
+   "year": 1871,
+   "url": "https://archive.org/details/mrsportersnewsou00port",
+   "author": "Mrs. M. E. Porter",
+   "book": "Mrs. Porter's New Southern Cookery Book",
+   "page": "135–136",
+   "text": "To make cold-slaw, take a nice, fresh cabbage, wash and strain it (after submitting it to the insect-destroying process); cut off the stalk, shave down the head into very small strips with a cabbage-cutter or very sharp knife. It must be done evenly. Put it into a deep china-dish and prepare for it the following dressing: Melt in a sauce-pan a quarter of a pound of butter, with half pint of water, a large tablespoonful of vinegar, a saltspoonful of salt and a little cayenne. Give this a boil, and pour it hot on the cabbage. Send to the table cold.\n\nTo prepare warm-slaw, cut the cabbage as for cold-slaw (red cabbage is best); put it in a deep dish, cover closely, and set it on the top of the stove for half an hour or till warm all through; do not let it boil. Then make a dripping as for cold-slaw. Boil this mixture in a sauce-pan, and pour it hot over the warm cabbage; send to table immediately.",
+   "note": "The warm slaw is the one that calls for red cabbage; the colour in a Lexington red slaw comes from ketchup instead, and that ingredient is not in this book."
+  },
+  {
+   "title": "Cold Slaw (receipt 366)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "page": "182–183",
+   "text": "Cut a head of hard white cabbage into very fine shavings. It is seldom shaved fine enough. For a quart of the cabbage take the yolks of three eggs, beat them well; stir into a tumbler and a half of vinegar two teaspoonfuls of loaf sugar, a tablespoonful of olive oil, one of thick, sweet cream, or a piece of butter as large as a walnut, a heaped teaspoonful of mustard, salt and pepper to taste; mix with the egg, and put this sauce into a stew-pan; when hot add the cabbage; stew until thoroughly hot, which will only require four or five minutes. Toss it up from the bottom with a silver or wooden fork. Take it up and set where it will become perfectly cold, on ice is best. The quantity of vinegar will depend upon its strength.",
+   "note": "The word is the old one: before mayonnaise reached the Southern kitchen, 'cold slaw' meant shredded cabbage under a cooked dressing of vinegar, butter and egg. This is the ancestor of the barbecue slaws, not the thing itself."
+  },
+  {
+   "title": "Red slaw, as described",
+   "source": "s:wp-red-slaw",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Red_slaw",
+   "ingredients": [
+    "green cabbage",
+    "vinegar",
+    "water",
+    "ketchup",
+    "spices and seasoning, varying by house"
+   ],
+   "note": "Ingredients only: the list is a fact and may be repeated; no house's instructions are copied. Recipes vary and may add onion, sugar, black pepper or mustard seed.",
+   "region": "Lexington, North Carolina"
+  }
+ ],
+ "images": [
+  {
+   "file": "red-slaw/red-slaw-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+   "source": "commons",
+   "title": "File:North Carolina barbecue hushpuppies baked beans red cole slaw.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/North_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANorth_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Jeffery Loo",
+   "credit": "Flickr: North Carolina barbecue, hushpuppies, baked beans, red cole slaw",
+   "alt": "Lexington style North Carolina barbecue served with hushpuppies, baked beans and red cole slaw. Lexington style North Carolina barbecue uses a vinegar and ketchup type sauce, and uses only the pork sh",
+   "date": "Taken on 25 May 2007, 19:44:09",
+   "primary": true,
+   "sha256": "32f345c8a40c307352bda594b256e514c3a03b7a3f0a4eb13f8c56d6bee42329"
+  },
+  {
+   "file": "red-slaw/red-slaw-red-slaw.jpg",
+   "source": "commons",
+   "title": "File:Red slaw.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Red_slaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARed_slaw.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Jeffery Loo",
+   "credit": "File:North_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg",
+   "alt": "Red slaw is different from traditional coleslaw in that it does not use mayonnaise as an ingredient, allowing it to be stored for longer periods without refrigeration and making it more suitable for o",
+   "date": "2007-05-25 19:44:09",
+   "primary": false,
+   "sha256": "e5cc53afb89530b5db3484226ae7281a1d62a82db59fc972cfd00227282f7945"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Finely chopped green cabbage dressed with vinegar, ketchup, sugar, salt and black pepper — or with the pit's own dip — and no mayonnaise.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style it marks: the slaw is red because the pit's dip is in it.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its dressing, or the model for it: vinegar, ketchup, salt, pepper, sugar.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the other slaw, mayonnaise-dressed and pale, which the east and South Carolina eat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style that dresses its slaw white; the two slaws divide the state with the two sauces.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "goes on it, under the meat, and defines the Lexington sandwich.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "fills the other half of the boat.",
+   "rel": "part"
+  },
+  {
+   "to": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "the word, Dutch koolsla clipped to one syllable.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "where it is on every sandwich and in every tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "the other Lexington counter that puts it on the sandwich by default.",
+   "rel": "served-at"
+  },
+  {
+   "to": "keatons-barbecue",
+   "type": "place",
+   "name": "Keaton's Barbecue",
+   "as": "whose hot vinegar slaw is red slaw with cayenne.",
+   "rel": "served-at"
+  },
+  {
+   "to": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "at Keaton's the hot slaw sits beside dipped chicken.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-red-slaw",
+   "kind": "wikipedia",
+   "title": "Red slaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_slaw",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1363301405"
+  },
+  {
+   "id": "s:wp-coleslaw",
+   "kind": "wikipedia",
+   "title": "Coleslaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coleslaw",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369436670"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:wp-carolina-style",
+   "kind": "wikipedia",
+   "title": "Carolina style — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carolina_style",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1314658445"
+  },
+  {
+   "id": "s:web-ncfolk-keatons",
+   "kind": "web",
+   "title": "Keaton's (David Cecelski, 2010-12-08)",
+   "publisher": "North Carolina Folklife Institute",
+   "url": "https://ncfolk.org/2010/keatons/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-leisuregrouptravel-lexington",
+   "kind": "web",
+   "title": "Lexington, North Carolina Barbecue is All About the Pork (Randy Mink)",
+   "publisher": "Leisure Group Travel",
+   "url": "https://leisuregrouptravel.com/pork-paradise-savoring-the-flavors-of-lexington-north-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:etymonline",
+   "kind": "web",
+   "title": "Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "id": "s:book-dixie-cookery",
+   "kind": "book",
+   "title": "Dixie Cookery; or, How I Managed My Table for Twelve Years. A Practical Cook-Book for Southern Housekeepers",
+   "author": "Mrs. [Maria Massey] Barringer, of North Carolina",
+   "publisher": "Loring",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "Written in Concord, Cabarrus County, North Carolina. Published in the United States in 1867 and in the public domain. Read in the Internet Archive scan; recipe texts copied from it verbatim, spelling and punctuation as printed."
+  },
+  {
+   "id": "s:book-mrs-porters-new-southern-cookery-book",
+   "kind": "book",
+   "title": "Mrs. Porter's New Southern Cookery Book, and Companion for Frugal and Economical Housekeepers",
+   "author": "Mrs. M. E. Porter, Prince George Court-House, Virginia",
+   "publisher": "John E. Potter and Company, Philadelphia",
+   "year": 1871,
+   "url": "https://archive.org/details/mrsportersnewsou00port",
+   "accessed": "2026-09-16",
+   "license": "Public domain"
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-red-slaw"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-lexington-north-carolina",
+   "note": "the no-ice explanation is marked tradition inline; Wendy's from the Red slaw article; Keaton's from NC Folklife"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-red-slaw",
+   "note": "additions vary by house"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu",
+   "note": "prices read 2026-09-15; white slaw on request from Leisure Group Travel"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-red-slaw"
+  }
+ },
+ "primary_image": {
+  "file": "red-slaw/red-slaw-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+  "source": "commons",
+  "title": "File:North Carolina barbecue hushpuppies baked beans red cole slaw.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/North_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ANorth_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "Jeffery Loo",
+  "credit": "Flickr: North Carolina barbecue, hushpuppies, baked beans, red cole slaw",
+  "alt": "Lexington style North Carolina barbecue served with hushpuppies, baked beans and red cole slaw. Lexington style North Carolina barbecue uses a vinegar and ketchup type sauce, and uses only the pork sh",
+  "date": "Taken on 25 May 2007, 19:44:09",
+  "primary": true,
+  "sha256": "32f345c8a40c307352bda594b256e514c3a03b7a3f0a4eb13f8c56d6bee42329"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "its slaw, red because it is dressed with the dip and not mayonnaise; the sign of the Piedmont on any tray.",
+   "rel": "serves"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "dressed with the dip in place of mayonnaise — that is why it is red.",
+   "rel": "serves"
+  },
+  {
+   "from": "baked-beans",
+   "type": "dish",
+   "name": "baked beans",
+   "as": "its partner in a Lexington tray, with the hushpuppies.",
+   "rel": "kin"
+  },
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "Keaton's hot vinegar slaw — cabbage in vinegar, tomato, cayenne and celery seed — is the Piedmont red slaw run hot.",
+   "rel": "kin"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "what goes on the meat in Lexington.",
+   "rel": "part"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the slaw in the other half of a Lexington tray.",
+   "rel": "part"
+  },
+  {
+   "from": "dukes-mayonnaise",
+   "type": "dish",
+   "name": "Duke's mayonnaise",
+   "as": "the thing the Piedmont slaw is defined by leaving out.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "its partner in a Lexington tray.",
+   "rel": "kin"
+  },
+  {
+   "from": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the Piedmont's slaw, dressed with dip instead of mayonnaise; the word 'white' exists to tell them apart.",
+   "rel": "contrast"
+  },
+  {
+   "from": "alston-bridges-barbecue",
+   "type": "place",
+   "name": "Alston Bridges Barbecue",
+   "as": "the slaw on its tray, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "from": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "a hundred gallons a week; 'that's a good vegetable.'",
+   "rel": "serves"
+  },
+  {
+   "from": "fuzzys-bar-b-q",
+   "type": "place",
+   "name": "Fuzzy's Bar-B-Q",
+   "as": "the slaw on its tray, red because the dip dresses it.",
+   "rel": "serves"
+  },
+  {
+   "from": "keatons-barbecue",
+   "type": "place",
+   "name": "Keaton's Barbecue",
+   "as": "its slaw is cabbage in a spicy red vinegar-tomato dressing, the Piedmont's red slaw with cayenne.",
+   "rel": "serves"
+  },
+  {
+   "from": "kepleys-barbecue",
+   "type": "place",
+   "name": "Kepley's Bar-B-Q",
+   "as": "on the sandwich, tangy.",
+   "rel": "serves"
+  },
+  {
+   "from": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "on the plate, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "from": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "on the plate.",
+   "rel": "serves"
+  },
+  {
+   "from": "speedys-barbecue",
+   "type": "place",
+   "name": "Speedy's Barbecue",
+   "as": "the slaw on its tray, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "from": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "on the tray.",
+   "rel": "serves"
+  },
+  {
+   "from": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the slaw of the festival plate.",
+   "rel": "serves"
+  },
+  {
+   "from": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the slaw is red because it is dressed with the dip instead of mayonnaise.",
+   "rel": "serves"
+  },
+  {
+   "from": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the Piedmont's slaw, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "from": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "the Lexington slaw: cabbage, vinegar, ketchup, pepper, no mayonnaise — also called barbecue slaw.",
+   "rel": "term"
+  },
+  {
+   "from": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "as": "the fastest way to tell which side of the line a plate came from.",
+   "rel": "contrast"
+  }
+ ]
+}

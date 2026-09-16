@@ -1,0 +1,339 @@
+{
+ "schema": 1,
+ "id": "peach-cobbler",
+ "type": "dish",
+ "names": {
+  "name": "peach cobbler",
+  "aliases": [
+   "cobbler",
+   "peach pot-pie",
+   "sonker"
+  ],
+  "said": "'Cobbler' on a Carolina dessert board usually means peach in summer and whatever fruit was put up the rest of the year."
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "sweet",
+  "styles": [
+   "lexington",
+   "eastern-nc",
+   "sc-mustard",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "Sliced peaches sweetened and thickened in a deep dish and covered with a crust — pastry, biscuit dough or a batter — then baked until the top browns and the fruit bubbles at the edge. It is a barbecue dessert of the same family as banana pudding, ordered by the cup or the square after the tray, and served warm, often with ice cream. The Southern kind is frequently closer to a deep-dish pie, with a bottom crust as well as a top.",
+  "story": "Cobbler is what English settlers made when they could not make a suet pudding: with Dutch ovens, they covered a stewed filling with a layer of pastry, and later with plain biscuits, scone batter or dumplings fitted together. The first recorded recipe may be in The Kentucky Housewife, Lettice Bryan's book of 1839, where it is 'A Peach Pot-Pie' and the text says cobler is what it is often termed. Abby Fisher, born into slavery in South Carolina and dictating her book in San Francisco in 1881, gives it with two layers of pastry, peaches cut to the size of a plum, and cinnamon. The name's origin is not settled — it may come from the archaic cobeler, a wooden bowl, or from the cobbled look of the crust. North Carolina has its own deep-dish version under its own name, the sonker, made in and around Surry County. At Allen & Son outside Chapel Hill, Keith Allen rolled the cobbler crusts from his grandmother's recipe and the desserts were the second reason people came.",
+  "how": "Peaches are peeled and sliced, tossed with sugar and a thickener — cornstarch or flour — and sometimes lemon juice and cinnamon, and either put straight into a buttered baking dish or brought to a boil in a pan first so the syrup thickens. The topping is rolled pastry, spoonfuls of biscuit dough, or a batter poured over; a Southern deep-dish version lines the bottom of the dish as well, cuts air-holes in the top and bakes it brown. Forty to fifty minutes in a hot oven. Served warm, with cold sweet milk in the old books and with vanilla ice cream now.",
+  "today": "On the dessert board at Lexington Barbecue, whose list is pies and cobbler with no pudding on it; at Allen & Son in Chapel Hill it was made in the house from a family recipe, with ice cream churned daily."
+ },
+ "kin": [
+  {
+   "to": "lexington-barbecue",
+   "as": "on a dessert list of pies and cobbler, with no banana pudding.",
+   "rel": "served-at"
+  },
+  {
+   "to": "allen-and-son",
+   "as": "rolled from Keith Allen's grandmother's recipe, with ice cream made daily.",
+   "rel": "served-at"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "the other barbecue dessert; a house tends to lead with one or the other.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pig-pickin-cake",
+   "as": "the third of the desserts a Carolina pit is likely to have.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "what comes after it, not with it.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "what it is eaten with.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "banana-pudding",
+   "tell": "Cobbler is baked, hot, and has a crust; banana pudding is cold, built in layers, and has no oven in it after the custard."
+  }
+ ],
+ "links": [
+  {
+   "label": "Cobbler (food) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cobbler_(food)"
+  }
+ ],
+ "sources": [
+  "s:wp-cobbler-food",
+  "s:web-lexbbq-menu",
+  "s:web-ourstate-allen-son",
+  "s:web-uncpress-keith-allen",
+  "s:book-kentucky-housewife"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cobbler-food"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-cobbler-food",
+    "note": "the Bryan and Fisher receipts read in the books themselves; Allen & Son from Our State and UNC Press"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "Lexington Barbecue menu read 15 September 2026"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-kentucky-housewife",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "A Peach Pot-Pie",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "text": "A peach pot-pie, or cobler, as it is often termed, should be made of clingstone peaches, that are very ripe, and then pared and sliced from the stones. Prepare a pot or oven with paste, as directed for the apple pot-pie, put in the prepared peaches, sprinkle on a large handful of brown sugar, pour in plenty of water to cook the peaches without burning them, though there should be but very little liquor or syrup when the pie is done. Put a paste over the top, and bake it with moderate heat, raising the lid occasionally, to see how it is baking. When the crust is brown, and the peaches very soft, invert the crust on a large dish, put the peaches evenly on, and grate loaf sugar thickly over it. Eat it warm or cold. Although it is not a fashionable pie for company, it is very excellent for family use, with cold sweet milk.\n\n[An Apple Pot-Pie, pages 267–268, for the paste it refers to:] Rub the bottom and sides of a porridge-pot, or small oven, with butter, and then with dry flour. Roll out some pieces of plain or standing paste about half an inch thick, line the sides of the pot or oven with the pieces of paste, letting them nearly touch in the bottom.",
+   "page": 268,
+   "note": "Possibly the first recorded cobbler recipe, and it spells the word cobler. Loaf sugar is refined sugar broken from a cone. The brackets are this site's, everything inside them is the book's."
+  },
+  {
+   "title": "Peach Cobbler (recipe 143)",
+   "source": "s:book-what-mrs-fisher-knows",
+   "license": "Public domain",
+   "year": 1881,
+   "url": "https://archive.org/details/whatmrsfisherkno00fishrich",
+   "author": "Mrs. Abby Fisher",
+   "book": "What Mrs. Fisher Knows About Old Southern Cooking",
+   "text": "Peel the peaches (freestones) and make a pastry the same way as for pie, and roll out the dough as thin as for pie crust. Put one layer at the bottom of the dish, and cut the peaches into pieces the size of a plum and fill the dish with them, sprinkling them freely with fine sugar. Cover them over with another layer of pastry, cut with a knife two or three air-holes on the top and put to bake. Let it bake brown. It makes a delicious luncheon or dessert. Season the peaches with powdered cinnamon to taste. See recipe for all kinds of pastry.",
+   "page": "65–66",
+   "note": "Two crusts and air-holes: the deep-dish Southern form. Freestone peaches part from the stone; Lettice Bryan's receipt calls for clingstones instead."
+  },
+  {
+   "title": "Sweet Peach Cobbler",
+   "source": "s:wikibooks-sweet-peach-cobbler",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASweet_Peach_Cobbler",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "[Filling] ½ cup (about 120 ml) granulated sugar",
+    "[Filling] 1 tablespoon (15 ml) cornstarch",
+    "[Filling] 4 cups (950 ml) sliced peeled peaches",
+    "[Filling] ¼ teaspoon ground cinnamon",
+    "[Filling] 1 teaspoon (5 ml) lemon juice",
+    "[Topping] 1 cup (about 240 ml) all-purpose flour",
+    "[Topping] 1 tablespoon sugar",
+    "[Topping] 1½ teaspoons baking powder",
+    "[Topping] ½ teaspoon salt",
+    "[Topping] 3 tablespoons shortening",
+    "[Topping] ½ cup (about 120 ml) milk"
+   ],
+   "text": "1. [Filling] Preheat oven to 400°F.\n2. [Filling] Combine granulated sugar and cornstarch in a mixing bowl.\n3. [Filling] Stir in peaches and lemon juice to make a sugary-brown syrup.\n4. [Filling] Bring the peach mixture to a boil in a saucepan, and simmer until it thickens. Transfer to a 2-quart casserole dish, and put into the oven.\n5. [Topping] Combine the flour, sugar, baking powder, and salt in a mixing bowl. Stir, until well mixed.\n6. [Topping] Add shortening, and cut with a pastry blender until well mixed.\n7. [Topping] Mix in milk to make a ball of dough.\n8. [Assembly] Remove casserole dish from the oven. Add dough in spoon-sized dollops on top of fruit.\n9. [Assembly] Return to 400°F oven. Bake for 25–30 minutes, until topping turns brown.\n10. [Assembly] Serve."
+  },
+  {
+   "title": "Easy Peach Cobbler",
+   "source": "s:wikibooks-easy-peach-cobbler",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEasy_Peach_Cobbler",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 stick margarine",
+    "1 teaspoon baking powder",
+    "¾ cup all-purpose flour",
+    "1 cup white granulated sugar",
+    "¾ cup milk",
+    "5 fresh peaches, sliced"
+   ],
+   "text": "1. Preheat oven to 375°F.\n2. Melt margarine in quart size baking pan or dish. Set aside.\n3. Mix baking powder, flour, sugar, and milk. Pour this batter over the melted margarine, and do not stir.\n4. Arrange peaches over the batter.\n5. Bake 20–30 minutes.",
+   "yield": "6 servings"
+  },
+  {
+   "title": "Basic Cobbler",
+   "source": "s:wikibooks-basic-cobbler",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABasic_Cobbler",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "½ cup (1 stick) butter",
+    "Salt (optional; add only if butter is unsalted)",
+    "1 tsp baking powder",
+    "1 cup self-raising flour",
+    "1 cup milk",
+    "1 cup white granulated sugar",
+    "1 cup fresh fruit (e.g. peaches, blackberries, cherries, etc.)"
+   ],
+   "text": "1. Preheat oven to 350°F (175°C).\n2. Place the butter in a deep 9½ x 12-inch baking dish. Put dish in oven to melt butter while preparing other ingredients. If butter is unsalted, add a touch of salt to the pan as well.\n3. Add flour and sugar to a bowl and sift together lightly. Create a well in the center of the mixture, and pour the milk into the well. Mix together with a wire whisk until smooth.\n4. Remove pan from oven. Pour batter into dish on top of melted butter. Do not stir. Spoon the fresh fruit out evenly across the top, but again, do not stir.\n5. Place cobbler in oven and bake uncovered until golden brown.",
+   "note": "The method without the fruit named, for whatever is in season."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "Sliced peaches sweetened and thickened in a deep dish and covered with a crust — pastry, biscuit dough or a batter — then baked until the top browns and the fruit bubbles at the edge.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "on a dessert list of pies and cobbler, with no banana pudding.",
+   "rel": "served-at"
+  },
+  {
+   "to": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "rolled from Keith Allen's grandmother's recipe, with ice cream made daily.",
+   "rel": "served-at"
+  },
+  {
+   "to": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "the other barbecue dessert; a house tends to lead with one or the other.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pig-pickin-cake",
+   "type": "dish",
+   "name": "pig pickin' cake",
+   "as": "the third of the desserts a Carolina pit is likely to have.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "what comes after it, not with it.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "what it is eaten with.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cobbler-food",
+   "kind": "wikipedia",
+   "title": "Cobbler (food) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cobbler_(food)",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:web-ourstate-allen-son",
+   "kind": "web",
+   "title": "Allen & Son in Chapel Hill — Our State (Jason Zengerle, 6 Aug 2017)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/allen-son-in-chapel-hill/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uncpress-keith-allen",
+   "kind": "web",
+   "title": "Interview with Keith Allen, owner of Allen & Son Barbecue Restaurant in Chapel Hill, on the occasion of its closing — UNC Press Blog (19 Dec 2018)",
+   "publisher": "University of North Carolina Press",
+   "url": "https://uncpressblog.com/2018/12/19/interview-with-keith-allen-owner-of-allen-son-barbecue-restaurant-in-chapel-hill-on-the-occasion-of-its-closing/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:book-kentucky-housewife",
+   "kind": "book",
+   "title": "The Kentucky Housewife, Containing Nearly Thirteen Hundred Full Receipts",
+   "author": "Mrs. Lettice Bryan",
+   "publisher": "Shepard & Stearns, Cincinnati",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "accessed": "2026-09-16",
+   "license": "Public domain"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-cobbler-food"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cobbler-food",
+   "note": "the Bryan and Fisher receipts read in the books themselves; Allen & Son from Our State and UNC Press"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-cobbler-food"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu",
+   "note": "Lexington Barbecue menu read 15 September 2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

@@ -1,0 +1,196 @@
+{
+ "schema": 1,
+ "id": "sweatmans-bar-b-que",
+ "type": "place",
+ "names": {
+  "name": "Sweatman's Bar-B-Que",
+  "aliases": [
+   "Sweatman's BBQ",
+   "Sweatman's"
+  ],
+  "sort": "Sweatman's"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1977",
+  "fuel": "mixed",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog barbecue house in an old farmhouse on Eutaw Road outside Holly Hill, in Orangeburg County, the mustard belt of the Midlands. Harold 'Bub' Sweatman and his wife Margie opened it in 1977 and it has served two days a week since: Friday and Saturday, pulled pork from whole hogs, ribs, hash over rice — hash being the Midlands' stew of pork and onion — and a spicy-sweet mustard sauce, with pork skins when the hogs give them. The open block pits became gas-and-wood smokers; the buffet that made the name ended after the pandemic; the family sold in 2011, and new owners took over in 2026.",
+  "story": "Bub and Margie Sweatman first opened a small barbecue restaurant in Holly Hill in 1959. It did not last, and for years they cooked hogs only for friends and family. In 1977 they bought an old farmhouse in Eutawville, a rural community close to Holly Hill, and opened Sweatman's Bar-B-Que in its rooms; it has not closed since. The sauce belongs to a shared story: Joseph 'Big Joe' Bessinger, who opened the Holly Hill Café in 1939, worked out a mustard-based sauce with the Sweatman family — both families of German descent — and the Bessingers came to call theirs the Golden Secret. When Rien Fertel came for the Southern Foodways Alliance in June 2012 he recorded the cook Douglas Oliver, who said that whatever the economy did, 'everybody going to eat barbecue, especially if it's good; they're going to eat what we got, they'll be back.' Margie Sweatman died in 2003 and Bub in 2005; the family ran the house until 2011, when close family friends Lynn and Mark Behr bought it. In the Behr years the open concrete-block whole-hog pits gave way to Southern Pride smokers, and after COVID-19 the buffet ended. In 2026 the Patel family took over.",
+  "how": "Whole hogs, oak- and hickory-smoked, pulled and dressed with the house mustard sauce, with vinegar and red sauces alongside. The plate is pork or ribs with hash and rice and sides; pork skins are fried when there are skins; banana pudding ends it. The old pits were open beds of concrete block over wood coals; the hogs now cook in Southern Pride smokers — *Tradition holds —* cabinet cookers fired by gas with wood for smoke.",
+  "today": "Open Friday and Saturday, 11:30 a.m. to 8 p.m., at 1427 Eutaw Road, Holly Hill, per the restaurant's site on September 15, 2026; Destination BBQ's 2026 page lists Thursday to Sunday instead. New owners since 2026. Check before driving."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "the style it belongs to: whole hog under a sweet mustard sauce, in Orangeburg County.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "its sauce, worked out between the Sweatman and Bessinger families in Holly Hill.",
+   "rel": "sauce"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut: whole hogs, pulled, since 1977.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "on every plate; the Midlands' pork stew over rice.",
+   "rel": "serves"
+  },
+  {
+   "to": "block-pit",
+   "as": "its original pits — open beds of concrete block over wood coals — since replaced.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "the Southern Pride smokers that cook the hogs now.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-skins",
+   "as": "fried when the hogs yield them.",
+   "rel": "serves"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "the dessert.",
+   "rel": "serves"
+  },
+  {
+   "to": "joe-bessinger",
+   "as": "worked out the mustard sauce with the Sweatmans at Holly Hill after 1939.",
+   "rel": "person"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "the Bessinger brothers' Charleston house, cousin to this one by sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "the other Orangeburg County buffet lineage.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded its cook Douglas Oliver in June 2012.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 33.3618738,
+  "lon": -80.3820857,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap) geocode of 1427 Eutaw Rd, 2026-09-15"
+ },
+ "address": {
+  "street": "1427 Eutaw Rd",
+  "city": "Holly Hill",
+  "county": "Orangeburg",
+  "state": "SC",
+  "postcode": "29059"
+ },
+ "links": [
+  {
+   "label": "Sweatman's BBQ — official",
+   "url": "https://www.sweatmansbbq.com/"
+  },
+  {
+   "label": "Sweatman's Bar-B-Que — Southern Foodways Alliance interview (2012)",
+   "url": "https://www.southernfoodways.org/interview/sweatmans-bar-b-que/"
+  }
+ ],
+ "sources": [
+  "s:web-sfa-sweatmans-bar-b-que",
+  "s:sfa-oral-histories",
+  "s:web-destination-bbq-sweatmans",
+  "s:web-sweatmans-hours",
+  "s:web-sfa-melvins-legendary-bar-b-q",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-sweatmans"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-sweatmans",
+    "note": "1959 and 1977, the deaths, the 2011 sale and the 2026 change of hands from Destination BBQ; the Bessinger-Sweatman sauce story from the SFA Melvin's page; the quote from the SFA Sweatman's page"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-sweatmans-hours",
+    "note": "two sources give two sets of days; the official page is followed"
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-sweatmans",
+    "note": "Southern Pride smokers replaced the wood-coal block pits; 'mixed' for gas with wood"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest; Nominatim geocode of the street address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-sweatmans-hours"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-sweatmans",
+    "note": "Margie Sweatman co-opened the house with her husband in 1977, but the family sold in 2011 and new owners took over in 2026, so no woman-owned and no family-run tag is set. The Southern Pride cabinet cookers are gas with wood for smoke, so no wood-cooked tag is set either."
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:web-destination-bbq-sweatmans",
+   "tier": "cited",
+   "note": "Whole hogs, oak- and hickory-smoked, pulled and dressed with the house mustard sauce."
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-sweatmans-hours",
+   "tier": "cited",
+   "note": "Friday and Saturday, 11:30 a.m. to 8 p.m., per the restaurant's site on September 15, 2026; Destination BBQ's 2026 page lists Thursday to Sunday instead."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-sweatmans",
+   "tier": "cited",
+   "note": "Hash over rice — the Midlands' stew of pork and onion."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:web-sfa-sweatmans-bar-b-que",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/sweatmans-bar-b-que/",
+   "note": "Harold 'Bub' Sweatman."
+  }
+ ]
+}

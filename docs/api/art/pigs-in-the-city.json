@@ -1,0 +1,478 @@
+{
+ "schema": 1,
+ "id": "pigs-in-the-city",
+ "type": "art",
+ "names": {
+  "name": "Pigs in the City",
+  "aliases": [
+   "Lexington's painted pigs",
+   "Pigs on Parade"
+  ],
+  "said": "Everybody in Lexington can name their favourite one."
+ },
+ "region": [
+  "nc",
+  "nc-piedmont"
+ ],
+ "facets": {
+  "kind": "statue",
+  "state": "NC"
+ },
+ "text": {
+  "what": "Life-sized pig sculptures, painted by artists and set out on the sidewalks of Lexington, Davidson County. Uptown Lexington, Inc. — the non-profit set up to bring business back to the town centre — ran the first exhibition in 2003 with twenty pigs, each sponsored by a business for $1,000, which paid for the whole thing. More than 40,000 people came that first year. The pigs are fibreglass blanks, identical until the artist gets them, and they come back painted as anything: a fire engine, a bulldozer, a jigsaw puzzle, a winged horse. Retired ones stay out around town."
+ },
+ "sections": [
+  {
+   "h": "Where the pigs came from",
+   "text": "The form is borrowed. *Tradition holds —* the painted-animal street exhibition spread from the cow parades of the late 1990s, and each town that took it up picked an animal of its own. Lexington's animal chose itself: the town calls itself the Barbecue Capital of the World and has held a barbecue festival on Main Street every October since 1984.\n\nThe exhibitions ran 2003 to 2005, and again in 2008 and 2009. In 2019 Uptown Lexington announced the pigs would return in 2020. A sponsor paid $1,000 in the first round and got a pig with the sponsor's commission on it; the money covered the programme. What the town got was a reason to walk from one block to the next, which is what a downtown revitalisation programme is usually trying to buy.",
+   "images": [
+    0
+   ]
+  },
+  {
+   "h": "The names",
+   "text": "The pigs are named, and the names are the point. Caterpiggar is a Caterpillar bulldozer: yellow, with an exhaust stack, a radiator grille, a dozer blade across the front, a model number P8 on the flank, and CATERPIGGAR lettered in the machine-maker's own typeface with its red underline. Fire Hog is a fire engine, red, with ladders down the side, the city fire department's crest on the shoulder and a black helmet over the snout. Pork Knox is money — banknotes and coins painted all over it, gold trotters, a bar chart along the back. Pigsaw is covered in jigsaw pieces. Pigasus is deep blue with gold wings, planets and stars. Newbee is banded teal and gold with gold antennae and a gauzy wing laid over its back. Deck the Halls is three small pigs in Santa hats and striped scarves around a signboard.\n\n*Inference —* the naming is doing the same work as a barbecue restaurant's sign: it takes an animal that is about to be eaten and makes it a character with a job. The difference is that a Pigs in the City pig has no meat to sell, so the pun can be about anything at all, and usually is. None of these pigs is eating.",
+   "images": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    5,
+    7
+   ]
+  },
+  {
+   "h": "What happens to them afterwards",
+   "text": "They do not go away. Dennis Brown photographed a set in 2008 and captioned them as previous entries now on display in various places in Lexington — a pig outside the business that sponsored it, a pig on a corner, a pig by a door. A visitor walking uptown meets pigs from several different years at once and cannot tell which round each came from without asking.\n\n*Tradition holds —* the Barbecue Festival is when most people see them, because that is the Saturday the street is closed and everyone is walking. The festival brings its own inflatable and costumed pigs on top of the permanent ones.",
+   "images": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  }
+ ],
+ "kin": [
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "the October Saturday most people meet the pigs, because Main Street is closed and everyone is on foot.",
+   "rel": "event"
+  },
+  {
+   "to": "lexington",
+   "as": "the style that gave the town the animal: shoulders, dip, red slaw.",
+   "rel": "style"
+  },
+  {
+   "to": "pig-mascot",
+   "as": "the same smiling pig, standing on a sidewalk instead of a roof, with nothing to sell.",
+   "rel": "art"
+  },
+  {
+   "to": "cannibal-pig-sign",
+   "as": "the genre these sculptures leave out: a Lexington pig is a character, never a cook.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hog",
+   "as": "the word the puns are built on, once per pig.",
+   "rel": "term"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "one of the Main Street restaurants the pigs stand among.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "the town's best-known pit, a mile from the pigs.",
+   "rel": "place"
+  }
+ ],
+ "geo": {
+  "lat": 35.824,
+  "lon": -80.2534,
+  "precision": "town",
+  "source": "Nominatim (OpenStreetMap): uptown Lexington, Davidson County"
+ },
+ "links": [
+  {
+   "label": "Lexington, North Carolina — Wikipedia (Pigs in the City)",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina#Pigs_in_the_City"
+  }
+ ],
+ "sources": [
+  "s:wp-lexington-north-carolina",
+  "s:commons-pigs-in-the-city",
+  "s:commons",
+  "s:wp-lexington-barbecue-festival"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lexington-north-carolina"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "harvested",
+    "source": "s:commons-pigs-in-the-city",
+    "note": "the sculptures' names are taken from the photographer's own file captions; the closing paragraph is marked inference"
+   },
+   "sections[2].text": {
+    "tier": "harvested",
+    "source": "s:commons-pigs-in-the-city",
+    "note": "Dennis Brown's 2008 captions; the festival paragraph is hedged as tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the town centre the sculptures stand in, not any one pig"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-lexington-barbecue-festival-more-pigs.jpg",
+   "source": "commons",
+   "title": "File:Lexington Barbecue Festival - more pigs.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Lexington_Barbecue_Festival_-_more_pigs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_Barbecue_Festival_-_more_pigs.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown (Dennis Brown)",
+   "credit": "Own work",
+   "alt": "Several painted pig sculptures gathered together at the Lexington Barbecue Festival, October 2008.",
+   "date": "2008-10-25",
+   "primary": true,
+   "sha256": "34065c0e1d370c9a394eda301508cfaf375717c0499248b4e3a6f048f2a17d96"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-lexington-barbecue-festival-2008-caterpiggar.jpg",
+   "source": "commons",
+   "title": "File:Lexington Barbecue Festival 2008 - caterpiggar.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Lexington_Barbecue_Festival_2008_-_caterpiggar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_Barbecue_Festival_2008_-_caterpiggar.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown (Dennis Brown)",
+   "credit": "Own work",
+   "alt": "Caterpiggar: a pig sculpture painted as a yellow Caterpillar bulldozer, with an exhaust stack, a radiator grille, a dozer blade across the front, P8 on the flank and CATERPIGGAR lettered in the machine-maker's typeface.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "622052b8fca78ab7402826d558252d6dde89942868c2ffeaac0925a67277c230"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-10-fire-hog.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 10 - Fire Hog.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pigs_in_the_City_10_-_Fire_Hog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_10_-_Fire_Hog.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "Fire Hog: a pig sculpture painted as a red fire engine, with ladders down the side, a fire department crest on the shoulder, black-and-yellow boots on its legs and a black fire helmet over the snout.",
+   "date": "2008-11-15",
+   "primary": false,
+   "sha256": "5ddf7e5f57732b4cfbaba0c88898efbb140d3ae1de8006deda80a8b1ab4414f9"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-11-pork-knox.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 11 - Pork Knox.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pigs_in_the_City_11_-_Pork_Knox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_11_-_Pork_Knox.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "Pork Knox: a pig sculpture painted with banknotes and coins all over it, a bar chart along the back and gold trotters.",
+   "date": "2008-11-15",
+   "primary": false,
+   "sha256": "d553b84ef04f9e591518ff6ba97097e8043ffe5c159712c0758bd2428a0475e3"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-12-pigsaw.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 12 - Pigsaw.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Pigs_in_the_City_12_-_Pigsaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_12_-_Pigsaw.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "Pigsaw: a pig sculpture covered all over in jigsaw pieces, blue, white and pink.",
+   "date": "2008-11-15",
+   "primary": false,
+   "sha256": "b616c31dae87c55a3fba0a0dc69a228a884bd3feaf858d0a8fc66714d59f7080"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-13-newbee.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 13 - Newbee.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pigs_in_the_City_13_-_Newbee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_13_-_Newbee.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "Newbee: a pig sculpture banded in teal and gold with gold antennae and a gauzy wing laid over its back.",
+   "date": "2008-11-15",
+   "primary": false,
+   "sha256": "b43425db1f89e20e9ed87bfab19c85553272412a489d19c92d106939d293ce60"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-14-pigasus.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 14 - Pigasus.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pigs_in_the_City_14_-_Pigasus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_14_-_Pigasus.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "Pigasus: a deep blue pig sculpture with gold wings, planets and stars painted over it and yellow and green trotters.",
+   "date": "2008-11-15",
+   "primary": false,
+   "sha256": "fbe947b3cef0af47491e497507b81ebd825e980ce2571d845b99fc106f1e72c8"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-15-deck-the-halls.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 15 - Deck the Halls.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Pigs_in_the_City_15_-_Deck_the_Halls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_15_-_Deck_the_Halls.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "Deck the Halls: three small pink pig sculptures in Santa hats and striped scarves, set around a signboard lettered Deck the Halls on a lawn in front of a street of shops.",
+   "date": "2008-11-15",
+   "primary": false,
+   "sha256": "ed5fe7b9726629c28caeddeef8d99e9069a86f5731023c9ec418629f7d227114"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-5.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 5.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pigs_in_the_City_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_5.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "A painted pig sculpture standing on a street in uptown Lexington, North Carolina.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "078a8bf2f076a5ba0907ee3096e5496410009a8c8999aa97b25ff06d1e63caff"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-6.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 6.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Pigs_in_the_City_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_6.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "A painted pig sculpture standing on a street in uptown Lexington, North Carolina.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "289ccdc79fe2546e8b908b6ce9a0fe4e8b3da5c83d51fa7bee9288f4c03377c8"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-7.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 7.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pigs_in_the_City_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_7.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "A painted pig sculpture on display in Lexington, North Carolina.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "3d4f4b21b3e12a524b8e79c7163a6a5b08475bc95c99c40684c22f4557b53c6a"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-8.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pigs_in_the_City_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_8.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "A painted pig sculpture on display in Lexington, North Carolina.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "80712d095210fc5ca6aa0c1bb561c4cc535d89836a2310ee4ec20294ab8d1d27"
+  },
+  {
+   "file": "pigs-in-the-city/pigs-in-the-city-pigs-in-the-city-9.jpg",
+   "source": "commons",
+   "title": "File:Pigs in the City 9.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pigs_in_the_City_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APigs_in_the_City_9.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "A painted pig sculpture on display in Lexington, North Carolina.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "b3e1a69c4900085611868267036fa17ada52562f42128073681a49de67d2b045"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Life-sized pig sculptures, painted by artists and set out on the sidewalks of Lexington, Davidson County. Uptown Lexington, Inc.",
+ "region_terms": [
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the October Saturday most people meet the pigs, because Main Street is closed and everyone is on foot.",
+   "rel": "event"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style that gave the town the animal: shoulders, dip, red slaw.",
+   "rel": "style"
+  },
+  {
+   "to": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "the same smiling pig, standing on a sidewalk instead of a roof, with nothing to sell.",
+   "rel": "art"
+  },
+  {
+   "to": "cannibal-pig-sign",
+   "type": "art",
+   "name": "the pig that serves itself",
+   "as": "the genre these sculptures leave out: a Lexington pig is a character, never a cook.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hog",
+   "type": "term",
+   "name": "hog",
+   "as": "the word the puns are built on, once per pig.",
+   "rel": "term"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "one of the Main Street restaurants the pigs stand among.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the town's best-known pit, a mile from the pigs.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:commons-pigs-in-the-city",
+   "kind": "dataset",
+   "title": "Pigs in the City, Lexington, North Carolina — photographs by Dennis Brown",
+   "author": "Dennis Brown",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Pigs_in_the_City_(Lexington,_North_Carolina)",
+   "accessed": "2026-09-16",
+   "note": "Thirteen photographs of Lexington's painted pig sculptures, most taken at or around the 2008 Lexington Barbecue Festival, released CC BY 3.0. The sculptures' names come from the photographer's own captions."
+  },
+  {
+   "id": "s:commons",
+   "kind": "dataset",
+   "title": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/",
+   "note": "each picture carries its own licence in its sidecar"
+  },
+  {
+   "id": "s:wp-lexington-barbecue-festival",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-lexington-north-carolina"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "the town centre the sculptures stand in, not any one pig"
+  }
+ },
+ "primary_image": {
+  "file": "pigs-in-the-city/pigs-in-the-city-lexington-barbecue-festival-more-pigs.jpg",
+  "source": "commons",
+  "title": "File:Lexington Barbecue Festival - more pigs.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Lexington_Barbecue_Festival_-_more_pigs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_Barbecue_Festival_-_more_pigs.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "author": "Dennis Brown (Dennis Brown)",
+  "credit": "Own work",
+  "alt": "Several painted pig sculptures gathered together at the Lexington Barbecue Festival, October 2008.",
+  "date": "2008-10-25",
+  "primary": true,
+  "sha256": "34065c0e1d370c9a394eda301508cfaf375717c0499248b4e3a6f048f2a17d96"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cannibal-pig-sign",
+   "type": "art",
+   "name": "the pig that serves itself",
+   "as": "Lexington's painted sculptures, which take the upright pig and give it every job except this one.",
+   "rel": "art"
+  },
+  {
+   "from": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "Lexington's sculptures, which are the house pig taken off the roof and set on the pavement.",
+   "rel": "art"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "schema": 1,
+ "id": "barbecue",
+ "type": "term",
+ "names": {
+  "name": "barbecue",
+  "aliases": [
+   "bar-b-q",
+   "bar-b-que",
+   "barbeque",
+   "BBQ",
+   "'cue",
+   "cue",
+   "Q"
+  ],
+  "said": "In the Carolinas the word is a noun for the cooked pork: you eat barbecue, you do not 'have a barbecue'. The grill in the yard is a grill; cooking on it is grilling."
+ },
+ "etymology": {
+  "root": "Taíno (Arawakan) barbacoa, a framework of sticks set on posts → Spanish barbacoa (1526, Oviedo) → English barbecue (1660s: the frame and the method; the cooked animal and the gathering by the 1700s)",
+  "first_attested": "English 1661, Edmund Hickeringill's Jamaica Viewed ('Barbacu'd'), per the OED as quoted in the Wikipedia article; 'barbecado' in 1648; as a noun 1697, William Dampier. Spanish barbacoa printed by Gonzalo Fernández de Oviedo, 1526.",
+  "note": "The folk etymology from French barbe à queue ('beard to tail', i.e. the whole animal) is a joke first printed in the eighteenth century and has no standing; the Taíno origin is the dictionary etymology. Spellings with -que and Bar-B-Q are twentieth-century sign-painting and are as common on Carolina signs as the dictionary form.",
+  "tier": "cited",
+  "source": "s:wp-barbecue"
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "letter": "B",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The cooked meat itself — in the Carolinas, pork cooked slowly over coals or in a cooker and then chopped, pulled or sliced — and, by extension, the place that sells it and the gathering that eats it. Elsewhere in the country the same word means a grill, or a cookout of any meat; here the narrower sense is the ordinary one.",
+  "story": "The word came north from the Caribbean with the Spanish and into English by way of the colonial Atlantic: a frame of sticks first, then the method, then the meat. Samuel Johnson's dictionary of 1755 already gives the Carolina sense — 'to barbecue: a term for dressing a whole hog', and the noun, 'a hog dressed whole'. *Tradition holds —* the whole-animal feast over wood coals was the shape of the colonial Southern gathering by the eighteenth century, and the political barbecue, a free feed put on by a candidate, was an institution of the early republic. *Inference —* the Carolina insistence that barbecue is a noun for pork is a memory of that feast: what was cooked at the rally was the pig, and the pig was what you came for."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "one of the two North Carolina answers to what the word means: the whole hog, chopped, with vinegar.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington",
+   "as": "the other North Carolina answer: pork shoulder with a red dip.",
+   "rel": "term"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the gathering the word also names — a barbecue as an event, still a pig.",
+   "rel": "event"
+  }
+ ],
+ "links": [
+  {
+   "label": "barbecue — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/barbecue"
+  },
+  {
+   "label": "Barbecue — Wikipedia (Etymology)",
+   "url": "https://en.wikipedia.org/wiki/Barbecue#Etymology"
+  }
+ ],
+ "sources": [
+  "s:etymonline",
+  "s:wp-barbecue",
+  "s:oed",
+  "s:moss-barbecue-history"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:etymonline"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the colonial feast and the political barbecue are the subject of Moss (2010); the last sentence is this project's inference"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage as reported by Reed & Reed and by every Carolina pit's menu"
+   },
+   "etymology": {
+    "tier": "cited",
+    "source": "s:wp-barbecue",
+    "note": "OED dates as quoted there; etymonline agrees on the Taíno origin"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

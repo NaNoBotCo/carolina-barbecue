@@ -1,0 +1,499 @@
+{
+ "schema": 1,
+ "id": "barbecue-chicken",
+ "type": "dish",
+ "names": {
+  "name": "barbecue chicken",
+  "aliases": [
+   "half chicken",
+   "barbecued chicken",
+   "pit chicken",
+   "dipped chicken"
+  ],
+  "said": "In the Carolinas it is chicken, not barbecue: 'barbecue' alone means the pork, so the bird keeps its own name."
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "nc-east",
+  "nc-piedmont"
+ ],
+ "facets": {
+  "course": "main",
+  "meat": "chicken",
+  "styles": [
+   "eastern-nc",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Half a chicken, cooked on the pit beside the pig or on its own cooker until the skin chars, brushed with the house sauce — vinegar and pepper in the east, a thin tomato-and-vinegar dip in the Piedmont — and sold by the half or the whole bird. At eastern pits it is the one other meat: B's in Greenville sells out of chicken halves by early afternoon, and Skylight Inn lists it beside the whole hog. Keaton's in Cleveland, Rowan County, does it the other way round, frying the chicken and dipping it in a hot vinegar-tomato barbecue sauce. NCpedia notes that North Carolinians seldom use 'barbecue' alone for chicken.",
+  "story": "Burette Walker Keaton was laid off by the railroad in 1953 and started selling chicken from a cinder-block shack on Cool Springs Road outside Cleveland, in Rowan County. He fried it, then dipped it in a barbecue sauce he said he had worked out 'like a football huddle' with a ninety-two-year-old man, a sauce meant to penetrate the chicken and then the bone; the legend at the counter is that Schlitz offered him $10,000 for the recipe and he said he would think about it at $100,000. He turned down offers to build a proper restaurant in Statesville or Charlotte, and he died in 1989; his niece Kathleen Murray has run Keaton's since 1991, cash only, on hours that change with the season, with the hot vinegar slaw — cabbage in vinegar, tomato, cayenne and celery seed — beside the chicken. In the east the bird is the pit's second meat. Bill and Peggy McLawhorn opened B's in a former convenience store just inside Greenville in 1978; their three daughters run it now with the pitmaster Dexter Sherrod, the hogs cook eight hours on charcoal in metal pit cookers, the chicken halves cook on their own, and the food is gone by early afternoon. *Tradition holds —* many eastern pits cook chicken only on certain days, and the regulars know which.",
+  "how": "The chicken is split into halves and laid bone-side down over the coals or on the cooker, turned once, and cooked until the skin blisters and the joints run clear; at B's it gets a light brushing of the vinegar sauce, and in the Piedmont the dip does the same work. Keaton's fries or bakes it first, then dips the whole piece in the hot sauce so the sauce goes through the crust. A half is the portion; it comes on a tray with slaw and the house bread, or by the whole bird to take away.",
+  "today": "B's Barbecue: chicken half $7, whole $11.50 (Our State, January 2016); the food sells out by early afternoon. Keaton's: closed Sunday and Monday, open Tuesday to Saturday on hours that vary between lunch and an evening sitting, no cards (Our State, 2017). Sam Jones BBQ lists a chicken tray and slow-cooked chicken plates (2026)."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style whose pits cook a half chicken as the second meat, brushed with the vinegar sauce.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "as": "the Piedmont's chicken takes the same thin tomato-and-vinegar dip as the shoulder.",
+   "rel": "whole"
+  },
+  {
+   "to": "keatons-barbecue",
+   "as": "where the chicken is fried and dipped, since 1953.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "chicken halves on their own cooker, gone by early afternoon.",
+   "rel": "served-at"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "lists barbecue chicken as its one meat besides the hog.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "sells a chicken tray beside the whole hog.",
+   "rel": "served-at"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "what brushes the eastern half chicken.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "what the Piedmont chicken is dressed with.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "Keaton's hot vinegar slaw — cabbage in vinegar, tomato, cayenne and celery seed — is the Piedmont red slaw run hot.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue",
+   "as": "the noun that excludes it: barbecue is pork, chicken is chicken.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the tray it comes on in place of the pork.",
+   "rel": "whole"
+  },
+  {
+   "to": "pig-cooker",
+   "as": "the cooker a half chicken shares with the pig at an eastern pit.",
+   "rel": "part"
+  }
+ ],
+ "links": [
+  {
+   "label": "Our State — Keaton's Barbecue (2017)",
+   "url": "https://www.ourstate.com/the-legend-behind-keatons-barbecue/"
+  },
+  {
+   "label": "Our State — A Day at B's Barbecue (2016)",
+   "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-keatons",
+  "s:web-ncfolk-keatons",
+  "s:web-ourstate-bs-barbecue",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-barbecue-chicken",
+  "s:ncpedia-barbecue",
+  "s:web-samjones-menu",
+  "s:book-mrs-hills-new-cook-book",
+  "s:wikibooks-barbecue-rub",
+  "s:wikibooks-north-carolina-style-bbq-chicken"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-keatons"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-keatons",
+    "note": "Keaton's founder's full name and the sauce from the NC Folklife piece (2010); B's from Our State (2016); the certain-days habit is tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the halving and turning is general pit practice; the brushing at B's and the dipping at Keaton's are cited"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-bs-barbecue",
+    "note": "prices and hours as printed in 2016 and 2017; check before driving"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-north-carolina-style-bbq-chicken",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "North Carolina Style BBQ Chicken",
+   "source": "s:wikibooks-north-carolina-style-bbq-chicken",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ANorth_Carolina_Style_BBQ_Chicken",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "3 each skinless bone-in chicken thighs and drumsticks",
+    "Barbecue rub",
+    "½ cup apple cider vinegar",
+    "¼ cup honey",
+    "2 tbsp Worcestershire sauce",
+    "1 cup soaked hickory chips"
+   ],
+   "text": "1. Season chicken liberally with the barbecue rub. Gently massage into meat and refrigerate for at least 1 hour.\n2. Meanwhile, combine the vinegar, honey, and Worcestershire sauce.\n3. Place enough charcoal briquets to fill the charcoal compartment of a large chimney starter. Wad up some oil-moistened newspaper, stick under the compartment, and light. Wait 15 minutes.\n4. Once coals are heated, disperse evenly along the bottom of the grill. Toss in soaked hickory chunks and reapply the grate.\n5. Grill chicken over medium low, turning often and brushing with vinegar mixture when turned, until internal temperature reaches 165°F.\n6. Remove and let rest for 7 minutes.\n7. While chicken is resting, boil remaining vinegar mixture on high for 5 minutes. Drizzle over chicken and serve warm.",
+   "note": "Thighs and drumsticks over charcoal and soaked hickory, mopped with cider vinegar, honey and Worcestershire each time they are turned.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "To Barbecue Any Kind of Fresh Meat (receipt 200)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Gash the meat. Broil slowly over a solid fire. Baste constantly with a sauce composed of butter, mustard, red and black pepper, vinegar. Mix these in a pan, and set it where the sauce will keep warm, not hot. Have a swab made by tying a piece of clean, soft cloth upon a stick about a foot long; dip this in the sauce and baste with it. Where a large carcass is barbecued, it is usual to dig a pit in the ground outdoors, and lay narrow bars of wood across. Very early in the morning fill the pit with wood; set it burning, and in this way heat it very hot. When the wood has burned to coals, lay the meat over. Should the fire need replenishing, keep a fire outside burning, from which draw coals, and scatter evenly in the pit under the meat. Should there be any sauce left pour it over the meat. For barbecuing a joint, a large gridiron answers well; it needs constant attention; should be cooked slowly and steadily.",
+   "page": "145–146",
+   "note": "'Any kind of fresh meat' takes in the half chicken; the basting sauce is receipt 335, below. A few characters in this paragraph are damaged in the scan and are read from context; the line 'Gash the meat' runs straight into 'Broil slowly' in the printing."
+  },
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "Butter, mustard, red and black pepper and vinegar — a mop rather than a finishing sauce, brushed on from the first heat."
+  },
+  {
+   "title": "Barbecue Rub",
+   "source": "s:wikibooks-barbecue-rub",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Rub",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup () brown sugar",
+    "¼ cup () salt",
+    "¼ cup () garlic powder",
+    "1 cup () paprika",
+    "¼ cup () chipotle powder",
+    "3 tbsp cayenne pepper",
+    "3 tbsp dried rosemary",
+    "¼ cup () chili powder",
+    "¼ cup () dehydrated lemon peel"
+   ],
+   "text": "1. Combine all ingredients in an airtight container.",
+   "note": "A dry rub, the other way a bird is seasoned before it goes on."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Half a chicken, cooked on the pit beside the pig or on its own cooker until the skin chars, brushed with the house sauce — vinegar and pepper in the east, a thin tomato-and-vinegar dip in the Piedmont — and sold by the…",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style whose pits cook a half chicken as the second meat, brushed with the vinegar sauce.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the Piedmont's chicken takes the same thin tomato-and-vinegar dip as the shoulder.",
+   "rel": "whole"
+  },
+  {
+   "to": "keatons-barbecue",
+   "type": "place",
+   "name": "Keaton's Barbecue",
+   "as": "where the chicken is fried and dipped, since 1953.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "as": "chicken halves on their own cooker, gone by early afternoon.",
+   "rel": "served-at"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "lists barbecue chicken as its one meat besides the hog.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "sells a chicken tray beside the whole hog.",
+   "rel": "served-at"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "what brushes the eastern half chicken.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "what the Piedmont chicken is dressed with.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "Keaton's hot vinegar slaw — cabbage in vinegar, tomato, cayenne and celery seed — is the Piedmont red slaw run hot.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the noun that excludes it: barbecue is pork, chicken is chicken.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the tray it comes on in place of the pork.",
+   "rel": "whole"
+  },
+  {
+   "to": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "the cooker a half chicken shares with the pig at an eastern pit.",
+   "rel": "part"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-keatons",
+   "kind": "web",
+   "title": "Keaton's Barbecue: Where the Chicken is Dipped in a Secret Sauce — and Lore (Joe Posnanski, 2017-04-03)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/the-legend-behind-keatons-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ncfolk-keatons",
+   "kind": "web",
+   "title": "Keaton's (David Cecelski, 2010-12-08)",
+   "publisher": "North Carolina Folklife Institute",
+   "url": "https://ncfolk.org/2010/keatons/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-bs-barbecue",
+   "kind": "web",
+   "title": "A Day at B's Barbecue (Jeremy Markovich, 2016-01-26)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-chicken",
+   "kind": "wikipedia",
+   "title": "Barbecue chicken — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_chicken",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1367399597"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:web-samjones-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Sam Jones BBQ, Winterville and Raleigh NC",
+   "url": "https://www.samjonesbbq.com/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  },
+  {
+   "id": "s:wikibooks-barbecue-rub",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Rub — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Rub",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-north-carolina-style-bbq-chicken",
+   "kind": "web",
+   "title": "Cookbook:North Carolina Style BBQ Chicken — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ANorth_Carolina_Style_BBQ_Chicken",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-keatons"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-keatons",
+   "note": "Keaton's founder's full name and the sauce from the NC Folklife piece (2010); B's from Our State (2016); the certain-days habit is tradition"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the halving and turning is general pit practice; the brushing at B's and the dipping at Keaton's are cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-ourstate-bs-barbecue",
+   "note": "prices and hours as printed in 2016 and 2017; check before driving"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "carolina-treet",
+   "type": "sauce",
+   "name": "Carolina Treet",
+   "as": "what a cooking sauce with no sugar in it is brushed on.",
+   "rel": "serves"
+  },
+  {
+   "from": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "at Keaton's the hot slaw sits beside dipped chicken.",
+   "rel": "kin"
+  },
+  {
+   "from": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "the other meat on the same grate at a fire-department plate sale.",
+   "rel": "serves"
+  },
+  {
+   "from": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "as": "the other thing on the pit, sold by the half and the whole.",
+   "rel": "serves"
+  },
+  {
+   "from": "keatons-barbecue",
+   "type": "place",
+   "name": "Keaton's Barbecue",
+   "as": "the dish turned inside out: the bird is fried, then dipped in the barbecue sauce, and the town calls the result barbecue.",
+   "rel": "contrast"
+  },
+  {
+   "from": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "chopped barbecue chicken is on the daily menu.",
+   "rel": "serves"
+  },
+  {
+   "from": "stephensons-bar-b-q",
+   "type": "place",
+   "name": "Stephenson's Bar-B-Q",
+   "as": "the second meat, with its own tangy sauce.",
+   "rel": "serves"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "the other plate at a fire-department sale.",
+   "rel": "serves"
+  }
+ ]
+}

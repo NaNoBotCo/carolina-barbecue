@@ -1,0 +1,181 @@
+{
+ "schema": 1,
+ "id": "maurices-southern-gold",
+ "type": "sauce",
+ "names": {
+  "name": "Maurice's Southern Gold",
+  "aliases": [
+   "Southern Gold BBQ Sauce",
+   "Maurice's Gourmet Blend",
+   "Carolina Gold (former name)"
+  ],
+  "said": "Southern Gold on the label now; the supermarket bottles of the 1990s said Carolina Gold."
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "base": "mustard",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "The mustard sauce of Maurice's Piggie Park at West Columbia, sold in bottles, half gallons and gallons alongside the family's Hickory Red, Vinegar and Hot Pepper sauces. It is the bottle that carried the South Carolina mustard sauce onto national supermarket shelves in the 1990s, then off them again in 2000. No ingredient list or Nutrition Facts panel is published for it, so this page can name the sauce and its history but cannot measure it.",
+  "story": "Maurice Bessinger and his brother Joe Jr. opened Maurice's Piggie Park at West Columbia in 1953; by 1968 there were four drive-ins, by 2002 nine restaurants, and the mustard sauce went into supermarkets nationwide in the 1990s under the name Carolina Gold. The chain's refusal to serve Black customers produced Newman v. Piggie Park Enterprises, decided by the Supreme Court in 1968. On 1 July 2000, the day the Confederate flag came down from the South Carolina State House, Bessinger raised it over his restaurants and handed out tracts arguing that slavery was not inherently evil; nine grocery chains dropped the sauce, and his suit against them failed at the state Supreme Court in 2007. His children took down the last flag in 2013 and he died in 2014. The family sells the sauce as Southern Gold. The mustard sauce record carries that history in full; this page is about the bottle.\n\n*Inference —* the measurement gap has a shape. Of the sixty-eight bottles read on 16 September 2026, every mustard sauce with a published Nutrition Facts panel was made outside South Carolina — in Maryland, Pennsylvania, Illinois, California, North Carolina. Maurice's, Bessinger's, Dukes, Sweatman's, Shealy's, Hite's, Jackie Hite's, Cannon's, Hudson's and Melvin's all sell the sauce the state is known for, and none of them prints the label a chart can read."
+ },
+ "kin": [
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce it bottles, and the record that carries its full history.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the Midlands style it sells nationally.",
+   "rel": "style"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "the West Columbia drive-in it is made for and named after.",
+   "rel": "served-at"
+  },
+  {
+   "to": "maurice-bessinger",
+   "as": "the man who put it in supermarkets and whose politics took it out of them.",
+   "rel": "person"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the name the supermarket bottles carried in the 1990s, and a word the state uses for two other things.",
+   "rel": "term"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the Midlands plate the same sauce goes into.",
+   "rel": "dish"
+  }
+ ],
+ "links": [
+  {
+   "label": "Maurice's Piggie Park — Southern Gold BBQ Sauce",
+   "url": "https://www.piggiepark.com/product/southern-gold-bbq-sauce-half-gallon/"
+  }
+ ],
+ "sources": [
+  "s:wp-maurice-bessinger",
+  "s:wp-newman-v-piggie-park",
+  "s:web-piggiepark-shop",
+  "s:web-piggiepark-about",
+  "s:web-sc-four-sauces",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:book-mrs-hills-new-cook-book",
+  "s:wikibooks-savory-mustard-sauce",
+  "s:wikibooks-barbecue-sauce-sweet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-maurice-bessinger",
+    "note": "dates, the case and the 2000 flag from the Wikipedia articles already cited on the mustard sauce record; the closing paragraph is this project's count across data/harvest/sauces.json and is marked inference"
+   },
+   "profile": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-shop",
+    "note": "nothing measured"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-mrs-hills-new-cook-book",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "The nearest thing to a mustard barbecue sauce in a nineteenth-century Southern cookbook: a tablespoonful of mustard in half a pound of butter, sharpened with vinegar and both peppers. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar."
+  },
+  {
+   "title": "Savory Mustard Sauce",
+   "source": "s:wikibooks-savory-mustard-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASavory_Mustard_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "½ cup Dijon mustard",
+    "¼ cup chicken broth",
+    "1 ¼ tsp cornstarch",
+    "1 pinch of salt",
+    "¼ tsp freshly ground black pepper",
+    "1 tbsp olive oil",
+    "1 shallot, very finely minced",
+    "3 tbsp unsalted butter, divided"
+   ],
+   "text": "1. Heat olive oil in a large slope-sided skillet over medium high heat. Add shallot and sauté until golden.\n2. Meanwhile, combine broth and starch. Set aside.\n3. Once shallot has cooked, add mustard, salt, and pepper to pan. Decrease heat to medium low heat.\n4. Once sauce heats to just below a simmer, add broth mixture. Cook, whisking continuously, until sauce thickens slightly.\n5. Whisk in butter 1 tbsp at a time, waiting for the one before it to fully melt before adding another.\n6. Once all butter has been used, remove sauce from heat.\n7. Serve with a steak or some pork tenderloin, or use as a grilling baste.",
+   "note": "A modern mustard baste, built on Dijon rather than the prepared yellow mustard of the Midlands."
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving.",
+   "note": "Mustard, vinegar and sugar in a tomato sauce; a Midlands bottle reverses the proportions."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "mustard",
+  "maker": "Maurice's Piggie Park",
+  "town": "West Columbia",
+  "state": "SC",
+  "ingredients": [],
+  "tomato_rank": null,
+  "vinegar_rank": null,
+  "mustard_rank": null,
+  "sugar_rank": null,
+  "serving_tbsp": null,
+  "sugar_g_per_tbsp": null,
+  "sodium_mg_per_tbsp": null,
+  "heat": null,
+  "source": "s:web-piggiepark-shop",
+  "url": "https://www.piggiepark.com/product/southern-gold-bbq-sauce-half-gallon/",
+  "accessed": "2026-09-16",
+  "note": "Nothing measured. The maker's shop lists Southern Gold in half-gallon and gallon sizes on 2026-09-16 and prints no ingredient list and no Nutrition Facts; no retailer page carrying the label was found. The base is the sauce's own name and its place in the Midlands mustard belt, not a reading of an ingredient order."
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

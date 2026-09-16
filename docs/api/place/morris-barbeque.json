@@ -1,0 +1,361 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "morris-barbeque",
+ "names": {
+  "name": "Morris Barbeque",
+  "aliases": [
+   "Morris Barbecue",
+   "Morris BBQ"
+  ],
+  "sort": "Morris Barbeque"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "unknown",
+  "founded": "1956",
+  "fuel": "gas",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A Saturday-only whole-hog house on Morris BBQ Road outside Hookerton, in Greene County, in business since 1956; the county named the road for it. William Morris Jr., grandson of the founder Willie McKinley Morris, cooks the hogs, chops the meat and works the counter. The pig goes on a gas machine built in Wilson in the early 1970s, its burners set off to one side rather than under the meat. Doors open at eight for take-out and half past nine for the dining room, and the barbecue is usually gone by one.",
+  "story": "Willie McKinley Morris — Pop — peddled barbecue through Hookerton from a cart as early as 1931, in what the family's history page calls the Hoover days; that page says a mule, the Southern Foodways Alliance transcript says a horse and buggy. A country store came first, the kind of place for a Coca-Cola and a pack of Nabs, and the barbecue business dates itself from 1956. Frances Morris, called Nannie, died in 1974. Pop died in 1991 and left the business to his grandson William Morris Jr., born in March 1956, the year it opened. Rien Fertel recorded Morris for the Alliance on November 26, 2011, and Morris described the cooker himself: gas, built in Wilson by a company no longer in business, bought around the early seventies, the burners offset from the hog. His own history page does not say that. It describes his grandfather's pit of charcoal, corncobs and oak wood and then says the tradition continues with very little change. On July 10, 2026 a storm dropped a large tree on the back of the building. The pit was undamaged. Repairs pushed past a Labor Day reopening, and no date had been set when WCTI reported on September 2, 2026 — the first run of consecutive missed Saturdays in some seventy years.",
+  "how": "Whole hogs — hams and shoulders chopped together — cook about six and a half hours, and the chop is judged by a committee of six, with Morris's daughter Ashley Morris Godley taking the final say. Orders go up on a board: telephone ahead and the name is written down, first come first served, and paying in advance holds the tray. Skins, ribs and bone trays have to be ordered ahead; the skins are the first thing gone each week.",
+  "today": "Closed since the storm of July 10, 2026, with no reopening date in the reports read through September 2, 2026. The restaurant's own site still advertises its usual Saturday hours, which is stale copy rather than news. 891 Morris BBQ Road, Hookerton. Check before driving."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style of its plate: whole hog chopped, vinegar and pepper, in the Coastal Plain.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut — hams and shoulders from the same pig, chopped together.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "the cooker its owner describes: a one-off gas machine out of Wilson with the burners offset from the meat.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-skins",
+   "as": "the first thing it sells out of every Saturday; they have to be ordered ahead.",
+   "rel": "serves"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded William Morris Jr. here on November 26, 2011 for its North Carolina barbecue project.",
+   "rel": "org"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "the interviewer who took the oral history in 2011, and to whom Morris described the gas cooker.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 35.41813,
+  "lon": -77.57354,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "891 Morris BBQ Rd",
+  "city": "Hookerton",
+  "county": "Greene",
+  "state": "NC",
+  "postcode": "28538"
+ },
+ "links": [
+  {
+   "label": "Morris Barbeque — history",
+   "url": "https://www.morrisbarbeque.com/history.html"
+  },
+  {
+   "label": "Morris Barbeque — Southern Foodways Alliance oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/morris-barbeque/"
+  },
+  {
+   "label": "Storm damages Morris BBQ — WITN (July 2026)",
+   "url": "https://www.witn.com/2026/07/12/storm-damages-morris-bbq-hookerton-forcing-rare-saturday-closure/"
+  }
+ ],
+ "sources": [
+  "s:sfa-morris-barbeque",
+  "s:web-morris-barbeque",
+  "s:web-witn-morris-storm-2026",
+  "s:web-wcti-morris-repairs-2026",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:sfa-morris-barbeque"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:sfa-morris-barbeque",
+    "note": "The 1931 cart and the charcoal-and-corncob pit are the restaurant's own history page; the mule and the horse-and-buggy are the two accounts, unreconciled. The storm and the repairs are WITN (July 12, 2026) and WCTI (July 28 and September 2, 2026)."
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:sfa-morris-barbeque",
+    "note": "Gas, in the owner's own words to the SFA in 2011, against his own history page's description of his grandfather's wood. A 2019 visitor blog found no smoke flavour and was told the flavour is in the sauce."
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wcti-morris-repairs-2026",
+    "note": "Last confirmed status September 2, 2026; status since is not on this disk."
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the OSM barbecue harvest; Nominatim matched the restaurant object at the street address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-morris-barbeque"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:sfa-morris-barbeque",
+   "tier": "cited",
+   "note": "Owner's own words to the SFA in 2011: whole hogs, hams and shoulders, cooked about six and a half hours."
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-morris-barbeque",
+   "tier": "cited",
+   "note": "Saturday only, take-out from 8 a.m. and dine-in from 9:30 to 2, every Saturday of the year but Christmas Eve, Christmas Day and the day after."
+  },
+  {
+   "tag": "sold-out-closes",
+   "source": "s:sfa-morris-barbeque",
+   "tier": "cited",
+   "note": "Owner's own words: 'most of the time by 1:00 or 1:30 we—we're out of barbecue', and the skins go first."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-morris-barbeque",
+   "tier": "cited",
+   "note": "Founded by Willie McKinley Morris and his wife Frances; carried on by grandson William Morris Jr. and great-granddaughter Ashley Morris Godley, who manages."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-morris-barbeque",
+   "year": 2011,
+   "url": "https://www.southernfoodways.org/interview/morris-barbeque/",
+   "note": "William Morris Jr., interviewed by Rien T. Fertel, November 26, 2011, 57 minutes, for the Southern BBQ Trail project."
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A Saturday-only whole-hog house on Morris BBQ Road outside Hookerton, in Greene County, in business since 1956; the county named the road for it.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style of its plate: whole hog chopped, vinegar and pepper, in the Coastal Plain.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut — hams and shoulders from the same pig, chopped together.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the cooker its owner describes: a one-off gas machine out of Wilson with the burners offset from the meat.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "the first thing it sells out of every Saturday; they have to be ordered ahead.",
+   "rel": "serves"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded William Morris Jr. here on November 26, 2011 for its North Carolina barbecue project.",
+   "rel": "org"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "the interviewer who took the oral history in 2011, and to whom Morris described the gas cooker.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:sfa-morris-barbeque",
+   "kind": "oral-history",
+   "title": "Morris Barbeque — William Morris Jr., interviewed by Rien T. Fertel, November 26, 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/morris-barbeque/",
+   "accessed": "2026-09-16",
+   "note": "57 minutes, Southern BBQ Trail — North Carolina. Transcript at /wp-content/uploads/NorthCarolinaBBQ_Morris.pdf"
+  },
+  {
+   "id": "s:web-morris-barbeque",
+   "kind": "web",
+   "title": "Morris Barbeque — history",
+   "publisher": "Morris Barbeque, Hookerton",
+   "url": "https://www.morrisbarbeque.com/history.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-witn-morris-storm-2026",
+   "kind": "web",
+   "title": "Storm damages Morris BBQ in Hookerton, forcing rare Saturday closure",
+   "author": "Hailey Hollinger",
+   "publisher": "WITN",
+   "year": 2026,
+   "url": "https://www.witn.com/2026/07/12/storm-damages-morris-bbq-hookerton-forcing-rare-saturday-closure/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wcti-morris-repairs-2026",
+   "kind": "web",
+   "title": "Storm damage repairs and added improvements push back Morris Barbeque return",
+   "author": "Michelle Pumphrey",
+   "publisher": "WCTI 12",
+   "year": 2026,
+   "url": "https://wcti12.com/news/local/storm-damage-repairs-and-added-improvements-push-back-morris-barbeque-return",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:sfa-morris-barbeque"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:sfa-morris-barbeque",
+   "note": "The 1931 cart and the charcoal-and-corncob pit are the restaurant's own history page; the mule and the horse-and-buggy are the two accounts, unreconciled. The storm and the repairs are WITN (July 12, 2026) and WCTI (July 28 and September 2, 2026)."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:sfa-morris-barbeque"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-wcti-morris-repairs-2026",
+   "note": "Last confirmed status September 2, 2026; status since is not on this disk."
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the OSM barbecue harvest; Nominatim matched the restaurant object at the street address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-morris-barbeque"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:sfa-morris-barbeque",
+   "note": "Owner's own words to the SFA in 2011: whole hogs, hams and shoulders, cooked about six and a half hours.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "weekends-only",
+   "label": "Weekends only",
+   "icon": "📅",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-morris-barbeque",
+   "note": "Saturday only, take-out from 8 a.m. and dine-in from 9:30 to 2, every Saturday of the year but Christmas Eve, Christmas Day and the day after.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "sold-out-closes",
+   "label": "Closes when sold out",
+   "icon": "⏳",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:sfa-morris-barbeque",
+   "note": "Owner's own words: 'most of the time by 1:00 or 1:30 we—we're out of barbecue', and the skins go first.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-morris-barbeque",
+   "note": "Founded by Willie McKinley Morris and his wife Frances; carried on by grandson William Morris Jr. and great-granddaughter Ashley Morris Godley, who manages.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "https://www.southernfoodways.org/interview/morris-barbeque/",
+   "year": 2011,
+   "source": "s:sfa-morris-barbeque"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": []
+}

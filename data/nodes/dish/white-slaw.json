@@ -1,0 +1,246 @@
+{
+ "schema": 1,
+ "id": "white-slaw",
+ "type": "dish",
+ "names": {
+  "name": "white slaw",
+  "aliases": [
+   "coleslaw",
+   "slaw",
+   "cole slaw",
+   "mayonnaise slaw",
+   "eastern slaw",
+   "sweet slaw"
+  ],
+  "said": "In the east it is just 'slaw'; 'white slaw' is what a Lexington counter calls it when it offers both."
+ },
+ "region": [
+  "nc-east",
+  "nc",
+  "sc",
+  "carolinas"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "eastern-nc",
+   "sc-pee-dee",
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "Finely chopped cabbage in a dressing of mayonnaise or whipped salad dressing, sweet and pale: the slaw of eastern North Carolina and of most of South Carolina. It goes on the tray beside the chopped whole hog and on the bun of the sandwich, where its sweetness sets off the vinegar and pepper of the meat. Eastern pits use mayonnaise almost universally; NCpedia lists white or yellow coleslaw among the eastern sides, the yellow taking mustard. The name exists only where the red slaw does. Everywhere else in the state this is coleslaw, from the Dutch koolsla, cabbage salad.",
+  "story": "Coleslaw came to the colonies with the Dutch — the 1667 cookbook De Verstandige Kock gives a landlady's recipe of cabbage strips in melted butter, vinegar and oil — and the word is Dutch too, koolsla, cabbage salad, in American English by 1794 and spelled 'cold slaw' by ear until the 1860s. The mayonnaise version is younger than the word, since mayonnaise itself dates from the mid-eighteenth century, and it is the version the South took up, with buttermilk slaw a Southern variant. In North Carolina the coleslaw is fine-chopped and vinegary and served with barbecue; in the east it is dressed with mayonnaise or whipped salad dressing almost without exception and put on the bun of the sandwich, the way Memphis puts slaw on its pork sandwich. The South Carolina plate — pork, rice, hash, coleslaw, sweet pickles, white bread, iced tea — carries the same slaw beside mustard-sauced pork. *Tradition holds —* the sweetness is the point: against a whole hog dressed with vinegar and pepper, the slaw is the sweet thing on the tray.",
+  "how": "Cabbage chopped fine, often with a little carrot or onion, dressed with mayonnaise or whipped salad dressing, sugar, vinegar, salt and pepper, and chilled until it weeps a little. Eastern pits chop it nearly as fine as the meat so the two mix on the bun. A yellow slaw takes mustard in the dressing. Served cold beside the hot pork on the tray, spooned on the sandwich, and on hot dogs across the Coastal Plain.",
+  "today": "Sam Jones BBQ lists a sweet slaw (2026); Skylight Inn serves its tray with slaw and cornbread; the Lexington pits keep a white slaw for those who ask. South Carolina buffets put it beside hash and rice."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style whose slaw this is, mayonnaise-dressed against the vinegar of the meat.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "on the South Carolina plate beside hash, rice, pickles and white bread.",
+   "rel": "whole"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the Piedmont's slaw, dressed with dip instead of mayonnaise; the word 'white' exists to tell them apart.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "goes on the bun over the meat in the east.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "fills the other side of an eastern tray.",
+   "rel": "part"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "on the tray with barbecue and cornbread.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "listed as sweet slaw.",
+   "rel": "served-at"
+  },
+  {
+   "to": "slaw",
+   "as": "the word, Dutch koolsla clipped.",
+   "rel": "term"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sharpness the slaw's sweetness answers on the same tray.",
+   "rel": "kin"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "its neighbour on a South Carolina buffet plate.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "red-slaw",
+   "tell": "White slaw is pale and creamy with mayonnaise; red slaw is pink with ketchup or dip and has none. White is the east and South Carolina; red is Lexington."
+  }
+ ],
+ "links": [
+  {
+   "label": "Coleslaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coleslaw"
+  },
+  {
+   "label": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina"
+  }
+ ],
+ "sources": [
+  "s:wp-coleslaw",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-red-slaw",
+  "s:ncpedia-barbecue",
+  "s:wp-barbecue-sandwich",
+  "s:web-scencyclopedia-hash",
+  "s:web-samjones-menu",
+  "s:wp-skylight-inn-bbq",
+  "s:web-leisuregrouptravel-lexington",
+  "s:etymonline",
+  "s:wikibooks-coleslaw-i",
+  "s:wikibooks-coleslaw-ii",
+  "s:book-housekeeping-in-old-virginia",
+  "s:book-dixie-cookery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-coleslaw",
+    "note": "the last sentence is marked tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the dressing and the fine chop are general knowledge; the yellow slaw from NCpedia"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-samjones-menu"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-coleslaw-i",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Coleslaw I",
+   "source": "s:wikibooks-coleslaw-i",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AColeslaw_I",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "4 tablespoons mayonnaise or 2 dL olive oil",
+    "¼–½ cup (about 50–100ml) cider vinegar (optional)",
+    "1 head white cabbage",
+    "1 medium red onion, thinly sliced"
+   ],
+   "text": "1. If adding cider vinegar, add it to the mayonnaise and mix together well.\n2. Slice or shred the cabbage, as coarsely or finely as desired.\n3. In a large bowl, mix cabbage and onion together with mayonnaise.\n4. Set aside to allow the flavours to merge at least 20 minutes but preferably for a couple of hours.",
+   "yield": "6 servings",
+   "note": "The plain mayonnaise-and-cabbage form; a Carolina barbecue house chops the cabbage far finer than 'as coarsely or finely as desired' allows, and most sweeten the dressing."
+  },
+  {
+   "title": "Coleslaw II",
+   "source": "s:wikibooks-coleslaw-ii",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AColeslaw_II",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¼ head napa cabbage, shredded",
+    "¼ head red cabbage, shredded",
+    "½ cup mayonnaise",
+    "¼ cup apple cider vinegar",
+    "½ tsp freshly-ground celery seed",
+    "¼ tsp freshly-ground cumin",
+    "1 tsp freshly-ground coriander",
+    "1 tbsp dry mustard powder",
+    "Salt"
+   ],
+   "text": "1. Toss cabbage with a few big handfuls of kosher salt. Place in a colander in a bowl and let sit at room temperature 2 hours.\n2. Drain cabbage. Rinse with clean water and let them go for a spin in your salad spinner until relatively dry.\n3. Combine vinegar and spices. Microwave on high until mixture comes to a boil.\n4. Fold in mayonnaise and cabbage. Chill until cold.",
+   "note": "A vinegar-and-mayonnaise slaw with celery seed and dry mustard, chilled."
+  },
+  {
+   "title": "Salad for Slaw",
+   "source": "s:book-housekeeping-in-old-virginia",
+   "license": "Public domain",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "author": "Marion Cabell Tyree, editor",
+   "book": "Housekeeping in Old Virginia",
+   "page": 209,
+   "text": "Stir well over the fire until as thick as custard. Let it cool and pour over cabbage. — Mrs. R. A.",
+   "ingredients": [
+    "3 eggs well beaten.",
+    "Nearly a cup of sugar.",
+    "1 tablespoonful butter.",
+    "1 tablespoonful mustard.",
+    "Pepper and salt to your taste.",
+    "Tumbler of milk.",
+    "Tumbler of vinegar."
+   ],
+   "note": "A boiled dressing — egg, sugar, mustard, milk and vinegar cooked to a custard — which is what a sweet white slaw was made with before jarred mayonnaise. The initials are the book's: each receipt is signed by its contributor."
+  },
+  {
+   "title": "Dressing for Cold Slaw",
+   "source": "s:book-housekeeping-in-old-virginia",
+   "license": "Public domain",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "author": "Marion Cabell Tyree, editor",
+   "book": "Housekeeping in Old Virginia",
+   "page": 210,
+   "text": "Mix together the butter, salt, pepper, sugar, mustard; add the eggs last.\n\nHave the vinegar boiling and pour it on, stirring all the time. Then pour it back in the saucepan and boil a few minutes. Pour on the slaw when cold. — Miss W.",
+   "ingredients": [
+    "1 cup of vinegar.",
+    "2 eggs well beaten.",
+    "1 teaspoonful salt.",
+    "1 teaspoonful mustard.",
+    "1 tablespoonful sugar.",
+    "1 tablespoonful butter.",
+    "A little black pepper."
+   ]
+  },
+  {
+   "title": "Cold Slaw",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "page": 33,
+   "text": "Take vinegar and water in equal proportions (unless the vinegar is very strong); add butter, the size of an egg, and a little flour. Pour into a saucepan over the fire, and stir until it is thick; then pour in the beaten yolks of two eggs, and some salt. When it has been on the fire ten minutes more, stir in the cabbage, nicely shreded with a cabbage-cutter. The cabbage must be taken up, as soon as it is hot.\n\nYou may add a saltspoonful of mustard to the sauce, if you like it. Salt the cabbage.",
+   "note": "The word is the old one: before mayonnaise reached the Southern kitchen, 'cold slaw' meant shredded cabbage under a cooked dressing of vinegar, butter and egg. This is the ancestor of the barbecue slaws, not the thing itself.",
+   "region": "North Carolina"
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

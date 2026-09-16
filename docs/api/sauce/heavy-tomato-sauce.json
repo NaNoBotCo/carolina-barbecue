@@ -1,0 +1,550 @@
+{
+ "schema": 1,
+ "id": "heavy-tomato-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "heavy tomato sauce",
+  "aliases": [
+   "tomato-and-sugar sauce",
+   "sweet red sauce",
+   "thick tomato barbecue sauce",
+   "Kansas City-style sauce"
+  ],
+  "said": "'Sweet' or 'mild' on Upstate menus; 'barbecue sauce', without qualification, to most of the country."
+ },
+ "region": [
+  "sc-upstate",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "base": "heavy-tomato",
+  "styles": [
+   "sc-heavy-tomato"
+  ]
+ },
+ "text": {
+  "what": "A thick red sauce built on tomato — ketchup, paste or sauce — sweetened with brown sugar or molasses, soured with vinegar and seasoned with spices, cooked down until it clings. It is the sauce of the western and northwestern corner of South Carolina on the state's four-sauce map: the tourism office's 'tomato-and-sugar sauce', the one it says you are most likely to find on a grocery shelf. It goes on after cooking — on the plate, on the bun, on ribs and chicken — and sits on the meat rather than soaking in.",
+  "story": "This is the national sauce at the state's edge. Heinz put out the first major bottled barbecue sauce in 1940, General Foods' Open Pit followed, Kraft came in around 1960 and advertised its way to first place, and after the war the sugar and the ingredient count of sauces climbed; the typical commercial sauce is the Kansas City kind, 'thick, reddish-brown, tomato-based, and made with sugar, vinegar, and spices', which Wikipedia's sauce history places downstream of the Piedmont's thin dip and Memphis's sauce. The South Carolina Barbeque Association says the heavy tomato sauce 'evolved only recently, that is, in the last sixty or so years', pushed by commercial brands, and Wikipedia's South Carolina article calls it 'more similar to sauces popular in other states'. *Inference —* a sauce that arrived by bottle would settle where the older sauces were thinnest on the ground, at the state's western edge, farthest from the whole-hog coast and the German Midlands. Henry's Smokehouse in Greenville makes its own tomato-based mild sauce by hand and sets a mustard-based spicy one beside it.",
+  "how": "Simmer tomato with brown sugar or molasses, vinegar, salt, black pepper and spices until it thickens. It is a finishing and table sauce: brushed on ribs and chicken near the end of cooking or served alongside, spooned over chopped pork on the plate. It is the one Carolina sauce that coats rather than soaks.",
+  "today": "Henry's Smokehouse in Greenville serves its tomato-based mild sauce beside a mustard one; national bottles fill the western shelves. Greenwood's July Festival of Discovery judges Carolina barbecue and hash under Kansas City Barbeque Society rules."
+ },
+ "kin": [
+  {
+   "to": "sc-heavy-tomato",
+   "as": "the style it names: the western and northwestern corner of South Carolina.",
+   "rel": "whole"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "the thin cousin: same color, opposite body.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the Midlands sauce that shares Upstate tables with it.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the Carolinas' oldest sauce, from which this is the furthest departure: tomato and sugar where that is vinegar and pepper.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the Piedmont's thin red sauce; Wikipedia's sauce history places Kansas City's thick one downstream of it.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "on pork butts at Henry's after twelve hours over hickory.",
+   "rel": "serves"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "as": "Greenville's tomato-based mild sauce, made by hand, beside a mustard one.",
+   "rel": "served-at"
+  },
+  {
+   "to": "festival-of-discovery",
+   "as": "Greenwood's July cook-off, judged under Kansas City Barbeque Society rules — the sanctioning body of the thick-sauce world.",
+   "rel": "event"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "light-tomato-sauce",
+   "tell": "Heavy tomato coats the meat and tastes of sugar; light tomato pours and tastes of vinegar."
+  },
+  {
+   "id": "lexington-dip",
+   "tell": "Both are red. Dip is thin and sour and soaks into the meat; heavy tomato sits on top of it."
+  }
+ ],
+ "links": [
+  {
+   "label": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce"
+  },
+  {
+   "label": "South Carolina's Four Barbecue Sauces — Discover South Carolina",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces"
+  },
+  {
+   "label": "Henry's Smokehouse — Destination BBQ",
+   "url": "https://destination-bbq.com/stores/henrys-smoke-house/"
+  }
+ ],
+ "sources": [
+  "s:web-usda-fdc-branded",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-barbecue-sauce",
+  "s:web-sc-four-sauces",
+  "s:sc-parks-sauce-map",
+  "s:web-scba-bbq-history",
+  "s:web-henrys-smokehouse",
+  "s:web-henrys-destination-bbq",
+  "s:web-discovergreenwood-festival",
+  "s:wikibooks-barbecue-sauce-kansas-city-style",
+  "s:wikibooks-barbecue-sauce-i",
+  "s:wikibooks-barbecue-sauce-sweet",
+  "s:wikibooks-barbecue-sauce-ii"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-sauce"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-sauce",
+    "note": "the commercial history and Kansas City description from the sauce article; the SCBA dating and the state article's comparison as quoted; Henry's from Destination BBQ; the settling sentence is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the recipe is the description filled out with the usual method; the coats-rather-than-soaks contrast is the sauce article's on Kansas City sauce"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-henrys-destination-bbq"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-barbecue-sauce-kansas-city-style",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Barbecue Sauce (Kansas City-style)",
+   "source": "s:wikibooks-barbecue-sauce-kansas-city-style",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Kansas_City-style%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup (235 mL) ketchup",
+    "6 tablespoons (90 mL) Worcestershire sauce",
+    "4 tablespoons (60 mL) butter or margarine",
+    "3 tablespoons (45 mL) white vinegar",
+    "1 tablespoon (15 mL) plain prepared mustard",
+    "3 tablespoons (45 mL) finely minced yellow onion",
+    "4 teaspoons (20 mL) bottled liquid smoke flavor (hickory)",
+    "¼ teaspoon (1 mL) Louisiana-style red pepper sauce",
+    "½ cup (120 mL) brown sugar",
+    "1 tablespoon (15 mL) granulated sugar",
+    "1 teaspoon (5 mL) salt"
+   ],
+   "text": "1. Combine all ingredients in a saucepan.\n2. Mix well.\n3. Simmer over low heat for 20 minutes, stirring occasionally.",
+   "yield": "8 servings",
+   "note": "The thick sweet style the up-country South Carolina sauces sit closest to: ketchup, brown sugar, Worcestershire, butter, a little vinegar, liquid smoke."
+  },
+  {
+   "title": "Barbecue Sauce I",
+   "source": "s:wikibooks-barbecue-sauce-i",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_I",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¼ cup (62.5 mL) brown sugar",
+    "1 tbsp (15 mL) garlic powder",
+    "1 tbsp (15 mL) paprika powder",
+    "2 tsp (10 mL) salt",
+    "1 heaping tsp (6.66 mL) of ground coffee beans",
+    "1 cup (250 mL) ketchup",
+    "½ cup (125 mL) water",
+    "3 tbsp (45 mL) white vinegar",
+    "A shot of whiskey or ½ shot of cognac",
+    "A squeeze of lemon juice"
+   ],
+   "text": "1. Mix everything in a pot.\n2. Let it simmer for around 30 minutes, stirring occasionally.",
+   "note": "Ketchup, brown sugar, paprika, garlic and a heaping teaspoon of ground coffee, simmered half an hour."
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving."
+  },
+  {
+   "title": "Barbecue Sauce II",
+   "source": "s:wikibooks-barbecue-sauce-ii",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_II",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup ketchup (catsup)",
+    "½ cup molasses",
+    "½ teaspoon \"concentrated\" liquid smoke flavoring"
+   ],
+   "text": "1. Mix everything in a pot.\n2. To use, heat the sauce with some pre-cooked meat in it.",
+   "note": "Three ingredients: ketchup, molasses, liquid smoke. The shortest way to the thick red end of the range."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "heavy-tomato",
+  "maker": "Ford's Foods",
+  "town": "Raleigh",
+  "state": "NC",
+  "ingredients": [
+   "Cane Sugar",
+   "Tomato Puree (Tomato Paste, Water)",
+   "Water",
+   "Apple Cider Vinegar",
+   "Vegan Worcestershire Sauce (Water, Distilled Vinegar, Sugar, Salt, Molasses, Caramel Color, Tamarind, Onion and Garlic)",
+   "Salt",
+   "Organic Yellow Mustard (Organic Distilled Vinegar, Organic Mustard Seed, Salt, Organic Turmeric, Organic Spices)",
+   "Horseradish",
+   "Lemon Juice",
+   "Molasses",
+   "Dried Onion",
+   "Xanthan Gum",
+   "Spice",
+   "Natural Smoke",
+   "Dried Garlic"
+  ],
+  "tomato_rank": 2,
+  "vinegar_rank": 4,
+  "mustard_rank": 7,
+  "sugar_rank": 1,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 6.0,
+  "sodium_mg_per_tbsp": 105.0,
+  "heat": null,
+  "source": "s:web-bonesuckin-sweet-southern",
+  "url": "https://bonesuckin.com/product/bone-suckin-sauce-sweet-southern-18-oz",
+  "accessed": "2026-09-16",
+  "note": "Sugar first, tomato second, vinegar fourth: the order runs opposite to the eastern sauce's. Six grams of sugar to the tablespoon, against about 12.6 g in a tablespoon of table sugar. Made in Raleigh, which is eastern North Carolina — the thick sauce is not confined to the state lines its name suggests. Ingredients from the maker's page, revision code 26-1; sugar and sodium from USDA FoodData Central record 1862954, which lists the same ingredients."
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A thick red sauce built on tomato — ketchup, paste or sauce — sweetened with brown sugar or molasses, soured with vinegar and seasoned with spices, cooked down until it clings.",
+ "region_terms": [
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "the style it names: the western and northwestern corner of South Carolina.",
+   "rel": "whole"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the thin cousin: same color, opposite body.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the Midlands sauce that shares Upstate tables with it.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the Carolinas' oldest sauce, from which this is the furthest departure: tomato and sugar where that is vinegar and pepper.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the Piedmont's thin red sauce; Wikipedia's sauce history places Kansas City's thick one downstream of it.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "on pork butts at Henry's after twelve hours over hickory.",
+   "rel": "serves"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "Greenville's tomato-based mild sauce, made by hand, beside a mustard one.",
+   "rel": "served-at"
+  },
+  {
+   "to": "festival-of-discovery",
+   "type": "event",
+   "name": "South Carolina Festival of Discovery",
+   "as": "Greenwood's July cook-off, judged under Kansas City Barbeque Society rules — the sanctioning body of the thick-sauce world.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-usda-fdc-branded",
+   "kind": "web",
+   "title": "FoodData Central, Branded Foods",
+   "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "Nutrition Facts and ingredient statements submitted by manufacturers. Each row in the harvest names the record it came from in source_url and its numeric id in the note. Public domain.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-sauce",
+   "kind": "wikipedia",
+   "title": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-sc-four-sauces",
+   "kind": "web",
+   "title": "South Carolina's Four Barbecue Sauces (Gwen Fowler)",
+   "publisher": "South Carolina Department of Parks, Recreation & Tourism — discoversouthcarolina.com",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sc-parks-sauce-map",
+   "kind": "web",
+   "title": "South Carolina Department of Parks, Recreation & Tourism — the four barbecue sauce regions",
+   "url": "https://discoversouthcarolina.com/",
+   "note": "the state tourism office's sauce map (mustard, vinegar-pepper, light tomato, heavy tomato)"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-henrys-smokehouse",
+   "kind": "web",
+   "title": "Henry's Smokehouse — official site",
+   "publisher": "Henry's Smokehouse, Greenville SC",
+   "url": "https://henryssmokehouse.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-henrys-destination-bbq",
+   "kind": "web",
+   "title": "Henry's Smokehouse on Wade Hampton in Greenville",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/henrys-smoke-house/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-discovergreenwood-festival",
+   "kind": "web",
+   "title": "SC Festival of Discovery",
+   "publisher": "Discover Greenwood",
+   "url": "https://discovergreenwood.com/poi/sc-festival-of-discovery/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-kansas-city-style",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce (Kansas City-style) — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Kansas_City-style%29",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-i",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce I — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_I",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-sweet",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce (Sweet) — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-ii",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce II — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_II",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-sauce"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-sauce",
+   "note": "the commercial history and Kansas City description from the sauce article; the SCBA dating and the state article's comparison as quoted; Henry's from Destination BBQ; the settling sentence is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the recipe is the description filled out with the usual method; the coats-rather-than-soaks contrast is the sauce article's on Kansas City sauce"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-henrys-destination-bbq"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "its sauce: thick, sweet, red, and the one most of the country means by barbecue sauce.",
+   "rel": "sauce"
+  },
+  {
+   "from": "bone-suckin-sauce",
+   "type": "sauce",
+   "name": "Bone Suckin' Sauce",
+   "as": "what its Sweet Southern bottle reads as: sugar first, tomato second.",
+   "rel": "whole"
+  },
+  {
+   "from": "carolina-treet",
+   "type": "sauce",
+   "name": "Carolina Treet",
+   "as": "the opposite bottle: tomato and sugar first, nothing to soak in.",
+   "rel": "contrast"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the thick sweet sauce it is not: dip is thin and sour, and soaks in.",
+   "rel": "contrast"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the thick, sweet sauce it is often taken for at the shelf; this one pours.",
+   "rel": "contrast"
+  },
+  {
+   "from": "melvins-golden-sauce",
+   "type": "sauce",
+   "name": "Melvin's Golden Sauce",
+   "as": "what the house's Sweet Red bottle is, by the owner's own description.",
+   "rel": "kin"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the sauce beside it on Upstate tables, as at Henry's in Greenville.",
+   "rel": "kin"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "the newest sauce in his account.",
+   "rel": "sauce"
+  },
+  {
+   "from": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "the sauce it calls the newest.",
+   "rel": "sauce"
+  },
+  {
+   "from": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the thick, sweet, molasses-and-brown-sugar sauce of the rest of the country and of western South Carolina — what a dip is not.",
+   "rel": "contrast"
+  }
+ ]
+}

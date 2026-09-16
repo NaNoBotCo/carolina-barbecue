@@ -1,0 +1,273 @@
+{
+ "schema": 1,
+ "id": "bum-dennis",
+ "type": "person",
+ "names": {
+  "name": "Bum Dennis",
+  "aliases": [
+   "Latham Dennis",
+   "Latham Wade 'Bum' Dennis"
+  ],
+  "sort": "Dennis, Bum"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder",
+   "family"
+  ],
+  "state": "NC",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "Latham Wade 'Bum' Dennis (June 12, 1937 – December 9, 2022) opened Bum's Restaurant in downtown Ayden in 1963 with his wife Shirley and cooked whole hogs over wood coals there for the rest of his working life, with a table of vegetables beside the barbecue that few eastern pits keep. He was of the Dennis family that counts Skilton Dennis's 1830 wagon as the start of the trade, and a kinsman of Pete Jones of the Skylight Inn. His son Larry, at the pit since he was nine, runs the restaurant.",
+  "story": "His mother could not settle on a name for weeks, and people said a man without a name would grow up to be a bum; she named him Latham, and Bum stuck. He was born in Pitt County on June 12, 1937, finished Ayden High School in 1956 and joined the Navy that year. In 1963 he and Shirley opened the restaurant that carries his nickname; he cut the wood for the pits, opened for breakfast at 5:30 and closed at nine every day but Sunday. The family's barbecue, he and Larry told Rien Fertel for the Southern Foodways Alliance in December 2011, runs back through six generations of Dennises to the wagon of 1830. 'People have been cooking with wood for 500,000 years,' Larry told Our State. 'We just never stopped.' Bum's own account of the trade, as he gave it to Fertel: 'In this type restaurant business, what you got to do you got to love it and it's a way of life. You get up every morning and that's what you do.' When Daniel Wallace visited for Our State in 2014 Bum had retired but came in to serve breakfast around five, silver handlebar moustache and all, and Shirley sat at her table with her friend Hilda Worthington; Larry arrived at four to burn oak and pecan down to coals and did everything but kill the pig. Bum died at his home, Raven Hall, on December 9, 2022, at eighty-five.",
+  "today": "Dead: December 9, 2022, at home in Ayden, aged eighty-five. Larry Dennis runs Bum's Restaurant at 566 East Third Street; the Dennis family's whole hog and vegetable table continue there."
+ },
+ "kin": [
+  {
+   "to": "bums-restaurant",
+   "as": "the restaurant he and Shirley opened in 1963; his son Larry runs it.",
+   "rel": "place"
+  },
+  {
+   "to": "skilton-dennis",
+   "as": "the ancestor whose 1830 wagon he counted his barbecue back to when the Alliance asked.",
+   "rel": "origin"
+  },
+  {
+   "to": "pete-jones",
+   "as": "his kinsman of the same Dennis line, who opened the Skylight Inn in 1947, sixteen years before Bum's.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the other Ayden pit, a few blocks away, claiming the same root; Larry says his chop is coarser.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style, with a vegetable table beside it.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, over oak and pecan coals his son burns down before dawn.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded him and Larry together at the restaurant on December 5, 2011.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "interviewed him for the Alliance in 2011.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bum's Restaurant — SFA oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/bums-restaurant/"
+  },
+  {
+   "label": "Bum's Restaurant — Our State (2014)",
+   "url": "https://www.ourstate.com/bums-restaurant/"
+  },
+  {
+   "label": "Rest in Peace, Latham 'Bum' Dennis — John Tanner's Barbecue Blog (2022)",
+   "url": "https://johntannersbbqblog.wordpress.com/2022/12/10/rest-in-peace-latham-bum-dennis/"
+  }
+ ],
+ "sources": [
+  "s:sfa-bums-restaurant",
+  "s:web-ourstate-bums",
+  "s:web-legacy-latham-dennis-obituary",
+  "s:web-tanner-bum-dennis-2022"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:sfa-bums-restaurant"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-legacy-latham-dennis-obituary",
+    "note": "birth and death dates from the obituary in The Standard, read through a search excerpt because the page refused a fetch; Larry at nine from John Tanner"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-bums",
+    "note": "the nickname, retirement, moustache, Shirley and Larry's day from Wallace (Our State 2014); the 1963 opening with Shirley, the hours and the wood from John Tanner; the quote from the SFA page; Ayden High and the Navy from the obituary excerpt"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-tanner-bum-dennis-2022",
+    "note": "the address from the place record's Our State source"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "Latham Wade 'Bum' Dennis (June 12, 1937 – December 9, 2022) opened Bum's Restaurant in downtown Ayden in 1963 with his wife Shirley and cooked whole hogs over wood coals there for the rest of his working life, with a…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bums-restaurant",
+   "type": "place",
+   "name": "Bum's Restaurant",
+   "as": "the restaurant he and Shirley opened in 1963; his son Larry runs it.",
+   "rel": "place"
+  },
+  {
+   "to": "skilton-dennis",
+   "type": "person",
+   "name": "Skilton Dennis",
+   "as": "the ancestor whose 1830 wagon he counted his barbecue back to when the Alliance asked.",
+   "rel": "origin"
+  },
+  {
+   "to": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "his kinsman of the same Dennis line, who opened the Skylight Inn in 1947, sixteen years before Bum's.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "the other Ayden pit, a few blocks away, claiming the same root; Larry says his chop is coarser.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style, with a vegetable table beside it.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, over oak and pecan coals his son burns down before dawn.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded him and Larry together at the restaurant on December 5, 2011.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed him for the Alliance in 2011.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:sfa-bums-restaurant",
+   "kind": "oral-history",
+   "title": "Bum's Restaurant — Latham 'Bum' Dennis and Larry Dennis, interviewed by Rien T. Fertel, 5 Dec 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/bums-restaurant/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-bums",
+   "kind": "web",
+   "title": "Bum's Restaurant — Our State (April 2014)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/bums-restaurant/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-legacy-latham-dennis-obituary",
+   "kind": "web",
+   "title": "Latham Dennis Obituary (1937–2022) — The Standard (Ayden), via Legacy.com",
+   "publisher": "The Standard / Legacy.com",
+   "url": "https://www.legacy.com/us/obituaries/thestandardenc/name/latham-dennis-obituary?id=38365559",
+   "accessed": "2026-09-15",
+   "note": "the page refused a direct fetch; its text was read through a search excerpt"
+  },
+  {
+   "id": "s:web-tanner-bum-dennis-2022",
+   "kind": "web",
+   "title": "Rest in Peace, Latham 'Bum' Dennis — John Tanner's Barbecue Blog (10 Dec 2022)",
+   "publisher": "John Tanner's Barbecue Blog",
+   "url": "https://johntannersbbqblog.wordpress.com/2022/12/10/rest-in-peace-latham-bum-dennis/",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-legacy-latham-dennis-obituary",
+   "note": "birth and death dates from the obituary in The Standard, read through a search excerpt because the page refused a fetch; Larry at nine from John Tanner"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-bums",
+   "note": "the nickname, retirement, moustache, Shirley and Larry's day from Wallace (Our State 2014); the 1963 opening with Shirley, the hours and the wood from John Tanner; the quote from the SFA page; Ayden High and the Navy from the obituary excerpt"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-tanner-bum-dennis-2022",
+   "note": "the address from the place record's Our State source"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bums-restaurant",
+   "type": "place",
+   "name": "Bum's Restaurant",
+   "as": "its founder, at the pit from 1963 until his death in December 2022.",
+   "rel": "person"
+  },
+  {
+   "from": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "his kinsman across town, of the same Dennis line, who opened Bum's in 1963.",
+   "rel": "kin"
+  },
+  {
+   "from": "skilton-dennis",
+   "type": "person",
+   "name": "Skilton Dennis",
+   "as": "his descendant, who gave the Southern Foodways Alliance the wagon and the date.",
+   "rel": "person"
+  }
+ ]
+}

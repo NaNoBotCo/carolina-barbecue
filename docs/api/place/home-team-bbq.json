@@ -1,0 +1,361 @@
+{
+ "schema": 1,
+ "id": "home-team-bbq",
+ "type": "place",
+ "names": {
+  "name": "Home Team BBQ",
+  "aliases": [
+   "Fiery Ron's Home Team BBQ",
+   "Home Team"
+  ],
+  "sort": "Home Team BBQ"
+ },
+ "region": [
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "2006",
+  "styles": []
+ },
+ "text": {
+  "what": "A Charleston barbecue company that began in November 2006 when Aaron Siegel, a Culinary Institute-trained cook from Atlanta, turned Bunch's, a mid-century gas station at 1205 Ashley River Road in West Ashley, into Fiery Ron's Home Team BBQ. It cooks pulled pork, ribs, brisket and smoked chicken wings with an Alabama white sauce, runs a bar known for American whiskey and frozen drinks — the Game Changer is its signature — and books live Americana, blues and bluegrass. Seven locations by 2026: West Ashley, Sullivan's Island (2009), downtown Charleston (2016), Aspen (2016), Columbia (2019), Greenville (2021) and north Mount Pleasant (2022), with more than six hundred employees.",
+  "story": "Aaron Siegel grew up in Atlanta without barbecue, went to the University of Georgia and then, in January 1997, to the Culinary Institute of America at Hyde Park; he interned at Nava in Atlanta under Kevin Rathbun, cooked in Aspen at a white-tablecloth restaurant and a burrito shop, and moved to Charleston in 2002. In 2006, with little money and much help from friends and family, he and his partners Taylor Garrigan, Tony McKie and Madison Ruckel opened in the old gas station on Ashley River Road; Garrigan was the opening sous chef and is an operating partner now. Sullivan's Island came in 2009; downtown at 126 Williman Street and Aspen, Colorado, in 2016; Columbia in 2019, Greenville in 2021, north Mount Pleasant in 2022. McKie curates the music. The company gives to Hogs for a Cause, has run the Rock the Block fundraiser since 2017 and started the Holy Smokes festival in 2021. 'There wasn't a place where you could go have a good time and hang out for a few hours, watch a game, catch a music show' with the family, Siegel told the City Paper before the twentieth anniversary in July 2026.",
+  "how": "Low and slow, in the company's phrase, on smokers at each store: pulled pork, ribs, brisket, smoked wings tossed in Alabama white sauce — *Tradition holds —* a mayonnaise-based sauce from north Alabama — pulled-pork sandwiches, barbecue tacos, tots and queso, a kids' menu. The bar carries a wide American whiskey list, frozen cocktails and craft beer; live Americana, blues and bluegrass play at several stores.",
+  "today": "Open at seven locations: the original at 1205 Ashley River Road, Charleston (West Ashley); Sullivan's Island; 126 Williman Street downtown; north Mount Pleasant; Columbia; Greenville; and Aspen, Colorado — per the company's site and the City Paper in July 2026. Checked September 15, 2026."
+ },
+ "kin": [
+  {
+   "to": "pulled-pork",
+   "as": "its pork is pulled, and called so on the menu.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "the pulled-pork sandwich is the company's named staple.",
+   "rel": "serves"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "the older West Ashley barbecue, on Savannah Highway since 1961, about a mile from the original Home Team.",
+   "rel": "kin"
+  },
+  {
+   "to": "lewis-barbecue",
+   "as": "the Texas-style house on the peninsula since 2016; Home Team's downtown store opened the same year.",
+   "rel": "kin"
+  },
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "as": "the whole-hog house on King Street, 2017 to 2026.",
+   "rel": "kin"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "as": "Greenville's older barbecue house; Home Team's Greenville store opened in 2021.",
+   "rel": "kin"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "its Rock the Block (since 2017) and Holy Smokes festival (since 2021) are the modern fundraiser barbecue.",
+   "rel": "event"
+  }
+ ],
+ "geo": {
+  "lat": 32.7969462,
+  "lon": -79.9978283,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap) match of 1205 Ashley River Rd, 2026-09-15"
+ },
+ "address": {
+  "street": "1205 Ashley River Rd",
+  "city": "Charleston",
+  "county": "Charleston",
+  "state": "SC",
+  "postcode": "29407"
+ },
+ "links": [
+  {
+   "label": "Home Team BBQ — official",
+   "url": "https://hometeambbq.com/"
+  },
+  {
+   "label": "Home Team BBQ celebrates 20 years — Charleston City Paper (2026)",
+   "url": "https://charlestoncitypaper.com/2026/07/23/home-team-bbq-celebrates-20-years/"
+  }
+ ],
+ "sources": [
+  "s:web-home-team-our-story",
+  "s:web-city-paper-home-team-20-years-2026",
+  "s:osm",
+  "s:web-truecue-sc",
+  "s:web-destination-bbq-hash-map"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-city-paper-home-team-20-years-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-city-paper-home-team-20-years-2026",
+    "note": "Siegel's biography and the partners from the company's Our Story page; dates of the stores from the City Paper"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-home-team-our-story",
+    "note": "the white-sauce definition is marked as tradition inline"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the harvest holds the Sullivan's Island, Mount Pleasant, Columbia and Greenville rows but not the original; Nominatim returned an OSM restaurant object at the Ashley River Road address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-city-paper-home-team-20-years-2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-sc",
+   "tier": "harvested",
+   "note": "True 'Cue certified at the Sullivan's Island, Charleston, Columbia and Greenville houses, read 2026-09-16.",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-hash-map",
+   "tier": "harvested",
+   "note": "Five Home Team houses carry hash on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Home Team BBQ",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  }
+ ],
+ "blurb": "A Charleston barbecue company that began in November 2006 when Aaron Siegel, a Culinary Institute-trained cook from Atlanta, turned Bunch's, a mid-century gas station at 1205 Ashley River Road in West Ashley, into Fiery…",
+ "region_terms": [
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "its pork is pulled, and called so on the menu.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the pulled-pork sandwich is the company's named staple.",
+   "rel": "serves"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "the older West Ashley barbecue, on Savannah Highway since 1961, about a mile from the original Home Team.",
+   "rel": "kin"
+  },
+  {
+   "to": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "as": "the Texas-style house on the peninsula since 2016; Home Team's downtown store opened the same year.",
+   "rel": "kin"
+  },
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "the whole-hog house on King Street, 2017 to 2026.",
+   "rel": "kin"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "Greenville's older barbecue house; Home Team's Greenville store opened in 2021.",
+   "rel": "kin"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "its Rock the Block (since 2017) and Holy Smokes festival (since 2021) are the modern fundraiser barbecue.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-home-team-our-story",
+   "kind": "web",
+   "title": "Our Story — Home Team BBQ",
+   "publisher": "Home Team BBQ (official site)",
+   "url": "https://hometeambbq.com/our-story/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-city-paper-home-team-20-years-2026",
+   "kind": "web",
+   "title": "Home Team BBQ celebrates 20 years (July 23, 2026)",
+   "publisher": "Charleston City Paper",
+   "url": "https://charlestoncitypaper.com/2026/07/23/home-team-bbq-celebrates-20-years/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-destination-bbq-hash-map",
+   "kind": "web",
+   "title": "The South Carolina BBQ Hash Map",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/",
+   "accessed": "2026-09-16",
+   "note": "147 South Carolina places named as serving hash; harvested to data/harvest/sc-hash-list.json. Hash is not a wood claim."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-city-paper-home-team-20-years-2026"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-city-paper-home-team-20-years-2026",
+   "note": "Siegel's biography and the partners from the company's Our Story page; dates of the stores from the City Paper"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-home-team-our-story",
+   "note": "the white-sauce definition is marked as tradition inline"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-city-paper-home-team-20-years-2026"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "the harvest holds the Sullivan's Island, Mount Pleasant, Columbia and Greenville rows but not the original; Nominatim returned an OSM restaurant object at the Ashley River Road address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-city-paper-home-team-20-years-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-sc",
+   "note": "True 'Cue certified at the Sullivan's Island, Charleston, Columbia and Greenville houses, read 2026-09-16.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-hash-map",
+   "note": "Five Home Team houses carry hash on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "tier": "harvested",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Home Team BBQ",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "the newer West Ashley barbecue, opened in 2006 about a mile away on Ashley River Road.",
+   "rel": "kin"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "the Charleston company's Greenville branch, since 2021.",
+   "rel": "kin"
+  },
+  {
+   "from": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "as": "the older Charleston company, from 2006, with a Greenville store in the same city as Lewis's.",
+   "rel": "kin"
+  },
+  {
+   "from": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "the older Charleston barbecue company, from 2006.",
+   "rel": "kin"
+  }
+ ]
+}

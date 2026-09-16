@@ -1,0 +1,608 @@
+{
+ "schema": 1,
+ "id": "dukes-bar-b-que",
+ "type": "place",
+ "names": {
+  "name": "Dukes Bar-B-Que",
+  "aliases": [
+   "Dukes",
+   "Duke's Bar-B-Que",
+   "Dukes Bar-B-Que Whitman",
+   "Dukes Bar-B-Que Chestnut"
+  ],
+  "said": "Dukes, no apostrophe, on the family's signs; the Whitman Street site now writes Duke's.",
+  "sort": "Dukes"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1955",
+  "fuel": "mixed",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "The name on a dozen or more buffet houses across the Midlands and Lowcountry, all descended from the sons of Manuel Dukes of Orangeburg County, who learned pit cooking from a Rowesville pitmaster and catered the county's gatherings. In Orangeburg itself the line is Earl Duke's: he opened downtown at Chestnut Street and Columbia Road in 1955 and later moved to Whitman Street, and his sister's family runs a second Dukes on Chestnut Street. Both sell from a buffet line: chopped pork in a mustard-and-ketchup 'rust' sauce, hash over rice — the Midlands' stew of pork and onion — fried and barbecued chicken, and a loaf of sliced white bread at the end.",
+  "story": "Manuel Dukes was born in rural Orangeburg County around 1875. His sons became the county's pitmasters, catering barbecues, and historians have suggested that their German descent explains the mustard in the sauce. Willie Baltzegar, a Rowesville pitmaster, taught them. In the 1950s the sons and daughters opened restaurants: Danny Dukes first, in Cope and Branchville; Earl Duke in Orangeburg in 1955, at Chestnut Street and Columbia Road, later moving to Whitman Street beside the Pepsi plant; a sister, Elma, and her husband Harry Ott on Spruill Street in North Charleston; and others in Aiken, Elloree, Smoaks, Ridgeville, Blackville and New Ellenton. The name spread past the family, and by 2017 some Dukes were family-owned and others sold. Earl's Whitman Street house passed to Harold Kittrell, a carpenter, and then to his son Tony, who told the Southern Foodways Alliance in June 2012 that 'the barbecue, hash, and rice, our sauce, sweet tea, and sliced bread are just what people come here for' and gave the sauce its name: rust gravy — sweet, ketchup-based, orange-yellow, thicker than most. The Otts opened in St. Matthews in 1965 and moved to Chestnut Street in Orangeburg ten years later; their descendants cook fifty to fifty-five pigs a week in the pit out back, Wednesday to Friday, for a buffet that is 'just barbeque, hash, rice and slaw with loaves of bread at the end'.",
+  "how": "A buffet, all you can eat, paid at the register; in March 2011 the Charleston City Paper gave the price as $10 for adults and $6 for children. Chopped pork from shoulders and hams is dressed with the rust sauce; hash — pork simmered down with onion into a reddish stew — is ladled over white rice; fried chicken, barbecue chicken, collards, butter beans, black-eyed peas, mac and cheese, fried okra, hushpuppies, corn nuggets and a loaf of Sunbeam bread fill the rest of the line. Most Dukes houses stopped burning logs decades ago and cook on gas-fired cookers with wood chips for smoke; the Chestnut Street house cooks its hogs in a pit behind the building, and takes cash only.",
+  "today": "Two houses in Orangeburg. Chestnut Street (789 Chestnut Street NE) opens Thursday to Saturday, 11 a.m. to 7 p.m. Whitman Street (1298 Whitman Street SE) lists Thursday to Saturday, 11 to 8, but its own site on September 15, 2026 reads 'temporarily closed. We plan to reopen soon.'"
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "its style: the Orangeburg mustard belt, with ketchup stirred in.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "its 'rust' sauce is mustard cut with ketchup — milder, sweeter, orange-brown.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the dish beside the pork on every Dukes line.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "chopped shoulder and ham, not the whole hog, at the Whitman Street house.",
+   "rel": "part"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "named by Tony Kittrell among the five things people come for.",
+   "rel": "serves"
+  },
+  {
+   "to": "light-bread",
+   "as": "the loaf of sliced white bread at the end of the line.",
+   "rel": "term"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "what most Dukes houses cook on now, with wood chips for smoke.",
+   "rel": "part"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "the other Orangeburg County family whose name went to Charleston.",
+   "rel": "kin"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "the Bessinger chain from the same county; the Dukes stayed on the buffet line.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "the Holly Hill house, the county's other whole-hog name.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Tony Kittrell at Whitman Street in June 2012.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 33.4903814,
+  "lon": -80.8427238,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap) match of 1298 Whitman St, 2026-09-15"
+ },
+ "address": {
+  "street": "1298 Whitman St SE",
+  "city": "Orangeburg",
+  "county": "Orangeburg",
+  "state": "SC",
+  "postcode": "29115"
+ },
+ "links": [
+  {
+   "label": "Dukes Bar-B-Que — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dukes_Bar-B-Que"
+  },
+  {
+   "label": "Dukes Bar-B-Que — Southern Foodways Alliance interview (2012)",
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/"
+  },
+  {
+   "label": "Duke's Bar-B-Que Whitman — official",
+   "url": "https://dukessc.com/"
+  }
+ ],
+ "sources": [
+  "s:wp-dukes-bar-b-que",
+  "s:web-sfa-dukes-bar-b-que",
+  "s:sfa-oral-histories",
+  "s:web-city-paper-dukes-2011",
+  "s:web-destination-bbq-dukes-chestnut",
+  "s:web-dukessc-whitman",
+  "s:wp-barbecue-in-south-carolina",
+  "s:osm",
+  "s:web-destination-bbq-hash-map"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dukes-bar-b-que"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-city-paper-dukes-2011",
+    "note": "family tree from the City Paper (2011) and Wikipedia; the Kittrell succession and quotes from the SFA page; the Ott dates and pit from Destination BBQ's Chestnut Street page"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-dukessc-whitman",
+    "note": "the Whitman Street closure notice is undated; status 'open' rests on the Chestnut Street house"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest; Nominatim returned an OSM restaurant object at the Whitman Street address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-dukessc-whitman"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "buffet",
+   "source": "s:web-city-paper-dukes-2011",
+   "tier": "cited",
+   "note": "All you can eat, paid at the register; $10 for adults and $6 for children in March 2011."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-hash-map",
+   "tier": "harvested",
+   "note": "Hash over rice on the buffet; both Orangeburg houses are on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  },
+  {
+   "tag": "cash-only",
+   "source": "s:web-destination-bbq-dukes-chestnut",
+   "tier": "cited",
+   "note": "The Chestnut Street house takes cash only; the Whitman Street house is a separate business under the same family name."
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-destination-bbq-dukes-chestnut",
+   "tier": "cited",
+   "note": "Both Orangeburg houses list Thursday to Saturday only."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-city-paper-dukes-2011",
+   "tier": "cited",
+   "note": "All the Dukes houses descend from the sons of Manuel Dukes of Orangeburg County; in Orangeburg the line is Earl Duke's, with his sister's family running the second Chestnut Street house."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the Orangeburg house",
+   "source": "s:web-sfa-dukes-bar-b-que",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/",
+   "note": "Tony Kittrell, interviewed June 4, 2012."
+  }
+ ],
+ "blurb": "The name on a dozen or more buffet houses across the Midlands and Lowcountry, all descended from the sons of Manuel Dukes of Orangeburg County, who learned pit cooking from a Rowesville pitmaster and catered the…",
+ "region_terms": [
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "its style: the Orangeburg mustard belt, with ketchup stirred in.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "its 'rust' sauce is mustard cut with ketchup — milder, sweeter, orange-brown.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the dish beside the pork on every Dukes line.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "chopped shoulder and ham, not the whole hog, at the Whitman Street house.",
+   "rel": "part"
+  },
+  {
+   "to": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "named by Tony Kittrell among the five things people come for.",
+   "rel": "serves"
+  },
+  {
+   "to": "light-bread",
+   "type": "term",
+   "name": "light bread",
+   "as": "the loaf of sliced white bread at the end of the line.",
+   "rel": "term"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "what most Dukes houses cook on now, with wood chips for smoke.",
+   "rel": "part"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "the other Orangeburg County family whose name went to Charleston.",
+   "rel": "kin"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "the Bessinger chain from the same county; the Dukes stayed on the buffet line.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "as": "the Holly Hill house, the county's other whole-hog name.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded Tony Kittrell at Whitman Street in June 2012.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-dukes-bar-b-que",
+   "kind": "wikipedia",
+   "title": "Dukes Bar-B-Que — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dukes_Bar-B-Que",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1373146410"
+  },
+  {
+   "id": "s:web-sfa-dukes-bar-b-que",
+   "kind": "web",
+   "title": "Dukes Bar-B-Que — Tony Kittrell, interviewed by Rien Fertel, June 4, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-oral-histories",
+   "kind": "oral-history",
+   "title": "Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina)",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "note": "interviews with pitmasters and owners; cite the individual interview page in the record's links"
+  },
+  {
+   "id": "s:web-city-paper-dukes-2011",
+   "kind": "web",
+   "title": "An Orangeburg family spawns a loosely connected barbecue empire across S.C. (March 2, 2011)",
+   "publisher": "Charleston City Paper",
+   "url": "https://charlestoncitypaper.com/2011/03/02/an-orangeburg-family-spawns-a-loosely-connected-barbecue-empire-across-s-c/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-destination-bbq-dukes-chestnut",
+   "kind": "web",
+   "title": "Dukes Bar-B-Que on Chestnut St. in Orangeburg",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/dukes-bar-b-que-3/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-dukessc-whitman",
+   "kind": "web",
+   "title": "Duke's Bar-B-Que Whitman — official site",
+   "publisher": "Duke's Bar-B-Que Whitman, Orangeburg",
+   "url": "https://dukessc.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-destination-bbq-hash-map",
+   "kind": "web",
+   "title": "The South Carolina BBQ Hash Map",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/",
+   "accessed": "2026-09-16",
+   "note": "147 South Carolina places named as serving hash; harvested to data/harvest/sc-hash-list.json. Hash is not a wood claim."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-dukes-bar-b-que"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-city-paper-dukes-2011",
+   "note": "family tree from the City Paper (2011) and Wikipedia; the Kittrell succession and quotes from the SFA page; the Ott dates and pit from Destination BBQ's Chestnut Street page"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-dukes-bar-b-que"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-dukessc-whitman",
+   "note": "the Whitman Street closure notice is undated; status 'open' rests on the Chestnut Street house"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest; Nominatim returned an OSM restaurant object at the Whitman Street address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-dukessc-whitman"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "buffet",
+   "label": "Buffet",
+   "icon": "🍽",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-city-paper-dukes-2011",
+   "note": "All you can eat, paid at the register; $10 for adults and $6 for children in March 2011.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-hash-map",
+   "note": "Hash over rice on the buffet; both Orangeburg houses are on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "tier": "harvested",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  },
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-dukes-chestnut",
+   "note": "The Chestnut Street house takes cash only; the Whitman Street house is a separate business under the same family name.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "weekends-only",
+   "label": "Weekends only",
+   "icon": "📅",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-dukes-chestnut",
+   "note": "Both Orangeburg houses list Thursday to Saturday only.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-city-paper-dukes-2011",
+   "note": "All the Dukes houses descend from the sons of Manuel Dukes of Orangeburg County; in Orangeburg the line is Earl Duke's, with his sister's family running the second Chestnut Street house.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the Orangeburg house",
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/",
+   "year": 2012,
+   "source": "s:web-sfa-dukes-bar-b-que"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the Orangeburg-country buffets of Manuel Dukes's descendants, from the 1950s, with mustard and 'rust' sauces.",
+   "rel": "place"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the Orangeburg buffets, with mustard and the mustard-and-ketchup 'rust'.",
+   "rel": "served-at"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "where the buffet puts out white bread and the eater builds the sandwich.",
+   "rel": "served-at"
+  },
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "on the buffet line with the butter beans and the mac and cheese.",
+   "rel": "served-at"
+  },
+  {
+   "from": "fried-okra",
+   "type": "dish",
+   "name": "fried okra",
+   "as": "on the line with the collards, the corn nuggets and the mac and cheese.",
+   "rel": "served-at"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "where hash and rice has been on the buffet since Earl Dukes opened in Orangeburg in 1955.",
+   "rel": "served-at"
+  },
+  {
+   "from": "mac-and-cheese",
+   "type": "dish",
+   "name": "mac and cheese",
+   "as": "on the buffet line with the collards and the fried okra.",
+   "rel": "served-at"
+  },
+  {
+   "from": "potato-salad",
+   "type": "dish",
+   "name": "potato salad",
+   "as": "on the buffet line with the collards and the mac and cheese.",
+   "rel": "served-at"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "named by Tony Kittrell with the barbecue, hash and rice, the sauce and the sliced bread.",
+   "rel": "served-at"
+  },
+  {
+   "from": "carolina-bar-b-que",
+   "type": "place",
+   "name": "Carolina Bar-B-Que",
+   "as": "the Orangeburg family whose hash tradition a listing traces this one to.",
+   "rel": "kin"
+  },
+  {
+   "from": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "the other Orangeburg County mustard family; the Dukes stayed on the buffet line while the Bessingers bottled.",
+   "rel": "kin"
+  },
+  {
+   "from": "shealys-bar-b-que",
+   "type": "place",
+   "name": "Shealy's Bar-B-Que",
+   "as": "the Orangeburg buffet lineage; Shealy's is the Lexington County answer, forty sides long.",
+   "rel": "kin"
+  },
+  {
+   "from": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "as": "the other Orangeburg County buffet lineage.",
+   "rel": "kin"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Tony Kittrell there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  },
+  {
+   "from": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "as": "an Orangeburg County family of German origin whose mustard sauce historians point to — the other end of the mustard belt.",
+   "rel": "place"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "whose buffet is the fixins as a list.",
+   "rel": "place"
+  },
+  {
+   "from": "light-bread",
+   "type": "term",
+   "name": "light bread",
+   "as": "whose buffets set out white bread beside the hash and rice.",
+   "rel": "place"
+  },
+  {
+   "from": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the Orangeburg family of restaurants whose buffets list pulled pork beside hash and rice.",
+   "rel": "place"
+  }
+ ]
+}

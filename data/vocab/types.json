@@ -1,0 +1,93 @@
+{
+ "note": "The nine node types and how the directory groups each one. Order here is the order on the front page.",
+ "entries": [
+  {
+   "key": "style",
+   "name": "Styles",
+   "one": "style",
+   "path": "style",
+   "blurb": "The regional traditions: what is cooked, over what, with which sauce.",
+   "group_by": "facets.state"
+  },
+  {
+   "key": "sauce",
+   "name": "Sauces",
+   "one": "sauce",
+   "path": "sauce",
+   "blurb": "The sauces and dips that mark the map.",
+   "group_by": "facets.base"
+  },
+  {
+   "key": "dish",
+   "name": "Dishes",
+   "one": "dish",
+   "path": "dish",
+   "blurb": "What is on the plate, the tray and the table.",
+   "group_by": "facets.course"
+  },
+  {
+   "key": "pit",
+   "name": "The pit",
+   "one": "pit practice",
+   "path": "pit",
+   "blurb": "Cuts, fuel, pits, tools and methods.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "place",
+   "name": "Pits and places",
+   "one": "place",
+   "path": "place",
+   "blurb": "Restaurants, stands and pit houses, past and present.",
+   "group_by": "address.state"
+  },
+  {
+   "key": "person",
+   "name": "People",
+   "one": "person",
+   "path": "person",
+   "blurb": "Pitmasters, families, writers and organizers.",
+   "group_by": "facets.role"
+  },
+  {
+   "key": "org",
+   "name": "Organizations",
+   "one": "organization",
+   "path": "org",
+   "blurb": "Societies, campaigns, trails and archives.",
+   "group_by": "facets.state"
+  },
+  {
+   "key": "event",
+   "name": "Events",
+   "one": "event",
+   "path": "event",
+   "blurb": "Festivals, fundraisers, political barbecues and competitions.",
+   "group_by": "facets.state"
+  },
+  {
+   "key": "term",
+   "name": "Words",
+   "one": "word",
+   "path": "word",
+   "blurb": "The vocabulary, with its roots.",
+   "group_by": "facets.letter"
+  },
+  {
+   "key": "art",
+   "name": "Art and signs",
+   "one": "piece",
+   "path": "art",
+   "blurb": "Pigs that serve themselves, roadside signs, prints and mascots.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "story",
+   "name": "Stories",
+   "one": "story",
+   "path": "story",
+   "blurb": "The wars, the maps and the long reads.",
+   "group_by": "facets.kind"
+  }
+ ]
+}

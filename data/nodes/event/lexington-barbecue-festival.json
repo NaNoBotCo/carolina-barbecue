@@ -1,0 +1,219 @@
+{
+ "schema": 1,
+ "id": "lexington-barbecue-festival",
+ "type": "event",
+ "names": {
+  "name": "Lexington Barbecue Festival",
+  "aliases": [
+   "the Barbecue Festival",
+   "Lexington BBQ Festival"
+  ],
+  "sort": "Lexington Barbecue Festival"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "when": "one Saturday in October; October 24, 2026",
+  "founded": "1984",
+  "status": "open",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A one-day street festival on Main Street in uptown Lexington, Davidson County, each October since 1984, built on the town's pork-shoulder barbecue: up to twenty area restaurants cook and sell, several blocks close to traffic, and hundreds of other vendors sell crafts and fudge around them. Wikipedia's article says it draws as many as 200,000 people; the first festival drew 30,000 and 3,000 pounds of barbecue, and by 1994 the count was over 100,000 and 11,000 pounds. Since 2007 it holds a title from the General Assembly — Official Food Festival of the Piedmont Triad Region of the State of North Carolina. The 2026 festival is planned for October 24.",
+  "story": "The idea came from Joe Sink Jr., publisher of Lexington's daily, The Dispatch, in 1983; the bank BB&T hired Kay Saintsing to study whether a festival could work, the study found Lexington already a weekend destination for barbecue, and the first festival was held on October 27, 1984. In 1995 the North Carolina Championship Pork Cook-Off joined it, so that Piedmont crowds could watch eastern whole-hog cooks at work in the capital of the shoulder. NC By Train sets up a temporary stop a block away for the day, served by Amtrak's Carolinian and Piedmont. The 2020 festival went virtual. The politics is the story the festival tells about itself under the heading 'Pork-Barrel Politics'. In 2006 House Bill 21 and Senate Bill 47 would have made it the official barbecue festival of North Carolina; the east read that as making Lexington the official barbecue, nearly half the state prefers the other kind, and neither bill passed. In 2007 House Bill 433 gave it the Piedmont Triad title instead — a designation that names a region and so leaves the east out of the question. Jerry Bledsoe, the 'world's leading, foremost barbecue authority' by his own account, said that Dennis Rogers of the Raleigh News & Observer, the self-styled 'oracle of the holy grub', had ruined the state's chances of distinction in barbecue. Eastern vendors turn up on Main Street each year; the article calls the controversy mild, and sometimes not so mild.",
+  "how": "One Saturday in October: Main Street closes, the restaurants set up on the street, and the plate is Lexington's — chopped or sliced shoulder with red slaw and hush puppies, the dip on the meat. Around it are four hundred or more vendors, live music on up to five stages, lumberjack games and street performers. Visitors come by car and, for the day, by train.",
+  "today": "Held each October; the 2026 date is October 24. It is listed in 1,000 Places to See in the USA & Canada Before You Die, and in 2012 U.S. News & World Report ranked Lexington fourth among the country's barbecue cities."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style it sells by the ton: shoulder, dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "on every tray on Main Street.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the slaw of the festival plate.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the bread of the festival plate.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut: 3,000 pounds the first year, 11,000 by 1994.",
+   "rel": "part"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the eastern cut demonstrated at the Pork Cook-Off since 1995.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the other North Carolina, whose legislators kept the festival from being the state's official one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "as": "the Piedmont columnist whose mock war the festival's politics inherit.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "as": "the eastern columnist on the other side of that war.",
+   "rel": "person"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "one of the society's causes.",
+   "rel": "kin"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "a Main Street pit house in the festival's town.",
+   "rel": "place"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "the festival's own politics: two failed bills in 2006 and a regional title in 2007.",
+   "rel": "event"
+  },
+  {
+   "to": "hillsborough-hog-day",
+   "as": "the state's other long-running barbecue festival, a year older.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lexington",
+   "tell": "The festival is one Saturday; the style is the town's everyday food."
+  },
+  {
+   "id": "lexington-barbecue",
+   "tell": "Lexington Barbecue is a restaurant, founded 1962; the Festival is a street event, founded 1984."
+  }
+ ],
+ "geo": {
+  "lat": 35.8261,
+  "lon": -80.251,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap): North Main Street, Lexington"
+ },
+ "address": {
+  "street": "Main Street",
+  "city": "Lexington",
+  "county": "Davidson",
+  "state": "NC",
+  "postcode": "27292"
+ },
+ "links": [
+  {
+   "label": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival"
+  }
+ ],
+ "sources": [
+  "s:wp-lexington-barbecue-festival",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-lexington-north-carolina",
+  "s:wp-barbecue-in-the-united-states",
+  "s:wp-north-carolina-barbecue-society",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lexington-barbecue-festival"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "geocoded by hand via Nominatim on 2026-09-15; the festival's own site did not resolve"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-lexington-barbecue-festival",
+    "note": "the 2026 date as the article gives it; confirm with the organizers"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "lexington-barbecue-festival/lexington-barbecue-festival-lexington-barbecue-festival-crowd-1.jpg",
+   "source": "commons",
+   "title": "File:Lexington Barbecue Festival - Crowd 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lexington_Barbecue_Festival_-_Crowd_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_Barbecue_Festival_-_Crowd_1.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown (Dennis Brown)",
+   "credit": "Own work",
+   "alt": "Lexington Barbecue Festival 25th Anniversary, a look at the crowd",
+   "date": "2008-10-25",
+   "primary": true,
+   "sha256": "627ca28ee77024c91b92fff08091f3cc954806604bd31ab5407e81f8f293d98a"
+  },
+  {
+   "file": "lexington-barbecue-festival/lexington-barbecue-festival-lexington-barbecue-festival-crowd-2.jpg",
+   "source": "commons",
+   "title": "File:Lexington Barbecue Festival - Crowd 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Lexington_Barbecue_Festival_-_Crowd_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_Barbecue_Festival_-_Crowd_2.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown (Dennis Brown)",
+   "credit": "Own work",
+   "alt": "Lexington Barbecue Festival 2008, 25th anniversary.  Shot of downtown, Main and Center, and the courthouse during the festival.  It was raining that day",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "d4dee5e9d6c7dba9d249bdf6ec8864885cb2b1c3fc9d5ff606bb201082c58f94"
+  },
+  {
+   "file": "lexington-barbecue-festival/lexington-barbecue-festival-lexington-barbecue-festival-pig-balloon.jpg",
+   "source": "commons",
+   "title": "File:Lexington Barbecue Festival - Pig balloon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Lexington_Barbecue_Festival_-_Pig_balloon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_Barbecue_Festival_-_Pig_balloon.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown (Dennis Brown)",
+   "credit": "Own work",
+   "alt": "Lexington Barbecue Festival 2008 - Most of the souvenirs are pig related, like this pig balloon.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "9eb56cb64223268ec4ba18c3a9aca584f05cb03712f6ecbeb47d5bf8c4894651"
+  },
+  {
+   "file": "lexington-barbecue-festival/lexington-barbecue-festival-lexington-barbecue-festival-more-pigs.jpg",
+   "source": "commons",
+   "title": "File:Lexington Barbecue Festival - more pigs.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Lexington_Barbecue_Festival_-_more_pigs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_Barbecue_Festival_-_more_pigs.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown (Dennis Brown)",
+   "credit": "Own work",
+   "alt": "Lexington Barbecue Festival 2008, Pigs on Parade.  Pig statues of all kinds.",
+   "date": "2008-10-25",
+   "primary": false,
+   "sha256": "34065c0e1d370c9a394eda301508cfaf375717c0499248b4e3a6f048f2a17d96"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

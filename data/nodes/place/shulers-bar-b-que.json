@@ -1,0 +1,176 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "shulers-bar-b-que",
+ "names": {
+  "name": "Shuler's Bar-B-Que",
+  "aliases": [
+   "Shuler's BBQ",
+   "Shuler's Barbecue"
+  ],
+  "sort": "Shuler's Bar-B-Que"
+ },
+ "region": [
+  "sc-pee-dee"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1996",
+  "fuel": "wood",
+  "styles": []
+ },
+ "text": {
+  "what": "An all-you-can-eat barbecue house on Highway 38 between Latta and Sellers, in Dillon County in the Pee Dee, opened in 1996 by Norton and Lynn Hughes and named for Norton's father Shuler Hughes, who made the sauce in 1956, and for their grandson of the same name. Pork cooks over wood coals; the buffet runs to more than twenty items and includes liver hash over rice. It is open Thursday to Saturday. The Barbeque Association gives it the hundred-mile designation.",
+  "story": "Shuler Hughes made the sauce in 1956. His son Norton learned the method from him and put it plainly to a visiting writer in February 2016: low and slow, and cook on wood — that was what his father taught him. Lynn Hughes traded a master's degree in education and teaching to start the restaurant with her husband in 1996, which is the sentence the business's own page uses and the reason a woman is named as an owner here rather than as a helper. The name skips a generation twice: it is the founder's father's given name and their grandson's. In 2014 the business appeared on CNBC's The Profit, and it has taken the Dillon Herald's readers' award for barbecue every year since 2008 by its own account. Payment is where the sources disagree — a visiting writer in 2016 recorded cash only and no credit cards, and Destination BBQ's page says cards and cash — so nothing is tagged here either way. A separate Shuler's Barbecue at Lake City is permanently closed and is not this business.",
+  "how": "Pork cooks low and slow over wood; chicken and ribs share the pits. The buffet is all you can eat and runs past twenty items, and the liver hash — hash made with the liver in it, as the Pee Dee makes it — goes over white rice. The house phrase for the buffet is to eat until it hurts. Whole hog is not claimed by any source read; the pit is described as shoulder-based.",
+  "today": "Open Thursday to Saturday, 11:30 a.m. to 8 p.m., at 419 Highway 38 West, between Latta and Sellers. The map point is the town of Latta, not the building: no street-level coordinate for the highway address came back from the geocoder."
+ },
+ "kin": [
+  {
+   "to": "sc-pee-dee",
+   "as": "the region it cooks in, and the vinegar-leaning country north of the Midlands mustard belt.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut the sources describe; no whole hog is claimed here.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the plate beside the barbecue, made here with the liver in it.",
+   "rel": "serves"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "gives it the hundred-mile designation, the association's highest.",
+   "rel": "org"
+  }
+ ],
+ "geo": {
+  "lat": 34.3371,
+  "lon": -79.43116,
+  "precision": "town",
+  "source": "OpenStreetMap via Nominatim — Latta town boundary"
+ },
+ "address": {
+  "street": "419 Highway 38 W",
+  "city": "Latta",
+  "county": "Dillon",
+  "state": "SC",
+  "postcode": "29565"
+ },
+ "links": [
+  {
+   "label": "Shuler's Bar-B-Que — about us",
+   "url": "https://www.shulersbbq.com/pages/about-us"
+  },
+  {
+   "label": "Shuler's BBQ, Latta — John Tanner's Barbecue Blog (2024)",
+   "url": "https://johntannersbbqblog.wordpress.com/2024/04/23/shulers-bbq-latta-south-carolina/"
+  },
+  {
+   "label": "Shuler's Barbecue — Destination BBQ",
+   "url": "https://destination-bbq.com/stores/shulers-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:web-shulers-about",
+  "s:web-johntanner-shulers-2024",
+  "s:web-destination-bbq-shulers",
+  "s:web-truecue-sc",
+  "s:web-destination-bbq-hash-map",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-shulers-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-shulers-about",
+    "note": "The 1956 sauce, the 1996 opening, Lynn Hughes's career change and the grandson's name from the business's own About page; Norton Hughes's words on wood from a visiting writer, February 29, 2016; the CNBC appearance and the Dillon Herald run reported at second hand. The payment conflict is left untagged."
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "neither the OSM harvest nor Nominatim returned a point for the Highway 38 address; the Latta town boundary stands in"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-shulers"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "woman-owned",
+   "source": "s:web-shulers-about",
+   "tier": "cited",
+   "note": "The business's own About page names Norton and Lynn Hughes as the pair who opened it in 1996 and says Lynn 'traded in her Master's degree in Education and Teaching' to do it.",
+   "since": "1996"
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-johntanner-shulers-2024",
+   "tier": "cited",
+   "note": "Norton Hughes, quoted February 29, 2016: 'Low and slow, and cook on wood. That's what he taught me.' Also on the True 'Cue SC certified list, read 2026-09-16."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-destination-bbq-shulers",
+   "tier": "cited",
+   "note": "All you can eat, past twenty items; the house phrase is to eat until it hurts."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-johntanner-shulers-2024",
+   "tier": "cited",
+   "note": "Liver hash over rice, described by a visiting writer on April 23, 2024; on Destination BBQ's South Carolina hash map, read 2026-09-16."
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-destination-bbq-shulers",
+   "tier": "cited",
+   "note": "Thursday to Saturday, 11:30 to 8."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-shulers-about",
+   "tier": "cited",
+   "note": "Three generations of Hugheses: Shuler made the sauce in 1956, his son Norton and Norton's wife Lynn opened the restaurant in 1996, and their grandson carries the founder's name."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Shuler's BBQ, Latta",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "scba",
+   "what": "given the hundred-mile designation, the association's highest",
+   "source": "s:web-destination-bbq-shulers"
+  },
+  {
+   "by": "other",
+   "what": "featured on CNBC's The Profit",
+   "source": "s:web-johntanner-shulers-2024",
+   "year": 2014,
+   "note": "Reported at second hand; the broadcast date is not on this disk."
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,107 @@
+{
+ "note": "Who recognizes pits. A recognition is counted once per recognizer per place. The count is a fact about attention paid; it is not this project's ranking.",
+ "entries": [
+  {
+   "key": "james-beard",
+   "label": "James Beard Foundation",
+   "what": "America's Classics; Best Chef awards",
+   "url": "https://www.jamesbeard.org/"
+  },
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "the trail of wood-cooking pits",
+   "url": "https://www.ncbbqsociety.com/"
+  },
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pits",
+   "url": "https://www.truecue.org/"
+  },
+  {
+   "key": "scba",
+   "label": "South Carolina Barbeque Association",
+   "what": "the SC barbecue trail and judging",
+   "url": "https://scbarbeque.com/"
+  },
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "https://www.southernfoodways.org/"
+  },
+  {
+   "key": "garner",
+   "label": "Bob Garner's books",
+   "what": "a chapter or profile",
+   "url": ""
+  },
+  {
+   "key": "reed-holy-smoke",
+   "label": "Holy Smoke (Reed & Reed)",
+   "what": "named in the book",
+   "url": ""
+  },
+  {
+   "key": "fertel",
+   "label": "The One True Barbecue (Fertel)",
+   "what": "a chapter",
+   "url": ""
+  },
+  {
+   "key": "miller-black-smoke",
+   "label": "Black Smoke (Miller)",
+   "what": "named in the book",
+   "url": ""
+  },
+  {
+   "key": "michelin",
+   "label": "Michelin Guide",
+   "what": "Bib Gourmand or a star",
+   "url": ""
+  },
+  {
+   "key": "southern-living",
+   "label": "Southern Living",
+   "what": "a South's Best list",
+   "url": ""
+  },
+  {
+   "key": "garden-and-gun",
+   "label": "Garden & Gun",
+   "what": "a feature or list",
+   "url": ""
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": ""
+  },
+  {
+   "key": "eater",
+   "label": "Eater",
+   "what": "an essential list",
+   "url": ""
+  },
+  {
+   "key": "national-geographic",
+   "label": "National Geographic",
+   "what": "a feature",
+   "url": ""
+  },
+  {
+   "key": "nc-legislature",
+   "label": "North Carolina General Assembly",
+   "what": "a bill or resolution",
+   "url": ""
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "say what in `what`",
+   "url": ""
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "chopped",
+ "type": "term",
+ "names": {
+  "name": "chopped",
+  "aliases": ["chopped barbecue", "coarse chopped", "coarse chop", "chop", "minced", "sliced"],
+  "said": "'Chopped or sliced?' is the question at a Lexington counter, and 'coarse chopped' gets it in bigger pieces. In the east nobody asks: the whole hog is chopped, and fine."
+ },
+ "etymology": {
+  "root": "chop (v.), mid-14c., 'to cut with a quick blow', of uncertain origin, perhaps Old North French choper or Old French couper 'to cut'; the noun 'a slice of mutton, lamb or pork' from the 1630s. Coarse chopped: the same, in larger pieces. Minced: Old French mincier 'to chop in little pieces', in English cooking from the late 14c. Sliced: the far pole — not chopped at all",
+  "first_attested": "chop, verb, mid-14c. (etymonline); the counter sense is undated in the sources consulted",
+  "note": "The three-word scale — chopped, coarse chopped, sliced — is a Lexington menu's, read on 15 September 2026 at Lexington Barbecue. NCpedia gives the eastern meat as 'boned, chopped, or shredded' and the western as 'chopped or sliced pork shoulders or butts'.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": ["carolinas"],
+ "facets": {"letter": "C", "part_of_speech": "adjective"},
+ "text": {
+  "what": "The way most Carolina barbecue reaches the tray: cooked meat cut across on a block with cleavers — in the east fine enough to hold the thin vinegar sauce, in the Piedmont in larger pieces. At a Lexington counter it is an ordering word with a scale, chopped, coarse chopped, sliced, and each is a different plate from the same shoulder. 'Sliced' is the far end, the shoulder cut into slabs and not chopped at all. A whole hog is chopped all together, skin included, so that every tray gets every part.",
+  "story": "Chop is a Middle English verb of uncertain parentage, and by the 1630s a chop was a slice of pork. The barbecue sense grows out of the whole hog: once the meat comes off the bones it goes to the block, and the food writers Jane and Michael Stern called the sound of cleavers on it among the most alluring things about Carolina whole hog. NCpedia gives the eastern meat as 'boned, chopped, or shredded' and the western as 'chopped or sliced pork shoulders or butts'; the Wikipedia article has the east chopping after the meat is pulled from the bone, for a finer texture that holds the thin sauce, and Lexington serving 'pulled' or very lightly chopped, leaving strands. Melton's in Rocky Mount chopped whole hog so fine that a 1988 magazine compared it to chopped peanut butter. At Lexington Barbecue the menu on 15 September 2026 reads Chopped BBQ, Coarse Chopped BBQ and Sliced BBQ, on plate, tray or sandwich, a chopped plate at $13.40 cash. *Tradition holds —* some eastern pits call their finest chop minced. *Inference —* the scale exists at Lexington because a shoulder can be sliced to order and a whole hog cannot."
+ },
+ "kin": [
+  {"to": "lexington", "as": "the style that made chopping an ordering scale: chopped, coarse chopped, sliced, all from the shoulder.", "rel": "term"},
+  {"to": "eastern-nc", "as": "the style that chops everything — the whole hog, skin included — fine enough to hold vinegar.", "rel": "term"},
+  {"to": "chopping-block", "as": "the block the chop happens on, with cleavers; the sound of it is the sound of an eastern pit.", "rel": "part"},
+  {"to": "whole-hog", "as": "the cut that is chopped whole, crisp skin and all, so every tray gets every part of the hog.", "rel": "part"},
+  {"to": "pork-shoulder", "as": "the cut that can also be sliced; Lexington's chopped and sliced come from the same shoulder.", "rel": "part"},
+  {"to": "pulled-pork", "as": "the outsider's word for meat taken apart by hand instead of cut across with a blade.", "rel": "contrast"},
+  {"to": "outside-brown", "as": "the other counter word: the crusted outer meat, which NCpedia notes some pits keep apart as 'outside meat' from 'inside meat'.", "rel": "kin"},
+  {"to": "lexington-barbecue", "as": "whose menu lists Chopped, Coarse Chopped and Sliced BBQ — the vocabulary in one line.", "rel": "place"},
+  {"to": "meltons-barbecue", "as": "which chopped whole hog so fine a 1988 writer compared it to chopped peanut butter.", "rel": "place"},
+  {"to": "skylight-inn", "as": "where the crisp skin is chopped through the meat on the block.", "rel": "place"},
+  {"to": "barbecue-tray", "as": "the tray is chopped barbecue with slaw and no bread.", "rel": "serves"}
+ ],
+ "confusable_with": [
+  {"id": "pulled-pork", "tell": "Chopped is cut across with a blade and comes in pieces; pulled comes in strands. Sliced is neither: slabs of shoulder, a Piedmont order."}
+ ],
+ "links": [
+  {"label": "chop — Online Etymology Dictionary", "url": "https://www.etymonline.com/word/chop"},
+  {"label": "Lexington Barbecue — menu", "url": "https://www.lexbbq.com/menu"},
+  {"label": "NCpedia — Barbecue", "url": "https://www.ncpedia.org/barbecue"}
+ ],
+ "sources": ["s:etymonline", "s:ncpedia-barbecue", "s:wp-barbecue-in-north-carolina", "s:wp-whole-hog-barbecue", "s:wp-meltons-barbecue", "s:web-lexington-barbecue-menu", "s:wp-skylight-inn-bbq"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:ncpedia-barbecue"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:ncpedia-barbecue", "note": "the Sterns' remark is quoted in the Whole hog barbecue article; the menu words and price are from lexbbq.com as read 2026-09-15; 'minced' is marked tradition and the last sentence inference"},
+   "names.said": {"tier": "tradition", "note": "counter usage as heard in Lexington and the east; the words themselves are on the Lexington Barbecue menu"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

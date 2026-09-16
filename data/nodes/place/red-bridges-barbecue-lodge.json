@@ -1,0 +1,173 @@
+{
+ "schema": 1,
+ "id": "red-bridges-barbecue-lodge",
+ "type": "place",
+ "names": {
+  "name": "Red Bridges Barbecue Lodge",
+  "aliases": [
+   "Bridges Barbecue Lodge",
+   "Bridges BBQ Lodge",
+   "Red Bridges"
+  ],
+  "sort": "Red Bridges Barbecue Lodge"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1946",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The Shelby, Cleveland County, pork-shoulder house of the Bridges family, begun in 1946 by Red Bridges, an Army cook home from the war, and his wife Lyttle, and run by their daughter Debbie Bridges-Webb with her children Natalie Ramsey, who runs the front, and Chase Webb, who tends the pits overnight. Shoulders cook seven to eight hours a side over hickory and oak — no gas, no electric, the family told WBTV in 2026 — and the recipes are the ones the Bridges started with. The lodge on U.S. 74, across from the Cleveland Mall, marked eighty years in June 2026.",
+  "story": "Red Bridges came home from the Army, where he had cooked, and in 1946 began selling barbecue sandwiches from a livestock yard, the family told the Southern Foodways Alliance; the restaurant's own history calls that first venture Dedmond's Barbecue. In 1949 it became Red Bridges Barbecue Lodge, and the lodge building dates from 1953. Red died in 1966 and Lyttle ran the business after him — 'probably the first female barbecue entrepreneur in North Carolina,' her grandchildren said in 2011. Debbie, their daughter, owns it now; Natalie Ramsey and Chase Webb told the Alliance's Rien Fertel that nothing would change, 'because you don't find pit-cooked barbecue hardly anymore.' WBTV, marking the eightieth year in June 2026, found server Wanda Montgomery in her 44th year and the family planning to put the sauce in grocery stores.",
+  "how": "Pork shoulders smoke seven to eight hours on each side over hickory and oak coals, Chase Webb at the pits through the night. The barbecue is chopped or sliced and dressed with the family's sauce, unchanged since 1946 by the family's account; the plate is the Piedmont plate, red slaw and hushpuppies beside the meat.",
+  "today": "Open Wednesday to Sunday at 2000 East Dixon Boulevard (U.S. 74), Shelby, across from the Cleveland Mall, per WBTV in June 2026."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style at its western edge, in Shelby, where the dip runs a little sweeter than in Lexington.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut, seven to eight hours a side.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "its fuel; the family says no gas and no electric.",
+   "rel": "part"
+  },
+  {
+   "to": "red-slaw",
+   "as": "on the plate.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the plate.",
+   "rel": "serves"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "took the Lexington method to Shelby in the 1930s, the decade before the Bridges began.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded the third generation in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.265807,
+  "lon": -81.480884,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "2000 E Dixon Blvd",
+  "city": "Shelby",
+  "county": "Cleveland",
+  "state": "NC",
+  "postcode": "28152"
+ },
+ "links": [
+  {
+   "label": "Bridges BBQ Lodge — official",
+   "url": "https://www.bridgesbbq.com/"
+  },
+  {
+   "label": "Red Bridges Barbecue Lodge — SFA oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/red-bridges-barbecue-lodge/"
+  }
+ ],
+ "sources": [
+  "s:sfa-red-bridges-barbecue-lodge",
+  "s:web-bridgesbbq-history",
+  "s:web-wbtv-red-bridges-80",
+  "s:sfa-stameys-barbecue",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:sfa-red-bridges-barbecue-lodge"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-wbtv-red-bridges-80",
+    "note": "red slaw and hushpuppies are not named in the read sources — that sentence is the Piedmont plate as the style record describes it; verify"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wbtv-red-bridges-80"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file (the harvest's Shelby row is Alston Bridges, a different restaurant); geocoded from the street address via Nominatim"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "via Nominatim"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-wbtv-red-bridges-80",
+   "tier": "cited",
+   "note": "Shoulders cook seven to eight hours a side over hickory and oak — no gas, no electric, the family told WBTV in June 2026."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:sfa-red-bridges-barbecue-lodge",
+   "tier": "cited",
+   "note": "SFA (Rien T. Fertel, November 19, 2020) names their mother 'Lodge-owner Debbie Bridges-Webb'. The restaurant's own history page, read 2026-09-16, now says her children Natalie Ramsey and Chase Webb continue it."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-bridgesbbq-history",
+   "tier": "cited",
+   "note": "Begun in 1946 by Red Bridges and his wife Lyttle; their daughter Debbie Bridges-Webb and her children Natalie Ramsey and Chase Webb run it."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Red Bridges Barbecue Lodge",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Bridges Barbecue Lodge, Shelby",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-red-bridges-barbecue-lodge",
+   "year": 2020,
+   "url": "https://www.southernfoodways.org/interview/red-bridges-barbecue-lodge/",
+   "note": "Natalie Ramsey and Chase Webb, interviewed by Rien T. Fertel, November 19, 2020."
+  }
+ ]
+}

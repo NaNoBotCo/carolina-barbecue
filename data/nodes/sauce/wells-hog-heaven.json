@@ -1,0 +1,158 @@
+{
+ "schema": 1,
+ "id": "wells-hog-heaven",
+ "type": "sauce",
+ "names": {
+  "name": "Wells Hog Heaven Barbecue Sauce",
+  "aliases": [
+   "Hog Heaven",
+   "Wells Hog Heaven"
+  ],
+  "said": "Hog Heaven, in Pender County."
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "base": "vinegar-pepper",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A vinegar-based sauce made at Burgaw, the seat of Pender County in southeastern North Carolina, and sold in that corner of the state. The maker gives no ingredient list and no Nutrition Facts on its site, so what is on record is the description rather than the measurement: a vinegar sauce for seasoning chopped and pulled pork.",
+  "story": "The maker's account sets the sauce in the hog-killing calendar of southeastern North Carolina, when farming families processed several hogs at one event in the autumn and winter, and barbecued pigs between spring and fall for occasions and gatherings. Farmers made their own vinegar sauce to season the pork, and the choice at the grill was pulled or chopped. Wells Hog Heaven Barbecue Sauce began in 1982 at Burgaw with the Wells family. The present owners bought the business in 2008 and have since parted from the original meat store, keeping the sauce.\n\n*Inference —* the bottle sits in a gap the harvest file makes visible. Of sixty-eight bottles read on 16 September 2026, the ones a reader can measure are the ones a supermarket chain or a national manufacturer put on a shelf; the ones a pit or a family sells locally almost never publish a panel. Wells is in the second group."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style it seasons: the vinegar sauce of the Coastal Plain, here at its southeastern corner.",
+   "rel": "style"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sauce it is a bottling of, by the maker's own description.",
+   "rel": "whole"
+  },
+  {
+   "to": "hog-killing",
+   "as": "the autumn and winter event the maker's own history starts from, when several hogs were processed at once.",
+   "rel": "origin"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "one of the two ways the maker's history says the meat came off the grill; chopped is the other.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopped",
+   "as": "the other of the two.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Wells Hog Heaven — Our Story",
+   "url": "https://www.wellshogheaven.com/"
+  }
+ ],
+ "sources": [
+  "s:web-wells-our-story",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:book-virginia-house-wife",
+  "s:book-mrs-hills-new-cook-book",
+  "s:wikibooks-eastern-north-carolina-barbecue-sauce"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wells-our-story"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-wells-our-story",
+    "note": "the 1982 date, the Burgaw origin, the Wells family and the 2008 purchase are the maker's Our Story page; the closing paragraph is marked inference"
+   },
+   "profile": {
+    "tier": "cited",
+    "source": "s:web-wells-our-story",
+    "note": "nothing measured; the base is the maker's description"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-virginia-house-wife",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Pepper Vinegar",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Get one dozen pods of pepper when ripe, take out the stems, and cut them in two; put them in a kettle with three pints of vinegar, boil it away to one quart, and strain it through a sieve. A little of this is excellent in gravy of every kind, and gives a flavour greatly superior to black pepper; it is also very fine when added to each of the various catsups for fish sauce.",
+   "page": 163,
+   "note": "Peppers boiled down in vinegar and strained: the oldest written form of a Coastal Plain vinegar sauce. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar."
+  },
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171
+  },
+  {
+   "title": "Eastern North Carolina Barbecue Sauce",
+   "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¾ gallons apple cider vinegar",
+    "⅛ cup salt",
+    "¼ cup ground black pepper",
+    "¼ cup red pepper flakes",
+    "1 cup molasses",
+    "2 cups honey"
+   ],
+   "text": "1. Start with apple cider vinegar in saucepan over medium heat.\n2. Add salt, ground black pepper, crushed red pepper, molasses, and honey.\n3. Let mixture heat up, but not quite boil.\n4. Mix well.\n5. Return sauce to the jug that the vinegar came in to cool.",
+   "yield": "¾ gallon",
+   "region": "eastern North Carolina"
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "vinegar-pepper",
+  "maker": "Wells Hog Heaven",
+  "town": "Burgaw",
+  "state": "NC",
+  "ingredients": [],
+  "tomato_rank": null,
+  "vinegar_rank": null,
+  "mustard_rank": null,
+  "sugar_rank": null,
+  "serving_tbsp": null,
+  "sugar_g_per_tbsp": null,
+  "sodium_mg_per_tbsp": null,
+  "heat": null,
+  "source": "s:web-wells-our-story",
+  "url": "https://www.wellshogheaven.com/",
+  "accessed": "2026-09-16",
+  "note": "A profile with nothing measured in it. The maker's site, read 2026-09-16, prints no ingredient list and no Nutrition Facts, and no retailer page carrying the label was found. The base is the maker's own word, vinegar based, not a reading of an ingredient order. Left here so the bottle is on the page and the gap is countable."
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

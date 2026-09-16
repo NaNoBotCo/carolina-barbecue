@@ -1,0 +1,330 @@
+{
+ "schema": 1,
+ "id": "lexington-dip",
+ "type": "sauce",
+ "names": {
+  "name": "Lexington dip",
+  "aliases": [
+   "dip",
+   "Lexington-style sauce",
+   "Piedmont sauce",
+   "Western sauce",
+   "red sauce",
+   "barbecue dip"
+  ],
+  "said": "'Dip' is the Piedmont's word; a Lexington counter will not correct you for 'sauce', but the menu says dip."
+ },
+ "etymology": {
+  "root": "English dip (n.), from the verb dip, Old English dyppan, Proto-Germanic *daupejanan, a causative of *deup- 'deep'. The noun 'act of dipping' is recorded from the 1590s and the sense 'a liquid into which something is dipped' by 1825.",
+  "first_attested": "the noun sense 'liquid into which something is dipped' by 1825 (etymonline, dip n.1); no dated first use of 'dip' for the Lexington sauce found by this project",
+  "note": "*Tradition holds —* the name is from the use: the chopped meat is dipped in it, and it is thin enough to dip into rather than spread. Etymonline notes that the sense 'thick, savory sauce for dunking pieces of raw vegetables' (by 1962) is a modern re-coinage, so the barbecue dip keeps the older, thinner sense.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "base": "lexington-dip",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The Piedmont's sauce: the east's vinegar, salt, pepper and red pepper with ketchup or tomato and water added, sometimes sugar, so that it comes out thin and reddish — tangy, a little sweet or hot by the house, and every restaurant's recipe its own. It is the sauce of pork-shoulder barbecue in Lexington, Greensboro, Salisbury, Shelby and the rest of the Piedmont. It is basted on the shoulders as they cook, goes on the chopped meat at the block, stands on the table, and, in place of mayonnaise, dresses the red slaw.",
+  "story": "The dip came out of the Lexington tents. Sid Weaver sold barbecue by the old courthouse from 1919 and Jess Swicegood beside him; Warner Stamey learned from both and carried the sauce to Shelby and Greensboro, and the men he taught — Wayne Monk at Lexington Barbecue among them — carried it further. *Tradition holds —* the tomato came in with cheap ketchup after the First World War, the same years Wikipedia's sauce history gives for ketchup and sugar entering barbecue sauces generally; the South Carolina Barbeque Association dates the same vinegar-and-ketchup idea to about 1900 in the Pee Dee and the North Carolina Piedmont.\n\nThe ketchup is what the columnists fought over. Jerry Bledsoe of the Greensboro Daily News took the Piedmont's side — 'America loves ketchup' — and Dennis Rogers of the Raleigh News & Observer the east's: 'People who would put ketchup in the sauce they feed to innocent children are capable of most anything.' The joke ran for decades and reached the General Assembly over the Lexington Barbecue Festival's title in 2005–07. In Lexington the sauce is also the slaw dressing: red slaw is cabbage, vinegar, ketchup and black pepper, no mayonnaise, and the Southern Foodways Alliance's note on Bar-B-Q Center says it plainly — in Lexington, barbecue eaters don't squirt sauce, they dip.",
+  "how": "Vinegar, ketchup, water, salt, pepper and other spices, in the town's own description; red pepper flakes and sugar in many kitchens; simmered and kept warm. On the pit it is a baste for the shoulders through a ten-hour cook. At the block it is spooned into the chopped meat; at the table it comes in a bottle. For red slaw, chopped cabbage is dressed with it — the same vinegar, ketchup and pepper — instead of mayonnaise, so the slaw matches the meat.",
+  "today": "Every Lexington pit keeps its own recipe; the town's Wikipedia article calls each one 'a closely guarded secret'. Red slaw dressed with it goes on hot dogs across the Piedmont as well as on trays."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style it names: pork shoulder with dip and red slaw, in the Piedmont.",
+   "rel": "whole"
+  },
+  {
+   "to": "red-slaw",
+   "as": "dressed with the dip in place of mayonnaise — that is why it is red.",
+   "rel": "serves"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the east's sauce it grew from: vinegar, salt and pepper, before the ketchup went in.",
+   "rel": "origin"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "its South Carolina twin, which the SC Barbeque Association maps with the Piedmont.",
+   "rel": "kin"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "the thick sweet sauce it is not: dip is thin and sour, and soaks in.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the other Carolina sauce with a color: yellow to its red.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "what it is basted on through a ten-hour cook and chopped into at the block.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "on the tray at the block and in the bottle beside it.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "on the chopped pork and in the red slaw on top of it.",
+   "rel": "serves"
+  },
+  {
+   "to": "dip",
+   "as": "the word itself, with its root and its Piedmont sense.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "Wayne Monk's 'dark, rather thin' dip, neither too mild nor too fiery, in Bob Garner's description.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "where, in the Southern Foodways Alliance's line, eaters don't squirt sauce, they dip.",
+   "rel": "served-at"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "Warner Stamey's Greensboro pit, which carried the dip out of Lexington in 1953.",
+   "rel": "served-at"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "learned it in the courthouse tents and taught it to the Piedmont.",
+   "rel": "person"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "whose dip went to the 1983 economic summit at Williamsburg.",
+   "rel": "person"
+  },
+  {
+   "to": "sid-weaver",
+   "as": "the tent by the courthouse where it starts, 1919.",
+   "rel": "origin"
+  },
+  {
+   "to": "jess-swicegood",
+   "as": "the stand beside Weaver's, bought by Stamey in 1938.",
+   "rel": "origin"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "as": "its defender in print: 'America loves ketchup'.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "as": "its accuser: ketchup in sauce fed to children.",
+   "rel": "person"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "the South Carolina style built on the same sauce.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "vinegar-pepper-sauce",
+   "tell": "Any red in the bottle is dip; the east's sauce is clear. On the tray, red slaw beside the meat settles it."
+  },
+  {
+   "id": "heavy-tomato-sauce",
+   "tell": "Dip pours like vinegar and soaks in; a thick sauce that coats the meat is the grocery-shelf kind, not dip."
+  }
+ ],
+ "links": [
+  {
+   "label": "Lexington, North Carolina — Wikipedia (Barbecue)",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina"
+  },
+  {
+   "label": "dip — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/dip"
+  },
+  {
+   "label": "North Carolina BBQ — Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/north-carolina-bbq/"
+  }
+ ],
+ "sources": ["s:web-stameys-shop", "s:web-sauce-harvest-2026-09-16", 
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-lexington-north-carolina",
+  "s:wp-north-carolina-barbecue-society",
+  "s:wp-barbecue-sauce",
+  "s:wp-coleslaw",
+  "s:etymonline",
+  "s:web-ourstate-lexington-cover-up",
+  "s:web-ourstate-stameys",
+  "s:web-stameys-history",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-abc-barbecue-feud",
+  "s:web-bbqjew-defining-styles",
+  "s:web-sfa-nc-trail",
+  "s:web-scba-bbq-history",
+  "s:reed-holy-smoke",
+  "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+  "s:wikibooks-barbecue-sauce-sweet",
+  "s:book-mrs-hills-new-cook-book"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lexington-north-carolina"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-lexington-cover-up",
+    "note": "Weaver 1919 from Markovich; Swicegood and Stamey from Garner and Stamey's own history; the columnists from ABC News 2005 and BBQ Jew; the ketchup dating is marked tradition, with the SCBA and Wikipedia sauce-history dates beside it"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-lexington-north-carolina",
+    "note": "ingredients as the town's article lists them; the baste and ten-hour cook from Garner (Our State 2012); red slaw from the same article and the coleslaw article"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-lexington-north-carolina"
+   },
+   "etymology": {
+    "tier": "cited",
+    "source": "s:etymonline",
+    "note": "the root is the dictionary's; the barbecue sense is the tradition's usage, marked as such"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Eastern North Carolina Barbecue Sauce",
+   "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¾ gallons apple cider vinegar",
+    "⅛ cup salt",
+    "¼ cup ground black pepper",
+    "¼ cup red pepper flakes",
+    "1 cup molasses",
+    "2 cups honey"
+   ],
+   "text": "1. Start with apple cider vinegar in saucepan over medium heat.\n2. Add salt, ground black pepper, crushed red pepper, molasses, and honey.\n3. Let mixture heat up, but not quite boil.\n4. Mix well.\n5. Return sauce to the jug that the vinegar came in to cool.",
+   "yield": "¾ gallon",
+   "note": "The base the dip is built on: to make a Piedmont dip from it, a house adds ketchup or tomato and water and cuts the pepper back.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "The dip, as described",
+   "source": "s:wp-barbecue-in-north-carolina",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "ingredients": [
+    "vinegar",
+    "tomatoes or ketchup",
+    "water",
+    "usually red pepper flakes",
+    "salt and black pepper",
+    "sugar, in some houses"
+   ],
+   "note": "Ingredients only: the parts are a fact and may be repeated; the proportions are each pit's own and are not published. The same mixture dresses the red slaw.",
+   "region": "Lexington, North Carolina"
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving.",
+   "note": "Thicker and sweeter than a dip — a cup of ketchup to three quarters of a cup of cider vinegar, with brown sugar, mustard and Worcestershire. A dip runs the other way: mostly vinegar, with the ketchup a colouring."
+  },
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "An ancestor rather than the thing: the vinegar-and-pepper mop that the Piedmont later reddened. No tomato in it."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "heavy-tomato",
+  "maker": "Lillie's Q",
+  "town": "Chicago",
+  "state": "other",
+  "ingredients": [
+   "TOMATO SAUCE (WATER, TOMATO PASTE)",
+   "BROWN SUGAR",
+   "APPLE CIDER VINEGAR",
+   "MUSTARD (DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, TURMERIC, PAPRIKA, SPICE, GARLIC POWDER)",
+   "SUGAR",
+   "VINEGAR",
+   "SALT",
+   "CONTAINS LESS THAN 2%: APPLE JUICE CONCENTRATE",
+   "LIME JUICE CONCENTRATE",
+   "SPICES",
+   "GARLIC",
+   "ONION",
+   "AND NATURAL FLAVOR"
+  ],
+  "tomato_rank": 1,
+  "vinegar_rank": 3,
+  "mustard_rank": 4,
+  "sugar_rank": 2,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 5.0,
+  "sodium_mg_per_tbsp": 175.0,
+  "heat": null,
+  "source": "s:web-usda-fdc-branded",
+  "url": "https://fdc.nal.usda.gov/food-details/2584568/nutrients",
+  "accessed": "2026-09-16",
+  "note": "No Lexington pit publishes a Nutrition Facts panel for its dip: Lexington Barbecue, the Bar-B-Q Center, Stamey's, Red Bridges, Hursey's, Kepley's, Little Richard's, Cook's and Short Sugar's all sell bottles and none printed a label this search could read on 2026-09-16. What can be measured is the bottle that wears the style's name from outside it. Lillie's Q of Chicago sells No. 40 Western North Carolina Tomato, and it reads tomato first and brown sugar second, at 5 g of sugar per tablespoon — the Kansas City order, under the Piedmont's name. USDA FoodData Central record 2584568."
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

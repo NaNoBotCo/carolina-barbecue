@@ -1,0 +1,153 @@
+{
+ "schema": 1,
+ "id": "carolina-treet",
+ "type": "sauce",
+ "names": {
+  "name": "Carolina Treet",
+  "aliases": [
+   "Carolina Treet Cooking Barbecue Sauce",
+   "Carolina Treet Original"
+  ],
+  "said": "Treet, in Wilmington; spelled with two e's."
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "base": "other",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A Wilmington sauce that fits none of the four Carolina bases. Its label reads water, vinegar, wheat flour, salt, soybean oil, paprika, garlic, onion, xanthan gum, spices — no tomato, no mustard, no sugar. The wheat flour does what tomato paste does elsewhere: it thickens. What it tastes of is vinegar, smoke and salt, and it carries 536 milligrams of sodium in a tablespoon, the highest figure among the sixty-eight bottles this project measured. The bottle calls itself a cooking barbecue sauce, meaning it goes on during the cook rather than at the table.",
+  "story": "The label is the document. Ten ingredients, and the four that name a Carolina style — tomato, mustard, sugar, pepper — supply only the pepper, as paprika. A sauce built on vinegar and flour is a gravy's method applied to a barbecue sauce, and it is the only bottle in the harvest that works that way.\n\nThe brand is made by Legacy Family Foods, and carolinatreet.com now forwards to that company's site, which sells the Original alongside other lines. *Tradition holds —* the sauce is a Wilmington and Cape Fear fixture, poured over chicken as often as pork; the project has not found a dated founding on the record and does not assert one.",
+  "how": "Brushed on chicken, pork and ribs during cooking, which is what the words on the label direct. It is thin and it browns, and because there is no sugar in it there is nothing to burn.",
+  "today": "Sold in eastern North Carolina groceries and from Legacy Family Foods."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the region it is made and sold in, though its label matches none of that region's sauce.",
+   "rel": "style"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the eastern sauce it shares a first two ingredients with and then leaves, at the wheat flour.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-chicken",
+   "as": "what a cooking sauce with no sugar in it is brushed on.",
+   "rel": "serves"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "the opposite bottle: tomato and sugar first, nothing to soak in.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "vinegar-pepper-sauce",
+   "tell": "Both pour thin and taste of vinegar. The eastern sauce is vinegar and pepper and nothing else; Carolina Treet is thickened with wheat flour and carries oil, garlic and onion."
+  }
+ ],
+ "links": [
+  {
+   "label": "Legacy Family Foods",
+   "url": "https://legacyfamilyfoods.com/"
+  },
+  {
+   "label": "USDA FoodData Central 1849974",
+   "url": "https://fdc.nal.usda.gov/food-details/1849974/nutrients"
+  }
+ ],
+ "sources": [
+  "s:web-usda-fdc-branded",
+  "s:web-legacyfamilyfoods",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:book-mrs-hills-new-cook-book",
+  "s:book-virginia-house-wife"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:web-usda-fdc-branded"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "harvested",
+    "source": "s:web-usda-fdc-branded",
+    "note": "the reading is of the label in the USDA record; the Wilmington and Cape Fear sentence is marked tradition and no founding date is asserted"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-mrs-hills-new-cook-book",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "A period sauce thickened with butter rather than flour or tomato, and seasoned the same way — vinegar, mustard, red and black pepper. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar."
+  },
+  {
+   "title": "Pepper Vinegar",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Get one dozen pods of pepper when ripe, take out the stems, and cut them in two; put them in a kettle with three pints of vinegar, boil it away to one quart, and strain it through a sieve. A little of this is excellent in gravy of every kind, and gives a flavour greatly superior to black pepper; it is also very fine when added to each of the various catsups for fish sauce.",
+   "page": 163,
+   "note": "The vinegar-and-pepper base under a sauce that carries no tomato."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "other",
+  "maker": "Legacy Family Foods",
+  "town": "Wilmington",
+  "state": "NC",
+  "ingredients": [
+   "WATER",
+   "VINEGAR",
+   "WHEAT FLOUR",
+   "SALT",
+   "SOYBEAN OIL",
+   "PAPRIKA",
+   "GARLIC",
+   "ONION",
+   "XANTHAN GUM",
+   "SPICES"
+  ],
+  "tomato_rank": 0,
+  "vinegar_rank": 2,
+  "mustard_rank": 0,
+  "sugar_rank": 0,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 0.5,
+  "sodium_mg_per_tbsp": 535.8,
+  "heat": null,
+  "source": "s:web-usda-fdc-branded",
+  "url": "https://fdc.nal.usda.gov/food-details/1849974/nutrients",
+  "accessed": "2026-09-16",
+  "note": "USDA FoodData Central record 1849974, GTIN 07353341, 2 Tbsp (38 g) serving. The panel declares 1 g of total sugars against a list that names no sugar, which is a rounded panel counting what rides in on other ingredients. Its 536 mg of sodium per tablespoon is the highest in data/harvest/sauces.json."
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

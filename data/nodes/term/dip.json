@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "dip",
+ "type": "term",
+ "names": {
+  "name": "dip",
+  "aliases": ["Lexington dip", "barbecue dip", "the dip"],
+  "said": "'Dip' is what a Lexington pit calls the reddish sauce on its table; the same bottle dresses the red slaw. Say 'barbecue sauce' there and you are from somewhere else."
+ },
+ "etymology": {
+  "root": "dip (v.), Old English dyppan 'to plunge, immerse', from Proto-Germanic *daupejanan, a causative of *deup- 'deep'; the noun 'act of dipping' 1590s, 'liquid into which something is to be dipped' 1825; also in the 19th century 'a sweet sauce for pudding' and 'the juices and fat left after cooking meat'; the party dip of 1962 is, etymonline says, probably a re-coinage",
+  "first_attested": "noun, 'liquid into which something is dipped': 1825 (etymonline); the Lexington sense is undated in the sources consulted",
+  "note": "NCpedia's explanation of the name is service: the thin tomato sauce is served at table because sauce on meat over an open fire is a hazard, so the meat is dipped after. *Inference —* the nineteenth-century sense 'juices and fat left after cooking meat' fits a sauce that began as drippings, vinegar and pepper before ketchup was cheap.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": ["nc-piedmont"],
+ "facets": {"letter": "D", "part_of_speech": "noun"},
+ "text": {
+  "what": "The Lexington word for its sauce: vinegar, water, ketchup or tomato, salt, black and red pepper, sugar to taste — thin enough to pour, reddish rather than red. It goes on the chopped shoulder at the counter, sits on the table in a bottle, and is the dressing of the red slaw. Each pit's recipe is its own and, the town's own article says, closely guarded; the taste runs from tangy to slightly sweet or spicy. The eastern sauce is the same idea without the tomato, and is not called dip.",
+  "story": "Dip is Old English dyppan, to plunge, kin to deep. The Online Etymology Dictionary dates the noun for a liquid you dip something into to 1825, and records a nineteenth-century kitchen sense: the juices and fat left in the pan after cooking meat. NCpedia explains the Lexington name by service — the thin tomato sauce is served at the table, because sauce on meat over an open fire is a hazard, so the meat is dipped after cooking. *Inference —* the pan-juice sense fits as well: the first Piedmont dips were drippings, vinegar and pepper, and the Wikipedia article on barbecue sauce has the early homemade sauces as vinegar, salt and pepper, with ketchup and sugar arriving in the 1920s. The Wikipedia article on Lexington says the shoulder is basted in a sauce 'called dip locally' of vinegar, ketchup, water, salt and pepper; the North Carolina Barbecue Society's page has red slaw made with the barbecue sauce 'locally called dip' in place of mayonnaise. *Tradition holds —* the recipe line runs from the tent pits on the Lexington courthouse square in the 1910s to Warner Stamey and the pits his cooks opened."
+ },
+ "kin": [
+  {"to": "lexington-dip", "as": "the sauce itself; this page is only its name.", "rel": "term"},
+  {"to": "lexington", "as": "the style whose sauce goes by this word; 'Piedmont' and 'Western' style mean the same dip.", "rel": "term"},
+  {"to": "red-slaw", "as": "the slaw is red because it is dressed with the dip instead of mayonnaise.", "rel": "serves"},
+  {"to": "pork-shoulder", "as": "the cut the dip is made for, basted with it on the pit and dressed with it on the block.", "rel": "serves"},
+  {"to": "vinegar-pepper-sauce", "as": "the eastern cousin: the same vinegar and pepper without the tomato that makes a dip red, and called sauce.", "rel": "contrast"},
+  {"to": "heavy-tomato-sauce", "as": "the thick, sweet, molasses-and-brown-sugar sauce of the rest of the country and of western South Carolina — what a dip is not.", "rel": "contrast"},
+  {"to": "warner-stamey", "as": "the Lexington cook whose dip, *tradition holds*, is the ancestor of most of the others.", "rel": "person"},
+  {"to": "lexington-barbecue", "as": "a Lexington pit where the dip and the slaw come from the same kitchen, shoulders only, over oak and hickory coals.", "rel": "place"}
+ ],
+ "confusable_with": [
+  {"id": "vinegar-pepper-sauce", "tell": "Both are thin and vinegar-based. Dip has tomato or ketchup in it and is reddish; the eastern sauce has none and is clear or pepper-flecked. If the slaw beside it is red, the sauce is a dip."},
+  {"id": "heavy-tomato-sauce", "tell": "A dip pours and is tart; a heavy tomato sauce clings and is sweet. Dip is a Piedmont word; nobody calls the thick sauce a dip."}
+ ],
+ "links": [
+  {"label": "dip — Online Etymology Dictionary", "url": "https://www.etymonline.com/word/dip"},
+  {"label": "Lexington, North Carolina — Wikipedia (Barbecue)", "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina#Barbecue"},
+  {"label": "Barbecue sauce — Wikipedia (Western Carolina)", "url": "https://en.wikipedia.org/wiki/Barbecue_sauce"}
+ ],
+ "sources": ["s:etymonline", "s:wiktionary-dip", "s:ncpedia-barbecue", "s:wp-lexington-north-carolina", "s:wp-barbecue-sauce", "s:wp-north-carolina-barbecue-society", "s:wp-barbecue-in-north-carolina", "s:wp-barbecue-in-south-carolina"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-lexington-north-carolina"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:etymonline", "note": "the dates from etymonline; the service explanation from NCpedia; the drippings origin is marked inference and the Stamey lineage tradition"},
+   "names.said": {"tier": "tradition", "note": "usage: Wikipedia's Lexington and Barbecue sauce articles both say 'called dip locally'"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

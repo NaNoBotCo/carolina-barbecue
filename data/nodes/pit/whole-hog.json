@@ -1,0 +1,212 @@
+{
+ "schema": 1,
+ "id": "whole-hog",
+ "type": "pit",
+ "names": {
+  "name": "whole hog",
+  "aliases": [
+   "whole-hog barbecue",
+   "whole hog",
+   "a pig",
+   "the hog"
+  ],
+  "said": "Eastern cooks 'cook a pig' or 'put on a hog'; what comes off the block is just 'barbecue'."
+ },
+ "region": [
+  "nc-east",
+  "sc-pee-dee",
+  "carolinas"
+ ],
+ "facets": {
+  "kind": [
+   "cut",
+   "method"
+  ]
+ },
+ "text": {
+  "what": "The entire dressed pig — dressed meaning gutted and scraped of hair, the head sometimes left on — split open along the backbone, laid flat over coals and cooked as one piece, then pulled from the bones and chopped together: ham, shoulder, loin, belly and, in the Carolinas, the crisped skin. It is the oldest form of open-pit barbecue in the United States and the cut that defines eastern North Carolina and the Pee Dee of South Carolina. A hog of 80 to 120 pounds dressed weight is the usual size for a pig pickin'; restaurants choose small hogs and cook them hot so the skin crisps, and a whole animal can run to 300 pounds.",
+  "story": "Robert Moss finds the ritual barbecue of whole hogs established in the British colonies by the eighteenth century; the communal feast of whole pigs or sheep spread from Virginia into the Carolinas in the mid-1700s and fed fundraisers, church gatherings and political rallies. The Oxford Encyclopedia of Food and Drink in America calls whole hog the oldest style of open-pit barbecue in the country. The first sit-down restaurant built on it was Bob Melton's, opened at Rocky Mount in 1924; for most of the twentieth century such places had white owners and Black cooks, and new pits were founded by cooks trained at older ones. In Hemingway, South Carolina, the Scott family's variety store cooked one hog a week when Rodney Scott started at eleven and grew to seven or eight a day. The hazards are in the method: fat renders and pools in the cavity, so the meat cooks in its own fat, and a lean 'bacon hog' such as the American Yorkshire is chosen because a fat one feeds the fire. Pit fires are the common disaster; Scott's wooden cookhouse burned in November 2013 — 'shooting like a torch', the fire department told him — and the family took its hogs on the road to raise at least $100,000 to rebuild. In 2017 Daniel Vaughn of Texas Monthly counted the whole-hog restaurants of the country and found them falling: packers ship shoulders and hams, not carcasses; a whole hog costs more labor, fuel and soot than a shoulder; and much of its weight is bone and fat that cannot be sold.",
+  "how": "The carcass is split so it lies flat; the backbone may be cracked and the head split. It goes on the rack skin-side up — meat-side down, in the east's phrase — over a bed of coals and cooks for eight to twenty-four hours, most of that time unturned, before one flip to crisp the skin; at Scott's the flip comes at the eight-to-twelve-hour mark and a full-size mop bathes the meat in the family's vinegar-and-pepper sauce. The meat is not basted before the flip, though some cooks season it with a dry rub. Turning a heavy carcass takes several hands. Off the pit the meat is picked from the bones and chopped fine or pulled into threads; the eastern chop takes the crisp skin in, and the Pee Dee sometimes skins the pig first and fries the skin separately.",
+  "today": "Whole hog is the restaurant cut of the Coastal Plain and the Pee Dee — the Skylight Inn, B's, Grady's, Parker's and Wilber's in North Carolina; Scott's in Hemingway and Rodney Scott's in Charleston in South Carolina — and the cooking of most pig pickin's. Vaughn's 2017 count found fewer whole-hog restaurants each year; cooks who keep it say their customers come for the ritual."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style whose name it is: the east cooks the entire pig and chops it, skin and all.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the South Carolina region that keeps the whole hog under a vinegar-pepper sauce; the pig is sometimes skinned first and the skin fried.",
+   "rel": "whole"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the gathering built on it: a whole hog cooked for a crowd and picked off the bones by hand.",
+   "rel": "event"
+  },
+  {
+   "to": "block-pit",
+   "as": "the open cinder-block pit sized to a split carcass.",
+   "rel": "kin"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "where the coals come from on a wood pit: logs burned down in a barrel or fireplace and shoveled under the hog.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-cooker",
+   "as": "the trailer cooker that takes a whole hog on gas or charcoal at a pig pickin'.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "as": "the heat under it: coals directly beneath the carcass, not smoke drawn from a firebox.",
+   "rel": "kin"
+  },
+  {
+   "to": "chopping-block",
+   "as": "where the whole hog becomes barbecue: cleavers on a block, skin chopped through the meat.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-skins",
+   "as": "the crisp skin the eastern chop is judged on, chopped into the meat.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "what South Carolina made of the head, liver and trimmings left after the chop.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut that replaced it in the Piedmont and at most new restaurants, because packers ship shoulders, not carcasses.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hog-killing",
+   "as": "the winter slaughter that, tradition holds, once supplied the pig for the pit.",
+   "rel": "origin"
+  },
+  {
+   "to": "hog",
+   "as": "the animal, and the east's word for the carcass on the pit.",
+   "rel": "term"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "cooks its hogs heads-on over oak and hickory coals in Ayden.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "as": "the Hemingway store that went from one hog a week to seven or eight a day.",
+   "rel": "place"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "the Pee Dee pitmaster whose whole hog won a James Beard chef award in 2018.",
+   "rel": "person"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "the Wilson pitmaster who cooks whole hog because, he says, a sandwich needs shoulder, ham and belly together.",
+   "rel": "person"
+  },
+  {
+   "to": "bob-melton",
+   "as": "opened the first sit-down whole-hog restaurant, at Rocky Mount in 1924.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pork-shoulder",
+   "tell": "A chop with crisp skin and both light and dark meat through it is whole hog; a uniformly dark, moist chop with no skin is shoulder."
+  },
+  {
+   "id": "pig-pickin",
+   "tell": "Whole hog is the cut and the method; a pig pickin' is the party at which it is eaten off the bones."
+  }
+ ],
+ "links": [
+  {
+   "label": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue"
+  },
+  {
+   "label": "NPR, 2014: Rodney Scott's pit fire and the burn barrel",
+   "url": "https://www.npr.org/sections/thesalt/2014/02/04/271526910/when-his-pit-burned-down-a-southern-bbq-master-took-hogs-on-tour"
+  }
+ ],
+ "sources": [
+  "s:wp-whole-hog-barbecue",
+  "s:wp-pig-pickin",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-rodney-scott-pitmaster",
+  "s:web-npr-scott-pit-burned",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-ed-mitchell-pitmaster",
+  "s:wp-meltons-barbecue",
+  "s:web-sfa-north-carolina-bbq",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:wp-rodney-scotts-whole-hog-bbq",
+  "s:moss-barbecue-history",
+  "s:fertel-one-true-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-whole-hog-barbecue",
+    "note": "the Scott flip and mop from NPR 2014; the Pee Dee skinning from the South Carolina article; the eastern skin from the Skylight Inn article"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-historic-barbecue-trail",
+    "note": "restaurant list from the Historic Barbecue Trail and the SFA North and South Carolina projects; Rodney Scott's from its article"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "whole-hog/whole-hog-hogs-for-smoking-at-b-s-barbecue.jpg",
+   "source": "commons",
+   "title": "File:Hogs for smoking at B's Barbecue.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Hogs_for_smoking_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHogs_for_smoking_at_B%27s_Barbecue.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "City of Greenville, North Carolina",
+   "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248354286/",
+   "alt": "Hogs being prepared for whole hog barbecue at B's Barbecue in Greensville, opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+   "date": "2023-09-19 20:09:52",
+   "primary": true,
+   "sha256": "85f1c372b03f7184588c4dc4b053e8914fbee64545bc01ab411ecf36f3d9d3a4"
+  },
+  {
+   "file": "whole-hog/whole-hog-whole-hog-at-wilbur-s-barbecue.jpg",
+   "source": "commons",
+   "title": "File:Whole hog at Wilbur's Barbecue.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Whole_hog_at_Wilbur%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWhole_hog_at_Wilbur%27s_Barbecue.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Southern Foodways Alliance",
+   "credit": "https://www.flickr.com/photos/southernfoodwaysalliance/3500459983/",
+   "alt": "Wilbur's Barbecue - Goldsboro, NC\nPhoto by Amy C Evans, SFA oral historian\nFebruary 2008\n\nwww.southernfoodways.com",
+   "date": "2007-09-04 16:38:02",
+   "primary": false,
+   "sha256": "fc61fddee0dbd583e9a33d14548262c5b5ab3ae79a572c046e222d87d6c9ac29"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

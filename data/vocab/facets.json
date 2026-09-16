@@ -1,0 +1,176 @@
+{
+ "note": "Known facet keys per type, with their known values. Open: an unknown value warns, never fails. Values are the tradition's own words.",
+ "facets": {
+  "state": {
+   "types": [
+    "style",
+    "place",
+    "org",
+    "event",
+    "person",
+    "art",
+    "story"
+   ],
+   "values": [
+    "NC",
+    "SC",
+    "both",
+    "us"
+   ]
+  },
+  "meat": {
+   "types": [
+    "style",
+    "dish"
+   ],
+   "values": [
+    "whole hog",
+    "shoulder",
+    "ham",
+    "ribs",
+    "chicken",
+    "turkey",
+    "beef",
+    "mixed"
+   ]
+  },
+  "base": {
+   "types": [
+    "sauce",
+    "style"
+   ],
+   "values": [
+    "vinegar-pepper",
+    "lexington-dip",
+    "mustard",
+    "light-tomato",
+    "heavy-tomato",
+    "other"
+   ]
+  },
+  "course": {
+   "types": [
+    "dish"
+   ],
+   "values": [
+    "main",
+    "side",
+    "bread",
+    "sweet",
+    "drink",
+    "condiment"
+   ]
+  },
+  "kind": {
+   "types": [
+    "pit",
+    "art",
+    "story"
+   ],
+   "values": [
+    "cut",
+    "fuel",
+    "pit",
+    "cooker",
+    "tool",
+    "method",
+    "prep",
+    "sign",
+    "mascot",
+    "print",
+    "postcard",
+    "statue",
+    "mural",
+    "photograph",
+    "essay",
+    "map",
+    "quiz",
+    "resources"
+   ]
+  },
+  "role": {
+   "types": [
+    "person"
+   ],
+   "values": [
+    "pitmaster",
+    "founder",
+    "family",
+    "writer",
+    "scholar",
+    "organizer",
+    "cook",
+    "sauce-maker",
+    "chef"
+   ]
+  },
+  "status": {
+   "types": [
+    "place",
+    "org",
+    "event"
+   ],
+   "values": [
+    "open",
+    "closed",
+    "seasonal",
+    "unknown"
+   ]
+  },
+  "founded": {
+   "types": [
+    "place",
+    "org",
+    "event"
+   ],
+   "values": []
+  },
+  "fuel": {
+   "types": [
+    "place",
+    "style"
+   ],
+   "values": [
+    "wood",
+    "charcoal",
+    "gas",
+    "electric",
+    "mixed",
+    "unknown"
+   ]
+  },
+  "styles": {
+   "types": [
+    "place",
+    "person",
+    "dish",
+    "sauce",
+    "event"
+   ],
+   "values": []
+  },
+  "when": {
+   "types": [
+    "event"
+   ],
+   "values": []
+  },
+  "letter": {
+   "types": [
+    "term"
+   ],
+   "values": []
+  },
+  "part_of_speech": {
+   "types": [
+    "term"
+   ],
+   "values": [
+    "noun",
+    "verb",
+    "adjective",
+    "phrase"
+   ]
+  }
+ }
+}

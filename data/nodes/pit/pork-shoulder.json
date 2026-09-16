@@ -1,0 +1,235 @@
+{
+ "schema": 1,
+ "id": "pork-shoulder",
+ "type": "pit",
+ "names": {
+  "name": "pork shoulder",
+  "aliases": [
+   "shoulder",
+   "Boston butt",
+   "butt",
+   "pork butt",
+   "picnic",
+   "picnic shoulder",
+   "picnic ham"
+  ],
+  "said": "Lexington menus say 'pork shoulders'; 'butt' means the upper shoulder, not the rear of the animal."
+ },
+ "etymology": {
+  "root": "Boston + butt, a barrel: in colonial and Revolutionary-era New England butchers stored and shipped this shoulder cut in barrels called butts, and the Boston-area method of cutting it gave the cut its name. Picnic (the lower shoulder): cured on the bone it is a 'picnic ham'; no origin for the name is cited here.",
+  "first_attested": "'Boston butt' in print, 1915, in Hotel Monthly; a 1912 University of Illinois Agricultural Experiment Station bulletin records the barrels still in use for export to Germany and Denmark",
+  "note": "Folk: that the butt is the animal's hindquarter. It is not; the cut is the upper shoulder, above the picnic, and may contain the blade bone.",
+  "tier": "cited",
+  "source": "s:wp-boston-butt"
+ },
+ "region": [
+  "nc-piedmont",
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "cut"
+ },
+ "text": {
+  "what": "The front leg and shoulder of the pig, sold as one primal — a primal being one of the large first divisions of a carcass — or split in two: the butt, the upper half with the blade bone, and the picnic, the lower arm half, which cured on the bone is a 'picnic ham'. The butt's name is a barrel, not an anatomy. In the North Carolina Piedmont, shoulder is the only cut that counts as barbecue: Lexington pits salt it, lay it over oak and hickory coals for nine to twelve hours, and serve it chopped, coarse chopped or sliced under a red dip. It is darker meat than the loin and stays moist through a long cook, and it is what packers ship when they will not ship a carcass.",
+  "story": "New England butchers of the colonial and Revolutionary era stored and shipped pork in barrels called butts, and the shoulder cut they packed that way took the name of the port; a 1912 University of Illinois bulletin notes the barrels still going to Germany and Denmark, and 'Boston butt' first appears in print in 1915. In the Carolinas the cut's rise is the whole hog's decline. The Piedmont settled on shoulders early — *Tradition holds —* because a shoulder fit a small brick pit and a lunch counter's day in a way a carcass did not. By the 1980s the corporate farms replacing independent hog farms shipped butchered shoulders and hams rather than whole pigs, which pushed restaurants elsewhere the same way. Mallard Creek Presbyterian Church in Charlotte, which began in 1929 by cooking three or four pigs and a goat, told Our State in 2016: 'Now we just use the butt.' South Carolina hash, once made from heads and liver, is now mostly made from leftover shoulder.",
+  "how": "Lexington pits cook shoulders only, salted but not basted or marinated, on racks over oak and hickory coals for nine to twelve hours at about 200 to 225 degrees; the Barbecue Center puts three hundred a week through its pit. Elsewhere a butt is rubbed, smoked until it reaches 195 to 205 degrees inside, and shredded. Off the pit the Piedmont serves it three ways — chopped fine, coarse chopped in small chunks, or sliced; never pulled, at Lexington Barbecue — and dresses it with dip. *Tradition holds —* the crusted outer meat is sold apart as outside brown.",
+  "today": "Shoulder is the cut of the Piedmont's pits — Lexington Barbecue, the Barbecue Center, Stamey's, Red Bridges, Short Sugar's — and of most new restaurants in both states, because it arrives boxed from the packer; a pulled-pork menu anywhere in the country means this cut. At Lexington Barbecue a chopped tray was $8.00 cash and $8.25 by card in September 2026."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style that uses only this cut, darker and moister than the loin, under a red dip.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the older cut it displaced wherever packers stopped shipping carcasses.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chopping-block",
+   "as": "where it is chopped fine, chopped coarse or sliced.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the closed Piedmont pit a rack of shoulders fits.",
+   "rel": "kin"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "the national name for this cut smoked and shredded; Lexington chops or slices it and does not pull.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the thin vinegar-and-ketchup sauce the Piedmont puts on the chopped shoulder.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "modern South Carolina hash is mostly made from leftover shoulder.",
+   "rel": "kin"
+  },
+  {
+   "to": "mallard-creek-barbecue",
+   "as": "cooked whole pigs in 1929 and pork butts by 2016.",
+   "rel": "event"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "cooks shoulders over oak and hickory coals and serves them chopped, coarse chopped or sliced, never pulled.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "cooks three hundred shoulders a week in a three-chamber brick pit.",
+   "rel": "place"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "founded Lexington Barbecue in 1962 on this cut.",
+   "rel": "person"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "a Greensboro shoulder pit interviewed for the Southern Foodways Alliance's North Carolina project.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "a Shelby shoulder pit on the Historic Barbecue Trail.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "as": "a Reidsville shoulder pit on the Historic Barbecue Trail.",
+   "rel": "place"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pulled-pork",
+   "tell": "'Pulled pork' names a preparation of this cut; on a Lexington menu the same shoulder is 'barbecue', and it comes chopped or sliced."
+  },
+  {
+   "id": "whole-hog",
+   "tell": "Shoulder meat is all dark and has no crisp skin; a whole-hog chop mixes light meat, dark meat and skin."
+  }
+ ],
+ "links": [
+  {
+   "label": "Boston butt — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boston_butt"
+  },
+  {
+   "label": "Lexington Barbecue — menu",
+   "url": "https://www.lexbbq.com/menu/"
+  }
+ ],
+ "sources": [
+  "s:wp-boston-butt",
+  "s:wp-cut-of-pork",
+  "s:wp-pulled-pork",
+  "s:wp-north-carolina-barbecue-society",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-hash-stew",
+  "s:web-leisuregrouptravel-lexington",
+  "s:web-visitnc-lexington-barbecue",
+  "s:web-lexbbq",
+  "s:web-lexbbq-menu",
+  "s:web-ourstate-mallard-creek",
+  "s:web-sfa-north-carolina-bbq",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:wp-lexington-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-boston-butt"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-whole-hog-barbecue",
+    "note": "the Piedmont's reason for choosing shoulders is hedged inline as tradition"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-leisuregrouptravel-lexington",
+    "note": "temperatures and times from the Barbecue Center as reported by Leisure Group Travel and Visit NC; the internal temperature from the pulled pork article; outside brown hedged"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "price as posted on 2026-09-15; restaurant list from the SFA project and the Historic Barbecue Trail"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "pork-shoulder/pork-shoulder-boston-butt-cooked.jpg",
+   "source": "commons",
+   "title": "File:Boston butt, cooked.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_butt%2C_cooked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_butt%2C_cooked.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A boneless Boston butt roast, fully cooked",
+   "date": "2021-02-13 07:41:12",
+   "primary": true,
+   "sha256": "523b7474cc1d0e93eda4022826f27602e4577ac4574bdd22289c5caa642dbf27"
+  },
+  {
+   "file": "pork-shoulder/pork-shoulder-boston-butt.jpg",
+   "source": "commons",
+   "title": "File:Boston butt.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Boston_butt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_butt.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A boneless Boston butt roast",
+   "date": "2021-02-13 02:24:46",
+   "primary": false,
+   "sha256": "f03dc1cba66c7a20462e6e9dea6d315fda897af223195c5a0978ab940a96c04a"
+  },
+  {
+   "file": "pork-shoulder/pork-shoulder-boston-butt-seasoned.jpg",
+   "source": "commons",
+   "title": "File:Boston butt seasoned.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Boston_butt_seasoned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_butt_seasoned.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A seasoned Boston butt roast",
+   "date": "2021-02-13 02:29:58",
+   "primary": false,
+   "sha256": "5fbce9545781a2b2741b2a808d9cb311a162d30f64435c5602a67bcfce2e8d22"
+  },
+  {
+   "file": "pork-shoulder/pork-shoulder-pork-shoulder-picnic-roast.jpg",
+   "source": "commons",
+   "title": "File:Pork Shoulder picnic roast.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Pork_Shoulder_picnic_roast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APork_Shoulder_picnic_roast.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A pork shoulder picnic roast, cooked in an oven at 325 degrees for about 4 and 1/2 hours.",
+   "date": "2021-02-07 07:58:37",
+   "primary": false,
+   "sha256": "630d361c7d336ddcb62e662ecffd5a91e7cecfbc4996fbca80d04750a3b8564b"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

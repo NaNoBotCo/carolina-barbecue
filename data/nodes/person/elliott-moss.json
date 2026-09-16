@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "id": "elliott-moss",
+ "type": "person",
+ "names": {
+  "name": "Elliott Moss",
+  "aliases": [],
+  "sort": "Moss, Elliott"
+ },
+ "region": ["nc-mountains", "sc-pee-dee", "nc", "sc"],
+ "facets": {
+  "role": ["pitmaster", "chef", "founder"],
+  "state": "both",
+  "styles": ["eastern-nc", "sc-pee-dee"]
+ },
+ "text": {
+  "what": "Elliott Moss is a chef and whole-hog pitmaster from Florence, in the Pee Dee of South Carolina, who grew up watching his grandfather smoke hogs, moved to Asheville in 2007 to open The Admiral, and in August 2015 opened Buxton Hall Barbecue there with Meherwan Irani's Chai Pani group, bringing wood-cooked whole hog and South Carolina hash to the mountains. He left Buxton Hall in July 2022; it closed in November 2023. In 2025 he and his wife Jennifer opened Elliott's Barbecue Lounge inside Seminar Brewing in Florence, which Southern Living named the South's best new barbecue restaurant for 2026.",
+  "story": "Moss, 'a son of the low country of Florence, S.C.' in the Asheville chamber's words, learned smoke from his grandfather's whole hogs. He came to Asheville in 2007 to help open The Admiral, whose cooking put him on the James Beard Foundation's semifinalist list for Best Chef: Southeast in 2013. A first deal for a barbecue place fell through; Meherwan Irani of Chai Pani reached out within forty-eight hours, and Buxton Hall Barbecue opened in August 2015 in a 1930s roller rink on Banks Avenue on the South Slope: pasture-raised hogs from western North Carolina farms smoked over wood from ten at night to eight in the morning, hash and rice made from the pig's organs and trimmings, a fried chicken sandwich, pies on lard crusts. 'When I'm in here, I cut all the lights off except this little lamp,' he told Our State in 2016, 'and it's just like I'm outside, cooking a pig, standing in front of the burn barrel.' Bon Appétit put the restaurant ninth among the country's new restaurants in 2016 and named the sandwich its fried chicken sandwich of the year; the Beard Foundation listed him as a semifinalist again in 2017. He left Buxton Hall in July 2022, opened two West Asheville restaurants, Regina's and Little Louie's, in the summer of 2023 and left them within six weeks, and in March 2024 announced on Instagram that after seventeen years he and Jennifer were leaving Asheville to keep cooking whole hog somewhere else. The somewhere was home: Elliott's Barbecue Lounge opened inside Seminar Brewing at 551 West Lucas Street, Florence, in the spring of 2025 — pasture-raised whole hog 'cooked Pee Dee burn barrel-style', in Robert Moss's words for Southern Living, with collards, hash and rice and a buttered, grilled bun.",
+  "today": "Living. He and Jennifer Moss run Elliott's Barbecue Lounge in Florence, South Carolina, open since spring 2025; Southern Living ranked it 36th among the South's fifty barbecue restaurants in 2025 and its best new barbecue restaurant in 2026."
+ },
+ "kin": [
+  {"to": "buxton-hall-barbecue", "as": "the Asheville restaurant he opened in 2015 and left in July 2022, fifteen months before it closed.", "rel": "place"},
+  {"to": "whole-hog", "as": "the cut he has cooked from Asheville to Florence: pasture-raised, overnight, over wood.", "rel": "part"},
+  {"to": "sc-pee-dee", "as": "his home style — Florence is in the Pee Dee — and the burn-barrel method his Florence pit is described by.", "rel": "whole"},
+  {"to": "eastern-nc", "as": "the chopped whole hog at Buxton Hall was cooked the eastern way, in a city that had not had one.", "rel": "kin"},
+  {"to": "hash-and-rice", "as": "he put South Carolina hash on an Asheville plate and asked what other pits did with those parts of the pig.", "rel": "serves"},
+  {"to": "burn-barrel", "as": "the barrel he described standing in front of in the dark at Buxton Hall, and the method named for his Florence hog.", "rel": "part"}
+ ],
+ "links": [
+  {"label": "Buxton Hall Barbecue — Our State (2016)", "url": "https://www.ourstate.com/buxton-hall-barbecue-asheville/"},
+  {"label": "Elliott Moss — Charleston Wine + Food", "url": "https://chswf.org/participants/elliott-moss/"},
+  {"label": "Elliott's Barbecue Lounge Makes Florence Proud — The Smoke Sheet (2026)", "url": "https://bbqnewsletter.substack.com/p/elliotts-barbecue-lounge-south-carlolina"}
+ ],
+ "sources": [
+  "s:web-ourstate-buxton-hall",
+  "s:web-ashevillechamber-moss-2017",
+  "s:web-chswf-elliott-moss",
+  "s:web-barbecuebros-buxton-hall-2024",
+  "s:web-ashevegas-moss-shakeup-2023",
+  "s:web-smokesheet-buxton-hall-closes",
+  "s:web-wmbf-elliotts-southern-living-2026",
+  "s:web-smokesheet-elliotts-2026"
+ ],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:web-ourstate-buxton-hall"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-ourstate-buxton-hall", "note": "Florence, 2007 and the 2013 and 2017 listings from the Asheville chamber; the grandfather, Irani, the rink, the hogs and the quote from Our State (Quine, 2016); the 2022 departure, Regina's, Little Louie's and the March 2024 announcement from Barbecue Bros and Ashevegas; Florence from WMBF (Sep 2026) and The Smoke Sheet (Jan 2026), which date the opening to March and April 2025 respectively"},
+   "text.today": {"tier": "cited", "source": "s:web-wmbf-elliotts-southern-living-2026"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

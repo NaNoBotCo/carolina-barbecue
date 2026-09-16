@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "id": "festival-of-discovery",
+ "type": "event",
+ "names": {
+  "name": "South Carolina Festival of Discovery",
+  "aliases": ["Festival of Discovery", "SC Festival of Discovery", "Greenwood BBQ and Blues Festival of Discovery"],
+  "sort": "Festival of Discovery"
+ },
+ "region": ["sc-upstate", "sc"],
+ "facets": {"state": "SC", "when": "July, second weekend, Thursday to Saturday; July 9–11, 2026", "founded": "2000", "status": "open"},
+ "text": {
+  "what": "A three-day barbecue-and-blues festival in Uptown Greenwood each July — Thursday to Saturday of the second weekend; July 9 to 11 in 2026 — hosted by the Uptown Greenwood Development Corporation. Its cook-off is sanctioned by the Kansas City Barbeque Society, the national competition body, and is billed as a South Carolina state championship with a Black Kettle hash competition beside it; the barbecue vendors fill the Main Street parking lot between Court and Seaboard avenues, and the Blues Cruise puts bands in restaurants and venues around the uptown into the night. The organizers billed 2026 as the twenty-fifth anniversary; press accounts date the first festival to 2000.",
+  "story": "Greenwood is a county seat in the Old 96 District on the Piedmont side of the state, and the festival is its downtown corporation's summer event rather than a pit's or a church's. The competition is Kansas City's — KCBS judges, KCBS categories, and a date the society sets rather than the town — laid over a South Carolina crowd, with a hash kettle competition to keep the state's own dish in view and the public sampling and voting on Carolina hash, and a blues program, the Blues Cruise, run under the artistic direction of the bluesman Shrimp City Slim. *Inference —* it is the Upstate's festival in the way Lexington's is the Piedmont's, and the sanctioned cook-off, not a local pit, is its center.",
+  "how": "Thursday evening through Saturday: teams cook overnight in the Main Street lot for KCBS judging; the public samples barbecue and hash and votes; the Blues Cruise runs at venues around the uptown from late morning to midnight.",
+  "today": "Held July 9–11, 2026; the 2027 dates are July 8–10. Contact is the Uptown Greenwood office at 104 Main Street."
+ },
+ "kin": [
+  {"to": "hash-and-rice", "as": "the Black Kettle hash competition keeps the state's stew on the program.", "rel": "serves"},
+  {"to": "south-carolina-barbeque-association", "as": "not its sanctioning body; the cook-off is KCBS.", "rel": "contrast"},
+  {"to": "lexington-barbecue-festival", "as": "the other Carolina street festival: Lexington's restaurants cook, Greenwood's teams compete.", "rel": "kin"},
+  {"to": "fundraiser-barbecue", "as": "a town's event, not a plate sale; the cook-off form the SCBA's calendar is full of.", "rel": "kin"}
+ ],
+ "confusable_with": [
+  {"id": "lexington-barbecue-festival", "tell": "Lexington is one Saturday in October with restaurants on the street; Greenwood is three days in July with competition teams and a blues program."}
+ ],
+ "geo": {"lat": 34.1904, "lon": -82.1605, "precision": "street", "source": "Nominatim (OpenStreetMap): Main Street, Greenwood"},
+ "address": {"street": "Main Street", "city": "Greenwood", "county": "Greenwood", "state": "SC", "postcode": "29646"},
+ "links": [
+  {"label": "Festival of Discovery — official", "url": "https://festivalofdiscovery.com/"},
+  {"label": "Discover Greenwood — the festival", "url": "https://discovergreenwood.com/poi/sc-festival-of-discovery/"}
+ ],
+ "sources": ["s:web-festivalofdiscovery", "s:web-discovergreenwood-festival", "s:web-drugstoredivas-festival-of-discovery", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:web-festivalofdiscovery"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-discovergreenwood-festival", "note": "the last sentence is inference, marked inline; the Old 96 District from the regional tourism listing's name"},
+   "geo": {"tier": "harvested", "source": "s:osm", "note": "geocoded by hand via Nominatim on 2026-09-15"},
+   "facets": {"tier": "cited", "source": "s:web-festivalofdiscovery", "note": "founding year: the organizers' 2026 page says twenty-fifth anniversary; press accounts say 2000; one blog says 'in its 25th year'. Unresolved."}
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

@@ -1,0 +1,195 @@
+{
+ "schema": 1,
+ "id": "bone-suckin-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "Bone Suckin' Sauce",
+  "aliases": [
+   "Bone Suckin' Sweet Southern",
+   "Ford's Foods sauce"
+  ],
+  "said": "Bone Suckin', with the g dropped on the label."
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "base": "heavy-tomato",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A Raleigh line of bottled sauces, of which the one that built the brand is Sweet Southern: cane sugar first, tomato puree second, water third, apple cider vinegar fourth, at six grams of sugar to the tablespoon. The house also bottles an Eastern Vinegar sauce, whose label puts apple cider vinegar and distilled vinegar first and tomato paste sixth, and a mustard whose seven ingredients name no tomato at all. One maker, three readings of the same state's shelf.",
+  "story": "The company dates the sauce to Raleigh in 1992 and calls the recipe a family one; the Sweet Southern page describes that bottle as the flavor the brand launched with. The mustard's page quotes Mr. Ford, of Ford's Foods, on making a sweet version of the house's sweet-and-spicy mustard without the heat.\n\nThe interesting part is on the backs of the bottles. Sweet Southern reads sugar, tomato, water, vinegar — the order of a Kansas City sauce, made in the eastern half of North Carolina, where the sauce a pit puts on a chopped hog has neither sugar nor tomato in it. The Eastern Vinegar bottle, sold alongside it, inverts that: two vinegars, then water, then cane sugar, with tomato paste down at six. The maker's own page for that bottle describes the tomato and molasses in it as a light hint behind the vinegar. *Inference —* a house that sells both is not choosing between the styles; it is selling the distance between them as two products."
+ },
+ "kin": [
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "what its Sweet Southern bottle reads as: sugar first, tomato second.",
+   "rel": "whole"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the region it is made in, whose own sauce its Eastern Vinegar bottle is aimed at.",
+   "rel": "style"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sauce its Eastern Vinegar bottle reaches for, and stops short of at the sugar and the tomato paste.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the South Carolina sauce its mustard bottle borrows the method of: mustard first, no tomato.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "what a thick sweet sauce is brushed on at the end of a cook.",
+   "rel": "serves"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bone Suckin' Sauce — Sweet Southern, 18 oz",
+   "url": "https://bonesuckin.com/product/bone-suckin-sauce-sweet-southern-18-oz"
+  },
+  {
+   "label": "Bone Suckin' Sauce — Eastern Vinegar BBQ Sauce, 17 oz",
+   "url": "https://bonesuckin.com/product/bone-suckin-sauce-eastern-vinegar-bbq-sauce-17-oz"
+  }
+ ],
+ "sources": [
+  "s:web-bonesuckin-sweet-southern",
+  "s:web-bonesuckin-eastern-vinegar",
+  "s:web-bonesuckin-mustard",
+  "s:web-bonesuckin-eastern-nc-page",
+  "s:web-usda-fdc-branded",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:wikibooks-barbecue-sauce-kansas-city-style",
+  "s:wikibooks-barbecue-sauce-i",
+  "s:book-mrs-hills-new-cook-book"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-bonesuckin-sweet-southern"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-bonesuckin-eastern-nc-page",
+    "note": "the 1992 Raleigh date and the family recipe are the maker's own pages; the closing sentence is marked inference"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:web-usda-fdc-branded"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-barbecue-sauce-kansas-city-style",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Barbecue Sauce (Kansas City-style)",
+   "source": "s:wikibooks-barbecue-sauce-kansas-city-style",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Kansas_City-style%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup (235 mL) ketchup",
+    "6 tablespoons (90 mL) Worcestershire sauce",
+    "4 tablespoons (60 mL) butter or margarine",
+    "3 tablespoons (45 mL) white vinegar",
+    "1 tablespoon (15 mL) plain prepared mustard",
+    "3 tablespoons (45 mL) finely minced yellow onion",
+    "4 teaspoons (20 mL) bottled liquid smoke flavor (hickory)",
+    "¼ teaspoon (1 mL) Louisiana-style red pepper sauce",
+    "½ cup (120 mL) brown sugar",
+    "1 tablespoon (15 mL) granulated sugar",
+    "1 teaspoon (5 mL) salt"
+   ],
+   "text": "1. Combine all ingredients in a saucepan.\n2. Mix well.\n3. Simmer over low heat for 20 minutes, stirring occasionally.",
+   "yield": "8 servings",
+   "note": "A sugar-first tomato sauce of the same shape, freely licensed. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar."
+  },
+  {
+   "title": "Barbecue Sauce I",
+   "source": "s:wikibooks-barbecue-sauce-i",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_I",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¼ cup (62.5 mL) brown sugar",
+    "1 tbsp (15 mL) garlic powder",
+    "1 tbsp (15 mL) paprika powder",
+    "2 tsp (10 mL) salt",
+    "1 heaping tsp (6.66 mL) of ground coffee beans",
+    "1 cup (250 mL) ketchup",
+    "½ cup (125 mL) water",
+    "3 tbsp (45 mL) white vinegar",
+    "A shot of whiskey or ½ shot of cognac",
+    "A squeeze of lemon juice"
+   ],
+   "text": "1. Mix everything in a pot.\n2. Let it simmer for around 30 minutes, stirring occasionally."
+  },
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "The Southern mop of 1867 that pre-dates any tomato in a barbecue bottle."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "heavy-tomato",
+  "maker": "Ford's Foods",
+  "town": "Raleigh",
+  "state": "NC",
+  "ingredients": [
+   "Cane Sugar",
+   "Tomato Puree (Tomato Paste, Water)",
+   "Water",
+   "Apple Cider Vinegar",
+   "Vegan Worcestershire Sauce (Water, Distilled Vinegar, Sugar, Salt, Molasses, Caramel Color, Tamarind, Onion and Garlic)",
+   "Salt",
+   "Organic Yellow Mustard (Organic Distilled Vinegar, Organic Mustard Seed, Salt, Organic Turmeric, Organic Spices)",
+   "Horseradish",
+   "Lemon Juice",
+   "Molasses",
+   "Dried Onion",
+   "Xanthan Gum",
+   "Spice",
+   "Natural Smoke",
+   "Dried Garlic"
+  ],
+  "tomato_rank": 2,
+  "vinegar_rank": 4,
+  "mustard_rank": 7,
+  "sugar_rank": 1,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 6.0,
+  "sodium_mg_per_tbsp": 105.0,
+  "heat": null,
+  "source": "s:web-bonesuckin-sweet-southern",
+  "url": "https://bonesuckin.com/product/bone-suckin-sauce-sweet-southern-18-oz",
+  "accessed": "2026-09-16",
+  "note": "The Sweet Southern bottle, 18 oz. Ingredients from the maker's page, revision code 26-1; sugar and sodium from USDA FoodData Central record 1862954, which carries the same list. The house's Eastern Vinegar and mustard bottles are separate rows in data/harvest/sauces.json, with ingredients and no panel figures."
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

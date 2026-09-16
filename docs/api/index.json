@@ -1,0 +1,6016 @@
+{
+ "built": "2026-09-16",
+ "count": 178,
+ "nodes": [
+  {
+   "id": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "aliases": [
+    "Eastern-style",
+    "Down East barbecue",
+    "whole-hog barbecue",
+    "Eastern Carolina barbecue"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "meat": "whole hog",
+    "base": "vinegar-pepper",
+    "fuel": "mixed"
+   },
+   "state": "NC",
+   "blurb": "The whole pig, split and cooked over coals or on a gas or electric cooker, then chopped — skin, ham, shoulder, loin and belly together, 'every part of the hog except the squeal' — and dressed after cooking with a thin…",
+   "image": "eastern-nc/eastern-nc-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "style/eastern-nc/"
+  },
+  {
+   "id": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "aliases": [
+    "Lexington barbecue",
+    "Piedmont-style barbecue",
+    "Western-style barbecue",
+    "Western North Carolina barbecue"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "meat": "shoulder",
+    "base": "lexington-dip",
+    "fuel": "wood"
+   },
+   "state": "NC",
+   "blurb": "Pork shoulders cooked slowly over hardwood coals, usually hickory, then chopped, coarse-chopped or sliced and dressed with a thin red sauce the Piedmont calls dip: vinegar, ketchup or tomato, water, salt, pepper and red…",
+   "image": "lexington/lexington-lexington-nc-barbecue-sign.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "style/lexington/"
+  },
+  {
+   "id": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "aliases": [
+    "heavy-tomato style",
+    "tomato-and-sugar barbecue",
+    "Upstate barbecue",
+    "western South Carolina barbecue"
+   ],
+   "region": [
+    "sc-upstate",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "meat": "shoulder",
+    "base": "heavy-tomato",
+    "fuel": "mixed"
+   },
+   "state": "SC",
+   "blurb": "Pork shoulders and butts, ribs and chicken cooked over hickory or on cookers and served with a thick, sweet, red sauce of tomato, brown sugar or molasses, vinegar and spices — the sauce the state tourism office says you…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "style/sc-heavy-tomato/"
+  },
+  {
+   "id": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "aliases": [
+    "light-tomato style",
+    "vinegar-and-ketchup barbecue",
+    "upper Midlands barbecue"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc-upstate",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "meat": "mixed",
+    "base": "light-tomato",
+    "fuel": "mixed"
+   },
+   "state": "SC",
+   "blurb": "Pork — whole hog in the Pee Dee, shoulders and hams in the upper Midlands — cooked over coals or on cookers and served with a thin sauce that is the Carolinas' vinegar-and-pepper with ketchup stirred in.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "style/sc-light-tomato/"
+  },
+  {
+   "id": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "aliases": [
+    "Midlands barbecue",
+    "mustard-based barbecue",
+    "Carolina Gold barbecue",
+    "Dutch Fork barbecue"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "meat": "mixed",
+    "base": "mustard",
+    "fuel": "mixed"
+   },
+   "state": "SC",
+   "blurb": "Pork — whole hogs at some pits, hams or shoulders at others — cooked over hardwood coals or on cookers, chopped or pulled, and dressed with a yellow sauce of prepared mustard, vinegar, sugar and spices.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "style/sc-mustard/"
+  },
+  {
+   "id": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "aliases": [
+    "Pee Dee barbecue",
+    "vinegar-and-pepper barbecue",
+    "Williamsburg County barbecue",
+    "South Carolina whole hog"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "meat": "whole hog",
+    "base": "vinegar-pepper",
+    "fuel": "wood"
+   },
+   "state": "SC",
+   "blurb": "Whole hogs cooked overnight over hardwood coals, pulled or chopped, and dressed with a thin sauce of vinegar, salt, black pepper and red pepper — the same sauce as eastern North Carolina's across the state line.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "style/sc-pee-dee/"
+  },
+  {
+   "id": "bone-suckin-sauce",
+   "type": "sauce",
+   "name": "Bone Suckin' Sauce",
+   "aliases": [
+    "Bone Suckin' Sweet Southern",
+    "Ford's Foods sauce"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "base": "heavy-tomato",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A Raleigh line of bottled sauces, of which the one that built the brand is Sweet Southern: cane sugar first, tomato puree second, water third, apple cider vinegar fourth, at six grams of sugar to the tablespoon.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "sauce/bone-suckin-sauce/"
+  },
+  {
+   "id": "carolina-treet",
+   "type": "sauce",
+   "name": "Carolina Treet",
+   "aliases": [
+    "Carolina Treet Cooking Barbecue Sauce",
+    "Carolina Treet Original"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "base": "other",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A Wilmington sauce that fits none of the four Carolina bases. Its label reads water, vinegar, wheat flour, salt, soybean oil, paprika, garlic, onion, xanthan gum, spices — no tomato, no mustard, no sugar.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/carolina-treet/"
+  },
+  {
+   "id": "georges-barbecue-sauce",
+   "type": "sauce",
+   "name": "George's Barbecue Sauce",
+   "aliases": [
+    "George's Sauce",
+    "George's Original",
+    "George's of Nashville"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "base": "lexington-dip",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A bottled sauce from Nashville, North Carolina, a Nash County town on the edge of the Coastal Plain, sold in three strengths: Original, Hot and Special.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "sauce/georges-barbecue-sauce/"
+  },
+  {
+   "id": "golding-farms-sauces",
+   "type": "sauce",
+   "name": "Golding Farms Foods",
+   "aliases": [
+    "Golding Farms",
+    "Golding Blends"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "base": "mustard",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "A Winston-Salem sauce manufacturer, the second of that city's two, and one whose output mostly reaches a table under someone else's name.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/golding-farms-sauces/"
+  },
+  {
+   "id": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "aliases": [
+    "tomato-and-sugar sauce",
+    "sweet red sauce",
+    "thick tomato barbecue sauce",
+    "Kansas City-style sauce"
+   ],
+   "region": [
+    "sc-upstate",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "base": "heavy-tomato",
+    "styles": [
+     "sc-heavy-tomato"
+    ]
+   },
+   "state": null,
+   "blurb": "A thick red sauce built on tomato — ketchup, paste or sauce — sweetened with brown sugar or molasses, soured with vinegar and seasoned with spices, cooked down until it clings.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/heavy-tomato-sauce/"
+  },
+  {
+   "id": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "aliases": [
+    "dip",
+    "Lexington-style sauce",
+    "Piedmont sauce",
+    "Western sauce",
+    "red sauce",
+    "barbecue dip"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "base": "lexington-dip",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "The Piedmont's sauce: the east's vinegar, salt, pepper and red pepper with ketchup or tomato and water added, sometimes sugar, so that it comes out thin and reddish — tangy, a little sweet or hot by the house, and every…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "sauce/lexington-dip/"
+  },
+  {
+   "id": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "aliases": [
+    "light-tomato barbecue sauce",
+    "vinegar-and-ketchup sauce",
+    "thin red sauce"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc-upstate",
+    "nc-piedmont",
+    "carolinas"
+   ],
+   "facets": {
+    "base": "light-tomato",
+    "styles": [
+     "sc-light-tomato",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "Vinegar-and-pepper sauce with ketchup added — enough to redden and sweeten it a little, not enough to thicken it — and often cayenne or a bottled hot sauce.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/light-tomato-sauce/"
+  },
+  {
+   "id": "maurices-southern-gold",
+   "type": "sauce",
+   "name": "Maurice's Southern Gold",
+   "aliases": [
+    "Southern Gold BBQ Sauce",
+    "Maurice's Gourmet Blend",
+    "Carolina Gold (former name)"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "base": "mustard",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": null,
+   "blurb": "The mustard sauce of Maurice's Piggie Park at West Columbia, sold in bottles, half gallons and gallons alongside the family's Hickory Red, Vinegar and Hot Pepper sauces.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "sauce/maurices-southern-gold/"
+  },
+  {
+   "id": "melvins-golden-sauce",
+   "type": "sauce",
+   "name": "Melvin's Golden Sauce",
+   "aliases": [
+    "Melvin's Original Golden Secret",
+    "Golden Secret Sauce"
+   ],
+   "region": [
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "base": "mustard",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": null,
+   "blurb": "The mustard sauce of Melvin's Bar-B-Que in Charleston, sold in 16-ounce glass bottles, half gallons and gallons, beside the house's Southern Red, Sweet Red and Vinegar sauces.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/melvins-golden-sauce/"
+  },
+  {
+   "id": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "aliases": [
+    "Carolina Gold",
+    "South Carolina mustard sauce",
+    "yellow sauce",
+    "gold sauce",
+    "Southern Gold (Maurice's)"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "base": "mustard",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": null,
+   "blurb": "Prepared yellow mustard thinned with vinegar and sweetened with sugar or brown sugar, with black and red pepper and whatever else the house keeps to itself — Bessinger's bottled version listed mustard, brown sugar, soy…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "sauce/mustard-sauce/"
+  },
+  {
+   "id": "sam-jones-sauce",
+   "type": "sauce",
+   "name": "Sam Jones BBQ sauce",
+   "aliases": [
+    "Sam Jones Sweet BBQ Sauce",
+    "Sam Jones Vinegar"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "base": "heavy-tomato",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A bottled line from the whole-hog house Sam Jones opened at Winterville in 2015, third generation of the Skylight Inn family at Ayden.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/sam-jones-sauce/"
+  },
+  {
+   "id": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "aliases": [
+    "Scott's Famous Barbecue Sauce",
+    "Adam Scott's sauce",
+    "Scott's of Goldsboro"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "base": "vinegar-pepper",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A bottled eastern North Carolina sauce — vinegar-based, the recipe kept secret, sold as sugar-free and fat-free — made by the Scott family of Goldsboro since the mid-1940s from a recipe the Rev.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/scotts-barbecue-sauce/"
+  },
+  {
+   "id": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "aliases": [
+    "Texas Pete Hot Sauce",
+    "Texas Pete Original"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "base": "other",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A cayenne-pepper hot sauce made by the T.W. Garner Food Company of Winston-Salem, North Carolina, since 1929 — mild as hot sauces go, 747 on the Scoville scale — in a flip-top bottle with a red cowboy on a…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "sauce/texas-pete/"
+  },
+  {
+   "id": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "aliases": [
+    "eastern sauce",
+    "Eastern North Carolina sauce",
+    "East Carolina sauce",
+    "pepper vinegar",
+    "vinegar sauce"
+   ],
+   "region": [
+    "nc-east",
+    "sc-pee-dee",
+    "sc-lowcountry",
+    "carolinas"
+   ],
+   "facets": {
+    "base": "vinegar-pepper",
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "Vinegar — cider or white — with salt, black pepper and crushed red pepper, and nothing else in its plainest form; some houses add sugar, a bottled hot sauce or lemon.",
+   "image": "vinegar-pepper-sauce/vinegar-pepper-sauce-vinegar-for-north-carolina-barbecue-at-mission-bbq.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "sauce/vinegar-pepper-sauce/"
+  },
+  {
+   "id": "wells-hog-heaven",
+   "type": "sauce",
+   "name": "Wells Hog Heaven Barbecue Sauce",
+   "aliases": [
+    "Hog Heaven",
+    "Wells Hog Heaven"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "base": "vinegar-pepper",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A vinegar-based sauce made at Burgaw, the seat of Pender County in southeastern North Carolina, and sold in that corner of the state.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": true,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "sauce/wells-hog-heaven/"
+  },
+  {
+   "id": "baked-beans",
+   "type": "dish",
+   "name": "baked beans",
+   "aliases": [
+    "barbecue beans",
+    "pit beans"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "lexington",
+     "eastern-nc",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "White beans — navy or pea beans — cooked slow in a sweet brown sauce of molasses or brown sugar with pork in it, and served hot in a cup or a compartment of the tray.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/baked-beans/"
+  },
+  {
+   "id": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "aliases": [],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "sweet",
+    "styles": [
+     "eastern-nc",
+     "lexington",
+     "sc-mustard",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "Layers of sweet vanilla custard, vanilla wafers and sliced bananas built up in a dish and topped with meringue or whipped cream, then chilled until the wafers soften and the layers run together.",
+   "image": "banana-pudding/banana-pudding-classic-banana-pudding.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/banana-pudding/"
+  },
+  {
+   "id": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "aliases": [
+    "half chicken",
+    "barbecued chicken",
+    "pit chicken",
+    "dipped chicken"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "nc-east",
+    "nc-piedmont"
+   ],
+   "facets": {
+    "course": "main",
+    "meat": "chicken",
+    "styles": [
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "Half a chicken, cooked on the pit beside the pig or on its own cooker until the skin chars, brushed with the house sauce — vinegar and pepper in the east, a thin tomato-and-vinegar dip in the Piedmont — and sold by the…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/barbecue-chicken/"
+  },
+  {
+   "id": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "aliases": [
+    "chopped barbecue sandwich",
+    "barbecue with slaw",
+    "Lexington barbecue sandwich",
+    "pork sandwich",
+    "a barbecue"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc"
+   ],
+   "facets": {
+    "course": "main",
+    "meat": [
+     "whole hog",
+     "shoulder"
+    ],
+    "styles": [
+     "eastern-nc",
+     "lexington",
+     "sc-mustard",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "Chopped pork on a soft white bun with slaw laid on the meat. In North Carolina it is the commonest form of the sandwich: whole-hog barbecue dressed with vinegar and pepper in the east, chopped or sliced shoulder with…",
+   "image": "barbecue-sandwich/barbecue-sandwich-b-b-q-pulled-pork-sandwich.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/barbecue-sandwich/"
+  },
+  {
+   "id": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "aliases": [
+    "tray",
+    "barbecue plate",
+    "plate",
+    "large tray",
+    "chopped tray",
+    "sliced tray",
+    "coarse chopped tray"
+   ],
+   "region": [
+    "carolinas",
+    "nc-piedmont",
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "course": "main",
+    "meat": [
+     "shoulder",
+     "whole hog"
+    ],
+    "styles": [
+     "lexington",
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "The unit of ordering at a Carolina barbecue counter: a paper boat or a plate with the chopped pork on one side and slaw on the other, and no bun.",
+   "image": "barbecue-tray/barbecue-tray-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/barbecue-tray/"
+  },
+  {
+   "id": "blenheim-ginger-ale",
+   "type": "dish",
+   "name": "Blenheim Ginger Ale",
+   "aliases": [
+    "Blenheim",
+    "Old #3",
+    "hot ginger ale"
+   ],
+   "region": [
+    "sc",
+    "carolinas",
+    "sc-pee-dee"
+   ],
+   "facets": {
+    "course": "drink",
+    "styles": [
+     "sc-pee-dee",
+     "sc-mustard"
+    ]
+   },
+   "state": null,
+   "blurb": "A ginger ale bottled at Hamer, in Dillon County, South Carolina, made with Jamaica ginger and sugar in mineral water from a spring in Marlboro County, and hot enough that the heat is the point of it.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/blenheim-ginger-ale/"
+  },
+  {
+   "id": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "aliases": [
+    "barbecue potatoes",
+    "stewed potatoes",
+    "potatoes"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "Potatoes boiled whole or in halves until they are soft and served beside chopped whole hog on the eastern North Carolina plate — the side the Piedmont does not have.",
+   "image": "boiled-potatoes/boiled-potatoes-boiled-potatoes-with-salt-massachusetts.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "dish/boiled-potatoes/"
+  },
+  {
+   "id": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "aliases": [
+    "stew",
+    "barbecue stew"
+   ],
+   "region": [
+    "nc",
+    "nc-east",
+    "nc-piedmont",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "meat": "mixed",
+    "styles": [
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "A thick tomato stew of chicken or pork with corn, butter beans (lima beans), onion and, in the east, potatoes, cooked in big pots and served in a cup beside the barbecue.",
+   "image": "brunswick-stew/brunswick-stew-barbecue-cole-slaw-brunswick-stew-1246489833.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "dish/brunswick-stew/"
+  },
+  {
+   "id": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "aliases": [
+    "Cheerwine soda",
+    "Retro Cheerwine",
+    "Original 1917 Formula",
+    "Diet Cheerwine"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc",
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "course": "drink",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "A cherry-flavoured soft drink — burgundy-red, sweet, with a strong black-cherry note and more carbonation than most sodas — made in Salisbury, Rowan County, North Carolina by the Carolina Beverage Corporation since…",
+   "image": "cheerwine/cheerwine-cheerwine-01.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/cheerwine/"
+  },
+  {
+   "id": "chicken-bog",
+   "type": "dish",
+   "name": "chicken bog",
+   "aliases": [
+    "bog",
+    "chicken perlo"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "course": "main",
+    "meat": "chicken",
+    "styles": [
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "Chicken, rice and smoked sausage cooked together in the chicken's own broth until the rice has taken up the liquid and sits wet and plump — a pilau (rice cooked in stock) that is deliberately wetter than a pilau.",
+   "image": "chicken-bog/chicken-bog-bowl-of-chicken-bog.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/chicken-bog/"
+  },
+  {
+   "id": "collards",
+   "type": "dish",
+   "name": "collards",
+   "aliases": [
+    "collard greens",
+    "greens",
+    "mixed greens"
+   ],
+   "region": [
+    "carolinas",
+    "nc-east",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "eastern-nc",
+     "sc-mustard",
+     "sc-pee-dee",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "Broad flat leaves of a loose-headed cabbage, stripped from the stem, cut in ribbons and stewed a long time with a piece of smoked pork until they are dark and soft, in a salty broth the South calls pot liquor.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/collards/"
+  },
+  {
+   "id": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "aliases": [
+    "corn bread",
+    "corn sticks",
+    "cornsticks",
+    "bread"
+   ],
+   "region": [
+    "nc-east",
+    "nc",
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "course": "bread",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A quick bread of cornmeal — meal, water or buttermilk, salt, fat, often egg and soda — baked in a pan, a skillet or a stick mould. It comes with eastern North Carolina barbecue in two forms.",
+   "image": "cornbread/cornbread-corn-bread-1a.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/cornbread/"
+  },
+  {
+   "id": "dukes-mayonnaise",
+   "type": "dish",
+   "name": "Duke's mayonnaise",
+   "aliases": [
+    "Duke's",
+    "Duke's Mayonnaise"
+   ],
+   "region": [
+    "carolinas",
+    "sc",
+    "nc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "condiment",
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee",
+     "sc-mustard",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "A bottled mayonnaise made in Mauldin, South Carolina, outside Greenville: egg yolks, oil and cider vinegar, with more yolk than most brands and no added sugar, which is where the tang comes from that the company sells…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/dukes-mayonnaise/"
+  },
+  {
+   "id": "fried-okra",
+   "type": "dish",
+   "name": "fried okra",
+   "aliases": [
+    "okra"
+   ],
+   "region": [
+    "carolinas",
+    "sc",
+    "nc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "sc-mustard",
+     "sc-pee-dee",
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "Okra pods sliced into rounds, rolled in cornmeal and fried until the outside is crisp.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/fried-okra/"
+  },
+  {
+   "id": "green-beans",
+   "type": "dish",
+   "name": "green beans",
+   "aliases": [
+    "string beans",
+    "snaps",
+    "snap beans",
+    "simmered green beans"
+   ],
+   "region": [
+    "carolinas",
+    "nc-east",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "eastern-nc",
+     "sc-mustard",
+     "sc-pee-dee",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "Whole or broken pods of the common bean, stewed slow with a piece of pork until they give up their squeak and take on the meat's salt, and served in a cup or a compartment beside the barbecue.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/green-beans/"
+  },
+  {
+   "id": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "aliases": [
+    "hash",
+    "barbecue hash",
+    "South Carolina hash",
+    "pork hash",
+    "liver hash",
+    "liver and lights hash",
+    "hash on rice"
+   ],
+   "region": [
+    "sc",
+    "sc-midlands",
+    "sc-upstate",
+    "sc-lowcountry",
+    "sc-pee-dee",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "meat": "mixed",
+    "styles": [
+     "sc-mustard",
+     "sc-pee-dee",
+     "sc-light-tomato",
+     "sc-heavy-tomato"
+    ]
+   },
+   "state": null,
+   "blurb": "A thick stew, or gravy, of pork cooked down with onions until it can be eaten with a spoon, ladled over white rice beside the barbecue.",
+   "image": "hash-and-rice/hash-and-rice-plate-of-food-at-maurice-s-gourmet-bbq.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/hash-and-rice/"
+  },
+  {
+   "id": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "aliases": [
+    "hush puppies",
+    "hush-puppies",
+    "red horse bread"
+   ],
+   "region": [
+    "carolinas",
+    "nc-piedmont",
+    "nc-east",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "bread",
+    "styles": [
+     "lexington",
+     "eastern-nc",
+     "sc-mustard",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "Balls or fingers of cornmeal batter — meal, a little flour, egg, buttermilk or water, salt, soda, often onion — dropped by the spoonful into hot oil and fried until the outside is crisp and dark gold and the inside soft…",
+   "image": "hushpuppies/hushpuppies-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/hushpuppies/"
+  },
+  {
+   "id": "mac-and-cheese",
+   "type": "dish",
+   "name": "mac and cheese",
+   "aliases": [
+    "macaroni and cheese",
+    "macaroni pie",
+    "baked macaroni"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "sc-mustard",
+     "sc-pee-dee",
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "Macaroni in a cheese sauce, most often cheddar, baked in a dish until the top browns.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/mac-and-cheese/"
+  },
+  {
+   "id": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "aliases": [
+    "brown",
+    "outside brown meat",
+    "chopped brown",
+    "brownies",
+    "bark"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "course": "main",
+    "meat": "shoulder",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "The dark crust from the outside of a pork shoulder — the bark, where ten hours of smoke and dip have cooked into the surface — ordered by name at Lexington pits.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "dish/outside-brown/"
+  },
+  {
+   "id": "peach-cobbler",
+   "type": "dish",
+   "name": "peach cobbler",
+   "aliases": [
+    "cobbler",
+    "peach pot-pie",
+    "sonker"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "sweet",
+    "styles": [
+     "lexington",
+     "eastern-nc",
+     "sc-mustard",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "Sliced peaches sweetened and thickened in a deep dish and covered with a crust — pastry, biscuit dough or a batter — then baked until the top browns and the fruit bubbles at the edge.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/peach-cobbler/"
+  },
+  {
+   "id": "pickles",
+   "type": "dish",
+   "name": "pickles",
+   "aliases": [
+    "sweet pickles",
+    "dill pickles",
+    "chow-chow",
+    "cucumber pickle"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "condiment",
+    "styles": [
+     "sc-mustard",
+     "sc-pee-dee",
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "Cucumbers held in brine or vinegar until they sour, sliced into rounds or spears and put on the plate beside the meat, with the sandwich, or loose in a dish on the table.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/pickles/"
+  },
+  {
+   "id": "pig-pickin-cake",
+   "type": "dish",
+   "name": "pig pickin' cake",
+   "aliases": [
+    "pig pickin cake",
+    "pig picking cake",
+    "pineapple pig pickin' cake",
+    "pea pickin' cake",
+    "sunshine cake",
+    "mandarin orange cake"
+   ],
+   "region": [
+    "nc",
+    "nc-east",
+    "carolinas"
+   ],
+   "facets": {
+    "course": "sweet",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": null,
+   "blurb": "A layer cake of convenience-food parts: yellow or butter-golden cake mix beaten with eggs, oil and a can of mandarin oranges, juice and all, baked in three eight-inch pans and frosted with a can of crushed pineapple…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "dish/pig-pickin-cake/"
+  },
+  {
+   "id": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "aliases": [
+    "skins",
+    "cracklins",
+    "cracklings",
+    "crackling",
+    "pork rinds",
+    "fried skins"
+   ],
+   "region": [
+    "carolinas",
+    "nc-east",
+    "sc-pee-dee",
+    "nc",
+    "sc"
+   ],
+   "facets": {
+    "course": "side",
+    "meat": "whole hog",
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee",
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "The pig's hide, cooked until it blisters and cracks. On an eastern whole hog the skin faces up through the night and is turned to the coals at the end to crisp; at Skylight Inn it is chopped into the meat, where the…",
+   "image": "pork-skins/pork-skins-2020-09-05-19-03-38-a-sample-of-smithfield-farms-ori-0bcca5e.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/pork-skins/"
+  },
+  {
+   "id": "potato-salad",
+   "type": "dish",
+   "name": "potato salad",
+   "aliases": [
+    "tater salad"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "eastern-nc",
+     "lexington",
+     "sc-mustard",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "Boiled potatoes cut up cold and dressed with mayonnaise, with hard-boiled egg, onion, celery, sweet pickle or relish and often a spoon of yellow mustard that colours the whole bowl.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "dish/potato-salad/"
+  },
+  {
+   "id": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "aliases": [
+    "barbecue slaw",
+    "Lexington slaw",
+    "red coleslaw",
+    "BBQ slaw"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": null,
+   "blurb": "Finely chopped green cabbage dressed with vinegar, ketchup, sugar, salt and black pepper — or with the pit's own dip — and no mayonnaise.",
+   "image": "red-slaw/red-slaw-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/red-slaw/"
+  },
+  {
+   "id": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "aliases": [
+    "tea",
+    "sweet iced tea",
+    "iced tea"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "course": "drink",
+    "styles": [
+     "eastern-nc",
+     "lexington",
+     "sc-mustard",
+     "sc-pee-dee",
+     "sc-light-tomato",
+     "sc-heavy-tomato"
+    ]
+   },
+   "state": null,
+   "blurb": "Black tea brewed strong, sweetened with sugar while hot — so it dissolves, rather than being stirred into a cold glass — and poured over ice.",
+   "image": "sweet-tea/sweet-tea-clear-cup-of-sweet-tea.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/sweet-tea/"
+  },
+  {
+   "id": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "aliases": [
+    "coleslaw",
+    "slaw",
+    "cole slaw",
+    "mayonnaise slaw",
+    "eastern slaw",
+    "sweet slaw"
+   ],
+   "region": [
+    "nc-east",
+    "nc",
+    "sc",
+    "carolinas"
+   ],
+   "facets": {
+    "course": "side",
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee",
+     "sc-mustard"
+    ]
+   },
+   "state": null,
+   "blurb": "Finely chopped cabbage in a dressing of mayonnaise or whipped salad dressing, sweet and pale: the slaw of eastern North Carolina and of most of South Carolina.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": true,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "dish/white-slaw/"
+  },
+  {
+   "id": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "aliases": [
+    "cinder-block pit",
+    "concrete-block pit",
+    "open pit",
+    "pig pit"
+   ],
+   "region": [
+    "nc-east",
+    "sc-pee-dee",
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "pit"
+   },
+   "state": null,
+   "blurb": "An open pit built above ground of cinder blocks — concrete blocks — wide and shallow, a little longer than a split hog, with a rack across the top on which the pig lies and a bed of charcoal below; brick or steel are…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/block-pit/"
+  },
+  {
+   "id": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "aliases": [
+    "Lexington pit",
+    "closed pit",
+    "pit house",
+    "the pits"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "kind": "pit"
+   },
+   "state": null,
+   "blurb": "The masonry pit of the Piedmont: a closed brick chamber with a rack for the shoulders and a chimney through the roof to carry off the smoke.",
+   "image": "brick-pit/brick-pit-barbecue-pit.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/brick-pit/"
+  },
+  {
+   "id": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "aliases": [
+    "burn-barrel",
+    "coal barrel",
+    "fire barrel",
+    "the barrel",
+    "burner"
+   ],
+   "region": [
+    "nc-east",
+    "sc-pee-dee",
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "tool"
+   },
+   "state": null,
+   "blurb": "A repurposed steel drum — or, at Scott's in Hemingway, two 55-gallon drums welded together — in which logs are burned down to coals: the wood goes in at the top, the coals are pulled out from below and carried by shovel…",
+   "image": "burn-barrel/burn-barrel-barbecue-pit.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/burn-barrel/"
+  },
+  {
+   "id": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "aliases": [
+    "the block",
+    "cleavers",
+    "chop"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "tool"
+   },
+   "state": null,
+   "blurb": "A thick wooden block and a pair of cleavers, on which cooked pork is turned into barbecue.",
+   "image": "chopping-block/chopping-block-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/chopping-block/"
+  },
+  {
+   "id": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "aliases": [
+    "coals under the meat",
+    "open-pit",
+    "pit-cooked",
+    "cooking on coals"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "kind": "method"
+   },
+   "state": null,
+   "blurb": "The Carolina way of putting fire to meat: a bed of hardwood coals directly beneath the hog or the shoulders, with no flame and no separate firebox.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "pit/direct-heat/"
+  },
+  {
+   "id": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "aliases": [
+    "gas pit",
+    "gas cooker",
+    "electric cooker",
+    "gas-fired pit",
+    "smoker oven"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "cooker"
+   },
+   "state": null,
+   "blurb": "The cookers most Carolina barbecue is cooked in: steel ovens fired by propane, natural gas or an electric element, with a thermostat and racks, and often a box for wood chips or a log to put smoke on the meat.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/gas-and-electric-cookers/"
+  },
+  {
+   "id": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "aliases": [
+    "hickory",
+    "oak",
+    "hardwood",
+    "pecan",
+    "wood"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "kind": "fuel"
+   },
+   "state": null,
+   "blurb": "The hardwoods of the Carolina pit. Hickory and oak are the woods a Carolina cook burns, usually together and usually burned down to coals before they go under the meat: Lexington pits cook over oak and hickory coals…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/hickory-and-oak/"
+  },
+  {
+   "id": "hog-killing",
+   "type": "pit",
+   "name": "hog killing",
+   "aliases": [
+    "hog killin'",
+    "hog-killing day",
+    "killing hogs",
+    "pig slaughter"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "kind": "prep"
+   },
+   "state": null,
+   "blurb": "The winter slaughter of the farm's hogs, done on the first cold day of autumn or winter, when the meat would keep.",
+   "image": "hog-killing/hog-killing-hog-killing-in-rutherford-tennessee-ca-1914.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/hog-killing/"
+  },
+  {
+   "id": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "aliases": [
+    "pig roaster",
+    "hog cooker",
+    "trailer cooker",
+    "cooker"
+   ],
+   "region": [
+    "nc-east",
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "cooker"
+   },
+   "state": null,
+   "blurb": "A steel box on a trailer chassis, long enough for a split hog, with a hinged lid, a grate, and either a row of propane burners underneath or a bed for charcoal: the cooker of the pig pickin', towed to the church lot…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/pig-cooker/"
+  },
+  {
+   "id": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "aliases": [
+    "shoulder",
+    "Boston butt",
+    "butt",
+    "pork butt",
+    "picnic",
+    "picnic shoulder",
+    "picnic ham"
+   ],
+   "region": [
+    "nc-piedmont",
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "cut"
+   },
+   "state": null,
+   "blurb": "The front leg and shoulder of the pig, sold as one primal — a primal being one of the large first divisions of a carcass — or split in two: the butt, the upper half with the blade bone, and the picnic, the lower arm…",
+   "image": "pork-shoulder/pork-shoulder-boston-butt-cooked.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/pork-shoulder/"
+  },
+  {
+   "id": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "aliases": [
+    "whole-hog barbecue",
+    "whole hog",
+    "a pig",
+    "the hog"
+   ],
+   "region": [
+    "nc-east",
+    "sc-pee-dee",
+    "carolinas"
+   ],
+   "facets": {
+    "kind": [
+     "cut",
+     "method"
+    ]
+   },
+   "state": null,
+   "blurb": "The entire dressed pig — dressed meaning gutted and scraped of hair, the head sometimes left on — split open along the backbone, laid flat over coals and cooked as one piece, then pulled from the bones and chopped…",
+   "image": "whole-hog/whole-hog-hogs-for-smoking-at-b-s-barbecue.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "pit/whole-hog/"
+  },
+  {
+   "id": "12-bones-smokehouse",
+   "type": "place",
+   "name": "12 Bones Smokehouse",
+   "aliases": [
+    "12 Bones",
+    "12 Bones South"
+   ],
+   "region": [
+    "nc-mountains"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "2005",
+    "fuel": "unknown",
+    "styles": []
+   },
+   "state": "NC",
+   "blurb": "A mountain barbecue house now trading from Hendersonville Road in Arden, south of Asheville, after Hurricane Helene took its River Arts District room in September 2024.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "woman-owned"
+   ],
+   "acclaim": 4,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/12-bones-smokehouse/"
+  },
+  {
+   "id": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "aliases": [
+    "Allen & Son",
+    "Allen and Son Bar-B-Que",
+    "Allen & Son Barbecue"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "1971",
+    "fuel": "wood",
+    "styles": [
+     "lexington",
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The hickory-fired pork-shoulder restaurant on Millhouse Road at N.C. 86 north of Chapel Hill that Keith Allen opened in 1971 at nineteen and closed in the first week of December 2018, quietly, to avoid a long goodbye.",
+   "image": "allen-and-son/allen-and-son-allen-son-barbecue-5165581564.jpg",
+   "confidence": "high",
+   "tags": [
+    "closed",
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/allen-and-son/"
+  },
+  {
+   "id": "alston-bridges-barbecue",
+   "type": "place",
+   "name": "Alston Bridges Barbecue",
+   "aliases": [
+    "Alston Bridges"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1955",
+    "fuel": "mixed",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The Shelby pork-shoulder house of the other Bridges family, on East Grover Street in Cleveland County, where Alston Bridges and his wife Mabel bought the property in 1955.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/alston-bridges-barbecue/"
+  },
+  {
+   "id": "backyard-bbq-pit",
+   "type": "place",
+   "name": "Backyard BBQ Pit",
+   "aliases": [
+    "Backyard Barbecue Pit",
+    "The Backyard BBQ Pit"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "unknown",
+    "founded": "2007",
+    "fuel": "wood",
+    "styles": []
+   },
+   "state": "NC",
+   "blurb": "A Black-owned barbecue restaurant on N.C. 55, the Apex Highway, in southeast Durham, opened in April 2007 by Fabianne and Melvin Simmons, who bought a struggling restaurant and made it a neighborhood institution…",
+   "image": null,
+   "confidence": "low",
+   "tags": [
+    "black-owned",
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/backyard-bbq-pit/"
+  },
+  {
+   "id": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "aliases": [
+    "The Barbecue Center",
+    "Barbecue Center",
+    "Lexington Barbecue Center"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1955",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A pork-shoulder pit and ice-cream counter on North Main Street in Lexington, Davidson County, that began in 1955 as a dairy bar, put a shoulder on a pit one slow winter, and has been the Conrad family's since: Sonny…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 4,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/bar-b-q-center/"
+  },
+  {
+   "id": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "aliases": [
+    "Bessinger's BBQ",
+    "Bessinger's Bar-Be-Que",
+    "Bessinger's Barbeque",
+    "Piggy Park Drive-In",
+    "Bessinger's — The Barbecue Family"
+   ],
+   "region": [
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1960",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A Bessinger family barbecue house at 1602 Savannah Highway in Charleston's West Ashley.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "buffet",
+    "family-run",
+    "hash"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/bessingers-bar-b-q/"
+  },
+  {
+   "id": "big-t-bar-b-q",
+   "type": "place",
+   "name": "Big T Bar-B-Q",
+   "aliases": [
+    "Big T's Bar-B-Que",
+    "Big T's"
+   ],
+   "region": [
+    "sc-midlands"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "fuel": "wood",
+    "styles": []
+   },
+   "state": "SC",
+   "blurb": "A Black-owned wood-burning pit on Congaree Road at Gadsden, in lower Richland County below Columbia, run by Larry Brown, known as Teddy and as Big T, who has sold barbecue to the Columbia area for more than thirty…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "black-owned",
+    "buffet",
+    "family-run",
+    "hash",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/big-t-bar-b-q/"
+  },
+  {
+   "id": "bobbee-os-bbq",
+   "type": "place",
+   "name": "Bobbee O's BBQ",
+   "aliases": [
+    "Bobbee O's"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "2008",
+    "fuel": "unknown",
+    "styles": []
+   },
+   "state": "NC",
+   "blurb": "A Black-owned barbecue counter on Statesville Road in north Charlotte, opened in 2008 by Bob Steven Roberts after four years working on his sauce.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "black-owned",
+    "family-run"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/bobbee-os-bbq/"
+  },
+  {
+   "id": "bobbys-bbq",
+   "type": "place",
+   "name": "Bobby's BBQ",
+   "aliases": [
+    "Bobby's"
+   ],
+   "region": [
+    "sc-upstate"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "2018",
+    "fuel": "wood",
+    "styles": []
+   },
+   "state": "SC",
+   "blurb": "A Texas-leaning smokehouse on North Main Street in Fountain Inn, Greenville County, owned by Octavius Nelson, called Tay, and his wife Sarah.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "weekends-only",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/bobbys-bbq/"
+  },
+  {
+   "id": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "aliases": [
+    "Brown's Bar-B-Q",
+    "Brown's BBQ",
+    "Brown's"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1981",
+    "styles": [
+     "sc-pee-dee"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A farm family's buffet house on the Williamsburg County Highway north of Kingstree, in the Pee Dee, opened in 1981 as a take-out window by Thomas M.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "buffet",
+    "family-run",
+    "hash",
+    "whole-hog"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/browns-bar-b-que/"
+  },
+  {
+   "id": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "aliases": [
+    "B's",
+    "B's Barbeque",
+    "B's Bar-B-Q"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1978",
+    "fuel": "charcoal",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A whole-hog and chicken pit on the edge of Greenville, Pitt County, in a converted country store on a road the county named for it.",
+   "image": "bs-barbecue/bs-barbecue-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+   "confidence": "high",
+   "tags": [
+    "cash-only",
+    "family-run",
+    "sold-out-closes",
+    "whole-hog",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 4,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/bs-barbecue/"
+  },
+  {
+   "id": "bums-restaurant",
+   "type": "place",
+   "name": "Bum's Restaurant",
+   "aliases": [
+    "Bum's",
+    "Bum's Barbecue",
+    "Bum's Restaurant Ayden"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1963",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A wood-fired whole-hog restaurant in downtown Ayden, Pitt County, opened in 1963 by Latham 'Bum' Dennis, of the family that counts Skilton Dennis's 1830 wagon as the start of barbecue for sale here, and run by his son…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "buffet",
+    "family-run",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/bums-restaurant/"
+  },
+  {
+   "id": "buxton-hall-barbecue",
+   "type": "place",
+   "name": "Buxton Hall Barbecue",
+   "aliases": [
+    "Buxton Hall",
+    "Buxton Hall Bar-B-Cue"
+   ],
+   "region": [
+    "nc-mountains"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "2015",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A whole-hog restaurant that ran from August 2015 to November 22, 2023 in a 1930s roller rink on Banks Avenue in Asheville's South Slope, opened by pitmaster Elliott Moss with Meherwan Irani's Chai Pani restaurant group.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "closed",
+    "hash",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/buxton-hall-barbecue/"
+  },
+  {
+   "id": "cannons-bbq",
+   "type": "place",
+   "name": "Cannon's BBQ",
+   "aliases": [
+    "Cannons BBQ",
+    "Cannons BBQ & More",
+    "Cannon's"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "closed",
+    "fuel": "wood",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A small barbecue house in a converted mobile home at a five-way crossroads in Little Mountain, Newberry County — the Dutch Fork, the German-settled land between the Broad and Saluda rivers where the Midlands mustard…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "closed",
+    "hash",
+    "wood-cooked"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/cannons-bbq/"
+  },
+  {
+   "id": "carolina-bar-b-que",
+   "type": "place",
+   "name": "Carolina Bar-B-Que",
+   "aliases": [
+    "Carolina BBQ",
+    "Carolina Bar-B-Que of New Ellenton"
+   ],
+   "region": [
+    "sc-midlands"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1969",
+    "fuel": "wood",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A mustard-sauce buffet house on South Main Street in New Ellenton, Aiken County, founded by Willie Mae Walker and her son Jess.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "buffet",
+    "hash",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/carolina-bar-b-que/"
+  },
+  {
+   "id": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "aliases": [
+    "Clyde Cooper's Barbecue",
+    "Clyde Cooper's",
+    "Cooper's"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1938",
+    "fuel": "unknown",
+    "styles": [
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Raleigh's downtown barbecue house since New Year's Day 1938, when Clyde Cooper opened on East Davie Street with fifty dollars borrowed from a brother-in-law; it moved around the corner to 327 South Wilmington Street in…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "woman-owned"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/clyde-coopers/"
+  },
+  {
+   "id": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "aliases": [
+    "Cook's BBQ",
+    "Cooks & BBQ Still Smoking"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "1969",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A pork-shoulder pit off Valiant Drive south of Lexington, Davidson County, built by hand in 1969 by Doug Cook on a cul-de-sac plot down the road from his house — a pit and kitchen, a wooden chopping block, a drive-up…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "closed",
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/cooks-barbecue/"
+  },
+  {
+   "id": "coopers-country-store",
+   "type": "place",
+   "name": "Cooper's Country Store",
+   "aliases": [
+    "Cooper's",
+    "Burrows's Service Station"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1937",
+    "fuel": "wood",
+    "styles": [
+     "sc-pee-dee"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A whitewashed general store on US 521 near Salters, south of Kingstree in Williamsburg County, that sells hardware, groceries, gasoline, diesel, propane, plow points, cast-iron cookware, live crickets — and, from a…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "buffet",
+    "family-run",
+    "hash",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/coopers-country-store/"
+  },
+  {
+   "id": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "aliases": [
+    "Dukes",
+    "Duke's Bar-B-Que",
+    "Dukes Bar-B-Que Whitman",
+    "Dukes Bar-B-Que Chestnut"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1955",
+    "fuel": "mixed",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "The name on a dozen or more buffet houses across the Midlands and Lowcountry, all descended from the sons of Manuel Dukes of Orangeburg County, who learned pit cooking from a Rowesville pitmaster and catered the…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "buffet",
+    "cash-only",
+    "family-run",
+    "hash",
+    "weekends-only"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/dukes-bar-b-que/"
+  },
+  {
+   "id": "fuzzys-bar-b-q",
+   "type": "place",
+   "name": "Fuzzy's Bar-B-Q",
+   "aliases": [
+    "Fuzzy's",
+    "Fuzzy's Barbecue"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1954",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A pork-shoulder house on Highway Street in Madison, Rockingham County, opened in 1954 by T.H. 'Fuzzy' Nelson and in the Nelson family since.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/fuzzys-bar-b-q/"
+  },
+  {
+   "id": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "aliases": [
+    "Grady's BBQ",
+    "Grady's Bar-B-Q",
+    "Grady's"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1986",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A whole-hog pit at a country crossroads in Dudley, Wayne County, south of Goldsboro, opened on July 4, 1986 by Steve and Gerri Grady and run by Gerri and their son Scottie since Steve's death in August 2025.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "black-owned",
+    "family-run",
+    "whole-hog",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 4,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/gradys-barbecue/"
+  },
+  {
+   "id": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "aliases": [
+    "Henry's",
+    "Henry's Smokehouse BBQ"
+   ],
+   "region": [
+    "sc-upstate",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1991",
+    "fuel": "wood",
+    "styles": [
+     "sc-light-tomato",
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "An Upstate barbecue house at 240 Wade Hampton Boulevard on the edge of downtown Greenville, opened by Beau Hammond — in 1991 by the company's own account, in 1992 by the Greenville Journal's — in a small building that…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "hash",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/henrys-smokehouse/"
+  },
+  {
+   "id": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "aliases": [
+    "Hite's BBQ",
+    "Hite's Bar-B-Q",
+    "Hite's"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1957",
+    "fuel": "wood",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A take-out barbecue stand on Dreher Road in West Columbia, open only on Friday and Saturday, where the Hite family has cooked whole hogs and hams over oak and hickory coals since 1957.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "hash",
+    "weekends-only",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/hites-bar-b-q/"
+  },
+  {
+   "id": "home-team-bbq",
+   "type": "place",
+   "name": "Home Team BBQ",
+   "aliases": [
+    "Fiery Ron's Home Team BBQ",
+    "Home Team"
+   ],
+   "region": [
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "2006",
+    "styles": []
+   },
+   "state": "SC",
+   "blurb": "A Charleston barbecue company that began in November 2006 when Aaron Siegel, a Culinary Institute-trained cook from Atlanta, turned Bunch's, a mid-century gas station at 1205 Ashley River Road in West Ashley, into Fiery…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "hash",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/home-team-bbq/"
+  },
+  {
+   "id": "hurseys-bar-b-q",
+   "type": "place",
+   "name": "Hursey's Bar-B-Q",
+   "aliases": [
+    "Hursey's",
+    "Hursey's Pig Pickin' Bar-B-Q",
+    "Hursey's BBQ"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1945",
+    "fuel": "unknown",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The Burlington, Alamance County, barbecue business of the Hursey family: Sylvester and Daisy Hursey began smoking pork over a backyard pit in 1945 with a sauce of their own, moved to a cafe in Gibsonville with two big…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/hurseys-bar-b-q/"
+  },
+  {
+   "id": "jack-cobb-and-son",
+   "type": "place",
+   "name": "Jack Cobb & Son Barbecue Place",
+   "aliases": [
+    "Jack Cobb & Son",
+    "Jack Cobb and Son Barbecue"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "1971",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A Black-owned whole-hog counter on South Main Street in Farmville, Pitt County, that Jack Cobb and his son Rudy built as a cinder-block storefront in 1971 and closed in the autumn of 2018.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "black-owned",
+    "closed",
+    "family-run",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 4,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/jack-cobb-and-son/"
+  },
+  {
+   "id": "jackie-hites-bar-b-q",
+   "type": "place",
+   "name": "Jackie Hite's Bar-B-Q",
+   "aliases": [
+    "Jackie Hite's Bar-B-Que",
+    "Jackie Hite's BBQ",
+    "Jackie Hite's"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "closed",
+    "founded": "1979",
+    "fuel": "wood",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A whole-hog buffet house on East Railroad Avenue in Leesville, across the tracks from the town, that James Lee 'Jackie' Hite opened in May 1979 and ran until his death in September 2016; his family closed it in 2018.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "buffet",
+    "closed",
+    "family-run",
+    "hash",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/jackie-hites-bar-b-q/"
+  },
+  {
+   "id": "keatons-barbecue",
+   "type": "place",
+   "name": "Keaton's Barbecue",
+   "aliases": [
+    "Keaton's",
+    "Keaton's Original BBQ",
+    "Keaton's Barbecue, Inc."
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1953",
+    "fuel": "unknown",
+    "styles": []
+   },
+   "state": "NC",
+   "blurb": "A chicken house in the crossroads community of Cleveland, Rowan County, west of Salisbury, where since 1953 the chicken has been fried (or baked) and then dipped whole in a hot vinegar-and-tomato barbecue sauce …",
+   "image": "keatons-barbecue/keatons-barbecue-keaton-s-bbq-cheerwine-sweet-tea.jpg",
+   "confidence": "high",
+   "tags": [
+    "black-owned",
+    "family-run",
+    "woman-owned"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/keatons-barbecue/"
+  },
+  {
+   "id": "kepleys-barbecue",
+   "type": "place",
+   "name": "Kepley's Bar-B-Q",
+   "aliases": [
+    "Kepley's Barbecue",
+    "Kepley's"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "1948",
+    "fuel": "unknown",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A High Point, Guilford County, barbecue stand in a surplus World War II Quonset hut — a half-cylinder of corrugated steel — opened in June 1948 by Hayden Kepley on North Main Street and closed on February 8, 2025 after…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "closed",
+    "family-run"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/kepleys-barbecue/"
+  },
+  {
+   "id": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "aliases": [
+    "Lewis BBQ",
+    "Lewis Barbecue Charleston"
+   ],
+   "region": [
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "2016",
+    "styles": []
+   },
+   "state": "SC",
+   "blurb": "A Central Texas-style barbecue restaurant at 464 North Nassau Street on the upper peninsula of Charleston, opened in June 2016 by John Lewis, a pitmaster from El Paso who cooked in Austin with Franklin Barbecue and then…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/lewis-barbecue/"
+  },
+  {
+   "id": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "aliases": [
+    "Lexington Barbecue #1",
+    "The Honeymonk",
+    "Honey Monk's",
+    "The Monk"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1962",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The pork-shoulder pit on Smokehouse Lane in Lexington, Davidson County, that Wayne Monk opened in 1962 at 26 after working under Warner Stamey, and that he owns with his son Rick.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/lexington-barbecue/"
+  },
+  {
+   "id": "luellas-bar-b-que",
+   "type": "place",
+   "name": "Luella's Bar-B-Que",
+   "aliases": [
+    "Luella's",
+    "Luella's BBQ"
+   ],
+   "region": [
+    "nc-mountains"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "2007",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "An Asheville barbecue house on Merrimon Avenue with a second room at Biltmore Park, opened in 2007 by Jeff Miller and named for his grandmother and his daughter. Jeff and Ashley Miller own it.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/luellas-bar-b-que/"
+  },
+  {
+   "id": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "aliases": [
+    "Maurice's Piggie Park",
+    "Maurice's BBQ",
+    "Maurice's Gourmet Barbeque",
+    "Piggie Park",
+    "Maurice's"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1953",
+    "fuel": "wood",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A chain of eight barbecue restaurants around Columbia run from the original drive-in at 1600 Charleston Highway, West Columbia, where Maurice Bessinger and his brother Joe Jr. opened in 1953.",
+   "image": "maurices-piggie-park/maurices-piggie-park-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg",
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "hash",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/maurices-piggie-park/"
+  },
+  {
+   "id": "mccabes-bar-b-q",
+   "type": "place",
+   "name": "McCabe's Bar-B-Q",
+   "aliases": [
+    "McCabe's Bar-B-Que",
+    "McCabe's BBQ",
+    "McCabe's"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "fuel": "wood",
+    "styles": [
+     "sc-pee-dee"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A family buffet house on North Brooks Street in Manning, Clarendon County, where the McCabes cook whole hogs, shoulders and hams together for ten to twelve hours over wood coals, on pits David McCabe built in a screened…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "buffet",
+    "cash-only",
+    "family-run",
+    "hash",
+    "weekends-only",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/mccabes-bar-b-q/"
+  },
+  {
+   "id": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "aliases": [
+    "Bob Melton's",
+    "Bob Melton's Barbecue",
+    "Melton's"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "1924",
+    "fuel": "mixed",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The Rocky Mount whole-hog house that Wikipedia records as North Carolina's first sit-down barbecue restaurant.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "closed",
+    "whole-hog"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/meltons-barbecue/"
+  },
+  {
+   "id": "melvins-legendary-bar-b-que",
+   "type": "place",
+   "name": "Melvin's Legendary Bar-B-Que",
+   "aliases": [
+    "Melvin's",
+    "Melvin's BBQ",
+    "Melvin's Legendary Barbecue"
+   ],
+   "region": [
+    "sc-lowcountry"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1982",
+    "fuel": "wood",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A Charleston mustard-sauce house with rooms on Folly Road on James Island and on Houston Northcutt Boulevard in Mount Pleasant, opened in 1982 by Melvin Bessinger with his son David after Melvin left the partnership…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 5,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/melvins-legendary-bar-b-que/"
+  },
+  {
+   "id": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "aliases": [
+    "Midway Barbecue",
+    "Midway"
+   ],
+   "region": [
+    "sc-upstate",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1941",
+    "fuel": "wood",
+    "styles": []
+   },
+   "state": "SC",
+   "blurb": "A hash house and meat market on Main Street in Buffalo, a mill village in Union County in the Upstate, in business since about 1941 and the last of the nearly fifty hash houses the county once had.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "hash",
+    "wood-cooked"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/midway-bbq/"
+  },
+  {
+   "id": "morris-barbeque",
+   "type": "place",
+   "name": "Morris Barbeque",
+   "aliases": [
+    "Morris Barbecue",
+    "Morris BBQ"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "unknown",
+    "founded": "1956",
+    "fuel": "gas",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A Saturday-only whole-hog house on Morris BBQ Road outside Hookerton, in Greene County, in business since 1956; the county named the road for it.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "sold-out-closes",
+    "weekends-only",
+    "whole-hog"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/morris-barbeque/"
+  },
+  {
+   "id": "parkers-barbecue",
+   "type": "place",
+   "name": "Parker's Barbecue",
+   "aliases": [
+    "The Original Parker's Barbecue",
+    "Parker's",
+    "Parker's BBQ of Wilson"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1946",
+    "fuel": "gas",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A large eastern barbecue house on U.S. 301 south of Wilson, opened in August 1946 by brothers Graham and Ralph Parker and their cousin Henry Parker Brewer, and owned since 1987 by Donald Williams, who started there in…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "cash-only",
+    "whole-hog"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/parkers-barbecue/"
+  },
+  {
+   "id": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "aliases": [
+    "Bridges Barbecue Lodge",
+    "Bridges BBQ Lodge",
+    "Red Bridges"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1946",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The Shelby, Cleveland County, pork-shoulder house of the Bridges family, begun in 1946 by Red Bridges, an Army cook home from the war, and his wife Lyttle, and run by their daughter Debbie Bridges-Webb with her children…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/red-bridges-barbecue-lodge/"
+  },
+  {
+   "id": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "aliases": [
+    "Rodney Scott's BBQ",
+    "Rodney Scott's"
+   ],
+   "region": [
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "closed",
+    "founded": "2017",
+    "fuel": "charcoal",
+    "styles": [
+     "sc-pee-dee"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A whole-hog restaurant at 1011 King Street on the Charleston peninsula, opened in February 2017 by Rodney Scott of Hemingway and the restaurateur Nick Pihakis in a former fried-chicken house, with seats for about 128, a…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "black-owned",
+    "closed",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/rodney-scotts-whole-hog-bbq/"
+  },
+  {
+   "id": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "aliases": [
+    "Sam Jones Barbecue",
+    "Sam Jones BBQ Winterville",
+    "Sam Jones BBQ Raleigh"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "2015",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A whole-hog restaurant in Winterville, Pitt County, opened on November 10, 2015 by Sam Jones, grandson of the Skylight Inn's founder Pete Jones, with his partner Michael Letchworth, and a second house in downtown…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/sam-jones-bbq/"
+  },
+  {
+   "id": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "aliases": [
+    "Scott's Variety Store and Bar-B-Q",
+    "Scott's Variety Store",
+    "Scott's BBQ",
+    "Scott's of Hemingway"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1972",
+    "fuel": "wood",
+    "styles": [
+     "sc-pee-dee"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A whole-hog pit behind a country store on the Hemingway Highway in Williamsburg County, in the Pee Dee.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "cash-only",
+    "family-run",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 2,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/scotts-bar-b-que/"
+  },
+  {
+   "id": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "aliases": [
+    "Scott's Barbecue",
+    "Scott's Cafe",
+    "Adam Scott's",
+    "Scott's Sauce Company"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "1917",
+    "fuel": "unknown",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The Goldsboro barbecue of the Rev. Adam Scott, a Black cook and preacher who catered barbecues from the 1910s, sold from the back door of his house on Brazil Street from the early 1930s, and whose son A.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "black-owned",
+    "closed"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/scotts-famous-barbecue/"
+  },
+  {
+   "id": "shealys-bar-b-que",
+   "type": "place",
+   "name": "Shealy's Bar-B-Que",
+   "aliases": [
+    "Shealy's Bar-B-Que House",
+    "Shealy's BBQ",
+    "Shealy's"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1969",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A buffet house on East Columbia Avenue in Batesburg-Leesville, Lexington County, opened in June 1969 by Victor and Sara Shealy with their teenage children Tommy and Nancy, and family-run since.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "buffet",
+    "family-run",
+    "hash",
+    "woman-owned"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/shealys-bar-b-que/"
+  },
+  {
+   "id": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "aliases": [
+    "Short Sugar's",
+    "Short Sugars BBQ",
+    "Short Sugar's Drive-In"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "closed",
+    "founded": "1949",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A drive-in barbecue on South Scales Street in Reidsville, Rockingham County, opened in June 1949 by the Overby brothers and named for the one who died two days before the opening, and closed in January 2025 after 75…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "closed",
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/short-sugars/"
+  },
+  {
+   "id": "shulers-bar-b-que",
+   "type": "place",
+   "name": "Shuler's Bar-B-Que",
+   "aliases": [
+    "Shuler's BBQ",
+    "Shuler's Barbecue"
+   ],
+   "region": [
+    "sc-pee-dee"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1996",
+    "fuel": "wood",
+    "styles": []
+   },
+   "state": "SC",
+   "blurb": "An all-you-can-eat barbecue house on Highway 38 between Latta and Sellers, in Dillon County in the Pee Dee, opened in 1996 by Norton and Lynn Hughes and named for Norton's father Shuler Hughes, who made the sauce in…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "buffet",
+    "family-run",
+    "hash",
+    "weekends-only",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/shulers-bar-b-que/"
+  },
+  {
+   "id": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "aliases": [
+    "Skylight Inn",
+    "Pete Jones' Skylight Inn",
+    "the Skylight"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1947",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A whole-hog pit in Ayden, Pitt County, opened by Walter B. 'Pete' Jones on July 8, 1947 and run by his family since.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 6,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/skylight-inn/"
+  },
+  {
+   "id": "smithfields-chicken-n-bar-b-q",
+   "type": "place",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "aliases": [
+    "Smithfield's",
+    "SCNB",
+    "Smithfield Bar-B-Q",
+    "Smithfield's Chicken and Barbeque",
+    "Smithfield Chicken & BBQ"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1977",
+    "fuel": "unknown",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A quick-service chain of eastern North Carolina barbecue and fried chicken — 41 restaurants across the state as of March 2024, and an online store — begun by Junius and Maggie Moore in downtown Smithfield, Johnston…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/smithfields-chicken-n-bar-b-q/"
+  },
+  {
+   "id": "speedy-lohrs-barbecue",
+   "type": "place",
+   "name": "Speedy Lohr's Barbecue",
+   "aliases": [
+    "Speedy Lohr's",
+    "Speedy Lohr's BBQ"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "2013",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A wood-burning pork house on NC 8 south of Lexington, Davidson County, run by Randy and Amy Lohr, who bought the building in June 2013 from Whitley's Barbecue and carried the family name onto it.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/speedy-lohrs-barbecue/"
+  },
+  {
+   "id": "speedys-barbecue",
+   "type": "place",
+   "name": "Speedy's Barbecue",
+   "aliases": [
+    "Speedy's",
+    "Speedy's BBQ"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1963",
+    "fuel": "electric",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A Lexington pork-shoulder house that Paul 'Speedy' Lohr opened as a drive-in in 1963 and the Dunn family has run since the early 1970s. Roy and Ella Dunn hold it now.",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "woman-owned"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/speedys-barbecue/"
+  },
+  {
+   "id": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "aliases": [
+    "Stamey's",
+    "Stamey's Old Fashioned Barbecue"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1953",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The Greensboro pork-shoulder house of the Stamey family, opened by Warner Stamey in 1953 as a drive-in on High Point Road (now West Gate City Boulevard) and run by his grandson Chip since 1993, with a second restaurant…",
+   "image": null,
+   "confidence": "high",
+   "tags": [
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "place/stameys-barbecue/"
+  },
+  {
+   "id": "stephensons-bar-b-q",
+   "type": "place",
+   "name": "Stephenson's Bar-B-Q",
+   "aliases": [
+    "Stephenson's Barbecue",
+    "Stephenson's",
+    "Stephenson's BBQ"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1958",
+    "fuel": "charcoal",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A family barbecue house on N.C. 50 at Willow Spring, in western Johnston County south of Raleigh, opened in July 1958 by hog farmer Paul Stephenson and run since his death by his son Andy.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/stephensons-bar-b-q/"
+  },
+  {
+   "id": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "aliases": [
+    "Sweatman's BBQ",
+    "Sweatman's"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "1977",
+    "fuel": "mixed",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A whole-hog barbecue house in an old farmhouse on Eutaw Road outside Holly Hill, in Orangeburg County, the mustard belt of the Midlands.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "hash",
+    "weekends-only",
+    "whole-hog"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/sweatmans-bar-b-que/"
+  },
+  {
+   "id": "tarheel-q",
+   "type": "place",
+   "name": "Tarheel Q",
+   "aliases": [
+    "TarHeel Q",
+    "Tarheel Q BBQ"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "fuel": "wood",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A pork-shoulder pit on US 64 west of Lexington, Davidson County, cooking on brick masonry pits behind the building. Leon and Becky Simmons have owned it since December 2017.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "family-run",
+    "woman-owned",
+    "wood-cooked"
+   ],
+   "acclaim": 1,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/tarheel-q/"
+  },
+  {
+   "id": "the-fiction-kitchen",
+   "type": "place",
+   "name": "The Fiction Kitchen",
+   "aliases": [
+    "Fiction Kitchen"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "2012",
+    "fuel": "unknown"
+   },
+   "state": "NC",
+   "blurb": "A vegetarian and vegan restaurant in Raleigh whose menu carries a Southern-style pulled barbecue made without pork, served with the slaw and the sides a Carolina plate expects.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "lgbtq-friendly",
+    "woman-owned"
+   ],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/the-fiction-kitchen/"
+  },
+  {
+   "id": "true-bbq",
+   "type": "place",
+   "name": "True BBQ",
+   "aliases": [
+    "True BBQ of West Columbia"
+   ],
+   "region": [
+    "sc-midlands"
+   ],
+   "facets": {
+    "state": "SC",
+    "status": "open",
+    "founded": "2010",
+    "fuel": "wood",
+    "styles": []
+   },
+   "state": "SC",
+   "blurb": "A Black-owned pit on D Avenue in West Columbia, opened in 2010 by the brothers Ernest and Milton Zanders after years of selling from street corners and events. The wood-fired pits are visible from the front parking lot.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [
+    "black-owned",
+    "family-run",
+    "hash",
+    "weekends-only",
+    "wood-cooked"
+   ],
+   "acclaim": 3,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/true-bbq/"
+  },
+  {
+   "id": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "aliases": [
+    "Wilber's",
+    "Wilbers BBQ",
+    "Wilber's BBQ"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "state": "NC",
+    "status": "open",
+    "founded": "1962",
+    "fuel": "wood",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A whole-hog pit on U.S. 70 east of Goldsboro, Wayne County, opened in 1962 by Wilberdean 'Wilber' Shirley and cooked the same way since: split hogs over oak coals in open pits in a cinder-block cookhouse behind a…",
+   "image": "wilbers-barbecue/wilbers-barbecue-barbecue-pit.jpg",
+   "confidence": "high",
+   "tags": [
+    "whole-hog",
+    "wood-cooked"
+   ],
+   "acclaim": 5,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "place/wilbers-barbecue/"
+  },
+  {
+   "id": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "aliases": [
+    "Rev. Adam Scott",
+    "Elder Adam Scott"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "cook",
+     "founder",
+     "sauce-maker"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The Rev. Adam Scott (1890–1983) was a Black cook and Holiness minister in Goldsboro who by his company's date went into the barbecue business in 1917, cooking whole hogs in his back yard and selling chopped pork with a…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/adam-scott/"
+  },
+  {
+   "id": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "aliases": [
+    "Adrian E. Miller",
+    "the Soul Food Scholar"
+   ],
+   "region": [
+    "us-south"
+   ],
+   "facets": {
+    "role": [
+     "writer",
+     "scholar"
+    ]
+   },
+   "state": null,
+   "blurb": "A Denver writer and lawyer, the 'Soul Food Scholar' of his own site, whose Black Smoke: African Americans and the United States of Barbecue (UNC Press, 2021) is the history of the Black cooks, pitmasters and restaurant…",
+   "image": "adrian-miller/adrian-miller-adrian-miller-1.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/adrian-miller/"
+  },
+  {
+   "id": "bob-garner",
+   "type": "person",
+   "name": "Bob Garner",
+   "aliases": [
+    "the barbecue man",
+    "Robert Garner"
+   ],
+   "region": [
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "role": [
+     "writer"
+    ],
+    "styles": [
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A North Carolina television reporter and writer who has covered the state's barbecue since 1994, when he began short features on it for UNC-TV's magazine program North Carolina Now.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/bob-garner/"
+  },
+  {
+   "id": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "aliases": [
+    "R. B. Melton",
+    "Robert Melton"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "R. B. 'Bob' Melton (died 1958), a horse trader raised on a Nash County farm, cooked whole hogs for friends in an open pit on the Tar River at Rocky Mount, began selling barbecue there in 1922, and in 1924 built the shed…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/bob-melton/"
+  },
+  {
+   "id": "bum-dennis",
+   "type": "person",
+   "name": "Bum Dennis",
+   "aliases": [
+    "Latham Dennis",
+    "Latham Wade 'Bum' Dennis"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder",
+     "family"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Latham Wade 'Bum' Dennis (June 12, 1937 – December 9, 2022) opened Bum's Restaurant in downtown Ayden in 1963 with his wife Shirley and cooked whole hogs over wood coals there for the rest of his working life, with a…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/bum-dennis/"
+  },
+  {
+   "id": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "aliases": [
+    "the oracle of the holy grub"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "role": [
+     "writer"
+    ],
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Dennis Rogers (October 10, 1942 – August 8, 2020), a News & Observer columnist for more than thirty years, raised in Wilson and an Army veteran, who wrote about small-town eastern North Carolina and its soldiers and, in…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/dennis-rogers/"
+  },
+  {
+   "id": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "aliases": [
+    "The Pitmaster",
+    "Pitmaster Ed Mitchell"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder",
+     "writer"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Ed Mitchell (born 1948 or 1949) is a whole-hog pitmaster from Wilson who began cooking pigs behind his family's grocery store in the early 1990s, turned the store into Mitchell's Ribs, Chicken & Bar-B-Q, co-founded The…",
+   "image": "ed-mitchell/ed-mitchell-ed-mitchell-in-2008.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/ed-mitchell/"
+  },
+  {
+   "id": "elliott-moss",
+   "type": "person",
+   "name": "Elliott Moss",
+   "aliases": [],
+   "region": [
+    "nc-mountains",
+    "sc-pee-dee",
+    "nc",
+    "sc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "chef",
+     "founder"
+    ],
+    "state": "both",
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee"
+    ]
+   },
+   "state": "both",
+   "blurb": "Elliott Moss is a chef and whole-hog pitmaster from Florence, in the Pee Dee of South Carolina, who grew up watching his grandfather smoke hogs, moved to Asheville in 2007 to open The Admiral, and in August 2015 opened…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/elliott-moss/"
+  },
+  {
+   "id": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "aliases": [
+    "Jerry Carroll Bledsoe",
+    "the world's leading, foremost barbecue authority"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "role": [
+     "writer"
+    ],
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Jerry Carroll Bledsoe (July 14, 1941 – December 31, 2025), a Greensboro newspaper columnist and author, born in Danville, Virginia and raised in Thomasville, who wrote for the Greensboro Daily News, later the News &…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/jerry-bledsoe/"
+  },
+  {
+   "id": "jess-swicegood",
+   "type": "person",
+   "name": "Jess Swicegood",
+   "aliases": [
+    "Jesse Swicegood"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder"
+    ],
+    "state": "NC",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Jess Swicegood ran a barbecue stand a few yards from Sid Weaver's tent by the Lexington courthouse in the 1920s, taught Warner Stamey pit cooking alongside Weaver, and sold Stamey the business in 1938 — for $300, by…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/jess-swicegood/"
+  },
+  {
+   "id": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "aliases": [
+    "James Howard Early Jr.",
+    "Chef Early"
+   ],
+   "region": [
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "role": [
+     "founder",
+     "organizer",
+     "writer",
+     "cook"
+    ],
+    "styles": [
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "James Howard Early Jr. (1939–2021), a Winston-Salem lawyer and cook who founded the North Carolina Barbecue Society in 2006 and led it until his death.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/jim-early/"
+  },
+  {
+   "id": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "aliases": [
+    "Joseph Jacob Bessinger",
+    "Big Joe Bessinger",
+    "Joseph Bessinger Sr."
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "role": [
+     "founder",
+     "sauce-maker",
+     "family"
+    ],
+    "state": "SC",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "Joseph Jacob 'Big Joe' Bessinger, a farmer from Orangeburg County, traded the family cow, a mule and fifty dollars for a cafe in Holly Hill and opened it in 1939 serving pork with a mustard-based sauce — the Golden…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/joe-bessinger/"
+  },
+  {
+   "id": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "aliases": [
+    "Éminence Grease",
+    "Eminence Grease",
+    "J. S. Reed"
+   ],
+   "region": [
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "role": [
+     "scholar",
+     "writer",
+     "organizer"
+    ],
+    "styles": [
+     "eastern-nc",
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A sociologist of the American South, born 1942, who taught at the University of North Carolina at Chapel Hill from 1969 until 2000 and retired as William Rand Kenan Jr. Professor.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/john-shelton-reed/"
+  },
+  {
+   "id": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "aliases": [
+    "Lake E. High Jr.",
+    "Lake Edward High Jr."
+   ],
+   "region": [
+    "sc",
+    "sc-midlands"
+   ],
+   "facets": {
+    "state": "SC",
+    "role": [
+     "founder",
+     "organizer",
+     "writer"
+    ],
+    "styles": [
+     "sc-mustard",
+     "sc-pee-dee",
+     "sc-light-tomato",
+     "sc-heavy-tomato"
+    ]
+   },
+   "state": "SC",
+   "blurb": "Lake E. High Jr. of Columbia, a wine judge and, in his own account, a born critic, who founded the South Carolina Barbeque Association with the psychologist Walter Rolandi in 2004 to train judges and promote the state's…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/lake-high/"
+  },
+  {
+   "id": "maurice-bessinger",
+   "type": "person",
+   "name": "Maurice Bessinger",
+   "aliases": [
+    "Lloyd Maurice Bessinger Sr.",
+    "L. Maurice Bessinger"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc"
+   ],
+   "facets": {
+    "role": [
+     "founder",
+     "sauce-maker"
+    ],
+    "state": "SC",
+    "styles": [
+     "sc-mustard"
+    ]
+   },
+   "state": "SC",
+   "blurb": "Lloyd Maurice Bessinger Sr. (July 14, 1930 – February 22, 2014) opened Maurice's Piggie Park, a drive-in, in West Columbia in 1953 with his brother Joe Jr., built it into a chain, and bottled his father's mustard sauce…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/maurice-bessinger/"
+  },
+  {
+   "id": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "aliases": [
+    "Walter B. Jones",
+    "Walter B. 'Pete' Jones"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Walter B. 'Pete' Jones (died 2006) opened the Skylight Inn in Ayden, Pitt County, in the summer of 1947 — at seventeen by his family's count, eighteen by Wikipedia's — and cooked whole hogs over wood coals there for…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/pete-jones/"
+  },
+  {
+   "id": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "aliases": [
+    "Rien T. Fertel"
+   ],
+   "region": [
+    "us-south",
+    "carolinas"
+   ],
+   "facets": {
+    "role": [
+     "writer",
+     "scholar"
+    ],
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee"
+    ]
+   },
+   "state": null,
+   "blurb": "A New Orleans writer and historian — a Tulane doctorate in history, 2013 — who recorded the Southern Foodways Alliance's barbecue oral histories in North Carolina in 2011 and South Carolina in 2012, then spent five…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/rien-fertel/"
+  },
+  {
+   "id": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "aliases": [
+    "Robert Moss",
+    "Robert F. Moss"
+   ],
+   "region": [
+    "sc",
+    "sc-lowcountry"
+   ],
+   "facets": {
+    "state": "SC",
+    "role": [
+     "writer",
+     "scholar"
+    ],
+    "styles": [
+     "sc-mustard",
+     "sc-pee-dee"
+    ]
+   },
+   "state": "SC",
+   "blurb": "A food writer and historian in Charleston — a Furman graduate with a doctorate in English from the University of South Carolina — who is contributing barbecue editor for Southern Living and was restaurant critic for the…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/robert-moss/"
+  },
+  {
+   "id": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "aliases": [
+    "Pitmaster Scott"
+   ],
+   "region": [
+    "sc-pee-dee",
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder",
+     "chef",
+     "writer"
+    ],
+    "state": "SC",
+    "styles": [
+     "sc-pee-dee"
+    ]
+   },
+   "state": "SC",
+   "blurb": "Rodney Scott (born November 1, 1971) is a whole-hog pitmaster from Hemingway, in the Pee Dee of South Carolina, who cooked his first pig at eleven at his parents' store, took the business over in 2011, and in February…",
+   "image": "rodney-scott/rodney-scott-whole-hog-barbecue-big-apple-barbecue-block-party-2013.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/rodney-scott/"
+  },
+  {
+   "id": "sam-jones",
+   "type": "person",
+   "name": "Sam Jones",
+   "aliases": [
+    "Samuel Jones"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder",
+     "family",
+     "writer"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Samuel 'Sam' Jones is the grandson of Pete Jones and a third-generation pitmaster of the Skylight Inn in Ayden, where he sold chopped pork as a child.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/sam-jones/"
+  },
+  {
+   "id": "sid-weaver",
+   "type": "person",
+   "name": "Sid Weaver",
+   "aliases": [],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder"
+    ],
+    "state": "NC",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Sid Weaver sold barbecue from a tent across from the Davidson County courthouse in Lexington from 1919 — cooked in the alley behind, sold to people on their way to court — and is the first name in every account of…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/sid-weaver/"
+  },
+  {
+   "id": "skilton-dennis",
+   "type": "person",
+   "name": "Skilton Dennis",
+   "aliases": [
+    "Skilton M. Dennis"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "cook",
+     "family"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Skilton Dennis is the ancestor the Dennis and Jones families of Ayden name as the start of barbecue for sale in North Carolina: by their account he sold smoked hog meat and cornbread from a wagon in 1830, and Otter…",
+   "image": null,
+   "confidence": "low",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/skilton-dennis/"
+  },
+  {
+   "id": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "aliases": [
+    "Charles Warner Stamey",
+    "C. Warner Stamey"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder"
+    ],
+    "state": "NC",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Charles Warner Stamey (born 1911), the youngest of eleven children, learned pit-cooking as a high-school boarder in Lexington from Jess Swicegood and Sid Weaver at their tents across from the courthouse, sold barbecue…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/warner-stamey/"
+  },
+  {
+   "id": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "aliases": [
+    "Honeymonk"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder"
+    ],
+    "state": "NC",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Wayne Monk opened Lexington Barbecue beside U.S. 29/70 in Lexington, Davidson County, in 1962, at twenty-six, after years as a carhop and then a pit hand under Warner Stamey, and he owns it with his son Rick.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "person/wayne-monk/"
+  },
+  {
+   "id": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "aliases": [
+    "Wilberdean Shirley",
+    "Wilberdean 'Wilber' Shirley"
+   ],
+   "region": [
+    "nc-east",
+    "nc"
+   ],
+   "facets": {
+    "role": [
+     "pitmaster",
+     "founder"
+    ],
+    "state": "NC",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "Wilberdean 'Wilber' Shirley (1930–2021) learned barbecue at Griffin's in Goldsboro, bought the former Hill's Barbecue on U.S.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "person/wilber-shirley/"
+  },
+  {
+   "id": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "aliases": [
+    "True 'Cue",
+    "True Cue",
+    "the Campaign",
+    "True 'Cue USA"
+   ],
+   "region": [
+    "nc",
+    "sc",
+    "us-south"
+   ],
+   "facets": {
+    "state": "both",
+    "founded": "2013",
+    "status": "open"
+   },
+   "state": "both",
+   "blurb": "A campaign, founded in 2013 by the sociologist and barbecue writer John Shelton Reed and the blogger Dan Levine, that certifies restaurants which cook the barbecue style traditional to their area and rely solely on wood…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "org/campaign-for-real-barbecue/"
+  },
+  {
+   "id": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "aliases": [
+    "NCBS",
+    "NC Barbecue Society",
+    "the Society"
+   ],
+   "region": [
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "founded": "2006",
+    "status": "unknown"
+   },
+   "state": "NC",
+   "blurb": "A non-profit founded in 2006 in Winston-Salem by Jim Early, a lawyer and cook, to promote North Carolina's barbecue culture and, in its own words, to secure the state's place as the Barbecue Capital of the World.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "org/north-carolina-barbecue-society/"
+  },
+  {
+   "id": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "aliases": [
+    "SCBA",
+    "SC Barbeque Association",
+    "South Carolina Barbecue Association"
+   ],
+   "region": [
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "founded": "2004",
+    "status": "open"
+   },
+   "state": "SC",
+   "blurb": "A judging body and booster founded in 2004 by Lake E. High Jr., a wine judge, and Walter Rolandi, a psychologist, 'to train the best BBQ judges in the world and to preserve and promote the unique nature of South…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "org/south-carolina-barbeque-association/"
+  },
+  {
+   "id": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "aliases": [
+    "SFA"
+   ],
+   "region": [
+    "us-south",
+    "carolinas"
+   ],
+   "facets": {
+    "founded": "1999",
+    "status": "open",
+    "state": "us"
+   },
+   "state": "us",
+   "blurb": "An institute of the Center for the Study of Southern Culture at the University of Mississippi, founded in 1999 and directed since then by John T.",
+   "image": "southern-foodways-alliance/southern-foodways-alliance-southern-foodways-alliance-chops-specialty-meats-bro-0e7fdb9.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "org/southern-foodways-alliance/"
+  },
+  {
+   "id": "festival-of-discovery",
+   "type": "event",
+   "name": "South Carolina Festival of Discovery",
+   "aliases": [
+    "Festival of Discovery",
+    "SC Festival of Discovery",
+    "Greenwood BBQ and Blues Festival of Discovery"
+   ],
+   "region": [
+    "sc-upstate",
+    "sc"
+   ],
+   "facets": {
+    "state": "SC",
+    "when": "July, second weekend, Thursday to Saturday; July 9–11, 2026",
+    "founded": "2000",
+    "status": "open"
+   },
+   "state": "SC",
+   "blurb": "A three-day barbecue-and-blues festival in Uptown Greenwood each July — Thursday to Saturday of the second weekend; July 9 to 11 in 2026 — hosted by the Uptown Greenwood Development Corporation.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "event/festival-of-discovery/"
+  },
+  {
+   "id": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "aliases": [
+    "plate sale",
+    "barbecue plate sale",
+    "church barbecue",
+    "fire department barbecue",
+    "hash sale",
+    "BBQ fundraiser"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "state": "both",
+    "when": "Saturdays; spring and fall",
+    "status": "open"
+   },
+   "state": "both",
+   "blurb": "The plate sale: a church, a volunteer fire department, a Ruritan club or a scout troop cooks pork — a whole hog or a stack of butts — and sells it by the plate on a Saturday to pay for a roof, a truck or a mission.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "event/fundraiser-barbecue/"
+  },
+  {
+   "id": "hillsborough-hog-day",
+   "type": "event",
+   "name": "Hillsborough Hog Day",
+   "aliases": [
+    "Hog Day",
+    "Hog Day Festival",
+    "Hillsborough Hog Day Festival"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "when": "a weekend in September (June until 2014)",
+    "founded": "1983",
+    "status": "open"
+   },
+   "state": "NC",
+   "blurb": "A two-day barbecue festival and cook-off at River Park in downtown Hillsborough, Orange County, held since 1983 — the oldest continuing barbecue festival in North Carolina, by the Daily Tar Heel's account — and run…",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "event/hillsborough-hog-day/"
+  },
+  {
+   "id": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "aliases": [
+    "the Barbecue Festival",
+    "Lexington BBQ Festival"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "when": "one Saturday in October; October 24, 2026",
+    "founded": "1984",
+    "status": "open",
+    "styles": [
+     "lexington"
+    ]
+   },
+   "state": "NC",
+   "blurb": "A one-day street festival on Main Street in uptown Lexington, Davidson County, each October since 1984, built on the town's pork-shoulder barbecue: up to twenty area restaurants cook and sell, several blocks close to…",
+   "image": "lexington-barbecue-festival/lexington-barbecue-festival-lexington-barbecue-festival-crowd-1.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "event/lexington-barbecue-festival/"
+  },
+  {
+   "id": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "aliases": [
+    "Mallard Creek Presbyterian Church Barbecue",
+    "the Mallard Creek BBQ",
+    "the granddaddy of barbecues"
+   ],
+   "region": [
+    "nc-piedmont",
+    "nc"
+   ],
+   "facets": {
+    "state": "NC",
+    "when": "fourth Thursday of October",
+    "founded": "1929",
+    "status": "closed",
+    "styles": [
+     "eastern-nc"
+    ]
+   },
+   "state": "NC",
+   "blurb": "The one-day church barbecue of Mallard Creek Presbyterian Church in northeast Charlotte, held on the fourth Thursday of October from 1929 to 2024 and retired in 2025 after ninety-three editions.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "event/mallard-creek-barbecue/"
+  },
+  {
+   "id": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "aliases": [
+    "pig picking",
+    "pig pickin",
+    "pig pull",
+    "rolling a pig",
+    "hog roast"
+   ],
+   "region": [
+    "nc-east",
+    "sc-pee-dee",
+    "carolinas"
+   ],
+   "facets": {
+    "state": "both",
+    "when": "any month; homecomings, tailgates, weddings, rallies",
+    "status": "open",
+    "styles": [
+     "eastern-nc",
+     "sc-pee-dee"
+    ]
+   },
+   "state": "both",
+   "blurb": "A party at which a whole hog is cooked for the crowd and the crowd eats it off the pig — picked by hand from the split carcass, or chopped on a block beside it.",
+   "image": "pig-pickin/pig-pickin-2010-06-19-pig-pickin-at-charlie-s-pub.jpg",
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "event/pig-pickin/"
+  },
+  {
+   "id": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "aliases": [
+    "stump meeting",
+    "campaign barbecue",
+    "rally barbecue",
+    "the candidate's pig"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "state": "both",
+    "when": "election years; the weeks before a vote",
+    "status": "open"
+   },
+   "state": "both",
+   "blurb": "The free feed a candidate or a party puts on to draw a crowd: a whole hog, or these days a pile of pork butts, cooked for whoever comes, with speeches or a rope line attached.",
+   "image": "political-barbecue/political-barbecue-andrew-jackson-barbecue-cartoon.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "event/political-barbecue/"
+  },
+  {
+   "id": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "aliases": [
+    "bar-b-q",
+    "bar-b-que",
+    "barbeque",
+    "BBQ",
+    "'cue",
+    "cue",
+    "Q"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "letter": "B",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The cooked meat itself — in the Carolinas, pork cooked slowly over coals or in a cooker and then chopped, pulled or sliced — and, by extension, the place that sells it and the gathering that eats it.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/barbecue/"
+  },
+  {
+   "id": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "aliases": [
+    "Carolina Gold rice",
+    "Carolina Gold sauce",
+    "Carolina Gold BBQ sauce"
+   ],
+   "region": [
+    "sc-midlands",
+    "sc-lowcountry",
+    "sc"
+   ],
+   "facets": {
+    "letter": "C",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "Two South Carolina things with one name. The sauce: the yellow-mustard barbecue sauce of the Midlands — mustard, vinegar, sugar and spices — which Wikipedia says is sometimes called Carolina Gold and which Maurice…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/carolina-gold/"
+  },
+  {
+   "id": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "aliases": [
+    "chopped barbecue",
+    "coarse chopped",
+    "coarse chop",
+    "chop",
+    "minced",
+    "sliced"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "letter": "C",
+    "part_of_speech": "adjective"
+   },
+   "state": null,
+   "blurb": "The way most Carolina barbecue reaches the tray: cooked meat cut across on a block with cleavers — in the east fine enough to hold the thin vinegar sauce, in the Piedmont in larger pieces.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/chopped/"
+  },
+  {
+   "id": "dip",
+   "type": "term",
+   "name": "dip",
+   "aliases": [
+    "Lexington dip",
+    "barbecue dip",
+    "the dip"
+   ],
+   "region": [
+    "nc-piedmont"
+   ],
+   "facets": {
+    "letter": "D",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The Lexington word for its sauce: vinegar, water, ketchup or tomato, salt, black and red pepper, sugar to taste — thin enough to pour, reddish rather than red.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/dip/"
+  },
+  {
+   "id": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "aliases": [
+    "down east",
+    "Downeast",
+    "Down-East"
+   ],
+   "region": [
+    "nc-east"
+   ],
+   "facets": {
+    "letter": "D",
+    "part_of_speech": "phrase"
+   },
+   "state": null,
+   "blurb": "In North Carolina, the coastal plain east of Raleigh — the barbecue east, where the hog is cooked whole and the sauce has no tomato; eastern North Carolina barbecue is also called Down East barbecue.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/down-east/"
+  },
+  {
+   "id": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "aliases": [
+    "the Dutch Fork",
+    "the Fork"
+   ],
+   "region": [
+    "sc-midlands"
+   ],
+   "facets": {
+    "letter": "D",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The land between the Saluda and the Broad rivers above their meeting at Columbia, in Lexington, Newberry and Richland counties, settled by German-speaking Protestants in the middle of the eighteenth century and named…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/dutch-fork/"
+  },
+  {
+   "id": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "aliases": [
+    "fixin's",
+    "fixings",
+    "all the fixins"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "letter": "F",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The sides and trimmings that come with the meat: slaw, hushpuppies or cornbread, boiled potatoes in the east, hash and rice in South Carolina, pickles, sweet tea.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/fixins/"
+  },
+  {
+   "id": "hog",
+   "type": "term",
+   "name": "hog",
+   "aliases": [
+    "whole hog",
+    "hogg"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "letter": "H",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "In Carolina barbecue speech the animal is a hog. Whole hog is the eastern North Carolina and Pee Dee style; a hog killing is the winter work of the farm; a hog's size is its dressed weight.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/hog/"
+  },
+  {
+   "id": "light-bread",
+   "type": "term",
+   "name": "light bread",
+   "aliases": [
+    "light-bread",
+    "lightbread",
+    "white bread"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "letter": "L",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The Southern name for white yeast bread — a store loaf or a soft bun — as against cornbread, biscuits and pone, a dense cornmeal cake.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/light-bread/"
+  },
+  {
+   "id": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "aliases": [
+    "Pedee",
+    "Peedee",
+    "the Pee Dee",
+    "Great Pee Dee"
+   ],
+   "region": [
+    "sc-pee-dee"
+   ],
+   "facets": {
+    "letter": "P",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The river and the region. The Pee Dee rises in the North Carolina mountains as the Yadkin, takes the name Pee Dee below the mouth of the Uwharrie, crosses into South Carolina and reaches the sea at Winyah Bay.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/pee-dee/"
+  },
+  {
+   "id": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "aliases": [
+    "the Piedmont",
+    "Piedmont-style",
+    "Piedmont Triad",
+    "Upstate",
+    "Upcountry",
+    "Western"
+   ],
+   "region": [
+    "nc-piedmont",
+    "sc-upstate"
+   ],
+   "facets": {
+    "letter": "P",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The plateau between the coastal plain and the Blue Ridge, from New York to Alabama and nearly 300 miles wide in North Carolina; its eastern edge is the fall line, where rivers drop off hard rock onto the soft plain and…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/piedmont/"
+  },
+  {
+   "id": "pit",
+   "type": "term",
+   "name": "pit",
+   "aliases": [
+    "barbecue pit",
+    "the pit",
+    "pit house",
+    "open pit"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "letter": "P",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The place the cooking happens. First a trench in the ground filled with hardwood coals, the split hog on a rack above; then a wide, shallow container of cinder block, brick or steel above ground, still a pit; then, at…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/pit/"
+  },
+  {
+   "id": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "aliases": [
+    "pit master",
+    "pit-master",
+    "pit man",
+    "pit boss"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "letter": "P",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "The person who runs the pit — the fire, the coals, the turning of the hog, the call that it is done. A recent word for an old job.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "word/pitmaster/"
+  },
+  {
+   "id": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "aliases": [
+    "pulled-pork",
+    "pulled"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "letter": "P",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "Pork cooked slowly over coals or in a cooker until it comes off the bone in strands, then taken apart by hand or with forks rather than cut.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-15",
+   "url": "word/pulled-pork/"
+  },
+  {
+   "id": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "aliases": [
+    "cole slaw",
+    "coleslaw",
+    "cold slaw",
+    "barbecue slaw",
+    "red slaw",
+    "white slaw"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "letter": "S",
+    "part_of_speech": "noun"
+   },
+   "state": null,
+   "blurb": "Shredded raw cabbage, dressed and served cold, on every Carolina barbecue tray and most sandwiches.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-15",
+   "url": "word/slaw/"
+  },
+  {
+   "id": "barbecue-postcards",
+   "type": "art",
+   "name": "barbecue postcards",
+   "aliases": [
+    "linen postcards",
+    "Tichnor cards",
+    "advertising postcards"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc"
+   ],
+   "facets": {
+    "kind": "postcard",
+    "state": "both"
+   },
+   "state": "both",
+   "blurb": "Between about 1930 and 1945 an American restaurant could order its own postcards by the thousand.",
+   "image": "barbecue-postcards/barbecue-postcards-barbecue-lodge-5756066932.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "art/barbecue-postcards/"
+  },
+  {
+   "id": "cannibal-pig-sign",
+   "type": "art",
+   "name": "the pig that serves itself",
+   "aliases": [
+    "cannibal pig",
+    "suicide food",
+    "the self-serving pig",
+    "pig in a chef's hat"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "kind": "sign",
+    "state": "both"
+   },
+   "state": "both",
+   "blurb": "A barbecue sign on which the pig is not the meat but the staff: a pig in a chef's toque carrying a covered tray, a pig in an apron at a pit, a pig in sunglasses eating a pork sandwich, a pig holding the restaurant's own…",
+   "image": "cannibal-pig-sign/cannibal-pig-sign-pig-neon-sign-beale-street-memphis-tennessee-lccn2010630376.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "art/cannibal-pig-sign/"
+  },
+  {
+   "id": "fsa-barbecue-photographs",
+   "type": "art",
+   "name": "The FSA photographs of Carolina eating",
+   "aliases": [
+    "Marion Post Wolcott in the Carolinas",
+    "FSA/OWI Carolina photographs",
+    "the 1939 Farm Security Administration series"
+   ],
+   "region": [
+    "carolinas",
+    "nc",
+    "sc",
+    "sc-lowcountry"
+   ],
+   "facets": {
+    "kind": "photograph",
+    "state": "both"
+   },
+   "state": "both",
+   "blurb": "The Farm Security Administration — a New Deal agency for rural poverty — kept photographers on the road from 1935, and their negatives went to the Library of Congress as federal work, free of copyright.",
+   "image": "fsa-barbecue-photographs/fsa-barbecue-photographs-corn-shucking-on-uncle-henry-garrett-s-place-negro-t-3cbae19.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "art/fsa-barbecue-photographs/"
+  },
+  {
+   "id": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "aliases": [
+    "the smiling pig",
+    "the house pig",
+    "Little Joe",
+    "the roof pig"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "kind": "mascot",
+    "state": "both"
+   },
+   "state": "both",
+   "blurb": "One pig, drawn once, used everywhere a barbecue business puts its name: the sign, the menu, the sauce label, the takeout box, the trailer door, the roofline, the weather vane.",
+   "image": "pig-mascot/pig-mascot-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "art/pig-mascot/"
+  },
+  {
+   "id": "pigs-in-the-city",
+   "type": "art",
+   "name": "Pigs in the City",
+   "aliases": [
+    "Lexington's painted pigs",
+    "Pigs on Parade"
+   ],
+   "region": [
+    "nc",
+    "nc-piedmont"
+   ],
+   "facets": {
+    "kind": "statue",
+    "state": "NC"
+   },
+   "state": "NC",
+   "blurb": "Life-sized pig sculptures, painted by artists and set out on the sidewalks of Lexington, Davidson County. Uptown Lexington, Inc.",
+   "image": "pigs-in-the-city/pigs-in-the-city-lexington-barbecue-festival-more-pigs.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "art/pigs-in-the-city/"
+  },
+  {
+   "id": "political-barbecue-prints",
+   "type": "art",
+   "name": "Going the whole hog — the 1830s barbecue lithographs",
+   "aliases": [
+    "The Political Barbecue",
+    "Going the Whole Hog",
+    "Jackson-era barbecue cartoons"
+   ],
+   "region": [
+    "us-south",
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "print",
+    "state": "us"
+   },
+   "state": "us",
+   "blurb": "A small group of American political prints from the 1830s in which the barbecue is the joke and the pig is the politician.",
+   "image": "political-barbecue-prints/political-barbecue-prints-andrew-jackson-barbecue-cartoon.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "art/political-barbecue-prints/"
+  },
+  {
+   "id": "roadside-barbecue-signs",
+   "type": "art",
+   "name": "roadside barbecue signs",
+   "aliases": [
+    "Bar-B-Q signs",
+    "the pylon sign",
+    "pit signs"
+   ],
+   "region": [
+    "carolinas",
+    "us-south"
+   ],
+   "facets": {
+    "kind": "sign",
+    "state": "both"
+   },
+   "state": "both",
+   "blurb": "The sign a barbecue place puts at the road: a steel pylon with a lit box on top, neon or bulbs picking out a name, a bottler's disc above it, and a changeable letterboard underneath for the day's news.",
+   "image": "roadside-barbecue-signs/roadside-barbecue-signs-steve-s-bar-b-q-sign-spencer-north-carolina-lccn2017709851.jpg",
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": true,
+   "updated": "2026-09-16",
+   "url": "art/roadside-barbecue-signs/"
+  },
+  {
+   "id": "free-to-use",
+   "type": "story",
+   "name": "Where all of this came from",
+   "aliases": [
+    "resources",
+    "open sources",
+    "how to check us"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "resources"
+   },
+   "state": null,
+   "blurb": "Everything on this site is built from things anyone can open: public-domain cookbooks, openly licensed encyclopaedias and photographs, open map data, oral histories published by the people who recorded them, and the…",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/free-to-use/"
+  },
+  {
+   "id": "how-to-order",
+   "type": "story",
+   "name": "How to order",
+   "aliases": [
+    "what to say at the counter",
+    "ordering"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "essay"
+   },
+   "state": null,
+   "blurb": "At a Carolina barbecue counter the words are short and they mean particular things. Barbecue is the meat, not the event. A tray has no bread; a plate does.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/how-to-order/"
+  },
+  {
+   "id": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "aliases": [
+    "east vs west",
+    "the barbecue war",
+    "vinegar vs dip"
+   ],
+   "region": [
+    "nc",
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "essay",
+    "state": "NC"
+   },
+   "state": "NC",
+   "blurb": "North Carolina cooks barbecue two ways and has never agreed to disagree about it. East of Raleigh the whole hog goes on the pit and the sauce is vinegar, salt and pepper with no tomato in it.",
+   "image": null,
+   "confidence": "high",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/the-great-divide/"
+  }
+ ]
+}

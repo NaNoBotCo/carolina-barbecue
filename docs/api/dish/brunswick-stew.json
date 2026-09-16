@@ -1,0 +1,527 @@
+{
+ "schema": 1,
+ "id": "brunswick-stew",
+ "type": "dish",
+ "names": {
+  "name": "Brunswick stew",
+  "aliases": [
+   "stew",
+   "barbecue stew"
+  ],
+  "said": "On an eastern North Carolina menu it is 'Brunswick stew' or just 'stew'; a cup or a bowl beside the plate."
+ },
+ "region": [
+  "nc",
+  "nc-east",
+  "nc-piedmont",
+  "us-south"
+ ],
+ "facets": {
+  "course": "side",
+  "meat": "mixed",
+  "styles": [
+   "eastern-nc",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A thick tomato stew of chicken or pork with corn, butter beans (lima beans), onion and, in the east, potatoes, cooked in big pots and served in a cup beside the barbecue. Virginia and Georgia both claim it; North Carolina makes it without argument at barbecue houses, church suppers and fundraisers, where it holds the place that hash holds in South Carolina. The name is a county in Virginia or a city in Georgia, both named for the German duchy of Brunswick. The squirrel of the first recipes has given way to chicken, and at a barbecue house some of the chopped pork goes into the pot.",
+  "story": "Two states keep the argument. In Brunswick, Georgia, a twenty-five-gallon iron pot on a plaque is called the vessel in which the stew was first cooked, in 1898, on St. Simons Island; the Virginia General Assembly answered in 1988 with a proclamation that Jimmy Matthews, a Black cook, made a squirrel stew for Creed Haskins in Brunswick County in 1828 and gave it the county's name. The Virginia Writers' Project guide of 1941 tells it as a hunting-camp story — the cook left behind throws everything into the pot — and Marjorie Kinnan Rawlings passed on the tale in 1942 that it was a favourite of Queen Victoria and came from Braunschweig. None of the claims traces to the ground. North Carolina stays out of the fight and eats the stew. Kennedy's Barbecue in Greensboro was advertising 'Barbecue, Brunswick stew, slaw and hush puppies' in 1949, the plate that became the state's standard. Our State printed Mary Scott's recipe on November 10, 1951: the governor's wife's pot held a five-pound chicken, corn, lima beans, tomatoes, onion, potato, okra and chopped barbecue. At Melton's in Rocky Mount the stew sat beside boiled potatoes, slaw, corn sticks and hushpuppies until the house closed in 2005. *Tradition holds —* the eastern stew has potatoes in it and the Piedmont's may not, and church stew-masters cook it overnight in iron pots for the fall fundraisers, with a paddle and a crowd.",
+  "how": "A whole chicken, or chicken and pork, boiled until it falls apart and picked from the bone; the stock takes tomatoes, corn cut from the cob, butter beans, onion and, in the east, potatoes, and simmers for hours with a long paddle going round until the meat has shredded into the vegetables and a spoon stands up in it. Salt, black and red pepper; at a barbecue house a ladle of chopped pork and its sauce. Served hot in a cup or bowl beside the tray, or by the quart to take home.",
+  "today": "A standing side at eastern barbecue houses and at the Greensboro-line pits of the Piedmont; Melton's priced a plate with slaw, hushpuppies and Brunswick stew in 1988. *Tradition holds —* churches and fire departments across the Piedmont sell it by the quart at fall stews."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the eastern plate's stew, with potatoes in it.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "as": "on the Piedmont plate since Kennedy's advertised it with slaw and hushpuppies in 1949.",
+   "rel": "whole"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the South Carolina dish that takes its place on the plate.",
+   "rel": "contrast"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "where it sat beside boiled potatoes and corn sticks from 1924 to 2005.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "its partner on the 1949 Greensboro plate.",
+   "rel": "kin"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "the other eastern side in the same cup-and-plate arrangement at Melton's.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the plate it comes beside, in a cup.",
+   "rel": "whole"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "the church and fire-department stew pots.",
+   "rel": "event"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "sometimes served at the pickin with hushpuppies, slaw and beans.",
+   "rel": "event"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the barbecue whose chopped meat goes into the pot at an eastern house.",
+   "rel": "part"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hash-and-rice",
+   "tell": "Hash is a smooth meat gravy over rice; Brunswick stew is chunky with corn and beans and red with tomato, and rice is not under it."
+  }
+ ],
+ "links": [
+  {
+   "label": "Brunswick stew — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brunswick_stew"
+  },
+  {
+   "label": "New Georgia Encyclopedia — Brunswick Stew",
+   "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/brunswick-stew/"
+  }
+ ],
+ "sources": [
+  "s:wp-brunswick-stew",
+  "s:web-georgiaencyclopedia-brunswick-stew",
+  "s:web-ourstate-nc-brunswick-stew",
+  "s:web-moss-hushpuppies",
+  "s:wp-meltons-barbecue",
+  "s:wp-pig-pickin",
+  "s:web-scencyclopedia-hash",
+  "s:book-aunt-carolines-dixieland-recipes",
+  "s:book-what-mrs-fisher-knows",
+  "s:book-dixie-cookery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-brunswick-stew"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-georgiaencyclopedia-brunswick-stew",
+    "note": "Kennedy's 1949 advertisement from Moss; Mary Scott's recipe from Our State; the potatoes-east rule and the church stews are marked tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method as the recipes cited describe it; the paddle and the overnight pot are general knowledge"
+   },
+   "text.today": {
+    "tier": "tradition",
+    "note": "Melton's 1988 plate from its article; the fall church stews are tradition"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-aunt-carolines-dixieland-recipes",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Old Virginia Brunswick Stew",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "page": 129,
+   "text": "Boil one chicken and one rabbit or squirrel in two or three quarts of water. When about half done add one quart of lima beans, one quart of tomatoes, one quart of corn and butter the size of two eggs. Season to taste with salt and pepper and cook until thick enough to eat with a fork.",
+   "note": "The squirrel is in the older Virginia line of the stew; Carolina pits cook it with chicken or pork and, in the east, potatoes. 'Thick enough to eat with a fork' is the test a Carolina stew is still held to."
+  },
+  {
+   "title": "Circuit Hash (recipe 152)",
+   "source": "s:book-what-mrs-fisher-knows",
+   "license": "Public domain",
+   "year": 1881,
+   "url": "https://archive.org/details/whatmrsfisherkno00fishrich",
+   "author": "Mrs. Abby Fisher",
+   "book": "What Mrs. Fisher Knows About Old Southern Cooking",
+   "page": 69,
+   "text": "One dozen tomatoes, one quart of butter beans, one dozen ears of corn cut off from cob, quarter pound of lean and fat pork cut in fine pieces, if pork is not liked, use two tablespoonfuls of butter; put on in a sauce-pan and stew one hour.\n\nNote. Five minutes before dinner put in the corn to cook with the rest of stew.",
+   "note": "Abby Fisher's dish is called a hash, not a stew, but its parts are the stew's: tomatoes, butter beans, corn and pork, cooked down together. She was born into slavery in South Carolina about 1832."
+  },
+  {
+   "title": "Vegetable Soup",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "page": 7,
+   "text": "Put a pint of Lima beans, a half a dozen large tomatoes, two teacupfuls of corn cut from the cob, a few snap beans, and two teaspoonfuls of dried ochra, into five quarts of water, with three slices of lean ham. Boil for two hours, and season with salt and pepper. Remove the ham before sending to table. Thicken with yellow of egg and a little flour.",
+   "note": "An ancestor rather than the thing: a North Carolina book of 1867, the same beans, corn and tomatoes in the same pot, without the name. Ochra is okra.",
+   "region": "North Carolina"
+  }
+ ],
+ "images": [
+  {
+   "file": "brunswick-stew/brunswick-stew-barbecue-cole-slaw-brunswick-stew-1246489833.jpg",
+   "source": "commons",
+   "title": "File:Barbecue, Cole Slaw, Brunswick Stew (1246489833).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Barbecue%2C_Cole_Slaw%2C_Brunswick_Stew_%281246489833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue%2C_Cole_Slaw%2C_Brunswick_Stew_%281246489833%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Eugene Kim from San Francisco, USA",
+   "credit": "Barbecue, Cole Slaw, Brunswick Stew",
+   "alt": "The pulled pork at Allen &amp; Sons was absolutely delicious -- smokey, moist, and tangy.",
+   "date": "Taken on 24 August 2007, 15:02",
+   "primary": true,
+   "sha256": "6f0c57a87fe569ba7e2244670946681c7a8ed65d43297628a97ec15ad880a6ad"
+  },
+  {
+   "file": "brunswick-stew/brunswick-stew-cup-of-brunswick-stew.jpg",
+   "source": "commons",
+   "title": "File:Cup of Brunswick stew.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cup_of_Brunswick_stew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACup_of_Brunswick_stew.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Ser Amantio di Nicolao",
+   "credit": "Own work",
+   "alt": "Brunswick stew",
+   "date": "10/12/2019 (according to Exif data)",
+   "primary": false,
+   "sha256": "b7400d2a2e4523079a32db12e3d8670f3682cc6d7a8f60cede606e0ed9d44fe4"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "A thick tomato stew of chicken or pork with corn, butter beans (lima beans), onion and, in the east, potatoes, cooked in big pots and served in a cup beside the barbecue.",
+ "region_terms": [
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the eastern plate's stew, with potatoes in it.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "on the Piedmont plate since Kennedy's advertised it with slaw and hushpuppies in 1949.",
+   "rel": "whole"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the South Carolina dish that takes its place on the plate.",
+   "rel": "contrast"
+  },
+  {
+   "to": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "where it sat beside boiled potatoes and corn sticks from 1924 to 2005.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "its partner on the 1949 Greensboro plate.",
+   "rel": "kin"
+  },
+  {
+   "to": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the other eastern side in the same cup-and-plate arrangement at Melton's.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the plate it comes beside, in a cup.",
+   "rel": "whole"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "the church and fire-department stew pots.",
+   "rel": "event"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "sometimes served at the pickin with hushpuppies, slaw and beans.",
+   "rel": "event"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the barbecue whose chopped meat goes into the pot at an eastern house.",
+   "rel": "part"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-brunswick-stew",
+   "kind": "wikipedia",
+   "title": "Brunswick stew — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brunswick_stew",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1373049453"
+  },
+  {
+   "id": "s:web-georgiaencyclopedia-brunswick-stew",
+   "kind": "web",
+   "title": "Brunswick Stew (John A. Burrison, 2005-04-06, ed. 2013-08-06)",
+   "publisher": "New Georgia Encyclopedia",
+   "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/brunswick-stew/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-nc-brunswick-stew",
+   "kind": "web",
+   "title": "North Carolina Brunswick Stew (Our State Staff, 2023-01-18; the 1951 recipe of Mary Scott)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/north-carolina-brunswick-stew/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-moss-hushpuppies",
+   "kind": "web",
+   "title": "The True Story of Hushpuppies, a Genuine Carolina Treat (Robert F. Moss, 2023-06-25)",
+   "publisher": "robertfmoss.com",
+   "url": "https://robertfmoss.com/features/The-True-Story-of-Hushpuppies-a-Genuine-Carolina-Treat",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:web-scencyclopedia-hash",
+   "kind": "web",
+   "title": "Hash (Saddler Taylor)",
+   "publisher": "South Carolina Encyclopedia, University of South Carolina",
+   "url": "https://www.scencyclopedia.org/sce/entries/hash/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:book-aunt-carolines-dixieland-recipes",
+   "kind": "book",
+   "title": "Aunt Caroline's Dixieland Recipes: A Rare Collection of Choice Southern Dishes",
+   "author": "Emma and William McKinney",
+   "publisher": "Laird & Lee, Inc., Chicago",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "A white-authored book framed around 'Aunt Caroline', a Black cook drawn as a minstrel figure, with several recipe titles in that idiom; the recipes themselves are written plainly. Read in the Cornell University copy, which carries the Library's no-known-copyright-restrictions statement. Recipes quoted here keep the book's own titles and are chosen from the plainly named ones."
+  },
+  {
+   "id": "s:book-what-mrs-fisher-knows",
+   "kind": "book",
+   "title": "What Mrs. Fisher Knows About Old Southern Cooking, Soups, Pickles, Preserves, Etc.",
+   "author": "Mrs. Abby Fisher",
+   "publisher": "Women's Co-Operative Printing Office, San Francisco",
+   "year": 1881,
+   "url": "https://archive.org/details/whatmrsfisherkno00fishrich",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "Abby Fisher was born into slavery in South Carolina about 1832 and dictated the book in San Francisco; her preface says she could neither read nor write. Recipes are numbered."
+  },
+  {
+   "id": "s:book-dixie-cookery",
+   "kind": "book",
+   "title": "Dixie Cookery; or, How I Managed My Table for Twelve Years. A Practical Cook-Book for Southern Housekeepers",
+   "author": "Mrs. [Maria Massey] Barringer, of North Carolina",
+   "publisher": "Loring",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "Written in Concord, Cabarrus County, North Carolina. Published in the United States in 1867 and in the public domain. Read in the Internet Archive scan; recipe texts copied from it verbatim, spelling and punctuation as printed."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-brunswick-stew"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-georgiaencyclopedia-brunswick-stew",
+   "note": "Kennedy's 1949 advertisement from Moss; Mary Scott's recipe from Our State; the potatoes-east rule and the church stews are marked tradition"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the method as the recipes cited describe it; the paddle and the overnight pot are general knowledge"
+  },
+  "text.today": {
+   "tier": "tradition",
+   "note": "Melton's 1988 plate from its article; the fall church stews are tradition"
+  }
+ },
+ "primary_image": {
+  "file": "brunswick-stew/brunswick-stew-barbecue-cole-slaw-brunswick-stew-1246489833.jpg",
+  "source": "commons",
+  "title": "File:Barbecue, Cole Slaw, Brunswick Stew (1246489833).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Barbecue%2C_Cole_Slaw%2C_Brunswick_Stew_%281246489833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue%2C_Cole_Slaw%2C_Brunswick_Stew_%281246489833%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Eugene Kim from San Francisco, USA",
+  "credit": "Barbecue, Cole Slaw, Brunswick Stew",
+  "alt": "The pulled pork at Allen &amp; Sons was absolutely delicious -- smokey, moist, and tangy.",
+  "date": "Taken on 24 August 2007, 15:02",
+  "primary": true,
+  "sha256": "6f0c57a87fe569ba7e2244670946681c7a8ed65d43297628a97ec15ad880a6ad"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "baked-beans",
+   "type": "dish",
+   "name": "baked beans",
+   "as": "the other thing a pickin' serves in a cup, instead of these.",
+   "rel": "contrast"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the other eastern side on Melton's and Clyde Cooper's lists.",
+   "rel": "kin"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the stew that holds hash's place in Georgia, Virginia and North Carolina: tomato, corn and beans, and no rice under it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "on Kennedy's 1949 Greensboro plate together.",
+   "rel": "kin"
+  },
+  {
+   "from": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "as": "on the menu since the early years.",
+   "rel": "serves"
+  },
+  {
+   "from": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "a side here, as at the other eastern houses of its generation.",
+   "rel": "serves"
+  },
+  {
+   "from": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "the Carolinas' other stew; Midway cooks a chicken stew of its own by the hundred gallons.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "on his table beside the barbecue.",
+   "rel": "serves"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "in the church's kettles beside the pork.",
+   "rel": "serves"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "2,500 gallons of it in 2015, and a quart to take home.",
+   "rel": "serves"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "sometimes on the table beside the pig.",
+   "rel": "serves"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "on the plate at Melton's and at pig pickin's.",
+   "rel": "part"
+  }
+ ]
+}

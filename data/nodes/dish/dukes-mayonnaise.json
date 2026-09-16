@@ -1,0 +1,160 @@
+{
+ "schema": 1,
+ "id": "dukes-mayonnaise",
+ "type": "dish",
+ "names": {
+  "name": "Duke's mayonnaise",
+  "aliases": [
+   "Duke's",
+   "Duke's Mayonnaise"
+  ],
+  "said": "Said as the brand, not the ingredient: a Carolina cook asks for Duke's the way another asks for mayonnaise."
+ },
+ "etymology": {
+  "root": "the founder's married surname: Eugenia Thomas Slade Duke of Greenville, South Carolina, who put her own name on the sandwiches she sold from 1917",
+  "first_attested": "1917 for the sandwiches; about 1923 for the bottled mayonnaise (Wikipedia)",
+  "note": "No connection to Duke University, to Dukes Bar-B-Que of Orangeburg, or to the Duke family of Durham tobacco.",
+  "tier": "cited",
+  "source": "s:wp-dukes-mayonnaise"
+ },
+ "region": [
+  "carolinas",
+  "sc",
+  "nc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "condiment",
+  "styles": [
+   "eastern-nc",
+   "sc-pee-dee",
+   "sc-mustard",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A bottled mayonnaise made in Mauldin, South Carolina, outside Greenville: egg yolks, oil and cider vinegar, with more yolk than most brands and no added sugar, which is where the tang comes from that the company sells it on. In the Carolinas it is the jar a white slaw, a potato salad, a deviled egg, a pimento cheese and a tomato sandwich are made with, and it is the third-largest mayonnaise brand in the United States, behind Hellmann's and Kraft, after a long stretch when it was sold mostly in the South.",
+  "story": "Eugenia Thomas Slade Duke was born in Columbus, Georgia in October 1881, married Harry Cuthbert Duke at eighteen and moved to Greenville. In August 1917 she and her daughter Martha began selling sandwiches at Army canteens run by the YMCA, to bring money into the family; the soldiers at Camp Sevier, a National Guard training camp nearby, and her other customers kept asking about the mayonnaise, and by about 1923 she was bottling it on its own. She spoke at the Mayonnaise Manufacturers' Convention in Boston in November 1928. Demand outran her, and in 1929 she sold the business to the C. F. Sauer Company of Richmond, Virginia, where it became the flagship product; she followed Martha to California and opened the Duchess Sandwich Company and a catering company there. She worked for the passage of the Nineteenth Amendment, which gave women the vote. She died in 1968. The South Carolina legislature marked the brand's centenary in 2017. Falfurrias Capital Partners bought C. F. Sauer and the brand in 2019 and sold Sauer Brands, Duke's with it, to Advent International in 2025.",
+  "how": "It is bought, not made, and the household use is as a binder: folded into shredded cabbage for a white slaw, into diced boiled potato and egg for potato salad, into mashed yolk for deviled eggs, into grated cheddar and pimento for pimento cheese. Made by hand, a mayonnaise is egg yolk with oil beaten in a drop at a time until it thickens, then faster, with vinegar or lemon juice and salt; mustard whisked into the yolk first makes it hold together more readily.",
+  "today": "The plant is at Mauldin, southeast of Greenville, and was filmed for a How It's Made episode about mayonnaise in 2011. The brand is sold across the United States and in New Zealand, Australia and the Middle East, with Latin American sales announced in 2017."
+ },
+ "kin": [
+  {
+   "to": "white-slaw",
+   "as": "the jar the pale slaw of the east and of most of South Carolina is bound with.",
+   "rel": "part"
+  },
+  {
+   "to": "potato-salad",
+   "as": "the dressing that makes a Carolina potato salad the mayonnaise kind.",
+   "rel": "part"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the thing the Piedmont slaw is defined by leaving out.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "in the slaw on the meat, everywhere the slaw is white.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "a South Carolina product, made outside Greenville since 1917.",
+   "rel": "whole"
+  },
+  {
+   "to": "fixins",
+   "as": "not a fixin itself, but in two of them.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "white-slaw",
+   "tell": "One is the jar, the other is what comes out of it mixed with cabbage."
+  }
+ ],
+ "links": [
+  {
+   "label": "Duke's Mayonnaise — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Duke%27s_Mayonnaise"
+  }
+ ],
+ "sources": [
+  "s:wp-dukes-mayonnaise",
+  "s:wp-coleslaw",
+  "s:wp-barbecue-in-south-carolina"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dukes-mayonnaise"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-dukes-mayonnaise"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-dukes-mayonnaise"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-basic-mayonnaise",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Basic Mayonnaise",
+   "source": "s:wikibooks-basic-mayonnaise",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABasic_Mayonnaise",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "2 egg yolks",
+    "2½ teaspoons (12.5 mL) lemon juice and/or vinegar",
+    "½ teaspoons (2.5 mL) Dijon mustard",
+    "¼ teaspoons (1 mL) salt",
+    "¾ cup (180 mL) oil"
+   ],
+   "text": "1. In a large bowl, beat the egg yolk with a wire whisk for about a minute.\n2. Then add the mustard, salt, and half the lemon juice. Whisk for another minute - the mixture should thicken very slightly.\n3. Then, very slowly, add half the oil with one hand whilst whisking with the other.\n4. Start drop by drop, incorporating each drop before adding the next, and build up to a trickle.\n5. Keep going until the oil is whisked in.\n6. Add the rest of the lemon juice, whisk to combine.\n7. Add the rest of the oil in the same manner as before.\n8. Keep going until all the oil is whisked in.\n9. If desired, stir in flavourings such as crushed garlic, or use the mayonnaise as a base for other sauces.",
+   "yield": "1 cup (230 g)",
+   "note": "How the jar's contents are made from scratch, if a cook wants to."
+  },
+  {
+   "title": "Sana Mayonnaise",
+   "source": "s:book-housekeeping-in-old-virginia",
+   "license": "Public domain",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "author": "Marion Cabell Tyree, editor",
+   "book": "Housekeeping in Old Virginia",
+   "text": "The yolks (raw) of two eggs.\n\nStir in oil, a drop at a time, until it begins to thicken, and then pour it in slowly still, but in greater quantities, stirring continually. Add cayenne pepper, salt, and vinegar to the taste.\n\nIf mustard is liked in the sauce, it must be mixed with the yolks of the eggs before dropping the oil.\n\nThis sauce should be nearly as thick as soft butter. It makes a delicious dressing for lettuce, celery, cold poultry or game; and also for cold boiled fish or pickled salmon. — Mrs. E. P., Cin.",
+   "page": 209,
+   "note": "A hand-made mayonnaise in a Southern cookbook of 1879, forty years before Eugenia Duke began bottling hers: two raw yolks, oil beaten in a drop at a time, cayenne, salt and vinegar."
+  },
+  {
+   "title": "Mayonnaise Dressing (Without Oil)",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "text": "Mix together two tablespoonsful of flour, one teaspoonful of mustard, one teaspoonful of salt, one tablespoonful of sugar. Add this to two eggs well beaten, and lastly one cup of vinegar. Put on to cook in a double boiler and cook until thick, stirring frequently.",
+   "page": 121,
+   "note": "The cooked, oil-less kind — flour, egg, vinegar, sugar and mustard thickened over water — which is what many Southern kitchens meant by 'dressing' when oil was dear. Sweet, and close to what a boiled slaw dressing is."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

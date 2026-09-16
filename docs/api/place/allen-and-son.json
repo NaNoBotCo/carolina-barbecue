@@ -1,0 +1,491 @@
+{
+ "schema": 1,
+ "id": "allen-and-son",
+ "type": "place",
+ "names": {
+  "name": "Allen & Son Barbeque",
+  "aliases": [
+   "Allen & Son",
+   "Allen and Son Bar-B-Que",
+   "Allen & Son Barbecue"
+  ],
+  "sort": "Allen and Son"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "1971",
+  "fuel": "wood",
+  "styles": [
+   "lexington",
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "The hickory-fired pork-shoulder restaurant on Millhouse Road at N.C. 86 north of Chapel Hill that Keith Allen opened in 1971 at nineteen and closed in the first week of December 2018, quietly, to avoid a long goodbye. Allen split the hickory himself, fired the pit every half hour for nine hours, and dressed the chopped shoulder with the hot vinegar sauce he had from his father — an eastern sauce on Piedmont meat. His wife Tammy waited tables for thirty years and made the ice cream; the pies, cobblers and banana pudding were the second reason to come. A separate Allen & Son in Pittsboro, under a licensing agreement, stayed open.",
+  "story": "Keith Allen's father James ran an Allen & Son in Chatham County, and Keith was cooking at twelve or thirteen after his father bought the business; his father died at 51 or 52. In 1971 Keith opened the Chapel Hill restaurant with $3,000, Our State reported in 2017. He started work at 2:30 in the morning five days a week, split hickory logs by hand for the heat and the flavor — 'I keep cooking with wood because I'm chasing that flavor' — and cooked sixteen-pound shoulders down to nine or eleven over nine hours. 'Nobody's hands but mine touch my barbecue, until the customer's do.' The authors of Holy Smoke interviewed him at length; the Southern Foodways Alliance gave him its Guardian of the Tradition award in 2007. He had no son to take it on; his daughter went to graduate school in geospatial science. In early December 2018 he closed without notice, and Chapelboro reported on December 6 that the Pittsboro Allen & Son on U.S. 15-501 would continue under a separate licensing agreement. UNC Press published a closing interview with him two weeks later.",
+  "how": "Sixteen-pound shoulders over hickory Allen split himself, the pit fired every thirty minutes for nine hours, the meat chopped and dressed with a vinegar sauce he called hot and spicy. Chicken, catfish and cheeseburgers filled out the menu, and the desserts — ice cream made daily, cobblers from his grandmother's recipe, coconut chess and peanut butter pies, pecan pie, banana pudding — were made in the house, with sweet tea.",
+  "today": "Closed since December 2018. The building at 6203 Millhouse Road, Chapel Hill, is not the Pittsboro Allen & Son, which continued separately; this record is the Chapel Hill restaurant only."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the cut and the wood are the Piedmont's: shoulders over hickory.",
+   "rel": "whole"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the sauce was the east's, hot vinegar from his father, on Piedmont meat.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "sixteen pounds going in, nine to eleven coming out.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory, split by hand by the owner for the heat and the flavor.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "his sauce, inherited, hot and spicy.",
+   "rel": "sauce"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "on the dessert board with the pies and cobblers.",
+   "rel": "serves"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "on every table.",
+   "rel": "serves"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "interviewed Allen at length for Holy Smoke.",
+   "rel": "person"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "gave Allen its Guardian of the Tradition award in 2007.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.9919056,
+  "lon": -79.0716999,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "6203 Millhouse Rd",
+  "city": "Chapel Hill",
+  "county": "Orange",
+  "state": "NC",
+  "postcode": "27516"
+ },
+ "links": [
+  {
+   "label": "Interview with Keith Allen on the occasion of its closing — UNC Press Blog (2018)",
+   "url": "https://uncpressblog.com/2018/12/19/interview-with-keith-allen-owner-of-allen-son-barbecue-restaurant-in-chapel-hill-on-the-occasion-of-its-closing/"
+  },
+  {
+   "label": "Allen & Son in Chapel Hill — Our State (2017)",
+   "url": "https://www.ourstate.com/allen-son-in-chapel-hill/"
+  }
+ ],
+ "sources": [
+  "s:web-uncpress-keith-allen",
+  "s:web-ourstate-allen-son",
+  "s:web-chapelboro-allen-son",
+  "s:reed-holy-smoke",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-uncpress-keith-allen"
+  },
+  "fields": {
+   "facets": {
+    "tier": "cited",
+    "source": "s:web-ourstate-allen-son",
+    "note": "1971 per Our State; UNC Press says 1970 or 1971"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-chapelboro-allen-son"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded from the street address via Nominatim"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ourstate-allen-son"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [
+  {
+   "file": "allen-and-son/allen-and-son-allen-son-barbecue-5165581564.jpg",
+   "source": "commons",
+   "title": "File:Allen & Son Barbecue (5165581564).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Allen_%26_Son_Barbecue_%285165581564%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AAllen_%26_Son_Barbecue_%285165581564%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "yawper",
+   "credit": "IMG_2167",
+   "alt": "IMG_2167",
+   "date": "2010-09-18 05:43",
+   "primary": true,
+   "sha256": "4700aa0c33d08b1b39a1a99c73a673592b1b98c95950cbff3ff1fe465dcef5b9"
+  },
+  {
+   "file": "allen-and-son/allen-and-son-barbecue-cole-slaw-brunswick-stew-1246489833.jpg",
+   "source": "commons",
+   "title": "File:Barbecue, Cole Slaw, Brunswick Stew (1246489833).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Barbecue%2C_Cole_Slaw%2C_Brunswick_Stew_%281246489833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue%2C_Cole_Slaw%2C_Brunswick_Stew_%281246489833%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Eugene Kim from San Francisco, USA",
+   "credit": "Barbecue, Cole Slaw, Brunswick Stew",
+   "alt": "The pulled pork at Allen &amp; Sons was absolutely delicious -- smokey, moist, and tangy.",
+   "date": "Taken on 24 August 2007, 15:02",
+   "primary": false,
+   "sha256": "6f0c57a87fe569ba7e2244670946681c7a8ed65d43297628a97ec15ad880a6ad"
+  }
+ ],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-uncpress-keith-allen",
+   "tier": "cited",
+   "note": "Keith Allen split the hickory himself and fired the pit every half hour for nine hours."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-ourstate-allen-son",
+   "tier": "cited",
+   "note": "Keith Allen opened it at nineteen in 1971; his wife Tammy waited tables for thirty years and made the ice cream."
+  },
+  {
+   "tag": "closed",
+   "source": "s:web-chapelboro-allen-son",
+   "tier": "cited",
+   "note": "Closed in the first week of December 2018. The Pittsboro Allen & Son, under a separate licence, is a different business and stayed open.",
+   "since": "2018-12"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Allen & Son Barbecue, Chapel Hill",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "note": "Both trail rosters read date from before the December 2018 closing."
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-allen-son"
+  },
+  {
+   "by": "reed-holy-smoke",
+   "what": "named in the book",
+   "source": "s:reed-holy-smoke"
+  }
+ ],
+ "blurb": "The hickory-fired pork-shoulder restaurant on Millhouse Road at N.C. 86 north of Chapel Hill that Keith Allen opened in 1971 at nineteen and closed in the first week of December 2018, quietly, to avoid a long goodbye.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the cut and the wood are the Piedmont's: shoulders over hickory.",
+   "rel": "whole"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the sauce was the east's, hot vinegar from his father, on Piedmont meat.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "sixteen pounds going in, nine to eleven coming out.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "hickory, split by hand by the owner for the heat and the flavor.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "his sauce, inherited, hot and spicy.",
+   "rel": "sauce"
+  },
+  {
+   "to": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "on the dessert board with the pies and cobblers.",
+   "rel": "serves"
+  },
+  {
+   "to": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "on every table.",
+   "rel": "serves"
+  },
+  {
+   "to": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "interviewed Allen at length for Holy Smoke.",
+   "rel": "person"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "gave Allen its Guardian of the Tradition award in 2007.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-uncpress-keith-allen",
+   "kind": "web",
+   "title": "Interview with Keith Allen, owner of Allen & Son Barbecue Restaurant in Chapel Hill, on the occasion of its closing — UNC Press Blog (19 Dec 2018)",
+   "publisher": "University of North Carolina Press",
+   "url": "https://uncpressblog.com/2018/12/19/interview-with-keith-allen-owner-of-allen-son-barbecue-restaurant-in-chapel-hill-on-the-occasion-of-its-closing/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-allen-son",
+   "kind": "web",
+   "title": "Allen & Son in Chapel Hill — Our State (Jason Zengerle, 6 Aug 2017)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/allen-son-in-chapel-hill/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-chapelboro-allen-son",
+   "kind": "web",
+   "title": "Famed Allen & Son Barbecue Closes in Chapel Hill — Chapelboro (6 Dec 2018)",
+   "publisher": "Chapelboro.com / WCHL",
+   "url": "https://chapelboro.com/news/business/allen-son-barbecue-closes",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:web-barbecuebros-nc-trail",
+   "kind": "web",
+   "title": "NC Historic Barbecue Trail",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "accessed": "2026-09-16",
+   "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-uncpress-keith-allen"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-uncpress-keith-allen"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-uncpress-keith-allen"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-chapelboro-allen-son"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest file; geocoded from the street address via Nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-ourstate-allen-son"
+  }
+ },
+ "primary_image": {
+  "file": "allen-and-son/allen-and-son-allen-son-barbecue-5165581564.jpg",
+  "source": "commons",
+  "title": "File:Allen & Son Barbecue (5165581564).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Allen_%26_Son_Barbecue_%285165581564%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AAllen_%26_Son_Barbecue_%285165581564%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "yawper",
+  "credit": "IMG_2167",
+  "alt": "IMG_2167",
+  "date": "2010-09-18 05:43",
+  "primary": true,
+  "sha256": "4700aa0c33d08b1b39a1a99c73a673592b1b98c95950cbff3ff1fe465dcef5b9"
+ },
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-uncpress-keith-allen",
+   "note": "Keith Allen split the hickory himself and fired the pit every half hour for nine hours.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-ourstate-allen-son",
+   "note": "Keith Allen opened it at nineteen in 1971; his wife Tammy waited tables for thirty years and made the ice cream.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": [],
+   "source": "s:web-chapelboro-allen-son",
+   "note": "Closed in the first week of December 2018. The Pittsboro Allen & Son, under a separate licence, is a different business and stayed open.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Allen & Son Barbecue, Chapel Hill",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "year": null,
+   "source": "s:web-barbecuebros-nc-trail"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": null,
+   "source": "s:web-ourstate-allen-son"
+  },
+  {
+   "key": "reed-holy-smoke",
+   "label": "Holy Smoke (Reed & Reed)",
+   "what": "named in the book",
+   "url": "",
+   "year": null,
+   "source": "s:reed-holy-smoke"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "the Friday dessert, beside Keith Allen's pies and cobblers.",
+   "rel": "served-at"
+  },
+  {
+   "from": "peach-cobbler",
+   "type": "dish",
+   "name": "peach cobbler",
+   "as": "rolled from Keith Allen's grandmother's recipe, with ice cream made daily.",
+   "rel": "served-at"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "by the litre, brewed by Keith Allen himself.",
+   "rel": "served-at"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "Keith Allen, interviewed at length for Holy Smoke.",
+   "rel": "place"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "a Trail stop in Orange County.",
+   "rel": "place"
+  },
+  {
+   "from": "hillsborough-hog-day",
+   "type": "event",
+   "name": "Hillsborough Hog Day",
+   "as": "Orange County's pit on the Historic Barbecue Trail, up the road from River Park.",
+   "rel": "place"
+  }
+ ]
+}

@@ -1,0 +1,366 @@
+{
+ "schema": 1,
+ "id": "buxton-hall-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Buxton Hall Barbecue",
+  "aliases": [
+   "Buxton Hall",
+   "Buxton Hall Bar-B-Cue"
+  ],
+  "sort": "Buxton Hall Barbecue"
+ },
+ "region": [
+  "nc-mountains"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "2015",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog restaurant that ran from August 2015 to November 22, 2023 in a 1930s roller rink on Banks Avenue in Asheville's South Slope, opened by pitmaster Elliott Moss with Meherwan Irani's Chai Pani restaurant group. Pasture-raised pigs from western North Carolina farms smoked over wood from ten at night to eight in the morning; the plate carried South Carolina hash over rice — the pig's organs and fatty trimmings cooked down to a gravy — beside the chopped hog, with a fried-chicken sandwich, smoked baked beans and pimento cheese, lard-crust pies and banana pudding under meringue. The rink's murals stayed on the walls.",
+  "story": "Elliott Moss grew up watching his grandfather smoke whole hogs, and brought that South Carolina whole hog to the mountains. He and Meherwan Irani, both James Beard nominees, opened Buxton Hall in August 2015 in a building that had been a roller rink in the 1930s and then the Standard Paper Sales Company. Bon Appétit ranked it ninth among the country's new restaurants in 2016 and named its fried chicken sandwich the sandwich of the year. The pandemic closed it from March to July 2020; a fire later forced another closure and new equipment. Moss left as pitmaster in July 2022 and chef Nick Barr took the kitchen. The Smoke Sheet reported on November 8, 2023 that the last day of service would be November 22. Chai Pani, Irani's Indian restaurant, moved from Battery Park Avenue into the 8,000-square-foot space and reopened there on May 21, 2024.",
+  "how": "Whole hogs from pasture farms smoked overnight, ten to eight, over wood, then were chopped in the eastern way. The hash — organs and trimmings cooked to a gravy — went over rice as it does in the Pee Dee. The kitchen fried chicken for a sandwich, smoked the baked beans and the pimento cheese, baked pies on lard crusts and topped the banana pudding with meringue.",
+  "today": "Closed since November 22, 2023. Chai Pani, its co-owner's Indian restaurant, has occupied the rink at 32 Banks Avenue, Asheville, since its reopening there on May 21, 2024."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the chopped whole hog was cooked the eastern way, in a city that had not had one.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the hash over rice came from Moss's South Carolina; the two Carolinas shared one plate here.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, pasture-raised, overnight over wood.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "on the plate, made from the hog's organs and trimmings.",
+   "rel": "serves"
+  },
+  {
+   "to": "elliott-moss",
+   "as": "its founding pitmaster, who left in July 2022, fifteen months before it closed.",
+   "rel": "person"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "under meringue, the house version.",
+   "rel": "serves"
+  }
+ ],
+ "geo": {
+  "lat": 35.5890734,
+  "lon": -82.5533593,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "32 Banks Ave",
+  "city": "Asheville",
+  "county": "Buncombe",
+  "state": "NC",
+  "postcode": "28801"
+ },
+ "links": [
+  {
+   "label": "Buxton Hall Barbecue — Our State",
+   "url": "https://www.ourstate.com/buxton-hall-barbecue-asheville/"
+  },
+  {
+   "label": "Buxton Hall Barbecue closes — The Smoke Sheet (2023)",
+   "url": "https://bbqnewsletter.substack.com/p/buxton-hall-barbecue-closes"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-buxton-hall",
+  "s:web-smokesheet-buxton-hall-closes",
+  "s:web-wlos-chai-pani"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-buxton-hall"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-smokesheet-buxton-hall-closes",
+    "note": "the 2016 Bon Appétit placings from Our State; Moss's South Carolina roots as Our State gives them"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wlos-chai-pani"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded from the street address via Nominatim, which now names Chai Pani at the address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ourstate-buxton-hall"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:web-smokesheet-buxton-hall-closes",
+   "tier": "cited",
+   "note": "Closed November 22, 2023; Chai Pani has occupied the roller rink since May 21, 2024.",
+   "since": "2023-11-22"
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-ourstate-buxton-hall",
+   "tier": "cited",
+   "note": "Pasture-raised pigs smoked over wood from ten at night to eight in the morning."
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:web-ourstate-buxton-hall",
+   "tier": "cited",
+   "note": "Whole hogs from western North Carolina pasture farms."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-ourstate-buxton-hall",
+   "tier": "cited",
+   "note": "South Carolina hash over rice — the pig's organs and fatty trimmings cooked down to a gravy."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-buxton-hall"
+  }
+ ],
+ "blurb": "A whole-hog restaurant that ran from August 2015 to November 22, 2023 in a 1930s roller rink on Banks Avenue in Asheville's South Slope, opened by pitmaster Elliott Moss with Meherwan Irani's Chai Pani restaurant group.",
+ "region_terms": [
+  {
+   "key": "nc-mountains",
+   "name": "The North Carolina mountains",
+   "state": "NC",
+   "note": "Asheville and the Blue Ridge"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the chopped whole hog was cooked the eastern way, in a city that had not had one.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the hash over rice came from Moss's South Carolina; the two Carolinas shared one plate here.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, pasture-raised, overnight over wood.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "on the plate, made from the hog's organs and trimmings.",
+   "rel": "serves"
+  },
+  {
+   "to": "elliott-moss",
+   "type": "person",
+   "name": "Elliott Moss",
+   "as": "its founding pitmaster, who left in July 2022, fifteen months before it closed.",
+   "rel": "person"
+  },
+  {
+   "to": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "under meringue, the house version.",
+   "rel": "serves"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-buxton-hall",
+   "kind": "web",
+   "title": "Buxton Hall Barbecue Brings Whole-Hog Tradition and Hash to Asheville — Our State",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/buxton-hall-barbecue-asheville/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-smokesheet-buxton-hall-closes",
+   "kind": "web",
+   "title": "Buxton Hall Barbecue closes — The Smoke Sheet (8 Nov 2023)",
+   "publisher": "The Smoke Sheet (Substack)",
+   "url": "https://bbqnewsletter.substack.com/p/buxton-hall-barbecue-closes",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wlos-chai-pani",
+   "kind": "web",
+   "title": "Chai Pani holds colorful grand reopening at new location — WLOS (21 May 2024)",
+   "publisher": "WLOS",
+   "url": "https://wlos.com/news/local/chai-pani-new-location-grand-reopening-banks-avenue-asheville-eatery-north-carolina",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-buxton-hall"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-smokesheet-buxton-hall-closes",
+   "note": "the 2016 Bon Appétit placings from Our State; Moss's South Carolina roots as Our State gives them"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-buxton-hall"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-wlos-chai-pani"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest file; geocoded from the street address via Nominatim, which now names Chai Pani at the address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-ourstate-buxton-hall"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": [],
+   "source": "s:web-smokesheet-buxton-hall-closes",
+   "note": "Closed November 22, 2023; Chai Pani has occupied the roller rink since May 21, 2024.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-ourstate-buxton-hall",
+   "note": "Pasture-raised pigs smoked over wood from ten at night to eight in the morning.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-ourstate-buxton-hall",
+   "note": "Whole hogs from western North Carolina pasture farms.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-ourstate-buxton-hall",
+   "note": "South Carolina hash over rice — the pig's organs and fatty trimmings cooked down to a gravy.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": null,
+   "source": "s:web-ourstate-buxton-hall"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "under meringue, the house version.",
+   "rel": "served-at"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "'steeped, sweetened, iced', beside the cocktails.",
+   "rel": "served-at"
+  },
+  {
+   "from": "12-bones-smokehouse",
+   "type": "place",
+   "name": "12 Bones Smokehouse",
+   "as": "the other Asheville barbecue name of the same decade; Buxton Hall closed in 2023, 12 Bones lost its river room to Helene in 2024.",
+   "rel": "kin"
+  },
+  {
+   "from": "elliott-moss",
+   "type": "person",
+   "name": "Elliott Moss",
+   "as": "the Asheville restaurant he opened in 2015 and left in July 2022, fifteen months before it closed.",
+   "rel": "place"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "Elliott Moss's Asheville pit, among the new generation in his book.",
+   "rel": "place"
+  }
+ ]
+}

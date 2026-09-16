@@ -1,0 +1,310 @@
+{
+ "schema": 1,
+ "id": "sid-weaver",
+ "type": "person",
+ "names": {
+  "name": "Sid Weaver",
+  "aliases": [],
+  "sort": "Weaver, Sid"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder"
+  ],
+  "state": "NC",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Sid Weaver sold barbecue from a tent across from the Davidson County courthouse in Lexington from 1919 — cooked in the alley behind, sold to people on their way to court — and is the first name in every account of Lexington-style barbecue. Jess Swicegood set up beside him within the decade; the two taught Warner Stamey, and Weaver's hand Alton Beck built the town's first permanent barbecue restaurant in 1938. What is known of him is the tent, the date, the pupils and the sauce that came out of those stands: vinegar and pepper with ketchup, the Piedmont's dip.",
+  "story": "Our State's Jeremy Markovich calls him Lexington barbecue's Abraham, 'first cooking up his barbecue in the alley outside and selling it from a tent to people heading over to the old courthouse in 1919'. Robert Moss's history, as the Barbecue Bros summarize it, has him first and Jess Swicegood joining him later, the two working out the shoulder-and-dip style and spreading it across the Piedmont. Stamey's own history puts both men 'selling pork out of tents across from the courthouse' when Warner Stamey, boarding with his sister for high school in the late 1920s, came to learn from them; the American Royal's 2020 citation for Stamey says they taught him everything there was to know about pit cooking. Alton Beck, who had worked for Weaver, opened the first bricks-and-mortar barbecue restaurant in town on West Center Street in 1938, rebuilt it in 1949, and retired after thirty-one years; the wood pits found behind a wall of Lexington's city hall in 2015 are thought to be his. *Tradition holds —* Weaver later built a small cafe of his own near the square. No birth date, death date or photograph of Weaver is in any source read for this record.",
+  "today": "Dead, on no date this record can name. The stands are gone; Lexington counted more than twenty barbecue restaurants in 2003, and the Lexington Barbecue Festival has closed Main Street each October since 1984, a few blocks from where the tent stood."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style begins with his tent by the courthouse in 1919.",
+   "rel": "origin"
+  },
+  {
+   "to": "jess-swicegood",
+   "as": "the stand beside his; the two are named together as the men who taught Warner Stamey.",
+   "rel": "kin"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "his pupil, who carried the method to Shelby and Greensboro.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the sauce came out of his tent and Swicegood's: vinegar and pepper with ketchup.",
+   "rel": "sauce"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "the Greensboro house of his pupil, two steps from the tent.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "Wayne Monk learned under Stamey, who learned under Weaver; the pit is his grandchild.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "held each October since 1984 on the Main Street his tent sold to.",
+   "rel": "event"
+  }
+ ],
+ "links": [
+  {
+   "label": "The Great Lexington Barbecue Cover-Up — Our State (2015)",
+   "url": "https://www.ourstate.com/lexington-barbecue-pits/"
+  },
+  {
+   "label": "Stamey's Barbecue — History",
+   "url": "https://www.stameys.com/history"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-lexington-cover-up",
+  "s:web-stameys-history",
+  "s:web-americanroyal-stamey-bio",
+  "s:web-barbecuebros-jess-swicegood",
+  "s:moss-barbecue-history",
+  "s:sfa-stameys-barbecue",
+  "s:wp-lexington-north-carolina",
+  "s:wp-lexington-barbecue-festival",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-lexington-cover-up"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-lexington-cover-up",
+    "note": "1919, the alley and Beck from Markovich; the pairing with Swicegood from Barbecue Bros' summary of Moss; the tents and the teaching from Stamey's history and the American Royal bio; the cafe is marked tradition — it appears in a WFMY list this project could not fetch"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-lexington-north-carolina"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "Sid Weaver sold barbecue from a tent across from the Davidson County courthouse in Lexington from 1919 — cooked in the alley behind, sold to people on their way to court — and is the first name in every account of…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style begins with his tent by the courthouse in 1919.",
+   "rel": "origin"
+  },
+  {
+   "to": "jess-swicegood",
+   "type": "person",
+   "name": "Jess Swicegood",
+   "as": "the stand beside his; the two are named together as the men who taught Warner Stamey.",
+   "rel": "kin"
+  },
+  {
+   "to": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "his pupil, who carried the method to Shelby and Greensboro.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the sauce came out of his tent and Swicegood's: vinegar and pepper with ketchup.",
+   "rel": "sauce"
+  },
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the Greensboro house of his pupil, two steps from the tent.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "Wayne Monk learned under Stamey, who learned under Weaver; the pit is his grandchild.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "held each October since 1984 on the Main Street his tent sold to.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-lexington-cover-up",
+   "kind": "web",
+   "title": "The Great Lexington Barbecue Cover-Up (Jeremy Markovich, 31 Mar 2015)",
+   "publisher": "Our State magazine",
+   "url": "https://www.ourstate.com/lexington-barbecue-pits/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-stameys-history",
+   "kind": "web",
+   "title": "History",
+   "publisher": "Stamey's Barbecue, Greensboro NC",
+   "url": "https://www.stameys.com/history",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-americanroyal-stamey-bio",
+   "kind": "web",
+   "title": "Warner Stamey, Pitmaster, Restaurateur — 2020 Legacy Inductee biography, American Royal Barbecue Hall of Fame (PDF)",
+   "publisher": "American Royal",
+   "url": "https://americanroyal.com/wp-content/uploads/2024/07/BBQ-HOF-Stamey-Legacy-bio.pdf",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebros-jess-swicegood",
+   "kind": "web",
+   "title": "Jess Swicegood — Barbecue Bros tag page, summarizing Robert F. Moss, Barbecue: The History of an American Institution",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/tag/jess-swicegood/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:moss-barbecue-history",
+   "kind": "book",
+   "title": "Barbecue: The History of an American Institution",
+   "author": "Robert F. Moss",
+   "publisher": "University of Alabama Press",
+   "year": 2010,
+   "note": "revised edition 2020"
+  },
+  {
+   "id": "s:sfa-stameys-barbecue",
+   "kind": "oral-history",
+   "title": "Stamey's Barbecue — Chip Stamey, interviewed by Rien T. Fertel, 18 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/stameys-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-barbecue-festival",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-lexington-cover-up"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-lexington-cover-up",
+   "note": "1919, the alley and Beck from Markovich; the pairing with Swicegood from Barbecue Bros' summary of Moss; the tents and the teaching from Stamey's history and the American Royal bio; the cafe is marked tradition — it appears in a WFMY list this project could not fetch"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-lexington-north-carolina"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "sold barbecue from a tent by the Lexington courthouse from 1919; the line starts with him.",
+   "rel": "origin"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the tent by the courthouse where it starts, 1919.",
+   "rel": "origin"
+  },
+  {
+   "from": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the other Lexington pioneer Stamey learned from.",
+   "rel": "origin"
+  },
+  {
+   "from": "jess-swicegood",
+   "type": "person",
+   "name": "Jess Swicegood",
+   "as": "the tent his stand stood beside; Weaver was first, by a few years.",
+   "rel": "kin"
+  },
+  {
+   "from": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "his other teacher at the courthouse tents.",
+   "rel": "origin"
+  },
+  {
+   "from": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "the 1919 tent at the head of the line Monk stands in.",
+   "rel": "origin"
+  }
+ ]
+}

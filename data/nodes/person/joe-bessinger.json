@@ -1,0 +1,132 @@
+{
+ "schema": 1,
+ "id": "joe-bessinger",
+ "type": "person",
+ "names": {
+  "name": "Joe Bessinger",
+  "aliases": [
+   "Joseph Jacob Bessinger",
+   "Big Joe Bessinger",
+   "Joseph Bessinger Sr."
+  ],
+  "sort": "Bessinger, Joe"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "role": [
+   "founder",
+   "sauce-maker",
+   "family"
+  ],
+  "state": "SC",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "Joseph Jacob 'Big Joe' Bessinger, a farmer from Orangeburg County, traded the family cow, a mule and fifty dollars for a cafe in Holly Hill and opened it in 1939 serving pork with a mustard-based sauce — the Golden Secret, his family calls it, worked out with the Sweatman family on shared German roots. Five of his sons opened barbecue restaurants on it: Maurice and Joe Jr. at West Columbia in 1953, Melvin and Thomas in Charleston from 1955, and, by two accounts, Robert. Some name him the inventor of South Carolina's mustard sauce; the evidence names no one.",
+  "story": "Big Joe was one of fourteen children of Mack Bessinger and raised eleven of his own — Maurice was the eighth — on a farm near Orangeburg with his wife Genora. In 1939 he gave up farming, sold a cow, and opened the Holly Hill Café; Melvin, ten, was taught to make the sauce, and Maurice, nine, went to work in the restaurant. Robert Moss's 2011 history in the Charleston City Paper puts the move to Holly Hill in the 1940s; the family's own dates say 1939. After the war Melvin's Army pay went into a second Holly Hill restaurant, Eat At Joe's, in 1946, where Thomas started cooking at fourteen. Then the sons scattered with the recipe. Maurice and Joe Jr. opened Maurice's Piggie Park at West Columbia in 1953; Melvin closed Eat At Joe's in 1955 and moved to Charleston with Thomas, where Thomas opened his own place in 1960 and the brothers opened Piggy Park Drive-In on Savannah Highway in 1961, renamed Bessinger's in 1971; Melvin crossed the Cooper River to Mount Pleasant in 1982. Moss writes that three sons — Melvin, Thomas and J.D. — opened Piggy Park drive-ins around Charleston; West Of lists Thomas, Melvin, Maurice, J.D., Woodrow and Robert as owners of competing restaurants, with Robert's Bar B Que in North Charleston. The businesses were separate: when Maurice raised Confederate flags in 2000 the Charleston brothers were reported as independent concerns, 'sans the politics'. His grandson David Bessinger told the Southern Foodways Alliance in 2012: 'It's just in our blood.' *Inference —* the 'Joe Jr.' of Wikipedia and Maurice's obituary and the 'Joe David' or 'J.D.' of the Charleston writers are one son.",
+  "today": "Dead; no source read for this record gives the year. The sauce he served in 1939 is on the tables of Maurice's Piggie Park, Bessinger's and Melvin's, and bottled by Maurice's heirs as Southern Gold."
+ },
+ "kin": [
+  {
+   "to": "maurice-bessinger",
+   "as": "his eighth child, who started in the Holly Hill kitchen at nine and took the sauce to the supermarkets.",
+   "rel": "person"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "the West Columbia chain of his sons Maurice and Joe Jr., from 1953; his recipe is on its label.",
+   "rel": "descendant"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "the Charleston house of his sons Melvin and Thomas, from 1961.",
+   "rel": "descendant"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "the Holly Hill family he worked the mustard sauce out with; their pit opened in 1977.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "his Golden Secret of 1939, the earliest name attached to the Midlands sauce.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the style his sons carried from Orangeburg County to Columbia and the coast.",
+   "rel": "whole"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the name his son Maurice sold the family sauce under.",
+   "rel": "term"
+  },
+  {
+   "to": "dutch-fork",
+   "as": "the German-settled country whose roots the family and the Sweatmans credit the sauce to.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Our Story — Melvin's BBQ",
+   "url": "https://melvinsbbq.com/pages/our-story"
+  },
+  {
+   "label": "Maurice's Piggie Park BBQ — official history",
+   "url": "https://www.piggiepark.com/our-story/history/"
+  },
+  {
+   "label": "Melvin's Legendary Bar-B-Q — SFA oral history with David Bessinger (2012)",
+   "url": "https://www.southernfoodways.org/interview/melvins-legendary-bar-b-q/"
+  }
+ ],
+ "sources": [
+  "s:web-melvins-our-story",
+  "s:web-piggiepark-history",
+  "s:web-sfa-melvins-legendary-bar-b-q",
+  "s:web-city-paper-dukes-2011",
+  "s:web-southernflavor-melvins-2023",
+  "s:web-westof-yellow-sauce-road",
+  "s:web-destination-bbq-southern-gold",
+  "s:web-legacy-maurice-bessinger-obituary",
+  "s:web-wis-maurice-bessinger-dies-2014",
+  "s:web-live5-thomas-bessinger-2023",
+  "s:web-baltimore-sun-bessinger-2002",
+  "s:web-seattle-times-piggie-park-2002",
+  "s:wp-maurice-bessinger",
+  "s:wp-barbecue-in-south-carolina"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-melvins-our-story"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-melvins-our-story",
+    "note": "the cow, mule and $50 from Melvin's; the Sweatman collaboration and 'Golden Secret' from the SFA interview; the inventor attribution from Wikipedia's South Carolina article and Destination BBQ; Robert from West Of and Destination BBQ only"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-melvins-our-story",
+    "note": "fourteen children of Mack from the SFA; eleven children and Genora from Maurice's obituary, read through a search excerpt; Maurice at nine from WIS; the 1940s from Moss (City Paper 2011); Thomas's dates from the 2023 obituaries; the flags from the 2002 press. Birth and death years of 1892–1949 appear in one search excerpt of unclear origin and are not asserted"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-history"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

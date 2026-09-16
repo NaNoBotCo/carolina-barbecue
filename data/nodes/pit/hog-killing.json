@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "id": "hog-killing",
+ "type": "pit",
+ "names": {
+  "name": "hog killing",
+  "aliases": [
+   "hog killin'",
+   "hog-killing day",
+   "killing hogs",
+   "pig slaughter"
+  ],
+  "said": "'Hog killin'' in speech. A hard frost is still 'hog-killing weather'."
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "kind": "prep"
+ },
+ "text": {
+  "what": "The winter slaughter of the farm's hogs, done on the first cold day of autumn or winter, when the meat would keep. In rural North Carolina neighbors gathered before dawn; water was heated with fire-hot stones dropped into barrels; the penned and fattened hogs were killed with knives, bled, scalded, hung on a gambrel — a spreader bar through the hind legs — and scraped clean of hair; the carcasses cooled overnight and were cut up the next day, the hams, sides, shoulders, jowls and heads salted down in the smokehouse. Lard was rendered, the fat cooked down to cracklings, the trim ground for sausage. It is the farm year's pork day, and the social form the pit barbecue grew up beside.",
+  "story": "William S. Powell's entry in the Encyclopedia of North Carolina (2006) describes the day as farms kept it: as many as a hundred hogs penned and fattened on peas, potatoes, corn gleaned from the harvested fields or mast from the woods; workers from the neighborhood gathered well before dawn; stones heated in an open fire and dropped into barrels to heat the scalding water; the hogs killed with large knives, bled, scalded, hung and scraped; cooled overnight, cut up and salted the next day on a tilted platform in the smokehouse, the dripping brine caught in troughs and boiled down to save the salt for the stock. The weeks after were spare ribs, liver and sausage; the hams came a month or two later. Carolina Country followed the Jackson family of Hopkins through a January hog killing in 2019: Terry Jackson directing, his son in training, neighbors and friends at the scalding vat; sausage seasoned with salt, red pepper and sage and a patty fried over the wood fire for approval; lard rendered and cracklings saved; hams and shoulders carried to the salt room; chitterlings, feet and bones for broth; a pot of homemade soup at midday for everyone who came. The pit's relation to the day is old: George Washington raised pigs for slaughter in November at Mount Vernon and, once the enslaved people had cured the hams and bacon, whole pigs were pit-roasted over coals 'as a treat'. John Shelton Reed writes that barbecue was never home cooking, and until the early twentieth century was reserved for harvests, fundraisers and political rallies. *Tradition holds —* the hog killing and the pit shared a season and a crowd, and a pig set aside from the killing was the cheapest way to feed the neighbors who came to help.",
+  "how": "Cold weather first. The hog is stuck and bled, scalded in a vat or barrel of water just under the boil and scraped clean of hair, then hung head-down from a gambrel, gutted, and left overnight to cool and firm. Next day it is cut into hams, shoulders, sides for bacon, loins and ribs; the trim is ground and seasoned for sausage, the fat rendered in a kettle for lard with the crisp bits kept as cracklings, the intestines cleaned for chitterlings, and the feet and bones boiled for broth. Hams and shoulders are salted or smoked to keep.",
+  "today": "The community hog killing survives on some farms — Carolina Country followed one in 2019 — and the pig for a pit comes from a processor: the Skylight Inn buys most of its hogs from meat processors in Ayden. *Tradition holds —* the word survives in the weather: a hard frost is hog-killing weather."
+ },
+ "kin": [
+  {
+   "to": "whole-hog",
+   "as": "the pig that, tradition holds, came off the killing and onto the pit.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the feast; the killing is the work. One is winter labor, the other a party.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pork-skins",
+   "as": "cracklings, the fat's crisp remainder, are the killing's snack; pork skins are the pit's.",
+   "rel": "kin"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the head and liver South Carolina stewed into hash came from a day like this.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "as": "the open pit that, tradition holds, was dug beside the killing.",
+   "rel": "kin"
+  },
+  {
+   "to": "hog",
+   "as": "the animal, penned and fattened for this day.",
+   "rel": "term"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "the other occasion for a whole pig before the twentieth century, per Reed.",
+   "rel": "event"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "buys its hogs from processors in Ayden; nobody kills them on the farm any more.",
+   "rel": "place"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pig-pickin",
+   "tell": "A hog killing is butchering for the year's meat; a pig pickin' is cooking one pig for one crowd."
+  }
+ ],
+ "links": [
+  {
+   "label": "NCpedia — Hog Killing",
+   "url": "https://www.ncpedia.org/hog-killing"
+  },
+  {
+   "label": "Carolina Country — Carrying on a Carolina Tradition",
+   "url": "https://www.carolinacountry.com/carolina-stories/carrying-on-a-carolina-tradition"
+  }
+ ],
+ "sources": [
+  "s:web-ncpedia-hog-killing",
+  "s:web-carolina-country-hog-killing",
+  "s:wp-pig-roast",
+  "s:web-sfa-north-carolina-bbq",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-whole-hog-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ncpedia-hog-killing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ncpedia-hog-killing",
+    "note": "Powell's entry paraphrased, not quoted (UNC Press copyright); the Washington fact from the pig roast article; the killing-to-pit link hedged inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the steps as Powell and Carolina Country give them, generalized; sticking and broth from Carolina Country"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage as heard"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "hog-killing/hog-killing-hog-killing-in-rutherford-tennessee-ca-1914.jpg",
+   "source": "commons",
+   "title": "File:Hog killing in Rutherford, Tennessee, ca 1914.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hog_killing_in_Rutherford%2C_Tennessee%2C_ca_1914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHog_killing_in_Rutherford%2C_Tennessee%2C_ca_1914.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Unknown authorUnknown author",
+   "credit": "http://tn-roots.com/tngibson/photos/hogkilling.htm",
+   "alt": "A hog killing takes place in Rutherford, Tennessee in 1914.",
+   "date": "2011-10-29",
+   "primary": true,
+   "sha256": "dc62478c1b227622fcc518e84d2449ff4f2db2cd625109f7247a927835f9572e"
+  },
+  {
+   "file": "hog-killing/hog-killing-hog-killing-on-milton-puryeur-place-he-is-a-negro-ow-934ba3d.jpg",
+   "source": "commons",
+   "title": "File:Hog killing on Milton Puryeur place; He is a Negro owner of ... (3110573734).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Hog_killing_on_Milton_Puryeur_place%3B_He_is_a_Negro_owner_of_..._%283110573734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHog_killing_on_Milton_Puryeur_place%3B_He_is_a_Negro_owner_of_..._%283110573734%29.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Marion Post Wolcott",
+   "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID fsa.8c11324.This tag does not indicate the copyright status of the attached w",
+   "alt": "Digital ID: 1260089. Hog killing on Milton Puryeur place; He is a Negro owner of five acres of land; Rural Route No. 1, Box 59, Dennison, Halifax County, Virginia; This is six miles south [on Highway ",
+   "date": "1939-11",
+   "primary": false,
+   "sha256": "2583efddaf51e06a8907ffee75000e956ebaceb172bcf0e82aafeab533a63001"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

@@ -1,0 +1,238 @@
+{
+ "schema": 1,
+ "id": "hushpuppies",
+ "type": "dish",
+ "names": {
+  "name": "hushpuppies",
+  "aliases": [
+   "hush puppies",
+   "hush-puppies",
+   "red horse bread"
+  ],
+  "said": "One word on the Carolina menu; the pit fries them to order and puts a handful in the tray."
+ },
+ "etymology": {
+  "root": "hush + puppy. 'Hush puppy' was slang for something that keeps a thing quiet — hush money in a 1738 British account of smuggling, and from 1879 the gravy or pot liquor that kept the hounds from growling, meaning a growling stomach — and was applied to deep-fried cornmeal by 1899; current in Georgia by 1927 (Moss)",
+  "first_attested": "1899 for the fried cornmeal sense (Online Etymology Dictionary; Wikipedia). Moss's earliest Georgia example is the Macon Telegraph, 1927, a Methodist church fish fry; the South Carolina forerunner, 'red horse bread', is in the Augusta Chronicle in 1903.",
+  "note": "Folk, all of them: that hunters and fishermen tossed fried batter to their dogs to hush them; that Confederate soldiers silenced camp dogs with it; that escaping enslaved people threw it to tracking hounds; that Ursuline nuns brought croquettes de maïs to New Orleans in the 1720s. Robert Moss finds no nineteenth-century source calling fried cornbread hushpuppies and reads the name as a joke about stopping a growling stomach. The shoe brand is a 1961 trademark.",
+  "tier": "cited",
+  "source": "s:web-moss-hushpuppies"
+ },
+ "region": [
+  "carolinas",
+  "nc-piedmont",
+  "nc-east",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "bread",
+  "styles": [
+   "lexington",
+   "eastern-nc",
+   "sc-mustard",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "Balls or fingers of cornmeal batter — meal, a little flour, egg, buttermilk or water, salt, soda, often onion — dropped by the spoonful into hot oil and fried until the outside is crisp and dark gold and the inside soft and steaming. In the Carolinas they are the bread of the fish fry and, since the 1940s, of the barbecue tray: Lexington pits serve them with the shoulder and red slaw in place of rolls, and most eastern pits give them with whole hog, though a third of the pits in the Wilson–Greenville counties give corn sticks instead. Sweeter and lighter than a corn stick, and fried, not baked.",
+  "story": "The first of them had a fish in the name. Romeo Govan, born into slavery in the 1840s, settled after Emancipation near Cannon's Bridge on the Edisto River, five miles from Bamberg, South Carolina, and by the early 1900s ran a club house where the state's political and civic clubs came for his fish fries; the Augusta Chronicle wrote in 1903 of his never-to-be-forgotten 'red horse bread' — cornmeal, water, salt and egg dropped by spoonfuls into the lard the fish had fried in, named for the red horse, a river fish. Govan died in 1915; red horse bread lived on at fish fries in Bamberg, Orangeburg and Dorchester counties through the 1920s. Across the Savannah the same fritter was picking up another name: the Macon Telegraph in 1927 has a church fish-fry chairman cooking 'the hushpuppies', in quotation marks, a word still strange, and by 1940 a Chronicle fishing columnist could write that red horse cornbread is often called hush puppies on the Georgia side. Florida fishing camps fed them to Northern visitors and the name won. In North Carolina the hushpuppy walked from the fish camps of the Piedmont rivers into the barbecue houses in the 1940s: Kennedy's in Greensboro advertised barbecue, Brunswick stew, slaw and hushpuppies in 1949, and Warner Stamey — whose son Keith says he picked the idea up from a friend's fish camp, the Friendly Road Inn in Greensboro — made them the bread of Lexington-style barbecue.",
+  "how": "Self-rising cornmeal, or meal with soda and a little flour, salt, an egg, buttermilk or water, and chopped onion for the savoury kind; some pits sweeten the batter and some add beer or jalapeño. The batter rests thick enough to hold a spoon, is dropped into oil at frying heat — in the old way, the oil the fish came out of — and fried until it floats and browns. Lexington houses fry them to order and shape them round, oblong or as fingers, dense or light, house by house. Served hot in the tray or in a paper bag as a side.",
+  "today": "Lexington Barbecue: hushpuppies small $3.10, large $3.90 cash (September 2026); the Barbecue Center gives a choice of hushpuppies or a potato bun with every plate. House-Autry Mills of Four Oaks still sells the Original Recipe Hushpuppy Mix descended from Walter Thompson's post-war Swansboro business."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style that made them barbecue bread, from the 1940s, in place of rolls.",
+   "rel": "whole"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the bread at two eastern pits in three; the third gives corn sticks.",
+   "rel": "whole"
+  },
+  {
+   "to": "cornbread",
+   "as": "the baked or stick-shaped bread it displaced across most of the state.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the handful in the corner of the tray.",
+   "rel": "part"
+  },
+  {
+   "to": "red-slaw",
+   "as": "its partner in a Lexington tray.",
+   "rel": "kin"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "on Kennedy's 1949 Greensboro plate together.",
+   "rel": "kin"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "who carried them from a Greensboro fish camp to the barbecue tray.",
+   "rel": "person"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "which calls hushpuppies with barbecue a Stamey's invention.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "sells them by the small or large order.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "hushpuppies or a potato bun with every plate.",
+   "rel": "served-at"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "eaten at the pickin with slaw and beans.",
+   "rel": "event"
+  },
+  {
+   "to": "fixins",
+   "as": "the tray's fixins, in the eastern word: hushpuppies, slaw, potatoes.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "cornbread",
+   "tell": "A hushpuppy is fried, round or finger-shaped and light inside; a corn stick is a dense eight-inch baton; Skylight's cornbread is a flat baked cake. If it came out of a fryer and is not a stick, it is a hushpuppy."
+  }
+ ],
+ "links": [
+  {
+   "label": "Robert F. Moss — The True Story of Hushpuppies",
+   "url": "https://robertfmoss.com/features/The-True-Story-of-Hushpuppies-a-Genuine-Carolina-Treat"
+  },
+  {
+   "label": "Hushpuppy — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hushpuppy"
+  }
+ ],
+ "sources": [
+  "s:web-moss-hushpuppies",
+  "s:wp-hushpuppy",
+  "s:etymonline",
+  "s:web-stameys-history",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-cornbread",
+  "s:web-thefoodsection-corn-stick",
+  "s:web-lexbbq-menu",
+  "s:web-bbq-center-menu",
+  "s:wp-pig-pickin",
+  "s:web-carolinacountry-lexington",
+  "s:wikibooks-hush-puppies",
+  "s:book-kentucky-housewife",
+  "s:book-aunt-carolines-dixieland-recipes"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-moss-hushpuppies"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-hushpuppy",
+    "note": "shapes by house from Carolina Country, 2018"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "prices read 2026-09-15; House-Autry from Moss"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-hush-puppies",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Hush Puppies",
+   "source": "s:wikibooks-hush-puppies",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AHush_Puppies",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "Vegetable oil for frying",
+    "1½ cups yellow corn meal",
+    "1 cup all-purpose flour",
+    "1 teaspoon baking powder",
+    "½ teaspoon baking soda",
+    "1¾ teaspoons salt",
+    "3 eggs, lightly beaten",
+    "⅛ teaspoon cayenne pepper",
+    "¼ cup chopped green onions",
+    "1 cup milk",
+    "¼ cup vegetable oil"
+   ],
+   "text": "1. Pour oil 3–4 inches (7.5 cm to 10 cm) deep in a pan and preheat to 370°F (~190°C).\n2. In bowl mix cornmeal, flour, baking powder, baking soda, salt, and cayenne.\n3. Mix in eggs, green onions, milk, and ¼ cup vegetable oil.\n4. Spoon 6–7 tablespoons of the batter into preheated oil.\n5. Fry, stirring constantly for overall browning, until golden brown.\n6. Remove from heat and drain on paper towels.",
+   "yield": "8–10 servings"
+  },
+  {
+   "title": "Corn Fritters",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "page": "222–223",
+   "text": "Having removed the shucks and silks from a dozen young tender ears of corn, grate or scrape the grains fine from the cobs, mix with it the beaten yolks of four eggs, two spoonfuls of flour, a salt-spoonful of salt, and a teaspoonful of pepper; mix the whole together, stirring it till it is well intermingled; then drop it by spoonfuls into a pan of boiling butter or lard, making them all as nearly the same shape and size as possible; turn them over once, and when both sides are of a light brown, serve them up. It is a breakfast dish, and is quite an agreeable relish.",
+   "note": "An ancestor, not the thing: the hushpuppy's name is not printed anywhere before the 1890s, but the method — a stiff batter dropped by the spoonful into deep hot fat and turned once — is the fritter's, and it is already in print in this form."
+  },
+  {
+   "title": "Virginia Corn Fritters",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "page": 5,
+   "text": "Chop the corn, and add other ingredients in order given. Drop from a tablespoon into hot, deep fat and fry until brown.",
+   "ingredients": [
+    "1 can corn,",
+    "½ cup milk,",
+    "½ cup dried and sifted crumbs,",
+    "1 teaspoon salt,",
+    "1 teaspoon baking powder,",
+    "1 egg well beaten,",
+    "1 tablespoon flour."
+   ],
+   "note": "An ancestor, not the thing: the hushpuppy's name is not printed anywhere before the 1890s, but the method — a stiff batter dropped by the spoonful into deep hot fat and turned once — is the fritter's, and it is already in print in this form. Whole corn here, not meal; the deep fat and the tablespoon are the hushpuppy's."
+  }
+ ],
+ "images": [
+  {
+   "file": "hushpuppies/hushpuppies-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+   "source": "commons",
+   "title": "File:North Carolina barbecue hushpuppies baked beans red cole slaw.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/North_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANorth_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Jeffery Loo",
+   "credit": "Flickr: North Carolina barbecue, hushpuppies, baked beans, red cole slaw",
+   "alt": "Lexington style North Carolina barbecue served with hushpuppies, baked beans and red cole slaw. Lexington style North Carolina barbecue uses a vinegar and ketchup type sauce, and uses only the pork sh",
+   "date": "Taken on 25 May 2007, 19:44:09",
+   "primary": true,
+   "sha256": "32f345c8a40c307352bda594b256e514c3a03b7a3f0a4eb13f8c56d6bee42329"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

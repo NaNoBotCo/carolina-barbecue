@@ -1,0 +1,464 @@
+{
+ "schema": 1,
+ "id": "campaign-for-real-barbecue",
+ "type": "org",
+ "names": {
+  "name": "Campaign for Real Barbecue",
+  "aliases": [
+   "True 'Cue",
+   "True Cue",
+   "the Campaign",
+   "True 'Cue USA"
+  ],
+  "said": "Its members say True 'Cue; the full name is on the certificate.",
+  "sort": "Campaign for Real Barbecue"
+ },
+ "region": [
+  "nc",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "state": "both",
+  "founded": "2013",
+  "status": "open"
+ },
+ "text": {
+  "what": "A campaign, founded in 2013 by the sociologist and barbecue writer John Shelton Reed and the blogger Dan Levine, that certifies restaurants which cook the barbecue style traditional to their area and rely solely on wood for heat, and gives them a certificate and a decal. It began in North Carolina — about seventy places certified by January 2018 — and has regional 'smoke detectors' for South Carolina, Kentucky, Georgia, Alabama and the Virginia–Washington region under a True 'Cue USA program. Its three stated goals are to celebrate wood-cooking, to honor the places that keep it, and to teach eaters the difference between wood-cooked barbecue and what it calls 'faux 'cue'.",
+  "story": "Reed and his wife Dale wrote Holy Smoke (2008) and in it lamented how much North Carolina barbecue was cooked on gas. In 2013 he and Dan Levine — 'Porky LeSwine' of the blog BBQJew, the campaign's 'Chief Smoke Detector' to Reed's 'Eminence Grease' — founded the campaign to find and list the places still cooking entirely with wood or charcoal. On April 23, 2014, in the Raleigh News & Observer, they issued the True 'Cue Challenge: a prize to anyone who could name the statute, regulation or official that forbade a restaurant to cook with wood, since owners so often said the health department had made them switch. Two years on, Reed wrote, no one had claimed it, and Daniel Vaughn in Texas and Robert Moss in South Carolina had found the same in their states; one state official mentioned environmental concerns, and Reed allows that gas and electricity are cheaper, easier and more consistent. The campaign draws its line with care: it certifies only wood-for-heat, but has 'no beef' with cooks who use gas or electricity for ignition and temperature control so long as wood smoke reaches the meat, and reserves 'faux 'cue' for meat cooked with no smoke at all. Its Pledge is for those who hold that if it is not cooked with wood it is not barbecue. Its wood page quotes a federal meat-labeling rule defining barbecued meat as cooked by the direct action of dry heat from burning hardwood, and gathers witnesses from Pete Jones to Rodney Scott, Wilber Shirley and Aaron Franklin, with Alton Brown's joke that gas lets you control the heat, 'but you're going to go to hell'.",
+  "how": "A restaurant is certified once the campaign confirms it cooks its region's style with wood as the only heat; it receives a certificate and a window decal and is listed on truecue.org by state. Eaters sign the Pledge; the site sells merchandise; regional smoke detectors handle the other states.",
+  "today": "Active; the site lists certified places by state and runs the True 'Cue USA program. About seventy North Carolina restaurants held certificates in January 2018; no current count is posted."
+ },
+ "kin": [
+  {
+   "to": "john-shelton-reed",
+   "as": "its co-founder, 'Eminence Grease', and the author of the 2014 Challenge.",
+   "rel": "person"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "what it does not certify, and whose stated reasons it answers.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the only heat its certificate allows.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "as": "the federal definition it quotes: direct dry heat from burning hardwood.",
+   "rel": "kin"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "the older North Carolina list of wood pits, with stricter rules and one state.",
+   "rel": "contrast"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "whose billboard makes the campaign's case in four tenets.",
+   "rel": "place"
+  },
+  {
+   "to": "pete-jones",
+   "as": "quoted on its wood page.",
+   "rel": "person"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "quoted on its wood page.",
+   "rel": "person"
+  },
+  {
+   "to": "wilber-shirley",
+   "as": "quoted on its wood page.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "as": "found no wood-banning rule in South Carolina either.",
+   "rel": "person"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "one of the 'styles traditional in their area' its certificate requires.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "as": "the other North Carolina style its certificate requires a pit to cook.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "north-carolina-barbecue-society",
+   "tell": "True 'Cue (2013) certifies any place cooking its local style solely with wood, in several states; the society's Trail (2006) is one state, fifteen years, a house sauce and two per town."
+  }
+ ],
+ "links": [
+  {
+   "label": "The Campaign — truecue.org",
+   "url": "https://www.truecue.org/"
+  },
+  {
+   "label": "About — founders",
+   "url": "http://www.truecue.org/about"
+  },
+  {
+   "label": "Wood — the case for wood",
+   "url": "http://www.truecue.org/wood"
+  },
+  {
+   "label": "Reed on the campaign, BarbecueBible 2018",
+   "url": "https://barbecuebible.com/2018/01/23/campaign-real-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:true-cue",
+  "s:web-truecue-about",
+  "s:web-truecue-wood",
+  "s:web-barbecuebible-campaign",
+  "s:web-uncpress-reed-myth",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-barbecuebible-campaign"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:true-cue",
+    "note": "site as read on 2026-09-15"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A campaign, founded in 2013 by the sociologist and barbecue writer John Shelton Reed and the blogger Dan Levine, that certifies restaurants which cook the barbecue style traditional to their area and rely solely on wood…",
+ "region_terms": [
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "its co-founder, 'Eminence Grease', and the author of the 2014 Challenge.",
+   "rel": "person"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "what it does not certify, and whose stated reasons it answers.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the only heat its certificate allows.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the federal definition it quotes: direct dry heat from burning hardwood.",
+   "rel": "kin"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "the older North Carolina list of wood pits, with stricter rules and one state.",
+   "rel": "contrast"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "whose billboard makes the campaign's case in four tenets.",
+   "rel": "place"
+  },
+  {
+   "to": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "quoted on its wood page.",
+   "rel": "person"
+  },
+  {
+   "to": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "quoted on its wood page.",
+   "rel": "person"
+  },
+  {
+   "to": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "quoted on its wood page.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "found no wood-banning rule in South Carolina either.",
+   "rel": "person"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "one of the 'styles traditional in their area' its certificate requires.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the other North Carolina style its certificate requires a pit to cook.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:true-cue",
+   "kind": "org",
+   "title": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "https://www.truecue.org/",
+   "note": "certifies pits cooking over wood coals only; a campaign, cited here as a fact about the tradition, not adopted as a standard"
+  },
+  {
+   "id": "s:web-truecue-about",
+   "kind": "web",
+   "title": "About — The Campaign for Real Barbecue",
+   "publisher": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "http://www.truecue.org/about",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-truecue-wood",
+   "kind": "web",
+   "title": "Wood — The Campaign for Real Barbecue",
+   "publisher": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "http://www.truecue.org/wood",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebible-campaign",
+   "kind": "web",
+   "title": "The Campaign for Real Barbecue (John Shelton Reed, January 23, 2018)",
+   "publisher": "BarbecueBible.com",
+   "url": "https://barbecuebible.com/2018/01/23/campaign-real-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uncpress-reed-myth",
+   "kind": "web",
+   "title": "John Shelton Reed: Busting a Barbecue Myth (April 6, 2016)",
+   "publisher": "UNC Press Blog",
+   "url": "https://uncpressblog.com/2016/04/06/reed-busting-barbecue-myth/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-barbecuebible-campaign"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-barbecuebible-campaign"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-barbecuebible-campaign"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:true-cue",
+   "note": "site as read on 2026-09-15"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "quotes the federal definition — direct dry heat from burning hardwood — on its wood page.",
+   "rel": "kin"
+  },
+  {
+   "from": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the campaign that certifies the pits that do not use them, and challenged the claim that health rules require them.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "certifies pits that use only wood for heat.",
+   "rel": "kin"
+  },
+  {
+   "from": "big-t-bar-b-q",
+   "type": "place",
+   "name": "Big T Bar-B-Q",
+   "as": "certified both its houses as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "from": "bobbys-bbq",
+   "type": "place",
+   "name": "Bobby's BBQ",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "from": "carolina-bar-b-que",
+   "type": "place",
+   "name": "Carolina Bar-B-Que",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "from": "fuzzys-bar-b-q",
+   "type": "place",
+   "name": "Fuzzy's Bar-B-Q",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "from": "melvins-legendary-bar-b-que",
+   "type": "place",
+   "name": "Melvin's Legendary Bar-B-Que",
+   "as": "certified both houses after the return to wood.",
+   "rel": "org"
+  },
+  {
+   "from": "shulers-bar-b-que",
+   "type": "place",
+   "name": "Shuler's Bar-B-Que",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "from": "speedy-lohrs-barbecue",
+   "type": "place",
+   "name": "Speedy Lohr's Barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "from": "tarheel-q",
+   "type": "place",
+   "name": "Tarheel Q",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "from": "true-bbq",
+   "type": "place",
+   "name": "True BBQ",
+   "as": "certified the pits for burning wood rather than gas.",
+   "rel": "org"
+  },
+  {
+   "from": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "quotes him on its wood page on places that cook over gas or on a rotisserie.",
+   "rel": "kin"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "co-founded it in 2013 with Dan Levine; Éminence Grease on its masthead; wrote the True 'Cue Challenge of April 23, 2014.",
+   "rel": "kin"
+  },
+  {
+   "from": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "quotes him on its wood page: 'If it's not cooked with wood, it's not barbecue.'",
+   "rel": "kin"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "found no South Carolina rule against wood cooking, as the campaign's 2014 challenge found none in North Carolina.",
+   "rel": "kin"
+  },
+  {
+   "from": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "quotes him on its wood page: 'When I see the future of barbecue I see pits, I see fire, I see wood-burning.'",
+   "rel": "kin"
+  },
+  {
+   "from": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "quotes him on its wood page on the cost and the pride of overnight hardwood coals.",
+   "rel": "kin"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "the other North Carolina list of wood pits, drawn by different rules and different founders.",
+   "rel": "contrast"
+  },
+  {
+   "from": "free-to-use",
+   "type": "story",
+   "name": "Where all of this came from",
+   "as": "publishes the list of certified wood-cooking pits this site reads the wood tag from.",
+   "rel": "org"
+  }
+ ]
+}

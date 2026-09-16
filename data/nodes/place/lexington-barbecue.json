@@ -1,0 +1,218 @@
+{
+ "schema": 1,
+ "id": "lexington-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Lexington Barbecue",
+  "aliases": [
+   "Lexington Barbecue #1",
+   "The Honeymonk",
+   "Honey Monk's",
+   "The Monk"
+  ],
+  "sort": "Lexington Barbecue"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1962",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The pork-shoulder pit on Smokehouse Lane in Lexington, Davidson County, that Wayne Monk opened in 1962 at 26 after working under Warner Stamey, and that he owns with his son Rick. Shoulders cook nearly half a day over oak and hickory coals under four brick chimneys whose white smoke shows from the road; the meat is served chopped or sliced with the 'dip', the thin vinegar-and-ketchup sauce of the Piedmont, and with red slaw dressed with the same. Locals call it the Honeymonk, after Monk and his early partner Sonny Hunneycutt. The James Beard Foundation named it an America's Classic in 2003.",
+  "story": "Wayne Monk worked under Warner Stamey, the man who carried the Lexington method out of the Weaver and Swicegood stands of the 1920s, and in 1962, at 26, opened his own place with Sonny Hunneycutt. The partner left; the joined name, Honeymonk, stayed on the town's tongue, and DavidsonLocal, reporting Monk's induction into the NC Bar-B-Q Hall of Fame on March 1, 2024, tied the name to the two surnames. Wikipedia records the 1962 founding and the James Beard Foundation's America's Classic award of 2003, the same year the Skylight Inn in Ayden got one — the two North Carolinas honored together. Our State counts about a thousand customers a day. Wayne and Rick Monk own it together, and the restaurant's own page lists Rick as owner.",
+  "how": "Pork shoulders cook nearly half a day over oak and hickory coals. The plate is barbecue — chopped, coarse-chopped or sliced — with red slaw, hushpuppies and fries; a tray drops the bread. The dip is thin, vinegar with ketchup, spices and sugar, and the slaw is dressed with it, which is why it is red. Onion rings and barbecue beans are on the board.",
+  "today": "Open Tuesday to Saturday 10 to 9, closed Sunday and Monday, at 100 Smokehouse Lane, Lexington, per the restaurant's site in September 2026. OpenStreetMap lists Monday hours as well; the restaurant's own page is followed here."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style, in the restaurant most often named as its standing example.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut, half a day over coals.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its sauce, thin and reddened with ketchup, served at the table.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "on the plate, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the plate.",
+   "rel": "serves"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "its fuel, burned to coals in the fireplaces under four brick chimneys.",
+   "rel": "part"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "its founder, at the pit since 1962 and in the state's barbecue hall of fame since 2024.",
+   "rel": "person"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "the man Monk trained under, which makes this pit a grandchild of the Swicegood stand.",
+   "rel": "origin"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "the Greensboro house of Monk's teacher.",
+   "rel": "kin"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "the other Lexington pit on Main Street, ice cream and all.",
+   "rel": "kin"
+  },
+  {
+   "to": "cooks-barbecue",
+   "as": "the small brick-pit house south of town, closed since 2022.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the eastern pit that received the same James Beard America's Classic award in 2003.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "the October street festival uptown that shares its name and cooks its style.",
+   "rel": "event"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lexington-barbecue-festival",
+   "tell": "The restaurant is a pit on Smokehouse Lane open six days a week; the festival is a one-day October street fair uptown, held since 1984, with many restaurants cooking."
+  },
+  {
+   "id": "lexington",
+   "tell": "Lower-case, 'Lexington barbecue' is the style — shoulders, dip, red slaw — cooked at some twenty places in town; capitalized, it is this one restaurant."
+  }
+ ],
+ "geo": {
+  "lat": 35.8341,
+  "lon": -80.26746,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "100 Smokehouse Ln",
+  "city": "Lexington",
+  "county": "Davidson",
+  "state": "NC",
+  "postcode": "27295"
+ },
+ "links": [
+  {
+   "label": "Lexington Barbecue — official",
+   "url": "https://www.lexbbq.com/"
+  },
+  {
+   "label": "Lexington Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue"
+  },
+  {
+   "label": "Murphy to Manteo: Lexington Barbecue — Our State",
+   "url": "https://www.ourstate.com/lexington-barbecue-2/"
+  }
+ ],
+ "sources": [
+  "s:wp-lexington-barbecue",
+  "s:web-lexbbq-about",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-davidsonlocal-wayne-monk",
+  "s:sfa-stameys-barbecue",
+  "s:wp-skylight-inn-bbq",
+  "s:osm",
+  "s:web-truecue-nc",
+  "s:wp-james-beard-americas-classics"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lexington-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-davidsonlocal-wayne-monk",
+    "note": "Stamey's own lineage from the SFA Stamey's interview; Skylight's 2003 award from its Wikipedia article"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-about"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-about",
+    "note": "hours as posted 2026-09-15; OSM row way/674159065 says Mo-Sa"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "harvest row is named 'Lexington BBQ'"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified, listed as Lexington Barbecue #1. Shoulders cook nearly half a day over oak and hickory coals under four brick chimneys.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-lexbbq-about",
+   "tier": "cited",
+   "note": "Wayne Monk opened it in 1962 at 26 and owns it with his son Rick."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "james-beard",
+   "what": "America's Classic",
+   "source": "s:wp-james-beard-americas-classics",
+   "year": 2003,
+   "url": "https://en.wikipedia.org/wiki/List_of_James_Beard_America%27s_Classics"
+  },
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Lexington Barbecue #1",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-lexington-barbecue"
+  }
+ ]
+}

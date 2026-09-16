@@ -1,0 +1,389 @@
+{
+ "schema": 1,
+ "id": "pig-cooker",
+ "type": "pit",
+ "names": {
+  "name": "pig cooker",
+  "aliases": [
+   "pig roaster",
+   "hog cooker",
+   "trailer cooker",
+   "cooker"
+  ],
+  "said": "'Cooker' alone, in the east, means this; a 'pit' is masonry."
+ },
+ "region": [
+  "nc-east",
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "cooker"
+ },
+ "text": {
+  "what": "A steel box on a trailer chassis, long enough for a split hog, with a hinged lid, a grate, and either a row of propane burners underneath or a bed for charcoal: the cooker of the pig pickin', towed to the church lot, the tailgate or the fire station and home again. Carolina Cooker of Micro, North Carolina, builds one of 12-gauge steel with four propane burners on a leaf-spring trailer, listed at $2,599.99 in September 2026; BQ Grills of Elm City builds towable charcoal-and-wood cookers of eighth-inch steel in five- and six-foot lengths at $7,200 to $9,800. The article on the pig pickin' calls the grills 'as varied as the methods of producing them', some homemade, some custom-made.",
+  "story": "The pig pickin' moved the whole hog off the farm pit and onto wheels. *Tradition holds —* welded cookers appeared in eastern North Carolina after the Second World War, when propane and a cutting torch put a pit within reach of anyone with a trailer hitch, and the rental cooker followed. What the article on the pig pickin' records is the argument the cooker started: propane 'is said to maintain a consistent temperature, whereas charcoal or charwood are often touted as producing better-tasting meat', and the cooks who run charcoal add chunks of blackjack oak or hickory for the smoke, or keep a separate stove of hardwood to make coals and shovel them under the grate. The cooking is communal and 'usually directed by an authority figure' — the host, helped by friends and family — and the pig goes on meat-side down for four to eight hours and is flipped once when it stops dripping fat. Ed Mitchell learned on a family cooker in Wilson: at fourteen or fifteen he tended the fire after the men, having passed the moonshine, fell asleep, and his grandfather woke to a cooked pig and poured him his first glass.",
+  "how": "The split hog goes on the grate meat-side down; on gas the burners run low, on charcoal the coals are lit in the bed or shoveled in from a hardwood stove; the lid comes down for four to eight hours until the dripping slows, and the hog is flipped once, skin down, to crisp. Some cooks wipe the ash from the skin with paper towels or a whisk broom before the flip so the cracklings come out clean. Off the cooker the meat is chopped, pulled, or picked straight off the bones by the guests.",
+  "today": "Cookers are built and sold across the Coastal Plain — Micro and Elm City among the makers — and every pig pickin', tailgate and fire-department plate sale runs on one. Gas is the ordinary choice and charcoal the argued-for one."
+ },
+ "kin": [
+  {
+   "to": "pig-pickin",
+   "as": "the party it exists for.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut it is built around: a split carcass on a six-foot grate.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "its restaurant-size relatives, fixed and thermostated.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "as": "the masonry pit it replaced on wheels.",
+   "rel": "contrast"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "the hardwood stove some cooks keep beside a charcoal cooker.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "as": "on charcoal it works the Carolina way, coals under the meat; on gas the burner stands in for the coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the chunks added to the charcoal for smoke.",
+   "rel": "part"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "the Saturday plate sale is cooked on one.",
+   "rel": "event"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "the cooker behind the candidate's free plate.",
+   "rel": "event"
+  },
+  {
+   "to": "barbecue-chicken",
+   "as": "the other meat on the same grate at a fire-department plate sale.",
+   "rel": "serves"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "cooked his first pig, unbidden, on the family cooker in Wilson.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "gas-and-electric-cookers",
+   "tell": "A pig cooker is the wheeled steel box of the yard and the plate sale; the gas or electric cooker of a restaurant is fixed, thermostated and indoors."
+  },
+  {
+   "id": "burn-barrel",
+   "tell": "A pig cooker holds the pig; a burn barrel only makes the coals."
+  }
+ ],
+ "links": [
+  {
+   "label": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27"
+  },
+  {
+   "label": "Carolina Cooker, Micro NC — trailer cooker",
+   "url": "https://www.carolinacooker.com/products/large-portable-bbq-pig-cooker"
+  },
+  {
+   "label": "BQ Grills, Elm City NC — charcoal and wood hog cookers",
+   "url": "https://bqgrills.com/commercial-charcoal-wood-pig-cookers/"
+  }
+ ],
+ "sources": [
+  "s:wp-pig-pickin",
+  "s:wp-pig-roast",
+  "s:web-carolina-cooker",
+  "s:web-bq-grills",
+  "s:wp-ed-mitchell-pitmaster",
+  "s:web-wcti-back-swamp-vfd"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-pig-pickin"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-carolina-cooker",
+    "note": "prices as posted on 2026-09-15"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-pig-pickin",
+    "note": "the postwar origin of the welded cooker is hedged inline as tradition"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage as heard"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A steel box on a trailer chassis, long enough for a split hog, with a hinged lid, a grate, and either a row of propane burners underneath or a bed for charcoal: the cooker of the pig pickin', towed to the church lot…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the party it exists for.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut it is built around: a split carcass on a six-foot grate.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "its restaurant-size relatives, fixed and thermostated.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the masonry pit it replaced on wheels.",
+   "rel": "contrast"
+  },
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the hardwood stove some cooks keep beside a charcoal cooker.",
+   "rel": "kin"
+  },
+  {
+   "to": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "on charcoal it works the Carolina way, coals under the meat; on gas the burner stands in for the coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the chunks added to the charcoal for smoke.",
+   "rel": "part"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "the Saturday plate sale is cooked on one.",
+   "rel": "event"
+  },
+  {
+   "to": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "the cooker behind the candidate's free plate.",
+   "rel": "event"
+  },
+  {
+   "to": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the other meat on the same grate at a fire-department plate sale.",
+   "rel": "serves"
+  },
+  {
+   "to": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "cooked his first pig, unbidden, on the family cooker in Wilson.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:wp-pig-roast",
+   "kind": "wikipedia",
+   "title": "Pig roast — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_roast",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-carolina-cooker",
+   "kind": "web",
+   "title": "Large Portable BBQ Cooker (product page, price as posted)",
+   "publisher": "Carolina Cooker, Micro, NC",
+   "url": "https://www.carolinacooker.com/products/large-portable-bbq-pig-cooker",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-bq-grills",
+   "kind": "web",
+   "title": "Commercial Charcoal/Wood Whole Hog BBQ Pits (prices as posted)",
+   "publisher": "BQ Grills, Elm City, NC",
+   "url": "https://bqgrills.com/commercial-charcoal-wood-pig-cookers/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-ed-mitchell-pitmaster",
+   "kind": "wikipedia",
+   "title": "Ed Mitchell (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ed_Mitchell_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-wcti-back-swamp-vfd",
+   "kind": "web",
+   "title": "Back Swamp Volunteer Fire Department to host annual BBQ fundraiser and raffle (April 15, 2026)",
+   "publisher": "WCTI NewsChannel 12",
+   "url": "https://wcti12.com/news/local/back-swamp-volunteer-fire-department-to-host-annual-bbq-fundraiser-and-raffle",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-carolina-cooker",
+   "note": "prices as posted on 2026-09-15"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-pig-pickin",
+   "note": "the postwar origin of the welded cooker is hedged inline as tradition"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-pig-pickin"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-pig-pickin"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the cooker a half chicken shares with the pig at an eastern pit.",
+   "rel": "part"
+  },
+  {
+   "from": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the steel, wheeled version on gas or charcoal.",
+   "rel": "contrast"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "on charcoal it works the same way; on gas the burner stands in for the coals.",
+   "rel": "kin"
+  },
+  {
+   "from": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the trailer version of the same choice, gas or charcoal.",
+   "rel": "kin"
+  },
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the trailer cooker that takes a whole hog on gas or charcoal at a pig pickin'.",
+   "rel": "kin"
+  },
+  {
+   "from": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "the family cooker in Wilson on which that first pig was cooked.",
+   "rel": "part"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "what the pigs cook on behind the fire station.",
+   "rel": "part"
+  },
+  {
+   "from": "hillsborough-hog-day",
+   "type": "event",
+   "name": "Hillsborough Hog Day",
+   "as": "what the cook-off teams bring to the park.",
+   "rel": "part"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "the metal cookers that replaced the dirt pits in the 1980s.",
+   "rel": "part"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the trailer cooker it is cooked on, charcoal or propane.",
+   "rel": "part"
+  },
+  {
+   "from": "pit",
+   "type": "term",
+   "name": "pit",
+   "as": "the pig pickin's charcoal or propane cooker, homemade or custom-built: a pit on wheels.",
+   "rel": "kin"
+  }
+ ]
+}

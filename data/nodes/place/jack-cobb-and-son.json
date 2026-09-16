@@ -1,0 +1,198 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "jack-cobb-and-son",
+ "names": {
+  "name": "Jack Cobb & Son Barbecue Place",
+  "aliases": [
+   "Jack Cobb & Son",
+   "Jack Cobb and Son Barbecue"
+  ],
+  "sort": "Jack Cobb & Son Barbecue Place"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "1971",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A Black-owned whole-hog counter on South Main Street in Farmville, Pitt County, that Jack Cobb and his son Rudy built as a cinder-block storefront in 1971 and closed in the autumn of 2018. Hogs cooked all night over oak, pecan and hickory coals banked around them; Rudy Cobb shovelled glowing coals in from the hearth and would not use gas. There were no chairs and no tables, only a counter, three days a week. Barbecued chicken and barbecued turkey shared the board with the pork.",
+  "story": "Jack Cobb made tobacco hogsheads for A.C. Monk & Co. for about fifty years and cooked barbecue on Saturdays. When his son Rudy came home from Vietnam in 1966 — North Carolina A&T, then combat — the business faced the plain arithmetic of a segregated town. Our State put it in 2013: white customers wanted Jack's barbecue but would not walk into a Black-owned business. So Jack and Rudy carried it out to the cars. A hundred plates a trip, barbecue and cornbread and slaw, sixty-five cents each. Rudy dated the turn to 1966 or 1967 and remembered how he ended the deliveries: he used to carry it to their houses, and when there got to be too many he told them they had to come get it — nobody would bother them, he would be there. He told Rien Fertel for the Southern Foodways Alliance on November 30, 2011 that he was the principal owner, born September 1941, and that he still cooked with wood and did not use gas. Jack died in September 1989, having blessed his son's decision to stop turning the hogs overnight. Rudy's own sons did not want it and no buyer came. He closed in 2018: it was like losing a wife or a son, he told WRAL.",
+  "how": "Whole hogs — always whole hogs — cooked overnight on oak, pecan and hickory, the wood banked around the pit so it lit through the night, the coals shovelled in from the hearth. Decades of it stained the white walls grey. The pork came chopped with a vinegar sauce, and the hushpuppies were made to Rudy's stepmother Lillian Blunt Cobb's recipe. Barbecued chicken and barbecued turkey were the other meats. There was nowhere to sit: you took your food and went.",
+  "today": "Closed. The last service was in the autumn of 2018 — WNCT reported in August that the closing had been put off to October 18 while buyers were sought, and WRAL confirmed the closure the following July. The building stands at 3883 South Main Street, Farmville."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style it cooked: whole hog over wood coals, chopped, with vinegar.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, and the only one — always whole hogs, in the owner's words.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "its wood: oak, pecan and hickory, banked around the pit to burn through the night.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "made to Lillian Blunt Cobb's recipe, the one part of the board that came from the stepmother.",
+   "rel": "serves"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Rudy Cobb here on November 30, 2011 for its North Carolina barbecue project.",
+   "rel": "org"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "the interviewer who took Rudy Cobb's oral history in 2011.",
+   "rel": "person"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "carried it on the Historic Barbecue Trail, third of the twenty-three stops.",
+   "rel": "org"
+  },
+  {
+   "to": "jim-early",
+   "as": "wrote it up in The Best Tar Heel Barbecue, the book behind the Society's trail.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 35.59375,
+  "lon": -77.58887,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "3883 S Main St",
+  "city": "Farmville",
+  "county": "Pitt",
+  "state": "NC",
+  "postcode": "27828"
+ },
+ "links": [
+  {
+   "label": "Jack Cobb & Son Barbecue Place — Southern Foodways Alliance oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/jack-cobb-and-son-barbecue-place/"
+  },
+  {
+   "label": "NC Historic Barbecue Trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  }
+ ],
+ "sources": [
+  "s:sfa-jack-cobb-and-son",
+  "s:web-ourstate-jack-cobb",
+  "s:web-wnct-jack-cobb-2018",
+  "s:web-wral-jack-cobb-2019",
+  "s:web-barbecuebros-nc-trail",
+  "s:early-best-tar-heel-barbecue",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:sfa-jack-cobb-and-son"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-jack-cobb",
+    "note": "Our State (Bobby Burns, November 3, 2013) for the segregated-town trade, the hundred plates and the sixty-five cents; Rudy Cobb's own words from the SFA transcript of November 30, 2011; the closure from WNCT (August 8, 2018) and WRAL (July 12, 2019). The founding year is contested — the SFA says the 1930s or 1940s, Rudy describes a Walnut Street place in the early 1960s, and 1971 is the undisputed date of this building."
+   },
+   "facets.founded": {
+    "tier": "cited",
+    "source": "s:web-ourstate-jack-cobb",
+    "note": "1971 is the South Main Street building; the business is older and no source read can date it"
+   },
+   "facets.status": {
+    "tier": "cited",
+    "source": "s:web-wral-jack-cobb-2019",
+    "note": "closed between August and October 2018; no single date is on this disk"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:sfa-jack-cobb-and-son",
+   "tier": "cited",
+   "note": "Rudy Cobb in his own words to the SFA, November 30, 2011: 'my name is Rudy Cobb. I am the son of Jack Cobb & Son Barbecue Place. Now I'm the principal owner.' Our State (November 3, 2013) names it a Black-owned business twice and quotes him counting himself among the only restaurants run by a Black person in Farmville."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:sfa-jack-cobb-and-son",
+   "tier": "cited",
+   "note": "Rudy Cobb's own words: 'It's still the same process when you cook with wood. I don't use gas' — oak, pecan and hickory. Our State describes walls stained grey with soot and coals shovelled in from the hearth."
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:sfa-jack-cobb-and-son",
+   "tier": "cited",
+   "note": "Rudy Cobb: 'Yeah; always—always cooked whole—whole hogs.'"
+  },
+  {
+   "tag": "closed",
+   "source": "s:web-wral-jack-cobb-2019",
+   "tier": "cited",
+   "note": "Closed in the autumn of 2018; WNCT reported the date pushed to October 18 while buyers were sought, WRAL confirmed the closure in July 2019. Rudy Cobb's sons declined it and no buyer came.",
+   "since": "2018"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:sfa-jack-cobb-and-son",
+   "tier": "cited",
+   "note": "Jack Cobb and his son Rudy, who took the principal ownership; the hushpuppy recipe was Rudy's stepmother Lillian Blunt Cobb's."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-jack-cobb-and-son",
+   "year": 2011,
+   "url": "https://www.southernfoodways.org/interview/jack-cobb-and-son-barbecue-place/",
+   "note": "Rudy Cobb, interviewed by Rien T. Fertel, November 30, 2011, 24 minutes."
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, third of the twenty-three",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "note": "The trail roster read dates from 2017, before the closure."
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-jack-cobb",
+   "year": 2013
+  },
+  {
+   "by": "other",
+   "what": "written up in Jim Early's The Best Tar Heel Barbecue, the book behind the Barbecue Society's trail",
+   "source": "s:early-best-tar-heel-barbecue"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16"
+}

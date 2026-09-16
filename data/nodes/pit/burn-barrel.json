@@ -1,0 +1,153 @@
+{
+ "schema": 1,
+ "id": "burn-barrel",
+ "type": "pit",
+ "names": {
+  "name": "burn barrel",
+  "aliases": [
+   "burn-barrel",
+   "coal barrel",
+   "fire barrel",
+   "the barrel",
+   "burner"
+  ]
+ },
+ "region": [
+  "nc-east",
+  "sc-pee-dee",
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "tool"
+ },
+ "text": {
+  "what": "A repurposed steel drum — or, at Scott's in Hemingway, two 55-gallon drums welded together — in which logs are burned down to coals: the wood goes in at the top, the coals are pulled out from below and carried by shovel to the pit. It is the coal-maker of the wood pit, the reason a whole hog can sit over a steady bed of coals for twelve hours with no flame under it. Older pit houses use a fireplace for the same job — the Skylight Inn burns its oak and hickory in fireplaces beside the pits — and the barrel is the version anyone can weld.",
+  "story": "The barrel is the modern form of an older arrangement. *Tradition holds —* the trench pit of the farm barbecue had a fire burning at one end and coals raked down its length under the meat; when the pit climbed above ground into blocks and brick, the fire moved into a fireplace or a drum beside it. Mallard Creek Presbyterian Church in Charlotte cooked its first barbecues, from 1929, in ditches with hickory coals shoved underneath the whole hogs. At Scott's Bar-B-Que in Hemingway, Rodney Scott feeds hunks of hickory, oak and pecan through the top of the welded drums and pulls hot coals from below to stoke the pit. In November 2013 the family's wooden cookhouse caught fire — 'shooting like a torch', the fire department told him — and Scott took his hogs on the road to raise at least $100,000, part to rebuild and part for a fund to preserve the region's food traditions.",
+  "how": "Split logs go in at the top and burn with the draft from the bottom; as they collapse into coals the cook rakes them out with a flat shovel and spreads them in the pit under the meat. *Tradition holds —* the bed goes heavier under the hams and shoulders and thinner under the loin, and a hog cooked through a night takes a fresh shovelful on a regular round, so the barrel is kept fed the whole time. Lexington crews call the same round, in a brick pit, 'firing the pits'.",
+  "today": "Every wood-fired whole-hog pit keeps a barrel, a fireplace or a burner going through the night; the drum is the standard beside a block pit and at Scott's. Gas and electric cookers do without it, and the labor it stands for is the reason owners give for switching."
+ },
+ "kin": [
+  {
+   "to": "hickory-and-oak",
+   "as": "the wood it turns into coals.",
+   "rel": "part"
+  },
+  {
+   "to": "direct-heat",
+   "as": "its coals go straight under the meat.",
+   "rel": "kin"
+  },
+  {
+   "to": "block-pit",
+   "as": "the open pit it feeds, a shovel's walk away.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the closed Piedmont pit fed the same way, from a fireplace or burner at the end of the pit house.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "what its coals cook through the night.",
+   "rel": "kin"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "as": "two 55-gallon drums welded together, fed with hickory, oak and pecan.",
+   "rel": "place"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "the pitmaster whose barrel and pit fire NPR described in 2014.",
+   "rel": "person"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "uses fireplaces beside the pits instead of a drum.",
+   "rel": "place"
+  },
+  {
+   "to": "mallard-creek-barbecue",
+   "as": "began in 1929 with hickory coals shoved under hogs in ditches.",
+   "rel": "event"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "the cookers that need no barrel and no one to tend it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pitmaster",
+   "as": "the person who tends it through the night.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pig-cooker",
+   "tell": "A burn barrel makes coals; nothing is cooked in it. A pig cooker holds the pig."
+  }
+ ],
+ "links": [
+  {
+   "label": "NPR, 2014: Rodney Scott's burn barrel",
+   "url": "https://www.npr.org/sections/thesalt/2014/02/04/271526910/when-his-pit-burned-down-a-southern-bbq-master-took-hogs-on-tour"
+  },
+  {
+   "label": "Whole hog barbecue — Wikipedia (Preparation)",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue#Preparation"
+  }
+ ],
+ "sources": [
+  "s:wp-whole-hog-barbecue",
+  "s:web-npr-scott-pit-burned",
+  "s:wp-skylight-inn-bbq",
+  "s:web-mallard-creek-history",
+  "s:web-leisuregrouptravel-lexington",
+  "s:web-uncpress-reed-myth",
+  "s:scott-world-of-bbq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-npr-scott-pit-burned",
+    "note": "the trench-to-barrel lineage is hedged inline as tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the coal bed and the round are the method as pitmasters describe it (Scott & Elie 2021; Jones & Vaughn 2019); the Lexington phrase from Leisure Group Travel"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-uncpress-reed-myth",
+    "note": "labor and cost as the stated reasons for switching, per Reed"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "burn-barrel/burn-barrel-barbecue-pit.jpg",
+   "source": "commons",
+   "title": "File:Barbecue pit.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Barbecue_pit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue_pit.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Southern Foodways Alliance",
+   "credit": "originally posted to Flickr as making coals at Wilbur's Barbecue",
+   "alt": "A wood-fired barbecue pit at Wilbur's Barbecue - Goldsboro, NC, USA.",
+   "date": "2007-09-04 16:42:53",
+   "primary": true,
+   "sha256": "b8798499e837f236baa48f870f35297934fef63ccc97b43498c7575f39131e4d"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

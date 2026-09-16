@@ -1,0 +1,190 @@
+{
+ "schema": 1,
+ "id": "skylight-inn",
+ "type": "place",
+ "names": {
+  "name": "Skylight Inn BBQ",
+  "aliases": [
+   "Skylight Inn",
+   "Pete Jones' Skylight Inn",
+   "the Skylight"
+  ],
+  "sort": "Skylight Inn"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1947",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog pit in Ayden, Pitt County, opened by Walter B. 'Pete' Jones on July 8, 1947 and run by his family since. Hogs cook, heads on, over coals burned down from oak and hickory logs; the meat is chopped on a block with the crisp skin chopped through it, dressed with vinegar, salt, pepper and Texas Pete, and served on a tray with slaw and a square of dense cornbread. A wood-and-aluminum copy of the U.S. Capitol dome sits on the roof.",
+  "story": "The Jones family counts its barbecue back to 1830 and Skilton Dennis, who *tradition holds* sold barbecue from a covered wagon near Ayden — a claim painted on the billboard outside and repeated by the press, with no document behind it that this project has seen. Pete Jones opened the Skylight at eighteen, in 1947, having learned whole hog at his uncle Emmitt Dennis's City Cafe; he gave the place beer and a jukebox, it ran late with rowdy crowds, and the late nights ended when the town set a 7 pm curfew. In 1979 a National Geographic article called the restaurant 'the barbecue capital of the world'; the dome went up in 1984 as the family's answer, and 'Capital of 'Cue' has been on the sign since. The James Beard Foundation named it an America's Classic in 2003. Pete Jones died in 2006; the family kept the pits. *Tradition holds —* his son Bruce and nephew Jeff Jones run the Skylight, and grandson Samuel Jones opened Sam Jones BBQ in Winterville in 2015, then a second in Raleigh, cooking the same whole hog with a longer menu.",
+  "how": "Whole hogs, heads still on, cook over charcoal the pit crew makes by burning oak and hickory logs in fireplaces beside the pits. The chop takes in tenderloin, inner meat and crisped skin together. The plate is a tray: barbecue, slaw, cornbread; the sandwich is the same on a white roll. The cornbread is stone-ground cornmeal, water and pork drippings baked flat — denser and chewier than a skillet cornbread. Barbecue chicken is the one other meat.",
+  "today": "Open Monday to Saturday, lunch through early evening, at 4618 S Lee Street, Ayden. Cash and cards. The dome, the block and the cleavers are all still in use."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style it is the standing example of: whole hog, wood coals, vinegar and pepper, white slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut it has never departed from; the skin goes into the chop.",
+   "rel": "part"
+  },
+  {
+   "to": "cornbread",
+   "as": "its cornbread is its own — a dense pork-fat cake, the one side that visitors argue about.",
+   "rel": "serves"
+  },
+  {
+   "to": "pete-jones",
+   "as": "its founder, who cooked here from 1947 until his death in 2006.",
+   "rel": "person"
+  },
+  {
+   "to": "sam-jones",
+   "as": "the grandson who carried the method to his own restaurants and wrote it down in a book.",
+   "rel": "person"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "the family's second pit, in Winterville, opened 2015.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.4635,
+  "lon": -77.4177,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "4618 S Lee St",
+  "city": "Ayden",
+  "county": "Pitt",
+  "state": "NC",
+  "postcode": "28513"
+ },
+ "links": [
+  {
+   "label": "Skylight Inn BBQ — official",
+   "url": "https://www.skylightinnbbq.com/"
+  },
+  {
+   "label": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ"
+  }
+ ],
+ "sources": [
+  "s:wp-skylight-inn-bbq",
+  "s:jones-whole-hog-bbq",
+  "s:fertel-one-true-barbecue",
+  "s:osm",
+  "s:web-truecue-nc",
+  "s:wp-james-beard-americas-classics",
+  "s:web-barbecuebros-nc-trail",
+  "s:sfa-skylight-inn"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-skylight-inn-bbq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-skylight-inn-bbq",
+    "note": "the 1830 wagon and the current family roles are marked as tradition inline; the Sam Jones BBQ dates need a check"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-skylight-inn-bbq"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-skylight-inn-bbq",
+    "note": "hours and address as published by the restaurant; check before driving"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:wp-skylight-inn-bbq",
+   "tier": "cited",
+   "note": "Hogs cook heads on, and the chop takes in tenderloin, inner meat and crisped skin together."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. Hogs cook over charcoal the pit crew makes by burning oak and hickory logs in fireplaces beside the pits.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:wp-skylight-inn-bbq",
+   "tier": "cited",
+   "note": "Opened by Walter B. 'Pete' Jones on July 8, 1947 and run by his family since; he died in 2006 and the family kept the pits."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "james-beard",
+   "what": "America's Classic",
+   "source": "s:wp-james-beard-americas-classics",
+   "year": 2003,
+   "url": "https://en.wikipedia.org/wiki/List_of_James_Beard_America%27s_Classics"
+  },
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Skylight Inn",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Skylight Inn, Ayden",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "national-geographic",
+   "what": "called the restaurant the barbecue capital of the world",
+   "source": "s:wp-skylight-inn-bbq",
+   "year": 1979
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-skylight-inn"
+  },
+  {
+   "by": "fertel",
+   "what": "a chapter",
+   "source": "s:fertel-one-true-barbecue",
+   "year": 2016
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "schema": 1,
+ "id": "sam-jones-bbq",
+ "type": "place",
+ "names": {
+  "name": "Sam Jones BBQ",
+  "aliases": [
+   "Sam Jones Barbecue",
+   "Sam Jones BBQ Winterville",
+   "Sam Jones BBQ Raleigh"
+  ],
+  "sort": "Sam Jones BBQ"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "2015",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog restaurant in Winterville, Pitt County, opened on November 10, 2015 by Sam Jones, grandson of the Skylight Inn's founder Pete Jones, with his partner Michael Letchworth, and a second house in downtown Raleigh since February 2021. Whole hogs are smoked on site over wood, chopped and served daily; the menu runs longer than the Skylight's, with ribs, smoked chicken and turkey, cornbread, slaw and collards, banana pudding, and in Raleigh a full bar. Winterville is seven miles from the Skylight Inn in Ayden; Raleigh is the family's first restaurant outside Pitt County.",
+  "story": "Sam Jones grew up in the Skylight Inn, which his grandfather Pete Jones opened in Ayden in 1947; he left the family business as a teenager and came back, telling the Southern Foodways Alliance in 2011 that returning was like a flag-bearer keeping the standard up on the field. In 2014 he and Michael Letchworth, who had worked at the Skylight since 2004, signed for a loan and began building in Winterville; Sam Jones BBQ opened on November 10, 2015. The restaurant's own history counts Southern Living's 2012 list of ten Southern pitmasters among its credentials. In 2019 Jones and Daniel Vaughn published Whole Hog BBQ: The Gospel of Carolina Barbecue, which writes the family method down. The Raleigh restaurant at 502 West Lenoir Street opened softly in February 2021 in a building that had been Dusty's Garage, keeping the old floor and hanging family photographs; it seats about 140 inside and out, with a private room upstairs and a bar. INDY Week reported in May 2021 that three hogs a day went on at about one in the afternoon, cooked at 250 degrees until ten, were held overnight, and had their skin crisped the next morning.",
+  "how": "Whole hogs of about 180 pounds cook some sixteen hours in wood-fired pits; the meat is chopped with the crisp skin through it and dressed in the eastern way, with vinegar, salt and pepper. A tray — the eastern plate, barbecue with slaw and bread and no plate under it — comes with cornbread. Beyond the hog there are ribs, smoked turkey and chicken, collards, a sweet slaw and banana pudding, and in Raleigh a bourbon old-fashioned infused with pig fat and named Jay the Butcher.",
+  "today": "Open, both houses. Winterville: 715 West Fire Tower Road, Monday to Saturday 11 to 9, Sunday 11 to 8:30. Raleigh: 502 West Lenoir Street, the same hours. Hours as posted on the restaurant's site in September 2026."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style it cooks, whole hog over wood with a vinegar dressing, carried from Ayden to Raleigh.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut: hogs of about 180 pounds, sixteen hours in the pit, skin chopped into the meat.",
+   "rel": "part"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the family pit it grew out of, seven miles away in Ayden, where Sam Jones and Michael Letchworth both worked.",
+   "rel": "origin"
+  },
+  {
+   "to": "sam-jones",
+   "as": "its founder, who wrote the family method down in 2019.",
+   "rel": "person"
+  },
+  {
+   "to": "pete-jones",
+   "as": "the grandfather whose 1947 pit is the reason this one exists.",
+   "rel": "person"
+  },
+  {
+   "to": "cornbread",
+   "as": "on the tray here as at the Skylight.",
+   "rel": "serves"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "the other Pitt County whole-hog pit, on the far side of Greenville, cash only and closed when sold out.",
+   "rel": "kin"
+  },
+  {
+   "to": "bums-restaurant",
+   "as": "the other Ayden pit, run by the Dennis family the Joneses count as their own root.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Sam Jones's oral history in 2011, before he had a restaurant of his own.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.5476993,
+  "lon": -77.4021514,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "715 W Fire Tower Rd",
+  "city": "Winterville",
+  "county": "Pitt",
+  "state": "NC",
+  "postcode": "28590"
+ },
+ "links": [
+  {
+   "label": "Sam Jones BBQ — official",
+   "url": "https://www.samjonesbbq.com/"
+  },
+  {
+   "label": "Skylight Inn — SFA oral history with Samuel Jones (2011)",
+   "url": "https://www.southernfoodways.org/interview/skylight-inn/"
+  }
+ ],
+ "sources": [
+  "s:web-samjonesbbq",
+  "s:web-visitraleigh-sam-jones",
+  "s:web-indyweek-sam-jones",
+  "s:sfa-skylight-inn",
+  "s:jones-whole-hog-bbq",
+  "s:wp-skylight-inn-bbq",
+  "s:web-truecue-nc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-samjonesbbq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-samjonesbbq",
+    "note": "Raleigh opening and layout from Visit Raleigh (Feb 2021) and INDY Week (May 2021); the Southern Living credential is the restaurant's own claim"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-samjonesbbq",
+    "note": "hours as posted 2026-09-15"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded from the street address via Nominatim"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-samjonesbbq"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:web-samjonesbbq",
+   "tier": "cited",
+   "note": "Whole hogs of about 180 pounds cook some sixteen hours in wood-fired pits."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified at the Raleigh house, read 2026-09-16.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Sam Jones BBQ, Raleigh",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  }
+ ]
+}

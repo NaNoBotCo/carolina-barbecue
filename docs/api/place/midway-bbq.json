@@ -1,0 +1,413 @@
+{
+ "schema": 1,
+ "id": "midway-bbq",
+ "type": "place",
+ "names": {
+  "name": "Midway BBQ",
+  "aliases": [
+   "Midway Barbecue",
+   "Midway"
+  ],
+  "sort": "Midway BBQ"
+ },
+ "region": [
+  "sc-upstate",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1941",
+  "fuel": "wood",
+  "styles": []
+ },
+ "text": {
+  "what": "A hash house and meat market on Main Street in Buffalo, a mill village in Union County in the Upstate, in business since about 1941 and the last of the nearly fifty hash houses the county once had. Hash here is the Upstate's kind: beef, butter, onion, salt and pepper cooked down slowly in three hundred-gallon pots, sold over rice and by the quart, and it outsells the barbecue three or four to one. The barbecue is hickory-smoked shoulder and ham, chopped; a creamy, spicy chicken stew goes out by the hundred gallons a day; and the front of the building is a butcher's counter with sawdust on the floor.",
+  "story": "Jack O'Dell opened Midway some time around 1941 — 'the date is sketchy', the family says. Union County was hash-eating country and O'Dell's was one of nearly fifty hash houses; the others closed and Midway stayed. His daughter Amy Allen owns it; her husband Jay Allen has managed it since 1994, and it was Jay whom Rien Fertel recorded for the Southern Foodways Alliance on June 12, 2012, at what the interview page lists as 811 Hash Boulevard. Jay's arithmetic: catering, three parts hash to one of barbecue; in the store, four to one. 'Without hash, we're done. We're closed.' The slogan calls Buffalo the hash and chicken stew capital of the world.",
+  "how": "Hash: beef, butter, onion, salt and pepper, slow-cooked in three 100-gallon pots into a thick stew and ladled over white rice — no pork, no mustard, the Upstate's version. Chicken stew, creamy and spicy, a hundred gallons a day. Barbecue: shoulder and ham smoked over hickory, chopped or pulled, and chopped barbecue chicken. A full-service meat counter sells across the front of the store.",
+  "today": "Open Tuesday to Friday 10 a.m. to 6 p.m. and Saturday 10 to 4, closed Sunday and Monday, per the company's site on September 15, 2026. 811 Main Street, Buffalo, Union County."
+ },
+ "kin": [
+  {
+   "to": "hash-and-rice",
+   "as": "the reason the place exists: beef hash, the Upstate's kind, three or four to one against the barbecue.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "shoulder and ham, hickory-smoked and chopped, are the barbecue.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory, for the shoulders and hams.",
+   "rel": "part"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "the Carolinas' other stew; Midway cooks a chicken stew of its own by the hundred gallons.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-chicken",
+   "as": "chopped barbecue chicken is on the daily menu.",
+   "rel": "serves"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "as": "the Upstate's other old name, forty miles west in Greenville, where the hash is pork.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Jay Allen here in June 2012.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "interviewed Jay Allen here on June 12, 2012.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 34.72383,
+  "lon": -81.65961,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "811 Main St",
+  "city": "Buffalo",
+  "county": "Union",
+  "state": "SC",
+  "postcode": "29321"
+ },
+ "links": [
+  {
+   "label": "Midway BBQ — official",
+   "url": "https://midway-bbq.com/"
+  },
+  {
+   "label": "Midway BBQ — Southern Foodways Alliance interview (2012)",
+   "url": "https://www.southernfoodways.org/interview/midway-bbq/"
+  }
+ ],
+ "sources": [
+  "s:web-sfa-midway-bbq",
+  "s:sfa-oral-histories",
+  "s:web-midway-bbq-home",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-hash-stew",
+  "s:osm",
+  "s:web-truecue-sc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sfa-midway-bbq"
+  },
+  "fields": {
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-sfa-midway-bbq",
+    "note": "'hickory-smoked' is the source's word; the cooker is not described"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-midway-bbq-home"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-sc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. The SFA page calls the barbecue hickory-smoked without describing the cooker.",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-sfa-midway-bbq",
+   "tier": "cited",
+   "note": "Hash of beef, butter, onion, salt and pepper in three hundred-gallon pots, over rice and by the quart; it outsells the barbecue three or four to one."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Midway BBQ, Buffalo",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:web-sfa-midway-bbq",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/midway-bbq/",
+   "note": "Jay Allen, interviewed by Rien Fertel, June 12, 2012."
+  }
+ ],
+ "blurb": "A hash house and meat market on Main Street in Buffalo, a mill village in Union County in the Upstate, in business since about 1941 and the last of the nearly fifty hash houses the county once had.",
+ "region_terms": [
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the reason the place exists: beef hash, the Upstate's kind, three or four to one against the barbecue.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "shoulder and ham, hickory-smoked and chopped, are the barbecue.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "hickory, for the shoulders and hams.",
+   "rel": "part"
+  },
+  {
+   "to": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "the Carolinas' other stew; Midway cooks a chicken stew of its own by the hundred gallons.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "chopped barbecue chicken is on the daily menu.",
+   "rel": "serves"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "the Upstate's other old name, forty miles west in Greenville, where the hash is pork.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded Jay Allen here in June 2012.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Jay Allen here on June 12, 2012.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-sfa-midway-bbq",
+   "kind": "web",
+   "title": "Midway BBQ — Jay Allen, interviewed by Rien Fertel, June 12, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/midway-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-oral-histories",
+   "kind": "oral-history",
+   "title": "Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina)",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "note": "interviews with pitmasters and owners; cite the individual interview page in the record's links"
+  },
+  {
+   "id": "s:web-midway-bbq-home",
+   "kind": "web",
+   "title": "Midway BBQ — official site",
+   "publisher": "Midway BBQ, Buffalo",
+   "url": "https://midway-bbq.com/bbq-restaurant/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-hash-stew",
+   "kind": "wikipedia",
+   "title": "Hash (stew) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hash_(stew)",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1334401453"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-sfa-midway-bbq"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-sfa-midway-bbq"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-sfa-midway-bbq"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-midway-bbq-home"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-sc",
+   "note": "True 'Cue certified. The SFA page calls the barbecue hickory-smoked without describing the cooker.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-sfa-midway-bbq",
+   "note": "Hash of beef, butter, onion, salt and pepper in three hundred-gallon pots, over rice and by the quart; it outsells the barbecue three or four to one.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Midway BBQ, Buffalo",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  },
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "https://www.southernfoodways.org/interview/midway-bbq/",
+   "year": 2012,
+   "source": "s:web-sfa-midway-bbq"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "Buffalo, Union County, since about 1941: the last of the county's fifty hash houses, cooking shoulders and hams over hickory.",
+   "rel": "place"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the upper-Midlands hash house whose chopped pork comes in its house sauce.",
+   "rel": "served-at"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the Upstate's hash, in Buffalo.",
+   "rel": "served-at"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "the Upstate's other old name, forty miles east in Union County, where the hash is beef.",
+   "rel": "kin"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Jay Allen there on June 12, 2012.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  }
+ ]
+}

@@ -1,0 +1,876 @@
+{
+ "schema": 1,
+ "id": "pork-shoulder",
+ "type": "pit",
+ "names": {
+  "name": "pork shoulder",
+  "aliases": [
+   "shoulder",
+   "Boston butt",
+   "butt",
+   "pork butt",
+   "picnic",
+   "picnic shoulder",
+   "picnic ham"
+  ],
+  "said": "Lexington menus say 'pork shoulders'; 'butt' means the upper shoulder, not the rear of the animal."
+ },
+ "etymology": {
+  "root": "Boston + butt, a barrel: in colonial and Revolutionary-era New England butchers stored and shipped this shoulder cut in barrels called butts, and the Boston-area method of cutting it gave the cut its name. Picnic (the lower shoulder): cured on the bone it is a 'picnic ham'; no origin for the name is cited here.",
+  "first_attested": "'Boston butt' in print, 1915, in Hotel Monthly; a 1912 University of Illinois Agricultural Experiment Station bulletin records the barrels still in use for export to Germany and Denmark",
+  "note": "Folk: that the butt is the animal's hindquarter. It is not; the cut is the upper shoulder, above the picnic, and may contain the blade bone.",
+  "tier": "cited",
+  "source": "s:wp-boston-butt"
+ },
+ "region": [
+  "nc-piedmont",
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "cut"
+ },
+ "text": {
+  "what": "The front leg and shoulder of the pig, sold as one primal — a primal being one of the large first divisions of a carcass — or split in two: the butt, the upper half with the blade bone, and the picnic, the lower arm half, which cured on the bone is a 'picnic ham'. The butt's name is a barrel, not an anatomy. In the North Carolina Piedmont, shoulder is the only cut that counts as barbecue: Lexington pits salt it, lay it over oak and hickory coals for nine to twelve hours, and serve it chopped, coarse chopped or sliced under a red dip. It is darker meat than the loin and stays moist through a long cook, and it is what packers ship when they will not ship a carcass.",
+  "story": "New England butchers of the colonial and Revolutionary era stored and shipped pork in barrels called butts, and the shoulder cut they packed that way took the name of the port; a 1912 University of Illinois bulletin notes the barrels still going to Germany and Denmark, and 'Boston butt' first appears in print in 1915. In the Carolinas the cut's rise is the whole hog's decline. The Piedmont settled on shoulders early — *Tradition holds —* because a shoulder fit a small brick pit and a lunch counter's day in a way a carcass did not. By the 1980s the corporate farms replacing independent hog farms shipped butchered shoulders and hams rather than whole pigs, which pushed restaurants elsewhere the same way. Mallard Creek Presbyterian Church in Charlotte, which began in 1929 by cooking three or four pigs and a goat, told Our State in 2016: 'Now we just use the butt.' South Carolina hash, once made from heads and liver, is now mostly made from leftover shoulder.",
+  "how": "Lexington pits cook shoulders only, salted but not basted or marinated, on racks over oak and hickory coals for nine to twelve hours at about 200 to 225 degrees; the Barbecue Center puts three hundred a week through its pit. Elsewhere a butt is rubbed, smoked until it reaches 195 to 205 degrees inside, and shredded. Off the pit the Piedmont serves it three ways — chopped fine, coarse chopped in small chunks, or sliced; never pulled, at Lexington Barbecue — and dresses it with dip. *Tradition holds —* the crusted outer meat is sold apart as outside brown.",
+  "today": "Shoulder is the cut of the Piedmont's pits — Lexington Barbecue, the Barbecue Center, Stamey's, Red Bridges, Short Sugar's — and of most new restaurants in both states, because it arrives boxed from the packer; a pulled-pork menu anywhere in the country means this cut. At Lexington Barbecue a chopped tray was $8.00 cash and $8.25 by card in September 2026."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style that uses only this cut, darker and moister than the loin, under a red dip.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the older cut it displaced wherever packers stopped shipping carcasses.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chopping-block",
+   "as": "where it is chopped fine, chopped coarse or sliced.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the closed Piedmont pit a rack of shoulders fits.",
+   "rel": "kin"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "the national name for this cut smoked and shredded; Lexington chops or slices it and does not pull.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the thin vinegar-and-ketchup sauce the Piedmont puts on the chopped shoulder.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "modern South Carolina hash is mostly made from leftover shoulder.",
+   "rel": "kin"
+  },
+  {
+   "to": "mallard-creek-barbecue",
+   "as": "cooked whole pigs in 1929 and pork butts by 2016.",
+   "rel": "event"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "cooks shoulders over oak and hickory coals and serves them chopped, coarse chopped or sliced, never pulled.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "cooks three hundred shoulders a week in a three-chamber brick pit.",
+   "rel": "place"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "founded Lexington Barbecue in 1962 on this cut.",
+   "rel": "person"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "a Greensboro shoulder pit interviewed for the Southern Foodways Alliance's North Carolina project.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "a Shelby shoulder pit on the Historic Barbecue Trail.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "as": "a Reidsville shoulder pit on the Historic Barbecue Trail.",
+   "rel": "place"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pulled-pork",
+   "tell": "'Pulled pork' names a preparation of this cut; on a Lexington menu the same shoulder is 'barbecue', and it comes chopped or sliced."
+  },
+  {
+   "id": "whole-hog",
+   "tell": "Shoulder meat is all dark and has no crisp skin; a whole-hog chop mixes light meat, dark meat and skin."
+  }
+ ],
+ "links": [
+  {
+   "label": "Boston butt — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boston_butt"
+  },
+  {
+   "label": "Lexington Barbecue — menu",
+   "url": "https://www.lexbbq.com/menu/"
+  }
+ ],
+ "sources": [
+  "s:wp-boston-butt",
+  "s:wp-cut-of-pork",
+  "s:wp-pulled-pork",
+  "s:wp-north-carolina-barbecue-society",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-hash-stew",
+  "s:web-leisuregrouptravel-lexington",
+  "s:web-visitnc-lexington-barbecue",
+  "s:web-lexbbq",
+  "s:web-lexbbq-menu",
+  "s:web-ourstate-mallard-creek",
+  "s:web-sfa-north-carolina-bbq",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:wp-lexington-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-boston-butt"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-whole-hog-barbecue",
+    "note": "the Piedmont's reason for choosing shoulders is hedged inline as tradition"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-leisuregrouptravel-lexington",
+    "note": "temperatures and times from the Barbecue Center as reported by Leisure Group Travel and Visit NC; the internal temperature from the pulled pork article; outside brown hedged"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "price as posted on 2026-09-15; restaurant list from the SFA project and the Historic Barbecue Trail"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "pork-shoulder/pork-shoulder-boston-butt-cooked.jpg",
+   "source": "commons",
+   "title": "File:Boston butt, cooked.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_butt%2C_cooked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_butt%2C_cooked.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A boneless Boston butt roast, fully cooked",
+   "date": "2021-02-13 07:41:12",
+   "primary": true,
+   "sha256": "523b7474cc1d0e93eda4022826f27602e4577ac4574bdd22289c5caa642dbf27"
+  },
+  {
+   "file": "pork-shoulder/pork-shoulder-boston-butt.jpg",
+   "source": "commons",
+   "title": "File:Boston butt.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Boston_butt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_butt.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A boneless Boston butt roast",
+   "date": "2021-02-13 02:24:46",
+   "primary": false,
+   "sha256": "f03dc1cba66c7a20462e6e9dea6d315fda897af223195c5a0978ab940a96c04a"
+  },
+  {
+   "file": "pork-shoulder/pork-shoulder-boston-butt-seasoned.jpg",
+   "source": "commons",
+   "title": "File:Boston butt seasoned.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Boston_butt_seasoned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_butt_seasoned.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A seasoned Boston butt roast",
+   "date": "2021-02-13 02:29:58",
+   "primary": false,
+   "sha256": "5fbce9545781a2b2741b2a808d9cb311a162d30f64435c5602a67bcfce2e8d22"
+  },
+  {
+   "file": "pork-shoulder/pork-shoulder-pork-shoulder-picnic-roast.jpg",
+   "source": "commons",
+   "title": "File:Pork Shoulder picnic roast.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Pork_Shoulder_picnic_roast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APork_Shoulder_picnic_roast.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mark Miller",
+   "credit": "Own work",
+   "alt": "A pork shoulder picnic roast, cooked in an oven at 325 degrees for about 4 and 1/2 hours.",
+   "date": "2021-02-07 07:58:37",
+   "primary": false,
+   "sha256": "630d361c7d336ddcb62e662ecffd5a91e7cecfbc4996fbca80d04750a3b8564b"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The front leg and shoulder of the pig, sold as one primal — a primal being one of the large first divisions of a carcass — or split in two: the butt, the upper half with the blade bone, and the picnic, the lower arm…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style that uses only this cut, darker and moister than the loin, under a red dip.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the older cut it displaced wherever packers stopped shipping carcasses.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "where it is chopped fine, chopped coarse or sliced.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the closed Piedmont pit a rack of shoulders fits.",
+   "rel": "kin"
+  },
+  {
+   "to": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the national name for this cut smoked and shredded; Lexington chops or slices it and does not pull.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the thin vinegar-and-ketchup sauce the Piedmont puts on the chopped shoulder.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "modern South Carolina hash is mostly made from leftover shoulder.",
+   "rel": "kin"
+  },
+  {
+   "to": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "cooked whole pigs in 1929 and pork butts by 2016.",
+   "rel": "event"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "cooks shoulders over oak and hickory coals and serves them chopped, coarse chopped or sliced, never pulled.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "cooks three hundred shoulders a week in a three-chamber brick pit.",
+   "rel": "place"
+  },
+  {
+   "to": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "founded Lexington Barbecue in 1962 on this cut.",
+   "rel": "person"
+  },
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "a Greensboro shoulder pit interviewed for the Southern Foodways Alliance's North Carolina project.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "a Shelby shoulder pit on the Historic Barbecue Trail.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "a Reidsville shoulder pit on the Historic Barbecue Trail.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-boston-butt",
+   "kind": "wikipedia",
+   "title": "Boston butt — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boston_butt",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cut-of-pork",
+   "kind": "wikipedia",
+   "title": "Cut of pork — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cut_of_pork",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-pulled-pork",
+   "kind": "wikipedia",
+   "title": "Pulled pork — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pulled_pork",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-north-carolina-barbecue-society",
+   "kind": "wikipedia",
+   "title": "North Carolina Barbecue Society — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/North_Carolina_Barbecue_Society",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-hash-stew",
+   "kind": "wikipedia",
+   "title": "Hash (stew) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hash_(stew)",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1334401453"
+  },
+  {
+   "id": "s:web-leisuregrouptravel-lexington",
+   "kind": "web",
+   "title": "Lexington, North Carolina Barbecue is All About the Pork (Randy Mink)",
+   "publisher": "Leisure Group Travel",
+   "url": "https://leisuregrouptravel.com/pork-paradise-savoring-the-flavors-of-lexington-north-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-visitnc-lexington-barbecue",
+   "kind": "web",
+   "title": "Lexington Barbecue",
+   "publisher": "Visit North Carolina (Economic Development Partnership of North Carolina)",
+   "url": "https://www.visitnc.com/lexington-barbecue",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq",
+   "kind": "web",
+   "title": "Lexington Barbecue — official site",
+   "publisher": "Lexington Barbecue",
+   "url": "https://www.lexbbq.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:web-ourstate-mallard-creek",
+   "kind": "web",
+   "title": "Pork & Politics Merge at Mallard Creek Presbyterian Church (Greg Lacour, February 2016, updated 2018)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/pork-and-politics-merge-at-mallard-creek-presbyterian-church/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-north-carolina-bbq",
+   "kind": "web",
+   "title": "North Carolina BBQ (oral history project, posted April 25, 2011; introduction by John Shelton Reed)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/north-carolina-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-historic-barbecue-trail",
+   "kind": "web",
+   "title": "Running on Full: The North Carolina Historic Barbecue Trail (Bryan Mims, January 29, 2016)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-lexington-barbecue",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-boston-butt"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue",
+   "note": "the Piedmont's reason for choosing shoulders is hedged inline as tradition"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-leisuregrouptravel-lexington",
+   "note": "temperatures and times from the Barbecue Center as reported by Leisure Group Travel and Visit NC; the internal temperature from the pulled pork article; outside brown hedged"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu",
+   "note": "price as posted on 2026-09-15; restaurant list from the SFA project and the Historic Barbecue Trail"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-boston-butt"
+  }
+ },
+ "primary_image": {
+  "file": "pork-shoulder/pork-shoulder-boston-butt-cooked.jpg",
+  "source": "commons",
+  "title": "File:Boston butt, cooked.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_butt%2C_cooked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABoston_butt%2C_cooked.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Mark Miller",
+  "credit": "Own work",
+  "alt": "A boneless Boston butt roast, fully cooked",
+  "date": "2021-02-13 07:41:12",
+  "primary": true,
+  "sha256": "523b7474cc1d0e93eda4022826f27602e4577ac4574bdd22289c5caa642dbf27"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the only cut it cooks; the darker, fattier meat of the shoulder is what the style is built on.",
+   "rel": "part"
+  },
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "the cut — pork butts twelve hours over hickory at Henry's.",
+   "rel": "part"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the cut, with hams, at Bessinger's in Charleston and at Maurice's, where hams cook sixteen hours over hickory.",
+   "rel": "part"
+  },
+  {
+   "from": "bone-suckin-sauce",
+   "type": "sauce",
+   "name": "Bone Suckin' Sauce",
+   "as": "what a thick sweet sauce is brushed on at the end of a cook.",
+   "rel": "serves"
+  },
+  {
+   "from": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "on pork butts at Henry's after twelve hours over hickory.",
+   "rel": "serves"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "what it is basted on through a ten-hour cook and chopped into at the block.",
+   "rel": "serves"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the Piedmont filling.",
+   "rel": "part"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the cut in a Lexington tray.",
+   "rel": "part"
+  },
+  {
+   "from": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the cut whose outside it is.",
+   "rel": "part"
+  },
+  {
+   "from": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the cut sized to its rack.",
+   "rel": "part"
+  },
+  {
+   "from": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "chopped fine, chopped coarse or sliced on the same block.",
+   "rel": "kin"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the Piedmont's cut, over the same coals in a brick pit.",
+   "rel": "kin"
+  },
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut that replaced it in the Piedmont and at most new restaurants, because packers ship shoulders, not carcasses.",
+   "rel": "contrast"
+  },
+  {
+   "from": "12-bones-smokehouse",
+   "type": "place",
+   "name": "12 Bones Smokehouse",
+   "as": "the cut behind its pulled pork, beside the ribs it is better known for.",
+   "rel": "part"
+  },
+  {
+   "from": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "sixteen pounds going in, nine to eleven coming out.",
+   "rel": "part"
+  },
+  {
+   "from": "alston-bridges-barbecue",
+   "type": "place",
+   "name": "Alston Bridges Barbecue",
+   "as": "the cut — about fifty short-shank shoulders a day.",
+   "rel": "part"
+  },
+  {
+   "from": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "the cut, over hickory.",
+   "rel": "part"
+  },
+  {
+   "from": "big-t-bar-b-q",
+   "type": "place",
+   "name": "Big T Bar-B-Q",
+   "as": "the cut: shoulders over shovelled coals, not whole hogs.",
+   "rel": "part"
+  },
+  {
+   "from": "bobbee-os-bbq",
+   "type": "place",
+   "name": "Bobbee O's BBQ",
+   "as": "the cut behind its pulled pork; there is no whole hog on the board.",
+   "rel": "part"
+  },
+  {
+   "from": "bobbys-bbq",
+   "type": "place",
+   "name": "Bobby's BBQ",
+   "as": "the cut behind its pulled pork, beside a Texas board of brisket and sausage.",
+   "rel": "part"
+  },
+  {
+   "from": "carolina-bar-b-que",
+   "type": "place",
+   "name": "Carolina Bar-B-Que",
+   "as": "the cut — shoulders only, and no ribs.",
+   "rel": "part"
+  },
+  {
+   "from": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "as": "the cut, hand-trimmed, cooked upstairs.",
+   "rel": "part"
+  },
+  {
+   "from": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "the cut.",
+   "rel": "part"
+  },
+  {
+   "from": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "chopped shoulder and ham, not the whole hog, at the Whitman Street house.",
+   "rel": "part"
+  },
+  {
+   "from": "fuzzys-bar-b-q",
+   "type": "place",
+   "name": "Fuzzy's Bar-B-Q",
+   "as": "the cut — shoulders only, as the Piedmont houses cook them.",
+   "rel": "part"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "pork butts — the upper shoulder — twelve hours over hickory.",
+   "rel": "part"
+  },
+  {
+   "from": "hurseys-bar-b-q",
+   "type": "place",
+   "name": "Hursey's Bar-B-Q",
+   "as": "the cut, 1,200 a week and more.",
+   "rel": "part"
+  },
+  {
+   "from": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the cut, half a day over coals.",
+   "rel": "part"
+  },
+  {
+   "from": "luellas-bar-b-que",
+   "type": "place",
+   "name": "Luella's Bar-B-Que",
+   "as": "the cut behind its chopped pork: butts rather than whole hog.",
+   "rel": "part"
+  },
+  {
+   "from": "melvins-legendary-bar-b-que",
+   "type": "place",
+   "name": "Melvin's Legendary Bar-B-Que",
+   "as": "the cut — shoulders, twenty-four hours over hickory, not whole hog.",
+   "rel": "part"
+  },
+  {
+   "from": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "shoulder and ham, hickory-smoked and chopped, are the barbecue.",
+   "rel": "part"
+  },
+  {
+   "from": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "the cut, seven to eight hours a side.",
+   "rel": "part"
+  },
+  {
+   "from": "shealys-bar-b-que",
+   "type": "place",
+   "name": "Shealy's Bar-B-Que",
+   "as": "the cut: shoulders by the thousand each week, smoked and chopped, not whole hogs.",
+   "rel": "part"
+  },
+  {
+   "from": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "for the chopped; hams were for the sliced.",
+   "rel": "part"
+  },
+  {
+   "from": "shulers-bar-b-que",
+   "type": "place",
+   "name": "Shuler's Bar-B-Que",
+   "as": "the cut the sources describe; no whole hog is claimed here.",
+   "rel": "part"
+  },
+  {
+   "from": "speedy-lohrs-barbecue",
+   "type": "place",
+   "name": "Speedy Lohr's Barbecue",
+   "as": "the cut of the Piedmont houses, chopped from the pit.",
+   "rel": "part"
+  },
+  {
+   "from": "speedys-barbecue",
+   "type": "place",
+   "name": "Speedy's Barbecue",
+   "as": "the cut — a short shank shoulder, bought from a Gastonia distributor.",
+   "rel": "part"
+  },
+  {
+   "from": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the cut, fifteen pounds, eight to ten hours.",
+   "rel": "part"
+  },
+  {
+   "from": "stephensons-bar-b-q",
+   "type": "place",
+   "name": "Stephenson's Bar-B-Q",
+   "as": "the cut since the switch from whole hog, made for leaner meat.",
+   "rel": "part"
+  },
+  {
+   "from": "tarheel-q",
+   "type": "place",
+   "name": "Tarheel Q",
+   "as": "the cut, as every Lexington-style house cooks it.",
+   "rel": "part"
+  },
+  {
+   "from": "true-bbq",
+   "type": "place",
+   "name": "True BBQ",
+   "as": "the cut behind its pulled pork; no whole hog is described in any source read.",
+   "rel": "part"
+  },
+  {
+   "from": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "the cut he took from the tents to Shelby: shoulders over hickory coals.",
+   "rel": "part"
+  },
+  {
+   "from": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "the cut he has cooked since 1962, over oak and hickory coals.",
+   "rel": "part"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "the butts that replaced the pig at many sales.",
+   "rel": "part"
+  },
+  {
+   "from": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the cut: 3,000 pounds the first year, 11,000 by 1994.",
+   "rel": "part"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "the cut by 2016 — 'now we just use the butt' — after decades of whole hogs.",
+   "rel": "part"
+  },
+  {
+   "from": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "the modern rally's meat, by the butt.",
+   "rel": "part"
+  },
+  {
+   "from": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the cut that can also be sliced; Lexington's chopped and sliced come from the same shoulder.",
+   "rel": "part"
+  },
+  {
+   "from": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the cut the dip is made for, basted with it on the pit and dressed with it on the block.",
+   "rel": "serves"
+  },
+  {
+   "from": "hog",
+   "type": "term",
+   "name": "hog",
+   "as": "the cut the Piedmont takes instead of the hog.",
+   "rel": "contrast"
+  },
+  {
+   "from": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the Piedmont's cut; the coastal plain cooks the whole hog.",
+   "rel": "part"
+  },
+  {
+   "from": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the cut the phrase assumes: almost always a shoulder, and the upper half of it is the Boston butt.",
+   "rel": "part"
+  }
+ ]
+}

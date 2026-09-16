@@ -1,0 +1,640 @@
+{
+ "schema": 1,
+ "id": "maurices-piggie-park",
+ "type": "place",
+ "names": {
+  "name": "Maurice's Piggie Park BBQ",
+  "aliases": [
+   "Maurice's Piggie Park",
+   "Maurice's BBQ",
+   "Maurice's Gourmet Barbeque",
+   "Piggie Park",
+   "Maurice's"
+  ],
+  "sort": "Maurice's Piggie Park"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1953",
+  "fuel": "wood",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "A chain of eight barbecue restaurants around Columbia run from the original drive-in at 1600 Charleston Highway, West Columbia, where Maurice Bessinger and his brother Joe Jr. opened in 1953. Pork hams cook twenty-four hours over hickory coals at the West Columbia pits and go out daily to the 'Pit-Stop' locations; the meat is served chopped, in sandwiches and plates, with the yellow mustard sauce the company bottles as Southern Gold — sold for decades as Carolina Gold. Maurice's sons Lloyd and Paul, his daughter Debbie and his grandchildren run it. The name also carries a 1968 Supreme Court case and the flag fight of 2000.",
+  "story": "Joe Bessinger opened his first restaurant in Holly Hill in 1939 with a mustard sauce of his own. His son Maurice, born in Orangeburg County in 1930, came home from the Korean War in 1952 and with his brother Joe Jr. opened Maurice's Piggie Park, a drive-in, in West Columbia in 1953; by 1964 there were four. That year Anne Newman, the wife of a Black minister, was refused entry, and Matthew J. Perry filed a class action under Title II of the Civil Rights Act of 1964; Bessinger answered that his religion compelled him to oppose integration. The district court held the Act reached his sandwich shop but not the drive-ins; the Fourth Circuit reversed; and in Newman v. Piggie Park Enterprises, 390 U.S. 400 (1968), the Supreme Court held 8–0 that a plaintiff who wins such an injunction ordinarily recovers attorney's fees. Bessinger ran for the legislature in 1964 and for governor in 1974; by 1999 his was the largest barbecue business in the country, with Carolina Gold in some 3,000 groceries. On July 1, 2000, the day the Confederate flag came off the State House dome, he raised it over his restaurants. Bi-Lo, Food Lion, Harris Teeter, Kroger, Piggly Wiggly, Publix, Sam's Club, Wal-Mart and Winn-Dixie dropped the sauce; he sued them for $50 million and lost at the state Supreme Court in 2007. His brothers' Charleston restaurants were reported as independent concerns, 'sans the politics'. His children took the company, took the last flags down in 2013, and sell the sauce as Southern Gold. Maurice died on February 22, 2014. On October 26, 2024 a three-alarm fire destroyed the pits, kitchen and offices beside the West Columbia restaurant; the restaurant and its sign survived, three locations reopened within a week on rented smokers, and Lloyd Bessinger said: 'we want to be positive, we want to help people.'",
+  "how": "Pork hams — not whole hogs — cook twenty-four hours over hickory wood coals at the original West Columbia pits, the company says, and the barbecue is delivered daily to the other locations, the 'Pit-Stops' where customers drive in. The meat is chopped for sandwiches and plates and dressed with the family's yellow mustard sauce, whose bottled recipe lists mustard, brown sugar, soy sauce and vinegar. The company sells the sauce by the bottle, the half gallon and the gift box.",
+  "today": "Open: eight locations — West Columbia (Charleston Highway), Irmo, downtown Columbia on Elmwood Avenue, Devine Street, Clemson Road, O'Neil Court and two in Lexington — per the company's site on September 15, 2026. The West Columbia restaurant reopened within a week of the October 2024 fire; the pit house and offices behind it are being rebuilt."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "the style it made national: the Midlands mustard sauce, bottled and shipped.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "its Southern Gold, formerly Carolina Gold — the bottled mustard sauce of the 1990s supermarkets.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the name it sold the sauce under until the family renamed it Southern Gold.",
+   "rel": "term"
+  },
+  {
+   "to": "maurice-bessinger",
+   "as": "its founder, 1953 to his death in 2014, and the reason the name carries a court case and a flag.",
+   "rel": "person"
+  },
+  {
+   "to": "joe-bessinger",
+   "as": "Maurice's father, whose 1939 Holly Hill sauce is the recipe on the label.",
+   "rel": "person"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "the Charleston brothers' house: the same sauce lineage, a separate business.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory coals under the hams, twenty-four hours, at the West Columbia pits.",
+   "rel": "part"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "its founder stood for the legislature in 1964 and for governor in 1974, and flew the Confederate flag over the restaurants from 2000 to 2013.",
+   "rel": "event"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "the other Orangeburg County mustard family; the Dukes stayed on the buffet line while the Bessingers bottled.",
+   "rel": "kin"
+  },
+  {
+   "to": "hites-bar-b-q",
+   "as": "the other West Columbia mustard house — a two-day farm stand beside this chain.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "bessingers-bar-b-q",
+   "tell": "Both are Bessinger houses with Joe's mustard sauce. Maurice's is the West Columbia chain from 1953, with the court case and the flags; Bessinger's is Thomas Bessinger's Charleston house from 1960, run separately."
+  }
+ ],
+ "geo": {
+  "lat": 33.97086,
+  "lon": -81.077535,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap) geocode of 1600 Charleston Hwy, 2026-09-15"
+ },
+ "address": {
+  "street": "1600 Charleston Hwy",
+  "city": "West Columbia",
+  "county": "Lexington",
+  "state": "SC",
+  "postcode": "29169"
+ },
+ "links": [
+  {
+   "label": "Maurice's Piggie Park BBQ — official",
+   "url": "https://www.piggiepark.com/"
+  },
+  {
+   "label": "Maurice Bessinger — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger"
+  },
+  {
+   "label": "Newman v. Piggie Park Enterprises, Inc. — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Newman_v._Piggie_Park_Enterprises,_Inc."
+  }
+ ],
+ "sources": [
+  "s:wp-maurice-bessinger",
+  "s:wp-newman-v-piggie-park-enterprises-inc",
+  "s:wp-barbecue-in-south-carolina",
+  "s:web-piggiepark-history",
+  "s:web-piggiepark-home",
+  "s:web-wis-maurices-fire-2024",
+  "s:web-abc4-maurices-reopens-2024",
+  "s:web-abc4-maurices-rebuild-2024",
+  "s:web-baltimore-sun-bessinger-2002",
+  "s:web-seattle-times-piggie-park-2002",
+  "s:osm",
+  "s:web-destination-bbq-hash-map",
+  "s:web-truecue-sc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-maurice-bessinger",
+    "note": "the case from the Newman article; the 3,000 groceries and the brothers 'sans the politics' from the Baltimore Sun and Seattle Times (2002); the fire and the quotes from WIS and ABC News 4 (Oct–Nov 2024); the children and Southern Gold from the company's history page"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-history",
+    "note": "the sauce ingredients are Wikipedia's account of the bottled recipe"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-home"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the harvest holds five Maurice's rows but none carries the West Columbia address; Nominatim geocode of 1600 Charleston Hwy"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-home",
+    "note": "the site names the location 'West Columbia – Charleston Hwy'; the house number is the address given in the 2024 fire coverage of 1600 Charleston Highway"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-history",
+    "note": "The company's history names Maurice Bessinger's daughter Debbie among those who 'carry on the family's BBQ heritage'. That is not a statement of ownership, so no woman-owned tag is set."
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [
+  {
+   "file": "maurices-piggie-park/maurices-piggie-park-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg",
+   "source": "commons",
+   "title": "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709630.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709630\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07539a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07539",
+   "alt": "Title: Bessinger's Bar-B-Q sign, West Columbia, South Carolina\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside America p",
+   "date": "1988",
+   "primary": true,
+   "sha256": "18f1715ba3c3adfd21d20e881b1390c505ccdd63d9cb506e2c1bd735cba379bb"
+  },
+  {
+   "file": "maurices-piggie-park/maurices-piggie-park-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-897b1ae.jpg",
+   "source": "commons",
+   "title": "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709631.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709631.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709631.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709631\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07540a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07540",
+   "alt": "Title: Bessinger's Bar-B-Q sign, West Columbia, South Carolina\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside America p",
+   "date": "1988",
+   "primary": false,
+   "sha256": "6cd163d44487ad6093502671731c7b74bc04bf4e5bb87821e7c26820c60a8098"
+  },
+  {
+   "file": "maurices-piggie-park/maurices-piggie-park-plate-of-food-at-maurice-s-gourmet-bbq.jpg",
+   "source": "commons",
+   "title": "File:Plate of food at Maurice's Gourmet BBQ.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Plate_of_food_at_Maurice%27s_Gourmet_BBQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APlate_of_food_at_Maurice%27s_Gourmet_BBQ.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Nathan Cardozo",
+   "credit": "https://www.flickr.com/photos/natecardozo/2829098096/",
+   "alt": "A plate of South Carolina-style barbecue at Maurice's Gourmet BBQ. It includes a pulled pork sandwich, hushpuppies, potato wedges, and hash. A side of coleslaw is in a cup.",
+   "date": "2008-08-28 10:04:55",
+   "primary": false,
+   "sha256": "226de8894a41fdcaff3dfc0ac92c97a32b0e0df71a90f55ae068ef53fdf233b8"
+  }
+ ],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-piggiepark-history",
+   "tier": "cited",
+   "note": "The company's own history: 'They still pit-cook each pork ham for 24 hours over hickory wood coals.' All the barbecue is cooked at the West Columbia pits and delivered daily to the Pit-Stops."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-hash-map",
+   "tier": "harvested",
+   "note": "Seven Maurice's houses carry hash on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-piggiepark-history",
+   "tier": "cited",
+   "note": "The company's own history: 'Today Maurice's sons Lloyd and Paul, his daughter Debbie and his grandchildren carry on the family's BBQ heritage.' The page does not use the word owner."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Maurices' Piggie Park BBQ, as the list prints it, at multiple locations",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  }
+ ],
+ "blurb": "A chain of eight barbecue restaurants around Columbia run from the original drive-in at 1600 Charleston Highway, West Columbia, where Maurice Bessinger and his brother Joe Jr. opened in 1953.",
+ "region_terms": [
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the style it made national: the Midlands mustard sauce, bottled and shipped.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "its Southern Gold, formerly Carolina Gold — the bottled mustard sauce of the 1990s supermarkets.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "the name it sold the sauce under until the family renamed it Southern Gold.",
+   "rel": "term"
+  },
+  {
+   "to": "maurice-bessinger",
+   "type": "person",
+   "name": "Maurice Bessinger",
+   "as": "its founder, 1953 to his death in 2014, and the reason the name carries a court case and a flag.",
+   "rel": "person"
+  },
+  {
+   "to": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "as": "Maurice's father, whose 1939 Holly Hill sauce is the recipe on the label.",
+   "rel": "person"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "the Charleston brothers' house: the same sauce lineage, a separate business.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "hickory coals under the hams, twenty-four hours, at the West Columbia pits.",
+   "rel": "part"
+  },
+  {
+   "to": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "its founder stood for the legislature in 1964 and for governor in 1974, and flew the Confederate flag over the restaurants from 2000 to 2013.",
+   "rel": "event"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "the other Orangeburg County mustard family; the Dukes stayed on the buffet line while the Bessingers bottled.",
+   "rel": "kin"
+  },
+  {
+   "to": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "as": "the other West Columbia mustard house — a two-day farm stand beside this chain.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-maurice-bessinger",
+   "kind": "wikipedia",
+   "title": "Maurice Bessinger — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-newman-v-piggie-park-enterprises-inc",
+   "kind": "wikipedia",
+   "title": "Newman v. Piggie Park Enterprises, Inc. — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Newman_v._Piggie_Park_Enterprises,_Inc.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-piggiepark-history",
+   "kind": "web",
+   "title": "Uncover Our Rich History — Maurice's Piggie Park BBQ",
+   "publisher": "Maurice's Piggie Park (official site)",
+   "url": "https://www.piggiepark.com/our-story/history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-piggiepark-home",
+   "kind": "web",
+   "title": "Maurice's Piggie Park BBQ — locations",
+   "publisher": "Maurice's Piggie Park (official site)",
+   "url": "https://www.piggiepark.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wis-maurices-fire-2024",
+   "kind": "web",
+   "title": "Maurice's Piggie Park continues to serve hungry customers week after fire takes out BBQ operations center (November 3, 2024)",
+   "publisher": "WIS-TV, Columbia",
+   "url": "https://www.wistv.com/2024/11/03/maurices-piggie-park-continues-serve-hungry-customers-week-after-fire-takes-out-operations-center/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-abc4-maurices-reopens-2024",
+   "kind": "web",
+   "title": "Maurice's Piggie Park reopens main location after fire (November 2, 2024)",
+   "publisher": "ABC News 4 (WCIV), Charleston",
+   "url": "https://abcnews4.com/news/local/maurices-piggie-park-reopens-main-location-after-firemauricespiggieparklloydbessinger",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-abc4-maurices-rebuild-2024",
+   "kind": "web",
+   "title": "Owner of Maurice's BBQ determined to rebuild and move past family's controversial history (October 29, 2024)",
+   "publisher": "ABC News 4 (WCIV), Charleston",
+   "url": "https://abcnews4.com/news/local/owner-of-maurices-bbq-determined-to-rebuild-and-move-past-familys-controversial-history",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-baltimore-sun-bessinger-2002",
+   "kind": "web",
+   "title": "S.C. barbecue king stands his ground (September 22, 2002)",
+   "publisher": "The Baltimore Sun",
+   "url": "https://www.baltimoresun.com/2002/09/22/sc-barbecue-king-stands-his-ground/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-seattle-times-piggie-park-2002",
+   "kind": "web",
+   "title": "Confederate flag still flies over Piggie Park — Ariel Sabar (October 5, 2002)",
+   "publisher": "The Seattle Times",
+   "url": "https://archive.seattletimes.com/archive/20021005/carolina05/confederate-flag-still-flies-over-piggie-park",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-destination-bbq-hash-map",
+   "kind": "web",
+   "title": "The South Carolina BBQ Hash Map",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/",
+   "accessed": "2026-09-16",
+   "note": "147 South Carolina places named as serving hash; harvested to data/harvest/sc-hash-list.json. Hash is not a wood claim."
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger",
+   "note": "the case from the Newman article; the 3,000 groceries and the brothers 'sans the politics' from the Baltimore Sun and Seattle Times (2002); the fire and the quotes from WIS and ABC News 4 (Oct–Nov 2024); the children and Southern Gold from the company's history page"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-piggiepark-history",
+   "note": "the sauce ingredients are Wikipedia's account of the bottled recipe"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-piggiepark-home"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "the harvest holds five Maurice's rows but none carries the West Columbia address; Nominatim geocode of 1600 Charleston Hwy"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-piggiepark-home",
+   "note": "the site names the location 'West Columbia – Charleston Hwy'; the house number is the address given in the 2024 fire coverage of 1600 Charleston Highway"
+  }
+ },
+ "primary_image": {
+  "file": "maurices-piggie-park/maurices-piggie-park-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg",
+  "source": "commons",
+  "title": "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709630.tif",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "John Margolies",
+  "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709630\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07539a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07539",
+  "alt": "Title: Bessinger's Bar-B-Q sign, West Columbia, South Carolina\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside America p",
+  "date": "1988",
+  "primary": true,
+  "sha256": "18f1715ba3c3adfd21d20e881b1390c505ccdd63d9cb506e2c1bd735cba379bb"
+ },
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-piggiepark-history",
+   "note": "The company's own history: 'They still pit-cook each pork ham for 24 hours over hickory wood coals.' All the barbecue is cooked at the West Columbia pits and delivered daily to the Pit-Stops.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-hash-map",
+   "note": "Seven Maurice's houses carry hash on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "tier": "harvested",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-piggiepark-history",
+   "note": "The company's own history: 'Today Maurice's sons Lloyd and Paul, his daughter Debbie and his grandchildren carry on the family's BBQ heritage.' The page does not use the word owner.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Maurices' Piggie Park BBQ, as the list prints it, at multiple locations",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "West Columbia, since 1953: hams over hickory, chopped and coated with the sauce the family now bottles as Southern Gold.",
+   "rel": "place"
+  },
+  {
+   "from": "maurices-southern-gold",
+   "type": "sauce",
+   "name": "Maurice's Southern Gold",
+   "as": "the West Columbia drive-in it is made for and named after.",
+   "rel": "served-at"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "where chopped hickory-cooked ham is coated with it, now labelled Southern Gold.",
+   "rel": "served-at"
+  },
+  {
+   "from": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "the West Columbia chain of the same family and sauce; a separate business.",
+   "rel": "kin"
+  },
+  {
+   "from": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "the Bessinger chain from the same county; the Dukes stayed on the buffet line.",
+   "rel": "kin"
+  },
+  {
+   "from": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "as": "the other West Columbia mustard house: a chain of eight beside this two-day stand.",
+   "rel": "kin"
+  },
+  {
+   "from": "melvins-legendary-bar-b-que",
+   "type": "place",
+   "name": "Melvin's Legendary Bar-B-Que",
+   "as": "the Columbia branch of the same family, from the same Holly Hill kitchen.",
+   "rel": "kin"
+  },
+  {
+   "from": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "as": "the West Columbia chain of his sons Maurice and Joe Jr., from 1953; his recipe is on its label.",
+   "rel": "descendant"
+  },
+  {
+   "from": "maurice-bessinger",
+   "type": "person",
+   "name": "Maurice Bessinger",
+   "as": "the drive-in he opened in 1953 and ran until his death in 2014.",
+   "rel": "place"
+  },
+  {
+   "from": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "the West Columbia drive-in, opened 1953, the brand's home.",
+   "rel": "place"
+  },
+  {
+   "from": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "as": "the Midlands' best-known mustard-sauce pit, in West Columbia, a few miles from the Fork.",
+   "rel": "place"
+  },
+  {
+   "from": "cannibal-pig-sign",
+   "type": "art",
+   "name": "the pig that serves itself",
+   "as": "whose West Columbia sign carries Little Joe, the best-documented Carolina example.",
+   "rel": "place"
+  },
+  {
+   "from": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "Little Joe's home pit at West Columbia, and the sign that survived the 2024 fire.",
+   "rel": "place"
+  },
+  {
+   "from": "roadside-barbecue-signs",
+   "type": "art",
+   "name": "roadside barbecue signs",
+   "as": "West Columbia, the Carolina sign Margolies stopped for twice.",
+   "rel": "place"
+  }
+ ]
+}

@@ -1,0 +1,850 @@
+{
+ "schema": 1,
+ "id": "barbecue-tray",
+ "type": "dish",
+ "names": {
+  "name": "barbecue tray",
+  "aliases": [
+   "tray",
+   "barbecue plate",
+   "plate",
+   "large tray",
+   "chopped tray",
+   "sliced tray",
+   "coarse chopped tray"
+  ],
+  "said": "In Lexington you order a tray, chopped, coarse chopped or sliced; in the east you say plate or tray and the counter knows what comes with it."
+ },
+ "region": [
+  "carolinas",
+  "nc-piedmont",
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "course": "main",
+  "meat": [
+   "shoulder",
+   "whole hog"
+  ],
+  "styles": [
+   "lexington",
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "The unit of ordering at a Carolina barbecue counter: a paper boat or a plate with the chopped pork on one side and slaw on the other, and no bun. In Lexington the meat is pork shoulder and the order names the cut — chopped, coarse chopped (small chunks) or sliced — and the size, tray or large tray; in the east it is whole hog, and the tray or plate carries white slaw with cornbread, a corn stick or hushpuppies. A plate adds french fries and a choice of hushpuppies or rolls. A sandwich is the same meat and slaw on a bun.",
+  "story": "The tray is a counter word. At Melton's in Rocky Mount, the first sit-down barbecue restaurant in the state, a plate of barbecue with boiled potatoes cost 45 cents in 1929 and a sandwich 15 cents; the plate was the eastern form from the start. In Lexington the vocabulary grew around the shoulder. A regular quoted in Carolina Country in 2018 counted ten ways to order — coarse chopped, fine chopped, chopped, chopped brown, sliced — each dressed with the house dip, and the hushpuppies 'round, thin, fat, oblong, dense or light'. Regulars keep the order light, a paper tray with nothing but pork and slaw; the plate with fries is for visitors and big appetites. *Tradition holds —* the tray began as the cheapest way to sell barbecue from a tent or a curb-service window, and the cardboard boat is still the vessel at Lexington Barbecue and the Barbecue Center. In the east the whole hog gives the counter another set of choices: some pits chop the whole pig together, others let the customer ask for white meat, dark meat, or the 'middlin' from the belly, and Jane and Michael Stern wrote that the sound of the cleavers on the block is one of the pleasures of a Carolina whole-hog house.",
+  "how": "The order names the cut first, then the form. Lexington Barbecue lists chopped, sliced and coarse chop trays in two sizes; the Barbecue Center fills a plate with two sides and hushpuppies or a potato bun. The meat is dressed on the block — with dip in the Piedmont, with the vinegar-pepper sauce in the east — and more comes in a cup on the side. Slaw goes beside the meat, not under it. At Skylight Inn the tray is barbecue, slaw and a square of cornbread; at B's in Greenville a plate is pork, slaw, potatoes, green beans and corn sticks; at Sam Jones BBQ the family tray is pork, cornbread and one side.",
+  "today": "At Lexington Barbecue in September 2026 a chopped tray is $8.00 cash, a large chopped tray $13.40 and a chopped plate $13.40; sliced and coarse chop run a little more. At the Barbecue Center a small chopped tray is $9.00, a large $12.00 and a chopped plate $13.00. B's Barbecue's dinner was $7.75 in January 2016."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style whose counter vocabulary this is: chopped, coarse chopped, sliced, brown, in a tray with red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the other home of the form: whole hog on a tray or plate with white slaw and cornbread.",
+   "rel": "whole"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the slaw in the other half of a Lexington tray.",
+   "rel": "part"
+  },
+  {
+   "to": "white-slaw",
+   "as": "the slaw in the other half of an eastern tray.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the bread of the Piedmont tray, or rolls; in the east a third of the pits give corn sticks instead.",
+   "rel": "part"
+  },
+  {
+   "to": "cornbread",
+   "as": "the bread of the eastern tray at Skylight Inn and at the corn-stick houses.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "the same meat and slaw on a bun; the tray is the sandwich without the bread.",
+   "rel": "contrast"
+  },
+  {
+   "to": "outside-brown",
+   "as": "the word that changes the meat in a Lexington tray: extra crust from the outside of the shoulder.",
+   "rel": "part"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "the eastern plate's other side, at Melton's in 1929 and at B's now.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "what the meat in a Lexington tray is dressed with on the block, with a cup on the side.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "what dresses the meat in an eastern tray.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "the pit whose menu fixes the words: chopped, sliced, coarse chop, tray and large tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "the other Lexington counter, whose plate is two sides and hushpuppies or a potato bun.",
+   "rel": "served-at"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where the eastern tray is pork, slaw and cornbread.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "where a plate is pork, slaw, potatoes, green beans and corn sticks.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "where the family tray is pork, cornbread and one side.",
+   "rel": "served-at"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "where a plate with boiled potatoes cost 45 cents in 1929.",
+   "rel": "served-at"
+  },
+  {
+   "to": "chopped",
+   "as": "the word for the default cut in a tray.",
+   "rel": "term"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut in a Lexington tray.",
+   "rel": "part"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut in an eastern tray.",
+   "rel": "part"
+  },
+  {
+   "to": "chopping-block",
+   "as": "where the tray's meat is cut and dressed before it is boxed.",
+   "rel": "part"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "barbecue-sandwich",
+   "tell": "A sandwich has a bun and the slaw sits on the meat; a tray has no bun, the slaw sits beside the meat, and rolls or hushpuppies come alongside."
+  }
+ ],
+ "links": [
+  {
+   "label": "Lexington Barbecue — menu",
+   "url": "https://www.lexbbq.com/menu/"
+  },
+  {
+   "label": "Our State — 5 stops for barbecue in Lexington",
+   "url": "https://www.ourstate.com/5-stops-for-barbecue-lexington-nc/"
+  }
+ ],
+ "sources": [
+  "s:web-lexbbq-menu",
+  "s:web-bbq-center-menu",
+  "s:web-ourstate-lexington-5-stops",
+  "s:web-carolinacountry-lexington",
+  "s:web-leisuregrouptravel-lexington",
+  "s:wp-meltons-barbecue",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-skylight-inn-bbq",
+  "s:web-ourstate-bs-barbecue",
+  "s:web-samjones-menu",
+  "s:ncpedia-barbecue",
+  "s:reed-holy-smoke",
+  "s:book-kentucky-housewife",
+  "s:book-mrs-hills-new-cook-book",
+  "s:book-virginia-house-wife",
+  "s:book-housekeeping-in-old-virginia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-carolinacountry-lexington",
+    "note": "Melton's prices from its Wikipedia article; the tent-and-curb origin of the tray is marked as tradition inline"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-leisuregrouptravel-lexington",
+    "note": "what each house puts in the tray is from the menus and articles listed"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "prices read from the two Lexington menus on 2026-09-15; B's price from Our State, 2016"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-kentucky-housewife",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "To Barbecue Shoat",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "page": "95–96",
+   "text": "Take either a hind or fore quarter, rub it well with salt, pepper, and a small portion of molasses, and if practicable, let it lie for a few hours; then rinse it clean, and wipe it dry with a cloth, and place it on a large gridiron, over a bed of clear coals. Do not barbecue it hastily, but let it cook slowly for several hours, turning it over occasionally, and basting it with nothing but a little salt-water and pepper, merely to season and moisten it a little. When it is well done, serve it without a garnish, and having the skin taken off, which should be done before it is put down to roast, squeeze over it a little lemon juice, and accompany it with melted butter and wine, bread sauce, raw sallad, slaugh, or cucumbers, and stewed fruit. Beef may be barbecued in the same manner.",
+   "note": "The tray, written down in 1839: the meat cooked slowly over clear coals, mopped with nothing but salt water and pepper, and sent to table with slaugh — slaw — and cucumbers beside it."
+  },
+  {
+   "title": "To Barbecue Any Kind of Fresh Meat (receipt 200)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "page": "145–146",
+   "text": "Gash the meat. Broil slowly over a solid fire. Baste constantly with a sauce composed of butter, mustard, red and black pepper, vinegar. Mix these in a pan, and set it where the sauce will keep warm, not hot. Have a swab made by tying a piece of clean, soft cloth upon a stick about a foot long; dip this in the sauce and baste with it. Where a large carcass is barbecued, it is usual to dig a pit in the ground outdoors, and lay narrow bars of wood across. Very early in the morning fill the pit with wood; set it burning, and in this way heat it very hot. When the wood has burned to coals, lay the meat over. Should the fire need replenishing, keep a fire outside burning, from which draw coals, and scatter evenly in the pit under the meat. Should there be any sauce left pour it over the meat. For barbecuing a joint, a large gridiron answers well; it needs constant attention; should be cooked slowly and steadily.",
+   "note": "The pit and the cloth swab on a foot-long stick, from a Georgia book of 1867. A few characters in this paragraph are damaged in the scan and are read from context; the line 'Gash the meat' runs straight into 'Broil slowly' in the printing."
+  },
+  {
+   "title": "To Barbecue Shote",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "page": "61–62",
+   "text": "This is the name given in the southern states to a fat young hog, which, when the head and feet are taken off, and it is cut into four quarters, will weigh six pounds per quarter. Take a fore quarter, make several incisions between the ribs, and stuff it with rich forcemeat; put it in a pan with a pint of water, two cloves of garlic, pepper, salt, two gills of red wine, and two of mushroom catsup, bake it and thicken the gravy with butter and brown flour; it must be jointed and the ribs cut across before it is cooked, or it cannot be carved well; lay it in the dish with the ribs uppermost; if it be not sufficiently brown, add a little burnt sugar to the gravy, garnish with balls.",
+   "note": "Mrs. Randolph's footnote to the title: 'Shote being a Provincial term, and not a legitimate English word, Mrs. R. has taken the liberty of spelling it in a way that conveys the sound of the pronunciation more clearly than shoad, the usual manner of spelling it.' A shoat is a young hog. This one is baked in a pan rather than cooked over coals — the word 'barbecue' in 1824 still meant the animal and the occasion as much as the fire."
+  },
+  {
+   "title": "To Barbecue Shoat",
+   "source": "s:book-housekeeping-in-old-virginia",
+   "license": "Public domain",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "author": "Marion Cabell Tyree, editor",
+   "book": "Housekeeping in Old Virginia",
+   "page": 132,
+   "text": "Lay the shoat in water till ready for use; if small, it will cook in an hour. Put in the oven with two spoonfuls of water, a piece of lard, and dredge with flour. When ready for use, pour in half a teacup of walnut catsup, and, if not fat, a piece of butter.",
+   "note": "An oven receipt under the barbecue name, in a Virginia book of 1879 — the word had by then loosened away from the fire."
+  }
+ ],
+ "images": [
+  {
+   "file": "barbecue-tray/barbecue-tray-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+   "source": "commons",
+   "title": "File:North Carolina barbecue hushpuppies baked beans red cole slaw.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/North_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANorth_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Jeffery Loo",
+   "credit": "Flickr: North Carolina barbecue, hushpuppies, baked beans, red cole slaw",
+   "alt": "Lexington style North Carolina barbecue served with hushpuppies, baked beans and red cole slaw. Lexington style North Carolina barbecue uses a vinegar and ketchup type sauce, and uses only the pork sh",
+   "date": "Taken on 25 May 2007, 19:44:09",
+   "primary": true,
+   "sha256": "32f345c8a40c307352bda594b256e514c3a03b7a3f0a4eb13f8c56d6bee42329"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The unit of ordering at a Carolina barbecue counter: a paper boat or a plate with the chopped pork on one side and slaw on the other, and no bun.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style whose counter vocabulary this is: chopped, coarse chopped, sliced, brown, in a tray with red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the other home of the form: whole hog on a tray or plate with white slaw and cornbread.",
+   "rel": "whole"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the slaw in the other half of a Lexington tray.",
+   "rel": "part"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the slaw in the other half of an eastern tray.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the bread of the Piedmont tray, or rolls; in the east a third of the pits give corn sticks instead.",
+   "rel": "part"
+  },
+  {
+   "to": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "the bread of the eastern tray at Skylight Inn and at the corn-stick houses.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the same meat and slaw on a bun; the tray is the sandwich without the bread.",
+   "rel": "contrast"
+  },
+  {
+   "to": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the word that changes the meat in a Lexington tray: extra crust from the outside of the shoulder.",
+   "rel": "part"
+  },
+  {
+   "to": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the eastern plate's other side, at Melton's in 1929 and at B's now.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "what the meat in a Lexington tray is dressed with on the block, with a cup on the side.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "what dresses the meat in an eastern tray.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the pit whose menu fixes the words: chopped, sliced, coarse chop, tray and large tray.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "the other Lexington counter, whose plate is two sides and hushpuppies or a potato bun.",
+   "rel": "served-at"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "where the eastern tray is pork, slaw and cornbread.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "as": "where a plate is pork, slaw, potatoes, green beans and corn sticks.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "where the family tray is pork, cornbread and one side.",
+   "rel": "served-at"
+  },
+  {
+   "to": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "where a plate with boiled potatoes cost 45 cents in 1929.",
+   "rel": "served-at"
+  },
+  {
+   "to": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the word for the default cut in a tray.",
+   "rel": "term"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut in a Lexington tray.",
+   "rel": "part"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut in an eastern tray.",
+   "rel": "part"
+  },
+  {
+   "to": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "where the tray's meat is cut and dressed before it is boxed.",
+   "rel": "part"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:web-bbq-center-menu",
+   "kind": "web",
+   "title": "The Barbecue Center — online ordering menu",
+   "publisher": "The Barbecue Center, Lexington NC (via eHungry)",
+   "url": "https://order.ehungry.com/Barbecue-Center-inc/order/barbecuecenternet/main/barbecue-plates/chopped-barbecue-plate",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-lexington-5-stops",
+   "kind": "web",
+   "title": "5 Smoking-Good Stops for Delicious Barbecue in Lexington (Hannah Lee Leidy, 2024-02-14)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/5-stops-for-barbecue-lexington-nc/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-carolinacountry-lexington",
+   "kind": "web",
+   "title": "Lexington: More than Great Barbecue (Renee Gannon, May 2018)",
+   "publisher": "Carolina Country",
+   "url": "https://www.carolinacountry.com/carolina-adventures/lexington-more-than-great-barbecue",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-leisuregrouptravel-lexington",
+   "kind": "web",
+   "title": "Lexington, North Carolina Barbecue is All About the Pork (Randy Mink)",
+   "publisher": "Leisure Group Travel",
+   "url": "https://leisuregrouptravel.com/pork-paradise-savoring-the-flavors-of-lexington-north-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-ourstate-bs-barbecue",
+   "kind": "web",
+   "title": "A Day at B's Barbecue (Jeremy Markovich, 2016-01-26)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-samjones-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Sam Jones BBQ, Winterville and Raleigh NC",
+   "url": "https://www.samjonesbbq.com/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:book-kentucky-housewife",
+   "kind": "book",
+   "title": "The Kentucky Housewife, Containing Nearly Thirteen Hundred Full Receipts",
+   "author": "Mrs. Lettice Bryan",
+   "publisher": "Shepard & Stearns, Cincinnati",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "accessed": "2026-09-16",
+   "license": "Public domain"
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  },
+  {
+   "id": "s:book-virginia-house-wife",
+   "kind": "book",
+   "title": "The Virginia House-Wife, or Methodical Cook",
+   "author": "Mrs. Mary Randolph",
+   "publisher": "Plaskitt & Cugle, Baltimore",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1824, the first cookbook of the American South. Read in the stereotype printing scanned by the Internet Archive as virginiahousewif00rand, whose page numbers are used here; the fourth-edition scan (virginiahousewi00rand, printed about 1830) was read alongside it to settle characters each scan loses."
+  },
+  {
+   "id": "s:book-housekeeping-in-old-virginia",
+   "kind": "book",
+   "title": "Housekeeping in Old Virginia: Containing Contributions from Two Hundred and Fifty Ladies in Virginia and Her Sister States",
+   "author": "Marion Cabell Tyree, editor",
+   "publisher": "John P. Morton and Company, Louisville",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "A contributed cookbook: each receipt is signed with the contributor's initials, which are kept here as printed."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-carolinacountry-lexington",
+   "note": "Melton's prices from its Wikipedia article; the tent-and-curb origin of the tray is marked as tradition inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-leisuregrouptravel-lexington",
+   "note": "what each house puts in the tray is from the menus and articles listed"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu",
+   "note": "prices read from the two Lexington menus on 2026-09-15; B's price from Our State, 2016"
+  }
+ },
+ "primary_image": {
+  "file": "barbecue-tray/barbecue-tray-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+  "source": "commons",
+  "title": "File:North Carolina barbecue hushpuppies baked beans red cole slaw.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/North_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ANorth_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "Jeffery Loo",
+  "credit": "Flickr: North Carolina barbecue, hushpuppies, baked beans, red cole slaw",
+  "alt": "Lexington style North Carolina barbecue served with hushpuppies, baked beans and red cole slaw. Lexington style North Carolina barbecue uses a vinegar and ketchup type sauce, and uses only the pork sh",
+  "date": "Taken on 25 May 2007, 19:44:09",
+  "primary": true,
+  "sha256": "32f345c8a40c307352bda594b256e514c3a03b7a3f0a4eb13f8c56d6bee42329"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the Piedmont order: chopped pork and red slaw, no bread, hushpuppies on the side.",
+   "rel": "serves"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "on the tray at the block and in the bottle beside it.",
+   "rel": "serves"
+  },
+  {
+   "from": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "the bottle on the table beside the tray.",
+   "rel": "serves"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the bottle beside the tray, for more than the block put on.",
+   "rel": "serves"
+  },
+  {
+   "from": "baked-beans",
+   "type": "dish",
+   "name": "baked beans",
+   "as": "a compartment of it, beside the slaw.",
+   "rel": "part"
+  },
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the tray it comes on in place of the pork.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the same meat and slaw without the bun.",
+   "rel": "contrast"
+  },
+  {
+   "from": "blenheim-ginger-ale",
+   "type": "dish",
+   "name": "Blenheim Ginger Ale",
+   "as": "what is set beside the tray in its corner of South Carolina.",
+   "rel": "kin"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "the eastern plate's second side, with slaw, at Melton's in 1929 and at B's now.",
+   "rel": "part"
+  },
+  {
+   "from": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "the plate it comes beside, in a cup.",
+   "rel": "whole"
+  },
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "the green vegetable in a tray or on a buffet plate.",
+   "rel": "part"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "the bread in the eastern tray, a square or a stick beside the slaw.",
+   "rel": "part"
+  },
+  {
+   "from": "fried-okra",
+   "type": "dish",
+   "name": "fried okra",
+   "as": "a scoop of it in the tray.",
+   "rel": "part"
+  },
+  {
+   "from": "green-beans",
+   "type": "dish",
+   "name": "green beans",
+   "as": "the vegetable compartment, where a house keeps one.",
+   "rel": "part"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the handful in the corner of the tray.",
+   "rel": "part"
+  },
+  {
+   "from": "mac-and-cheese",
+   "type": "dish",
+   "name": "mac and cheese",
+   "as": "a square of it in the tray, counted as a vegetable.",
+   "rel": "part"
+  },
+  {
+   "from": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the order it modifies.",
+   "rel": "whole"
+  },
+  {
+   "from": "peach-cobbler",
+   "type": "dish",
+   "name": "peach cobbler",
+   "as": "what comes after it, not with it.",
+   "rel": "kin"
+  },
+  {
+   "from": "pickles",
+   "type": "dish",
+   "name": "pickles",
+   "as": "the sour thing on the tray, against the fat of the meat.",
+   "rel": "part"
+  },
+  {
+   "from": "potato-salad",
+   "type": "dish",
+   "name": "potato salad",
+   "as": "a scoop in the tray, cold against the hot meat.",
+   "rel": "part"
+  },
+  {
+   "from": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "fills the other half of the boat.",
+   "rel": "part"
+  },
+  {
+   "from": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "fills the other side of an eastern tray.",
+   "rel": "part"
+  },
+  {
+   "from": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "what the chop is served as, with slaw.",
+   "rel": "serves"
+  },
+  {
+   "from": "12-bones-smokehouse",
+   "type": "place",
+   "name": "12 Bones Smokehouse",
+   "as": "the plate in the mountains, where the glazed rib rather than the chopped shoulder is the order.",
+   "rel": "serves"
+  },
+  {
+   "from": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "as": "the $11 tray of 2023: barbecue, slaw, hushpuppies, skins.",
+   "rel": "serves"
+  },
+  {
+   "from": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the tray is chopped barbecue with slaw and no bread.",
+   "rel": "serves"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the tray's fixins are slaw and cornbread, and nothing more.",
+   "rel": "serves"
+  },
+  {
+   "from": "light-bread",
+   "type": "term",
+   "name": "light bread",
+   "as": "the order without it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "on the tray, slaw is the one side that is always there — Bledsoe: always served with slaw, and always has been.",
+   "rel": "serves"
+  },
+  {
+   "from": "how-to-order",
+   "type": "story",
+   "name": "How to order",
+   "as": "what you get when you say tray: meat and slaw, no bread.",
+   "rel": "dish"
+  }
+ ]
+}

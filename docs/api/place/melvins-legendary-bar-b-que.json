@@ -1,0 +1,445 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "melvins-legendary-bar-b-que",
+ "names": {
+  "name": "Melvin's Legendary Bar-B-Que",
+  "aliases": [
+   "Melvin's",
+   "Melvin's BBQ",
+   "Melvin's Legendary Barbecue"
+  ],
+  "sort": "Melvin's Legendary Bar-B-Que"
+ },
+ "region": [
+  "sc-lowcountry"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1982",
+  "fuel": "wood",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "A Charleston mustard-sauce house with rooms on Folly Road on James Island and on Houston Northcutt Boulevard in Mount Pleasant, opened in 1982 by Melvin Bessinger with his son David after Melvin left the partnership with his brother Thomas at Bessinger's. David Bessinger runs it now, and the thing that distinguishes it is a reversal: in 2015 he took out the gas-assisted pits and went back to cooking over wood alone. Pork shoulders go twenty-four hours at about two hundred degrees over smouldering hickory.",
+  "story": "The line starts at the Holly Hill Cafe, where Joseph Bessinger — Big Joe — was cooking in 1939, and it runs out through his sons into four or five Lowcountry and Midlands businesses that share a mustard sauce and not much else. Melvin left the partnership with his brother Thomas at Bessinger's on Savannah Highway and opened his own on Houston Northcutt Boulevard in 1982, with James Island following in 1984. The Southern Foodways Alliance recorded David Bessinger on June 26, 2012, and he put the family plainly: as far as why they all got into the restaurant business, he thought it trickled down from one generation to another — it was in the blood. The turn came in 2015. Southern Living reported on October 1 of that year that David had made a weighty decision, installed new pits and gone back to the family's wood-cooking roots; the company's own history says he discontinued the gas-assisted pits and brought back smoking over all wood. *Inference —* that is a rare direction of travel. Most of the Carolinas' movement over seventy years has run from wood to gas, one pit at a time, and it is nearly always one-way. The Campaign for Real Barbecue certified both houses afterwards.",
+  "how": "Pork shoulders, not whole hogs, cook about twenty-four hours at two hundred degrees in metal boxes the size of a pair of refrigerators, over smouldering wet hickory logs. Since 2015 the fire is wood alone; before that the pits were gas-assisted. The sauce is the Midlands mustard, which the Alliance's oral history records the Bessinger and Sweatman families as having worked out between them. Hash is not on the menu in any source read.",
+  "today": "Open Monday to Saturday, 10:30 a.m. to 9 p.m., closed Sunday, at 538 Folly Road on James Island and at 925 Houston Northcutt Boulevard, Mount Pleasant. The map point here is the James Island house."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "the sauce family it belongs to, carried from Holly Hill down to the coast.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "its sauce, which the oral history credits to the Bessinger and Sweatman families together.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut — shoulders, twenty-four hours over hickory, not whole hog.",
+   "rel": "part"
+  },
+  {
+   "to": "joe-bessinger",
+   "as": "the grandfather at the Holly Hill Cafe in 1939, where the family's barbecue starts.",
+   "rel": "person"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "his brother Thomas's Charleston house, the partnership Melvin left in 1982.",
+   "rel": "kin"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "the Columbia branch of the same family, from the same Holly Hill kitchen.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "the Holly Hill family the oral history names as co-authors of the mustard sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "what it took out in 2015, going back to wood alone — the reverse of the usual direction.",
+   "rel": "contrast"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified both houses after the return to wood.",
+   "rel": "org"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "bessingers-bar-b-q",
+   "tell": "Brothers, two businesses, one highway apart. Bessinger's is Thomas Bessinger's, on Savannah Highway in West Ashley, run by his sons Tommy and Michael. Melvin's is Thomas's brother Melvin's, on Folly Road and in Mount Pleasant, run by David. Melvin left the shared partnership in 1982."
+  },
+  {
+   "id": "maurices-piggie-park",
+   "tell": "Same grandfather, different branch and different state of mind. Maurice's is Maurice Bessinger's Columbia chain, whose name also carries a 1968 Supreme Court case and the flag fight of 2000. Melvin's is his brother Melvin's Charleston business, which has no part in that history."
+  }
+ ],
+ "geo": {
+  "lat": 32.75317,
+  "lon": -79.97224,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "538 Folly Rd",
+  "city": "Charleston",
+  "county": "Charleston",
+  "state": "SC",
+  "postcode": "29412"
+ },
+ "links": [
+  {
+   "label": "Melvin's BBQ — our story",
+   "url": "https://melvinsbbq.com/pages/our-story"
+  },
+  {
+   "label": "Melvin's Legendary Bar-B-Q — Southern Foodways Alliance oral history (2012)",
+   "url": "https://www.southernfoodways.org/interview/melvins-legendary-bar-b-q/"
+  },
+  {
+   "label": "Melvin's BBQ — press",
+   "url": "https://melvinsbbq.com/pages/press"
+  }
+ ],
+ "sources": [
+  "s:web-melvins-story",
+  "s:web-sfa-melvins-legendary-bar-b-q",
+  "s:web-melvins-press",
+  "s:web-truecue-sc",
+  "s:sfa-oral-histories",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-melvins-story"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-melvins-story",
+    "note": "The 1939 Holly Hill start, the 1982 split and the 2015 return to wood from the company's own history; David Bessinger's words from the SFA interview of June 26, 2012; the Southern Living report of October 1, 2015 is indexed on the company's press page and was read there rather than at the publisher."
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-melvins-press",
+    "note": "the twenty-four hours at two hundred degrees and the refrigerator-sized metal boxes are a 2007 Charleston City Paper description indexed on the company's press page"
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-melvins-story",
+    "note": "wood since 2015, when the gas-assisted pits were removed; gas-assisted before that"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim matched the Folly Road house number; the OSM barbecue harvest holds a bare node at the same spot"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-melvins-story",
+   "tier": "cited",
+   "note": "The company's own history: David Bessinger 'discontinued using gas-assisted pits and brought back smoking meats over all wood', reported by Southern Living on October 1, 2015. Both houses are on the True 'Cue SC certified list, read 2026-09-16.",
+   "since": "2015"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-melvins-story",
+   "tier": "cited",
+   "note": "Opened in 1982 by Melvin Bessinger with his son David, who runs it now; the family's barbecue starts with Joseph 'Big Joe' Bessinger at the Holly Hill Cafe in 1939."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:web-sfa-melvins-legendary-bar-b-q",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/melvins-legendary-bar-b-q/",
+   "note": "David Bessinger, interviewed by Rien Fertel, photographed by Denny Culbert, June 26, 2012."
+  },
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, both houses",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "southern-living",
+   "what": "named on the South's Top 50 Barbecue Joints, and again at number 39",
+   "source": "s:web-melvins-press",
+   "year": 2025,
+   "note": "2023 and 2025 listings, indexed on the restaurant's own press page; the publisher's pages were not fetched."
+  },
+  {
+   "by": "eater",
+   "what": "named among the essential barbecue places in Charleston",
+   "source": "s:web-melvins-press",
+   "year": 2023,
+   "note": "2019 and 2023 listings, indexed on the restaurant's own press page."
+  },
+  {
+   "by": "national-geographic",
+   "what": "a feature",
+   "source": "s:web-melvins-press",
+   "year": 2017,
+   "note": "Dated May 3, 2017 on the restaurant's press index; the publisher's page was not fetched."
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A Charleston mustard-sauce house with rooms on Folly Road on James Island and on Houston Northcutt Boulevard in Mount Pleasant, opened in 1982 by Melvin Bessinger with his son David after Melvin left the partnership…",
+ "region_terms": [
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the sauce family it belongs to, carried from Holly Hill down to the coast.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "its sauce, which the oral history credits to the Bessinger and Sweatman families together.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut — shoulders, twenty-four hours over hickory, not whole hog.",
+   "rel": "part"
+  },
+  {
+   "to": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "as": "the grandfather at the Holly Hill Cafe in 1939, where the family's barbecue starts.",
+   "rel": "person"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "his brother Thomas's Charleston house, the partnership Melvin left in 1982.",
+   "rel": "kin"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "the Columbia branch of the same family, from the same Holly Hill kitchen.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "as": "the Holly Hill family the oral history names as co-authors of the mustard sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "what it took out in 2015, going back to wood alone — the reverse of the usual direction.",
+   "rel": "contrast"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "certified both houses after the return to wood.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-melvins-story",
+   "kind": "web",
+   "title": "Our Story — Melvin's BBQ",
+   "publisher": "Melvin's Legendary Bar-B-Que",
+   "url": "https://melvinsbbq.com/pages/our-story",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-melvins-legendary-bar-b-q",
+   "kind": "web",
+   "title": "Melvin's Legendary Bar-B-Q — David Bessinger, interviewed by Rien Fertel, June 26, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/melvins-legendary-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-melvins-press",
+   "kind": "web",
+   "title": "Press — Melvin's BBQ",
+   "publisher": "Melvin's Legendary Bar-B-Que",
+   "url": "https://melvinsbbq.com/pages/press",
+   "accessed": "2026-09-16",
+   "note": "The restaurant's own press index, carrying Southern Living (2015, 2023, 2025), Eater (2019, 2023), National Geographic (2017) and a 2007 Charleston City Paper pit description; the publishers' own pages were not fetched."
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  },
+  {
+   "id": "s:sfa-oral-histories",
+   "kind": "oral-history",
+   "title": "Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina)",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "note": "interviews with pitmasters and owners; cite the individual interview page in the record's links"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-melvins-story"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-melvins-story",
+   "note": "The 1939 Holly Hill start, the 1982 split and the 2015 return to wood from the company's own history; David Bessinger's words from the SFA interview of June 26, 2012; the Southern Living report of October 1, 2015 is indexed on the company's press page and was read there rather than at the publisher."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-melvins-press",
+   "note": "the twenty-four hours at two hundred degrees and the refrigerator-sized metal boxes are a 2007 Charleston City Paper description indexed on the company's press page"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-melvins-story"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Nominatim matched the Folly Road house number; the OSM barbecue harvest holds a bare node at the same spot"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-melvins-story"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-melvins-story",
+   "note": "The company's own history: David Bessinger 'discontinued using gas-assisted pits and brought back smoking meats over all wood', reported by Southern Living on October 1, 2015. Both houses are on the True 'Cue SC certified list, read 2026-09-16.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-melvins-story",
+   "note": "Opened in 1982 by Melvin Bessinger with his son David, who runs it now; the family's barbecue starts with Joseph 'Big Joe' Bessinger at the Holly Hill Cafe in 1939.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "https://www.southernfoodways.org/interview/melvins-legendary-bar-b-q/",
+   "year": 2012,
+   "source": "s:web-sfa-melvins-legendary-bar-b-q"
+  },
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, both houses",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  },
+  {
+   "key": "southern-living",
+   "label": "Southern Living",
+   "what": "named on the South's Top 50 Barbecue Joints, and again at number 39",
+   "url": "",
+   "year": 2025,
+   "source": "s:web-melvins-press"
+  },
+  {
+   "key": "eater",
+   "label": "Eater",
+   "what": "named among the essential barbecue places in Charleston",
+   "url": "",
+   "year": 2023,
+   "source": "s:web-melvins-press"
+  },
+  {
+   "key": "national-geographic",
+   "label": "National Geographic",
+   "what": "a feature",
+   "url": "",
+   "year": 2017,
+   "source": "s:web-melvins-press"
+  }
+ ],
+ "acclaim": 5,
+ "kin_in": [
+  {
+   "from": "melvins-golden-sauce",
+   "type": "sauce",
+   "name": "Melvin's Golden Sauce",
+   "as": "the Charleston restaurant the sauce is made for.",
+   "rel": "served-at"
+  }
+ ]
+}

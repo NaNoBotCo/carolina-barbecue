@@ -1,0 +1,134 @@
+{
+ "schema": 1,
+ "id": "pete-jones",
+ "type": "person",
+ "names": {
+  "name": "Pete Jones",
+  "aliases": [
+   "Walter B. Jones",
+   "Walter B. 'Pete' Jones"
+  ],
+  "sort": "Jones, Pete"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder"
+  ],
+  "state": "NC",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "Walter B. 'Pete' Jones (died 2006) opened the Skylight Inn in Ayden, Pitt County, in the summer of 1947 — at seventeen by his family's count, eighteen by Wikipedia's — and cooked whole hogs over wood coals there for nearly sixty years. He learned the trade at his uncle Emmitt Dennis's City Cafe, counted his barbecue back to a Dennis ancestor's wagon, and put a copy of the U.S. Capitol dome on his roof after National Geographic called the place the barbecue capital of the world. The James Beard Foundation made the restaurant an America's Classic in 2003.",
+  "story": "Pete Jones told Bob Garner that he sat in school as far back as the fifth or sixth grade and daydreamed about having his own barbecue place. He got it at seventeen: he built the Skylight while working for his uncle Emmitt Dennis at the City Cafe, where he cooked whole hog, and opened on July 8, 1947. He gave the place beer and a jukebox to set it apart from Ayden's other barbecue stands, thought about adding a dance hall, and ran late with rowdy crowds until the town's 7 pm curfew ended the late nights. The cooking did not change: whole hogs, heads on, over coals burned down from oak and hickory in fireplaces beside the pits, chopped with the crisp skin through the meat. He could not read or write, Kathleen Purvis records in Garden & Gun. In 1979 a National Geographic article called the restaurant the barbecue capital of the world; the dome went up in 1984, silver-painted wood, so that people could find the place — 'A place like this don't need any sign,' he told Garner. By the restaurant's own account he cooked at a congressional event attended by President Reagan and Vice President Bush in 1982, and in 2003 the James Beard Foundation named the Skylight an America's Classic. His line on fuel — 'If it's not cooked with wood, it's not barbecue' — is the one the Campaign for Real Barbecue prints on its wood page. He died in February 2006; his son Bruce, his nephew Jeff and his grandson Sam kept the pits.",
+  "today": "Dead. Pete Jones died in February 2006 by the restaurant's account; Wikipedia gives the year, and Bob Garner's 2012 profile prints 2005. The Skylight Inn is run by his son Bruce, his nephew Jeff and his grandson Sam Jones."
+ },
+ "kin": [
+  {
+   "to": "skylight-inn",
+   "as": "the pit he opened in 1947 and ran until his death; the dome on its roof was his answer to National Geographic.",
+   "rel": "place"
+  },
+  {
+   "to": "sam-jones",
+   "as": "his grandson, who grew up in the Skylight and carried the family's whole hog to Winterville and Raleigh.",
+   "rel": "person"
+  },
+  {
+   "to": "skilton-dennis",
+   "as": "the ancestor whose wagon he counted his barbecue back to; the 1830 on the billboard is his family's date.",
+   "rel": "origin"
+  },
+  {
+   "to": "bum-dennis",
+   "as": "his kinsman across town, of the same Dennis line, who opened Bum's in 1963.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style he is named for first when the east is named: whole hog over wood, vinegar and pepper, cornbread.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the only cut he cooked, heads on, the skin chopped into the meat.",
+   "rel": "part"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "his grandson's restaurant, seven miles from his own.",
+   "rel": "kin"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "quotes him on its wood page: 'If it's not cooked with wood, it's not barbecue.'",
+   "rel": "kin"
+  },
+  {
+   "to": "pitmaster",
+   "as": "he ran the Skylight's pits for most of sixty years before the word was in the dictionaries.",
+   "rel": "term"
+  },
+  {
+   "to": "bob-garner",
+   "as": "profiled him for Our State in 2012 and kept his line about the sign.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "Skylight Inn BBQ — About Us",
+   "url": "https://www.skylightinnbbq.com/about-us"
+  },
+  {
+   "label": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ"
+  },
+  {
+   "label": "Skylight Inn — SFA oral history with his grandson Samuel Jones (2011)",
+   "url": "https://www.southernfoodways.org/interview/skylight-inn/"
+  }
+ ],
+ "sources": [
+  "s:wp-skylight-inn-bbq",
+  "s:web-skylightinn-about",
+  "s:web-ourstate-skylight-inn",
+  "s:sfa-skylight-inn",
+  "s:web-gardenandgun-sam-jones-2019",
+  "s:web-samjonesbbq",
+  "s:web-truecue-wood"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-skylight-inn-bbq"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-skylight-inn-bbq",
+    "note": "seventeen at opening per the restaurant, Southern Smoke and Garden & Gun; eighteen per Wikipedia"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-skylight-inn-bbq",
+    "note": "the school daydream, the sign line and the uncle from Garner (Our State 2012); illiteracy from Purvis (Garden & Gun 2019); the 1982 congressional event from the restaurant's About page, which dates National Geographic's notice to a 1982 book where Wikipedia has a 1979 article; the wood line from the Campaign's page and the Sam Jones BBQ site"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-skylightinn-about",
+    "note": "February 2006 per the restaurant and Sam Jones BBQ; 2006 per Wikipedia; 2005 per Garner"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

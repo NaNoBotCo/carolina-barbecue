@@ -1,0 +1,588 @@
+{
+ "schema": 1,
+ "id": "wilbers-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Wilber's Barbecue",
+  "aliases": [
+   "Wilber's",
+   "Wilbers BBQ",
+   "Wilber's BBQ"
+  ],
+  "sort": "Wilbers Barbecue"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1962",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog pit on U.S. 70 east of Goldsboro, Wayne County, opened in 1962 by Wilberdean 'Wilber' Shirley and cooked the same way since: split hogs over oak coals in open pits in a cinder-block cookhouse behind a red-brick restaurant with knotty-pine walls and red-checked tablecloths. It closed in March 2019 over unpaid taxes and reopened in July 2020 under Goldpit Partners, a group of Goldsboro natives who bought it and restored the building. The pork is hand-chopped on oak blocks and seasoned with vinegar and spices; fried chicken, collards, fried okra and hushpuppies come alongside.",
+  "story": "Wilber Shirley learned the trade at Griffin's Barbecue in Goldsboro and in 1962 bought the former Hill's Barbecue on Highway 70 and put his name on it. He told the authors of Holy Smoke that he cooked 'split halves of whole hogs over oak coals in closed pits,' and that the grease hitting the coals made the smoke flavor. Staff split and cut oak all year; on a Labor Day weekend the pits held up to 130 pigs, and the dining rooms seated more than 300. Shirley worked twelve or thirteen hours a day, six days a week, for more than forty years, with some ninety employees. In March 2019 the restaurant was shut for nonpayment of taxes. Willis B. Underwood III, an insurance salesman and lifelong regular, gathered other customers into Goldpit Partners, bought the place, kept the paneling and the tablecloths, and reopened it in July 2020 — curbside only at first, Wednesday to Sunday, with a shortened menu. 'I just didn't want to see the smoke die,' he told Our State. Shirley's son-in-law Dennis Monk took a management role, and Shirley, who turned ninety in June 2020, advised. He died in April 2021. Pitmaster Jackie Martin, at the pits nearly forty years, works from two in the afternoon to five or six in the morning.",
+  "how": "Whole hogs cook all night over oak embers on open pits — nine hours by one account, twelve or more by another — then are hand-chopped on oak blocks and seasoned with vinegar and spices. The plate is barbecue with fried okra and slaw; the sandwich is barbecue and slaw; the 'Bone Box' is a tray-sized pig pickin', the meat left on the bone for pulling by hand. Sides run to hushpuppies, collards, cabbage, macaroni and cheese and fried chicken; the desserts — pecan pie, coconut and carrot cake, banana pudding, Wilber's cookies — are made in the house.",
+  "today": "Open Wednesday to Saturday 11 to 7 and Sunday 11 to 3, at 4172 U.S. Highway 70 East, Goldsboro, per the restaurant's site in September 2026. Goldpit Partners own it."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style; Wilber's is one of the pits the press names first when it names the east.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, split and cooked over oak coals through the night.",
+   "rel": "part"
+  },
+  {
+   "to": "wilber-shirley",
+   "as": "its founder, at the pits from 1962 until the 2019 closure; he died in April 2021.",
+   "rel": "person"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "oak here, split and cut by the staff all year round.",
+   "rel": "part"
+  },
+  {
+   "to": "chopping-block",
+   "as": "the oak blocks the pork is chopped on by hand.",
+   "rel": "part"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the 'Bone Box' on the menu is a pig pickin' in a tray: meat on the bone, pulled by hand.",
+   "rel": "event"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "interviewed Shirley for Holy Smoke; the closed-pit quotation comes from that book.",
+   "rel": "person"
+  },
+  {
+   "to": "gradys-barbecue",
+   "as": "the other Wayne County whole-hog pit, at a crossroads south of town.",
+   "rel": "kin"
+  },
+  {
+   "to": "scotts-famous-barbecue",
+   "as": "Goldsboro's earlier barbecue name, closed now, whose sauce is still sold.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.35061,
+  "lon": -77.9224636,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "4172 US Highway 70 E",
+  "city": "Goldsboro",
+  "county": "Wayne",
+  "state": "NC",
+  "postcode": "27534"
+ },
+ "links": [
+  {
+   "label": "Wilber's Barbecue — official",
+   "url": "https://www.wilbersbbq.com/"
+  },
+  {
+   "label": "Where There's A Wilber's, There's A Way — Our State",
+   "url": "https://www.ourstate.com/where-theres-a-wilbers-theres-a-way/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-wilbers-way",
+  "s:web-ourstate-wilbers",
+  "s:web-wilbersbbq",
+  "s:web-wral-wilbers-reopens",
+  "s:web-wral-wilber-shirley-dies",
+  "s:web-gardenandgun-wilbers",
+  "s:web-uncpress-wilber-shirley",
+  "s:reed-holy-smoke",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-wilbers-way"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-wilbers-way",
+    "note": "1962 per Our State, Garden & Gun and the Holy Smoke excerpt; WRAL's obituary prints July 24, 1961. Reopening July 2020 (curbside) per WRAL and Garden & Gun; the brief's '2021' is not on any source read — the dining-room date is not on disk"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-wilbersbbq"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wilbersbbq",
+    "note": "hours as posted 2026-09-15"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded by name via Nominatim"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-wilbersbbq"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [
+  {
+   "file": "wilbers-barbecue/wilbers-barbecue-barbecue-pit.jpg",
+   "source": "commons",
+   "title": "File:Barbecue pit.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Barbecue_pit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue_pit.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Southern Foodways Alliance",
+   "credit": "originally posted to Flickr as making coals at Wilbur's Barbecue",
+   "alt": "A wood-fired barbecue pit at Wilbur's Barbecue - Goldsboro, NC, USA.",
+   "date": "2007-09-04 16:42:53",
+   "primary": true,
+   "sha256": "b8798499e837f236baa48f870f35297934fef63ccc97b43498c7575f39131e4d"
+  },
+  {
+   "file": "wilbers-barbecue/wilbers-barbecue-whole-hog-at-wilbur-s-barbecue.jpg",
+   "source": "commons",
+   "title": "File:Whole hog at Wilbur's Barbecue.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Whole_hog_at_Wilbur%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWhole_hog_at_Wilbur%27s_Barbecue.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Southern Foodways Alliance",
+   "credit": "https://www.flickr.com/photos/southernfoodwaysalliance/3500459983/",
+   "alt": "Wilbur's Barbecue - Goldsboro, NC\nPhoto by Amy C Evans, SFA oral historian\nFebruary 2008\n\nwww.southernfoodways.com",
+   "date": "2007-09-04 16:38:02",
+   "primary": false,
+   "sha256": "fc61fddee0dbd583e9a33d14548262c5b5ab3ae79a572c046e222d87d6c9ac29"
+  },
+  {
+   "file": "wilbers-barbecue/wilbers-barbecue-wilber-s-bbq-pig-vane.jpg",
+   "source": "commons",
+   "title": "File:Wilber's BBQ - Pig vane.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Wilber%27s_BBQ_-_Pig_vane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWilber%27s_BBQ_-_Pig_vane.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Jay Cuthrell",
+   "credit": "flickr",
+   "alt": "A pig weather vane on top of Wilber's Barbecue in Goldsboro, North Carolina.",
+   "date": "2005-10-01",
+   "primary": false,
+   "sha256": "df6a8340f5a71256ba634c0dafd5ca30bf9db37a006d0a3fd7549381dc0a1e5e"
+  }
+ ],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:web-wilbersbbq",
+   "tier": "cited",
+   "note": "Whole hogs cook all night over oak embers on open pits, then are hand-chopped on oak blocks."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-wilbersbbq",
+   "tier": "cited",
+   "note": "Split hogs over oak coals in open pits in a cinder-block cookhouse; also on the True 'Cue NC certified list and the NCBS trail, both read 2026-09-16."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Wilber's Barbecue",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Wilber's Barbecue, Goldsboro",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-wilbers-way"
+  },
+  {
+   "by": "garden-and-gun",
+   "what": "a feature",
+   "source": "s:web-gardenandgun-wilbers"
+  },
+  {
+   "by": "reed-holy-smoke",
+   "what": "named in the book",
+   "source": "s:reed-holy-smoke"
+  }
+ ],
+ "blurb": "A whole-hog pit on U.S. 70 east of Goldsboro, Wayne County, opened in 1962 by Wilberdean 'Wilber' Shirley and cooked the same way since: split hogs over oak coals in open pits in a cinder-block cookhouse behind a…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style; Wilber's is one of the pits the press names first when it names the east.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, split and cooked over oak coals through the night.",
+   "rel": "part"
+  },
+  {
+   "to": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "its founder, at the pits from 1962 until the 2019 closure; he died in April 2021.",
+   "rel": "person"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "oak here, split and cut by the staff all year round.",
+   "rel": "part"
+  },
+  {
+   "to": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "the oak blocks the pork is chopped on by hand.",
+   "rel": "part"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the 'Bone Box' on the menu is a pig pickin' in a tray: meat on the bone, pulled by hand.",
+   "rel": "event"
+  },
+  {
+   "to": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "interviewed Shirley for Holy Smoke; the closed-pit quotation comes from that book.",
+   "rel": "person"
+  },
+  {
+   "to": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "as": "the other Wayne County whole-hog pit, at a crossroads south of town.",
+   "rel": "kin"
+  },
+  {
+   "to": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "Goldsboro's earlier barbecue name, closed now, whose sauce is still sold.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-wilbers-way",
+   "kind": "web",
+   "title": "Where There's A Wilber's, There's A Way — Our State",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/where-theres-a-wilbers-theres-a-way/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-wilbers",
+   "kind": "web",
+   "title": "Wilber's Barbecue in Goldsboro, NC — Our State",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/wilbers-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wilbersbbq",
+   "kind": "web",
+   "title": "Wilber's Barbecue — official site",
+   "publisher": "Wilber's Barbecue",
+   "url": "https://www.wilbersbbq.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wral-wilbers-reopens",
+   "kind": "web",
+   "title": "Loyal fans restore, reopen Wilber's Barbecue in Goldsboro — WRAL (15 Jul 2020)",
+   "publisher": "WRAL",
+   "url": "https://www.wral.com/story/wilber-s-barbecue-reopens-in-goldsboro/19189897/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wral-wilber-shirley-dies",
+   "kind": "web",
+   "title": "Wilber Shirley, original owner of Wilber's Barbecue in Goldsboro, dies at 90 — WRAL (5 Apr 2021)",
+   "publisher": "WRAL",
+   "url": "https://www.wral.com/story/wilber-shirley-original-owner-of-wilber-s-barbecue-in-goldsboro-dies-at-90/19611180/",
+   "accessed": "2026-09-15",
+   "note": "its body text prints an opening date of July 24, 1961; every other source on disk says 1962"
+  },
+  {
+   "id": "s:web-gardenandgun-wilbers",
+   "kind": "web",
+   "title": "Wilber's Barbecue Bounces Back — Garden & Gun",
+   "publisher": "Garden & Gun",
+   "url": "https://gardenandgun.com/wilbers-barbecue-bounces-back",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uncpress-wilber-shirley",
+   "kind": "web",
+   "title": "Celebrating the Life of North Carolina's Barbecue Legend Wilber Shirley — UNC Press Blog (16 Apr 2021)",
+   "publisher": "University of North Carolina Press",
+   "url": "https://uncpressblog.com/2021/04/16/celebrating-the-life-of-north-carolinas-barbecue-legend-wilber-shirley/",
+   "accessed": "2026-09-15",
+   "note": "excerpts the Holy Smoke interview"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-barbecuebros-nc-trail",
+   "kind": "web",
+   "title": "NC Historic Barbecue Trail",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "accessed": "2026-09-16",
+   "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-wilbers-way"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-wilbers-way",
+   "note": "1962 per Our State, Garden & Gun and the Holy Smoke excerpt; WRAL's obituary prints July 24, 1961. Reopening July 2020 (curbside) per WRAL and Garden & Gun; the brief's '2021' is not on any source read — the dining-room date is not on disk"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-wilbersbbq"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-wilbersbbq",
+   "note": "hours as posted 2026-09-15"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest file; geocoded by name via Nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-wilbersbbq"
+  }
+ },
+ "primary_image": {
+  "file": "wilbers-barbecue/wilbers-barbecue-barbecue-pit.jpg",
+  "source": "commons",
+  "title": "File:Barbecue pit.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Barbecue_pit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue_pit.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Southern Foodways Alliance",
+  "credit": "originally posted to Flickr as making coals at Wilbur's Barbecue",
+  "alt": "A wood-fired barbecue pit at Wilbur's Barbecue - Goldsboro, NC, USA.",
+  "date": "2007-09-04 16:42:53",
+  "primary": true,
+  "sha256": "b8798499e837f236baa48f870f35297934fef63ccc97b43498c7575f39131e4d"
+ },
+ "tag_facts": [
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-wilbersbbq",
+   "note": "Whole hogs cook all night over oak embers on open pits, then are hand-chopped on oak blocks.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-wilbersbbq",
+   "note": "Split hogs over oak coals in open pits in a cinder-block cookhouse; also on the True 'Cue NC certified list and the NCBS trail, both read 2026-09-16.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Wilber's Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  },
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Wilber's Barbecue, Goldsboro",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "year": null,
+   "source": "s:web-barbecuebros-nc-trail"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": null,
+   "source": "s:web-ourstate-wilbers-way"
+  },
+  {
+   "key": "garden-and-gun",
+   "label": "Garden & Gun",
+   "what": "a feature",
+   "url": "",
+   "year": null,
+   "source": "s:web-gardenandgun-wilbers"
+  },
+  {
+   "key": "reed-holy-smoke",
+   "label": "Holy Smoke (Reed & Reed)",
+   "what": "named in the book",
+   "url": "",
+   "year": null,
+   "source": "s:reed-holy-smoke"
+  }
+ ],
+ "acclaim": 5,
+ "kin_in": [
+  {
+   "from": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "as": "the other Wayne County whole-hog pit, on U.S. 70 the far side of Goldsboro.",
+   "rel": "kin"
+  },
+  {
+   "from": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "Goldsboro's other barbecue name, on U.S. 70, still cooking.",
+   "rel": "kin"
+  },
+  {
+   "from": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "as": "Goldsboro's later barbecue name, opened in 1962 on U.S. 70, still cooking.",
+   "rel": "kin"
+  },
+  {
+   "from": "bob-garner",
+   "type": "person",
+   "name": "Bob Garner",
+   "as": "an Our State piece of his, and on the list he gave NC Weekend in 2023.",
+   "rel": "place"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "the Reeds interviewed Wilber Shirley for Holy Smoke; UNC Press reprinted the interview when he died in 2021.",
+   "rel": "place"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "where Keith 'Pop' Ward, who tends the pits through the night, is one of his subjects.",
+   "rel": "place"
+  },
+  {
+   "from": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "the pit he bought and named in 1962 and ran until the 2019 closure.",
+   "rel": "place"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "a Trail stop in Goldsboro.",
+   "rel": "place"
+  },
+  {
+   "from": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "whose pig turns on a weather vane over Goldsboro rather than standing on a sign.",
+   "rel": "place"
+  }
+ ]
+}

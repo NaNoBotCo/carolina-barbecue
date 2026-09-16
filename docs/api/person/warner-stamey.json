@@ -1,0 +1,437 @@
+{
+ "schema": 1,
+ "id": "warner-stamey",
+ "type": "person",
+ "names": {
+  "name": "Warner Stamey",
+  "aliases": [
+   "Charles Warner Stamey",
+   "C. Warner Stamey"
+  ],
+  "sort": "Stamey, Warner"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder"
+  ],
+  "state": "NC",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Charles Warner Stamey (born 1911), the youngest of eleven children, learned pit-cooking as a high-school boarder in Lexington from Jess Swicegood and Sid Weaver at their tents across from the courthouse, sold barbecue in Shelby through the 1930s, came back in 1938 to buy Swicegood's stand and rename it Stamey's, and in 1953 opened the Greensboro drive-in his family runs. His restaurant credits him with putting hushpuppies beside barbecue in North Carolina. Wayne Monk, Red Bridges and his brother-in-law Alston Bridges learned under him; the American Royal made him a legacy inductee of its Barbecue Hall of Fame in 2020.",
+  "story": "Stamey was born in 1911 — in Lincoln County, by Cleveland County's local history — and moved to Lexington to live with his older sister while he attended high school. There he hooked up with Jess Swicegood and Sid Weaver, who were selling pork out of tents across from the courthouse, and they taught him pit cooking. With a diploma and $350 he went to Shelby and sold barbecue to growing crowds; he married Mary Linda Bridges in 1933, and the county history has Stamey's Barbecue at 230 South Washington Street in 1937. Her brother Alston Bridges learned smoking from him and managed his Log Cabin Barbecue in Lexington for two and a half years; Red Bridges, no relation, learned from him too and opened at the same Washington Street address about 1949. In 1938 Stamey sold the Shelby operation, went back to Lexington, bought Swicegood's and put his own name on it — for $300, Robert Moss's history says. Wayne Monk worked under him there for several years before opening Lexington Barbecue in 1962. In 1953 Stamey opened a drive-in on High Point Road in Greensboro, his sixth restaurant by the American Royal's count, with call-in service; four years later he handed it to his son Charles, and Charles's brother Keith joined in 1970. The hushpuppy — the fried cornmeal fritter of the fish camps — went onto the barbecue tray under him: Keith said his father picked the idea up from a friend's fish camp, the Friendly Road Inn in Greensboro, and the restaurant's history says he introduced it to North Carolina barbecue diners. Chip Stamey, his grandson, left another career to take the Greensboro house in 1993, and told the Southern Foodways Alliance in 2011 that his rule is to keep everything the same.",
+  "today": "Dead; his death year is not confirmed by any source this record cites. The American Royal inducted him as a 2020 legacy member of its Barbecue Hall of Fame, and the fourth generation of Stameys runs the two Greensboro restaurants."
+ },
+ "kin": [
+  {
+   "to": "stameys-barbecue",
+   "as": "the Greensboro house he opened as a drive-in in 1953, run by his grandson Chip since 1993.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "the pit of his pupil Wayne Monk, opened 1962.",
+   "rel": "descendant"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "Red Bridges learned from him in Shelby and opened at Stamey's old Washington Street address about 1949.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington",
+   "as": "the style he carried to Shelby and Greensboro and taught to the men who run its pits.",
+   "rel": "whole"
+  },
+  {
+   "to": "jess-swicegood",
+   "as": "his teacher, whose Lexington stand he bought and renamed in 1938.",
+   "rel": "origin"
+  },
+  {
+   "to": "sid-weaver",
+   "as": "his other teacher at the courthouse tents.",
+   "rel": "origin"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "worked under him for several years in Lexington before opening Lexington Barbecue in 1962.",
+   "rel": "descendant"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "he put them beside barbecue, by his family's account, after seeing them at a Greensboro fish camp.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the sauce he learned in the courthouse tents and served in Shelby, Lexington and Greensboro.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dip",
+   "as": "the family's word for the sauce, served at the table and not squirted.",
+   "rel": "term"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut he took from the tents to Shelby: shoulders over hickory coals.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded his grandson Chip at the Greensboro restaurant on November 18, 2011.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Stamey's Barbecue — History",
+   "url": "https://www.stameys.com/history"
+  },
+  {
+   "label": "Warner Stamey — American Royal Barbecue Hall of Fame 2020 legacy bio (PDF)",
+   "url": "https://americanroyal.com/wp-content/uploads/2024/07/BBQ-HOF-Stamey-Legacy-bio.pdf"
+  },
+  {
+   "label": "Stamey's Barbecue — SFA oral history with Chip Stamey (2011)",
+   "url": "https://www.southernfoodways.org/interview/stameys-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:web-stameys-history",
+  "s:web-americanroyal-stamey-bio",
+  "s:sfa-stameys-barbecue",
+  "s:web-clevelandcounty-food",
+  "s:web-ourstate-stameys",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-barbecuebros-jess-swicegood",
+  "s:web-moss-hushpuppies",
+  "s:moss-barbecue-history"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-stameys-history"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-stameys-history",
+    "note": "birth, the sister, the tents, $350 and 1938 from the restaurant's history and the American Royal bio; Lincoln County, the 1933 marriage, the 1937 Shelby address and the two Bridges from Cleveland County History; the $300 from Barbecue Bros' summary of Moss; Monk from Garner (Our State 2012); the fish camp from Moss's hushpuppy history; Chip's rule from the SFA"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-americanroyal-stamey-bio",
+    "note": "a grave record found in search gives 1911–1972; not fetched, not asserted"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "Charles Warner Stamey (born 1911), the youngest of eleven children, learned pit-cooking as a high-school boarder in Lexington from Jess Swicegood and Sid Weaver at their tents across from the courthouse, sold barbecue…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the Greensboro house he opened as a drive-in in 1953, run by his grandson Chip since 1993.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the pit of his pupil Wayne Monk, opened 1962.",
+   "rel": "descendant"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "Red Bridges learned from him in Shelby and opened at Stamey's old Washington Street address about 1949.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style he carried to Shelby and Greensboro and taught to the men who run its pits.",
+   "rel": "whole"
+  },
+  {
+   "to": "jess-swicegood",
+   "type": "person",
+   "name": "Jess Swicegood",
+   "as": "his teacher, whose Lexington stand he bought and renamed in 1938.",
+   "rel": "origin"
+  },
+  {
+   "to": "sid-weaver",
+   "type": "person",
+   "name": "Sid Weaver",
+   "as": "his other teacher at the courthouse tents.",
+   "rel": "origin"
+  },
+  {
+   "to": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "worked under him for several years in Lexington before opening Lexington Barbecue in 1962.",
+   "rel": "descendant"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "he put them beside barbecue, by his family's account, after seeing them at a Greensboro fish camp.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the sauce he learned in the courthouse tents and served in Shelby, Lexington and Greensboro.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the family's word for the sauce, served at the table and not squirted.",
+   "rel": "term"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut he took from the tents to Shelby: shoulders over hickory coals.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded his grandson Chip at the Greensboro restaurant on November 18, 2011.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-stameys-history",
+   "kind": "web",
+   "title": "History",
+   "publisher": "Stamey's Barbecue, Greensboro NC",
+   "url": "https://www.stameys.com/history",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-americanroyal-stamey-bio",
+   "kind": "web",
+   "title": "Warner Stamey, Pitmaster, Restaurateur — 2020 Legacy Inductee biography, American Royal Barbecue Hall of Fame (PDF)",
+   "publisher": "American Royal",
+   "url": "https://americanroyal.com/wp-content/uploads/2024/07/BBQ-HOF-Stamey-Legacy-bio.pdf",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-stameys-barbecue",
+   "kind": "oral-history",
+   "title": "Stamey's Barbecue — Chip Stamey, interviewed by Rien T. Fertel, 18 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/stameys-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-clevelandcounty-food",
+   "kind": "web",
+   "title": "Food & Eateries — Cleveland County History",
+   "publisher": "Cleveland County History (clevelandcountynchistory.org)",
+   "url": "https://clevelandcountynchistory.org/food/",
+   "accessed": "2026-09-15",
+   "note": "gives Warner Stamey's birthplace as Lincoln County and a Shelby High School attendance of 1927–29; the family's history has him at high school in Lexington"
+  },
+  {
+   "id": "s:web-ourstate-stameys",
+   "kind": "web",
+   "title": "Stamey's Old Fashioned Barbecue (Bob Garner, 31 Aug 2012)",
+   "publisher": "Our State magazine",
+   "url": "https://www.ourstate.com/stameys-old-fashioned-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-lexington-barbecue",
+   "kind": "web",
+   "title": "Lexington Barbecue (Bob Garner, 2012-08-31)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/lexington-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebros-jess-swicegood",
+   "kind": "web",
+   "title": "Jess Swicegood — Barbecue Bros tag page, summarizing Robert F. Moss, Barbecue: The History of an American Institution",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/tag/jess-swicegood/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-moss-hushpuppies",
+   "kind": "web",
+   "title": "The True Story of Hushpuppies, a Genuine Carolina Treat (Robert F. Moss, 2023-06-25)",
+   "publisher": "robertfmoss.com",
+   "url": "https://robertfmoss.com/features/The-True-Story-of-Hushpuppies-a-Genuine-Carolina-Treat",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:moss-barbecue-history",
+   "kind": "book",
+   "title": "Barbecue: The History of an American Institution",
+   "author": "Robert F. Moss",
+   "publisher": "University of Alabama Press",
+   "year": 2010,
+   "note": "revised edition 2020"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-stameys-history"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-stameys-history",
+   "note": "birth, the sister, the tents, $350 and 1938 from the restaurant's history and the American Royal bio; Lincoln County, the 1933 marriage, the 1937 Shelby address and the two Bridges from Cleveland County History; the $300 from Barbecue Bros' summary of Moss; Monk from Garner (Our State 2012); the fish camp from Moss's hushpuppy history; Chip's rule from the SFA"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-americanroyal-stamey-bio",
+   "note": "a grave record found in search gives 1911–1972; not fetched, not asserted"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "carried the method to Shelby and Greensboro and put hushpuppies on the tray; the men he taught run the Piedmont's pits.",
+   "rel": "person"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "learned it in the courthouse tents and taught it to the Piedmont.",
+   "rel": "person"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "who carried them from a Greensboro fish camp to the barbecue tray.",
+   "rel": "person"
+  },
+  {
+   "from": "alston-bridges-barbecue",
+   "type": "place",
+   "name": "Alston Bridges Barbecue",
+   "as": "his brother-in-law and teacher; Alston managed Stamey's Log Cabin Barbecue before opening here.",
+   "rel": "person"
+  },
+  {
+   "from": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the man Monk trained under, which makes this pit a grandchild of the Swicegood stand.",
+   "rel": "origin"
+  },
+  {
+   "from": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "took the Lexington method to Shelby in the 1930s, the decade before the Bridges began.",
+   "rel": "kin"
+  },
+  {
+   "from": "speedy-lohrs-barbecue",
+   "type": "place",
+   "name": "Speedy Lohr's Barbecue",
+   "as": "taught Randy Lohr's father, Sherman Paul 'Speedy' Lohr, whose name the business carries.",
+   "rel": "person"
+  },
+  {
+   "from": "speedys-barbecue",
+   "type": "place",
+   "name": "Speedy's Barbecue",
+   "as": "taught Paul 'Speedy' Lohr, who opened this drive-in in 1963 and sold it to the Dunns.",
+   "rel": "person"
+  },
+  {
+   "from": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "its founder, who bought his teacher's stand in 1938 and moved the name to Greensboro in 1953.",
+   "rel": "person"
+  },
+  {
+   "from": "tarheel-q",
+   "type": "place",
+   "name": "Tarheel Q",
+   "as": "two hands back: the Simmonses worked for the Lohrs, and Paul Lohr learned under Stamey.",
+   "rel": "person"
+  },
+  {
+   "from": "jess-swicegood",
+   "type": "person",
+   "name": "Jess Swicegood",
+   "as": "his pupil, who bought him out in 1938 and put his own name over the door.",
+   "rel": "descendant"
+  },
+  {
+   "from": "sid-weaver",
+   "type": "person",
+   "name": "Sid Weaver",
+   "as": "his pupil, who carried the method to Shelby and Greensboro.",
+   "rel": "descendant"
+  },
+  {
+   "from": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "his teacher: he worked under Stamey for several years in downtown Lexington before opening his own place.",
+   "rel": "origin"
+  },
+  {
+   "from": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the Lexington cook whose dip, *tradition holds*, is the ancestor of most of the others.",
+   "rel": "person"
+  }
+ ]
+}

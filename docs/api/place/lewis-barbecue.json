@@ -1,0 +1,343 @@
+{
+ "schema": 1,
+ "id": "lewis-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Lewis Barbecue",
+  "aliases": [
+   "Lewis BBQ",
+   "Lewis Barbecue Charleston"
+  ],
+  "sort": "Lewis Barbecue"
+ },
+ "region": [
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "2016",
+  "styles": []
+ },
+ "text": {
+  "what": "A Central Texas-style barbecue restaurant at 464 North Nassau Street on the upper peninsula of Charleston, opened in June 2016 by John Lewis, a pitmaster from El Paso who cooked in Austin with Franklin Barbecue and then as a partner in La Barbecue, welding his own smokers along the way. The meat is sold by the pound from a counter: prime brisket, beef ribs, pork spare ribs, turkey breast, pulled pork, 'Texas hot guts' sausage and a green-chile cheddar sausage, with sides from Texas — pinto beans, green chile corn pudding — and from here, collards. A second Lewis opened in Greenville in August 2022 and a third in Atlanta in December 2025.",
+  "story": "John Lewis grew up in El Paso and moved to Austin at eighteen; a New Braunfels smoker, a birthday present, started the habit. He competed on the barbecue circuit in Denver, came back to Austin to cook with Franklin Barbecue, and partnered with LeAnn Mueller to open La Barbecue, where the brisket made his name. He moved to Charleston in 2015 and opened Lewis Barbecue in June 2016; Rodney Scott's whole hog arrived on King Street eight months later. Lewis welds his own custom smokers. The Greenville store followed at 214 Rutherford Street in August 2022; in December 2025, after six years of looking, he opened at Ansley Mall in Atlanta with six smokers on the roof, an open-air smokehouse above the Beltline. The Charleston house holds a Michelin Bib Gourmand. Lewis's own line, to Rough Draft Atlanta: 'I think beef is better than pork.'",
+  "how": "Everything is sold by weight or the link, cut to order at the counter: USDA prime brisket at $35 a pound, pulled pork $19, turkey breast $22, spare ribs $24, hot-guts sausage $8 a link and green-chile cheddar $7 — the Charleston menu as posted on September 15, 2026. Sides are creamy potato salad, tangy coleslaw, cowboy pinto beans, green chile corn pudding, collard greens, mac and cheese and fries. Beef ribs and oxtail come off the smokers too.",
+  "today": "Open Tuesday to Saturday 11 a.m. to 10 p.m., Sunday and Monday 11 to 9, at 464 North Nassau Street, Charleston, per the restaurant's site on September 15, 2026. Greenville (214 Rutherford Street) and Atlanta (1544 Piedmont Avenue) are open as well."
+ },
+ "kin": [
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "as": "its neighbour up the peninsula from February 2017 to May 2026, cooking the Carolina hog where Lewis cooks Texas beef.",
+   "rel": "contrast"
+  },
+  {
+   "to": "home-team-bbq",
+   "as": "the older Charleston company, from 2006, with a Greenville store in the same city as Lewis's.",
+   "rel": "kin"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "as": "Greenville's older barbecue house; Lewis's 2022 store is the Texas newcomer.",
+   "rel": "kin"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "the one Carolina word on a Texas menu; sold by the pound beside the brisket.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word, meaning beef on this menu.",
+   "rel": "term"
+  }
+ ],
+ "geo": {
+  "lat": 32.80872,
+  "lon": -79.94661,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "464 N Nassau St",
+  "city": "Charleston",
+  "county": "Charleston",
+  "state": "SC",
+  "postcode": "29403"
+ },
+ "links": [
+  {
+   "label": "Lewis Barbecue — official",
+   "url": "https://www.lewisbarbecue.com/"
+  },
+  {
+   "label": "Lewis Barbecue opens at Atlanta's Ansley Mall — Rough Draft Atlanta (2025)",
+   "url": "https://roughdraftatlanta.com/2025/12/05/lewis-barbecue-opens-ansley-mall-atlanta/"
+  }
+ ],
+ "sources": [
+  "s:web-lewis-about",
+  "s:web-lewis-charleston",
+  "s:web-rough-draft-lewis-atlanta-2025",
+  "s:osm",
+  "s:web-truecue-sc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-lewis-about"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-lewis-charleston",
+    "note": "prices as posted on the day named"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lewis-charleston"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OSM spells the street 'Nasseau'; the restaurant's spelling is used"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-sc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. The campaign's criterion, as its page states it: wood coals or charcoal as the sole heat source, no electricity or gas except for ignition or reheating.",
+   "url": "http://www.truecue.org/true-cue-sc"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Lewis Barbecue, Charleston",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  }
+ ],
+ "blurb": "A Central Texas-style barbecue restaurant at 464 North Nassau Street on the upper peninsula of Charleston, opened in June 2016 by John Lewis, a pitmaster from El Paso who cooked in Austin with Franklin Barbecue and then…",
+ "region_terms": [
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "its neighbour up the peninsula from February 2017 to May 2026, cooking the Carolina hog where Lewis cooks Texas beef.",
+   "rel": "contrast"
+  },
+  {
+   "to": "home-team-bbq",
+   "type": "place",
+   "name": "Home Team BBQ",
+   "as": "the older Charleston company, from 2006, with a Greenville store in the same city as Lewis's.",
+   "rel": "kin"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "Greenville's older barbecue house; Lewis's 2022 store is the Texas newcomer.",
+   "rel": "kin"
+  },
+  {
+   "to": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the one Carolina word on a Texas menu; sold by the pound beside the brisket.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word, meaning beef on this menu.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-lewis-about",
+   "kind": "web",
+   "title": "About — Lewis Barbecue",
+   "publisher": "Lewis Barbecue (official site)",
+   "url": "https://www.lewisbarbecue.com/about/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lewis-charleston",
+   "kind": "web",
+   "title": "Lewis Barbecue Charleston — Hours + Location",
+   "publisher": "Lewis Barbecue (official site)",
+   "url": "https://www.lewisbarbecue.com/location/lewis-barbecue-charleston/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-rough-draft-lewis-atlanta-2025",
+   "kind": "web",
+   "title": "Lewis Barbecue opens at Atlanta's Ansley Mall (December 5, 2025)",
+   "publisher": "Rough Draft Atlanta",
+   "url": "https://roughdraftatlanta.com/2025/12/05/lewis-barbecue-opens-ansley-mall-atlanta/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-lewis-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-lewis-about"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-lewis-charleston",
+   "note": "prices as posted on the day named"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-lewis-charleston"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OSM spells the street 'Nasseau'; the restaurant's spelling is used"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-sc",
+   "note": "True 'Cue certified. The campaign's criterion, as its page states it: wood coals or charcoal as the sole heat source, no electricity or gas except for ignition or reheating.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-sc"
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Lewis Barbecue, Charleston",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "the Carolina side on a Texas menu, listed beside the pinto beans.",
+   "rel": "served-at"
+  },
+  {
+   "from": "mac-and-cheese",
+   "type": "dish",
+   "name": "mac and cheese",
+   "as": "among the Charleston sides.",
+   "rel": "served-at"
+  },
+  {
+   "from": "potato-salad",
+   "type": "dish",
+   "name": "potato salad",
+   "as": "listed as creamy potato salad among the Charleston sides.",
+   "rel": "served-at"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the Charleston restaurant that, tradition holds, cooks Texas brisket the other way, in offset smokers.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bobbys-bbq",
+   "type": "place",
+   "name": "Bobby's BBQ",
+   "as": "the other Carolina house built on Central Texas method rather than a local one, three hours east in Charleston.",
+   "rel": "kin"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "Greenville's Texas-style newcomer since 2022; Henry's is the older Carolina house.",
+   "rel": "kin"
+  },
+  {
+   "from": "home-team-bbq",
+   "type": "place",
+   "name": "Home Team BBQ",
+   "as": "the Texas-style house on the peninsula since 2016; Home Team's downtown store opened the same year.",
+   "rel": "kin"
+  },
+  {
+   "from": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "its neighbour on the peninsula, opened eight months earlier, cooking Texas beef where this house cooked the Carolina hog.",
+   "rel": "contrast"
+  }
+ ]
+}

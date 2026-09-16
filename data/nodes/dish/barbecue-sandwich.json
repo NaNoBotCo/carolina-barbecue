@@ -1,0 +1,296 @@
+{
+ "schema": 1,
+ "id": "barbecue-sandwich",
+ "type": "dish",
+ "names": {
+  "name": "barbecue sandwich",
+  "aliases": [
+   "chopped barbecue sandwich",
+   "barbecue with slaw",
+   "Lexington barbecue sandwich",
+   "pork sandwich",
+   "a barbecue"
+  ],
+  "said": "Ordered as 'a barbecue' or 'a chopped sandwich'; the slaw is on it unless you say otherwise."
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "sc"
+ ],
+ "facets": {
+  "course": "main",
+  "meat": [
+   "whole hog",
+   "shoulder"
+  ],
+  "styles": [
+   "eastern-nc",
+   "lexington",
+   "sc-mustard",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "Chopped pork on a soft white bun with slaw laid on the meat. In North Carolina it is the commonest form of the sandwich: whole-hog barbecue dressed with vinegar and pepper in the east, chopped or sliced shoulder with dip and red slaw in the Piedmont. In South Carolina the meat is pulled or chopped and the sauce is mustard, vinegar-pepper or tomato by region, with slaw a common topping. The bun is a plain hamburger roll — at Skylight Inn a white bread roll — and the bread keeps the meat warm and catches the sauce.",
+  "story": "The whole-hog sandwich is a twentieth-century form: the older barbecue was a plate, or the pig itself, and the bun came with the roadside stand. At Melton's in Rocky Mount a sandwich cost 15 cents in 1929, against 45 cents for a plate with boiled potatoes. Lexington's version has a name of its own, the 'Lexington Barbecue Sandwich', and its mark is the red slaw — cabbage in vinegar and ketchup with no mayonnaise — that sits on the meat. Slaw on the sandwich is a habit the Carolinas share with Memphis, where Leonard Heuberger's restaurant, opened in 1922, put chopped shoulder, tomato sauce and slaw on a bun and other houses followed; the Carolina sandwich is the same idea with its own sauce under the slaw. *Inference —* the slaw goes on the meat rather than beside it because the sandwich was built to be eaten in one hand at a stand or in a car; the tray, with its slaw in the other half of the boat, is the sandwich opened up for people who sat down.",
+  "how": "The meat is chopped on the block and seasoned there; a spoonful of slaw goes on top and the bun closes over it. Eastern pits use white slaw, Lexington pits red slaw; at Keaton's in Cleveland the hot vinegar slaw goes on. Lexington Barbecue sells a chopped and a sliced sandwich, both with slaw, and a pork skin sandwich with slaw besides; the Barbecue Center adds a coarse chopped one. On a South Carolina buffet the pork comes with loaves of white bread, and the eater builds the sandwich at the table.",
+  "today": "Lexington Barbecue: chopped sandwich with slaw $5.70 cash, $5.85 card; sliced $5.90 cash (September 2026). The Barbecue Center: chopped $6.00, sliced or coarse chopped $6.35 (September 2026). B's Barbecue in Greenville charged $3.75 in January 2016."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style whose sandwich is whole hog, vinegar and white slaw on a bun.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "as": "the style whose sandwich carries red slaw, its defining mark.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the style whose sandwich is pulled pork under a yellow mustard sauce, slaw optional.",
+   "rel": "whole"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the same meat and slaw without the bun.",
+   "rel": "contrast"
+  },
+  {
+   "to": "red-slaw",
+   "as": "what goes on the meat in Lexington.",
+   "rel": "part"
+  },
+  {
+   "to": "white-slaw",
+   "as": "what goes on the meat in the east.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the sauce under the slaw in the Piedmont.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sauce under the slaw in the east.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce on the South Carolina sandwich.",
+   "rel": "sauce"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where the sandwich comes on a white bread roll.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "where the sandwich is chopped or sliced, with slaw, and where a pork skin sandwich sits on the same menu.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "where the sandwich comes chopped, sliced or coarse chopped.",
+   "rel": "served-at"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "where a sandwich cost 15 cents in 1929.",
+   "rel": "served-at"
+  },
+  {
+   "to": "keatons-barbecue",
+   "as": "where the slaw on the bun is a hot vinegar slaw.",
+   "rel": "served-at"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "where the buffet puts out white bread and the eater builds the sandwich.",
+   "rel": "served-at"
+  },
+  {
+   "to": "light-bread",
+   "as": "the white loaf the sandwich is built on when there is no bun.",
+   "rel": "term"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "what South Carolina calls the meat in its sandwich; in North Carolina it is chopped.",
+   "rel": "term"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the eastern filling, chopped skin and all.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the Piedmont filling.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-skins",
+   "as": "the filling of Lexington Barbecue's other sandwich.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "barbecue-tray",
+   "tell": "The bun. A tray has none; a sandwich is the same meat and slaw closed in bread."
+  }
+ ],
+ "links": [
+  {
+   "label": "Barbecue sandwich — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sandwich"
+  },
+  {
+   "label": "Lexington Barbecue — menu",
+   "url": "https://www.lexbbq.com/menu/"
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-sandwich",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-meltons-barbecue",
+  "s:wp-lexington-north-carolina",
+  "s:wp-skylight-inn-bbq",
+  "s:web-lexbbq-menu",
+  "s:web-bbq-center-menu",
+  "s:web-ourstate-bs-barbecue",
+  "s:web-ncfolk-keatons",
+  "s:wp-dukes-bar-b-que",
+  "s:ncpedia-barbecue",
+  "s:wikibooks-pulled-pork-sandwiches",
+  "s:wikibooks-eastern-north-carolina-barbecued-pig",
+  "s:wikibooks-eastern-north-carolina-barbecue-sauce"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-sandwich"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-whole-hog-barbecue",
+    "note": "Memphis from the Barbecue sandwich article; Melton's prices from its article; the last sentence is this project's inference, marked"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "prices read 2026-09-15; B's from Our State, 2016"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-pulled-pork-sandwiches",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Pulled Pork Sandwiches",
+   "source": "s:wikibooks-pulled-pork-sandwiches",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3APulled_Pork_Sandwiches",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "2 quarts water",
+    "12 ounces pickling salt",
+    "¾ cup honey",
+    "6–8 lb Boston pork butt, trimmed",
+    "2 tbsp paprika",
+    "2 tbsp black pepper",
+    "3 tbsp dehydrated lemon peel",
+    "2 tbsp cayenne pepper (more if you like)",
+    "1 ½ tbsp dried rosemary",
+    "3 tbsp dark brown sugar",
+    "Several lbs apple wood",
+    "Hamburger buns for serving"
+   ],
+   "text": "1. Combine water, salt, and honey in a 6-quart cooler. Add pork and refrigerate or place a large bag of ice on top for 8–12 hours.\n2. Remove pork from brine and pat dry with paper towels. Combine remaining seasonings and rub on pork.\n3. Light a few chunks of apple wood and place in the firebox of a smoker. Keep temperature in smoker around 210°F.\n4. Place in a smoker and cook for 8–12 hours, changing wood as needed. The meat should be tender at this point—if not, continue smoking.\n5. Let rest 1 hour, then shred with two forks. Serve on hamburger buns.",
+   "note": "Slaw on the meat, on a soft bun; the Carolina order."
+  },
+  {
+   "title": "Eastern North Carolina Barbecued Pig",
+   "source": "s:wikibooks-eastern-north-carolina-barbecued-pig",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecued_Pig",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "80 pound pig (butchered with head removed)",
+    "Salt",
+    "40 pounds charcoal (for charcoal cooking option)",
+    "Your favorite vinegar-based Eastern NC sauce"
+   ],
+   "text": "1. Salt hams, ribs/midsection and shoulders liberally and place skin side up on either a gas or charcoal grill or a BBQ pit.\n2. Keep lid closed, and aim for a heat of approximately 275–350°F.\n3. Allow 1 hour per 10 pounds cooking time (gas or charcoal).\n4. 2 hours before being done, place pig with the skin side down. As soon as it is flipped, pour BBQ sauce on meat side.\n5. Close lid and allow skin to crisp.\n6. The pig will be done to perfection when the ham bone can be twisted freely.\n7. Lift lid and allow guests to pick/pull meat, or the chef can remove meat and chop to their liking on a chopping block.",
+   "yield": "about 27 lb of meat, serving 30–40",
+   "note": "An 80-pound pig on a home pit or a covered grill, skin up all night and turned at the end; the meat that goes on the bun.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "Eastern North Carolina Barbecue Sauce",
+   "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¾ gallons apple cider vinegar",
+    "⅛ cup salt",
+    "¼ cup ground black pepper",
+    "¼ cup red pepper flakes",
+    "1 cup molasses",
+    "2 cups honey"
+   ],
+   "text": "1. Start with apple cider vinegar in saucepan over medium heat.\n2. Add salt, ground black pepper, crushed red pepper, molasses, and honey.\n3. Let mixture heat up, but not quite boil.\n4. Mix well.\n5. Return sauce to the jug that the vinegar came in to cool.",
+   "yield": "¾ gallon",
+   "note": "The sauce the chopped meat is dressed with before it reaches the bread.",
+   "region": "eastern North Carolina"
+  }
+ ],
+ "images": [
+  {
+   "file": "barbecue-sandwich/barbecue-sandwich-b-b-q-pulled-pork-sandwich.jpg",
+   "source": "commons",
+   "title": "File:B.B.Q. Pulled Pork Sandwich.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/B.B.Q._Pulled_Pork_Sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AB.B.Q._Pulled_Pork_Sandwich.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "vagueonthehow",
+   "credit": "Flickr: B.B.Q. Pulled Pork Sandwich",
+   "alt": "Slow Roasted Pork Covered with Our B.B.Q. Sauce on a Brioche Bun. Served with Cole Slaw, and French Fries or Green Salad (from the Cheesecake Factory menu)",
+   "date": "2013-07-17 15:01:04",
+   "primary": true,
+   "sha256": "7402f53122f8044801a7e06ebe5dc1b0be9b344453d13688432de3cc7b347c5c"
+  },
+  {
+   "file": "barbecue-sandwich/barbecue-sandwich-chopped-pork-sandwich-at-jds-bar-b-que-acworth-ga.jpg",
+   "source": "commons",
+   "title": "File:Chopped pork sandwich at JDs Bar B Que, Acworth GA.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Chopped_pork_sandwich_at_JDs_Bar_B_Que%2C_Acworth_GA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChopped_pork_sandwich_at_JDs_Bar_B_Que%2C_Acworth_GA.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "John Phelan",
+   "credit": "Own work",
+   "alt": "JD's Bar-B-Que, Acworth Georgia",
+   "date": "Taken on 12 September 2025 12:23:28",
+   "primary": false,
+   "sha256": "03ff4a73a4b593a9b9c3b90565b272d4a37889e53f582812a2f6371aaa4b7493"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

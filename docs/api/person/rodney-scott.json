@@ -1,0 +1,461 @@
+{
+ "schema": 1,
+ "id": "rodney-scott",
+ "type": "person",
+ "names": {
+  "name": "Rodney Scott",
+  "aliases": [
+   "Pitmaster Scott"
+  ],
+  "sort": "Scott, Rodney"
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder",
+   "chef",
+   "writer"
+  ],
+  "state": "SC",
+  "styles": [
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "Rodney Scott (born November 1, 1971) is a whole-hog pitmaster from Hemingway, in the Pee Dee of South Carolina, who cooked his first pig at eleven at his parents' store, took the business over in 2011, and in February 2017 opened Rodney Scott's Whole Hog BBQ in Charleston with Nick Pihakis. In 2018 the James Beard Foundation named him Best Chef: Southeast, the second pitmaster to win a Beard chef award. His book with Lolis Eric Elie, Rodney Scott's World of BBQ, came out in 2021. Every Rodney Scott's location closed in May 2026; he cooks pop-ups as Pitmaster Scott.",
+  "story": "Roosevelt and Ella Scott moved from Philadelphia to the Pee Dee in 1972 with their infant son, farmed and raised hogs near Nesmith, and opened a gas station and variety store on the Hemingway highway; the barbecue began as a weekend hog. Rodney cooked his first at eleven and was full time at seventeen, when the store cooked four to six a week. 'My whole life has been barbecue,' he told Rien Fertel for the Southern Foodways Alliance in June 2012, by which time the pits held eight to ten hogs a night. John T. Edge had profiled the store in 2009, and Nick Pihakis of the Jim 'N Nick's chain, a customer, told him he was undercharging. On November 27, 2013 the wooden cookhouse burned; Scott took his hogs on the road — the Bar-B-Que in Exile Tour, staged with Pihakis's Fatback Collective — to rebuild in metal. After a quarrel with his father in 2016 he left Hemingway, and in February 2017 he and Pihakis opened Rodney Scott's Whole Hog BBQ in a former fried-chicken house on upper King Street, Charleston. In May 2018 the James Beard Foundation gave him its Best Chef: Southeast award; the Chef's Table: BBQ episode about him in 2020 set the restaurant's sales records three days running. Birmingham followed in 2019, Atlanta and a second Alabama town in 2021, and the book with Lolis Eric Elie the same year. On May 3, 2026 the King Street restaurant closed 'until further notice' amid suits and liens against Pihakis Restaurant Group, and the other locations with it; in June he cooked at Munkle Brewing under a new name, Pitmaster Scott. Roosevelt Scott died in 2020 and Ella in 2023; the Hemingway store reopened in May 2024 under her brother Sam Wilson and Rodney's son Dominic.",
+  "today": "Living. His Charleston restaurant has been closed since May 3, 2026; he cooks pop-ups in Charleston as Pitmaster Scott, has said that reopening there is his first priority, and was announced in July 2026 as a headliner of the Pair'd Margaret River Region Festival in Western Australia."
+ },
+ "kin": [
+  {
+   "to": "scotts-bar-b-que",
+   "as": "his parents' store and pits at Hemingway, where he cooked his first hog at eleven and which he ran from 2011 to 2017.",
+   "rel": "origin"
+  },
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "as": "the Charleston restaurant that carried his name from February 2017 until it closed in May 2026.",
+   "rel": "place"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the style he took to the coast: whole hog over hardwood coals, vinegar and pepper.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut in his restaurant's name and the one he has cooked since he was eleven.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "his sauce: 'vinegar, pepper, some more pepper, some love', as the Hemingway record gives it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "the barrel his wood burns down in before the coals go under the hog; NPR described it in 2014.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded him at Hemingway on June 21, 2012, for its South Carolina project.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "interviewed him for the Alliance in 2012.",
+   "rel": "person"
+  },
+  {
+   "to": "pitmaster",
+   "as": "the word in his Wikipedia title, his 2018 award's footnote — the second pitmaster with a Beard chef award — and his 2026 pop-up name.",
+   "rel": "term"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "quotes him on its wood page: 'When I see the future of barbecue I see pits, I see fire, I see wood-burning.'",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Rodney Scott (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)"
+  },
+  {
+   "label": "Scott's Bar-B-Que — SFA oral history with Rodney Scott (2012)",
+   "url": "https://www.southernfoodways.org/interview/scotts-bar-b-que/"
+  },
+  {
+   "label": "Rodney Scott's BBQ — official",
+   "url": "https://www.rodneyscottsbbq.com/"
+  }
+ ],
+ "sources": [
+  "s:wp-rodney-scott-pitmaster",
+  "s:wp-rodney-scotts-whole-hog-bbq",
+  "s:wp-scotts-variety-store-and-bar-b-q",
+  "s:web-sfa-scotts-bar-b-que",
+  "s:web-npr-pit-burned-down-2014",
+  "s:web-jamesbeard-2018-winners",
+  "s:web-live5-rodney-scotts-close-2026",
+  "s:web-city-paper-rodney-scotts-closed-2026",
+  "s:web-cooter-soup-rodney-scott-back-2026",
+  "s:web-abc4-rodney-scott-paird-2026",
+  "s:web-carolina-trust-roosevelt-scott-2020",
+  "s:scott-world-of-bbq",
+  "s:web-truecue-wood"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-rodney-scott-pitmaster"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-rodney-scott-pitmaster",
+    "note": "the family's arrival, the first hog and the 2012 quote from the SFA interview; the fire and the tour from NPR (Feb 2014); the 2018 award from the Foundation's list; the 2026 closure from Live 5 and the City Paper, the pop-up from Cooter Soup (June 2026); Roosevelt Scott's death 2020 per the Carolina Trust memorial, where Wikipedia says 2010"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-abc4-rodney-scott-paird-2026",
+    "note": "the reopening statement from the Cooter Soup post, which cites the Post and Courier; the Post and Courier's own piece could not be fetched"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "rodney-scott/rodney-scott-whole-hog-barbecue-big-apple-barbecue-block-party-2013.jpg",
+   "source": "commons",
+   "title": "File:Whole hog barbecue, Big Apple Barbecue Block Party 2013.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Whole_hog_barbecue%2C_Big_Apple_Barbecue_Block_Party_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWhole_hog_barbecue%2C_Big_Apple_Barbecue_Block_Party_2013.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "kowarski",
+   "credit": "https://www.flickr.com/photos/kowarski/8990488796/",
+   "alt": "The one-and-only Rodney Scott (@rodneyscottbbq) making the best dish of the event: Whole Hog",
+   "date": "2013-06-08 12:52:53",
+   "primary": true,
+   "sha256": "851f903ad067c258ab89a2f684e2a2354150e3fa6938ae06ea03b7c6e1ac1901"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "Rodney Scott (born November 1, 1971) is a whole-hog pitmaster from Hemingway, in the Pee Dee of South Carolina, who cooked his first pig at eleven at his parents' store, took the business over in 2011, and in February…",
+ "region_terms": [
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "his parents' store and pits at Hemingway, where he cooked his first hog at eleven and which he ran from 2011 to 2017.",
+   "rel": "origin"
+  },
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "the Charleston restaurant that carried his name from February 2017 until it closed in May 2026.",
+   "rel": "place"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the style he took to the coast: whole hog over hardwood coals, vinegar and pepper.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut in his restaurant's name and the one he has cooked since he was eleven.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "his sauce: 'vinegar, pepper, some more pepper, some love', as the Hemingway record gives it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the barrel his wood burns down in before the coals go under the hog; NPR described it in 2014.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded him at Hemingway on June 21, 2012, for its South Carolina project.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed him for the Alliance in 2012.",
+   "rel": "person"
+  },
+  {
+   "to": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "the word in his Wikipedia title, his 2018 award's footnote — the second pitmaster with a Beard chef award — and his 2026 pop-up name.",
+   "rel": "term"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "quotes him on its wood page: 'When I see the future of barbecue I see pits, I see fire, I see wood-burning.'",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-rodney-scott-pitmaster",
+   "kind": "wikipedia",
+   "title": "Rodney Scott (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-rodney-scotts-whole-hog-bbq",
+   "kind": "wikipedia",
+   "title": "Rodney Scott's Whole Hog BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott%27s_Whole_Hog_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-scotts-variety-store-and-bar-b-q",
+   "kind": "wikipedia",
+   "title": "Scott's Variety Store and Bar-B-Q — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scott%27s_Variety_Store_and_Bar-B-Q",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-sfa-scotts-bar-b-que",
+   "kind": "web",
+   "title": "Scott's Bar-B-Que — Rodney Scott, interviewed by Rien Fertel, June 21, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/scotts-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-npr-pit-burned-down-2014",
+   "kind": "web",
+   "title": "When His Pit Burned Down, Southern BBQ Master Took Hogs On Tour — Debbie Elliott, The Salt, February 4, 2014",
+   "publisher": "NPR",
+   "url": "https://www.npr.org/sections/thesalt/2014/02/04/271526910/when-his-pit-burned-down-a-southern-bbq-master-took-hogs-on-tour",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-jamesbeard-2018-winners",
+   "kind": "web",
+   "title": "The 2018 James Beard Award Winners — James Beard Foundation",
+   "publisher": "James Beard Foundation",
+   "url": "https://www.jamesbeard.org/blog/the-2018-james-beard-award-winners",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-live5-rodney-scotts-close-2026",
+   "kind": "web",
+   "title": "Rodney Scott's BBQ to officially close (May 3, 2026)",
+   "publisher": "Live 5 News (WCSC), Charleston",
+   "url": "https://www.live5news.com/2026/05/03/rodney-scotts-bbq-officially-close/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-city-paper-rodney-scotts-closed-2026",
+   "kind": "web",
+   "title": "Rodney Scott's BBQ closed 'until further notice' (May 4, 2026)",
+   "publisher": "Charleston City Paper",
+   "url": "https://charlestoncitypaper.com/2026/05/04/rodney-scotts-bbq-closed-until-further-notice/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-cooter-soup-rodney-scott-back-2026",
+   "kind": "web",
+   "title": "Rodney Scott is back, sort of — Erin Perkins (June 3, 2026)",
+   "publisher": "Cooter Soup (Substack)",
+   "url": "https://cootersoupchs.substack.com/p/rodney-scott-is-back-sort-of",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-abc4-rodney-scott-paird-2026",
+   "kind": "web",
+   "title": "Charleston pitmaster Rodney Scott to headline Australia's 2026 Pair'd Festival with BBQ — ABC News 4 (1 Jul 2026)",
+   "publisher": "WCIV ABC News 4",
+   "url": "https://abcnews4.com/news/local/charleston-pitmaster-rodney-scott-to-headline-australias-2026-paird-festival-with-bbq",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-carolina-trust-roosevelt-scott-2020",
+   "kind": "web",
+   "title": "In Memory of Roosevelt Scott (December 17, 2020)",
+   "publisher": "Carolina Trust Federal Credit Union blog",
+   "url": "https://blog.carolinatrust.org/blog/in-memory-of-roosevelt-scott",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:scott-world-of-bbq",
+   "kind": "book",
+   "title": "Rodney Scott's World of BBQ: Every Day Is a Good Day",
+   "author": "Rodney Scott and Lolis Eric Elie",
+   "publisher": "Clarkson Potter",
+   "year": 2021
+  },
+  {
+   "id": "s:web-truecue-wood",
+   "kind": "web",
+   "title": "Wood — The Campaign for Real Barbecue",
+   "publisher": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "http://www.truecue.org/wood",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-rodney-scott-pitmaster"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-rodney-scott-pitmaster",
+   "note": "the family's arrival, the first hog and the 2012 quote from the SFA interview; the fire and the tour from NPR (Feb 2014); the 2018 award from the Foundation's list; the 2026 closure from Live 5 and the City Paper, the pop-up from Cooter Soup (June 2026); Roosevelt Scott's death 2020 per the Carolina Trust memorial, where Wikipedia says 2010"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-abc4-rodney-scott-paird-2026",
+   "note": "the reopening statement from the Cooter Soup post, which cites the Post and Courier; the Post and Courier's own piece could not be fetched"
+  }
+ },
+ "primary_image": {
+  "file": "rodney-scott/rodney-scott-whole-hog-barbecue-big-apple-barbecue-block-party-2013.jpg",
+  "source": "commons",
+  "title": "File:Whole hog barbecue, Big Apple Barbecue Block Party 2013.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Whole_hog_barbecue%2C_Big_Apple_Barbecue_Block_Party_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AWhole_hog_barbecue%2C_Big_Apple_Barbecue_Block_Party_2013.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "kowarski",
+  "credit": "https://www.flickr.com/photos/kowarski/8990488796/",
+  "alt": "The one-and-only Rodney Scott (@rodneyscottbbq) making the best dish of the event: Whole Hog",
+  "date": "2013-06-08 12:52:53",
+  "primary": true,
+  "sha256": "851f903ad067c258ab89a2f684e2a2354150e3fa6938ae06ea03b7c6e1ac1901"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "cooked his first hog at eleven at his parents' Hemingway store and carried the style to Charleston and a James Beard award.",
+   "rel": "person"
+  },
+  {
+   "from": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the pitmaster whose barrel and pit fire NPR described in 2014.",
+   "rel": "person"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "shovels burn-barrel coals under a belly-down hog for eight to twelve hours.",
+   "rel": "person"
+  },
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the Pee Dee pitmaster whose whole hog won a James Beard chef award in 2018.",
+   "rel": "person"
+  },
+  {
+   "from": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "its namesake and pitmaster, given the James Beard chef award for the Southeast in 2018.",
+   "rel": "person"
+  },
+  {
+   "from": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "the son who cooked his first hog here at eleven, ran the business from 2011 and left in 2017 for Charleston.",
+   "rel": "person"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "followed from the Hemingway pits onto the national scene in his book.",
+   "rel": "person"
+  },
+  {
+   "from": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "quoted on its wood page.",
+   "rel": "person"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "interviewed for its South Carolina project; profiled by John T. Edge in 2009.",
+   "rel": "person"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "who cooked at Scott's from about age eleven and took the Pee Dee hog to Charleston.",
+   "rel": "person"
+  },
+  {
+   "from": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "the Hemingway pitmaster who won a James Beard chef award in 2018, the second pitmaster to do so.",
+   "rel": "person"
+  }
+ ]
+}

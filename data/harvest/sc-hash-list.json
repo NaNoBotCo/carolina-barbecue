@@ -1,0 +1,751 @@
+{
+ "accessed": "2026-09-16",
+ "note": "South Carolina places Destination BBQ's hash map names as serving hash — a pork stew ladled over rice. Harvested for the `hash` tag ONLY. These rows are NOT a wood claim and must never be merged into data/harvest/wood-lists.json, which build.py reads as wood evidence. Names are printed as the map prints them, which includes the branch ('on Devine', 'in Latta'); match on the business, not the string.",
+ "lists": [
+  {
+   "list": "destination-bbq-hash",
+   "title": "Destination BBQ — South Carolina hash map",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/",
+   "source": "s:web-destination-bbq-hash-map",
+   "accessed": "2026-09-16",
+   "wood_claim": false,
+   "rows": [
+    {
+     "name": "Blu Smoke Pit",
+     "town": "Goose Creek",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes Bar-B-Que in Aiken",
+     "town": "Aiken",
+     "state": "SC"
+    },
+    {
+     "name": "Southbound Smokehouse in Aiken",
+     "town": "Aiken",
+     "state": "SC"
+    },
+    {
+     "name": "Moree's Bar-B-Que",
+     "town": "Andrews",
+     "state": "SC"
+    },
+    {
+     "name": "Middleton's Village BBQ",
+     "town": "Awendaw",
+     "state": "SC"
+    },
+    {
+     "name": "Radd Dew's Bar-B-Que Pit",
+     "town": "Aynor",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes BBQ of Bamberg",
+     "town": "Bamberg",
+     "state": "SC"
+    },
+    {
+     "name": "Shealy's Bar-B-Que",
+     "town": "Batesburg-Leesville",
+     "state": "SC"
+    },
+    {
+     "name": "Mother Smokin' Good BBQ",
+     "town": "Beaufort",
+     "state": "SC"
+    },
+    {
+     "name": "Q on Bay in Beaufort",
+     "town": "Beaufort",
+     "state": "SC"
+    },
+    {
+     "name": "Freeman's Bar-B-Que",
+     "town": "Beech Island",
+     "state": "SC"
+    },
+    {
+     "name": "Benjamin's Barbecue",
+     "town": "Bishopville",
+     "state": "SC"
+    },
+    {
+     "name": "Mike's Smokin' BBQ",
+     "town": "Bishopville",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes BBQ of Blackville",
+     "town": "Blackville",
+     "state": "SC"
+    },
+    {
+     "name": "Doko Smoke Barbeque",
+     "town": "Blythewood",
+     "state": "SC"
+    },
+    {
+     "name": "Lancaster's Big Oak BBQ",
+     "town": "Buffalo",
+     "state": "SC"
+    },
+    {
+     "name": "Midway BBQ",
+     "town": "Buffalo",
+     "state": "SC"
+    },
+    {
+     "name": "518 Smokehouse",
+     "town": "Chapin",
+     "state": "SC"
+    },
+    {
+     "name": "Farm Boy's Barbeque",
+     "town": "Chapin",
+     "state": "SC"
+    },
+    {
+     "name": "Bessinger's Bar-Be-Que",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes Barbecue on James Island",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Fiery Ron's Home Team BBQ - West Ashley",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Fiery Ron's Home Team BBQ in Downtown Charleston",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Melvin's Legendary Bar-B-Que on James Island",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Palmira Barbecue",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Poogan's Smokehouse",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine",
+     "town": "Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Buttermilk's BBQ",
+     "town": "Chester",
+     "state": "SC"
+    },
+    {
+     "name": "Patriots' Smokehouse",
+     "town": "Clarks Hill",
+     "state": "SC"
+    },
+    {
+     "name": "Big \"D\" Butcher & BBQ",
+     "town": "Clinton",
+     "state": "SC"
+    },
+    {
+     "name": "Big Boys Original Smokehouse",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Big Bull's Bang'n BBQ",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Big T's Bar-B-Que on Garners Ferry",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Doc's Barbeque",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Fiery Ron's Home Team BBQ Columbia",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Little Pigs Barbecue",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ - Clemson Rd.",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ on Devine",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ on Elmwood",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ on O'Neil Court",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Railroad BBQ",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "The BBQ Pit",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "The Palmetto Pig",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "The War Mouth",
+     "town": "Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Big D's BBQ Trough",
+     "town": "Conway",
+     "state": "SC"
+    },
+    {
+     "name": "Fat Daddy's BBQ and Hash House in Cross Hill",
+     "town": "Cross Hill",
+     "state": "SC"
+    },
+    {
+     "name": "Pig Out BBQ #2 in Drayton",
+     "town": "Drayton",
+     "state": "SC"
+    },
+    {
+     "name": "Game Day BBQ",
+     "town": "Duncan",
+     "state": "SC"
+    },
+    {
+     "name": "Ronnie's Ribs",
+     "town": "Elgin",
+     "state": "SC"
+    },
+    {
+     "name": "Lester's Bar-B-Que",
+     "town": "Estill",
+     "state": "SC"
+    },
+    {
+     "name": "Cain's Barbeque",
+     "town": "Florence",
+     "state": "SC"
+    },
+    {
+     "name": "Elliott's BBQ Lounge",
+     "town": "Florence",
+     "state": "SC"
+    },
+    {
+     "name": "Roger's Bar-B-Q House",
+     "town": "Florence",
+     "state": "SC"
+    },
+    {
+     "name": "Woodstone Barbeque",
+     "town": "Florence",
+     "state": "SC"
+    },
+    {
+     "name": "Big T's Bar-B-Que on Congaree",
+     "town": "Gadsden",
+     "state": "SC"
+    },
+    {
+     "name": "Price's Bar-B-Que",
+     "town": "Gilbert",
+     "state": "SC"
+    },
+    {
+     "name": "Boondocks Fish Camp & Smoke House",
+     "town": "Gray Court",
+     "state": "SC"
+    },
+    {
+     "name": "Holmes BBQ",
+     "town": "Great Falls",
+     "state": "SC"
+    },
+    {
+     "name": "Fiery Ron's Home Team BBQ in Greenville",
+     "town": "Greenville",
+     "state": "SC"
+    },
+    {
+     "name": "Henry's Smokehouse on Wade Hampton",
+     "town": "Greenville",
+     "state": "SC"
+    },
+    {
+     "name": "CJ's BBQ 2 Go",
+     "town": "Greenwood",
+     "state": "SC"
+    },
+    {
+     "name": "Carolina Barbecue Shack",
+     "town": "Greenwood",
+     "state": "SC"
+    },
+    {
+     "name": "Fat Daddy's BBQ",
+     "town": "Greenwood",
+     "state": "SC"
+    },
+    {
+     "name": "On The Run BBQ",
+     "town": "Greenwood",
+     "state": "SC"
+    },
+    {
+     "name": "Southside BBQ & Hash",
+     "town": "Greenwood",
+     "state": "SC"
+    },
+    {
+     "name": "Westwood BBQ",
+     "town": "Hartsville",
+     "state": "SC"
+    },
+    {
+     "name": "Kenny's Bar-B-Que",
+     "town": "Hemingway",
+     "state": "SC"
+    },
+    {
+     "name": "Sweatman's Bar-B-Que",
+     "town": "Holly Hill",
+     "state": "SC"
+    },
+    {
+     "name": "Pig Out BBQ in Inman",
+     "town": "Inman",
+     "state": "SC"
+    },
+    {
+     "name": "Cox Family BBQ",
+     "town": "Irmo",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ on Lake Murray Blvd",
+     "town": "Irmo",
+     "state": "SC"
+    },
+    {
+     "name": "Roy's Grille",
+     "town": "Irmo",
+     "state": "SC"
+    },
+    {
+     "name": "Brown's Bar-B-Q",
+     "town": "Kingstree",
+     "state": "SC"
+    },
+    {
+     "name": "Southside Smokehouse and Grille",
+     "town": "Landrum",
+     "state": "SC"
+    },
+    {
+     "name": "Shuler's Barbecue in Latta",
+     "town": "Latta",
+     "state": "SC"
+    },
+    {
+     "name": "Driftwood Smokehouse",
+     "town": "Leesville",
+     "state": "SC"
+    },
+    {
+     "name": "Granny & Papaw's Southern Kitchen & BBQ",
+     "town": "Lexington",
+     "state": "SC"
+    },
+    {
+     "name": "Hudson's Smokehouse and Saloon",
+     "town": "Lexington",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ in Lexington",
+     "town": "Lexington",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ on South Lake Dr",
+     "town": "Lexington",
+     "state": "SC"
+    },
+    {
+     "name": "Rizer's Pork & Produce",
+     "town": "Lodge",
+     "state": "SC"
+    },
+    {
+     "name": "D&H Bar-B-Que",
+     "town": "Manning",
+     "state": "SC"
+    },
+    {
+     "name": "JK's House of Ribs",
+     "town": "Manning",
+     "state": "SC"
+    },
+    {
+     "name": "McCabe's Bar-B-Q",
+     "town": "Manning",
+     "state": "SC"
+    },
+    {
+     "name": "Ward's Bar-B-Que in Manning",
+     "town": "Manning",
+     "state": "SC"
+    },
+    {
+     "name": "Jan's BBQ Hut",
+     "town": "Marietta",
+     "state": "SC"
+    },
+    {
+     "name": "Fork BBQ & Sports Bar",
+     "town": "Mayesville",
+     "state": "SC"
+    },
+    {
+     "name": "Sweet Caroline's",
+     "town": "McConnells",
+     "state": "SC"
+    },
+    {
+     "name": "Music Man's Bar-B-Que",
+     "town": "Moncks Corner",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine - Moncks Corner",
+     "town": "Moncks Corner",
+     "state": "SC"
+    },
+    {
+     "name": "Fiery Ron's Home Team BBQ in Mount Pleasant",
+     "town": "Mount Pleasant",
+     "state": "SC"
+    },
+    {
+     "name": "Melvin's Legendary Bar-B-Que in Mt. Pleasant",
+     "town": "Mount Pleasant",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine at Shipyard Park in Mount Pleasant",
+     "town": "Mount Pleasant",
+     "state": "SC"
+    },
+    {
+     "name": "Back Home BBQ",
+     "town": "Murrells Inlet",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine - Myrtle Beach",
+     "town": "Myrtle Beach",
+     "state": "SC"
+    },
+    {
+     "name": "True BBQ of Myrtle Beach",
+     "town": "Myrtle Beach",
+     "state": "SC"
+    },
+    {
+     "name": "Carolina Bar-B-Que",
+     "town": "New Ellenton",
+     "state": "SC"
+    },
+    {
+     "name": "Steelhorse Smokehouse",
+     "town": "Newberry",
+     "state": "SC"
+    },
+    {
+     "name": "Wise's Bar-B-Q House",
+     "town": "Newberry",
+     "state": "SC"
+    },
+    {
+     "name": "Laird's Bar-B-Q Pit",
+     "town": "North",
+     "state": "SC"
+    },
+    {
+     "name": "BBQ Barn",
+     "town": "North Augusta",
+     "state": "SC"
+    },
+    {
+     "name": "Southbound Smokehouse in North Augusta",
+     "town": "North Augusta",
+     "state": "SC"
+    },
+    {
+     "name": "Robert's Bar-B-Que",
+     "town": "North Charleston",
+     "state": "SC"
+    },
+    {
+     "name": "Country Cousins BBQ",
+     "town": "Olanta",
+     "state": "SC"
+    },
+    {
+     "name": "Antley's Bar-B-Q",
+     "town": "Orangeburg",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes Bar-B-Que on Chestnut in Orangeburg",
+     "town": "Orangeburg",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes Bar-B-Que on Whitman in Orangeburg",
+     "town": "Orangeburg",
+     "state": "SC"
+    },
+    {
+     "name": "Hog Heaven BBQ, Seafood and Country Cooking",
+     "town": "Pawleys Island",
+     "state": "SC"
+    },
+    {
+     "name": "Southern Smoke BBQ",
+     "town": "Pelzer",
+     "state": "SC"
+    },
+    {
+     "name": "Hamm's Hawg Heaven",
+     "town": "Prosperity",
+     "state": "SC"
+    },
+    {
+     "name": "KennyBo's Bar-B-Que",
+     "town": "Prosperity",
+     "state": "SC"
+    },
+    {
+     "name": "Francis Campbell's Quick Stop",
+     "town": "Rembert",
+     "state": "SC"
+    },
+    {
+     "name": "Merritt One Time BBQ",
+     "town": "Ridge Spring",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes Bar-B-Que in Ridgeville",
+     "town": "Ridgeville",
+     "state": "SC"
+    },
+    {
+     "name": "Frank's Barbeque",
+     "town": "Ridgeway",
+     "state": "SC"
+    },
+    {
+     "name": "Gardner's BBQ",
+     "town": "Rock Hill",
+     "state": "SC"
+    },
+    {
+     "name": "The Dixie Pig in Rock Hill",
+     "town": "Rock Hill",
+     "state": "SC"
+    },
+    {
+     "name": "Crossroads BBQ",
+     "town": "Saint George",
+     "state": "SC"
+    },
+    {
+     "name": "Smoke 'Em Barbecue Joint",
+     "town": "Saint Matthews",
+     "state": "SC"
+    },
+    {
+     "name": "Cooper's Country Store",
+     "town": "Salters",
+     "state": "SC"
+    },
+    {
+     "name": "Matthews Oak & Hickory BBQ",
+     "town": "Saluda",
+     "state": "SC"
+    },
+    {
+     "name": "Schoolhouse Bar-B-Que",
+     "town": "Scranton",
+     "state": "SC"
+    },
+    {
+     "name": "Henry's Smokehouse in Simpsonville",
+     "town": "Simpsonville",
+     "state": "SC"
+    },
+    {
+     "name": "B & D Bar-B-Que",
+     "town": "Smoaks",
+     "state": "SC"
+    },
+    {
+     "name": "Bubba's BBQ & Bash",
+     "town": "Spartanburg",
+     "state": "SC"
+    },
+    {
+     "name": "Little Pigs BBQ of Pine Street",
+     "town": "Spartanburg",
+     "state": "SC"
+    },
+    {
+     "name": "Smok'y Blues BBQ",
+     "town": "Spartanburg",
+     "state": "SC"
+    },
+    {
+     "name": "Bell's Family Restaurant",
+     "town": "Springfield",
+     "state": "SC"
+    },
+    {
+     "name": "Fiery Ron's Home Team BBQ on Sullivan's Island",
+     "town": "Sullivan's Island",
+     "state": "SC"
+    },
+    {
+     "name": "The Twisted Pig of Summerton",
+     "town": "Summerton",
+     "state": "SC"
+    },
+    {
+     "name": "Baker's BBQ of Summerville",
+     "town": "Summerville",
+     "state": "SC"
+    },
+    {
+     "name": "Joe Bessinger's BBQ",
+     "town": "Summerville",
+     "state": "SC"
+    },
+    {
+     "name": "Swig & Swine of Summerville",
+     "town": "Summerville",
+     "state": "SC"
+    },
+    {
+     "name": "Bar-B-Que Hut",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "KJ's Wings and Ribs",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "The Twisted Pig of Sumter",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "Ward's Bar-B-Que on Alice Dr.",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "Ward's Bar-B-Que on Hwy 15",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "Ward's Bar-B-Que on Liberty",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "Ward's Bar-B-Que on Pinewood",
+     "town": "Sumter",
+     "state": "SC"
+    },
+    {
+     "name": "Dukes Barbecue in Walterboro",
+     "town": "Walterboro",
+     "state": "SC"
+    },
+    {
+     "name": "Bobby's Bar-B-Q Buffet",
+     "town": "Warrenville",
+     "state": "SC"
+    },
+    {
+     "name": "Lee's Barbecue & Catering Service",
+     "town": "Waterloo",
+     "state": "SC"
+    },
+    {
+     "name": "City Limits Barbeque",
+     "town": "West Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Hite's Bar-B-Que",
+     "town": "West Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "Maurice's Piggie Park BBQ on Charleston Hwy",
+     "town": "West Columbia",
+     "state": "SC"
+    },
+    {
+     "name": "True BBQ in West Columbia",
+     "town": "West Columbia",
+     "state": "SC"
+    }
+   ]
+  }
+ ]
+}

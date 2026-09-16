@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "gas-and-electric-cookers",
+ "type": "pit",
+ "names": {
+  "name": "gas and electric cookers",
+  "aliases": ["gas pit", "gas cooker", "electric cooker", "gas-fired pit", "smoker oven"]
+ },
+ "region": ["carolinas"],
+ "facets": {"kind": "cooker"},
+ "text": {
+  "what": "The cookers most Carolina barbecue is cooked in: steel ovens fired by propane, natural gas or an electric element, with a thermostat and racks, and often a box for wood chips or a log to put smoke on the meat. A gas smoker lights a burner directly under a box of wood or charcoal; an electric one runs a heating element that holds any temperature from a cold smoke to about 275 degrees. New barbecue restaurants mostly open on them and many older ones switched. They cook overnight unattended, hold a set temperature, make no soot and need no one to shovel coals at three in the morning, and they are the machine behind a great deal of what both states call barbecue, sauce and slaw included.",
+  "story": "The argument has two sides and each states its reasons. The cooks who switched say it plainly: gas and electricity are cheaper and easier and the product is more consistent — John Shelton Reed grants all three — and a wood pit needs someone awake through the night, produces soot, and burns more fuel and labor for the same meat. Many owners also say the health department made them do it. Reed and the True 'Cue campaign he co-founded put a Challenge in the Raleigh News & Observer on April 23, 2014, offering a prize to anyone who could name the regulation; two years on no one had, and Daniel Vaughn in Texas and Robert Moss in South Carolina had reported the same from their states. Reed writes that one state official mentioned environmental concerns and that the actual motives remain unclear. On the other side stands the billboard at the Skylight Inn, whose four tenets include that barbecue must be cooked with wood, and the True 'Cue Pledge for those who hold that if it is not cooked with wood it is not barbecue; the campaign's wood page calls smoke 'the umami of barbecue', quotes Pete Jones, Rodney Scott and Wilber Shirley among its witnesses, and Alton Brown's joke that with gas 'you can control the heat. But you're going to go to hell.' Reed draws the line with care: the campaign has 'no beef' with cooks who use gas or electricity for ignition and temperature control so long as wood smoke reaches the meat, and reserves 'faux 'cue' for meat cooked with no smoke at all. The pig pickin' article records the same split at the backyard: propane for a steady temperature, charcoal 'touted as producing better-tasting meat'. Jim Early, searching a hundred counties for pits still cooking over wood coals, found fewer than thirty.",
+  "how": "Shoulders or a split hog go on the racks in the evening with the smoke box loaded, the thermostat holds the temperature overnight, and in the morning the meat comes off to the block. There is no burn barrel, no shoveling round and no chimney; the cook's labor is loading, unloading and chopping. The sauce, the slaw and the chop are the same as at a wood pit, which is why the customer often cannot tell and the campaigns exist to tell them.",
+  "today": "Wood pits are a counted minority: about seventy North Carolina restaurants held True 'Cue certificates in January 2018, and the Historic Barbecue Trail listed about two dozen. *Inference —* the rest of the barbecue sold in both states comes off gas or electricity."
+ },
+ "kin": [
+  {"to": "campaign-for-real-barbecue", "as": "the campaign that certifies the pits that do not use them, and challenged the claim that health rules require them.", "rel": "contrast"},
+  {"to": "north-carolina-barbecue-society", "as": "its Historic Barbecue Trail excludes them.", "rel": "contrast"},
+  {"to": "john-shelton-reed", "as": "grants that gas is cheaper, easier and more consistent, and offered a prize to anyone who could name the regulation requiring it.", "rel": "person"},
+  {"to": "jim-early", "as": "found fewer than thirty wood pits in a hundred counties; the rest cook this way.", "rel": "person"},
+  {"to": "pig-cooker", "as": "the trailer version of the same choice, gas or charcoal.", "rel": "kin"},
+  {"to": "brick-pit", "as": "the Piedmont wood pit these replaced at many restaurants.", "rel": "contrast"},
+  {"to": "block-pit", "as": "the open whole-hog pit these replaced.", "rel": "contrast"},
+  {"to": "burn-barrel", "as": "the coal-maker they do without.", "rel": "contrast"},
+  {"to": "hickory-and-oak", "as": "the wood that goes in the chip box.", "rel": "kin"},
+  {"to": "whole-hog", "as": "gas-fired whole-hog pits are the common choice of new restaurants.", "rel": "kin"},
+  {"to": "eastern-nc", "as": "many eastern pits cook shoulders or hogs on gas and are eastern by their sauce.", "rel": "kin"},
+  {"to": "skylight-inn", "as": "its billboard says barbecue must be cooked with wood.", "rel": "contrast"},
+  {"to": "pig-pickin", "as": "the same propane-versus-charcoal argument at the backyard cooker.", "rel": "event"}
+ ],
+ "confusable_with": [
+  {"id": "pig-cooker", "tell": "A restaurant's gas or electric cooker is fixed, thermostated and indoors; a pig cooker is the wheeled steel box of the pig pickin', gas or charcoal."}
+ ],
+ "links": [
+  {"label": "UNC Press Blog, 2016 — Reed on the health-department claim", "url": "https://uncpressblog.com/2016/04/06/reed-busting-barbecue-myth/"},
+  {"label": "True 'Cue — Wood", "url": "http://www.truecue.org/wood"},
+  {"label": "Smoker (cooking) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Smoker_(cooking)"}
+ ],
+ "sources": ["s:wp-whole-hog-barbecue", "s:wp-smoker-cooking", "s:web-uncpress-reed-myth", "s:web-barbecuebible-campaign", "s:web-truecue-wood", "s:wp-skylight-inn-bbq", "s:wp-pig-pickin", "s:web-wral-jim-early-dies", "s:web-ourstate-historic-barbecue-trail", "s:reed-holy-smoke"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-whole-hog-barbecue"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-uncpress-reed-myth", "note": "both sides' reasons as stated in the cited pages; no verdict is drawn"},
+   "text.how": {"tier": "cited", "source": "s:wp-smoker-cooking", "note": "the last sentence is this project's reading of why the certification campaigns exist"},
+   "text.today": {"tier": "cited", "source": "s:web-barbecuebible-campaign", "note": "the counts are cited; the remainder is inference, marked inline"}
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

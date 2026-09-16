@@ -1,0 +1,373 @@
+{
+ "schema": 1,
+ "id": "parkers-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Parker's Barbecue",
+  "aliases": [
+   "The Original Parker's Barbecue",
+   "Parker's",
+   "Parker's BBQ of Wilson"
+  ],
+  "sort": "Parkers Barbecue"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1946",
+  "fuel": "gas",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A large eastern barbecue house on U.S. 301 south of Wilson, opened in August 1946 by brothers Graham and Ralph Parker and their cousin Henry Parker Brewer, and owned since 1987 by Donald Williams, who started there in 1963, with partners Eric Lippard and Kevin Lamm. It cooks about 150 whole hogs and fries about 8,000 chickens a week for some 20,000 customers, on gas cookers the founders installed in the 1950s. The barbecue is chopped fine and dressed with vinegar and red pepper; young staff in white paper caps seat the room; cash or check only.",
+  "story": "The restaurant opened in August 1946 just off Highway 301 as a family destination for pit-cooked barbecue and fried chicken, the owners' history says. The day that set it on its feet came in 1954, when the Ralston Purina plant opened in Wilson and Parker's served 17,000 plates at 75 cents each in four hours. In the 1950s the cookers went from wood coals to gas, for a temperature that could be regulated. Donald Williams came to work in 1963 and bought the business when Graham and Ralph Parker retired in 1987. June Brunson worked there more than 62 years, until her death in 2020; Richard Ward, who came on opening day, was still a customer at 100 in 2013. Ralph Parker, the last of the founders, died on July 4, 2013 at 89. Williams and Kevin Lamm gave the Southern Foodways Alliance an oral history in November 2011, in which Lamm said the owners knew they were consistent because customers told them the place had not changed across decades. Three or four employees have been there more than forty years. On Mother's Day the kitchen uses 45 pigs and 26 chicken fryers.",
+  "how": "Hogs are dressed and cooked whole in a cinder-block building behind the restaurant, on gas cookers, and the meat is chopped fine and seasoned with a vinegar-and-red-pepper sauce. Barbecue is served from nine in the morning. Plates come with hushpuppies and slaw, and the menu runs to fried chicken, fish, string beans and, in season, oysters battered or stewed. Waiters in white caps seat and serve; the owners greet at the door.",
+  "today": "Open seven days, 9 a.m. to 7 p.m. for dine-in and to 7:30 for take-out, at 2514 U.S. Highway 301 South, Wilson, per the restaurant's site in September 2026. Cash or check; an ATM is on site. A separate Parker's operates in Greenville; the relationship is not documented here."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style at industrial scale: 150 whole hogs a week, chopped fine, vinegar and red pepper.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, though the pits are gas; Parker's shows the two are not the same question.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "its cookers since the 1950s, chosen because the temperature could be held.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on every plate with the slaw.",
+   "rel": "serves"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "Wilson's other barbecue name, a whole-hog cook who sold from his family's grocery in the same town.",
+   "rel": "person"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded the owners' oral history in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.6974271,
+  "lon": -77.9369771,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "2514 US Highway 301 S",
+  "city": "Wilson",
+  "county": "Wilson",
+  "state": "NC",
+  "postcode": "27893"
+ },
+ "links": [
+  {
+   "label": "The Original Parker's BBQ of Wilson — official",
+   "url": "https://parkersbbqwilson.com/"
+  },
+  {
+   "label": "Parker's Barbecue — SFA oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/parkers-barbecue/"
+  },
+  {
+   "label": "Parker's Barbecue in Wilson, NC — Our State",
+   "url": "https://www.ourstate.com/parkers-barbecue-in-wilson-nc/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-parkers",
+  "s:web-parkersbbqwilson",
+  "s:sfa-parkers-barbecue",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-parkers"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-parkersbbqwilson",
+    "note": "hours and payment as posted 2026-09-15; the Greenville Parker's is the one in the OSM harvest (2020 Greenville Blvd SE), not this record"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the harvest row named Parker's is the Greenville location; the Wilson original was geocoded by name via Nominatim"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-parkersbbqwilson"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:web-ourstate-parkers",
+    "note": "Gas cookers since the 1950s, so no wood-cooked tag; the whole-hog tag stands on its own."
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:web-ourstate-parkers",
+   "tier": "cited",
+   "note": "About 150 whole hogs a week, dressed and cooked whole in a cinder-block building behind the restaurant — on gas cookers the founders installed in the 1950s."
+  },
+  {
+   "tag": "cash-only",
+   "source": "s:web-parkersbbqwilson",
+   "tier": "cited",
+   "note": "Cash or check; an ATM is on site."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-parkers-barbecue"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-parkers"
+  }
+ ],
+ "blurb": "A large eastern barbecue house on U.S. 301 south of Wilson, opened in August 1946 by brothers Graham and Ralph Parker and their cousin Henry Parker Brewer, and owned since 1987 by Donald Williams, who started there in…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style at industrial scale: 150 whole hogs a week, chopped fine, vinegar and red pepper.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, though the pits are gas; Parker's shows the two are not the same question.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "its cookers since the 1950s, chosen because the temperature could be held.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "on every plate with the slaw.",
+   "rel": "serves"
+  },
+  {
+   "to": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "Wilson's other barbecue name, a whole-hog cook who sold from his family's grocery in the same town.",
+   "rel": "person"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded the owners' oral history in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-parkers",
+   "kind": "web",
+   "title": "Parker's Barbecue in Wilson, NC — Our State (2013)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/parkers-barbecue-in-wilson-nc/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-parkersbbqwilson",
+   "kind": "web",
+   "title": "The Original Parker's BBQ of Wilson — History",
+   "publisher": "Parker's Barbecue",
+   "url": "https://parkersbbqwilson.com/history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-parkers-barbecue",
+   "kind": "oral-history",
+   "title": "Parker's Barbecue — Donald Williams and Kevin Lamm, interviewed by Rien T. Fertel, 27 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/parkers-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-parkers"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-parkers"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-parkers"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-parkersbbqwilson",
+   "note": "hours and payment as posted 2026-09-15; the Greenville Parker's is the one in the OSM harvest (2020 Greenville Blvd SE), not this record"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "the harvest row named Parker's is the Greenville location; the Wilson original was geocoded by name via Nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-parkersbbqwilson"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-ourstate-parkers",
+   "note": "About 150 whole hogs a week, dressed and cooked whole in a cinder-block building behind the restaurant — on gas cookers the founders installed in the 1950s.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-parkersbbqwilson",
+   "note": "Cash or check; an ATM is on site.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "",
+   "year": null,
+   "source": "s:sfa-parkers-barbecue"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": null,
+   "source": "s:web-ourstate-parkers"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "which sells potatoes by the bulk order; its stewed version is the one a recipe writer rebuilt with hot sauce, paprika and red sauce.",
+   "rel": "served-at"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "which lists cornsticks beside hushpuppies in its bulk orders.",
+   "rel": "served-at"
+  },
+  {
+   "from": "green-beans",
+   "type": "dish",
+   "name": "green beans",
+   "as": "printed as string beans on the Wilson menu.",
+   "rel": "served-at"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "sold by the pint, quart, half gallon and gallon.",
+   "rel": "served-at"
+  },
+  {
+   "from": "smithfields-chicken-n-bar-b-q",
+   "type": "place",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "as": "the older eastern house that pairs barbecue with fried chicken at scale under one roof, in Wilson.",
+   "rel": "kin"
+  },
+  {
+   "from": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "Wilson's other barbecue name, on the highway; Mitchell's was a converted grocery in the same town.",
+   "rel": "kin"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Donald Williams and Kevin Lamm there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  }
+ ]
+}

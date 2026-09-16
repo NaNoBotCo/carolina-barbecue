@@ -1,0 +1,931 @@
+{
+ "schema": 1,
+ "id": "vinegar-pepper-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "vinegar-and-pepper sauce",
+  "aliases": [
+   "eastern sauce",
+   "Eastern North Carolina sauce",
+   "East Carolina sauce",
+   "pepper vinegar",
+   "vinegar sauce"
+  ],
+  "said": "In the east it is 'the sauce' or just 'vinegar'; Brown's in Kingstree calls its own 'barbecue gravy'."
+ },
+ "region": [
+  "nc-east",
+  "sc-pee-dee",
+  "sc-lowcountry",
+  "carolinas"
+ ],
+ "facets": {
+  "base": "vinegar-pepper",
+  "styles": [
+   "eastern-nc",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "Vinegar — cider or white — with salt, black pepper and crushed red pepper, and nothing else in its plainest form; some houses add sugar, a bottled hot sauce or lemon. It is thin enough to pour, tart, and as hot as the cook likes. It is the sauce of whole-hog barbecue on the Coastal Plain of both Carolinas, from Rocky Mount to the Pee Dee and the coast: used as a mop while the hog cooks, tossed through the chopped meat at the block, and set on the table for more. Wikipedia's history of barbecue sauce calls it the earliest American barbecue sauce and the root of most of the others.",
+  "story": "Early home barbecue sauces were vinegar, salt and pepper, and stayed so until sugar, ketchup and Worcestershire came in during the 1920s. The sauce of the eastern Carolinas, Wikipedia says, was popularised by enslaved African cooks who also shaped American barbecue itself; the South Carolina tourism office calls vinegar-and-pepper 'the oldest sauce, perhaps the oldest in the nation'; the South Carolina Barbeque Association gives it the coastal plains of both Carolinas and a share in Virginia and Georgia. *Tradition holds —* vinegar was the English kitchen's preservative and its seasoning, and the sauce is what that kitchen did to a pig.\n\nIts recipes are short. Ed Mitchell of Wilson uses apple cider vinegar, crushed red pepper, salt, sugar and black pepper. Skylight Inn dresses its chop with vinegar, salt, pepper and Texas Pete. Russell Cooper at Cooper's Country Store calls his 'downright vinegar and salt and pepper', with black, crushed and ground red pepper in it. Adam Scott of Goldsboro sold his from 1917, and his son patented it in 1946 as a sugar-free, fat-free bottle — 'Daddy never believed in putting sweet stuff on meat'. Rodney Scott's Charleston restaurant serves whole hog with a 'spicy vinegar sauce'. What none of them contains is tomato, and that absence is the whole of the east's argument with Lexington: Dennis Rogers of the Raleigh News & Observer said of the sauce, 'It doesn't need anything else'.",
+  "how": "Stir salt into vinegar until it dissolves, add black pepper and crushed red pepper, and let it sit; heat is optional. On a whole hog it is mopped on in the last hours or not at all — many pits season only at the block — and the chopped meat, skin and all, is tossed with it and salt until it tastes right. On the tray it sits in a squeeze bottle or a shaker beside the Texas Pete. It soaks into chopped meat and cuts the fat; it is not a glaze and does not thicken.",
+  "today": "Every eastern pit has its own. Bottled versions include Scott's of Goldsboro, sold in Harris Teeter and Food Lion, and Texas Pete's own Eastern Carolina BBQ Sauce, which lists apple cider vinegar, tomato paste, red pepper flakes and sugar — a tomato paste the tradition's own recipes leave out."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style it dresses: whole hog, chopped, on the Coastal Plain; the one thing every eastern pit agrees on.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the same sauce south of the line, on the Pee Dee's whole hogs and down the coast.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut it was made for; it soaks into chopped meat and cuts the fat of the whole animal.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its Piedmont descendant: the same sauce with ketchup or tomato added.",
+   "rel": "descendant"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "its South Carolina descendant: the same sauce with ketchup added, about 1900 by the SC Barbeque Association's dating.",
+   "rel": "descendant"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the Midlands' answer to it: yellow where this is clear, sweet where this is sour.",
+   "rel": "contrast"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "as": "its bottled form from Goldsboro, sold since the 1940s.",
+   "rel": "kin"
+  },
+  {
+   "to": "texas-pete",
+   "as": "the hot sauce that goes into it at Skylight Inn and stands beside it on eastern tables.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where the chop is seasoned at the block with vinegar, salt, pepper and Texas Pete.",
+   "rel": "served-at"
+  },
+  {
+   "to": "coopers-country-store",
+   "as": "where Russell Cooper's version is 'downright vinegar and salt and pepper'.",
+   "rel": "served-at"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "whose sauce is apple cider vinegar, crushed red pepper, salt, sugar and black pepper.",
+   "rel": "person"
+  },
+  {
+   "to": "adam-scott",
+   "as": "who sold his own vinegar sauce with his barbecue in Goldsboro from 1917.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "as": "the columnist who said of it, 'It doesn't need anything else'.",
+   "rel": "person"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the bottle beside the tray, for more than the block put on.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopping-block",
+   "as": "where it goes on: tossed through the chopped meat with salt before it is served.",
+   "rel": "part"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the baste at an eastern pig picking: a light vinegar sauce with red pepper flakes.",
+   "rel": "event"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lexington-dip",
+   "tell": "Hold it to the light: clear or pale amber with pepper flakes is vinegar-and-pepper; any red tint is dip or light tomato."
+  }
+ ],
+ "links": [
+  {
+   "label": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce"
+  },
+  {
+   "label": "Cooper's Country Store — Southern Foodways Alliance oral history",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/"
+  }
+ ],
+ "sources": [
+  "s:web-sauce-harvest-2026-09-16",
+  "s:wp-barbecue-sauce",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-ed-mitchell",
+  "s:wp-rodney-scotts-whole-hog-bbq",
+  "s:wp-pig-pickin",
+  "s:web-sc-four-sauces",
+  "s:web-scba-bbq-history",
+  "s:web-sfa-coopers",
+  "s:web-scotts-history",
+  "s:web-ncarts-goldsboro",
+  "s:web-abc-barbecue-feud",
+  "s:web-texas-pete-eastern-carolina",
+  "s:reed-holy-smoke",
+  "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+  "s:book-virginia-house-wife",
+  "s:book-kentucky-housewife",
+  "s:book-mrs-hills-new-cook-book"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-sauce"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-sauce",
+    "note": "the recipes from the Ed Mitchell, Skylight Inn and Rodney Scott's articles, the SFA Cooper's interview, and Scott's own history and the NC Arts Council page; Rogers from ABC News 2005; the English-kitchen sentence is marked tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method as the eastern pits describe it (Reed; the Skylight Inn article); no single recipe"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-texas-pete-eastern-carolina"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Eastern North Carolina Barbecue Sauce",
+   "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¾ gallons apple cider vinegar",
+    "⅛ cup salt",
+    "¼ cup ground black pepper",
+    "¼ cup red pepper flakes",
+    "1 cup molasses",
+    "2 cups honey"
+   ],
+   "text": "1. Start with apple cider vinegar in saucepan over medium heat.\n2. Add salt, ground black pepper, crushed red pepper, molasses, and honey.\n3. Let mixture heat up, but not quite boil.\n4. Mix well.\n5. Return sauce to the jug that the vinegar came in to cool.",
+   "yield": "¾ gallon",
+   "note": "Cider vinegar, salt, black pepper and red pepper flakes, with molasses and honey for sweetening; three quarters of a gallon at a time, returned to the vinegar jug to cool.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "Pepper Vinegar",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Get one dozen pods of pepper when ripe, take out the stems, and cut them in two; put them in a kettle with three pints of vinegar, boil it away to one quart, and strain it through a sieve. A little of this is excellent in gravy of every kind, and gives a flavour greatly superior to black pepper; it is also very fine when added to each of the various catsups for fish sauce.",
+   "page": 163,
+   "note": "The sauce's oldest written part: a dozen ripe pepper pods boiled down in vinegar until a quart is left. Printed in the first cookbook of the American South, under the condiments rather than the barbecue."
+  },
+  {
+   "title": "To Barbecue Shoat",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "text": "Take either a hind or fore quarter, rub it well with salt, pepper, and a small portion of molasses, and if practicable, let it lie for a few hours; then rinse it clean, and wipe it dry with a cloth, and place it on a large gridiron, over a bed of clear coals. Do not barbecue it hastily, but let it cook slowly for several hours, turning it over occasionally, and basting it with nothing but a little salt-water and pepper, merely to season and moisten it a little. When it is well done, serve it without a garnish, and having the skin taken off, which should be done before it is put down to roast, squeeze over it a little lemon juice, and accompany it with melted butter and wine, bread sauce, raw sallad, slaugh, or cucumbers, and stewed fruit. Beef may be barbecued in the same manner.",
+   "page": "95–96",
+   "note": "The plainest eastern mop in print, 1839: the meat is basted 'with nothing but a little salt-water and pepper, merely to season and moisten it a little.'"
+  },
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "Vinegar, salt and both peppers, with butter and mustard added — the Georgia mop of 1867, between the eastern vinegar sauce and the South Carolina mustard one."
+  }
+ ],
+ "profile": {
+  "kind": "recipe",
+  "base": "vinegar-pepper",
+  "maker": "Wikibooks Cookbook, from the contributor's friend and brother Chip Crumpler",
+  "town": "",
+  "state": "NC",
+  "ingredients": [
+   "apple cider vinegar",
+   "salt",
+   "ground black pepper",
+   "red pepper flakes",
+   "molasses",
+   "honey"
+  ],
+  "tomato_rank": 0,
+  "vinegar_rank": 1,
+  "mustard_rank": 0,
+  "sugar_rank": 5,
+  "serving_tbsp": null,
+  "sugar_g_per_tbsp": null,
+  "sodium_mg_per_tbsp": null,
+  "heat": null,
+  "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+  "url": "https://en.wikibooks.org/wiki/Cookbook:Eastern_North_Carolina_Barbecue_Sauce",
+  "accessed": "2026-09-16",
+  "note": "Measured from a recipe, not a bottle: six ingredients, vinegar first, no tomato and no mustard, with the sweetening at position five. The recipe gives volumes but no Nutrition Facts, so the per-tablespoon figures are null. Of the 68 bottles in data/harvest/sauces.json, four label a vinegar sauce with no tomato at all: Scott's of Goldsboro, Brookwood Farms of Siler City, True Made Foods' E. Carolina, and Lillie's Q No. 12."
+ },
+ "images": [
+  {
+   "file": "vinegar-pepper-sauce/vinegar-pepper-sauce-vinegar-for-north-carolina-barbecue-at-mission-bbq.jpg",
+   "source": "commons",
+   "title": "File:Vinegar for North Carolina barbecue at Mission BBQ.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Vinegar_for_North_Carolina_barbecue_at_Mission_BBQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AVinegar_for_North_Carolina_barbecue_at_Mission_BBQ.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Ser Amantio di Nicolao",
+   "credit": "Own work",
+   "alt": "Bottle of vinegar for the table",
+   "date": "2023-03-10",
+   "primary": true,
+   "sha256": "5d5c53f56d68ad323ebdd8d91b1f787785cb6a7ee5c90321f26460adac1df92a"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "Vinegar — cider or white — with salt, black pepper and crushed red pepper, and nothing else in its plainest form; some houses add sugar, a bottled hot sauce or lemon.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style it dresses: whole hog, chopped, on the Coastal Plain; the one thing every eastern pit agrees on.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the same sauce south of the line, on the Pee Dee's whole hogs and down the coast.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut it was made for; it soaks into chopped meat and cuts the fat of the whole animal.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its Piedmont descendant: the same sauce with ketchup or tomato added.",
+   "rel": "descendant"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "its South Carolina descendant: the same sauce with ketchup added, about 1900 by the SC Barbeque Association's dating.",
+   "rel": "descendant"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the Midlands' answer to it: yellow where this is clear, sweet where this is sour.",
+   "rel": "contrast"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "its bottled form from Goldsboro, sold since the 1940s.",
+   "rel": "kin"
+  },
+  {
+   "to": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "the hot sauce that goes into it at Skylight Inn and stands beside it on eastern tables.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "where the chop is seasoned at the block with vinegar, salt, pepper and Texas Pete.",
+   "rel": "served-at"
+  },
+  {
+   "to": "coopers-country-store",
+   "type": "place",
+   "name": "Cooper's Country Store",
+   "as": "where Russell Cooper's version is 'downright vinegar and salt and pepper'.",
+   "rel": "served-at"
+  },
+  {
+   "to": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "whose sauce is apple cider vinegar, crushed red pepper, salt, sugar and black pepper.",
+   "rel": "person"
+  },
+  {
+   "to": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "as": "who sold his own vinegar sauce with his barbecue in Goldsboro from 1917.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "the columnist who said of it, 'It doesn't need anything else'.",
+   "rel": "person"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the bottle beside the tray, for more than the block put on.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "where it goes on: tossed through the chopped meat with salt before it is served.",
+   "rel": "part"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the baste at an eastern pig picking: a light vinegar sauce with red pepper flakes.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-sauce-harvest-2026-09-16",
+   "kind": "web",
+   "title": "Bottled Carolina barbecue sauce labels, 68 rows",
+   "publisher": "This project — data/harvest/sauces.json",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "The harvest file itself: every label this project could read on 2026-09-16, with the page each row came from. Cited where a record reports a figure computed across the harvest rather than from one bottle.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-barbecue-sauce",
+   "kind": "wikipedia",
+   "title": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-ed-mitchell",
+   "kind": "wikipedia",
+   "title": "Ed Mitchell (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ed_Mitchell_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-rodney-scotts-whole-hog-bbq",
+   "kind": "wikipedia",
+   "title": "Rodney Scott's Whole Hog BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott%27s_Whole_Hog_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:web-sc-four-sauces",
+   "kind": "web",
+   "title": "South Carolina's Four Barbecue Sauces (Gwen Fowler)",
+   "publisher": "South Carolina Department of Parks, Recreation & Tourism — discoversouthcarolina.com",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-coopers",
+   "kind": "web",
+   "title": "Cooper's Country Store — oral history with Russell Cooper (Rien Fertel, 15 Jun 2012)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scotts-history",
+   "kind": "web",
+   "title": "Our History",
+   "publisher": "Scott's Barbecue Sauce, Goldsboro",
+   "url": "https://scottsbarbecuesauce.com/our-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ncarts-goldsboro",
+   "kind": "web",
+   "title": "Let's Eat: Goldsboro — African American Music Trails",
+   "publisher": "North Carolina Arts Council",
+   "url": "https://www.ncarts.org/arts-council-z/cultural-tourism-and-trails/african-american-music-trails/lets-eat/goldsboro",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-abc-barbecue-feud",
+   "kind": "web",
+   "title": "Smoke, Fire as BBQ Bigshots Battle Over Ketchup (John Berman, World News Tonight, 2 Jun 2005)",
+   "publisher": "ABC News",
+   "url": "https://abcnews.go.com/WNT/story?id=813146",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-texas-pete-eastern-carolina",
+   "kind": "web",
+   "title": "Eastern Carolina BBQ Sauce — product page",
+   "publisher": "T.W. Garner Food Company (texaspete.com)",
+   "url": "https://texaspete.com/shop/eastern-carolina-bbq-sauce/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "kind": "web",
+   "title": "Cookbook:Eastern North Carolina Barbecue Sauce — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:book-virginia-house-wife",
+   "kind": "book",
+   "title": "The Virginia House-Wife, or Methodical Cook",
+   "author": "Mrs. Mary Randolph",
+   "publisher": "Plaskitt & Cugle, Baltimore",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1824, the first cookbook of the American South. Read in the stereotype printing scanned by the Internet Archive as virginiahousewif00rand, whose page numbers are used here; the fourth-edition scan (virginiahousewi00rand, printed about 1830) was read alongside it to settle characters each scan loses."
+  },
+  {
+   "id": "s:book-kentucky-housewife",
+   "kind": "book",
+   "title": "The Kentucky Housewife, Containing Nearly Thirteen Hundred Full Receipts",
+   "author": "Mrs. Lettice Bryan",
+   "publisher": "Shepard & Stearns, Cincinnati",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "accessed": "2026-09-16",
+   "license": "Public domain"
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-sauce"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-sauce",
+   "note": "the recipes from the Ed Mitchell, Skylight Inn and Rodney Scott's articles, the SFA Cooper's interview, and Scott's own history and the NC Arts Council page; Rogers from ABC News 2005; the English-kitchen sentence is marked tradition"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the method as the eastern pits describe it (Reed; the Skylight Inn article); no single recipe"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-texas-pete-eastern-carolina"
+  }
+ },
+ "primary_image": {
+  "file": "vinegar-pepper-sauce/vinegar-pepper-sauce-vinegar-for-north-carolina-barbecue-at-mission-bbq.jpg",
+  "source": "commons",
+  "title": "File:Vinegar for North Carolina barbecue at Mission BBQ.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Vinegar_for_North_Carolina_barbecue_at_Mission_BBQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AVinegar_for_North_Carolina_barbecue_at_Mission_BBQ.jpg",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "Ser Amantio di Nicolao",
+  "credit": "Own work",
+  "alt": "Bottle of vinegar for the table",
+  "date": "2023-03-10",
+  "primary": true,
+  "sha256": "5d5c53f56d68ad323ebdd8d91b1f787785cb6a7ee5c90321f26460adac1df92a"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "its sauce, and the one thing every eastern pit agrees on: vinegar, salt, pepper, no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "the base it adds ketchup to; the older sauce it grew from about 1900.",
+   "rel": "origin"
+  },
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "its sauce: vinegar, salt, black and red pepper, mopped on the hog and poured over the meat.",
+   "rel": "sauce"
+  },
+  {
+   "from": "bone-suckin-sauce",
+   "type": "sauce",
+   "name": "Bone Suckin' Sauce",
+   "as": "the sauce its Eastern Vinegar bottle reaches for, and stops short of at the sugar and the tomato paste.",
+   "rel": "contrast"
+  },
+  {
+   "from": "carolina-treet",
+   "type": "sauce",
+   "name": "Carolina Treet",
+   "as": "the eastern sauce it shares a first two ingredients with and then leaves, at the wheat flour.",
+   "rel": "contrast"
+  },
+  {
+   "from": "georges-barbecue-sauce",
+   "type": "sauce",
+   "name": "George's Barbecue Sauce",
+   "as": "the sauce of its own region, which stops where this bottle adds tomato and sugar.",
+   "rel": "contrast"
+  },
+  {
+   "from": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "the Carolinas' oldest sauce, from which this is the furthest departure: tomato and sugar where that is vinegar and pepper.",
+   "rel": "contrast"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the east's sauce it grew from: vinegar, salt and pepper, before the ketchup went in.",
+   "rel": "origin"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the base: add ketchup and this is what you get.",
+   "rel": "origin"
+  },
+  {
+   "from": "melvins-golden-sauce",
+   "type": "sauce",
+   "name": "Melvin's Golden Sauce",
+   "as": "what the house's newest bottle reaches for, made for a North Carolinian at a Charleston counter.",
+   "rel": "kin"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the older Carolina sauce it stands against: clear and sour where this is yellow and sweet.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sam-jones-sauce",
+   "type": "sauce",
+   "name": "Sam Jones BBQ sauce",
+   "as": "what goes on the chopped pork at the block, against the five grams of sugar a tablespoon in the bottle.",
+   "rel": "contrast"
+  },
+  {
+   "from": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "the sauce family it belongs to — in a bottle since the mid-1940s, with no sugar and no fat.",
+   "rel": "whole"
+  },
+  {
+   "from": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "the sauce it goes into at Skylight Inn and sits beside everywhere else.",
+   "rel": "kin"
+  },
+  {
+   "from": "wells-hog-heaven",
+   "type": "sauce",
+   "name": "Wells Hog Heaven Barbecue Sauce",
+   "as": "the sauce it is a bottling of, by the maker's own description.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "what brushes the eastern half chicken.",
+   "rel": "sauce"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the sauce under the slaw in the east.",
+   "rel": "sauce"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "what dresses the meat in an eastern tray.",
+   "rel": "sauce"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "what the stewed broth is built to taste like, and what goes over them at the table.",
+   "rel": "sauce"
+  },
+  {
+   "from": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the sharpness the slaw's sweetness answers on the same tray.",
+   "rel": "kin"
+  },
+  {
+   "from": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "goes on at the block, with salt.",
+   "rel": "sauce"
+  },
+  {
+   "from": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "his sauce, inherited, hot and spicy.",
+   "rel": "sauce"
+  },
+  {
+   "from": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "its barbecue gravy: vinegar and hot pepper, mopped on the hog on the pit.",
+   "rel": "sauce"
+  },
+  {
+   "from": "coopers-country-store",
+   "type": "place",
+   "name": "Cooper's Country Store",
+   "as": "its sauce — vinegar, salt, black, crushed and ground red pepper — mopped on at the flip.",
+   "rel": "sauce"
+  },
+  {
+   "from": "luellas-bar-b-que",
+   "type": "place",
+   "name": "Luella's Bar-B-Que",
+   "as": "its sauce, the eastern one, carried into the mountains.",
+   "rel": "sauce"
+  },
+  {
+   "from": "mccabes-bar-b-q",
+   "type": "place",
+   "name": "McCabe's Bar-B-Q",
+   "as": "its sauce — vinegar, salt, pepper and a little ketchup — the Pee Dee's, not the mustard of the Midlands an hour west.",
+   "rel": "sauce"
+  },
+  {
+   "from": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "its sauce, the Pee Dee's vinegar and pepper, carried to the coast.",
+   "rel": "sauce"
+  },
+  {
+   "from": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "its sauce: vinegar, black and red pepper, nothing thicker.",
+   "rel": "sauce"
+  },
+  {
+   "from": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "the family sauce is the eastern sauce: vinegar, salt, spices, no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "from": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "as": "his sauce is the eastern sauce: vinegar and spices, no tomato, no sugar.",
+   "rel": "sauce"
+  },
+  {
+   "from": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "'It doesn't need anything else': his verdict on it, to ABC in 2005.",
+   "rel": "sauce"
+  },
+  {
+   "from": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "his sauce: cider vinegar, crushed red pepper, salt, sugar and black pepper.",
+   "rel": "sauce"
+  },
+  {
+   "from": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "'an astringent thing', in his words to ABC in 2005.",
+   "rel": "sauce"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "the oldest sauce in his account, hundreds of years old.",
+   "rel": "sauce"
+  },
+  {
+   "from": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "his sauce: 'vinegar, pepper, some more pepper, some love', as the Hemingway record gives it.",
+   "rel": "sauce"
+  },
+  {
+   "from": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "the sauce it dates back hundreds of years.",
+   "rel": "sauce"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "the eastern-style vinegar sauce on the chopped pork.",
+   "rel": "sauce"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the eastern baste.",
+   "rel": "sauce"
+  },
+  {
+   "from": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the eastern cousin: the same vinegar and pepper without the tomato that makes a dip red, and called sauce.",
+   "rel": "contrast"
+  },
+  {
+   "from": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "the Down East sauce: no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the Pee Dee sauce: 'watery thin and fiery hot'.",
+   "rel": "sauce"
+  },
+  {
+   "from": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "as": "the sauce the east will not add tomato to.",
+   "rel": "sauce"
+  }
+ ]
+}

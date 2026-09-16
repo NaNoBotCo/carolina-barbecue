@@ -1,0 +1,220 @@
+{
+ "schema": 1,
+ "id": "mac-and-cheese",
+ "type": "dish",
+ "names": {
+  "name": "mac and cheese",
+  "aliases": [
+   "macaroni and cheese",
+   "macaroni pie",
+   "baked macaroni"
+  ],
+  "said": "Said as one word on a menu board — 'mac and cheese' — and counted as a vegetable on a meat-and-three line."
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "sc-mustard",
+   "sc-pee-dee",
+   "eastern-nc",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Macaroni in a cheese sauce, most often cheddar, baked in a dish until the top browns. On a Carolina barbecue buffet it sits with the vegetables and is taken as one, cut in squares from a hotel pan rather than spooned; a stovetop version bound with a white sauce is the other common form. In the Lowcountry and in Black Southern kitchens the baked, custard-set kind is often called macaroni pie.",
+  "story": "The dish reaches the South through the first cookbook written here. Elizabeth Raffald printed a baked macaroni with cream, butter and Parmesan in England in 1769; one account has James Hemings, enslaved by Thomas Jefferson and trained as a cook in France, bringing the method to the United States, and Jefferson served 'a pie called macaroni' at a state dinner in 1802. Mary Randolph's The Virginia House-Wife of 1824 carries a recipe under the name macaroni and cheese: three things, macaroni, cheese and butter, layered and baked in a hot oven. Mrs. A. P. Hill's Southern cookbook of 1867 gives the same layering and then a custard version with three beaten eggs poured over. Factory macaroni and factory cheese put it within reach of every household, and by then it had stopped being a rich person's dish. On a Carolina barbecue menu it is a late arrival and a well-established one: at Luella's in Asheville it is on the board because the daughter the restaurant is half named for likes it.",
+  "how": "Macaroni is boiled in salted water until just tender and drained. For the baked kind it is layered in a dish with grated cheddar, salt and pieces of butter, covered with milk or cream, and baked until the top browns; for the custard kind beaten eggs and evaporated or whole milk are poured over the layers so the dish sets and can be cut. A stovetop version makes a Mornay — a white sauce with cheese melted into it — and stirs the macaroni through. At a pit it is baked in a hotel pan in the morning and held warm on the line.",
+  "today": "On the buffet at Dukes Bar-B-Que in Orangeburg, at Shealy's in Batesburg-Leesville, at Brown's in Kingstree, and at Jackie Hite's in Leesville while it ran. Among the sides at Lewis Barbecue in Charleston. At Luella's in Asheville it is the daughter's recipe. Barack Obama ate it at 12 Bones in Asheville on April 23, 2010, with ribs, corn pudding and sweet tea."
+ },
+ "kin": [
+  {
+   "to": "dukes-bar-b-que",
+   "as": "on the buffet line with the collards and the fried okra.",
+   "rel": "served-at"
+  },
+  {
+   "to": "shealys-bar-b-que",
+   "as": "one of the vegetables on the Batesburg-Leesville line.",
+   "rel": "served-at"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "'macaroni' on the Kingstree buffet, between the liver hash and the sweet potatoes.",
+   "rel": "served-at"
+  },
+  {
+   "to": "jackie-hites-bar-b-q",
+   "as": "on the buffet beside the hash and rice.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lewis-barbecue",
+   "as": "among the Charleston sides.",
+   "rel": "served-at"
+  },
+  {
+   "to": "luellas-bar-b-que",
+   "as": "the daughter's recipe, and half the reason her name is on the sign.",
+   "rel": "served-at"
+  },
+  {
+   "to": "12-bones-smokehouse",
+   "as": "what Barack Obama ate there on April 23, 2010, with ribs and corn pudding.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the other starch on a South Carolina buffet; a plate often takes both.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "a square of it in the tray, counted as a vegetable.",
+   "rel": "part"
+  },
+  {
+   "to": "fixins",
+   "as": "one of the fixins on a Dukes buffet.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Macaroni and cheese — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Macaroni_and_cheese"
+  }
+ ],
+ "sources": [
+  "s:wp-macaroni-and-cheese",
+  "s:wp-dukes-bar-b-que",
+  "s:web-shealys-home",
+  "s:web-sfa-browns-bar-b-q",
+  "s:web-sfa-jackie-hites-bar-b-q",
+  "s:web-lewis-charleston",
+  "s:web-ourstate-luellas-2011",
+  "s:web-mountainx-obama-2010"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-macaroni-and-cheese"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-macaroni-and-cheese",
+    "note": "Luella's from Our State (2011)"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-dukes-bar-b-que",
+    "note": "Lewis menu as posted 15 September 2026; the Obama visit from Mountain Xpress (2010)"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-virginia-house-wife",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Macaroni",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Boil as much macaroni as will fill your dish, in milk and water, till quite tender; drain it on a sieve, sprinkle a little salt over it, put a layer in your dish, then cheese and butter as in the polenta, and bake it in the same manner.\n\n[The polenta receipt it points back to, from the page before:] …slices of cheese and butter, put the dish in a quick oven; twenty or thirty minutes will bake it.",
+   "page": 84,
+   "note": "Three things — macaroni, cheese, butter — layered and baked, in the 1824 book that carries the first American recipe under this name. The brackets are this site's; the words inside them are the book's."
+  },
+  {
+   "title": "Macaroni (receipt 564)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Wash half a pound of macaroni; boil it in plenty of water until tender; lay in a shallow earthen dish a layer of the macaroni (the pieces should be broken the same size), one of grated cheese, and salt to taste. Lay over slices of butter; cover with sweet milk or cream. Bake in a moderate oven, ten or fifteen minutes. Serve hot. Another way is, to arrange alternate layers of boiled macaroni and grated cheese. Pour over a custard made of three well beaten eggs, two tablespoonfuls of stale grated bread, one tablespoonful of butter, and half a teacup of cream or sweet milk. Bake half an hour, or until the custard is set. If boiled too long, it will lose its shape; if baked too much, it will be dry and tough.",
+   "page": "240–241",
+   "note": "The second method — eggs poured over the layers and baked until set — is the macaroni pie that cuts in squares."
+  },
+  {
+   "title": "Aunt Katy's Macaroni",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "text": "Put macaroni on to boil in water with a little salt. When tender drain off water. Put in a baking dish first a layer of macaroni, then cheese, crumbs and butter. Pour milk over it and bake.",
+   "page": 141,
+   "ingredients": [
+    "One-half small sized package of macaroni,",
+    "One-third pound cheese.",
+    "One cup of milk.",
+    "Butter the size of a walnut.",
+    "One-half cup of bread crumbs."
+   ]
+  },
+  {
+   "title": "Macaroni and Cheese I",
+   "source": "s:wikibooks-macaroni-and-cheese-i",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AMacaroni_and_Cheese_I",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "½ cup (8 tbsp / 1 stick / 125 g / 4.4 oz) butter",
+    "½ cup (70 g / 2.5 oz) flour",
+    "4 cups (1 L / 1.1 quart) milk, heated",
+    "1 cup (125 g / 4.4 oz) cheddar cheese",
+    "1 cup (125 g / 4.4 oz) Parmesan or Monterey Jack cheese",
+    "½ tsp cayenne pepper, or to taste",
+    "1 pound (450 g) macaroni noodles, boiled and drained"
+   ],
+   "text": "1. Make a roux using the butter and flour.\n2. Add the heated milk, and whisk until smooth to complete the white sauce.\n3. Mix in the cheese and cayenne pepper.\n4. Mix the cheese sauce into the cooked macaroni noodles until well-coated.",
+   "yield": "4–6 servings"
+  },
+  {
+   "title": "Macaroni and Cheese (Baked)",
+   "source": "s:wikibooks-macaroni-and-cheese-baked",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AMacaroni_and_Cheese_%28Baked%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "[Base] ½ lb (227 g) dry elbow macaroni",
+    "[Base] 3 Tbsp butter",
+    "[Base] 3 Tbsp flour",
+    "[Base] 1 Tbsp powdered mustard",
+    "[Base] 3 cups milk",
+    "[Base] 1 red onion, finely chopped",
+    "[Base] 2 tsp Tabasco pepper sauce",
+    "[Base] 1 bay leaf",
+    "[Base] ½ tsp paprika",
+    "[Base] 1 standard egg",
+    "[Base] 12 oz (340 g) sharp cheddar, shredded",
+    "[Base] 1 tsp salt",
+    "[Base] Fresh black pepper",
+    "[Topping] 3 Tbsp butter",
+    "[Topping] 1 cup panko bread crumbs"
+   ],
+   "text": "1. Preheat oven to 350 °F.\n2. In a large pot of boiling, salted water, cook the pasta until it is al dente.\n3. While the pasta is cooking, melt the butter in a separate pot.\n4. Whisk in the flour and mustard and keep it moving for about five minutes. Make sure it is free of lumps.\n5. Stir in the milk, onion, bay leaf, and paprika. Simmer for ten minutes and remove the bay leaf.\n6. Temper in the egg.\n7. Stir in ¾ of the cheese.\n8. Season with salt and pepper.\n9. Fold the macaroni into the mix and pour into a 2-quart casserole dish.\n10. Top with remaining cheese.\n11. Melt the butter in a sauté pan, add breadcrumbs, and toss to coat.\n12. Top the macaroni with the bread crumbs.\n13. Bake for 30 minutes.\n14. Remove from oven and rest for 10 minutes before serving."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

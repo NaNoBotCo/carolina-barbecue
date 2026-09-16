@@ -1,0 +1,312 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "alston-bridges-barbecue",
+ "names": {
+  "name": "Alston Bridges Barbecue",
+  "aliases": [
+   "Alston Bridges"
+  ],
+  "sort": "Alston Bridges Barbecue"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1955",
+  "fuel": "mixed",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The Shelby pork-shoulder house of the other Bridges family, on East Grover Street in Cleveland County, where Alston Bridges and his wife Mabel bought the property in 1955. Alston learned the trade from his brother-in-law Warner Stamey, managing Stamey's Log Cabin Barbecue in Lexington for two and a half years first. About fifty shoulders a day go through the kitchen; the tray is chopped or coarse-chopped pork with red slaw and hushpuppies. What is under the meat is disputed: three accounts describe electric cookers or gas, one promotional listing says wood-smoked.",
+  "story": "Two Bridges families cook barbecue in Shelby and they are not related — a shared ancestor somewhere in the 1700s is as close as the local history will put them. Warner Stamey trained both Red Bridges and Alston Bridges in the 1940s, and Alston's apprenticeship is the documented one: he and Mabel moved to Lexington, he managed Stamey's Log Cabin Barbecue for two and a half years, and then they came to Shelby and bought 620 East Grover Street. The county history gives the year as 1955 and a visiting writer gives 1956. Alston died in 1970; his son Kent and Kent's wife Linda took it on, and the county history says Kent and Linda's children operate the business now. Our State found Alston's grandson Reid Bridges behind the counter in 2013, explaining the difference between chopped and coarse-chopped. The fuel is where the sources part. Our State wrote in 2013 that he starts the pork on electric cookers and finishes it in a pit. A visiting writer in March 2024 found the smoke missing and put it down to a move from pit to gas some years earlier. The NC Pork Council's listing calls it wood-smoked. Neither the Historic Barbecue Trail nor the Campaign for Real Barbecue lists the house, and both exclude gas and electric.",
+  "how": "About fifty pork shoulders a day, from a short-shank cut the kitchen buys through a Gastonia distributor. Our State's account of the method has the pork starting on electric cookers and finishing in a pit. The meat is chopped or coarse-chopped to order and served with red slaw, the cabbage cut fine and dressed with the Piedmont dip, and hushpuppies. The menus read: Pigs are Beautiful.",
+  "today": "Open at 620 East Grover Street, Shelby. Hours differ across three listings, and the restaurant's own site was posting a Labor Day closing and a September 8 return when read on September 16, 2026. Check before driving."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style of its tray, cooked forty miles west of Lexington itself.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut — about fifty short-shank shoulders a day.",
+   "rel": "part"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "his brother-in-law and teacher; Alston managed Stamey's Log Cabin Barbecue before opening here.",
+   "rel": "person"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the slaw on its tray, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "the other Bridges barbecue in Shelby, from another family Stamey also trained.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "red-bridges-barbecue-lodge",
+   "tell": "Two Bridges, one town, no relation closer than a possible common ancestor in the 1700s. Red Bridges Barbecue Lodge is on US 74 and burns hickory and oak; Alston Bridges is on East Grover Street and its fuel is disputed in the sources. Warner Stamey taught both men in the 1940s."
+  }
+ ],
+ "geo": {
+  "lat": 35.30425,
+  "lon": -81.5277,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "620 E Grover St",
+  "city": "Shelby",
+  "county": "Cleveland",
+  "state": "NC",
+  "postcode": "28150"
+ },
+ "links": [
+  {
+   "label": "Alston Bridges Barbecue — official site",
+   "url": "https://alstonbridgesbbq.com/"
+  },
+  {
+   "label": "Food & Eateries — Cleveland County History",
+   "url": "https://clevelandcountynchistory.org/food/"
+  },
+  {
+   "label": "Tar Heel Town: Shelby — Our State (2013)",
+   "url": "https://www.ourstate.com/shelby/"
+  }
+ ],
+ "sources": [
+  "s:web-clevelandcounty-history",
+  "s:web-ourstate-shelby-2013",
+  "s:web-barbecuebros-alston-bridges-2024",
+  "s:web-alstonbridges",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-clevelandcounty-history"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-clevelandcounty-history",
+    "note": "Stamey lineage and the 1955 purchase from Cleveland County History; Reid Bridges and the electric-then-pit method from Our State, September 5, 2013; the gas account from Barbecue Bros, March 4, 2024; 1956 is the competing year."
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-ourstate-shelby-2013",
+    "note": "'mixed' records the conflict: Our State (2013) has the pork started on electric cookers and finished in a pit, Barbecue Bros (2024) reports a move to gas, the NC Pork Council's listing says wood-smoked. No wood-cooked tag is set on a disputed record."
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-alstonbridges",
+    "note": "the restaurant's own Labor Day notice, read 2026-09-16; three listings give three sets of hours"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "harvest row way/1024718852"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:web-clevelandcounty-history",
+   "tier": "cited",
+   "note": "Alston and Mabel Bridges bought the property in 1955; after Alston's death in 1970 their son Kent and his wife Linda ran it, and the county history says Kent and Linda's children operate it now."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "our-state",
+   "what": "a feature in the magazine's Tar Heel Town series on Shelby",
+   "source": "s:web-ourstate-shelby-2013",
+   "year": 2013,
+   "url": "https://www.ourstate.com/shelby/"
+  },
+  {
+   "by": "other",
+   "what": "Alston Bridges named among the honorees of the North Carolina Barbecue Hall of Fame",
+   "source": "s:web-barbecuebros-alston-bridges-2024",
+   "note": "reported at second hand on a barbecue blog in March 2024; the hall of fame's own site returned no readable content"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "The Shelby pork-shoulder house of the other Bridges family, on East Grover Street in Cleveland County, where Alston Bridges and his wife Mabel bought the property in 1955.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style of its tray, cooked forty miles west of Lexington itself.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut — about fifty short-shank shoulders a day.",
+   "rel": "part"
+  },
+  {
+   "to": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "his brother-in-law and teacher; Alston managed Stamey's Log Cabin Barbecue before opening here.",
+   "rel": "person"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the slaw on its tray, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "the other Bridges barbecue in Shelby, from another family Stamey also trained.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-clevelandcounty-history",
+   "kind": "web",
+   "title": "Food & Eateries",
+   "publisher": "Cleveland County History",
+   "url": "https://clevelandcountynchistory.org/food/",
+   "accessed": "2026-09-16",
+   "note": "undated"
+  },
+  {
+   "id": "s:web-ourstate-shelby-2013",
+   "kind": "web",
+   "title": "Tar Heel Town: Shelby",
+   "author": "Sarah Perry",
+   "publisher": "Our State",
+   "year": 2013,
+   "url": "https://www.ourstate.com/shelby/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-barbecuebros-alston-bridges-2024",
+   "kind": "web",
+   "title": "Alston Bridges is more than just 'the other Bridges'",
+   "publisher": "Barbecue Bros",
+   "year": 2024,
+   "url": "https://barbecuebros.co/2024/03/04/alston-bridges-is-more-than-just-the-other-bridges/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-alstonbridges",
+   "kind": "web",
+   "title": "Alston Bridges Barbecue — official site",
+   "publisher": "Alston Bridges Barbecue, Shelby",
+   "url": "https://alstonbridgesbbq.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-clevelandcounty-history"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-clevelandcounty-history",
+   "note": "Stamey lineage and the 1955 purchase from Cleveland County History; Reid Bridges and the electric-then-pit method from Our State, September 5, 2013; the gas account from Barbecue Bros, March 4, 2024; 1956 is the competing year."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-clevelandcounty-history"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-alstonbridges",
+   "note": "the restaurant's own Labor Day notice, read 2026-09-16; three listings give three sets of hours"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "harvest row way/1024718852"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-clevelandcounty-history",
+   "note": "Alston and Mabel Bridges bought the property in 1955; after Alston's death in 1970 their son Kent and his wife Linda ran it, and the county history says Kent and Linda's children operate it now.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature in the magazine's Tar Heel Town series on Shelby",
+   "url": "https://www.ourstate.com/shelby/",
+   "year": 2013,
+   "source": "s:web-ourstate-shelby-2013"
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "Alston Bridges named among the honorees of the North Carolina Barbecue Hall of Fame",
+   "url": "",
+   "year": null,
+   "source": "s:web-barbecuebros-alston-bridges-2024"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": []
+}

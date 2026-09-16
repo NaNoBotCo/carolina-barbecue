@@ -1,0 +1,399 @@
+{
+ "schema": 1,
+ "id": "piedmont",
+ "type": "term",
+ "names": {
+  "name": "Piedmont",
+  "aliases": [
+   "the Piedmont",
+   "Piedmont-style",
+   "Piedmont Triad",
+   "Upstate",
+   "Upcountry",
+   "Western"
+  ],
+  "said": "In North Carolina barbecue talk 'Piedmont style' is Lexington style — shoulders and a red dip — and a Piedmont pit is west of Raleigh. South Carolina calls its Piedmont the Upstate, and once called it the Upcountry."
+ },
+ "etymology": {
+  "root": "Italian Piemonte, from medieval Latin Pedemontium, ad pedem montium, 'at the foot of the mountains' — Latin pes, pedis 'foot' + mons, montis 'mountain' — the region below the Alps, in documents from the end of the twelfth century (Wikipedia); through French Piémont; applied to the American plateau at the foot of the Appalachians as piemont in 1755, with the d by 1855, and extended to the foot of other ranges by 1860 (etymonline)",
+  "first_attested": "American sense 1755, as piemont (etymonline); Pedemontium, late twelfth century (Wikipedia)",
+  "note": "The Piedmont Triad — Greensboro, Winston-Salem, High Point — is the region whose 'Official Food Festival' the legislature made the Lexington Barbecue Festival in 2007, a way of not naming a state barbecue.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": [
+  "nc-piedmont",
+  "sc-upstate"
+ ],
+ "facets": {
+  "letter": "P",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The plateau between the coastal plain and the Blue Ridge, from New York to Alabama and nearly 300 miles wide in North Carolina; its eastern edge is the fall line, where rivers drop off hard rock onto the soft plain and towns grew at the head of navigation. In North Carolina barbecue, Piedmont style is Lexington style — pork shoulder, a red vinegar-and-ketchup dip, red slaw — and 'Western' means the same. In South Carolina the Piedmont is the Upstate, Greenville, Spartanburg and Anderson, where the sauce is a thin ketchup and vinegar and the hash is pork and beef.",
+  "story": "Piemonte is the foot of the Alps, named in Latin documents by 1200; English took it through French and in 1755 applied piemont to the country at the foot of the Appalachians, adding the d by 1855. The fall line is where the name earns itself: the Piedmont's rivers leave the hard rock in a line of rapids, and the Congaree forms at Columbia on it. Wikipedia calls Lexington style 'Piedmont- or Western-style', most common in the Piedmont and west, pork shoulder only, with a red dip and red slaw; the South Carolina Encyclopedia has shoulders, hams and Boston butts in the Piedmont against the whole hog of the coastal plain. Lexington, 20 miles south of Winston-Salem in the Piedmont Triad, calls itself the Barbecue Capital of the World, and in 2007 the legislature made its festival the Official Food Festival of the Piedmont Triad Region. South Carolina's Upstate takes a light tomato sauce that Wikipedia attributes to North Carolina's influence, and its hash is beef and pork with onions. *Inference —* the Piedmont cooks the shoulder because a shoulder is what a town butcher sells; the whole hog stayed with the farm."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style the word means in North Carolina barbecue: 'Piedmont- or Western-style'.",
+   "rel": "term"
+  },
+  {
+   "to": "dip",
+   "as": "the Piedmont's word for its sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the Piedmont's sauce.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the Piedmont's slaw, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the Piedmont's cut; the coastal plain cooks the whole hog.",
+   "rel": "part"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "the South Carolina Piedmont's sauce, a thin ketchup and vinegar credited to North Carolina's influence.",
+   "rel": "term"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "as": "western South Carolina's sweeter, thicker sauce, also Piedmont country.",
+   "rel": "term"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "in the Upstate the hash is beef and pork with onions.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "the Official Food Festival of the Piedmont Triad Region, by act of the legislature, 2007.",
+   "rel": "event"
+  },
+  {
+   "to": "down-east",
+   "as": "the other side of the fall line.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dutch-fork",
+   "as": "the Fork lies where the Piedmont's rivers join at the fall line.",
+   "rel": "kin"
+  },
+  {
+   "to": "pee-dee",
+   "as": "the people the river is named for lived in the South Carolina Piedmont.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "down-east",
+   "tell": "Piedmont means west of the fall line: shoulder, red dip, red slaw. If the tray has white slaw and chopped skin through the meat, you are east of it."
+  }
+ ],
+ "links": [
+  {
+   "label": "Piedmont — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/Piedmont"
+  },
+  {
+   "label": "Piedmont (United States) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Piedmont_(United_States)"
+  },
+  {
+   "label": "Upstate South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Upstate_South_Carolina"
+  }
+ ],
+ "sources": [
+  "s:etymonline",
+  "s:wp-piedmont",
+  "s:wp-piedmont-united-states",
+  "s:wiktionary-piedmont",
+  "s:wp-upstate-south-carolina",
+  "s:wp-congaree-river",
+  "s:wp-barbecue-in-north-carolina",
+  "s:web-sc-encyclopedia-barbecue",
+  "s:wp-lexington-north-carolina",
+  "s:wp-lexington-barbecue-festival",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-hash-stew"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-piedmont-united-states"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:etymonline",
+    "note": "the Latin from the Piedmont article; the fall line from the US Piedmont and Congaree articles; the barbecue from the NC and SC articles and the SC Encyclopedia; the festival from its article; the last sentence is inference"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage; 'Piedmont- or Western-style' is the NC article's phrase, 'historically known as the Upcountry' the Upstate article's"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The plateau between the coastal plain and the Blue Ridge, from New York to Alabama and nearly 300 miles wide in North Carolina; its eastern edge is the fall line, where rivers drop off hard rock onto the soft plain and…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style the word means in North Carolina barbecue: 'Piedmont- or Western-style'.",
+   "rel": "term"
+  },
+  {
+   "to": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the Piedmont's word for its sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the Piedmont's sauce.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the Piedmont's slaw, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the Piedmont's cut; the coastal plain cooks the whole hog.",
+   "rel": "part"
+  },
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "the South Carolina Piedmont's sauce, a thin ketchup and vinegar credited to North Carolina's influence.",
+   "rel": "term"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "western South Carolina's sweeter, thicker sauce, also Piedmont country.",
+   "rel": "term"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "in the Upstate the hash is beef and pork with onions.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the Official Food Festival of the Piedmont Triad Region, by act of the legislature, 2007.",
+   "rel": "event"
+  },
+  {
+   "to": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "the other side of the fall line.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "as": "the Fork lies where the Piedmont's rivers join at the fall line.",
+   "rel": "kin"
+  },
+  {
+   "to": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the people the river is named for lived in the South Carolina Piedmont.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline",
+   "kind": "web",
+   "title": "Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "id": "s:wp-piedmont",
+   "kind": "wikipedia",
+   "title": "Piedmont — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Piedmont",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-piedmont-united-states",
+   "kind": "wikipedia",
+   "title": "Piedmont (United States) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Piedmont_(United_States)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wiktionary-piedmont",
+   "kind": "web",
+   "title": "Piedmont — Wiktionary",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/Piedmont",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-upstate-south-carolina",
+   "kind": "wikipedia",
+   "title": "Upstate South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Upstate_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-congaree-river",
+   "kind": "wikipedia",
+   "title": "Congaree River — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Congaree_River",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-sc-encyclopedia-barbecue",
+   "kind": "web",
+   "title": "Barbecue — South Carolina Encyclopedia",
+   "publisher": "University of South Carolina, Institute for Southern Studies",
+   "url": "https://www.scencyclopedia.org/sce/entries/barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-barbecue-festival",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-hash-stew",
+   "kind": "wikipedia",
+   "title": "Hash (stew) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hash_(stew)",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1334401453"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-piedmont-united-states"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:etymonline",
+   "note": "the Latin from the Piedmont article; the fall line from the US Piedmont and Congaree articles; the barbecue from the NC and SC articles and the SC Encyclopedia; the festival from its article; the last sentence is inference"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-piedmont-united-states"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the region whose name is this style's other name.",
+   "rel": "term"
+  },
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "the North Carolina region the SC Barbeque Association pairs it with.",
+   "rel": "term"
+  },
+  {
+   "from": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "the other direction — west of the fall line, where the shoulder and the dip begin.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "as": "the Fork's rivers join at Columbia on the fall line, where the Piedmont ends.",
+   "rel": "kin"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "where the Pee Dee people lived before the name moved downriver.",
+   "rel": "kin"
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "schema": 1,
+ "id": "john-shelton-reed",
+ "type": "person",
+ "names": {
+  "name": "John Shelton Reed",
+  "aliases": [
+   "Éminence Grease",
+   "Eminence Grease",
+   "J. S. Reed"
+  ],
+  "sort": "Reed, John Shelton"
+ },
+ "region": [
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "role": [
+   "scholar",
+   "writer",
+   "organizer"
+  ],
+  "styles": [
+   "eastern-nc",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A sociologist of the American South, born 1942, who taught at the University of North Carolina at Chapel Hill from 1969 until 2000 and retired as William Rand Kenan Jr. Professor. With his wife Dale Volberg Reed and William McKinney he wrote Holy Smoke: The Big Book of North Carolina Barbecue (UNC Press, 2008); alone, Barbecue: A Savor the South Cookbook (2016) and On Barbecue (2021). In 2013 he and Dan Levine founded the Campaign for Real Barbecue, which certifies restaurants that cook their local style over wood alone. He lives in Chapel Hill.",
+  "story": "Reed came to barbecue after a career on the South itself: MIT, a Columbia doctorate in 1971, the Center for the Study of the American South, which he helped found, and the quarterly Southern Cultures, which he co-edited. Holy Smoke, written with Dale and William McKinney, gives North Carolina's two styles their history, their recipes and their people, and in it the Reeds lamented how much of the state's barbecue was cooked on gas. In 2011 he wrote the introduction to the Southern Foodways Alliance's North Carolina barbecue oral histories, opening with George Washington's diary for May 27, 1769 — a barbecue in Alexandria and a night away — and the point that until the early twentieth century barbecue was for harvests, fundraisers and rallies, never home cooking. The campaign came two years later: a retired professor 'with time on my hands', in his words, and Dan Levine, 'Porky LeSwine' of the blog BBQJew, set out to find and list the places still cooking entirely with wood, Levine as Chief Smoke Detector, Reed as Éminence Grease. On April 23, 2014, in the Raleigh News & Observer, they offered a prize — an apron, later a cap as well — to anyone who could name the statute, regulation or official that forbade a restaurant to cook with wood, since owners so often said the health department had made them switch; two years on nobody had claimed it, and Daniel Vaughn in Texas and Robert Moss in South Carolina had found the same in their states. Reed allows that gas is cheaper, easier and more consistent. Dale Volberg Reed died in 2018. On Barbecue (University of Tennessee Press, 2021) collects his essays, reviews and op-eds on the subject, and in 2023 the governor gave him the Order of the Long Leaf Pine.",
+  "today": "Retired, in Chapel Hill; co-founder and Éminence Grease of the campaign, whose site listed about seventy North Carolina restaurants in January 2018 and remains active in 2026. His own site lists The Ramos Gin Fizz (LSU Press, 2025) and a revised 1001 Things Everyone Should Know About the South, due in 2027."
+ },
+ "kin": [
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "co-founded it in 2013 with Dan Levine; Éminence Grease on its masthead; wrote the True 'Cue Challenge of April 23, 2014.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "wrote the introduction to its North Carolina barbecue oral-history project, posted April 25, 2011.",
+   "rel": "kin"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "grants that they are cheaper, easier and more consistent, and put up a prize for anyone who could name the regulation said to require them.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the only heat the campaign he co-founded certifies.",
+   "rel": "kin"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "as": "the Reeds interviewed Wilber Shirley for Holy Smoke; UNC Press reprinted the interview when he died in 2021.",
+   "rel": "place"
+  },
+  {
+   "to": "wilber-shirley",
+   "as": "interviewed by the Reeds for Holy Smoke.",
+   "rel": "person"
+  },
+  {
+   "to": "allen-and-son",
+   "as": "Keith Allen, interviewed at length for Holy Smoke.",
+   "rel": "place"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "one of the two styles Holy Smoke sets out, history and recipes together.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "as": "the other style Holy Smoke sets out.",
+   "rel": "kin"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "his line — that until the early twentieth century barbecue was reserved for harvests, fundraisers and political rallies — opens the Alliance's North Carolina project.",
+   "rel": "event"
+  },
+  {
+   "to": "robert-moss",
+   "as": "found in South Carolina, as Reed's challenge had in North Carolina, that no rule forbids cooking with wood.",
+   "rel": "person"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "Reed's blurb on The One True Barbecue: it 'should be read by anyone who thinks barbecue is about sticky red sauce'.",
+   "rel": "person"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word his 2016 Savor the South book takes as its whole title.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "John Shelton Reed — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/John_Shelton_Reed"
+  },
+  {
+   "label": "Holy Smoke — UNC Press",
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "label": "Barbecue: A Savor the South Cookbook — UNC Press",
+   "url": "https://uncpress.org/book/9781469626703/barbecue/"
+  },
+  {
+   "label": "The Campaign for Real Barbecue — About",
+   "url": "http://www.truecue.org/about"
+  },
+  {
+   "label": "Books — John Shelton Reed's site",
+   "url": "http://johnshelton.weebly.com/books.html"
+  }
+ ],
+ "sources": [
+  "s:wp-john-shelton-reed",
+  "s:reed-holy-smoke",
+  "s:reed-savor-the-south",
+  "s:reed-on-barbecue",
+  "s:web-truecue-about",
+  "s:web-barbecuebible-campaign",
+  "s:web-uncpress-reed-myth",
+  "s:web-sfa-north-carolina-bbq",
+  "s:web-uncpress-wilber-shirley",
+  "s:web-uncpress-keith-allen",
+  "s:web-johnshelton-books",
+  "s:web-rienfertel-onetruebarbecue",
+  "s:true-cue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-john-shelton-reed"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-barbecuebible-campaign",
+    "note": "career from the Wikipedia article; the campaign's founding and titles from truecue.org and Reed's 2018 BarbecueBible piece; the Challenge from the UNC Press blog (2016); the SFA introduction from the project page; the two interviews from the UNC Press blog posts that reprint them"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-johnshelton-books",
+    "note": "the campaign's status from truecue.org as read on 2026-09-15; the 2018 count from Reed's own piece"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A sociologist of the American South, born 1942, who taught at the University of North Carolina at Chapel Hill from 1969 until 2000 and retired as William Rand Kenan Jr. Professor.",
+ "region_terms": [
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "co-founded it in 2013 with Dan Levine; Éminence Grease on its masthead; wrote the True 'Cue Challenge of April 23, 2014.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "wrote the introduction to its North Carolina barbecue oral-history project, posted April 25, 2011.",
+   "rel": "kin"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "grants that they are cheaper, easier and more consistent, and put up a prize for anyone who could name the regulation said to require them.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the only heat the campaign he co-founded certifies.",
+   "rel": "kin"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "the Reeds interviewed Wilber Shirley for Holy Smoke; UNC Press reprinted the interview when he died in 2021.",
+   "rel": "place"
+  },
+  {
+   "to": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "interviewed by the Reeds for Holy Smoke.",
+   "rel": "person"
+  },
+  {
+   "to": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "Keith Allen, interviewed at length for Holy Smoke.",
+   "rel": "place"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "one of the two styles Holy Smoke sets out, history and recipes together.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the other style Holy Smoke sets out.",
+   "rel": "kin"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "his line — that until the early twentieth century barbecue was reserved for harvests, fundraisers and political rallies — opens the Alliance's North Carolina project.",
+   "rel": "event"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "found in South Carolina, as Reed's challenge had in North Carolina, that no rule forbids cooking with wood.",
+   "rel": "person"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "Reed's blurb on The One True Barbecue: it 'should be read by anyone who thinks barbecue is about sticky red sauce'.",
+   "rel": "person"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word his 2016 Savor the South book takes as its whole title.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-john-shelton-reed",
+   "kind": "wikipedia",
+   "title": "John Shelton Reed — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/John_Shelton_Reed",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1364106499"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:reed-savor-the-south",
+   "kind": "book",
+   "title": "Barbecue: A Savor the South Cookbook",
+   "author": "John Shelton Reed",
+   "publisher": "University of North Carolina Press",
+   "year": 2016
+  },
+  {
+   "id": "s:reed-on-barbecue",
+   "kind": "book",
+   "title": "On Barbecue",
+   "author": "John Shelton Reed",
+   "publisher": "University of Tennessee Press",
+   "year": 2021,
+   "url": "https://utpress.org/title/on-barbecue/"
+  },
+  {
+   "id": "s:web-truecue-about",
+   "kind": "web",
+   "title": "About — The Campaign for Real Barbecue",
+   "publisher": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "http://www.truecue.org/about",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebible-campaign",
+   "kind": "web",
+   "title": "The Campaign for Real Barbecue (John Shelton Reed, January 23, 2018)",
+   "publisher": "BarbecueBible.com",
+   "url": "https://barbecuebible.com/2018/01/23/campaign-real-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uncpress-reed-myth",
+   "kind": "web",
+   "title": "John Shelton Reed: Busting a Barbecue Myth (April 6, 2016)",
+   "publisher": "UNC Press Blog",
+   "url": "https://uncpressblog.com/2016/04/06/reed-busting-barbecue-myth/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-north-carolina-bbq",
+   "kind": "web",
+   "title": "North Carolina BBQ (oral history project, posted April 25, 2011; introduction by John Shelton Reed)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/north-carolina-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uncpress-wilber-shirley",
+   "kind": "web",
+   "title": "Celebrating the Life of North Carolina's Barbecue Legend Wilber Shirley — UNC Press Blog (16 Apr 2021)",
+   "publisher": "University of North Carolina Press",
+   "url": "https://uncpressblog.com/2021/04/16/celebrating-the-life-of-north-carolinas-barbecue-legend-wilber-shirley/",
+   "accessed": "2026-09-15",
+   "note": "excerpts the Holy Smoke interview"
+  },
+  {
+   "id": "s:web-uncpress-keith-allen",
+   "kind": "web",
+   "title": "Interview with Keith Allen, owner of Allen & Son Barbecue Restaurant in Chapel Hill, on the occasion of its closing — UNC Press Blog (19 Dec 2018)",
+   "publisher": "University of North Carolina Press",
+   "url": "https://uncpressblog.com/2018/12/19/interview-with-keith-allen-owner-of-allen-son-barbecue-restaurant-in-chapel-hill-on-the-occasion-of-its-closing/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-johnshelton-books",
+   "kind": "web",
+   "title": "Books — John Shelton Reed (personal site)",
+   "publisher": "John Shelton Reed",
+   "url": "http://johnshelton.weebly.com/books.html",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-rienfertel-onetruebarbecue",
+   "kind": "web",
+   "title": "The One True Barbecue — the author's book page",
+   "publisher": "rienfertel.com (Rien Fertel)",
+   "url": "https://www.rienfertel.com/onetruebarbecue-book",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:true-cue",
+   "kind": "org",
+   "title": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "https://www.truecue.org/",
+   "note": "certifies pits cooking over wood coals only; a campaign, cited here as a fact about the tradition, not adopted as a standard"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-john-shelton-reed"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-barbecuebible-campaign",
+   "note": "career from the Wikipedia article; the campaign's founding and titles from truecue.org and Reed's 2018 BarbecueBible piece; the Challenge from the UNC Press blog (2016); the SFA introduction from the project page; the two interviews from the UNC Press blog posts that reprint them"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-johnshelton-books",
+   "note": "the campaign's status from truecue.org as read on 2026-09-15; the 2018 count from Reed's own piece"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "pig-pickin-cake",
+   "type": "dish",
+   "name": "pig pickin' cake",
+   "as": "who dates the expression 'pig-picking' to the 1970s, and with it the cake's name.",
+   "rel": "person"
+  },
+  {
+   "from": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "grants that gas is cheaper, easier and more consistent, and offered a prize to anyone who could name the regulation requiring it.",
+   "rel": "person"
+  },
+  {
+   "from": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "interviewed Allen at length for Holy Smoke.",
+   "rel": "person"
+  },
+  {
+   "from": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "interviewed Shirley for Holy Smoke; the closed-pit quotation comes from that book.",
+   "rel": "person"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "blurbed the book.",
+   "rel": "person"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "whose True 'Cue Challenge Moss answered from South Carolina in the Columbia Free Times.",
+   "rel": "person"
+  },
+  {
+   "from": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "interviewed him for Holy Smoke; the quotations here are from that book.",
+   "rel": "person"
+  },
+  {
+   "from": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "its co-founder, 'Eminence Grease', and the author of the 2014 Challenge.",
+   "rel": "person"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "wrote the introduction to its North Carolina barbecue project.",
+   "rel": "person"
+  }
+ ]
+}

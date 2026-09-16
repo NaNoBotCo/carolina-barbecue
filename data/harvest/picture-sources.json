@@ -1,0 +1,151 @@
+{
+ "accessed": "2026-09-16",
+ "note": "Survey of free-to-use picture sources for Carolina barbecue and for pig art. Yields marked MEASURED were retrieved on this machine on 2026-09-16; yields marked REPORTED were verified by a research pass that loaded the pages but whose files this project has not downloaded. loc.gov, si.edu and collection.si.edu are all behind Cloudflare and refused every request from this machine; nypl.org is behind Imperva and dp.la behind AWS WAF. The subject splits in two: generic pig imagery is abundant and free, Carolina barbecue imagery is scarce and mostly encumbered.",
+ "sources": [
+  {
+   "name": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org",
+   "what_it_holds": "The only source that produced a picture for this project. Three strands. (1) Library of Congress mirrors: the John Margolies Roadside America archive, 11,710 slides of American signs and roadside buildings, 1969-2008; Carol M. Highsmith's America; the Farm Security Administration / Office of War Information negatives including Marion Post Wolcott's 1939 Carolina work. (2) Boston Public Library's Tichnor Brothers postcard collection, around 25,000 linen-era cards, 1930-1945, split by state. (3) Individual uploads: Dennis Brown's thirteen Pigs in the City sculptures at Lexington, Jay Cuthrell's Wilber's pig weather vane, Southern Foodways Alliance festival photographs, the City of Greenville's B's Barbecue set.",
+   "licence_terms": "Per file, stated on the file page and returned by the API as extmetadata.LicenseShortName. The harvester accepts CC0, Public domain, CC BY, CC BY-SA and FAL and skips the rest. Margolies is public domain because the Library of Congress bought the intellectual property with the archive.",
+   "how_to_fetch": "tools/harvest_commons.py --search and --walk write triage to data/images/_triage/; --harvest <id> --apply downloads at 1200px with a JSON sidecar. No key. Two harvester faults found and fixed on 2026-09-16: the Library of Congress sets are uploaded as TIFF and Commons serves a JPEG rendition, which the tool was rejecting on the original's mime type, losing 463 triage rows including the whole Margolies corpus; and long titles truncated to the same 60 characters, so two files silently overwrote each other and a record claimed a checksum for bytes it did not have.",
+   "yield": "MEASURED. 196 queries, 7,363 rows, 7,233 free, 3,124 of them free raster images rather than scanned book pages. 115 pictures now on 22 records, 49 MB.",
+   "picks": [
+    "File:Pig neon sign, Beale Street, Memphis, Tennessee LCCN2010630376.tif — Highsmith; a neon pig in sunglasses eating a pork sandwich under PORK WITH AN ATTITUDE!, the clearest example of the genre found anywhere",
+    "File:Red Pig Drive-in sign, Nahunta, Georgia LCCN2017709836.tif — Margolies 1979; neon pig in a chef's toque carrying a covered tray",
+    "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709630.tif — Margolies 1988; the pig Little Joe over BAR-B-Q, the best-documented Carolina pig sign",
+    "File:Steve's Bar-B-Q sign, Spencer, North Carolina LCCN2017709851.tif — Margolies 1982; a Pepsi-Cola cap in neon above the restaurant's own name",
+    "Category:Pigs in the City (Lexington, North Carolina) — 13 files, all CC BY 3.0",
+    "File:The Negro tenants and neighbors eating dinner after the whit... (3109741227).jpg — Wolcott, Tally Ho near Stem, Granville County NC, November 1939",
+    "File:Barbecue Lodge (5756066932).jpg — Boston Public Library; Fayetteville NC linen postcard",
+    "File:Pitmaster ed mitchell.jpg — Southern Foodways Alliance 2008; Ed Mitchell basting a whole hog"
+   ]
+  },
+  {
+   "name": "State Archives of North Carolina on Flickr Commons",
+   "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
+   "what_it_holds": "117,159 photographs. THE BEST SOURCE FOUND for actual Carolina barbecue: postcards of named joints from the PhC.184 Massengill Postcard Collection, Albert Barden's Raleigh negatives, John Hemmer's 1944 plantation barbecue, and pit-cooking photographs. This is where the Carolina roadside material lives, and it is in neither Commons nor Openverse.",
+   "licence_terms": "Flickr licence 7, 'No known copyright restrictions', which is NOT a public-domain declaration. The Commons usage page says in capitals that participating institutions share the benefit of their research without any warranty, and reminds the user to conduct an independent analysis before a new use. ⚠ THE LICENCE IS PER PHOTO, NOT PER COLLECTION: the same collection and the same photographer are split, with 2008-era uploads tending to All Rights Reserved and 2015-onward uploads carrying licence 7. Some images appear twice, once each way. Check every photo page.",
+   "how_to_fetch": "Search within the account at https://www.flickr.com/search/?user_id=24231108%40N08&text=<term> — and search both barbecue and barbeque, which return different sets. The Flickr API needs a key. NOT HARVESTABLE BY THIS PROJECT AS IT STANDS: 'No known copyright restrictions' is not on the harvester's or validate.py's free-licence allowlist, and adding it would be a licence decision, not a code change.",
+   "yield": "REPORTED. Eight items verified as licence 7, listed below. The seam is much larger than eight; nobody has counted the barbecue subset.",
+   "picks": [
+    "Wilbur's Barbecue 001 — https://www.flickr.com/photos/north-carolina-state-archives/22130466182/ — PhC.184 Massengill Postcard Collection",
+    "Parkers Barbecue — https://www.flickr.com/photos/north-carolina-state-archives/21952129989/ — Massengill Postcard Collection",
+    "Barbecue Lodge, Raleigh — https://www.flickr.com/photos/north-carolina-state-archives/21951194018/ — Massengill Postcard Collection",
+    "N_53_17_314 — https://www.flickr.com/photos/north-carolina-state-archives/32810373053/ — unidentified man cooking barbecue over a pit, photo by Albert Barden",
+    "ConDev4659_Overview — https://www.flickr.com/photos/north-carolina-state-archives/47900676451/ — barbecue at Braswell Plantation, Battleboro NC, September 1944, John Hemmer",
+    "PhC_23_1_2570_12 — https://www.flickr.com/photos/north-carolina-state-archives/39519124674/ — Clyde Cooper's Barbeque, 109 East Davie Street, Raleigh, 1963",
+    "N_53_16_6322 — https://www.flickr.com/photos/north-carolina-state-archives/33240739600/ — Southern Bell Telephone Co Barbecue, 10 April 1941, Barden"
+   ]
+  },
+  {
+   "name": "Suicide Food (blog)",
+   "url": "https://suicidefood.blogspot.com/",
+   "what_it_holds": "Not a picture source — the only systematic catalogue of the cannibal-pig genre anyone has made, and the thing that named it. 929 posts, 20 December 2006 to 27 December 2011, by a Seattle writer who signs himself Ben; the surname Grossblatt comes from Lindy West's profile in The Stranger on 1 November 2007 and appears nowhere in the blog's own text. Its definition is a depiction of animals that act as though they wish to be consumed. Every entry is rated on a five-point scale headed Psych Evaluations, counted in nooses. Tag counts: pig 539, bbq 399, chicken 238, cow 210, chef hat 114, sunglasses 107. An eleven-part series, 2007 to 2011, named the recycled stock pig logo Repetitious Porcine Emblemology. Still online; the last post calls the project a pause.",
+   "licence_terms": "All rights reserved, and its images are third-party advertising art. Citable and linkable, never harvestable.",
+   "how_to_fetch": "Read it. Blogger's JSON feed at /feeds/posts/summary?alt=json gives counts and tags. Archived at the Wayback Machine from 14 June 2007, roughly 410 snapshots.",
+   "yield": "Zero pictures, one whole record. Press: Cory Doctorow, Boing Boing, 19 April 2007; Lindy West, The Stranger, 1 November 2007; Andrew Simmons, LA Weekly, 7 July 2011; Mariann Sullivan, Our Hen House, 6 July 2011. Scholarship: none. OpenAlex returns three title-or-abstract hits and thirty-eight full-text hits for the phrase, all false positives. Carol J. Adams's anthropornography and Melanie Joy's carnism are real and citable, but nothing found connects either to the barbecue pig mascot, so this project does not.",
+   "picks": [
+    "The header definition, for the one quotation the cannibal-pig-sign record uses",
+    "The noose scale, the genre's only published taxonomy",
+    "Repetitious Porcine Emblemology, a useful term with a citable origin",
+    "English Wikipedia's Suicide food article dates the term to the early 2010s, which the blog's own archive contradicts by four years; do not cite it for chronology"
+   ]
+  },
+  {
+   "name": "DPLA — Digital Public Library of America",
+   "url": "https://dp.la",
+   "what_it_holds": "An index, not a holder: metadata plus a cached thumbnail, with every record pointing at the contributing institution. The facet that works is the hub, not the location: barbecue + partner=\"North Carolina Digital Heritage Center\" returns 185, barbecue + partner=\"South Carolina Digital Library\" returns 56. Note the naming is inverted from intuition — provider= returns nothing, partner= is the hub.",
+   "licence_terms": "Set by the contributor and frequently imprecise. Five rightsCategory values; only Unlimited Re-Use is safe, and it merges two unlike statements. NoC-US is a positive determination that the item IS public domain in the United States. NKC, No Known Copyright, is the absence of one: a conclusive determination could not be made. ⚠ The search-results payload STRIPS edmRights — never judge rights from a results page. Neither statement touches trademark, which is live here because a photograph of a branded barbecue sign can be copyright-free while the logo is not.",
+   "how_to_fetch": "The website is behind AWS WAF and returns 202 with an empty body to plain curl. The right route is the S3 bulk export: s3://dpla-provider-export, publicly listable over HTTPS with no credentials, latest 2026/09/, per-hub files 2026/09/digitalnc.jsonl/ (772,095 records) and 2026/09/scdl.jsonl/. Grep those offline: no wall, no key, and edmRights intact. ⚠ API keys are issued by POST to https://api.dp.la/v2/api_key/<email>, which EMAILS the key. A key was issued to this project's own address during the survey as a side effect of testing that issuance still works; it is not used by any tool here.",
+   "yield": "REPORTED. Rights split for the 185 NC barbecue items: Unspecified 123, Permission or Fair Use 47, Unlimited Re-Use 9, No Modification 6. For the 56 SC items: all 56 Unspecified, so filtering to Unlimited Re-Use gives ZERO. Nine freely reusable Carolina barbecue items in the whole aggregation, all in North Carolina.",
+   "picks": [
+    "N.C. Barbecue, 1898, Tarboro, Edgecombe County — https://dp.la/item/96abe939a872392078c613438c0fd5ca — NoC-US — people cooking a long row of pigs over coals in shallow trenches. The single best historical find in this survey.",
+    "Wright's Auto Machine Company BBQ, 1 April 1943, Durham County Library — https://dp.la/item/ad79812708d77c5a2f3cda328dba96a7 — NoC-US",
+    "The Original Lexington Barbecue, Hwy 52 at Motor Rd, 1930 postcard, UNC — https://dp.la/item/17c875f63ddbaabf49089be4b65742bc — rights string is the bare words 'Public domain'; DPLA files it Unspecified. Roof sign and a gas pump. ASK UNC BEFORE PUBLISHING.",
+    "Charlotte, N.C. ... Special North Carolina Barbecue, 1905 postcard, UNC — https://dp.la/item/1624cab3d5fb7f14d8120aaa9591e237 — same caveat",
+    "OFF LIMITS, listed so nobody chases them: Hagans Barbecue 1939 (InC); Wilber's Barbecue 1960 postcard (copyright status unknown); Sign for Piggie Park Bar-B-Q 1974, Richland Library (© The State Media Company, all rights reserved)"
+   ]
+  },
+  {
+   "name": "Internet Archive",
+   "url": "https://archive.org",
+   "what_it_holds": "The best source for pig ENGRAVINGS — breed books and hog trade catalogues — and nothing at all for Carolina roadside. The Gilbert seed and nursery collection's identifier is usda-nurseryandseedcatalog, 93,315 items, 36,627 of them pre-1929.",
+   "licence_terms": "Per item, and all hedged. The Archive itself says it does not guarantee the copyright status of anything. Three per-item forms seen: possible-copyright-status NOT_IN_COPYRIGHT; 'The Library of Congress is unaware of any copyright restrictions for this item'; 'The contributing institution believes that this item is not in copyright.' All three are beliefs. The sounder basis is the project's own test: a United States work published before 1 January 1930 is public domain by term expiry.",
+   "how_to_fetch": "advancedsearch.php with output=json; item metadata at /metadata/<id>; no key, no documented limit. IIIF works: manifest at https://iiif.archive.org/iiif/<id>/manifest.json, image at /iiif/<id>$<page>/full/max/0/default.jpg, ImageService3 level 2. The manifests carry no rights field — rights come only from the metadata API.",
+   "yield": "REPORTED. barbecue + texts + pre-1929 = 18 items, mostly political-rally speeches and newspaper pages, with NO barbecue plates. swine + texts + pre-1929 = 1,541. Gilbert crossed with swine or hog or Berkshire or Poland-China = 12, six of them pre-1929. \"trade card\" AND pig = ZERO, so the trade-card angle is not here. Commons already mirrors much of this: 3,687 of this project's 7,363 Commons triage rows were Internet Archive book scans, filtered out as page images rather than pictures.",
+   "picks": [
+    "Harris on the pig: breeding, rearing, management, and improvement, 1870, 264 pp — https://archive.org/details/harrisonpigbreed01harr — the classic illustrated breed book",
+    "The hog: a treatise on the breeds, management, feeding and medical treatment of swine, Youatt 1855 — https://archive.org/details/hogtreatiseonbre00youarich — NOT_IN_COPYRIGHT",
+    "Hog raising in the South, S. M. Tracy, USDA 1899 — https://archive.org/details/CAT87201513",
+    "Full blood Poland china hogs, Clinton Falls Nursery Co., 1913 — https://archive.org/details/CAT31293713 — Gilbert collection",
+    "A barbecue toast, A. M. Ballard, Asheville N.C., 1900 — https://archive.org/details/barbecuetoast00ball — the only pre-1929 Carolina barbecue item on the Archive; text, not pictures"
+   ]
+  },
+  {
+   "name": "New York Public Library Digital Collections",
+   "url": "https://digitalcollections.nypl.org",
+   "what_it_holds": "Thin for this subject, with one exception. barbecue returns 71 items, 66 public domain, but the 66 are largely a mirage: eight to ten are 1939-40 World's Fair microform index cards with no imagery at all, and about twenty-one are Farm Security Administration photographs of Colorado and Montana. barbecue + \"North Carolina\" returns 6. barbecue + \"South Carolina\" returns ZERO. ⚠ Period material under this heading is substantially racist caricature — minstrel sheet music with blackface covers — and the library flags it as such.",
+   "licence_terms": "Per item. The public-domain items say the library believes the item is in the public domain under United States law but made no determination for other countries, and ask for the credit 'From The New York Public Library' with a link back. The library's About page addresses the distinction directly: unless you are a lawyer or outside the United States, it says, there is not really a difference between public domain and no known U.S. copyright restrictions. Quote what each item page shows.",
+   "how_to_fetch": "The public-domain filter is literally &filters=%5Brights%3DpublicDomain%5D. ⚠ The site is behind Imperva; curl gets a 212-byte stub. But iiif.nypl.org, images.nypl.org and api.repo.nypl.org are NOT walled: https://iiif.nypl.org/iiif/3/<imageID>/full/max/0/default.jpg works keyless, and the image IDs are printed on each item page. ⚠ THE API IS DEPRECATED AND THE DATE HAS PASSED — api.repo.nypl.org says it will no longer be available from 1 August 2026, six weeks ago, with no replacement planned. It still answers 401 rather than 410. Do not build on it. The bulk repo at github.com/NYPL-publicdomain/data-and-utilities is archived read-only and its README says the data is a snapshot from 30 December 2015.",
+   "yield": "REPORTED. About nine usable Carolina images in total, plus the Green Book.",
+   "picks": [
+    "Rendering fat after hog-killing, near Maxton, North Carolina — Marion Post Wolcott, December 1938 — https://digitalcollections.nypl.org/items/964b7ee0-b1a8-0139-8ee7-0242ac110002 — 8633x7056",
+    "Negro woman making 'chitlins' after hog killing, near Maxton, North Carolina — https://digitalcollections.nypl.org/items/95a1c5e0-b1a8-0139-5b92-0242ac110002",
+    "Dr. Mallory speaking at a picnic and barbecue at the CCC camp, Caswell County, North Carolina — Wolcott 1940 — https://digitalcollections.nypl.org/items/efa2da50-913e-013c-3942-0242ac110004 — 8760x7126",
+    "Barbecue, Atlanta Exposition — B. W. Kilburn albumen stereoview, 1896 — https://digitalcollections.nypl.org/items/e1c8a330-c539-012f-1f33-58d385a7bc34 — the best genuine historical Southern barbecue photograph found anywhere in this survey"
+   ]
+  },
+  {
+   "name": "The Negro Motorist Green Book (NYPL, Schomburg Center)",
+   "url": "https://digitalcollections.nypl.org/collections/9ea5d5b0-1117-0132-7932-58d385a7b928",
+   "what_it_holds": "23 items. Years digitised: 1937-1941, 1947-1957 including a 1949 Vacation Guide and a 1951 Railroad Edition, 1959-1963/64, and 1966-67. Missing: 1936, 1942-46, 1958, 1965. For the resources page, as the brief asked.",
+   "licence_terms": "NOT UNIFORM. Twenty-two of the twenty-three carry the library's public-domain belief statement. The 1966-67 International Edition does not: it carries an orphan-works statement — the item may be protected, no rights-holder has been identified or located — which is rightsstatements.org InC-RUU. Treat that volume as in copyright but unlocatable, not as free.",
+   "how_to_fetch": "Item pages; images through iiif.nypl.org keyless.",
+   "yield": "⚠ CAROLINA LISTINGS ARE NOT FINDABLE BY SEARCH. The scans have no OCR. Verified by controlled test: a phrase that sits in the title metadata returns hits, while phrases from inside the pages return zero. The 1949 edition is 80 pages with no search-inside and no transcription. Finding a Carolina barbecue listing means paging through scans by eye. The Green Book data projects are dead: navigatingthegreenbook.org does not resolve, NYPL Labs's extraction was never finished, and github.com/NYPL/greenbook-data is 404. No downloadable dataset of listings exists.",
+   "picks": [
+    "The Negro Motorist Green Book 1949 — https://digitalcollections.nypl.org/items/092a3710-1a73-0132-fdcf-58d385a7bbd0 — 80 pp, public domain",
+    "Travelers' Green Book 1966-67 International Edition — https://digitalcollections.nypl.org/items/fdb5a8d0-1a75-0132-d947-58d385a7bbd0 — ORPHAN WORKS, NOT public domain"
+   ]
+  },
+  {
+   "name": "Smithsonian Open Access",
+   "url": "https://www.si.edu/openaccess",
+   "what_it_holds": "Thin for this subject, and the pig mass is guinea pigs, wart-hogs, Hog Island and Porky Pig. Counts before throttling: pig 7,906 records / 2,312 with images; hog 4,170 / 2,465; barbecue 169 / 48; swine 190 / 30.",
+   "licence_terms": "⚠ NOT QUOTABLE FROM HERE. si.edu, collection.si.edu, americanhistory.si.edu and ids.si.edu all return Cloudflare 403, the same block as loc.gov, so the terms of use and Open Access FAQ could not be read and are not paraphrased. What the data shows: CC0 is a machine-readable flag at content.descriptiveNonRepeating.online_media.media[].usage.access, and it sits on the MEDIA, not the record — a record with no media has no CC0 status at all.",
+   "how_to_fetch": "api.si.edu/openaccess/api/v1.0/search?q=&api_key= with a key from api.data.gov; filter syntax is Solr-ish, e.g. barbecue AND online_media_type:\"Images\". DEMO_KEY is capped at 30 requests an hour and 50 a day and was exhausted in minutes. The keyless route is the bulk metadata on S3: https://smithsonian-open-access.s3-us-west-2.amazonaws.com/metadata/edan/index.txt, 37 unit indexes of line-delimited JSON.",
+   "yield": "REPORTED, and low. Of 15,421 National Museum of American History records parsed from the bulk data, only 167 had any online media at all. Five title matches for pig, hog, pork or barbecue, and every one had online_media null. Stream-grepping 64 of 256 NMAH chunks for CC0 media plus a pig or barbecue term gave zero. The 48 barbecue-with-images from the API are real but could not be seen. Worth one targeted pass with a real key, not a pipeline.",
+   "picks": []
+  },
+  {
+   "name": "South Carolina Digital Library, and UNC",
+   "url": "https://scmemory-search.org/",
+   "what_it_holds": "⚠ THE OLD SC DOMAINS ARE DEAD: scmemory.org and scdl.sc.edu do not resolve. The live aggregator is scmemory-search.org, a Blacklight instance over 40-odd institutions and more than 200,000 items, with a keyless JSON API at /catalog.json?q=barbecue (69 results). USC's own CONTENTdm is keyless too: digital.tcl.sc.edu/digital/api/search/searchterm/barbecue — barbecue 132, pig 317, hog 369. UNC's current system is dcr.lib.unc.edu, with a keyless API at /api/searchJson?anywhere=barbecue returning 752; the old dc.lib.unc.edu CONTENTdm URLs that DPLA still cites now redirect there.",
+   "licence_terms": "Bad in South Carolina and absent at UNC. Richland Library's State Newspaper Photograph Archive — where most SC barbecue photography lives, including Maurice Bessinger with barbecue sandwiches, 1986 — is entirely 'Copyright © The State Media Company. All rights reserved.' ⚠ UNC's DCR EXPOSES NO RIGHTS STATEMENT AT ALL: a walk of the full record JSON for any key containing right, licen, copyr or permis returns only access flags. The 'Public domain' string DPLA shows for UNC postcards comes from legacy CONTENTdm metadata and is reproduced nowhere in UNC's current system. Documenting the American South is worse: its copyright page is a 404 and its permissions page carries no reuse statement.",
+   "how_to_fetch": "Keyless JSON at all three, as above. DigitalNC's own site is bot-walled (202 with an empty body) and has no JSON search, though OAI-PMH works at lib.digitalnc.org/oai2d; take DigitalNC through the DPLA S3 hub file instead.",
+   "yield": "REPORTED. Exactly one open South Carolina barbecue item found in the whole state aggregation.",
+   "picks": [
+    "Annual Barbecue, circa 1950s, Union Bleachery employees at Paris Mountain State Park, Greenville County — https://cdm17168.contentdm.oclc.org/digital/collection/p17168coll61/id/45 — Greenville County Library System — rights field reads exactly 'Public Domain'",
+    "Wilber's Barbecue, North Carolina Postcards — https://dcr.lib.unc.edu/record/3f4fae2a-76bd-4e73-ac34-9533d5519b50 — no rights statement anywhere in UNC's system",
+    "Barbecue Lodge Restaurant, 4600 N. Blvd, Raleigh — https://dcr.lib.unc.edu/record/92f66231-5188-481a-ad7c-45dcda552bca — same"
+   ]
+  },
+  {
+   "name": "Openverse, Pixabay, Unsplash",
+   "url": "https://api.openverse.org/v1/images/",
+   "what_it_holds": "Near-useless for historic Carolina material, and one of them should be avoided outright.",
+   "licence_terms": "Openverse indexes only real licences and HAS NO nkc VALUE — ?license=nkc returns 400, so Flickr Commons material, including the State Archives stream above, is not in Openverse at all. It cannot find the best source. Pixabay is not CC0: its licence forbids selling or distributing content on a standalone basis, forbids commercial use of content containing recognisable trademarks — live here, since barbecue signage is full of brand marks — and forbids use as part of a trade mark. Unsplash is not CC0 either, and one clause should stop this project using it: the licence does not include the right to compile images from Unsplash to replicate a similar or competing service, which is arguably what a reference picture library is.",
+   "how_to_fetch": "Openverse: anonymous, no key, 20 requests a minute and 200 a day. ⚠ Its anonymous result_count is CAPPED AT 240 — every broad query returns exactly 240, so do not read that as a count; narrow queries are honest.",
+   "yield": "REPORTED. Real public-domain-mark or CC0 hits for \"barbecue sign\": 22, of which the named examples are Cincinnati and Omaha. Nothing Carolinian. Recommendation: use Openverse as a cross-index only, treat Pixabay as a last resort with a trademark check, and keep Unsplash out of a compiled picture library entirely.",
+   "picks": []
+  },
+  {
+   "name": "Library of Congress (loc.gov), NARA, and the American Sign Museum",
+   "url": "https://www.loc.gov/free-to-use/john-margolies-roadside-america-photograph-archive/",
+   "what_it_holds": "Three that could not be exercised. loc.gov holds the originals of the three collections that carried this project and almost certainly holds Carolina pig signs that never reached Commons — the Margolies collection code is mrg. NARA's catalogue was unreachable too. The American Sign Museum in Cincinnati, founded 1999 by Tod Swormstedt whose family published Signs of the Times, open since 2005 and in a former parachute factory in Camp Washington since June 2012, has more than 3,800 items catalogued and around 200 on display — the one institution that collects this object as an object.",
+   "licence_terms": "loc.gov: no known restrictions on publication for Margolies, Highsmith and FSA/OWI alike; Margolies is public domain because the Library bought the intellectual property. NARA: federal records, but its API terms forbid scraping and direct bulk users to the AWS open-data registry. The Sign Museum's own photographs are its own.",
+   "how_to_fetch": "loc.gov is BLOCKED: HTTP 403 to every request from this machine, browser user agent included, and to the JSON API and photos search alike. Use the Commons mirrors and search by the photographer's name. NARA needs a key and returns the single-page-app HTML shell to every unauthenticated path, so 'wrong path' and 'auth gate' cannot be told apart from here; its limit is 10,000 queries a month by default.",
+   "yield": "NOTHING DIRECTLY. Everything credited to the Library of Congress in this project came through Commons. The largest known unexplored seam is a browser search of the mrg collection for barbecue and pig, which a person can do and this machine cannot.",
+   "picks": []
+  }
+ ]
+}

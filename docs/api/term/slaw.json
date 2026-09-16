@@ -1,0 +1,398 @@
+{
+ "schema": 1,
+ "id": "slaw",
+ "type": "term",
+ "names": {
+  "name": "slaw",
+  "aliases": [
+   "cole slaw",
+   "coleslaw",
+   "cold slaw",
+   "barbecue slaw",
+   "red slaw",
+   "white slaw"
+  ],
+  "said": "'Slaw', never 'coleslaw', on a Carolina tray; a Lexington sandwich comes 'with slaw', and the slaw is red."
+ },
+ "etymology": {
+  "root": "Dutch koolsla 'cabbage salad' — kool 'cabbage' (from Latin caulis) + sla, clipped from salade (from French) — → American English cole slaw, 1794, heard and written as 'cold slaw' → slaw, the back half alone, by the 1860s",
+  "first_attested": "cole slaw 1794 — 'A piece of sliced cabbage, by Dutchmen ycleped cold slaw' (etymonline); slaw alone 1860–65 (dictionary.com), about 1861 (Wiktionary)",
+  "note": "'Cold slaw' is a folk etymology, Dutch kool heard as English cold; it held until the 1860s, when cole was revived (etymonline). Wiktionary's definition of coleslaw now splits it into white slaw, dressed with mayonnaise, and red slaw, dressed with vinaigrette — the Carolina split written into the dictionary.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": [
+  "carolinas"
+ ],
+ "facets": {
+  "letter": "S",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "Shredded raw cabbage, dressed and served cold, on every Carolina barbecue tray and most sandwiches. East of Raleigh the dressing is mayonnaise or whipped salad dressing and the slaw is white or yellow; in Lexington it is vinegar, ketchup and pepper — the dip — and the slaw is red, also called barbecue slaw. South Carolina buffets list coleslaw among the sides. The word is the back half of coleslaw, and the front half is not said; coleslaw came to the colonies with the Dutch settlers of New York.",
+  "story": "Dutch koolsla, cabbage salad, was written down in American English in 1794 as 'cold slaw', the Dutch kool heard as the English cold; the folk spelling lasted until the 1860s, when cole came back, and by then the back half had come loose and slaw stood alone. Dutch colonists brought coleslaw to the Thirteen Colonies. Jerry Bledsoe, the Greensboro columnist of the 1980s barbecue war, wrote in 1996 that barbecue is always served with slaw in North Carolina and always has been. The split is by region. The Wikipedia article on coleslaw calls North Carolina slaw fine and vinegary and says that around Lexington red slaw is made with ketchup and vinegar rather than mayonnaise and is the prevailing kind, unlike the rest of the state; NCpedia has white or yellow coleslaw in the east and red coleslaw, 'barbecue slaw', coloured with ketchup or dip, in the Piedmont. The Lexington sandwich's distinguishing feature, the town's article says, is its red slaw, and in the late 1990s Wendy's put red slaw on a 'Carolina Classic' burger. *Inference —* red slaw is the dip's second job, and a pit that makes one makes the other from the same pot."
+ },
+ "kin": [
+  {
+   "to": "red-slaw",
+   "as": "the Lexington slaw: cabbage, vinegar, ketchup, pepper, no mayonnaise — also called barbecue slaw.",
+   "rel": "term"
+  },
+  {
+   "to": "white-slaw",
+   "as": "the eastern slaw, dressed with mayonnaise or whipped salad dressing, and put on the bun of an eastern sandwich.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the dressing of the red slaw; the dip's second use.",
+   "rel": "sauce"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "in both halves of North Carolina the sandwich comes with slaw on it.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "on the tray, slaw is the one side that is always there — Bledsoe: always served with slaw, and always has been.",
+   "rel": "serves"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "white slaw there.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington",
+   "as": "red slaw there, and no question asked.",
+   "rel": "term"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "as": "who wrote 'Slaw Crazy' (1996): barbecue is always served with slaw in North Carolina.",
+   "rel": "person"
+  },
+  {
+   "to": "dutch-fork",
+   "as": "the other Dutch: the Fork's Dutch is deutsch, German; slaw's Dutch is the Netherlands' koolsla.",
+   "rel": "same-word"
+  },
+  {
+   "to": "fixins",
+   "as": "the first fixin on every plate.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "red-slaw",
+   "tell": "Red means dip-dressed and Piedmont; white means mayonnaise and east. Ask for slaw in Lexington and it comes red without a question; ask in Ayden and it comes white."
+  }
+ ],
+ "links": [
+  {
+   "label": "cole-slaw — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/cole-slaw"
+  },
+  {
+   "label": "slaw — Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/slaw"
+  },
+  {
+   "label": "Coleslaw — Wikipedia (United States)",
+   "url": "https://en.wikipedia.org/wiki/Coleslaw#United_States"
+  },
+  {
+   "label": "Red slaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_slaw"
+  }
+ ],
+ "sources": [
+  "s:etymonline",
+  "s:wiktionary-slaw",
+  "s:wiktionary-coleslaw",
+  "s:web-dictionary-com-slaw",
+  "s:web-dictionary-com-coleslaw",
+  "s:wp-coleslaw",
+  "s:wp-red-slaw",
+  "s:ncpedia-barbecue",
+  "s:wp-lexington-north-carolina",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-cuisine-of-the-southern-united-states",
+  "s:wp-dukes-bar-b-que"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-coleslaw"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:etymonline",
+    "note": "the 1794 quotation and 'cold slaw' from etymonline; the Bledsoe quotation from Wiktionary's slaw entry; the Wendy's burger from the Red slaw article; the last sentence is inference"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "the clipped form as used on Carolina menus; Bledsoe's 1996 sentence uses it"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Shredded raw cabbage, dressed and served cold, on every Carolina barbecue tray and most sandwiches.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the Lexington slaw: cabbage, vinegar, ketchup, pepper, no mayonnaise — also called barbecue slaw.",
+   "rel": "term"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the eastern slaw, dressed with mayonnaise or whipped salad dressing, and put on the bun of an eastern sandwich.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the dressing of the red slaw; the dip's second use.",
+   "rel": "sauce"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "in both halves of North Carolina the sandwich comes with slaw on it.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "on the tray, slaw is the one side that is always there — Bledsoe: always served with slaw, and always has been.",
+   "rel": "serves"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "white slaw there.",
+   "rel": "term"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "red slaw there, and no question asked.",
+   "rel": "term"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "who wrote 'Slaw Crazy' (1996): barbecue is always served with slaw in North Carolina.",
+   "rel": "person"
+  },
+  {
+   "to": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "as": "the other Dutch: the Fork's Dutch is deutsch, German; slaw's Dutch is the Netherlands' koolsla.",
+   "rel": "same-word"
+  },
+  {
+   "to": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the first fixin on every plate.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline",
+   "kind": "web",
+   "title": "Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "id": "s:wiktionary-slaw",
+   "kind": "web",
+   "title": "slaw — Wiktionary",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/slaw",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wiktionary-coleslaw",
+   "kind": "web",
+   "title": "coleslaw — Wiktionary",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/coleslaw",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-dictionary-com-slaw",
+   "kind": "web",
+   "title": "slaw — Dictionary.com",
+   "publisher": "Dictionary.com",
+   "url": "https://www.dictionary.com/browse/slaw",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-dictionary-com-coleslaw",
+   "kind": "web",
+   "title": "coleslaw — Dictionary.com",
+   "publisher": "Dictionary.com",
+   "url": "https://www.dictionary.com/browse/coleslaw",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-coleslaw",
+   "kind": "wikipedia",
+   "title": "Coleslaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coleslaw",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369436670"
+  },
+  {
+   "id": "s:wp-red-slaw",
+   "kind": "wikipedia",
+   "title": "Red slaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_slaw",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1363301405"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cuisine-of-the-southern-united-states",
+   "kind": "wikipedia",
+   "title": "Cuisine of the Southern United States — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cuisine_of_the_Southern_United_States",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-dukes-bar-b-que",
+   "kind": "wikipedia",
+   "title": "Dukes Bar-B-Que — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dukes_Bar-B-Que",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1373146410"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-coleslaw"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:etymonline",
+   "note": "the 1794 quotation and 'cold slaw' from etymonline; the Bledsoe quotation from Wiktionary's slaw entry; the Wendy's burger from the Red slaw article; the last sentence is inference"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-coleslaw"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the word, Dutch koolsla clipped to one syllable.",
+   "rel": "term"
+  },
+  {
+   "from": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the word, Dutch koolsla clipped.",
+   "rel": "term"
+  },
+  {
+   "from": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "his 1996 essay 'Slaw Crazy': barbecue is always served with slaw in North Carolina, and always has been.",
+   "rel": "term"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "on every plate.",
+   "rel": "term"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "the church's own blend, two tons of it in 2015.",
+   "rel": "term"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the other constant beside the pig.",
+   "rel": "term"
+  },
+  {
+   "from": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "as": "the other Dutch: koolsla came from the Netherlands, the Fork's Dutch from Germany.",
+   "rel": "same-word"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the one fixin that is never missing.",
+   "rel": "part"
+  }
+ ]
+}

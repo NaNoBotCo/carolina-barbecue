@@ -1,0 +1,204 @@
+{
+ "schema": 1,
+ "id": "dukes-bar-b-que",
+ "type": "place",
+ "names": {
+  "name": "Dukes Bar-B-Que",
+  "aliases": [
+   "Dukes",
+   "Duke's Bar-B-Que",
+   "Dukes Bar-B-Que Whitman",
+   "Dukes Bar-B-Que Chestnut"
+  ],
+  "said": "Dukes, no apostrophe, on the family's signs; the Whitman Street site now writes Duke's.",
+  "sort": "Dukes"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1955",
+  "fuel": "mixed",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "The name on a dozen or more buffet houses across the Midlands and Lowcountry, all descended from the sons of Manuel Dukes of Orangeburg County, who learned pit cooking from a Rowesville pitmaster and catered the county's gatherings. In Orangeburg itself the line is Earl Duke's: he opened downtown at Chestnut Street and Columbia Road in 1955 and later moved to Whitman Street, and his sister's family runs a second Dukes on Chestnut Street. Both sell from a buffet line: chopped pork in a mustard-and-ketchup 'rust' sauce, hash over rice — the Midlands' stew of pork and onion — fried and barbecued chicken, and a loaf of sliced white bread at the end.",
+  "story": "Manuel Dukes was born in rural Orangeburg County around 1875. His sons became the county's pitmasters, catering barbecues, and historians have suggested that their German descent explains the mustard in the sauce. Willie Baltzegar, a Rowesville pitmaster, taught them. In the 1950s the sons and daughters opened restaurants: Danny Dukes first, in Cope and Branchville; Earl Duke in Orangeburg in 1955, at Chestnut Street and Columbia Road, later moving to Whitman Street beside the Pepsi plant; a sister, Elma, and her husband Harry Ott on Spruill Street in North Charleston; and others in Aiken, Elloree, Smoaks, Ridgeville, Blackville and New Ellenton. The name spread past the family, and by 2017 some Dukes were family-owned and others sold. Earl's Whitman Street house passed to Harold Kittrell, a carpenter, and then to his son Tony, who told the Southern Foodways Alliance in June 2012 that 'the barbecue, hash, and rice, our sauce, sweet tea, and sliced bread are just what people come here for' and gave the sauce its name: rust gravy — sweet, ketchup-based, orange-yellow, thicker than most. The Otts opened in St. Matthews in 1965 and moved to Chestnut Street in Orangeburg ten years later; their descendants cook fifty to fifty-five pigs a week in the pit out back, Wednesday to Friday, for a buffet that is 'just barbeque, hash, rice and slaw with loaves of bread at the end'.",
+  "how": "A buffet, all you can eat, paid at the register; in March 2011 the Charleston City Paper gave the price as $10 for adults and $6 for children. Chopped pork from shoulders and hams is dressed with the rust sauce; hash — pork simmered down with onion into a reddish stew — is ladled over white rice; fried chicken, barbecue chicken, collards, butter beans, black-eyed peas, mac and cheese, fried okra, hushpuppies, corn nuggets and a loaf of Sunbeam bread fill the rest of the line. Most Dukes houses stopped burning logs decades ago and cook on gas-fired cookers with wood chips for smoke; the Chestnut Street house cooks its hogs in a pit behind the building, and takes cash only.",
+  "today": "Two houses in Orangeburg. Chestnut Street (789 Chestnut Street NE) opens Thursday to Saturday, 11 a.m. to 7 p.m. Whitman Street (1298 Whitman Street SE) lists Thursday to Saturday, 11 to 8, but its own site on September 15, 2026 reads 'temporarily closed. We plan to reopen soon.'"
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "its style: the Orangeburg mustard belt, with ketchup stirred in.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "its 'rust' sauce is mustard cut with ketchup — milder, sweeter, orange-brown.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the dish beside the pork on every Dukes line.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "chopped shoulder and ham, not the whole hog, at the Whitman Street house.",
+   "rel": "part"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "named by Tony Kittrell among the five things people come for.",
+   "rel": "serves"
+  },
+  {
+   "to": "light-bread",
+   "as": "the loaf of sliced white bread at the end of the line.",
+   "rel": "term"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "what most Dukes houses cook on now, with wood chips for smoke.",
+   "rel": "part"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "the other Orangeburg County family whose name went to Charleston.",
+   "rel": "kin"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "the Bessinger chain from the same county; the Dukes stayed on the buffet line.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "the Holly Hill house, the county's other whole-hog name.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Tony Kittrell at Whitman Street in June 2012.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 33.4903814,
+  "lon": -80.8427238,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap) match of 1298 Whitman St, 2026-09-15"
+ },
+ "address": {
+  "street": "1298 Whitman St SE",
+  "city": "Orangeburg",
+  "county": "Orangeburg",
+  "state": "SC",
+  "postcode": "29115"
+ },
+ "links": [
+  {
+   "label": "Dukes Bar-B-Que — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dukes_Bar-B-Que"
+  },
+  {
+   "label": "Dukes Bar-B-Que — Southern Foodways Alliance interview (2012)",
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/"
+  },
+  {
+   "label": "Duke's Bar-B-Que Whitman — official",
+   "url": "https://dukessc.com/"
+  }
+ ],
+ "sources": [
+  "s:wp-dukes-bar-b-que",
+  "s:web-sfa-dukes-bar-b-que",
+  "s:sfa-oral-histories",
+  "s:web-city-paper-dukes-2011",
+  "s:web-destination-bbq-dukes-chestnut",
+  "s:web-dukessc-whitman",
+  "s:wp-barbecue-in-south-carolina",
+  "s:osm",
+  "s:web-destination-bbq-hash-map"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dukes-bar-b-que"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-city-paper-dukes-2011",
+    "note": "family tree from the City Paper (2011) and Wikipedia; the Kittrell succession and quotes from the SFA page; the Ott dates and pit from Destination BBQ's Chestnut Street page"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-dukessc-whitman",
+    "note": "the Whitman Street closure notice is undated; status 'open' rests on the Chestnut Street house"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest; Nominatim returned an OSM restaurant object at the Whitman Street address"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-dukessc-whitman"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "buffet",
+   "source": "s:web-city-paper-dukes-2011",
+   "tier": "cited",
+   "note": "All you can eat, paid at the register; $10 for adults and $6 for children in March 2011."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-hash-map",
+   "tier": "harvested",
+   "note": "Hash over rice on the buffet; both Orangeburg houses are on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  },
+  {
+   "tag": "cash-only",
+   "source": "s:web-destination-bbq-dukes-chestnut",
+   "tier": "cited",
+   "note": "The Chestnut Street house takes cash only; the Whitman Street house is a separate business under the same family name."
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-destination-bbq-dukes-chestnut",
+   "tier": "cited",
+   "note": "Both Orangeburg houses list Thursday to Saturday only."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-city-paper-dukes-2011",
+   "tier": "cited",
+   "note": "All the Dukes houses descend from the sons of Manuel Dukes of Orangeburg County; in Orangeburg the line is Earl Duke's, with his sister's family running the second Chestnut Street house."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the Orangeburg house",
+   "source": "s:web-sfa-dukes-bar-b-que",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/",
+   "note": "Tony Kittrell, interviewed June 4, 2012."
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "schema": 1,
+ "id": "bob-garner",
+ "type": "person",
+ "names": {
+  "name": "Bob Garner",
+  "aliases": [
+   "the barbecue man",
+   "Robert Garner"
+  ],
+  "sort": "Garner, Bob"
+ },
+ "region": [
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "role": [
+   "writer"
+  ],
+  "styles": [
+   "eastern-nc",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A North Carolina television reporter and writer who has covered the state's barbecue since 1994, when he began short features on it for UNC-TV's magazine program North Carolina Now. His first book, North Carolina Barbecue: Flavored by Time (John F. Blair, 1996), toured the state's pits; a one-hour television special followed, and with it the name 'the barbecue man'. Bob Garner's Guide to North Carolina Barbecue (2002) and Bob Garner's Book of Barbecue (2012) came after. He writes restaurant pieces for Our State magazine and divides his time between Burlington and Raleigh.",
+  "story": "Garner learned to cook over a fire in the Boy Scouts and, as a young married man, learned whole pigs from his wife's brothers — she was a farm girl from northeastern North Carolina — and he dates his conversion to the smell of the juices dripping onto the coals. The UNC-TV features began in 1994; the 1996 book went across the state pit by pit, and after the special based on it he was 'the barbecue man' on the state's public television. He was executive producer and host of the UNC-TV series Carolina Countryside, appeared on Food Network, the Travel Channel and Good Morning America, and made a special, A North Carolina Pig Pickin', with his youngest son, Everett. The 2002 Guide described a hundred restaurants from the mountains to the coast; the 2012 Book of Barbecue folded both earlier books into one, with recipes, tips and profiles of pitmasters — a pitmaster being the person who tends the pit. For Our State he wrote up Lexington Barbecue, Stamey's, B's, Wilber's, Short Sugar's and the Skylight Inn, among others; his 2012 Lexington Barbecue piece records the shoulders roasting ten hours over oak coals, fresh coals shovelled under the meat every half hour, and the crust, the 'brown', lifted off and saved for special orders. Asked by the blog BBQ Jew in 2011 whether wood was required, he answered that he preferred live coals but had eaten too much good barbecue cooked otherwise to be dogmatic, and named Smithfield's Chicken 'N Bar-B-Q and Ken's Grill in LaGrange among the gas-and-electric places he eats at. His five favourites that year were The Pit in Raleigh, Lexington Barbecue, Bridges in Shelby, Grady's in Dudley and B's in Greenville.",
+  "today": "Still on the state's public television: he visited Sam Jones BBQ in Raleigh for North Carolina Weekend in August 2021 and named his places in a 2023 NC Weekend segment. Our State keeps his restaurant pieces online. No 2025 or 2026 activity was found for this record (checked September 15, 2026)."
+ },
+ "kin": [
+  {
+   "to": "lexington-barbecue",
+   "as": "Wayne Monk's pit, which he wrote up for Our State in 2012: ten hours over oak coals, the brown set aside for special orders.",
+   "rel": "place"
+  },
+  {
+   "to": "outside-brown",
+   "as": "the crust of the shoulder; his 2012 piece records it being lifted off and saved at Lexington Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "written up by him for Our State in 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "his 2012 Our State piece: red picnic tables, counter service, no promise the food lasts till noon; one of the five he named to BBQ Jew in 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "gradys-barbecue",
+   "as": "one of the five places he named to BBQ Jew in 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "one of the five places he named to BBQ Jew in 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "as": "an Our State piece of his, and on the list he gave NC Weekend in 2023.",
+   "rel": "place"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "an Our State piece of his, on Pete Jones's line that a place like this needs no sign.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "as": "an Our State piece of his, on David Wilson's sauce.",
+   "rel": "place"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "the Raleigh restaurant he visited for North Carolina Weekend in August 2021.",
+   "rel": "place"
+  },
+  {
+   "to": "smithfields-chicken-n-bar-b-q",
+   "as": "named by him in 2011 as a place cooking without live coals whose barbecue he still eats.",
+   "rel": "place"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style his wife's brothers taught him: whole pigs, in the northeast of the state.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "as": "the Piedmont half of his state-wide books and segments.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the subject of his television special A North Carolina Pig Pickin', made with his son Everett.",
+   "rel": "event"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "he prefers live coals but told BBQ Jew in 2011 he has eaten too much good barbecue off them to be dogmatic.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "he has spoken at its annual symposium in Oxford, Mississippi.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bob Garner's Book of Barbecue — Blair Publisher",
+   "url": "https://blairpub.com/shop/p/bob-garners-book-of-barbeque"
+  },
+  {
+   "label": "Bob Garner — Our State author page",
+   "url": "https://www.ourstate.com/author/bobgarner/"
+  },
+  {
+   "label": "BBQ&A with Bob Garner — BBQ Jew, 2011",
+   "url": "https://bbqjew.com/2011/10/19/bbqa-bob-garner/"
+  }
+ ],
+ "sources": [
+  "s:web-blairpub-garner-book-of-barbecue",
+  "s:web-bbqjew-bob-garner",
+  "s:web-ourstate-author-bob-garner",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-ourstate-stameys",
+  "s:web-ourstate-bs-barbecue",
+  "s:web-pbs-nc-weekend-sam-jones",
+  "s:web-barbecuebros-bob-garner-2023",
+  "s:garner-flavored-by-time",
+  "s:garner-guide-to-nc-barbecue",
+  "s:garner-book-of-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-blairpub-garner-book-of-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-bbqjew-bob-garner",
+    "note": "the Scouts, the whole pigs, the special with Everett and the five favourites are his own answers to BBQ Jew (2011); the television and book history from the publisher's page; the Lexington Barbecue detail from his Our State piece; the symposium line is the publisher's bio and was not otherwise checked"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-pbs-nc-weekend-sam-jones",
+    "note": "2021 from PBS; 2023 from Barbecue Bros's account of an NC Weekend segment; no obituary or later activity found on 2026-09-15"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

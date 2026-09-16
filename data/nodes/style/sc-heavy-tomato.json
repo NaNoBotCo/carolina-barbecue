@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "id": "sc-heavy-tomato",
+ "type": "style",
+ "names": {
+  "name": "Heavy tomato barbecue",
+  "aliases": ["heavy-tomato style", "tomato-and-sugar barbecue", "Upstate barbecue", "western South Carolina barbecue"],
+  "said": "Menus call it 'sweet', 'mild' or 'house'; 'heavy tomato' is the map's term."
+ },
+ "region": ["sc-upstate", "sc"],
+ "facets": {"state": "SC", "meat": "shoulder", "base": "heavy-tomato", "fuel": "mixed"},
+ "text": {
+  "what": "Pork shoulders and butts, ribs and chicken cooked over hickory or on cookers and served with a thick, sweet, red sauce of tomato, brown sugar or molasses, vinegar and spices — the sauce the state tourism office says you are most likely to find on a grocery shelf, and the one most of the country means by barbecue sauce. The four-sauce map gives it the western and northwestern corner of South Carolina: Greenville, Spartanburg, Anderson, Greenwood, the Savannah River side. Hash here is often beef, or pork and beef with onions, over rice.",
+  "story": "The heavy tomato sauce is the newcomer. The South Carolina Barbeque Association's history says it 'evolved only recently, that is, in the last sixty or so years', pushed by commercial brands, and the wider record agrees: Heinz bottled the first major-label barbecue sauce in 1940, General Foods' Open Pit followed, Kraft came in around 1960 and advertised its way to first place, and after the war the sugar and the ingredient count of sauces climbed. The typical commercial sauce is Kansas City's, 'thick, reddish-brown, tomato-based, and made with sugar, vinegar, and spices', and Wikipedia's South Carolina article says the heavy tomato sauce of the west is 'more similar to sauces popular in other states'. *Inference —* a sauce that arrived by bottle would settle where the older sauces were thinnest on the ground, at the state's western edge, farthest from the whole-hog coast and the German Midlands.\n\nHenry's Smokehouse in Greenville cooks pork butts twelve hours and ribs more than eight over hickory logs in open pits and puts two sauces out, a tomato-based mild and a mustard-based spicy. Greenwood's Festival of Discovery, each July, hosts a Kansas City Barbeque Society-sanctioned Carolina barbecue and Black Kettle hash competition and the South Carolina state championship cook-off, with a Blues Cruise through the uptown venues.",
+  "how": "Simmer tomato — ketchup, paste or sauce — with brown sugar or molasses, vinegar, salt, black pepper and spices until it thickens. It is a finishing and table sauce: brushed on ribs and chicken near the end of cooking or served alongside, spooned over chopped pork on the plate, where it sits on the meat rather than soaking in. Hash in the Upstate is beef, or pork and beef, cooked with onions and served over rice.",
+  "today": "Henry's Smokehouse runs rooms in Greenville and Simpsonville and a food truck; the Festival of Discovery brings its cook teams to Greenwood each July (July 8–10 in 2027). National bottles of the same kind share the western shelves with the state's mustard and vinegar sauces."
+ },
+ "kin": [
+  {"to": "heavy-tomato-sauce", "as": "its sauce: thick, sweet, red, and the one most of the country means by barbecue sauce.", "rel": "sauce"},
+  {"to": "sc-light-tomato", "as": "the thin vinegar-and-ketchup country to its east; the two share a color and little else.", "rel": "contrast"},
+  {"to": "sc-mustard", "as": "the Midlands to its southeast, whose mustard sauce turns up beside the tomato one on Upstate tables.", "rel": "kin"},
+  {"to": "sc-pee-dee", "as": "the other end of the state, whole hog and clear vinegar, which the SCBA's history counts as the oldest sauce where this is the newest.", "rel": "contrast"},
+  {"to": "hash-and-rice", "as": "the Upstate's hash, of beef or pork and beef with onions, over rice.", "rel": "serves"},
+  {"to": "pork-shoulder", "as": "the cut — pork butts twelve hours over hickory at Henry's.", "rel": "part"},
+  {"to": "hickory-and-oak", "as": "the hickory logs in Henry's open pits.", "rel": "part"},
+  {"to": "henrys-smokehouse", "as": "Greenville's pits, with a tomato-based mild sauce and a mustard-based spicy one on the table.", "rel": "place"},
+  {"to": "festival-of-discovery", "as": "Greenwood's July barbecue-and-blues festival, with a KCBS-sanctioned Carolina barbecue and hash competition and the state championship cook-off.", "rel": "event"},
+  {"to": "lake-high", "as": "whose SCBA history dates the sauce to the last sixty years.", "rel": "person"},
+  {"to": "south-carolina-barbeque-association", "as": "the association whose map gives the western corner to heavy tomato.", "rel": "kin"}
+ ],
+ "confusable_with": [
+  {"id": "sc-light-tomato", "tell": "Heavy tomato clings to the meat and tastes of sugar; light tomato pours and tastes of vinegar. The tourism office's map gives the western and northwestern corner to heavy tomato."},
+  {"id": "lexington", "tell": "Both are red on pork shoulder. Lexington's dip is thin and sour and comes with red slaw; the Upstate's sauce is thick and sweet and comes with hash and rice."}
+ ],
+ "geo": {"lat": 34.8611, "lon": -82.4133, "precision": "region", "source": "Greenville, the largest town of the Upstate corner the map gives to heavy tomato (Wikipedia coordinates)"},
+ "links": [
+  {"label": "South Carolina's Four Barbecue Sauces — Discover South Carolina", "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces"},
+  {"label": "BBQ History — South Carolina Barbeque Association", "url": "https://www.scbarbeque.com/bbq-history/"},
+  {"label": "Henry's Smokehouse", "url": "https://henryssmokehouse.com/"},
+  {"label": "SC Festival of Discovery — Discover Greenwood", "url": "https://discovergreenwood.com/poi/sc-festival-of-discovery/"}
+ ],
+ "sources": ["s:wp-barbecue-in-south-carolina", "s:wp-barbecue-sauce", "s:wp-hash-stew", "s:web-sc-four-sauces", "s:sc-parks-sauce-map", "s:web-scba-bbq-history", "s:web-henrys-smokehouse", "s:web-henrys-destination-bbq", "s:web-discovergreenwood-festival", "s:high-sc-barbeque"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:web-sc-four-sauces"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-scba-bbq-history", "note": "the commercial history from the Wikipedia barbecue-sauce article; Henry's from its own site and Destination BBQ; the festival from Discover Greenwood; the settling-at-the-edge sentence is marked inference"},
+   "text.how": {"tier": "tradition", "note": "the recipe is the tourism office's and Wikipedia's description of the sauce filled out with the usual method; hash from the Wikipedia hash article"},
+   "text.today": {"tier": "cited", "source": "s:web-henrys-smokehouse"},
+   "geo": {"tier": "inference", "note": "Greenville as the corner's largest town; region precision"}
+  }
+ },
+ "x_composition": {
+  "tomato_pct": 37.6,
+  "sugar_pct": 19.2,
+  "vinegar_pct": 7.0,
+  "mustard_pct": 2.4,
+  "water_pct": 0.0,
+  "method": "Volumes from the Wikibooks Cookbook's Kansas City-style barbecue sauce, converted at standard USDA weights: ketchup 240 g a cup, Worcestershire 17 g a tablespoon, butter 14.2 g a tablespoon, vinegar 14.9 g a tablespoon, prepared yellow mustard 15 g a tablespoon, chopped onion 160 g a cup, packed brown sugar 220 g a cup, granulated sugar 12.5 g a tablespoon, salt 6 g a teaspoon; liquid smoke and pepper sauce taken as water. The batch is 638 g. The whole of the ketchup is counted as the tomato ingredient, so tomato_pct includes the sugar and vinegar that ride inside it; sugar_pct counts only the brown and granulated sugar added on top, and vinegar_pct only the three tablespoons added on top. No water is added.",
+  "source": "s:wikibooks-barbecue-sauce-kansas-city-style",
+  "tier": "inference"
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

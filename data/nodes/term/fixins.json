@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "fixins",
+ "type": "term",
+ "names": {
+  "name": "fixins",
+  "aliases": ["fixin's", "fixings", "all the fixins"],
+  "said": "'A plate with all the fixins' — the slaw, the hushpuppies, the potatoes, the tea. Said with no g, and spelled on Carolina menus as said."
+ },
+ "etymology": {
+  "root": "fix (v.), late 14c., from Old French fixer, Latin fixus 'fastened' → fixing, verbal noun, 'act of putting in order', c. 1600 → fixings, American English, 'apparatus' 1820, 'food, garnishing' 1839 (etymonline); spelled fixin's or fixins for the g that Southern speech drops",
+  "first_attested": "1839, American English, in the food sense (etymonline)",
+  "note": "Wiktionary: the necessary ingredients for something, especially food, and the side dishes or accompaniments — 'a sandwich with all the fixings'. The apostrophe marks the missing g; the spelling without one marks that nobody misses it.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": ["carolinas", "us-south"],
+ "facets": {"letter": "F", "part_of_speech": "noun"},
+ "text": {
+  "what": "The sides and trimmings that come with the meat: slaw, hushpuppies or cornbread, boiled potatoes in the east, hash and rice in South Carolina, pickles, sweet tea. 'Fixings' is American English of 1839 for the garnishing of a meal; fixins is how it is said and, on Carolina signs and menus, how it is spelled. Beth Tartan wrote of a Raleigh hostess telephoning Melton's — 'Ride me a party' — and Melton's putting barbecue and fixings on the bus to her.",
+  "story": "Fix is a verb that does a great deal of work in the South, and its noun did the same: fixings, first the apparatus of a thing, in 1820, then by 1839 the food that goes round the main thing. The barbecue plate is the word's natural home because the meat is one thing and the rest is a list. The Skylight Inn tray is barbecue, slaw and cornbread; Melton's plate in 1929 was barbecue with boiled potatoes for 45 cents, and in 1988 came with coleslaw, hushpuppies and Brunswick stew; a pig pickin' is eaten with hushpuppies, coleslaw, baked beans or Brunswick stew, and in South Carolina with hash over rice or pilaf; the Dukes buffets run to collard greens, macaroni and cheese, black-eyed peas, hushpuppies, corn nuggets, potato salad, coleslaw and white bread. The spelling is the speech: a menu that prints fixin's is telling you how the owner talks. *Inference —* the word keeps the order of the plate — barbecue is the noun, and everything else is fixins."
+ },
+ "kin": [
+  {"to": "barbecue-tray", "as": "the tray's fixins are slaw and cornbread, and nothing more.", "rel": "serves"},
+  {"to": "slaw", "as": "the one fixin that is never missing.", "rel": "part"},
+  {"to": "hushpuppies", "as": "fried cornmeal, a fixin in both states.", "rel": "part"},
+  {"to": "cornbread", "as": "the Skylight's fixin, a dense pork-fat cake.", "rel": "part"},
+  {"to": "boiled-potatoes", "as": "the eastern fixin — at Melton's a plate came with boiled potatoes for 45 cents in 1929.", "rel": "part"},
+  {"to": "hash-and-rice", "as": "the South Carolina fixin.", "rel": "part"},
+  {"to": "brunswick-stew", "as": "on the plate at Melton's and at pig pickin's.", "rel": "part"},
+  {"to": "sweet-tea", "as": "the drink among the fixins.", "rel": "part"},
+  {"to": "light-bread", "as": "the sandwich's bread; on a plate, one more fixin.", "rel": "kin"},
+  {"to": "meltons-barbecue", "as": "which put 'barbecue and fixings on the bus' for Raleigh parties.", "rel": "place"},
+  {"to": "dukes-bar-b-que", "as": "whose buffet is the fixins as a list.", "rel": "place"},
+  {"to": "skylight-inn", "as": "whose tray is the fixins at their fewest: slaw and cornbread.", "rel": "place"},
+  {"to": "pig-pickin", "as": "where the fixins are hushpuppies, slaw, baked beans or Brunswick stew, and in South Carolina hash and rice.", "rel": "event"}
+ ],
+ "links": [
+  {"label": "fixings — Online Etymology Dictionary", "url": "https://www.etymonline.com/word/fixings"},
+  {"label": "fixings — Wiktionary", "url": "https://en.wiktionary.org/wiki/fixings"}
+ ],
+ "sources": ["s:etymonline", "s:wiktionary-fixings", "s:wp-meltons-barbecue", "s:wp-skylight-inn-bbq", "s:wp-pig-pickin", "s:wp-dukes-bar-b-que"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:etymonline"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:etymonline", "note": "the dates from etymonline; the plates from the Melton's, Skylight Inn, Pig pickin' and Dukes articles; the last sentence is inference"},
+   "names.said": {"tier": "tradition", "note": "usage; the Tartan quotation in the Melton's article spells it 'fixings'"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

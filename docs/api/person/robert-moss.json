@@ -1,0 +1,518 @@
+{
+ "schema": 1,
+ "id": "robert-moss",
+ "type": "person",
+ "names": {
+  "name": "Robert F. Moss",
+  "aliases": [
+   "Robert Moss",
+   "Robert F. Moss"
+  ],
+  "sort": "Moss, Robert F."
+ },
+ "region": [
+  "sc",
+  "sc-lowcountry"
+ ],
+ "facets": {
+  "state": "SC",
+  "role": [
+   "writer",
+   "scholar"
+  ],
+  "styles": [
+   "sc-mustard",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "A food writer and historian in Charleston — a Furman graduate with a doctorate in English from the University of South Carolina — who is contributing barbecue editor for Southern Living and was restaurant critic for the Post and Courier. Barbecue: The History of an American Institution (University of Alabama Press, 2010; revised and expanded 2020) is a documentary history of the subject built from newspapers, letters, diaries and travel narratives; Barbecue Lover's the Carolinas (2015) is his guide to both states. He counts South Carolina's sauces as two, mustard and vinegar, where the state's association counts four.",
+  "story": "Moss's history reads the colonial and early-republic barbecue out of the record: whole hogs cooked as a ritual in the British colonies by the eighteenth century, the communal feast spreading from Virginia into the Carolinas in the mid-1700s, the political barbecue as an institution of the new republic, and the restaurants of the twentieth century. The second edition, published October 6, 2020, added colonial material, profiles of early restaurateurs and African American cooks, and a final chapter, 'The Second Golden Age of Barbecue', on the wood-cooked places that opened across the country in the 2010s. On South Carolina hash he went to the newspapers — 'rich hash' at a barbecue at Matthews' Spring, in the Abbeville Press and Banner of 1854 — and traced the name to haslet, the old word for the viscera: the head, liver and lights the whole hog left behind. When the Post and Courier reported in 2020 that hash was fading, he answered in Southern Living that new places were putting it on their menus, and used the recently closed Cannon's in Little Mountain as his example of the Midlands' mustard-yellow kind. He has tested Summerville's claim to sweet tea (2013) and told the story of hushpuppies (2023). When John Shelton Reed's campaign asked in 2014 for any regulation that forbade wood cooking in North Carolina, Moss looked in South Carolina and reported in the Columbia Free Times that there was none there either. He reviewed Rien Fertel's The One True Barbecue for Southern Living in 2016. His other books are Southern Spirits (2016), The Lost Southern Chefs (University of Georgia Press, 2022) and The Roffignac (LSU Press, 2024).",
+  "today": "Based in Charleston; contributing barbecue editor for Southern Living and a frequent contributor to Charleston Magazine, Garden & Gun, Serious Eats and The Local Palate. His site, robertfmoss.com, carries his features on hash, hushpuppies and the revised history."
+ },
+ "kin": [
+  {
+   "to": "barbecue",
+   "as": "his 2010 history is the source behind the colonial feast and the political barbecue in the word's story.",
+   "rel": "term"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "the institution of the early republic he documents from newspapers, letters and diaries.",
+   "rel": "event"
+  },
+  {
+   "to": "whole-hog",
+   "as": "which he finds established as a ritual in the British colonies by the eighteenth century.",
+   "rel": "kin"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "found in the 1854 Abbeville newspapers; he traced the name to haslet, the old word for the viscera.",
+   "rel": "kin"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "whose story he told on his site in 2023.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "Summerville's claim to it, which he tested for the Charleston City Paper in 2013.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "one of the two sauces he counts: sweet mustard.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the other: spicy vinegar.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "a variation on vinegar sauce, in his count, not a region of its own.",
+   "rel": "kin"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "folded back into the vinegar family by his count.",
+   "rel": "sauce"
+  },
+  {
+   "to": "cannons-bbq",
+   "as": "his example of the Midlands' mustard-yellow hash, recently closed when he wrote in March 2020.",
+   "rel": "place"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "counts four sauces where he counts two.",
+   "rel": "kin"
+  },
+  {
+   "to": "lake-high",
+   "as": "whose four-sauce map he answers with two.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "found no South Carolina rule against wood cooking, as the campaign's 2014 challenge found none in North Carolina.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "whose True 'Cue Challenge Moss answered from South Carolina in the Columbia Free Times.",
+   "rel": "person"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "whose The One True Barbecue Moss reviewed for Southern Living in May 2016.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "elliott-moss",
+   "tell": "Elliott Moss is the pitmaster who opened Buxton Hall in Asheville; Robert F. Moss is the Charleston historian. No relation is recorded."
+  }
+ ],
+ "links": [
+  {
+   "label": "Robert F. Moss — About",
+   "url": "https://www.robertfmoss.com/about"
+  },
+  {
+   "label": "Barbecue: The History of an American Institution — University of Alabama Press",
+   "url": "https://www.uapress.ua.edu/9780817362249/barbecue/"
+  },
+  {
+   "label": "Barbecue History: Revised & Expanded — robertfmoss.com, 2020",
+   "url": "https://www.robertfmoss.com/features/Barbecue-History-Revised-Expanded"
+  }
+ ],
+ "sources": [
+  "s:web-robertfmoss-about",
+  "s:web-robertfmoss-revised-expanded",
+  "s:web-uapress-barbecue-revised",
+  "s:moss-barbecue-history",
+  "s:moss-barbecue-lovers-carolinas",
+  "s:web-moss-hash-and-rice",
+  "s:web-moss-hushpuppies",
+  "s:web-moss-sweet-tea-summerville",
+  "s:web-uncpress-reed-myth",
+  "s:web-southernliving-quest-one-true-barbecue",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-whole-hog-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-robertfmoss-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-robertfmoss-revised-expanded",
+    "note": "the colonial and political findings as the Wikipedia whole-hog article and this project's political-barbecue record report them; hash from his 2020 feature; the Free Times piece from the UNC Press blog (2016); the Fertel review from Southern Living as syndicated on Yahoo"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-robertfmoss-about",
+    "note": "as read on 2026-09-15"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A food writer and historian in Charleston — a Furman graduate with a doctorate in English from the University of South Carolina — who is contributing barbecue editor for Southern Living and was restaurant critic for the…",
+ "region_terms": [
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "his 2010 history is the source behind the colonial feast and the political barbecue in the word's story.",
+   "rel": "term"
+  },
+  {
+   "to": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "the institution of the early republic he documents from newspapers, letters and diaries.",
+   "rel": "event"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "which he finds established as a ritual in the British colonies by the eighteenth century.",
+   "rel": "kin"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "found in the 1854 Abbeville newspapers; he traced the name to haslet, the old word for the viscera.",
+   "rel": "kin"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "whose story he told on his site in 2023.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "Summerville's claim to it, which he tested for the Charleston City Paper in 2013.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "one of the two sauces he counts: sweet mustard.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the other: spicy vinegar.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "a variation on vinegar sauce, in his count, not a region of its own.",
+   "rel": "kin"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "folded back into the vinegar family by his count.",
+   "rel": "sauce"
+  },
+  {
+   "to": "cannons-bbq",
+   "type": "place",
+   "name": "Cannon's BBQ",
+   "as": "his example of the Midlands' mustard-yellow hash, recently closed when he wrote in March 2020.",
+   "rel": "place"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "counts four sauces where he counts two.",
+   "rel": "kin"
+  },
+  {
+   "to": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "whose four-sauce map he answers with two.",
+   "rel": "person"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "found no South Carolina rule against wood cooking, as the campaign's 2014 challenge found none in North Carolina.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "whose True 'Cue Challenge Moss answered from South Carolina in the Columbia Free Times.",
+   "rel": "person"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "whose The One True Barbecue Moss reviewed for Southern Living in May 2016.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-robertfmoss-about",
+   "kind": "web",
+   "title": "About",
+   "publisher": "robertfmoss.com (Robert F. Moss)",
+   "url": "https://www.robertfmoss.com/about",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-robertfmoss-revised-expanded",
+   "kind": "web",
+   "title": "Barbecue History: Revised & Expanded (September 17, 2020)",
+   "publisher": "robertfmoss.com (Robert F. Moss)",
+   "url": "https://www.robertfmoss.com/features/Barbecue-History-Revised-Expanded",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uapress-barbecue-revised",
+   "kind": "web",
+   "title": "Barbecue: The History of an American Institution, Revised and Expanded Second Edition — book page",
+   "publisher": "University of Alabama Press",
+   "url": "https://www.uapress.ua.edu/9780817362249/barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:moss-barbecue-history",
+   "kind": "book",
+   "title": "Barbecue: The History of an American Institution",
+   "author": "Robert F. Moss",
+   "publisher": "University of Alabama Press",
+   "year": 2010,
+   "note": "revised edition 2020"
+  },
+  {
+   "id": "s:moss-barbecue-lovers-carolinas",
+   "kind": "book",
+   "title": "Barbecue Lover's the Carolinas: Restaurants, Markets, Recipes & Traditions",
+   "author": "Robert F. Moss",
+   "publisher": "Globe Pequot",
+   "year": 2015
+  },
+  {
+   "id": "s:web-moss-hash-and-rice",
+   "kind": "web",
+   "title": "The Story of Hash & Rice (Robert F. Moss, 2020-07-11)",
+   "publisher": "robertfmoss.com",
+   "url": "https://robertfmoss.com/features/The-Story-of-South-Carolina-Hash-and-Rice",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-moss-hushpuppies",
+   "kind": "web",
+   "title": "The True Story of Hushpuppies, a Genuine Carolina Treat (Robert F. Moss, 2023-06-25)",
+   "publisher": "robertfmoss.com",
+   "url": "https://robertfmoss.com/features/The-True-Story-of-Hushpuppies-a-Genuine-Carolina-Treat",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-moss-sweet-tea-summerville",
+   "kind": "web",
+   "title": "Summerville can't squeeze the facts out of sweet tea's murky history (Robert F. Moss, 2013-11-13)",
+   "publisher": "Charleston City Paper",
+   "url": "https://charlestoncitypaper.com/2013/11/13/summerville-cant-squeeze-the-facts-out-of-sweet-teas-murky-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-uncpress-reed-myth",
+   "kind": "web",
+   "title": "John Shelton Reed: Busting a Barbecue Myth (April 6, 2016)",
+   "publisher": "UNC Press Blog",
+   "url": "https://uncpressblog.com/2016/04/06/reed-busting-barbecue-myth/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-southernliving-quest-one-true-barbecue",
+   "kind": "web",
+   "title": "A Quest for the One True Barbecue (Robert Moss, Southern Living, May 2016; syndicated on Yahoo News)",
+   "publisher": "Southern Living via Yahoo News",
+   "url": "https://www.yahoo.com/news/quest-one-true-barbecue-124158588.html",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-robertfmoss-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-robertfmoss-revised-expanded",
+   "note": "the colonial and political findings as the Wikipedia whole-hog article and this project's political-barbecue record report them; hash from his 2020 feature; the Free Times piece from the UNC Press blog (2016); the Fertel review from Southern Living as syndicated on Yahoo"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-robertfmoss-about",
+   "note": "as read on 2026-09-15"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "who counts it as a variation on vinegar sauce, not a region of its own.",
+   "rel": "person"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the historian who says the state has two sauces, sweet mustard and spicy vinegar, not four.",
+   "rel": "person"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "who folds it back into the vinegar family.",
+   "rel": "person"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "who found it in the 1854 newspapers and traced the name to haslet.",
+   "rel": "person"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "who tested Summerville's birthplace claim against the 1868 Boston Journal and the 1879 Tyree recipe.",
+   "rel": "person"
+  },
+  {
+   "from": "cannons-bbq",
+   "type": "place",
+   "name": "Cannon's BBQ",
+   "as": "the historian who used its hash as his example of the Midlands' mustard-tinged kind.",
+   "rel": "person"
+  },
+  {
+   "from": "carolina-bar-b-que",
+   "type": "place",
+   "name": "Carolina Bar-B-Que",
+   "as": "compiled the 2016 Southern Living list of the South's top fifty barbecue houses that carried it.",
+   "rel": "person"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "found in South Carolina, as Reed's challenge had in North Carolina, that no rule forbids cooking with wood.",
+   "rel": "person"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "the historian who counts two sauces where High counts four.",
+   "rel": "person"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "reviewed the book for Southern Living in May 2016.",
+   "rel": "person"
+  },
+  {
+   "from": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "found no wood-banning rule in South Carolina either.",
+   "rel": "person"
+  },
+  {
+   "from": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "the South Carolina historian who counts two sauces where the association counts four.",
+   "rel": "person"
+  },
+  {
+   "from": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "the historian of the early republic's barbecue.",
+   "rel": "person"
+  },
+  {
+   "from": "political-barbecue-prints",
+   "type": "art",
+   "name": "Going the whole hog — the 1830s barbecue lithographs",
+   "as": "the historian who puts the whole-hog political rally in the colonies by the 1700s.",
+   "rel": "person"
+  }
+ ]
+}

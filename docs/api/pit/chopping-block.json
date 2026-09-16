@@ -1,0 +1,455 @@
+{
+ "schema": 1,
+ "id": "chopping-block",
+ "type": "pit",
+ "names": {
+  "name": "chopping block",
+  "aliases": [
+   "the block",
+   "cleavers",
+   "chop"
+  ],
+  "said": "'Chopped', 'coarse chopped' and 'sliced' are the three words on a Lexington menu; in the east the only word is 'barbecue', and it comes chopped."
+ },
+ "region": [
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "tool"
+ },
+ "text": {
+  "what": "A thick wooden block and a pair of cleavers, on which cooked pork is turned into barbecue. The whole hog is pulled from the bones onto the block and chopped, skin and all, until the meat is fine enough to hold a thin vinegar sauce; the salt and the sauce go on at the block — at the Skylight Inn, vinegar, salt, pepper and Texas Pete. A Lexington shoulder is chopped fine, chopped coarse into small chunks, or sliced, and at Lexington Barbecue never pulled. Jane and Michael Stern called the sound of cleavers on the block one of the most alluring aspects of whole hog barbecue in the Carolinas.",
+  "story": "The chop is the Carolinas' answer to a question other regions answer with a knife or a fork. *Tradition holds —* the eastern chop comes from the whole hog itself: light meat, dark meat, fat and skin from one animal are one dish only once they are chopped together, and the chop is what lets the crisp skin be eaten in every bite. Eastern-style meat is chopped after it is pulled from the bone, for a finer texture and so that it holds the thin vinegar sauce; Lexington-style is served pulled or lightly chopped, with larger strands of muscle, and the Lexington restaurants add the sliced tray. NCpedia records a South Carolina habit that has crossed the state line: separating the skin, the dry 'outside meat' and the juicier 'inside meat', so the customer chooses; some whole-hog restaurants let the customer choose white meat, dark meat or both, and prize the 'middlin' from the belly and the 'catfish' from under the tenderloin. The three cuts of the Piedmont are a price list. At Lexington Barbecue in September 2026 a chopped tray was $8.00 cash, a sliced tray $8.20 and a coarse-chop tray $8.60, with slaw and rolls or hush puppies; at the Barbecue Center a chopped tray was $9 small and $12 large, sliced or coarse chopped $10 and $13, dip on the meat, slaw included, hush puppies or a potato bun.",
+  "how": "The cooked meat is pulled from the bones by hand and heaped on the block; the cook works the cleavers across the heap, folding the pile back on itself, adding the crisp skin in pieces once the meat is broken down, and seasoning on the block. For a Lexington shoulder the meat is chopped fine, chopped coarse for 'chunks', or sliced, and the dip goes on before it is trayed. A sandwich takes the chop and slaw on a soft bun.",
+  "today": "The block and cleavers are in use at the Skylight Inn and in most whole-hog kitchens; Lexington menus carry the three cuts, and 'chopped' is the ordinary order on both sides of the state."
+ },
+ "kin": [
+  {
+   "to": "chopped",
+   "as": "the word for what happens here, and for the result.",
+   "rel": "term"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the carcass that becomes one dish on the block.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "chopped fine, chopped coarse or sliced on the same block.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-skins",
+   "as": "the crisp skin chopped through the eastern barbecue.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "goes on at the block, with salt.",
+   "rel": "sauce"
+  },
+  {
+   "to": "texas-pete",
+   "as": "part of the Skylight Inn's seasoning at the block.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "goes on the chopped shoulder before it is trayed.",
+   "rel": "sauce"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "what the chop is served as, with slaw.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "the chop and slaw on a soft bun.",
+   "rel": "serves"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "the preparation that skips the block; Lexington Barbecue never pulls.",
+   "rel": "contrast"
+  },
+  {
+   "to": "outside-brown",
+   "as": "the Piedmont's word for the shoulder's dry outer meat, which the Carolinas separate from the inside meat.",
+   "rel": "part"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "chops tenderloin, inner meat and crisped skin together at the block.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "chopped, coarse chop or sliced; never pulled.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "chopped, sliced or coarse chopped 'chunks', dip on the meat.",
+   "rel": "place"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "chopped",
+   "tell": "The block is the tool and the place; 'chopped' is the word for the result and the order."
+  }
+ ],
+ "links": [
+  {
+   "label": "Whole hog barbecue — Wikipedia (Serving)",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue#Serving"
+  },
+  {
+   "label": "Barbecue Center — menu",
+   "url": "https://order.ehungry.com/Barbecue-Center-inc/order/barbecuecenternet/main/menu"
+  }
+ ],
+ "sources": [
+  "s:wp-whole-hog-barbecue",
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-skylight-inn-bbq",
+  "s:web-visitnc-lexington-barbecue",
+  "s:web-leisuregrouptravel-lexington",
+  "s:web-lexbbq-menu",
+  "s:web-barbecue-center-menu",
+  "s:ncpedia-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-in-north-carolina",
+    "note": "prices as posted on 2026-09-15; the reasoning about skin is hedged inline as tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the two-cleaver method as watched at eastern pits; the Skylight seasoning is cited"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "chopping-block/chopping-block-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+   "source": "commons",
+   "title": "File:Cooked and chopped hogs at B's Barbecue.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cooked_and_chopped_hogs_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACooked_and_chopped_hogs_at_B%27s_Barbecue.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "City of Greenville, North Carolina",
+   "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248355806/",
+   "alt": "Taken at B's Barbecue, a Greenville barbecue restaurant that opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+   "date": "2023-09-19 09:13:44",
+   "primary": true,
+   "sha256": "ada44eed068a81c3f2995ac530303b10d34c7bf29adad1261a36d9bff097380a"
+  },
+  {
+   "file": "chopping-block/chopping-block-northcarolinabarbecuebanner.jpg",
+   "source": "commons",
+   "title": "File:NorthCarolinaBarbecueBanner.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/NorthCarolinaBarbecueBanner.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANorthCarolinaBarbecueBanner.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Rastapopulous",
+   "credit": "Own work",
+   "alt": "Chopping barbecue at a restaurant in Eastern North Carolina",
+   "date": "2013-03-19 11:56:13",
+   "primary": false,
+   "sha256": "ba29b232b4b4dff37fe4b68b09fafcfdf2f38e8adce67f4ab36d3af6db545069"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A thick wooden block and a pair of cleavers, on which cooked pork is turned into barbecue.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the word for what happens here, and for the result.",
+   "rel": "term"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the carcass that becomes one dish on the block.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "chopped fine, chopped coarse or sliced on the same block.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "the crisp skin chopped through the eastern barbecue.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "goes on at the block, with salt.",
+   "rel": "sauce"
+  },
+  {
+   "to": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "part of the Skylight Inn's seasoning at the block.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "goes on the chopped shoulder before it is trayed.",
+   "rel": "sauce"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "what the chop is served as, with slaw.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the chop and slaw on a soft bun.",
+   "rel": "serves"
+  },
+  {
+   "to": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the preparation that skips the block; Lexington Barbecue never pulls.",
+   "rel": "contrast"
+  },
+  {
+   "to": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the Piedmont's word for the shoulder's dry outer meat, which the Carolinas separate from the inside meat.",
+   "rel": "part"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "chops tenderloin, inner meat and crisped skin together at the block.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "chopped, coarse chop or sliced; never pulled.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "chopped, sliced or coarse chopped 'chunks', dip on the meat.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-visitnc-lexington-barbecue",
+   "kind": "web",
+   "title": "Lexington Barbecue",
+   "publisher": "Visit North Carolina (Economic Development Partnership of North Carolina)",
+   "url": "https://www.visitnc.com/lexington-barbecue",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-leisuregrouptravel-lexington",
+   "kind": "web",
+   "title": "Lexington, North Carolina Barbecue is All About the Pork (Randy Mink)",
+   "publisher": "Leisure Group Travel",
+   "url": "https://leisuregrouptravel.com/pork-paradise-savoring-the-flavors-of-lexington-north-carolina/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:web-barbecue-center-menu",
+   "kind": "web",
+   "title": "Barbecue Center — online menu (prices as posted)",
+   "publisher": "Barbecue Center, Lexington, via ehungry",
+   "url": "https://order.ehungry.com/Barbecue-Center-inc/order/barbecuecenternet/main/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina",
+   "note": "prices as posted on 2026-09-15; the reasoning about skin is hedged inline as tradition"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the two-cleaver method as watched at eastern pits; the Skylight seasoning is cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  }
+ },
+ "primary_image": {
+  "file": "chopping-block/chopping-block-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+  "source": "commons",
+  "title": "File:Cooked and chopped hogs at B's Barbecue.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cooked_and_chopped_hogs_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ACooked_and_chopped_hogs_at_B%27s_Barbecue.jpg",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "City of Greenville, North Carolina",
+  "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248355806/",
+  "alt": "Taken at B's Barbecue, a Greenville barbecue restaurant that opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+  "date": "2023-09-19 09:13:44",
+  "primary": true,
+  "sha256": "ada44eed068a81c3f2995ac530303b10d34c7bf29adad1261a36d9bff097380a"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "where it goes on: tossed through the chopped meat with salt before it is served.",
+   "rel": "part"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "where the tray's meat is cut and dressed before it is boxed.",
+   "rel": "part"
+  },
+  {
+   "from": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "where the skin goes into the meat under the cleavers.",
+   "rel": "part"
+  },
+  {
+   "from": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "where it is chopped fine, chopped coarse or sliced.",
+   "rel": "kin"
+  },
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "where the whole hog becomes barbecue: cleavers on a block, skin chopped through the meat.",
+   "rel": "kin"
+  },
+  {
+   "from": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "as": "where the pork is chopped by hand; the family says it is never ground.",
+   "rel": "part"
+  },
+  {
+   "from": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "the wooden block that was one of the three things the stand began with.",
+   "rel": "part"
+  },
+  {
+   "from": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "the oak blocks the pork is chopped on by hand.",
+   "rel": "part"
+  },
+  {
+   "from": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the block the chop happens on, with cleavers; the sound of it is the sound of an eastern pit.",
+   "rel": "part"
+  }
+ ]
+}

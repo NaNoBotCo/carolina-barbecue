@@ -1,0 +1,300 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "bobbee-os-bbq",
+ "names": {
+  "name": "Bobbee O's BBQ",
+  "aliases": [
+   "Bobbee O's"
+  ],
+  "sort": "Bobbee O's BBQ"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "2008",
+  "fuel": "unknown",
+  "styles": []
+ },
+ "text": {
+  "what": "A Black-owned barbecue counter on Statesville Road in north Charlotte, opened in 2008 by Bob Steven Roberts after four years working on his sauce. The board runs to pulled pork, ribs, brisket and wings rather than whole hog, and the room is counter service with online ordering. Roberts's niece Chloria Chandler is his business partner. It is one of the few barbecue businesses in Mecklenburg County that the Black-owned business directories carry, and the only one in this project's Charlotte records.",
+  "story": "Bob Steven Roberts spent four years on the sauce before he opened. He had lived in California and New Jersey before coming to North Carolina more than thirty years ago, cooked in Fayetteville and Raleigh, and landed in Charlotte. His niece Chloria Chandler works with him as his business partner; she told QCity Metro in November 2021 that her favourite is the ribs, because she had been eating them since she was in her mother's stomach. The Black-owned business directories carry him: EatOkra lists the restaurant, NBA.com put it first in a list of ten Black-owned Charlotte restaurants in February 2023, and the chef Todd Richards included it in his guide to Black-owned barbecue, updated May 2025, with a note that this is the place for a sampler plate. What is under the meat is not settled. A 2024 lifestyle listing says hickory; a barbecue blog reported second-hand in 2016 that the kitchen ran a cabinet smoker and was not trying for wood smoke, and its own 2012 visit found no smoker in sight. The restaurant's site says nothing about fuel, so no wood tag is set here. *Inference —* the sauce, not the fire, is what every account of this kitchen is actually about.",
+  "how": "Counter service and online ordering: pulled pork, ribs, brisket and wings by the plate or the pound, with the house sauce that took four years to settle. There is no whole hog on the board in any source read, and no hash. Cards are taken. The room keeps long hours by barbecue standards, into the evening six nights and to eight on Sunday.",
+  "today": "Open, on the listings read, at 9401 Statesville Road, Suite C, Charlotte; an earlier address on Old Statesville Road appears in accounts from 2012. No closure notice was found and no news-grade source confirms trading in 2026, so treat the status as reported rather than checked."
+ },
+ "kin": [
+  {
+   "to": "pork-shoulder",
+   "as": "the cut behind its pulled pork; there is no whole hog on the board.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "the plate most of its accounts describe, with the sauce that took four years.",
+   "rel": "serves"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "wrote the book on African American barbecue that frames why a directory of Black-owned pits exists at all.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 35.34873,
+  "lon": -80.84135,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "9401 Statesville Rd, Suite C",
+  "city": "Charlotte",
+  "county": "Mecklenburg",
+  "state": "NC",
+  "postcode": "28269"
+ },
+ "links": [
+  {
+   "label": "Bobbee O's BBQ — EatOkra listing",
+   "url": "https://www.eatokra.com/businesses/bobbee-o-s-bbq"
+  },
+  {
+   "label": "10 Black-owned restaurants to visit in Charlotte — NBA.com (2023)",
+   "url": "https://www.nba.com/news/10-black-owned-restaurants-charlotte"
+  },
+  {
+   "label": "At this Black-owned restaurant, a BBQ recipe four years in the making — QCity Metro (2021)",
+   "url": "https://qcitymetro.com/2021/11/18/takeout-for-when-you-need-to-prove-carolina-has-the-best-bbq/"
+  }
+ ],
+ "sources": [
+  "s:web-qcitymetro-bobbee-os",
+  "s:web-nba-black-owned-charlotte",
+  "s:web-eatokra-bobbee-os",
+  "s:web-eatokra",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-qcitymetro-bobbee-os"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-qcitymetro-bobbee-os",
+    "note": "The QCity Metro piece of November 18, 2021 is labelled sponsored content, sponsored by the Charlotte Regional Visitors Authority; its ownership facts are corroborated by NBA.com (February 27, 2023) and EatOkra. A Parade magazine honour circulates in aggregator text in two incompatible forms and is not repeated here."
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-qcitymetro-bobbee-os",
+    "note": "unknown: a 2024 lifestyle listing says hickory, a barbecue blog reported a cabinet smoker second-hand in 2016 and found no smoker in 2012, and the restaurant's own site is silent"
+   },
+   "facets.status": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "no closure notice and no news-grade confirmation of 2026 trading; listings only"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-nba-black-owned-charlotte",
+   "tier": "cited",
+   "note": "Named first in NBA.com's list of ten Black-owned Charlotte restaurants, February 27, 2023; QCity Metro's headline of November 18, 2021 calls it a Black-owned restaurant and names the owner Bob Steven Roberts; EatOkra, a directory of Black-owned restaurants, carries it, as does Todd Richards's guide to Black-owned barbecue, updated May 1, 2025."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-qcitymetro-bobbee-os",
+   "tier": "cited",
+   "note": "Bob Steven Roberts opened it in 2008; his niece Chloria Chandler is named as his business partner. No source read names her as an owner, so no woman-owned tag is set."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "listed among ten Black-owned restaurants to visit in Charlotte",
+   "source": "s:web-nba-black-owned-charlotte",
+   "year": 2023,
+   "url": "https://www.nba.com/news/10-black-owned-restaurants-charlotte"
+  },
+  {
+   "by": "other",
+   "what": "one of fifteen pits in the chef Todd Richards's guide to Black-owned barbecue",
+   "source": "s:web-eatokra-bobbee-os",
+   "year": 2025,
+   "note": "updated May 1, 2025; the blurb calls it a place for a sampler plate"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A Black-owned barbecue counter on Statesville Road in north Charlotte, opened in 2008 by Bob Steven Roberts after four years working on his sauce.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut behind its pulled pork; there is no whole hog on the board.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the plate most of its accounts describe, with the sauce that took four years.",
+   "rel": "serves"
+  },
+  {
+   "to": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "wrote the book on African American barbecue that frames why a directory of Black-owned pits exists at all.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-qcitymetro-bobbee-os",
+   "kind": "web",
+   "title": "At this Black-owned restaurant, a BBQ recipe four years in the making",
+   "author": "Bethany Lane",
+   "publisher": "QCity Metro",
+   "year": 2021,
+   "url": "https://qcitymetro.com/2021/11/18/takeout-for-when-you-need-to-prove-carolina-has-the-best-bbq/",
+   "accessed": "2026-09-16",
+   "note": "Labelled sponsored content, sponsored by the Charlotte Regional Visitors Authority."
+  },
+  {
+   "id": "s:web-nba-black-owned-charlotte",
+   "kind": "web",
+   "title": "10 Black-owned restaurants to visit in Charlotte",
+   "publisher": "NBA.com",
+   "year": 2023,
+   "url": "https://www.nba.com/news/10-black-owned-restaurants-charlotte",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-eatokra-bobbee-os",
+   "kind": "web",
+   "title": "Bobbee O's BBQ — EatOkra listing",
+   "publisher": "EatOkra",
+   "url": "https://www.eatokra.com/businesses/bobbee-o-s-bbq",
+   "accessed": "2026-09-16",
+   "note": "Also carries Todd Richards's Guide to Black-Owned BBQ, updated May 1, 2025."
+  },
+  {
+   "id": "s:web-eatokra",
+   "kind": "web",
+   "title": "EatOkra — a directory of Black-owned restaurants",
+   "publisher": "EatOkra",
+   "url": "https://www.eatokra.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-qcitymetro-bobbee-os"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-qcitymetro-bobbee-os",
+   "note": "The QCity Metro piece of November 18, 2021 is labelled sponsored content, sponsored by the Charlotte Regional Visitors Authority; its ownership facts are corroborated by NBA.com (February 27, 2023) and EatOkra. A Parade magazine honour circulates in aggregator text in two incompatible forms and is not repeated here."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-qcitymetro-bobbee-os"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-qcitymetro-bobbee-os"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-qcitymetro-bobbee-os"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory, an SFA oral history",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:nc-black-owned-lists",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-nba-black-owned-charlotte",
+   "note": "Named first in NBA.com's list of ten Black-owned Charlotte restaurants, February 27, 2023; QCity Metro's headline of November 18, 2021 calls it a Black-owned restaurant and names the owner Bob Steven Roberts; EatOkra, a directory of Black-owned restaurants, carries it, as does Todd Richards's guide to Black-owned barbecue, updated May 1, 2025.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-qcitymetro-bobbee-os",
+   "note": "Bob Steven Roberts opened it in 2008; his niece Chloria Chandler is named as his business partner. No source read names her as an owner, so no woman-owned tag is set.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "listed among ten Black-owned restaurants to visit in Charlotte",
+   "url": "https://www.nba.com/news/10-black-owned-restaurants-charlotte",
+   "year": 2023,
+   "source": "s:web-nba-black-owned-charlotte"
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "one of fifteen pits in the chef Todd Richards's guide to Black-owned barbecue",
+   "url": "",
+   "year": 2025,
+   "source": "s:web-eatokra-bobbee-os"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": []
+}

@@ -1,0 +1,525 @@
+{
+ "schema": 1,
+ "id": "rodney-scotts-whole-hog-bbq",
+ "type": "place",
+ "names": {
+  "name": "Rodney Scott's Whole Hog BBQ",
+  "aliases": [
+   "Rodney Scott's BBQ",
+   "Rodney Scott's"
+  ],
+  "sort": "Rodney Scott's Whole Hog BBQ"
+ },
+ "region": [
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "closed",
+  "founded": "2017",
+  "fuel": "charcoal",
+  "styles": [
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog restaurant at 1011 King Street on the Charleston peninsula, opened in February 2017 by Rodney Scott of Hemingway and the restaurateur Nick Pihakis in a former fried-chicken house, with seats for about 128, a drive-through and delivery. It cooked whole hogs over hardwood coals and served the pulled pork with a hot vinegar sauce beside spare ribs, fried catfish, a rib-eye sandwich and banana pudding. Sister restaurants followed in Birmingham in 2019 and in Atlanta and a second Alabama town in 2021. Every location closed in May 2026 amid lawsuits and liens against Pihakis's restaurant group, and the King Street doors have stayed shut since.",
+  "story": "Rodney Scott was born in Philadelphia in 1971 and raised at his parents' store and pits in Hemingway, where he cooked his first hog at eleven. A customer, Nick Pihakis of the Jim 'N Nick's chain, told him he was undercharging; after the Hemingway cookhouse burned in November 2013 it was Pihakis's Fatback Collective that staged the Bar-B-Que in Exile dinners to rebuild it. The two opened Rodney Scott's Whole Hog BBQ in February 2017 in the old Chick's Fry House on upper King Street. In May 2018 the James Beard Foundation gave Scott its chef award for the Southeast, the second pitmaster to win one; the Chef's Table: BBQ episode about him in 2020 set sales records three days running, with hour-long lines; Food & Wine put the restaurant among the forty most important of the past forty years. Birmingham opened in 2019, Atlanta and a fourth Alabama site in 2021, and a cookbook with Lolis Eric Elie came out the same year. On May 3, 2026 the King Street restaurant closed at 5 p.m. 'until further notice', in general manager Sam Ayala's words, days after a meat supplier sued Pihakis Restaurant Group for $394,238.74 and a landlord filed more than $12 million in liens; every Rodney Scott's closed with it. In June Scott cooked a pop-up at Munkle Brewing under the name Pitmaster Scott and said reopening in Charleston was his first priority.",
+  "how": "Whole hogs cooked over hardwood charcoal, pulled, and seasoned with a spice rub that includes MSG — Scott calls it a 'flavor maker' — and a hot vinegar sauce. Past the hog: spare ribs, fried catfish, a rib-eye steak sandwich, banana pudding. The room seated about 128, with a drive-through window and delivery.",
+  "today": "Closed. The King Street restaurant shut at 5 p.m. on May 3, 2026 'until further notice' and had not reopened when this record was written on September 15, 2026; the Birmingham, Atlanta and other Alabama locations closed the same week. Rodney Scott has said he means to reopen in Charleston. Address of record: 1011 King Street."
+ },
+ "kin": [
+  {
+   "to": "scotts-bar-b-que",
+   "as": "the Hemingway store and pits where the method and the sauce come from.",
+   "rel": "origin"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "its namesake and pitmaster, given the James Beard chef award for the Southeast in 2018.",
+   "rel": "person"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut in the name, cooked whole over coals as at Hemingway.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "its sauce, the Pee Dee's vinegar and pepper, carried to the coast.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the style: Pee Dee whole hog in a Lowcountry city.",
+   "rel": "whole"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "on the dessert list from the opening menu.",
+   "rel": "serves"
+  },
+  {
+   "to": "lewis-barbecue",
+   "as": "its neighbour on the peninsula, opened eight months earlier, cooking Texas beef where this house cooked the Carolina hog.",
+   "rel": "contrast"
+  },
+  {
+   "to": "home-team-bbq",
+   "as": "the older Charleston barbecue company, from 2006.",
+   "rel": "kin"
+  },
+  {
+   "to": "pitmaster",
+   "as": "the word Rodney Scott chose for his pop-up name in 2026: Pitmaster Scott.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "scotts-bar-b-que",
+   "tell": "Scott's Bar-B-Que is the family store in Hemingway, open, run by Rodney's uncle and son. Rodney Scott's Whole Hog BBQ was the King Street restaurant in Charleston, 2017 to May 2026."
+  }
+ ],
+ "geo": {
+  "lat": 32.80344,
+  "lon": -79.95121,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "1011 King St",
+  "city": "Charleston",
+  "county": "Charleston",
+  "state": "SC",
+  "postcode": "29403"
+ },
+ "links": [
+  {
+   "label": "Rodney Scott's Whole Hog BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott%27s_Whole_Hog_BBQ"
+  },
+  {
+   "label": "Rodney Scott (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)"
+  },
+  {
+   "label": "Rodney Scott's BBQ — official",
+   "url": "https://www.rodneyscottsbbq.com/"
+  }
+ ],
+ "sources": [
+  "s:wp-rodney-scotts-whole-hog-bbq",
+  "s:wp-rodney-scott-pitmaster",
+  "s:web-npr-pit-burned-down-2014",
+  "s:web-live5-rodney-scotts-close-2026",
+  "s:web-city-paper-rodney-scotts-closed-2026",
+  "s:web-cooter-soup-rodney-scott-back-2026",
+  "s:scott-world-of-bbq",
+  "s:osm",
+  "s:web-truecue-sc",
+  "s:web-black-restaurant-week"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-rodney-scotts-whole-hog-bbq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-rodney-scott-pitmaster",
+    "note": "closure details from Live 5 News (May 3, 2026) and Charleston City Paper (May 4, 2026); the June pop-up and the reopening statement from Erin Perkins's Cooter Soup post of June 3, 2026, which cites the Post and Courier"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-live5-rodney-scotts-close-2026",
+    "note": "an August 2026 Post and Courier report that the restaurant will not return to 1011 King Street could not be fetched and is not relied on"
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:wp-rodney-scotts-whole-hog-bbq",
+    "note": "the article says hardwood charcoal"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:wp-rodney-scott-pitmaster",
+    "note": "No source read on 2026-09-16 describes Rodney Scott as Black or the restaurant as Black-owned: the Wikipedia articles on Scott and the restaurant carry no such sentence, and the UNC Press page for Adrian Miller's Black Smoke refused the fetch. No black-owned tag is set."
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:web-live5-rodney-scotts-close-2026",
+   "tier": "cited",
+   "note": "The King Street restaurant shut at 5 p.m. on May 3, 2026 'until further notice' and had not reopened on September 15, 2026.",
+   "since": "2026-05-03"
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:wp-rodney-scotts-whole-hog-bbq",
+   "tier": "cited",
+   "note": "Whole hogs cooked over hardwood coals and pulled."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:wp-rodney-scotts-whole-hog-bbq",
+   "tier": "cited",
+   "note": "Hardwood charcoal, per the article."
+  },
+  {
+   "tag": "black-owned",
+   "source": "s:web-black-restaurant-week",
+   "tier": "cited",
+   "url": "https://blackrestaurantweeks.com/best-black-owned-restaurants-in-charleston/",
+   "note": "Black Restaurant Week's Charleston directory lists the King Street restaurant among Black-owned restaurants in the city (read 2026-09-16). The listing itself is the evidence; the entry does not restate ownership in its text. Rodney Scott co-owns the restaurant with Nick Pihakis."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Rodney Scott's Whole Hog BBQ, Charleston",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "james-beard",
+   "what": "Rodney Scott named Best Chef: Southeast, only the second pitmaster to win a James Beard chef award",
+   "source": "s:wp-rodney-scott-pitmaster",
+   "year": 2018,
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)"
+  }
+ ],
+ "blurb": "A whole-hog restaurant at 1011 King Street on the Charleston peninsula, opened in February 2017 by Rodney Scott of Hemingway and the restaurateur Nick Pihakis in a former fried-chicken house, with seats for about 128, a…",
+ "region_terms": [
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "the Hemingway store and pits where the method and the sauce come from.",
+   "rel": "origin"
+  },
+  {
+   "to": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "its namesake and pitmaster, given the James Beard chef award for the Southeast in 2018.",
+   "rel": "person"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut in the name, cooked whole over coals as at Hemingway.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "its sauce, the Pee Dee's vinegar and pepper, carried to the coast.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the style: Pee Dee whole hog in a Lowcountry city.",
+   "rel": "whole"
+  },
+  {
+   "to": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "on the dessert list from the opening menu.",
+   "rel": "serves"
+  },
+  {
+   "to": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "as": "its neighbour on the peninsula, opened eight months earlier, cooking Texas beef where this house cooked the Carolina hog.",
+   "rel": "contrast"
+  },
+  {
+   "to": "home-team-bbq",
+   "type": "place",
+   "name": "Home Team BBQ",
+   "as": "the older Charleston barbecue company, from 2006.",
+   "rel": "kin"
+  },
+  {
+   "to": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "the word Rodney Scott chose for his pop-up name in 2026: Pitmaster Scott.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-rodney-scotts-whole-hog-bbq",
+   "kind": "wikipedia",
+   "title": "Rodney Scott's Whole Hog BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott%27s_Whole_Hog_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-rodney-scott-pitmaster",
+   "kind": "wikipedia",
+   "title": "Rodney Scott (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-npr-pit-burned-down-2014",
+   "kind": "web",
+   "title": "When His Pit Burned Down, Southern BBQ Master Took Hogs On Tour — Debbie Elliott, The Salt, February 4, 2014",
+   "publisher": "NPR",
+   "url": "https://www.npr.org/sections/thesalt/2014/02/04/271526910/when-his-pit-burned-down-a-southern-bbq-master-took-hogs-on-tour",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-live5-rodney-scotts-close-2026",
+   "kind": "web",
+   "title": "Rodney Scott's BBQ to officially close (May 3, 2026)",
+   "publisher": "Live 5 News (WCSC), Charleston",
+   "url": "https://www.live5news.com/2026/05/03/rodney-scotts-bbq-officially-close/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-city-paper-rodney-scotts-closed-2026",
+   "kind": "web",
+   "title": "Rodney Scott's BBQ closed 'until further notice' (May 4, 2026)",
+   "publisher": "Charleston City Paper",
+   "url": "https://charlestoncitypaper.com/2026/05/04/rodney-scotts-bbq-closed-until-further-notice/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-cooter-soup-rodney-scott-back-2026",
+   "kind": "web",
+   "title": "Rodney Scott is back, sort of — Erin Perkins (June 3, 2026)",
+   "publisher": "Cooter Soup (Substack)",
+   "url": "https://cootersoupchs.substack.com/p/rodney-scott-is-back-sort-of",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:scott-world-of-bbq",
+   "kind": "book",
+   "title": "Rodney Scott's World of BBQ: Every Day Is a Good Day",
+   "author": "Rodney Scott and Lolis Eric Elie",
+   "publisher": "Clarkson Potter",
+   "year": 2021
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-black-restaurant-week",
+   "kind": "web",
+   "title": "Black Restaurant Week — Southeast listings",
+   "publisher": "Black Restaurant Week LLC",
+   "url": "https://www.blackrestaurantweek.com/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-rodney-scotts-whole-hog-bbq"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-rodney-scott-pitmaster",
+   "note": "closure details from Live 5 News (May 3, 2026) and Charleston City Paper (May 4, 2026); the June pop-up and the reopening statement from Erin Perkins's Cooter Soup post of June 3, 2026, which cites the Post and Courier"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-rodney-scotts-whole-hog-bbq"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-live5-rodney-scotts-close-2026",
+   "note": "an August 2026 Post and Courier report that the restaurant will not return to 1011 King Street could not be fetched and is not relied on"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": [],
+   "source": "s:web-live5-rodney-scotts-close-2026",
+   "note": "The King Street restaurant shut at 5 p.m. on May 3, 2026 'until further notice' and had not reopened on September 15, 2026.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:wp-rodney-scotts-whole-hog-bbq",
+   "note": "Whole hogs cooked over hardwood coals and pulled.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:wp-rodney-scotts-whole-hog-bbq",
+   "note": "Hardwood charcoal, per the article.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory, an SFA oral history",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:nc-black-owned-lists",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-black-restaurant-week",
+   "note": "Black Restaurant Week's Charleston directory lists the King Street restaurant among Black-owned restaurants in the city (read 2026-09-16). The listing itself is the evidence; the entry does not restate ownership in its text. Rodney Scott co-owns the restaurant with Nick Pihakis.",
+   "tier": "cited",
+   "url": "https://blackrestaurantweeks.com/best-black-owned-restaurants-in-charleston/"
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Rodney Scott's Whole Hog BBQ, Charleston",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  },
+  {
+   "key": "james-beard",
+   "label": "James Beard Foundation",
+   "what": "Rodney Scott named Best Chef: Southeast, only the second pitmaster to win a James Beard chef award",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)",
+   "year": 2018,
+   "source": "s:wp-rodney-scott-pitmaster"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "Rodney Scott's Charleston restaurant, opened February 2017: whole hog with a spicy vinegar sauce.",
+   "rel": "place"
+  },
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "on the menu with the catfish, the rib-eye sandwich and the ribs.",
+   "rel": "served-at"
+  },
+  {
+   "from": "home-team-bbq",
+   "type": "place",
+   "name": "Home Team BBQ",
+   "as": "the whole-hog house on King Street, 2017 to 2026.",
+   "rel": "kin"
+  },
+  {
+   "from": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "as": "its neighbour up the peninsula from February 2017 to May 2026, cooking the Carolina hog where Lewis cooks Texas beef.",
+   "rel": "contrast"
+  },
+  {
+   "from": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "the Charleston restaurant Rodney opened in 2017 with the same hogs and the same sauce.",
+   "rel": "descendant"
+  },
+  {
+   "from": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "the Charleston restaurant that carried his name from February 2017 until it closed in May 2026.",
+   "rel": "place"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the Charleston restaurant, opened 2017, that carried the Pee Dee hog to the coast.",
+   "rel": "place"
+  }
+ ]
+}

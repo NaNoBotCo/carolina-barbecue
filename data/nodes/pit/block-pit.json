@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "id": "block-pit",
+ "type": "pit",
+ "names": {
+  "name": "block pit",
+  "aliases": ["cinder-block pit", "concrete-block pit", "open pit", "pig pit"]
+ },
+ "region": ["nc-east", "sc-pee-dee", "carolinas"],
+ "facets": {"kind": "pit"},
+ "text": {
+  "what": "An open pit built above ground of cinder blocks — concrete blocks — wide and shallow, a little longer than a split hog, with a rack across the top on which the pig lies and a bed of charcoal below; brick or steel are the alternatives, and the charcoal is made in a fireplace or a burn barrel beside it. It is the whole-hog pit of the Carolinas, the one a farm, a fire department or a family can lay in an afternoon. *Tradition holds —* the blocks go up dry, without mortar, two or three courses high, a gap is left for the shovel, and a sheet of tin or plywood closes the top.",
+  "story": "The trench came first. *Tradition holds —* the farm barbecue of the Carolinas was cooked over a pit dug in the ground, and Mallard Creek Presbyterian Church in Charlotte cooked its 1929 barbecue that way, hickory coals shoved under whole hogs in ditches; by the 1980s metal cookers had replaced the church's dirt pits, with some meat still cooked on open pits inside a screened building. NCpedia records that few commercial pits today are dug in the ground. The cinder block — cheap, fireproof, stackable — is what the open pit became when it climbed out of the ditch. It is the pit of the pig pickin' and the cook-off, and the pit the whole-hog restaurants of the east grew from: the Skylight Inn's hogs cook over charcoal made in fireplaces beside the pits, and Rodney Scott's over hardwood charcoal shoveled from a burn barrel. The Cuban roasting box, by contrast, is a closed box of concrete blocks and steel mesh with the coals on top.",
+  "how": "Blocks are laid in a rectangle a little longer and wider than the split hog; a rack spans the top, the hog goes on skin-side up, and a lid holds the heat. Coals from the burn barrel are shoveled in and spread beneath the carcass on a regular round through the night — *Tradition holds —* heavier under the hams and shoulders, thinner under the loin. The fat that drips hisses on the coals, and a flare-up is the danger the cook watches for; an uncontrolled pit fire can take the pit and the building. After eight to twenty-four hours the hog is flipped once, skin down, to crisp.",
+  "today": "The block pit is the pit of the yard, the church lot, the fire station and the competition; restaurants that cook whole hog mostly cook in masonry or steel pits under a roof, and the form — a bed of coals, a rack, a hog, a lid — is the same."
+ },
+ "kin": [
+  {"to": "whole-hog", "as": "the cut it is sized to: a split carcass on a rack over coals.", "rel": "whole"},
+  {"to": "burn-barrel", "as": "the coal-maker beside it.", "rel": "part"},
+  {"to": "direct-heat", "as": "coals spread directly beneath the carcass.", "rel": "kin"},
+  {"to": "hickory-and-oak", "as": "the wood burned down for its coals.", "rel": "part"},
+  {"to": "brick-pit", "as": "the closed, chimneyed Piedmont pit for shoulders; the block pit is open and for hogs.", "rel": "contrast"},
+  {"to": "pig-cooker", "as": "the steel, wheeled version on gas or charcoal.", "rel": "contrast"},
+  {"to": "pig-pickin", "as": "the party cooked on it.", "rel": "event"},
+  {"to": "fundraiser-barbecue", "as": "the fire department's Saturday pig is cooked on one, or on a cooker.", "rel": "event"},
+  {"to": "mallard-creek-barbecue", "as": "began in dirt ditches in 1929 and moved to metal cookers in the 1980s.", "rel": "event"},
+  {"to": "skylight-inn", "as": "its hogs cook over charcoal made in fireplaces beside the pits.", "rel": "place"},
+  {"to": "pit", "as": "the word, which in the east means this open bed of coals.", "rel": "term"}
+ ],
+ "confusable_with": [
+  {"id": "brick-pit", "tell": "A block pit is open, unmortared and sized to a whole hog; a brick pit is a closed chamber with a door and a chimney, built for shoulders."},
+  {"id": "pig-cooker", "tell": "A block pit is stacked masonry on the ground; a pig cooker is a steel box on a trailer."}
+ ],
+ "links": [
+  {"label": "Whole hog barbecue — Wikipedia (Preparation)", "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue#Preparation"}
+ ],
+ "sources": ["s:wp-whole-hog-barbecue", "s:wp-pig-roast", "s:web-mallard-creek-history", "s:ncpedia-barbecue", "s:wp-skylight-inn-bbq", "s:wp-rodney-scotts-whole-hog-bbq", "s:web-npr-scott-pit-burned", "s:jones-whole-hog-bbq", "s:scott-world-of-bbq"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-whole-hog-barbecue"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:wp-whole-hog-barbecue", "note": "courses, gap and lid hedged inline as tradition"},
+   "text.how": {"tier": "tradition", "note": "the coal bed as pitmasters describe it (Jones & Vaughn 2019; Scott & Elie 2021); the flip, hours and fire hazard from the Wikipedia article"},
+   "text.today": {"tier": "tradition", "note": "general knowledge of where the form is used"}
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

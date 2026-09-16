@@ -1,0 +1,497 @@
+{
+ "schema": 1,
+ "id": "gas-and-electric-cookers",
+ "type": "pit",
+ "names": {
+  "name": "gas and electric cookers",
+  "aliases": [
+   "gas pit",
+   "gas cooker",
+   "electric cooker",
+   "gas-fired pit",
+   "smoker oven"
+  ]
+ },
+ "region": [
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "cooker"
+ },
+ "text": {
+  "what": "The cookers most Carolina barbecue is cooked in: steel ovens fired by propane, natural gas or an electric element, with a thermostat and racks, and often a box for wood chips or a log to put smoke on the meat. A gas smoker lights a burner directly under a box of wood or charcoal; an electric one runs a heating element that holds any temperature from a cold smoke to about 275 degrees. New barbecue restaurants mostly open on them and many older ones switched. They cook overnight unattended, hold a set temperature, make no soot and need no one to shovel coals at three in the morning, and they are the machine behind a great deal of what both states call barbecue, sauce and slaw included.",
+  "story": "The argument has two sides and each states its reasons. The cooks who switched say it plainly: gas and electricity are cheaper and easier and the product is more consistent — John Shelton Reed grants all three — and a wood pit needs someone awake through the night, produces soot, and burns more fuel and labor for the same meat. Many owners also say the health department made them do it. Reed and the True 'Cue campaign he co-founded put a Challenge in the Raleigh News & Observer on April 23, 2014, offering a prize to anyone who could name the regulation; two years on no one had, and Daniel Vaughn in Texas and Robert Moss in South Carolina had reported the same from their states. Reed writes that one state official mentioned environmental concerns and that the actual motives remain unclear. On the other side stands the billboard at the Skylight Inn, whose four tenets include that barbecue must be cooked with wood, and the True 'Cue Pledge for those who hold that if it is not cooked with wood it is not barbecue; the campaign's wood page calls smoke 'the umami of barbecue', quotes Pete Jones, Rodney Scott and Wilber Shirley among its witnesses, and Alton Brown's joke that with gas 'you can control the heat. But you're going to go to hell.' Reed draws the line with care: the campaign has 'no beef' with cooks who use gas or electricity for ignition and temperature control so long as wood smoke reaches the meat, and reserves 'faux 'cue' for meat cooked with no smoke at all. The pig pickin' article records the same split at the backyard: propane for a steady temperature, charcoal 'touted as producing better-tasting meat'. Jim Early, searching a hundred counties for pits still cooking over wood coals, found fewer than thirty.",
+  "how": "Shoulders or a split hog go on the racks in the evening with the smoke box loaded, the thermostat holds the temperature overnight, and in the morning the meat comes off to the block. There is no burn barrel, no shoveling round and no chimney; the cook's labor is loading, unloading and chopping. The sauce, the slaw and the chop are the same as at a wood pit, which is why the customer often cannot tell and the campaigns exist to tell them.",
+  "today": "Wood pits are a counted minority: about seventy North Carolina restaurants held True 'Cue certificates in January 2018, and the Historic Barbecue Trail listed about two dozen. *Inference —* the rest of the barbecue sold in both states comes off gas or electricity."
+ },
+ "kin": [
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "the campaign that certifies the pits that do not use them, and challenged the claim that health rules require them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "its Historic Barbecue Trail excludes them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "grants that gas is cheaper, easier and more consistent, and offered a prize to anyone who could name the regulation requiring it.",
+   "rel": "person"
+  },
+  {
+   "to": "jim-early",
+   "as": "found fewer than thirty wood pits in a hundred counties; the rest cook this way.",
+   "rel": "person"
+  },
+  {
+   "to": "pig-cooker",
+   "as": "the trailer version of the same choice, gas or charcoal.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the Piedmont wood pit these replaced at many restaurants.",
+   "rel": "contrast"
+  },
+  {
+   "to": "block-pit",
+   "as": "the open whole-hog pit these replaced.",
+   "rel": "contrast"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "the coal-maker they do without.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the wood that goes in the chip box.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "gas-fired whole-hog pits are the common choice of new restaurants.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "many eastern pits cook shoulders or hogs on gas and are eastern by their sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "its billboard says barbecue must be cooked with wood.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the same propane-versus-charcoal argument at the backyard cooker.",
+   "rel": "event"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pig-cooker",
+   "tell": "A restaurant's gas or electric cooker is fixed, thermostated and indoors; a pig cooker is the wheeled steel box of the pig pickin', gas or charcoal."
+  }
+ ],
+ "links": [
+  {
+   "label": "UNC Press Blog, 2016 — Reed on the health-department claim",
+   "url": "https://uncpressblog.com/2016/04/06/reed-busting-barbecue-myth/"
+  },
+  {
+   "label": "True 'Cue — Wood",
+   "url": "http://www.truecue.org/wood"
+  },
+  {
+   "label": "Smoker (cooking) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Smoker_(cooking)"
+  }
+ ],
+ "sources": [
+  "s:wp-whole-hog-barbecue",
+  "s:wp-smoker-cooking",
+  "s:web-uncpress-reed-myth",
+  "s:web-barbecuebible-campaign",
+  "s:web-truecue-wood",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-pig-pickin",
+  "s:web-wral-jim-early-dies",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-uncpress-reed-myth",
+    "note": "both sides' reasons as stated in the cited pages; no verdict is drawn"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-smoker-cooking",
+    "note": "the last sentence is this project's reading of why the certification campaigns exist"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-barbecuebible-campaign",
+    "note": "the counts are cited; the remainder is inference, marked inline"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The cookers most Carolina barbecue is cooked in: steel ovens fired by propane, natural gas or an electric element, with a thermostat and racks, and often a box for wood chips or a log to put smoke on the meat.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "the campaign that certifies the pits that do not use them, and challenged the claim that health rules require them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "its Historic Barbecue Trail excludes them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "grants that gas is cheaper, easier and more consistent, and offered a prize to anyone who could name the regulation requiring it.",
+   "rel": "person"
+  },
+  {
+   "to": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "found fewer than thirty wood pits in a hundred counties; the rest cook this way.",
+   "rel": "person"
+  },
+  {
+   "to": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "the trailer version of the same choice, gas or charcoal.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the Piedmont wood pit these replaced at many restaurants.",
+   "rel": "contrast"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the open whole-hog pit these replaced.",
+   "rel": "contrast"
+  },
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the coal-maker they do without.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the wood that goes in the chip box.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "gas-fired whole-hog pits are the common choice of new restaurants.",
+   "rel": "kin"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "many eastern pits cook shoulders or hogs on gas and are eastern by their sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "its billboard says barbecue must be cooked with wood.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the same propane-versus-charcoal argument at the backyard cooker.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-smoker-cooking",
+   "kind": "wikipedia",
+   "title": "Smoker (cooking) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Smoker_(cooking)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-uncpress-reed-myth",
+   "kind": "web",
+   "title": "John Shelton Reed: Busting a Barbecue Myth (April 6, 2016)",
+   "publisher": "UNC Press Blog",
+   "url": "https://uncpressblog.com/2016/04/06/reed-busting-barbecue-myth/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebible-campaign",
+   "kind": "web",
+   "title": "The Campaign for Real Barbecue (John Shelton Reed, January 23, 2018)",
+   "publisher": "BarbecueBible.com",
+   "url": "https://barbecuebible.com/2018/01/23/campaign-real-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-truecue-wood",
+   "kind": "web",
+   "title": "Wood — The Campaign for Real Barbecue",
+   "publisher": "The Campaign for Real Barbecue (True 'Cue)",
+   "url": "http://www.truecue.org/wood",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:web-wral-jim-early-dies",
+   "kind": "web",
+   "title": "North Carolina Barbecue Society founder Jim Early dies (August 26, 2021)",
+   "publisher": "WRAL",
+   "url": "https://www.wral.com/north-carolina-barbecue-society-founder-jim-early-dies/19843878/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-historic-barbecue-trail",
+   "kind": "web",
+   "title": "Running on Full: The North Carolina Historic Barbecue Trail (Bryan Mims, January 29, 2016)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-uncpress-reed-myth",
+   "note": "both sides' reasons as stated in the cited pages; no verdict is drawn"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-smoker-cooking",
+   "note": "the last sentence is this project's reading of why the certification campaigns exist"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-barbecuebible-campaign",
+   "note": "the counts are cited; the remainder is inference, marked inline"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "what replaced the brick pit at many restaurants.",
+   "rel": "contrast"
+  },
+  {
+   "from": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the cookers that need no barrel and no one to tend it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "heat from a burner or an element, smoke from a chip box: neither coals nor firebox.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the fuels that replaced these woods at many pits, for cost and labor.",
+   "rel": "contrast"
+  },
+  {
+   "from": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "its restaurant-size relatives, fixed and thermostated.",
+   "rel": "kin"
+  },
+  {
+   "from": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "what most Dukes houses cook on now, with wood chips for smoke.",
+   "rel": "part"
+  },
+  {
+   "from": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "the switch it made from charcoal to gas and wood chips, which Egerton noted in 1993.",
+   "rel": "part"
+  },
+  {
+   "from": "melvins-legendary-bar-b-que",
+   "type": "place",
+   "name": "Melvin's Legendary Bar-B-Que",
+   "as": "what it took out in 2015, going back to wood alone — the reverse of the usual direction.",
+   "rel": "contrast"
+  },
+  {
+   "from": "morris-barbeque",
+   "type": "place",
+   "name": "Morris Barbeque",
+   "as": "the cooker its owner describes: a one-off gas machine out of Wilson with the burners offset from the meat.",
+   "rel": "part"
+  },
+  {
+   "from": "parkers-barbecue",
+   "type": "place",
+   "name": "Parker's Barbecue",
+   "as": "its cookers since the 1950s, chosen because the temperature could be held.",
+   "rel": "part"
+  },
+  {
+   "from": "speedys-barbecue",
+   "type": "place",
+   "name": "Speedy's Barbecue",
+   "as": "what is behind the counter: five electric cookers like large rotisserie ovens.",
+   "rel": "part"
+  },
+  {
+   "from": "stephensons-bar-b-q",
+   "type": "place",
+   "name": "Stephenson's Bar-B-Q",
+   "as": "the road it did not take: the family chose hardwood charcoal in the 1970s energy crisis.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "as": "the Southern Pride smokers that cook the hogs now.",
+   "rel": "part"
+  },
+  {
+   "from": "bob-garner",
+   "type": "person",
+   "name": "Bob Garner",
+   "as": "he prefers live coals but told BBQ Jew in 2011 he has eaten too much good barbecue off them to be dogmatic.",
+   "rel": "kin"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "what he found at almost every pit in a hundred counties; fewer than thirty cooked over wood coals.",
+   "rel": "kin"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "grants that they are cheaper, easier and more consistent, and put up a prize for anyone who could name the regulation said to require them.",
+   "rel": "kin"
+  },
+  {
+   "from": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "what it does not certify, and whose stated reasons it answers.",
+   "rel": "contrast"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "excluded from the Trail by rule.",
+   "rel": "contrast"
+  },
+  {
+   "from": "pit",
+   "type": "term",
+   "name": "pit",
+   "as": "the cooker that replaced the coals at many pits and kept the name.",
+   "rel": "descendant"
+  }
+ ]
+}

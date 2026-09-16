@@ -1,0 +1,179 @@
+{
+ "schema": 1,
+ "id": "bums-restaurant",
+ "type": "place",
+ "names": {
+  "name": "Bum's Restaurant",
+  "aliases": [
+   "Bum's",
+   "Bum's Barbecue",
+   "Bum's Restaurant Ayden"
+  ],
+  "sort": "Bums Restaurant"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1963",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A wood-fired whole-hog restaurant in downtown Ayden, Pitt County, opened in 1963 by Latham 'Bum' Dennis, of the family that counts Skilton Dennis's 1830 wagon as the start of barbecue for sale here, and run by his son Larry, who cuts the wood, burns the coals and starts around four in the morning. Unlike most eastern pits it keeps a buffet of vegetables cooked that day — collards from the family garden, cabbage pastry, stewed rutabaga, black-eyed peas, boiled potatoes — beside the chopped barbecue. The sign is modest; the smell does the advertising.",
+  "story": "Latham Dennis opened Bum's in 1963. The family's claim runs back to Skilton Dennis, who *tradition holds —* sold smoked hog meat commercially from 1830, a date the Southern Foodways Alliance recorded from the Dennises themselves, and to Otter Dennis, whom the family connects to the founding of Ayden; the Skylight Inn's Joneses paint the same 1830 on their billboard. Bum told the Alliance's Rien Fertel in December 2011, with Larry beside him, that in this kind of restaurant 'what you got to do you got to love it and it's a way of life.' Our State in April 2014 found Larry cutting oak and pecan and burning it down to embers before dawn, and Shirley Dennis, the family's matriarch, decorating the overflow dining room with Gone with the Wind memorabilia, a parking space reserved for her outside. Bum Dennis died in December 2022; Larry runs the restaurant. The vegetable buffet is what the writers single out: collards grown by the family, cabbage pastry, rutabaga, black-eyed peas, boiled potatoes, a table few other eastern pits keep.",
+  "how": "Whole hogs cook over embers burned down from oak and pecan; the pork is chopped and dressed eastern-style, with vinegar and pepper. The barbecue is one station of a cafeteria line: the rest is the day's vegetables — collards from the family garden, cabbage pastry (cabbage stewed with strips of flat dumpling dough), rutabaga, black-eyed peas, boiled potatoes — and the plate is built by pointing.",
+  "today": "Open, at 566 East Third Street, Ayden; Larry Dennis runs it. Hours are not recorded on this disk, and the last press confirmation read is from 2022; check before driving."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style, with a vegetable table most eastern pits do not keep.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, over oak and pecan embers.",
+   "rel": "part"
+  },
+  {
+   "to": "bum-dennis",
+   "as": "its founder, at the pit from 1963 until his death in December 2022.",
+   "rel": "person"
+  },
+  {
+   "to": "skilton-dennis",
+   "as": "the ancestor whose 1830 wagon the family counts as the start of the trade.",
+   "rel": "person"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the other Ayden pit, five minutes away, which claims the same Dennis root.",
+   "rel": "kin"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "the Jones family's newer house in Winterville, the third whole-hog pit within a few miles.",
+   "rel": "kin"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "on the buffet with the collards and the cabbage pastry.",
+   "rel": "serves"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Bum and Larry Dennis together in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.4709338,
+  "lon": -77.4168893,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "566 E 3rd St",
+  "city": "Ayden",
+  "county": "Pitt",
+  "state": "NC",
+  "postcode": "28513"
+ },
+ "links": [
+  {
+   "label": "Bum's Restaurant — SFA oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/bums-restaurant/"
+  },
+  {
+   "label": "Bum's Restaurant — Our State (2014)",
+   "url": "https://www.ourstate.com/bums-restaurant/"
+  }
+ ],
+ "sources": [
+  "s:sfa-bums-restaurant",
+  "s:web-ourstate-bums",
+  "s:web-truecue-nc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:sfa-bums-restaurant"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:sfa-bums-restaurant",
+    "note": "the 1830 claim is the family's, hedged inline; the wood, Shirley Dennis and the death date from Our State"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-bums",
+    "note": "the restaurant's site did not render; no hours on disk"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded from the street address via Nominatim"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ourstate-bums"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. The campaign's criterion, as its page states it: wood coals or charcoal as the sole heat source, no electricity or gas except for ignition or reheating.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:sfa-bums-restaurant",
+   "tier": "cited",
+   "note": "Whole hogs over embers burned down from oak and pecan."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-ourstate-bums",
+   "tier": "cited",
+   "note": "A cafeteria line of the day's vegetables beside the chopped barbecue — collards, cabbage pastry, rutabaga, black-eyed peas, boiled potatoes."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:sfa-bums-restaurant",
+   "tier": "cited",
+   "note": "Opened in 1963 by Latham 'Bum' Dennis and run by his son Larry, who cuts the wood and burns the coals."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Bum's Restaurant",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-bums-restaurant"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-bums",
+   "year": 2014
+  }
+ ]
+}

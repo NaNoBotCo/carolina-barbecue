@@ -1,0 +1,324 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "bobbys-bbq",
+ "names": {
+  "name": "Bobby's BBQ",
+  "aliases": [
+   "Bobby's"
+  ],
+  "sort": "Bobby's BBQ"
+ },
+ "region": [
+  "sc-upstate"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "2018",
+  "fuel": "wood",
+  "styles": []
+ },
+ "text": {
+  "what": "A Texas-leaning smokehouse on North Main Street in Fountain Inn, Greenville County, owned by Octavius Nelson, called Tay, and his wife Sarah. Brisket, pulled pork, ribs, turkey and house-made sausage come off the pits; there is no hash and no buffet, which sets it apart from most South Carolina barbecue houses. The name is for Tay's father Bobby Nelson Sr. and his brother Bobby Jr., both dead before the business began. A seasoning line came first, in 2010; the restaurant followed.",
+  "story": "Tay Nelson started working with his father in a Greenville restaurant at twelve. Bobby Nelson Sr. died in 2008 and Bobby Jr. in 2009, and what Tay built next was assembled out of what they left him: he blended a seasoning from the spices his father had used, sold it from 2010, and taught himself to smoke from tutorials on the internet. The restaurant opened in 2018, though the business's own page dates the barbecue side to 2014 and the seasoning to 2010, so the anniversary depends on which thread is counted. The ownership line is unusually plain, in the business's own words: Bobby's BBQ is owned by Tay Nelson and his wife Sarah. That is the sentence the woman-owned tag here rests on. What the record does not carry is a Black-owned tag. Nothing on the business's own pages uses the phrase, EatOkra does not list it, and a Post and Courier piece that might have settled it returned an error on two attempts. The press the business does have is broad and national — ABC News in 2020, Tamron Hall in 2021, a Forbes gift guide, a Google economic impact report — rather than the barbecue-world kind.",
+  "how": "Brisket, pulled pork, ribs, turkey and house-made sausage, in the Central Texas manner rather than the Midlands one: no hash on the menu, no mustard tradition, no buffet. The seasoning blend that started the business in 2010 is still sold. Cards and cash are both taken. The kitchen runs four days, Thursday to Saturday, and the smoke is wood, on the strength of the certification rather than any published description of the fire.",
+  "today": "Open Thursday to Saturday, 11 a.m. to 8 p.m., closed Sunday to Wednesday, at 1301 North Main Street, Fountain Inn. Both the restaurant's own site and the OpenStreetMap harvest agree on the address."
+ },
+ "kin": [
+  {
+   "to": "pork-shoulder",
+   "as": "the cut behind its pulled pork, beside a Texas board of brisket and sausage.",
+   "rel": "part"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "to": "lewis-barbecue",
+   "as": "the other Carolina house built on Central Texas method rather than a local one, three hours east in Charleston.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 34.70625,
+  "lon": -82.22974,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "1301 N Main St",
+  "city": "Fountain Inn",
+  "county": "Greenville",
+  "state": "SC",
+  "postcode": "29644"
+ },
+ "links": [
+  {
+   "label": "Bobby's BBQ — our roots",
+   "url": "https://eatbobbys.com/our-roots"
+  },
+  {
+   "label": "Bobby's BBQ — press",
+   "url": "https://eatbobbys.com/press"
+  },
+  {
+   "label": "True 'Cue SC — certified pits",
+   "url": "http://www.truecue.org/true-cue-sc"
+  }
+ ],
+ "sources": [
+  "s:web-eatbobbys-roots",
+  "s:web-eatbobbys-press",
+  "s:web-truecue-sc",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-eatbobbys-roots"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-eatbobbys-roots",
+    "note": "The family deaths, the seasoning and the ownership sentence from the business's own Our Roots page; the 2018 restaurant opening from the press index and Destination BBQ, against the same page's 2010 and 2014 dates for the seasoning and barbecue businesses."
+   },
+   "facets.fuel": {
+    "tier": "harvested",
+    "source": "s:web-truecue-sc",
+    "note": "wood on the strength of the True 'Cue certification; no fire or pit description was found on any page read"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "harvest row way/686732521"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "woman-owned",
+   "source": "s:web-eatbobbys-roots",
+   "tier": "cited",
+   "note": "The business's own words: 'Bobby's BBQ is owned by Tay Nelson, and his wife Sarah.' Destination BBQ also names the pair."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-sc",
+   "tier": "harvested",
+   "note": "True 'Cue certified: the campaign's criterion is wood coals or charcoal as the sole heat source, no electricity or gas except to ignite the wood or reheat the finished barbecue. No description of the fire appears on the restaurant's own pages; the certification is the evidence.",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-truecue-sc",
+   "tier": "cited",
+   "note": "Thursday to Saturday, 11 to 8, closed Sunday through Wednesday, per the Destination BBQ listing read 2026-09-16."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-eatbobbys-roots",
+   "tier": "cited",
+   "note": "Owned by Tay and Sarah Nelson; named for Tay's father Bobby Sr. and brother Bobby Jr., and built on his father's spices."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Bobby's BBQ, Fountain Inn",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "other",
+   "what": "national broadcast and magazine coverage — ABC News, the Tamron Hall show, a Forbes holiday gift guide and a Google economic impact report",
+   "source": "s:web-eatbobbys-press",
+   "note": "Indexed on the restaurant's own press page; the individual publishers' pages were not fetched for this record."
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A Texas-leaning smokehouse on North Main Street in Fountain Inn, Greenville County, owned by Octavius Nelson, called Tay, and his wife Sarah.",
+ "region_terms": [
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut behind its pulled pork, beside a Texas board of brisket and sausage.",
+   "rel": "part"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "to": "lewis-barbecue",
+   "type": "place",
+   "name": "Lewis Barbecue",
+   "as": "the other Carolina house built on Central Texas method rather than a local one, three hours east in Charleston.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-eatbobbys-roots",
+   "kind": "web",
+   "title": "Our Roots — Bobby's BBQ",
+   "publisher": "Bobby's BBQ, Fountain Inn",
+   "url": "https://eatbobbys.com/our-roots",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-eatbobbys-press",
+   "kind": "web",
+   "title": "Press — Bobby's BBQ",
+   "publisher": "Bobby's BBQ, Fountain Inn",
+   "url": "https://eatbobbys.com/press",
+   "accessed": "2026-09-16",
+   "note": "The restaurant's own press index; the publishers' own pages were not fetched."
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-eatbobbys-roots"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-eatbobbys-roots",
+   "note": "The family deaths, the seasoning and the ownership sentence from the business's own Our Roots page; the 2018 restaurant opening from the press index and Destination BBQ, against the same page's 2010 and 2014 dates for the seasoning and barbecue businesses."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-eatbobbys-roots"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-eatbobbys-roots"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "harvest row way/686732521"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-eatbobbys-roots",
+   "note": "The business's own words: 'Bobby's BBQ is owned by Tay Nelson, and his wife Sarah.' Destination BBQ also names the pair.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-sc",
+   "note": "True 'Cue certified: the campaign's criterion is wood coals or charcoal as the sole heat source, no electricity or gas except to ignite the wood or reheat the finished barbecue. No description of the fire appears on the restaurant's own pages; the certification is the evidence.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "key": "weekends-only",
+   "label": "Weekends only",
+   "icon": "📅",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-truecue-sc",
+   "note": "Thursday to Saturday, 11 to 8, closed Sunday through Wednesday, per the Destination BBQ listing read 2026-09-16.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-eatbobbys-roots",
+   "note": "Owned by Tay and Sarah Nelson; named for Tay's father Bobby Sr. and brother Bobby Jr., and built on his father's spices.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Bobby's BBQ, Fountain Inn",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "national broadcast and magazine coverage — ABC News, the Tamron Hall show, a Forbes holiday gift guide and a Google economic impact report",
+   "url": "",
+   "year": null,
+   "source": "s:web-eatbobbys-press"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": []
+}

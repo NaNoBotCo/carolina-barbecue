@@ -1,0 +1,542 @@
+{
+ "schema": 1,
+ "id": "light-tomato-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "light tomato sauce",
+  "aliases": [
+   "light-tomato barbecue sauce",
+   "vinegar-and-ketchup sauce",
+   "thin red sauce"
+  ],
+  "said": "It is 'the sauce' at the counter; the map calls it light tomato."
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc-upstate",
+  "nc-piedmont",
+  "carolinas"
+ ],
+ "facets": {
+  "base": "light-tomato",
+  "styles": [
+   "sc-light-tomato",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Vinegar-and-pepper sauce with ketchup added — enough to redden and sweeten it a little, not enough to thicken it — and often cayenne or a bottled hot sauce. The state tourism office's description is the whole recipe: 'a vinegar-and-pepper sauce with ketchup added for a little sweetness'. It is the sauce of South Carolina's Pee Dee and upper Midlands on the state's four-sauce map, and the same idea as the Lexington dip across the line, which the South Carolina Barbeque Association counts as the same sauce. It goes on chopped pork at the block and stands on the table.",
+  "story": "The South Carolina Barbeque Association dates the light tomato sauce to about 1900, 'vinegar and pepper with tomato ketchup added'; Wikipedia ties it to the affordability of mass-produced ketchup in the early twentieth century and to North Carolina's influence. The barbecue-sauce article's timeline agrees: sugar, ketchup and Worcestershire entered sauces in the 1920s. Kovacik and Winberry's 1987 geography of the state drew the four regions the tourism office still publishes, and Robert Moss answers that there are really two sauces, mustard and vinegar, of which this is a variant. *Inference —* the sauce is the vinegar tradition's own sweetening, made in the same kitchens that kept the older sauce, which is why on the map it shares the Pee Dee with vinegar-and-pepper rather than displacing it.",
+  "how": "Cider vinegar, salt, black pepper, crushed red pepper; ketchup by the spoon until it colors; water to thin; cayenne or hot sauce; sugar if the house likes. Warmed, not cooked down. On the block it goes into the chopped meat; on the table it is the second bottle beside vinegar-and-pepper or mustard.",
+  "today": "On the table at Pee Dee and upper-Midlands pits under the house name; Texas Pete's bottled Eastern Carolina BBQ Sauce — apple cider vinegar, tomato paste, red pepper flakes, sugar — is, by this map's terms, a light tomato sauce."
+ },
+ "kin": [
+  {
+   "to": "sc-light-tomato",
+   "as": "the style it names on the map: the Pee Dee and the upper Midlands.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the same sauce under the Piedmont's name; the SC Barbeque Association maps the two regions as one.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the base: add ketchup and this is what you get.",
+   "rel": "origin"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "the thick, sweet sauce it is often taken for at the shelf; this one pours.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the yellow sauce to its south; blended with it in Orangeburg as 'rust'.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the whole-hog country it shares with vinegar-and-pepper.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "as": "the North Carolina style that made the same sauce its own.",
+   "rel": "kin"
+  },
+  {
+   "to": "texas-pete",
+   "as": "whose bottled Eastern Carolina BBQ Sauce — cider vinegar, tomato paste, red pepper flakes, sugar — is a light tomato sauce by this map's terms.",
+   "rel": "kin"
+  },
+  {
+   "to": "midway-bbq",
+   "as": "the upper-Midlands hash house whose chopped pork comes in its house sauce.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lake-high",
+   "as": "whose history dates the sauce to about 1900.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "as": "who folds it back into the vinegar family.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lexington-dip",
+   "tell": "The same sauce; the state line is the tell, and the slaw — red slaw beside it means Lexington."
+  },
+  {
+   "id": "heavy-tomato-sauce",
+   "tell": "Light tomato pours and soaks in; heavy tomato coats."
+  }
+ ],
+ "links": [
+  {
+   "label": "South Carolina's Four Barbecue Sauces — Discover South Carolina",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces"
+  },
+  {
+   "label": "BBQ History — South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/"
+  }
+ ],
+ "sources": [
+  "s:web-sauce-harvest-2026-09-16",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-barbecue-sauce",
+  "s:web-sc-four-sauces",
+  "s:sc-parks-sauce-map",
+  "s:web-scba-bbq-history",
+  "s:web-texas-pete-eastern-carolina",
+  "s:web-midway-bbq",
+  "s:high-sc-barbeque",
+  "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+  "s:wikibooks-barbecue-sauce-sweet",
+  "s:book-mrs-hills-new-cook-book"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sc-four-sauces"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-scba-bbq-history",
+    "note": "dating from the SCBA and the two Wikipedia articles; the last sentence is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the tourism office's description filled out with the tradition's usual proportions; no house recipe is published"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-texas-pete-eastern-carolina"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Eastern North Carolina Barbecue Sauce",
+   "source": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "¾ gallons apple cider vinegar",
+    "⅛ cup salt",
+    "¼ cup ground black pepper",
+    "¼ cup red pepper flakes",
+    "1 cup molasses",
+    "2 cups honey"
+   ],
+   "text": "1. Start with apple cider vinegar in saucepan over medium heat.\n2. Add salt, ground black pepper, crushed red pepper, molasses, and honey.\n3. Let mixture heat up, but not quite boil.\n4. Mix well.\n5. Return sauce to the jug that the vinegar came in to cool.",
+   "yield": "¾ gallon",
+   "note": "The vinegar sauce before any ketchup goes in; a light-tomato sauce is this with enough ketchup to redden it.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving.",
+   "note": "A cup of ketchup to three quarters of a cup of cider vinegar: heavier than a Pee Dee light-tomato sauce, lighter than a Kansas City one."
+  },
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "The vinegar mop the tomato was later added to."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "light-tomato",
+  "maker": "T.W. Garner Food Company",
+  "town": "Winston-Salem",
+  "state": "NC",
+  "ingredients": [
+   "Apple Cider Vinegar",
+   "Tomato Paste",
+   "Red Pepper Flakes",
+   "Sugar"
+  ],
+  "tomato_rank": 2,
+  "vinegar_rank": 1,
+  "mustard_rank": 0,
+  "sugar_rank": 4,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 1.0,
+  "sodium_mg_per_tbsp": 3.5,
+  "heat": "medium",
+  "source": "s:web-texas-pete-eastern-carolina",
+  "url": "https://texaspete.com/products/eastern-carolina-bbq-sauce",
+  "accessed": "2026-09-16",
+  "note": "A North Carolina bottle, read here for its order rather than its region: four ingredients, vinegar first, tomato paste second, one gram of sugar to the tablespoon and 3.5 mg of sodium. That is the thin tomato reading. No Pee Dee light-tomato bottle's label was found on 2026-09-16, so the style's own state is unmeasured here. Sodium from the maker's panel; total sugars from USDA FoodData Central record 1996873, the maker's panel giving no sugars line."
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Vinegar-and-pepper sauce with ketchup added — enough to redden and sweeten it a little, not enough to thicken it — and often cayenne or a bottled hot sauce.",
+ "region_terms": [
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  },
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "the style it names on the map: the Pee Dee and the upper Midlands.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the same sauce under the Piedmont's name; the SC Barbeque Association maps the two regions as one.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the base: add ketchup and this is what you get.",
+   "rel": "origin"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "the thick, sweet sauce it is often taken for at the shelf; this one pours.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the yellow sauce to its south; blended with it in Orangeburg as 'rust'.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the whole-hog country it shares with vinegar-and-pepper.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the North Carolina style that made the same sauce its own.",
+   "rel": "kin"
+  },
+  {
+   "to": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "whose bottled Eastern Carolina BBQ Sauce — cider vinegar, tomato paste, red pepper flakes, sugar — is a light tomato sauce by this map's terms.",
+   "rel": "kin"
+  },
+  {
+   "to": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "the upper-Midlands hash house whose chopped pork comes in its house sauce.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "whose history dates the sauce to about 1900.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "who folds it back into the vinegar family.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-sauce-harvest-2026-09-16",
+   "kind": "web",
+   "title": "Bottled Carolina barbecue sauce labels, 68 rows",
+   "publisher": "This project — data/harvest/sauces.json",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "The harvest file itself: every label this project could read on 2026-09-16, with the page each row came from. Cited where a record reports a figure computed across the harvest rather than from one bottle.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-sauce",
+   "kind": "wikipedia",
+   "title": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-sc-four-sauces",
+   "kind": "web",
+   "title": "South Carolina's Four Barbecue Sauces (Gwen Fowler)",
+   "publisher": "South Carolina Department of Parks, Recreation & Tourism — discoversouthcarolina.com",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sc-parks-sauce-map",
+   "kind": "web",
+   "title": "South Carolina Department of Parks, Recreation & Tourism — the four barbecue sauce regions",
+   "url": "https://discoversouthcarolina.com/",
+   "note": "the state tourism office's sauce map (mustard, vinegar-pepper, light tomato, heavy tomato)"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-texas-pete-eastern-carolina",
+   "kind": "web",
+   "title": "Eastern Carolina BBQ Sauce — product page",
+   "publisher": "T.W. Garner Food Company (texaspete.com)",
+   "url": "https://texaspete.com/shop/eastern-carolina-bbq-sauce/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-midway-bbq",
+   "kind": "web",
+   "title": "Midway BBQ — official site",
+   "publisher": "Midway BBQ, Buffalo SC",
+   "url": "https://midway-bbq.com/bbq-restaurant/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:high-sc-barbeque",
+   "kind": "book",
+   "title": "A History of South Carolina Barbeque",
+   "author": "Lake E. High Jr.",
+   "publisher": "The History Press",
+   "year": 2013
+  },
+  {
+   "id": "s:wikibooks-eastern-north-carolina-barbecue-sauce",
+   "kind": "web",
+   "title": "Cookbook:Eastern North Carolina Barbecue Sauce — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecue_Sauce",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-sweet",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce (Sweet) — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-sc-four-sauces"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-scba-bbq-history",
+   "note": "dating from the SCBA and the two Wikipedia articles; the last sentence is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the tourism office's description filled out with the tradition's usual proportions; no house recipe is published"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-texas-pete-eastern-carolina"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "its sauce: vinegar and pepper with ketchup added, thin enough to pour.",
+   "rel": "sauce"
+  },
+  {
+   "from": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "the thin cousin: same color, opposite body.",
+   "rel": "contrast"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its South Carolina twin, which the SC Barbeque Association maps with the Piedmont.",
+   "rel": "kin"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the sauce to its north on the map; some Orangeburg houses blend the two into 'rust'.",
+   "rel": "kin"
+  },
+  {
+   "from": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "its own Eastern Carolina BBQ Sauce — cider vinegar, tomato paste, red pepper flakes, sugar — is one, by the South Carolina map's terms.",
+   "rel": "kin"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "its South Carolina descendant: the same sauce with ketchup added, about 1900 by the SC Barbeque Association's dating.",
+   "rel": "descendant"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "its mild sauce, tomato-based, in the Piedmont manner.",
+   "rel": "sauce"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "vinegar-and-pepper with ketchup, from around 1900, in his account.",
+   "rel": "sauce"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "folded back into the vinegar family by his count.",
+   "rel": "sauce"
+  },
+  {
+   "from": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "the sauce it dates to the arrival of bottled ketchup.",
+   "rel": "sauce"
+  }
+ ]
+}

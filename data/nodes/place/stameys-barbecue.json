@@ -1,0 +1,187 @@
+{
+ "schema": 1,
+ "id": "stameys-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Stamey's Barbecue",
+  "aliases": [
+   "Stamey's",
+   "Stamey's Old Fashioned Barbecue"
+  ],
+  "sort": "Stameys Barbecue"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1953",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The Greensboro pork-shoulder house of the Stamey family, opened by Warner Stamey in 1953 as a drive-in on High Point Road (now West Gate City Boulevard) and run by his grandson Chip since 1993, with a second restaurant on Battleground Avenue. Fifteen-pound shoulders cook eight to ten hours over hickory coals; the barbecue is chopped or sliced and served with the dip, the thin red vinegar sauce of the Piedmont, red slaw and hushpuppies — which the family says Warner Stamey was the first to put beside barbecue in North Carolina. The name reaches back to a Lexington stand of 1938.",
+  "story": "Charles Warner Stamey, born in 1911, the youngest of eleven, learned pit-cooking in Lexington under Jess Swicegood and Sid Weaver, the men who set up the town's first stands, and took the method home to Shelby in the 1930s. In 1938 he came back to Lexington and bought Swicegood's stand, renaming it Stamey's; Wayne Monk trained under him there before opening Lexington Barbecue in 1962. In 1953 Stamey moved to Greensboro and opened a drive-in on High Point Road; the present building replaced it in 1979. He handed the business to his son Charles in 1957, and Charles's brother Keith joined in 1970; the second generation opened the Battleground Avenue restaurant, which burned in 2016 and reopened with a drive-through in July 2017. Chip Stamey left another career to take over in 1993 and told the Southern Foodways Alliance in November 2011 that the shoulders still cook over hickory and the barbecue is still served with dip rather than squirted with sauce. The American Royal put Warner Stamey in its barbecue hall of fame in 2020.",
+  "how": "Shoulders of about fifteen pounds cook eight to ten hours over hickory coals. The meat is chopped or sliced and served on a tray or a bun with red slaw and hushpuppies; the dip goes on at the table, not in the kitchen. Warner Stamey's hushpuppies — fried cornmeal fritters — became the bread of the Piedmont plate.",
+  "today": "Open. Battleground Avenue: 2812 Battleground Avenue, Greensboro, Monday to Saturday 11 to 9, per OpenStreetMap (checked August 2026). The 1953 site on West Gate City Boulevard is the other restaurant."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style, carried from Lexington to Greensboro in 1953 by the man who taught half its cooks.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut, fifteen pounds, eight to ten hours.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the sauce, served at the table; 'dip' is the family's word.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the family says Warner Stamey was the first to serve them with barbecue in the state.",
+   "rel": "serves"
+  },
+  {
+   "to": "red-slaw",
+   "as": "on the tray.",
+   "rel": "serves"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory coals, still.",
+   "rel": "part"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "its founder, who bought his teacher's stand in 1938 and moved the name to Greensboro in 1953.",
+   "rel": "person"
+  },
+  {
+   "to": "jess-swicegood",
+   "as": "the Lexington man whose stand Stamey bought and renamed in 1938.",
+   "rel": "origin"
+  },
+  {
+   "to": "sid-weaver",
+   "as": "the other Lexington pioneer Stamey learned from.",
+   "rel": "origin"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "trained under Stamey in Lexington before opening his own pit in 1962.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "the pit of Stamey's pupil, still cooking in Lexington.",
+   "rel": "descendant"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Chip Stamey in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 36.11161,
+  "lon": -79.83095,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "2812 Battleground Ave",
+  "city": "Greensboro",
+  "county": "Guilford",
+  "state": "NC",
+  "postcode": "27408"
+ },
+ "links": [
+  {
+   "label": "Stamey's Barbecue — official history",
+   "url": "https://www.stameys.com/history"
+  },
+  {
+   "label": "Stamey's Barbecue — SFA oral history with Chip Stamey (2011)",
+   "url": "https://www.southernfoodways.org/interview/stameys-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:web-stameys-history",
+  "s:sfa-stameys-barbecue",
+  "s:osm",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-stameys-history"
+  },
+  "fields": {
+   "facets": {
+    "tier": "cited",
+    "source": "s:web-stameys-history",
+    "note": "founded = the Greensboro restaurant, 1953; the Lexington Stamey's dates from 1938"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "harvest row way/324238125, check_date 2026-08-08; the Gate City Blvd restaurant is not in the harvest"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified at Greensboro. Fifteen-pound shoulders cook eight to ten hours over hickory coals.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-stameys-history",
+   "tier": "cited",
+   "note": "Opened by Warner Stamey in 1953 and run by his grandson Chip since 1993."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Stamey's Barbecue, Greensboro",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Stamey's Barbecue, Greensboro",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-stameys-barbecue"
+  }
+ ]
+}

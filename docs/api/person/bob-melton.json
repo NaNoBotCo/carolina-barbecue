@@ -1,0 +1,244 @@
+{
+ "schema": 1,
+ "id": "bob-melton",
+ "type": "person",
+ "names": {
+  "name": "Bob Melton",
+  "aliases": [
+   "R. B. Melton",
+   "Robert Melton"
+  ],
+  "sort": "Melton, Bob"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder"
+  ],
+  "state": "NC",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "R. B. 'Bob' Melton (died 1958), a horse trader raised on a Nash County farm, cooked whole hogs for friends in an open pit on the Tar River at Rocky Mount, began selling barbecue there in 1922, and in 1924 built the shed that Wikipedia and UNC's North Carolina Miscellany call the state's first indoor, sit-down barbecue restaurant. He served finely chopped whole hog with a vinegar sauce, boiled potatoes, slaw, corn sticks, hushpuppies and Brunswick stew, and sent barbecue across the state by bus. Life magazine called him the King of Southern Barbecue in 1958, the year he died.",
+  "story": "Melton had been cooking since he was twelve, the Miscellany says, and traded horses for a living. By 1922 he was selling barbecue from pits on the Tar River bank; two years later he built the restaurant, a large shed that grew room by room, and Rocky Mount took to it. In 1929 a plate with boiled potatoes cost 45 cents and a sandwich 15. The food writer Beth Tartan recorded the catering: 'When a woman who lives in Raleigh is having company, she calls up Bob Melton's and says: \"Ride me a party.\"' The bus carried the barbecue and fixings. In later years he retired from the pits and greeted at the door; in 1958 Life magazine called him the King of Southern Barbecue, and he died that year. His partners W.B. Melton, T.O. Fulghum and Add Smith carried the restaurant on — by 1993 on gas and wood chips rather than charcoal, a change John Egerton noted with regret in Southern Food — until the Tar River put it under: Hurricane Fran's flood, then Hurricane Floyd in 1999, the seventy-fifth anniversary year, with water above the ceiling. The restaurant moved to a strip mall and closed in 2005. *Inference —* the vinegar-sauced whole hog on Melton's menu is the eastern style as it is still described, which is why the tradition dates its restaurant history from his shed.",
+  "today": "Dead: 1958, at Rocky Mount. The restaurant outlived him by forty-seven years and closed in 2005; the riverside building is gone."
+ },
+ "kin": [
+  {
+   "to": "meltons-barbecue",
+   "as": "the shed he built by the Tar River in 1924, the state's first sit-down barbecue restaurant.",
+   "rel": "place"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style's first restaurant menu was his: whole hog, vinegar sauce, boiled potatoes, corn sticks.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, small hogs of 80 to 90 pounds chopped fine, 'the consistency of chopped peanut butter'.",
+   "rel": "part"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "on his 45-cent plate of 1929.",
+   "rel": "serves"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "on his table beside the barbecue.",
+   "rel": "serves"
+  },
+  {
+   "to": "down-east",
+   "as": "he cooked whole hog in an open pit by the Tar River before he sold it.",
+   "rel": "term"
+  },
+  {
+   "to": "adam-scott",
+   "as": "his contemporary in Goldsboro: Scott sold from a back door from 1917, Melton from a shed from 1924.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue"
+  },
+  {
+   "label": "Bob Melton — North Carolina Miscellany (UNC Libraries)",
+   "url": "https://blogs.lib.unc.edu/ncm/tag/bob-melton/"
+  }
+ ],
+ "sources": [
+  "s:wp-meltons-barbecue",
+  "s:web-ncm-bob-melton",
+  "s:wp-whole-hog-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-meltons-barbecue",
+    "note": "the farm, cooking from twelve, the 1922 start, the Life title and the death year from the Miscellany; Wikipedia dates the Fran flood 1997 and the Miscellany 1996, so the year is left out; a birth date of February 7, 1872 appears in a grave record found in search and is not asserted"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-meltons-barbecue"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "R. B. 'Bob' Melton (died 1958), a horse trader raised on a Nash County farm, cooked whole hogs for friends in an open pit on the Tar River at Rocky Mount, began selling barbecue there in 1922, and in 1924 built the shed…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "the shed he built by the Tar River in 1924, the state's first sit-down barbecue restaurant.",
+   "rel": "place"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style's first restaurant menu was his: whole hog, vinegar sauce, boiled potatoes, corn sticks.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, small hogs of 80 to 90 pounds chopped fine, 'the consistency of chopped peanut butter'.",
+   "rel": "part"
+  },
+  {
+   "to": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "on his 45-cent plate of 1929.",
+   "rel": "serves"
+  },
+  {
+   "to": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "on his table beside the barbecue.",
+   "rel": "serves"
+  },
+  {
+   "to": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "he cooked whole hog in an open pit by the Tar River before he sold it.",
+   "rel": "term"
+  },
+  {
+   "to": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "as": "his contemporary in Goldsboro: Scott sold from a back door from 1917, Melton from a shed from 1924.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-ncm-bob-melton",
+   "kind": "web",
+   "title": "bob melton — North Carolina Miscellany (UNC Libraries), post of 5 Jun 2023",
+   "publisher": "University of North Carolina at Chapel Hill Libraries",
+   "url": "https://blogs.lib.unc.edu/ncm/tag/bob-melton/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue",
+   "note": "the farm, cooking from twelve, the 1922 start, the Life title and the death year from the Miscellany; Wikipedia dates the Fran flood 1997 and the Miscellany 1996, so the year is left out; a birth date of February 7, 1872 appears in a grave record found in search and is not asserted"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "opened the first sit-down whole-hog restaurant, at Rocky Mount in 1924.",
+   "rel": "person"
+  },
+  {
+   "from": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "its founder, the horse trader Life magazine crowned in 1958.",
+   "rel": "person"
+  },
+  {
+   "from": "adam-scott",
+   "type": "person",
+   "name": "Adam Scott",
+   "as": "the other founding name of the east's first generation: Melton's shed at Rocky Mount in 1924, Scott's back door in Goldsboro from 1917.",
+   "rel": "kin"
+  },
+  {
+   "from": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "who cooked whole hog in an open pit by the Tar River before he sold it.",
+   "rel": "person"
+  }
+ ]
+}

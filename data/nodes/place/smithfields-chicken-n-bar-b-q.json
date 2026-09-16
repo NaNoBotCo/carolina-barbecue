@@ -1,0 +1,111 @@
+{
+ "schema": 1,
+ "id": "smithfields-chicken-n-bar-b-q",
+ "type": "place",
+ "names": {
+  "name": "Smithfield's Chicken 'N Bar-B-Q",
+  "aliases": [
+   "Smithfield's",
+   "SCNB",
+   "Smithfield Bar-B-Q",
+   "Smithfield's Chicken and Barbeque",
+   "Smithfield Chicken & BBQ"
+  ],
+  "sort": "Smithfields Chicken N Bar-B-Q"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1977",
+  "fuel": "unknown",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A quick-service chain of eastern North Carolina barbecue and fried chicken — 41 restaurants across the state as of March 2024, and an online store — begun by Junius and Maggie Moore in downtown Smithfield, Johnston County, in 1977 as Smithfield Bar-B-Q. It sells the eastern pairing over a counter, chopped pork and fried chicken, from the coast to the Triangle, and it stands in Wikipedia's list of the state's notable barbecue restaurants beside Melton's and the Skylight Inn. It is the chain form of the tradition, described here the same way as a wood pit.",
+  "story": "Junius and Maggie Moore opened Smithfield Bar-B-Q in downtown Smithfield in 1977 and soon a second in Clayton, the next town toward Raleigh; a third followed at Salter Path on the Bogue Banks in 1979. Through the early 1980s the company opened across eastern North Carolina, and in the 1990s it reached the Raleigh-Durham area. By March 2024 Wikipedia counted 41 locations statewide. OpenStreetMap in 2026 carries a dozen of its restaurants from Leland to Rocky Mount, tagged for barbecue and chicken, with a brand entry on Wikidata (Q7545474); its mappers have spelled the name three ways — Bar-B-Q, Barbeque, BBQ — as the signs themselves have. The chain's own site did not render for this project, so what it says of its cooking is not on disk.",
+  "how": "Counter service: chopped eastern barbecue and fried chicken, alone or together on a plate, to eat in or take out, with an online store for shipping. The cooker and the sauce are not described in the sources read for this record; a customer should look at the plate and the map, not this page, for either.",
+  "today": "Open; 41 restaurants in North Carolina as of March 2024 (Wikipedia). The map point marks Smithfield, the town of the first restaurant, and not a headquarters."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style in its chain form: chopped pork, fried chicken, a counter, 41 doors.",
+   "rel": "whole"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word on 41 signs, spelled three ways.",
+   "rel": "term"
+  },
+  {
+   "to": "parkers-barbecue",
+   "as": "the older eastern house that pairs barbecue with fried chicken at scale under one roof, in Wilson.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the wood pit beside which Wikipedia lists it.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.5111996,
+  "lon": -78.346102,
+  "precision": "town",
+  "source": "OpenStreetMap (Nominatim, town centroid of Smithfield, 2026-09-15)"
+ },
+ "address": {
+  "city": "Smithfield",
+  "county": "Johnston",
+  "state": "NC",
+  "postcode": "27577"
+ },
+ "links": [
+  {
+   "label": "Smithfield's Chicken 'N Bar-B-Q — official",
+   "url": "https://www.scnbnc.com/"
+  },
+  {
+   "label": "Smithfield's Chicken 'N Bar-B-Q — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Smithfield%27s_Chicken_%27N_Bar-B-Q"
+  }
+ ],
+ "sources": [
+  "s:wp-smithfields-chicken-n-bar-b-q",
+  "s:osm",
+  "s:web-scnbnc"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-smithfields-chicken-n-bar-b-q"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-smithfields-chicken-n-bar-b-q",
+    "note": "the map count and spellings from the OSM harvest"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "town centroid; the harvest holds a dozen branch rows, none in Smithfield itself"
+   },
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-smithfields-chicken-n-bar-b-q",
+    "note": "No tag is set. The sources read describe neither the cooker, nor the ownership of the 41-restaurant chain, nor any named recognition. An absent tag is an absence of evidence here, not a finding about the place."
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16"
+}

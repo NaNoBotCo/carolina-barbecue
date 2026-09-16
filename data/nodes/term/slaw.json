@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "slaw",
+ "type": "term",
+ "names": {
+  "name": "slaw",
+  "aliases": ["cole slaw", "coleslaw", "cold slaw", "barbecue slaw", "red slaw", "white slaw"],
+  "said": "'Slaw', never 'coleslaw', on a Carolina tray; a Lexington sandwich comes 'with slaw', and the slaw is red."
+ },
+ "etymology": {
+  "root": "Dutch koolsla 'cabbage salad' — kool 'cabbage' (from Latin caulis) + sla, clipped from salade (from French) — → American English cole slaw, 1794, heard and written as 'cold slaw' → slaw, the back half alone, by the 1860s",
+  "first_attested": "cole slaw 1794 — 'A piece of sliced cabbage, by Dutchmen ycleped cold slaw' (etymonline); slaw alone 1860–65 (dictionary.com), about 1861 (Wiktionary)",
+  "note": "'Cold slaw' is a folk etymology, Dutch kool heard as English cold; it held until the 1860s, when cole was revived (etymonline). Wiktionary's definition of coleslaw now splits it into white slaw, dressed with mayonnaise, and red slaw, dressed with vinaigrette — the Carolina split written into the dictionary.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": ["carolinas"],
+ "facets": {"letter": "S", "part_of_speech": "noun"},
+ "text": {
+  "what": "Shredded raw cabbage, dressed and served cold, on every Carolina barbecue tray and most sandwiches. East of Raleigh the dressing is mayonnaise or whipped salad dressing and the slaw is white or yellow; in Lexington it is vinegar, ketchup and pepper — the dip — and the slaw is red, also called barbecue slaw. South Carolina buffets list coleslaw among the sides. The word is the back half of coleslaw, and the front half is not said; coleslaw came to the colonies with the Dutch settlers of New York.",
+  "story": "Dutch koolsla, cabbage salad, was written down in American English in 1794 as 'cold slaw', the Dutch kool heard as the English cold; the folk spelling lasted until the 1860s, when cole came back, and by then the back half had come loose and slaw stood alone. Dutch colonists brought coleslaw to the Thirteen Colonies. Jerry Bledsoe, the Greensboro columnist of the 1980s barbecue war, wrote in 1996 that barbecue is always served with slaw in North Carolina and always has been. The split is by region. The Wikipedia article on coleslaw calls North Carolina slaw fine and vinegary and says that around Lexington red slaw is made with ketchup and vinegar rather than mayonnaise and is the prevailing kind, unlike the rest of the state; NCpedia has white or yellow coleslaw in the east and red coleslaw, 'barbecue slaw', coloured with ketchup or dip, in the Piedmont. The Lexington sandwich's distinguishing feature, the town's article says, is its red slaw, and in the late 1990s Wendy's put red slaw on a 'Carolina Classic' burger. *Inference —* red slaw is the dip's second job, and a pit that makes one makes the other from the same pot."
+ },
+ "kin": [
+  {"to": "red-slaw", "as": "the Lexington slaw: cabbage, vinegar, ketchup, pepper, no mayonnaise — also called barbecue slaw.", "rel": "term"},
+  {"to": "white-slaw", "as": "the eastern slaw, dressed with mayonnaise or whipped salad dressing, and put on the bun of an eastern sandwich.", "rel": "term"},
+  {"to": "lexington-dip", "as": "the dressing of the red slaw; the dip's second use.", "rel": "sauce"},
+  {"to": "barbecue-sandwich", "as": "in both halves of North Carolina the sandwich comes with slaw on it.", "rel": "serves"},
+  {"to": "barbecue-tray", "as": "on the tray, slaw is the one side that is always there — Bledsoe: always served with slaw, and always has been.", "rel": "serves"},
+  {"to": "eastern-nc", "as": "white slaw there.", "rel": "term"},
+  {"to": "lexington", "as": "red slaw there, and no question asked.", "rel": "term"},
+  {"to": "jerry-bledsoe", "as": "who wrote 'Slaw Crazy' (1996): barbecue is always served with slaw in North Carolina.", "rel": "person"},
+  {"to": "dutch-fork", "as": "the other Dutch: the Fork's Dutch is deutsch, German; slaw's Dutch is the Netherlands' koolsla.", "rel": "same-word"},
+  {"to": "fixins", "as": "the first fixin on every plate.", "rel": "kin"}
+ ],
+ "confusable_with": [
+  {"id": "red-slaw", "tell": "Red means dip-dressed and Piedmont; white means mayonnaise and east. Ask for slaw in Lexington and it comes red without a question; ask in Ayden and it comes white."}
+ ],
+ "links": [
+  {"label": "cole-slaw — Online Etymology Dictionary", "url": "https://www.etymonline.com/word/cole-slaw"},
+  {"label": "slaw — Wiktionary", "url": "https://en.wiktionary.org/wiki/slaw"},
+  {"label": "Coleslaw — Wikipedia (United States)", "url": "https://en.wikipedia.org/wiki/Coleslaw#United_States"},
+  {"label": "Red slaw — Wikipedia", "url": "https://en.wikipedia.org/wiki/Red_slaw"}
+ ],
+ "sources": ["s:etymonline", "s:wiktionary-slaw", "s:wiktionary-coleslaw", "s:web-dictionary-com-slaw", "s:web-dictionary-com-coleslaw", "s:wp-coleslaw", "s:wp-red-slaw", "s:ncpedia-barbecue", "s:wp-lexington-north-carolina", "s:wp-barbecue-in-north-carolina", "s:wp-cuisine-of-the-southern-united-states", "s:wp-dukes-bar-b-que"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-coleslaw"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:etymonline", "note": "the 1794 quotation and 'cold slaw' from etymonline; the Bledsoe quotation from Wiktionary's slaw entry; the Wendy's burger from the Red slaw article; the last sentence is inference"},
+   "names.said": {"tier": "tradition", "note": "the clipped form as used on Carolina menus; Bledsoe's 1996 sentence uses it"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

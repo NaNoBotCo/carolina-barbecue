@@ -1,0 +1,152 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "speedys-barbecue",
+ "names": {
+  "name": "Speedy's Barbecue",
+  "aliases": [
+   "Speedy's",
+   "Speedy's BBQ"
+  ],
+  "sort": "Speedy's Barbecue"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1963",
+  "fuel": "electric",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A Lexington pork-shoulder house that Paul 'Speedy' Lohr opened as a drive-in in 1963 and the Dunn family has run since the early 1970s. Roy and Ella Dunn hold it now. The pork cooks in five electric cookers that look like large rotisserie ovens — not over wood, which is why the house appears on no wood list and on no trail, and which makes it a plain case of how much of the Piedmont cooks. The tray is the Piedmont tray: chopped shoulder, the dip, red slaw, hushpuppies.",
+  "story": "Roy Dunn started at Speedy's as a curb boy. In the early 1970s Paul Lohr sold the business to Roy and a cousin, and the Dunn brothers have run it together since 1978; a local paper gives the purchase year as 1970 and Our State as the early seventies, a small gap left open here. What the Dunns bought included the name, which is why a Lexington driver can pass two Speedys in twenty minutes and find two different fires. Our State's writer stood in the kitchen in September 2013 and described what is actually there: the pork cooking slowly inside five electric cookers that look like giant rotisserie ovens. A visiting writer put it flatly in July 2016 — Speedy's of Lexington cooks over electricity, not wood. Neither the Historic Barbecue Trail, which requires wood or charcoal, nor the Campaign for Real Barbecue, which requires the same, lists the house, and both absences follow from the cookers rather than from anything about the food. In about 2023 the restaurant left Winston Road after some sixty years and moved to Piedmont Drive, pushed out by the state highway widening that also took Smiley's down the road.",
+  "how": "Shoulders — a short shank is the cut the kitchen prefers — cook slowly in five electric cookers. The meat is chopped and served with the dip, the thin vinegar-and-ketchup sauce of the Piedmont, with red slaw dressed from the same jug and hushpuppies on the tray. The room runs eleven to eight, six days a week.",
+  "today": "Open Monday to Saturday, 11 a.m. to 8 p.m., at 408 Piedmont Drive, Lexington, the address it moved to after roughly sixty years on Winston Road. OpenStreetMap last checked the listing on August 10, 2025."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style of its tray, cooked on electric rather than over coals.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut — a short shank shoulder, bought from a Gastonia distributor.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "what is behind the counter: five electric cookers like large rotisserie ovens.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its sauce, and the dressing on its slaw.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the slaw on its tray, dressed with the dip.",
+   "rel": "serves"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "taught Paul 'Speedy' Lohr, who opened this drive-in in 1963 and sold it to the Dunns.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "speedy-lohrs-barbecue",
+   "tell": "The name went with the business. Speedy's Barbecue is the Dunns' house on Piedmont Drive, cooking on electric; Speedy Lohr's on NC 8 is Randy and Amy Lohr's, cooking over wood. The founder, Paul Lohr, is behind both names and neither fire."
+  }
+ ],
+ "geo": {
+  "lat": 35.83524,
+  "lon": -80.24499,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "408 Piedmont Dr",
+  "city": "Lexington",
+  "county": "Davidson",
+  "state": "NC",
+  "postcode": "27295"
+ },
+ "links": [
+  {
+   "label": "Speedy's Barbecue — Our State (2013)",
+   "url": "https://www.ourstate.com/speedys-barbecue/"
+  },
+  {
+   "label": "Speedy's Barbecue of Lexington — John Tanner's Barbecue Blog (2016)",
+   "url": "https://johntannersbbqblog.wordpress.com/2016/07/03/north-carolina-piedmont-tour-de-barbecue-speedys-barbecue-of-lexington-lexington/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-speedys",
+  "s:web-johntanner-speedys-2016",
+  "s:web-davidsonlocal-restaurant-workers",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-speedys"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-speedys",
+    "note": "Our State, Adam Rhew, September 26, 2013 for the founding, the succession and the cookers; the July 2016 confirmation from John Tanner; the Piedmont Drive move from DavidsonLocal, whose page prints no year, so 'about 2023' is hedged."
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-ourstate-speedys",
+    "note": "electric, described in the kitchen by Our State in 2013 and confirmed independently in 2016"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "harvest row node/13062644259, check_date 2025-08-10"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:web-ourstate-speedys",
+   "tier": "cited",
+   "note": "Our State's editor's note: 'Boyd Dunn retired, and the restaurant is now run by Roy and Ella Dunn.' The Dunn brothers have run it together since 1978."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-ourstate-speedys",
+   "tier": "cited",
+   "note": "Our State names Ella Dunn with Roy as running the restaurant. The note says run, not own, and no source read here uses the word owner."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-speedys",
+   "year": 2013,
+   "url": "https://www.ourstate.com/speedys-barbecue/"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16"
+}

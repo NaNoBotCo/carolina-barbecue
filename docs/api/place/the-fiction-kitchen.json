@@ -1,0 +1,240 @@
+{
+ "schema": 1,
+ "id": "the-fiction-kitchen",
+ "type": "place",
+ "names": {
+  "name": "The Fiction Kitchen",
+  "aliases": [
+   "Fiction Kitchen"
+  ],
+  "sort": "Fiction Kitchen, The",
+  "said": "The barbecue here has never been near a hog, and the menu says so first."
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "2012",
+  "fuel": "unknown"
+ },
+ "text": {
+  "what": "A vegetarian and vegan restaurant in Raleigh whose menu carries a Southern-style pulled barbecue made without pork, served with the slaw and the sides a Carolina plate expects. Carolina Morrison opened it in 2012 on money raised through Kickstarter, ran it downtown for a decade, and reopened it at Gateway Plaza after a move in 2023. It is in this catalogue because it is one of the ways barbecue is cooked and eaten in North Carolina now, and because it is one of the few places in either state a published list names as LGBTQ-owned.",
+  "story": "Morrison crowdfunded the restaurant in 2012 and built it into a fixture of the state capital over more than a decade. When the downtown lease ended early in 2023 the restaurant ran as a pop-up while the new room was fitted, and reopened at Gateway Plaza alongside two other tenants. Cardinal & Pine named it in a list of eight LGBTQ-owned North Carolina businesses, introduced as 'the LGBTQ-owned bars and restaurants that deserve your patronage in June and beyond', and pointed readers at the pulled barbecue.\n\n*Inference —* a vegan pulled barbecue in Raleigh is not a pit and does not claim to be one. It sits here for the same reason a gas cooker and a bottled dip sit here: this catalogue describes what is cooked and sold under the word, and lets the reader decide what to drive to.",
+  "how": "The barbecue is the kitchen's own preparation rather than a pit product; the plate is built the way a Carolina plate is built, with slaw and sides. Check the menu before going, as it changes.",
+  "today": "Open at Gateway Plaza, Raleigh. Hours are on the restaurant's own site; check before driving."
+ },
+ "tags": [
+  {
+   "tag": "lgbtq-friendly",
+   "source": "s:web-cardinal-pine-lgbtq-nc",
+   "tier": "cited",
+   "url": "https://cardinalpine.com/local/8-lgbtq-owned-nc-businesses-to-support-this-pride-month/",
+   "note": "named in a list whose introduction reads 'Here are the LGBTQ-owned bars and restaurants that deserve your patronage in June and beyond' (Cardinal & Pine, read 2026-09-16). The list's framing is the evidence; the entry itself does not restate it."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-cardinal-pine-lgbtq-nc",
+   "tier": "cited",
+   "note": "the same piece names Carolina Morrison as the owner and refers to her as the person who opened the restaurant in 2012."
+  }
+ ],
+ "kin": [
+  {
+   "to": "barbecue-sandwich",
+   "as": "what its pulled barbecue is served as, slaw and all, without the hog.",
+   "rel": "dish"
+  },
+  {
+   "to": "pulled-pork",
+   "as": "the outsider's word this kitchen uses deliberately, since there is no pork in it.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word, stretched to cover a dish cooked without an animal — which is a thing the word is doing in the Carolinas now.",
+   "rel": "term"
+  },
+  {
+   "to": "white-slaw",
+   "as": "the slaw on its plate, the eastern kind.",
+   "rel": "serves"
+  }
+ ],
+ "geo": {
+  "lat": 35.7785,
+  "lon": -78.6415,
+  "precision": "town",
+  "source": "Raleigh; the Gateway Plaza address is on the restaurant's own site"
+ },
+ "address": {
+  "city": "Raleigh",
+  "county": "Wake",
+  "state": "NC"
+ },
+ "links": [
+  {
+   "label": "The Fiction Kitchen",
+   "url": "https://www.thefictionkitchen.com/"
+  },
+  {
+   "label": "Cardinal & Pine — 8 LGBTQ-owned NC businesses",
+   "url": "https://cardinalpine.com/local/8-lgbtq-owned-nc-businesses-to-support-this-pride-month/"
+  }
+ ],
+ "sources": [
+  "s:web-cardinal-pine-lgbtq-nc",
+  "s:web-fiction-kitchen"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-cardinal-pine-lgbtq-nc"
+  },
+  "fields": {
+   "geo": {
+    "tier": "inference",
+    "note": "town-level only; the street address was not read from a page"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "from the menu description in the cited piece; the kitchen's method is not published"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A vegetarian and vegan restaurant in Raleigh whose menu carries a Southern-style pulled barbecue made without pork, served with the slaw and the sides a Carolina plate expects.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "what its pulled barbecue is served as, slaw and all, without the hog.",
+   "rel": "dish"
+  },
+  {
+   "to": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the outsider's word this kitchen uses deliberately, since there is no pork in it.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word, stretched to cover a dish cooked without an animal — which is a thing the word is doing in the Carolinas now.",
+   "rel": "term"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the slaw on its plate, the eastern kind.",
+   "rel": "serves"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-cardinal-pine-lgbtq-nc",
+   "kind": "web",
+   "title": "8 LGBTQ-owned NC businesses to support this Pride Month",
+   "publisher": "Cardinal & Pine",
+   "url": "https://cardinalpine.com/local/8-lgbtq-owned-nc-businesses-to-support-this-pride-month/",
+   "accessed": "2026-09-16",
+   "note": "the article's own framing: 'Here are the LGBTQ-owned bars and restaurants that deserve your patronage in June and beyond.'"
+  },
+  {
+   "id": "s:web-fiction-kitchen",
+   "kind": "web",
+   "title": "The Fiction Kitchen",
+   "publisher": "The Fiction Kitchen, Raleigh",
+   "url": "https://www.thefictionkitchen.com/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-cardinal-pine-lgbtq-nc"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-cardinal-pine-lgbtq-nc"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "from the menu description in the cited piece; the kitchen's method is not published"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-cardinal-pine-lgbtq-nc"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "town-level only; the street address was not read from a page"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-cardinal-pine-lgbtq-nc"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "lgbtq-friendly",
+   "label": "LGBTQ+ welcoming",
+   "icon": "🏳️‍🌈",
+   "group": "welcome",
+   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome); never inferred",
+   "resources": [
+    "r:charlotte-lgbt-chamber",
+    "r:sc-pride-directory",
+    "r:blue-ridge-pride",
+    "r:afa-charleston",
+    "r:osm-lgbtq",
+    "r:cardinal-pine"
+   ],
+   "source": "s:web-cardinal-pine-lgbtq-nc",
+   "note": "named in a list whose introduction reads 'Here are the LGBTQ-owned bars and restaurants that deserve your patronage in June and beyond' (Cardinal & Pine, read 2026-09-16). The list's framing is the evidence; the entry itself does not restate it.",
+   "tier": "cited",
+   "url": "https://cardinalpine.com/local/8-lgbtq-owned-nc-businesses-to-support-this-pride-month/"
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-cardinal-pine-lgbtq-nc",
+   "note": "the same piece names Carolina Morrison as the owner and refers to her as the person who opened the restaurant in 2012.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

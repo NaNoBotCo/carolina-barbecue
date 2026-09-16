@@ -1,0 +1,307 @@
+{
+ "schema": 1,
+ "id": "barbecue-postcards",
+ "type": "art",
+ "names": {
+  "name": "barbecue postcards",
+  "aliases": [
+   "linen postcards",
+   "Tichnor cards",
+   "advertising postcards"
+  ]
+ },
+ "region": [
+  "carolinas",
+  "nc",
+  "sc"
+ ],
+ "facets": {
+  "kind": "postcard",
+  "state": "both"
+ },
+ "text": {
+  "what": "Between about 1930 and 1945 an American restaurant could order its own postcards by the thousand. A printer took a photograph, had an artist colour it by hand, and ran it on paper with a woven texture — the linen card, whose surface takes bright ink and softens a plain building into something worth mailing. Roadside businesses on the highways through both Carolinas bought them and set them by the register. The caption on the back names the route number, because that is how a customer found the place again."
+ },
+ "sections": [
+  {
+   "h": "Why a barbecue stand printed postcards",
+   "text": "A linen card was cheap advertising that the customer paid to deliver. It carried the name, the highway, the distance from town and a picture of a building that was otherwise unremarkable, and somebody mailed it to Ohio.\n\nThe captions are the useful part. Barbecue Lodge, published by the Carolina News Company of Fayetteville and printed in the 1930s or 1940s, is the Carolina example in the Boston Public Library's Tichnor collection: a low red-brick building with a flat roof and a squat brick chimney, and along the parapet in illuminated letters BARBECUE LODGE, with a red strip beneath it reading AIR CONDITIONED · Charcoal STEAKS · PRIVATE DINING ROOMS. The neighbouring cards in the same file — Warren's Motel & Restaurant on U.S. 301 at Pleasant Hill, the White House Restaurant on U.S. 1 at Henderson, Clark's Restaurant at Santee on U.S. 301, 15 and 15A at the junction with S.C. 6 — show the pattern: the route number is doing the work a street address does now. These are highway businesses and the card is a map.",
+   "images": [
+    0,
+    4,
+    5,
+    1
+   ]
+  },
+  {
+   "h": "Tichnor Brothers, and the Boston connection",
+   "text": "Most of these were printed a long way from the Carolinas. Tichnor Brothers of Boston turned out linen postcards for the whole country, and the Boston Public Library holds around 25,000 of them, arranged by state and digitised. The library put the scans on Flickr under a licence that allows reuse with credit, which is why a project like this one can print a 1940 North Carolina motor-court card without asking anyone.\n\n*Inference —* the distance shows. A Boston artist colouring a Fayetteville barbecue lodge from a black-and-white photograph is guessing at the paint, and the skies in these cards are all the same blue. What is reliable in them is the architecture, the signage and the caption; the colour is decoration."
+  },
+  {
+   "h": "What the Carolina cards do not show",
+   "text": "Pits, mostly. The card is a picture of a front elevation with cars parked at it, because that is what the owner wanted photographed: a clean building on a numbered highway, not a cinder-block cookhouse out the back with smoke coming out of it.\n\nA reader looking for barbecue in this file finds it in the lettering. Barbecue Lodge says so on its face. Elsewhere the word turns up on a panel over a door, or on a board by the road at the edge of the frame, in a card that is nominally about a motel. *Tradition holds —* barbecue and lodging shared premises all along U.S. 301 and U.S. 1 through the eastern Carolinas in these years, because both were selling to the same car.",
+   "images": [
+    2,
+    3
+   ]
+  }
+ ],
+ "kin": [
+  {
+   "to": "roadside-barbecue-signs",
+   "as": "the same buildings and the same highways, photographed forty years later in colour.",
+   "rel": "art"
+  },
+  {
+   "to": "pig-mascot",
+   "as": "the house pig, which turns up on the card as often as on the sign.",
+   "rel": "art"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word as a card caption, which is how a business told a stranger what it sold.",
+   "rel": "term"
+  },
+  {
+   "to": "fsa-barbecue-photographs",
+   "as": "the same decade, photographed by a government rather than a printer, and with nothing to sell.",
+   "rel": "art"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "a Rocky Mount pit of exactly this period, when a Carolina barbecue house would order cards.",
+   "rel": "place"
+  }
+ ],
+ "links": [
+  {
+   "label": "Tichnor Brothers Collection — Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Tichnor_Brothers_Collection"
+  }
+ ],
+ "sources": [
+  "s:commons-bpl-tichnor",
+  "s:commons"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:commons-bpl-tichnor",
+   "note": "publishers, captions and date ranges from the Boston Public Library catalogue records carried on the Commons file pages"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "harvested",
+    "source": "s:commons-bpl-tichnor",
+    "note": "the collection size and its licence are the library's; the paragraph on colouring is marked inference"
+   },
+   "sections[2].text": {
+    "tier": "tradition",
+    "note": "the pairing of barbecue and lodging on U.S. 301 and U.S. 1 is hedged: it is what these cards show, not something counted for this record"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "barbecue-postcards/barbecue-postcards-barbecue-lodge-5756066932.jpg",
+   "source": "commons",
+   "title": "File:Barbecue Lodge (5756066932).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Barbecue_Lodge_%285756066932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue_Lodge_%285756066932%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Boston Public Library",
+   "credit": "Barbecue Lodge",
+   "alt": "Linen postcard of the Barbecue Lodge, Fayetteville, North Carolina: a low red-brick building with a flat roof and a squat brick chimney, BARBECUE LODGE in lit letters along the parapet and a red strip beneath reading AIR CONDITIONED, Charcoal STEAKS, PRIVATE DINING ROOMS.",
+   "date": "2011-04-11 16:23",
+   "primary": true,
+   "sha256": "6c10813a06297a8016ba70c5a13cefc727d21f3a7fc0781ef14a49597e902c14"
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-clark-s-restaurant-santee-south-carolina-on-u-s-301-655b3a3.jpg",
+   "source": "commons",
+   "title": "File:Clark's Restaurant, Santee, South Carolina, on U.S. 301, 15, 15A -- Junction S. C. 6.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Clark%27s_Restaurant%2C_Santee%2C_South_Carolina%2C_on_U.S._301%2C_15%2C_15A_--_Junction_S._C._6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AClark%27s_Restaurant%2C_Santee%2C_South_Carolina%2C_on_U.S._301%2C_15%2C_15A_--_Junction_S._C._6.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Boston Public Library",
+   "credit": "https://www.flickr.com/photos/boston_public_library/6803607975/",
+   "alt": "Linen postcard of Clark's Restaurant at Santee, South Carolina, captioned with its highway junction: U.S. 301, 15 and 15A at S.C. 6.",
+   "date": "c late 1940s - 1950s (per automobile see",
+   "primary": false,
+   "sha256": "f12d574a484f4bc9af763173d794b0a422e3963c7da9befe7fb5423ce98d4dec"
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-gresham-motor-court-restaurant-on-the-lake-u-s-route-07f8e91.jpg",
+   "source": "commons",
+   "title": "File:Gresham Motor Court & Restaurant, on the lake, U.S. Route 1 -- 6 miles North, Raleigh, North Carolina (5812049828).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Gresham_Motor_Court_%26_Restaurant%2C_on_the_lake%2C_U.S._Route_1_--_6_miles_North%2C_Raleigh%2C_North_Carolina_%285812049828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AGresham_Motor_Court_%26_Restaurant%2C_on_the_lake%2C_U.S._Route_1_--_6_miles_North%2C_Raleigh%2C_North_Carolina_%285812049828%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Boston Public Library",
+   "credit": "Gresham Motor Court &amp; Restaurant, on the lake, U.S. Route 1 -- 6 miles North, Raleigh, North Carolina",
+   "alt": "Linen postcard of the Gresham Motor Court and Restaurant on a lake six miles north of Raleigh on U.S. Route 1.",
+   "date": "2011-02-11 10:58",
+   "primary": false,
+   "sha256": "50ff6bd96757a0113e50c15b71a9897cf1cec89f6b7d917526f7b773faac1dd3"
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-hardeeville-warren-s-motel-and-restaurant.jpg",
+   "source": "commons",
+   "title": "File:Hardeeville - Warren's Motel and Restaurant.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Hardeeville_-_Warren%27s_Motel_and_Restaurant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHardeeville_-_Warren%27s_Motel_and_Restaurant.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Tichnor Brothers, Inc.",
+   "credit": "Digital scan of postcard",
+   "alt": "Linen postcard of Warren's Motel and Restaurant at Hardeeville, South Carolina.",
+   "date": "1955",
+   "primary": false,
+   "sha256": "e2ad4fb6770995ffad6028a18476927bc2a49271a08663077bc3a6a9855e4e2b"
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-warren-s-restaurant-motel-u-s-route-301-pleasant-hil-91ef6d7.jpg",
+   "source": "commons",
+   "title": "File:Warren's Restaurant & Motel, U.S. Route 301, Pleasant Hill, North Carolina (5812046012).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Warren%27s_Restaurant_%26_Motel%2C_U.S._Route_301%2C_Pleasant_Hill%2C_North_Carolina_%285812046012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWarren%27s_Restaurant_%26_Motel%2C_U.S._Route_301%2C_Pleasant_Hill%2C_North_Carolina_%285812046012%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Boston Public Library",
+   "credit": "Warren's Restaurant &amp; Motel, U.S. Route 301, Pleasant Hill, North Carolina",
+   "alt": "Linen postcard of Warren's Restaurant and Motel on U.S. Route 301 at Pleasant Hill, North Carolina.",
+   "date": "2011-02-11 10:54",
+   "primary": false,
+   "sha256": "36227e12cff72daeefb6b3b0433da015c69606f97e21b256bb34660536afed17"
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-white-house-restaurant-u-s-route-1-raleigh-road-hend-ce12a9a.jpg",
+   "source": "commons",
+   "title": "File:White House Restaurant, U.S. Route 1 -- Raleigh Road, Henderson, North Carolina (5811463383).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/White_House_Restaurant%2C_U.S._Route_1_--_Raleigh_Road%2C_Henderson%2C_North_Carolina_%285811463383%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWhite_House_Restaurant%2C_U.S._Route_1_--_Raleigh_Road%2C_Henderson%2C_North_Carolina_%285811463383%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Boston Public Library",
+   "credit": "White House Restaurant, U.S. Route 1 -- Raleigh Road, Henderson, North Carolina",
+   "alt": "Linen postcard of the White House Restaurant on U.S. Route 1, the Raleigh Road, at Henderson, North Carolina.",
+   "date": "2011-02-11 10:44",
+   "primary": false,
+   "sha256": "87691de095430053348cabe0227b1153c4124bc48ad7a07472546e9692f556a9"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Between about 1930 and 1945 an American restaurant could order its own postcards by the thousand.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "roadside-barbecue-signs",
+   "type": "art",
+   "name": "roadside barbecue signs",
+   "as": "the same buildings and the same highways, photographed forty years later in colour.",
+   "rel": "art"
+  },
+  {
+   "to": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "the house pig, which turns up on the card as often as on the sign.",
+   "rel": "art"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word as a card caption, which is how a business told a stranger what it sold.",
+   "rel": "term"
+  },
+  {
+   "to": "fsa-barbecue-photographs",
+   "type": "art",
+   "name": "The FSA photographs of Carolina eating",
+   "as": "the same decade, photographed by a government rather than a printer, and with nothing to sell.",
+   "rel": "art"
+  },
+  {
+   "to": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "a Rocky Mount pit of exactly this period, when a Carolina barbecue house would order cards.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:commons-bpl-tichnor",
+   "kind": "dataset",
+   "title": "Tichnor Brothers Collection — American postcards, Boston Public Library",
+   "publisher": "Boston Public Library, Print Department; on Flickr and Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:Tichnor_Brothers_Collection",
+   "accessed": "2026-09-16",
+   "note": "Around 25,000 linen-era postcards printed by Tichnor Brothers of Boston, roughly 1930-1945, digitised by the Boston Public Library and released under CC BY 2.0 on Flickr; state-by-state subsets include North Carolina and South Carolina."
+  },
+  {
+   "id": "s:commons",
+   "kind": "dataset",
+   "title": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/",
+   "note": "each picture carries its own licence in its sidecar"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:commons-bpl-tichnor",
+   "note": "publishers, captions and date ranges from the Boston Public Library catalogue records carried on the Commons file pages"
+  }
+ },
+ "primary_image": {
+  "file": "barbecue-postcards/barbecue-postcards-barbecue-lodge-5756066932.jpg",
+  "source": "commons",
+  "title": "File:Barbecue Lodge (5756066932).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Barbecue_Lodge_%285756066932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABarbecue_Lodge_%285756066932%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Boston Public Library",
+  "credit": "Barbecue Lodge",
+  "alt": "Linen postcard of the Barbecue Lodge, Fayetteville, North Carolina: a low red-brick building with a flat roof and a squat brick chimney, BARBECUE LODGE in lit letters along the parapet and a red strip beneath reading AIR CONDITIONED, Charcoal STEAKS, PRIVATE DINING ROOMS.",
+  "date": "2011-04-11 16:23",
+  "primary": true,
+  "sha256": "6c10813a06297a8016ba70c5a13cefc727d21f3a7fc0781ef14a49597e902c14"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "roadside-barbecue-signs",
+   "type": "art",
+   "name": "roadside barbecue signs",
+   "as": "the same buildings and signs, printed and mailed, thirty years earlier.",
+   "rel": "art"
+  }
+ ]
+}

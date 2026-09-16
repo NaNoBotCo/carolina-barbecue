@@ -1,0 +1,333 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "luellas-bar-b-que",
+ "names": {
+  "name": "Luella's Bar-B-Que",
+  "aliases": [
+   "Luella's",
+   "Luella's BBQ"
+  ],
+  "sort": "Luella's Bar-B-Que"
+ },
+ "region": [
+  "nc-mountains"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "2007",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "An Asheville barbecue house on Merrimon Avenue with a second room at Biltmore Park, opened in 2007 by Jeff Miller and named for his grandmother and his daughter. Jeff and Ashley Miller own it. Pork butts, ribs, whole chickens, brisket and turkey come off a smoker that a 2011 account had running hickory coals around the clock; the sauce is the Coastal Plain's vinegar rather than a mountain sweet one. Macaroni and cheese is on the board because the daughter it is half named for likes it.",
+  "story": "Jeff Miller opened Luella's in 2007, naming it for his grandmother and for his six-year-old daughter. The first room was in south Asheville by two 2017 accounts, and Merrimon Avenue came in 2009, mid-recession; he later bought the Merrimon property. Explore Asheville's profile of him says he owns the business with his wife Ashley Miller, and a 2017 piece has the two of them beginning a hunt for a second site in 2014; the Biltmore Park room opened in spring 2016 and the business marked ten years in 2017. The restaurant's own pages name only Jeff, as owner and pit boss, which is the asymmetry a reader should know about before deciding what the ownership line means. The fire is the other open question. The only description of it found anywhere is from Our State in August 2011, which watched the kitchen manager open the heavy doors of a smoker cycling meat over hickory coals twenty-four hours a day. Every page since — the restaurant's own, the tourism listings, the 2017 features — is silent on fuel, and none says gas or electric either. *Inference —* silence across fifteen years of copy is not a change of method; it is copy that stopped mentioning the method.",
+  "how": "Pork butts, racks of ribs, whole chickens, beef brisket and turkey go through the smoker; the chopped pork comes with an eastern vinegar-based sauce, which is a Coastal Plain sauce carried into the mountains. Ribs are cut St. Louis style. The sides are the reason the daughter's name is on the sign: the macaroni and cheese is hers. Both rooms run eleven to nine, seven days.",
+  "today": "Open at 501 Merrimon Avenue and at 33 Town Square Boulevard in Biltmore Park, both eleven to nine daily, per the restaurant's own pages read on September 16, 2026. No independent report from 2026 confirms trading, and nothing on this disk records how Hurricane Helene touched either room."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the sauce it uses — Coastal Plain vinegar, three hundred miles west of the Coastal Plain.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut behind its chopped pork: butts rather than whole hog.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "its sauce, the eastern one, carried into the mountains.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the wood a 2011 account watched cycling under the meat around the clock.",
+   "rel": "part"
+  },
+  {
+   "to": "12-bones-smokehouse",
+   "as": "the other Asheville barbecue name of the same years, two miles south.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.61528,
+  "lon": -82.55463,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "501 Merrimon Ave",
+  "city": "Asheville",
+  "county": "Buncombe",
+  "state": "NC",
+  "postcode": "28804"
+ },
+ "links": [
+  {
+   "label": "Luella's Bar-B-Que — official site",
+   "url": "https://www.luellasbbq.com/"
+  },
+  {
+   "label": "Jeff Miller — Luella's Bar-B-Que, Explore Asheville",
+   "url": "https://www.exploreasheville.com/foodtopia/the-foodtopians/jeff-miller-luellas-bbq/"
+  },
+  {
+   "label": "Bending Barbecue Tradition: Luella's — Our State (2011)",
+   "url": "https://www.ourstate.com/louellas-bar-b-que/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-luellas-2011",
+  "s:web-exploreasheville-luellas",
+  "s:web-luellasbbq",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-luellas-2011"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-luellas-2011",
+    "note": "Founding and the hickory smoker from Our State, August 23, 2011; the ownership line from Explore Asheville's profile; the south Asheville first room, the 2009 Merrimon move and the 2016 Biltmore Park opening from two 2017 accounts, one of them a broker's client write-up with a promotional interest."
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-ourstate-luellas-2011",
+    "note": "wood on the strength of one 2011 description of hickory coals; no later source read describes the fire, and none says gas or electric"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "harvest row way/684487537"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-luellasbbq",
+    "note": "the restaurant's own pages, read 2026-09-16; no independent 2026 confirmation, and nothing on Helene's effect here"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-ourstate-luellas-2011",
+   "tier": "cited",
+   "note": "Our State, August 23, 2011: the kitchen manager 'opens the heavy doors of the smoker that cycles meat over hickory coals 24 hours a day.' No later source read describes the fuel, so this rests on a description fifteen years old."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-exploreasheville-luellas",
+   "tier": "cited",
+   "note": "Explore Asheville's profile of Jeff Miller: 'He owns Luella's Bar-B-Que with his wife, Ashley Miller.' The restaurant's own pages name only Jeff, as owner and pit boss."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-ourstate-luellas-2011",
+   "tier": "cited",
+   "note": "Named for Jeff Miller's grandmother and his daughter; owned with his wife Ashley."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-luellas-2011",
+   "year": 2011,
+   "url": "https://www.ourstate.com/louellas-bar-b-que/"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "An Asheville barbecue house on Merrimon Avenue with a second room at Biltmore Park, opened in 2007 by Jeff Miller and named for his grandmother and his daughter. Jeff and Ashley Miller own it.",
+ "region_terms": [
+  {
+   "key": "nc-mountains",
+   "name": "The North Carolina mountains",
+   "state": "NC",
+   "note": "Asheville and the Blue Ridge"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the sauce it uses — Coastal Plain vinegar, three hundred miles west of the Coastal Plain.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut behind its chopped pork: butts rather than whole hog.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "its sauce, the eastern one, carried into the mountains.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the wood a 2011 account watched cycling under the meat around the clock.",
+   "rel": "part"
+  },
+  {
+   "to": "12-bones-smokehouse",
+   "type": "place",
+   "name": "12 Bones Smokehouse",
+   "as": "the other Asheville barbecue name of the same years, two miles south.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-luellas-2011",
+   "kind": "web",
+   "title": "Bending Barbecue Tradition: Luella's",
+   "publisher": "Our State",
+   "year": 2011,
+   "url": "https://www.ourstate.com/louellas-bar-b-que/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-exploreasheville-luellas",
+   "kind": "web",
+   "title": "Jeff Miller — Luella's Bar-B-Que",
+   "publisher": "Explore Asheville",
+   "url": "https://www.exploreasheville.com/foodtopia/the-foodtopians/jeff-miller-luellas-bbq/",
+   "accessed": "2026-09-16",
+   "note": "undated"
+  },
+  {
+   "id": "s:web-luellasbbq",
+   "kind": "web",
+   "title": "Luella's Bar-B-Que — official site",
+   "publisher": "Luella's Bar-B-Que, Asheville",
+   "url": "https://www.luellasbbq.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-luellas-2011"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-luellas-2011",
+   "note": "Founding and the hickory smoker from Our State, August 23, 2011; the ownership line from Explore Asheville's profile; the south Asheville first room, the 2009 Merrimon move and the 2016 Biltmore Park opening from two 2017 accounts, one of them a broker's client write-up with a promotional interest."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-luellas-2011"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-luellasbbq",
+   "note": "the restaurant's own pages, read 2026-09-16; no independent 2026 confirmation, and nothing on Helene's effect here"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "harvest row way/684487537"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-ourstate-luellas-2011",
+   "note": "Our State, August 23, 2011: the kitchen manager 'opens the heavy doors of the smoker that cycles meat over hickory coals 24 hours a day.' No later source read describes the fuel, so this rests on a description fifteen years old.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-exploreasheville-luellas",
+   "note": "Explore Asheville's profile of Jeff Miller: 'He owns Luella's Bar-B-Que with his wife, Ashley Miller.' The restaurant's own pages name only Jeff, as owner and pit boss.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-ourstate-luellas-2011",
+   "note": "Named for Jeff Miller's grandmother and his daughter; owned with his wife Ashley.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "https://www.ourstate.com/louellas-bar-b-que/",
+   "year": 2011,
+   "source": "s:web-ourstate-luellas-2011"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "mac-and-cheese",
+   "type": "dish",
+   "name": "mac and cheese",
+   "as": "the daughter's recipe, and half the reason her name is on the sign.",
+   "rel": "served-at"
+  }
+ ]
+}

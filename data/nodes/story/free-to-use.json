@@ -1,0 +1,161 @@
+{
+ "schema": 1,
+ "id": "free-to-use",
+ "type": "story",
+ "names": {
+  "name": "Where all of this came from",
+  "aliases": [
+   "resources",
+   "open sources",
+   "how to check us"
+  ]
+ },
+ "region": [
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "resources"
+ },
+ "text": {
+  "what": "Everything on this site is built from things anyone can open: public-domain cookbooks, openly licensed encyclopaedias and photographs, open map data, oral histories published by the people who recorded them, and the directories that businesses list themselves in. This page is the list, so a reader can check the work or go further than we did."
+ },
+ "sections": [
+  {
+   "h": "Recipes you may cook from and republish",
+   "text": "Cookbooks published in the United States before 1930 are in the public domain, and the Southern ones are digitised. Michigan State University's *Feeding America* project holds scanned and transcribed historic American cookbooks; the Internet Archive holds the rest. The books this site draws on include *Dixie Cookery* (Maria Massey Barringer, Concord, North Carolina, 1867), *The Carolina Housewife* (Sarah Rutledge, Charleston, 1847), *Housekeeping in Old Virginia* (1879), *Mrs. Hill's New Cook Book* (1867), *What Mrs. Fisher Knows About Old Southern Cooking* (Abby Fisher, 1881) and *The Carolina Rice Cook Book* (1901).\n\nWikibooks' Cookbook is CC BY-SA: its recipes may be copied anywhere, with the page named and the licence carried along.\n\nA recipe still in copyright is different. The list of ingredients is a fact and may be repeated; the instructions are the author's writing. Where this site gives a modern recipe it gives the ingredients and links to the rest."
+  },
+  {
+   "h": "Pictures",
+   "text": "Wikimedia Commons is the vein: every file states its licence, and this site accepts only CC0, public domain, CC BY, CC BY-SA and the Free Art License. The Library of Congress holds three collections worth the trip — Carol M. Highsmith's photographs, the John Margolies roadside archive of 11,710 slides of American signs, and the Farm Security Administration negatives from the 1930s and 1940s — all with no known restrictions, and much of it mirrored on Commons, which is how this site reached them.\n\nThe State Archives of North Carolina keeps 117,159 photographs on Flickr Commons, and it is the one place with postcards and pit photographs of named Carolina barbecue houses — Wilbur's, Parker's, Clyde Cooper's on East Davie Street in Raleigh in 1963. They are marked no known copyright restrictions, which is a weaker statement than public domain: it means nobody has found a rights-holder, not that there is none. The marking also runs photograph by photograph rather than collection by collection, and some images sit in that archive twice, once reserved and once released. Nothing from it is used here yet.\n\nThe New York Public Library's digitised *Green Book* collection is the record of where Black travellers could eat in these two states between 1936 and 1966. Twenty-two of its twenty-three volumes are public domain; the 1966-67 International Edition is not, and carries an orphan-works statement instead — the copyright may exist and no holder has been found. The scans carry no searchable text, so a Carolina listing has to be found by eye."
+  },
+  {
+   "h": "Maps and places",
+   "text": "OpenStreetMap supplies every place point here, under the Open Database Licence, which is share-alike: the derived table at api/places.json carries the same licence. Natural Earth supplies the state outlines and is public domain. Nominatim, OpenStreetMap's own geocoder, filled in the towns and counties."
+  },
+  {
+   "h": "Directories that make a tag possible",
+   "text": "A tag on a place here means somebody published something, and this is where we look.\n\nBlack-owned: EatOkra's directory, Black Restaurant Week's listings, and the Southern Foodways Alliance's oral histories, in which owners speak for themselves.\n\nWoman-owned: WBENC's certified directory and the federal Women-Owned Small Business search, plus press profiles that name the owner.\n\nLGBTQ+ welcoming: the Charlotte LGBT Chamber of Commerce, Blue Ridge Pride in Asheville, the Alliance For Full Acceptance in the Lowcountry, SC Pride, and OpenStreetMap's own lgbtq=* tag, which businesses and mappers set deliberately.\n\nCooks over wood: True 'Cue's certified list, the North Carolina Barbecue Society's Historic Barbecue Trail, and the South Carolina Barbeque Association.\n\nNone of these is inferred. If a page does not say it, this site does not tag it — and a place without a tag has only not been read yet."
+  },
+  {
+   "h": "Oral history",
+   "text": "The Southern Foodways Alliance has recorded pitmasters in both states and publishes the transcripts and the audio. Where a place or a person here has an interview, the page links to it. It is the best single source on this subject that costs nothing to read."
+  }
+ ],
+ "kin": [
+  {
+   "to": "southern-foodways-alliance",
+   "as": "the archive most of the first-person material on this site comes from.",
+   "rel": "org"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "publishes the list of certified wood-cooking pits this site reads the wood tag from.",
+   "rel": "org"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "publishes the Historic Barbecue Trail, the other wood list.",
+   "rel": "org"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "publishes South Carolina's trail and the four-sauce map.",
+   "rel": "org"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "whose Black Smoke is the history behind half the directories on this page.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "Feeding America — historic American cookbooks (MSU)",
+   "url": "https://d.lib.msu.edu/fa"
+  },
+  {
+   "label": "Wikibooks Cookbook (CC BY-SA)",
+   "url": "https://en.wikibooks.org/wiki/Cookbook"
+  },
+  {
+   "label": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/"
+  },
+  {
+   "label": "The Green Book, digitised (NYPL)",
+   "url": "https://digitalcollections.nypl.org/collections/the-green-book"
+  },
+  {
+   "label": "OpenStreetMap copyright and licence",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "label": "EatOkra",
+   "url": "https://www.eatokra.com/"
+  },
+  {
+   "label": "WBENC certified directory",
+   "url": "https://www.wbenc.org/"
+  },
+  {
+   "label": "Charlotte LGBT Chamber of Commerce",
+   "url": "https://www.clgbtcc.org/"
+  },
+  {
+   "label": "Blue Ridge Pride",
+   "url": "https://blueridgepride.org/"
+  },
+  {
+   "label": "Alliance For Full Acceptance",
+   "url": "https://affa-sc.org/"
+  },
+  {
+   "label": "Southern Foodways Alliance oral histories",
+   "url": "https://www.southernfoodways.org/oral-history/"
+  }
+ ],
+ "sources": [
+  "s:web-feeding-america-msu",
+  "s:web-wikibooks-cookbook",
+  "s:commons",
+  "s:web-greenbook-nypl",
+  "s:osm",
+  "s:natural-earth",
+  "s:web-eatokra",
+  "s:web-black-restaurant-week",
+  "s:web-wbenc",
+  "s:web-sba-wosb",
+  "s:web-charlotte-lgbt-chamber",
+  "s:web-blue-ridge-pride",
+  "s:web-afa-charleston",
+  "s:web-sc-pride",
+  "s:web-osm-lgbtq-tag",
+  "s:sfa-oral-histories",
+  "s:true-cue",
+  "s:ncbs",
+  "s:scba",
+  "s:miller-black-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-feeding-america-msu"
+  },
+  "fields": {
+   "sections[3].text": {
+    "tier": "cited",
+    "source": "s:web-eatokra",
+    "note": "each directory linked in links[]"
+   },
+   "sections[1].text": {
+    "tier": "harvested",
+    "source": "s:commons",
+    "note": "licence wording and counts checked against each holder's own rights statement on 2026-09-16; the survey is at data/harvest/picture-sources.json"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

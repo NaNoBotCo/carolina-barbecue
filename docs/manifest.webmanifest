@@ -1,0 +1,16 @@
+{
+ "name": "Carolina Barbecue",
+ "short_name": "Carolina BBQ",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#f6f1e7",
+ "theme_color": "#b5431f",
+ "description": "the pits, the plates, the words \u2014 North and South Carolina",
+ "icons": [
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}

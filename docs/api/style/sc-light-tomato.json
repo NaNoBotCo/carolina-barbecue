@@ -1,0 +1,474 @@
+{
+ "schema": 1,
+ "id": "sc-light-tomato",
+ "type": "style",
+ "names": {
+  "name": "Light tomato barbecue",
+  "aliases": [
+   "light-tomato style",
+   "vinegar-and-ketchup barbecue",
+   "upper Midlands barbecue"
+  ],
+  "said": "Nobody orders 'light tomato'; it is the map's word. At the counter it is the house sauce, mild or hot."
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc-upstate",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "meat": "mixed",
+  "base": "light-tomato",
+  "fuel": "mixed"
+ },
+ "text": {
+  "what": "Pork — whole hog in the Pee Dee, shoulders and hams in the upper Midlands — cooked over coals or on cookers and served with a thin sauce that is the Carolinas' vinegar-and-pepper with ketchup stirred in. On South Carolina's four-sauce map, as the state tourism office and the South Carolina Barbeque Association publish it, it holds the Pee Dee and the upper middle of the state along the North Carolina line. Hash comes with it, of beef as often as pork toward the Upstate. It is the South Carolina twin of Lexington's dip, and the Barbeque Association's history maps the North Carolina Piedmont and the South Carolina Pee Dee as one light-tomato country.",
+  "story": "The light-tomato sauce is the youngest of the vinegar family. The South Carolina Barbeque Association dates it to about 1900, 'vinegar and pepper with tomato ketchup added', and Wikipedia's account has it born of cheap mass-produced ketchup in the early twentieth century and of North Carolina's influence on the Upstate. The general history of barbecue sauce runs the same way: sugar, ketchup and Worcestershire came into sauces in the 1920s, and everything after the war got sweeter. *Inference —* the Lexington dip and the light-tomato sauce are the same invention made twice, or once and carried; the SCBA's own history treats the North Carolina Piedmont and the South Carolina Pee Dee as one light-tomato country, and the Piedmont's dip is the sauce Wikipedia describes as 'similar to the East Carolina sauce with the addition of tomato paste, tomato sauce, or ketchup'.\n\nWhere exactly it lives is argued. Kovacik and Winberry's 1987 geography set the four regions; the tourism office gives light tomato the Pee Dee and the 'upper middle part' of the state; Wikipedia gives it the Upstate; Robert Moss says the state has only two sauces, sweet mustard and spicy vinegar, and the tomato sauces are variations. Union County, in the upper middle, once had nearly fifty hash houses; Midway BBQ at Buffalo, opened around 1941 by Jack O'Dell, is the one left, cooking shoulders and hams over hickory, and its hash is beef, butter, onion, salt and pepper stewed down in a pot — 'Without hash,' its manager Jay Allen told the Southern Foodways Alliance in 2012, 'we're done. We're closed.'",
+  "how": "Vinegar, salt, black and red pepper, and ketchup enough to color it, thinned with water; cayenne or a bottled hot sauce for heat; a little sugar in some houses. It is warmed, not cooked down. It goes on chopped or pulled pork at the block and stands on the table; on a Pee Dee buffet it sits beside the vinegar-and-pepper bottle, and in the upper Midlands it comes with beef hash and rice.",
+  "today": "Midway BBQ at Buffalo, Union County, sells chopped pork in its house 'Original Sauce', pulled pork with none, and its beef hash; the tourism office still draws the light-tomato band across the Pee Dee and the upper Midlands, and mustard has spread into these counties from the middle of the state."
+ },
+ "kin": [
+  {
+   "to": "light-tomato-sauce",
+   "as": "its sauce: vinegar and pepper with ketchup added, thin enough to pour.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington",
+   "as": "its North Carolina twin — shoulder with a vinegar-and-ketchup dip; the SC Barbeque Association maps the two as one country.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the same sauce under the Piedmont's name, north of the line.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the base it adds ketchup to; the older sauce it grew from about 1900.",
+   "rel": "origin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "shares the Pee Dee with it; the tourism office puts both sauces there, and the whole hog under both.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "as": "the thick, sweet sauce of the western corner, against this thin one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the mustard country to its south, now spreading into its counties.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the side toward the Upstate: at Midway a stew of beef, butter, onion, salt and pepper.",
+   "rel": "serves"
+  },
+  {
+   "to": "midway-bbq",
+   "as": "Buffalo, Union County, since about 1941: the last of the county's fifty hash houses, cooking shoulders and hams over hickory.",
+   "rel": "place"
+  },
+  {
+   "to": "lake-high",
+   "as": "whose SC Barbeque Association history dates the sauce to about 1900.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "as": "who counts it as a variation on vinegar sauce, not a region of its own.",
+   "rel": "person"
+  },
+  {
+   "to": "pee-dee",
+   "as": "the region the map gives it in the northeast.",
+   "rel": "term"
+  },
+  {
+   "to": "piedmont",
+   "as": "the North Carolina region the SC Barbeque Association pairs it with.",
+   "rel": "term"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "the association whose map draws the light-tomato band.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lexington",
+   "tell": "The sauces are near twins. Red slaw and hushpuppies put you in North Carolina; hash over rice puts you in South Carolina."
+  },
+  {
+   "id": "sc-heavy-tomato",
+   "tell": "Light tomato pours and soaks in; heavy tomato clings and coats. If it looks like the bottle from the grocery shelf, it is heavy."
+  },
+  {
+   "id": "sc-pee-dee",
+   "tell": "On the same Pee Dee buffet, the clear bottle is vinegar-and-pepper and the orange-red one is light tomato."
+  }
+ ],
+ "geo": {
+  "lat": 34.705,
+  "lon": -81.2133,
+  "precision": "region",
+  "source": "Chester, in the upper-middle band the tourism office describes; the map's Pee Dee share overlaps sc-pee-dee (Wikipedia coordinates)"
+ },
+ "links": [
+  {
+   "label": "South Carolina's Four Barbecue Sauces — Discover South Carolina",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces"
+  },
+  {
+   "label": "BBQ History — South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/"
+  },
+  {
+   "label": "Midway BBQ — Southern Foodways Alliance oral history",
+   "url": "https://www.southernfoodways.org/interview/midway-bbq/"
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-barbecue-sauce",
+  "s:wp-hash-stew",
+  "s:web-sc-four-sauces",
+  "s:sc-parks-sauce-map",
+  "s:web-scba-bbq-history",
+  "s:web-sfa-midway",
+  "s:web-midway-bbq",
+  "s:high-sc-barbeque"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sc-four-sauces"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-scba-bbq-history",
+    "note": "the dating from the SCBA history and the Wikipedia articles on the state and on barbecue sauce; Kovacik & Winberry and Moss from the Wikipedia state article; Midway from the SFA 2012 interview; the twin-invention paragraph is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the recipe is the tourism office's description filled out with the tradition's usual proportions; no house recipe is published"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-midway-bbq"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "Chester chosen as a point in the tourism office's 'upper middle' band; the map is contested, see story"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "Pork — whole hog in the Pee Dee, shoulders and hams in the upper Midlands — cooked over coals or on cookers and served with a thin sauce that is the Carolinas' vinegar-and-pepper with ketchup stirred in.",
+ "region_terms": [
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc-upstate",
+   "name": "The Upstate",
+   "state": "SC",
+   "note": "Greenville, Spartanburg, the Piedmont of South Carolina"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "its sauce: vinegar and pepper with ketchup added, thin enough to pour.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "its North Carolina twin — shoulder with a vinegar-and-ketchup dip; the SC Barbeque Association maps the two as one country.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the same sauce under the Piedmont's name, north of the line.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the base it adds ketchup to; the older sauce it grew from about 1900.",
+   "rel": "origin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "shares the Pee Dee with it; the tourism office puts both sauces there, and the whole hog under both.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "the thick, sweet sauce of the western corner, against this thin one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the mustard country to its south, now spreading into its counties.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the side toward the Upstate: at Midway a stew of beef, butter, onion, salt and pepper.",
+   "rel": "serves"
+  },
+  {
+   "to": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "Buffalo, Union County, since about 1941: the last of the county's fifty hash houses, cooking shoulders and hams over hickory.",
+   "rel": "place"
+  },
+  {
+   "to": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "whose SC Barbeque Association history dates the sauce to about 1900.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "who counts it as a variation on vinegar sauce, not a region of its own.",
+   "rel": "person"
+  },
+  {
+   "to": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the region the map gives it in the northeast.",
+   "rel": "term"
+  },
+  {
+   "to": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the North Carolina region the SC Barbeque Association pairs it with.",
+   "rel": "term"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "the association whose map draws the light-tomato band.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-sauce",
+   "kind": "wikipedia",
+   "title": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-hash-stew",
+   "kind": "wikipedia",
+   "title": "Hash (stew) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hash_(stew)",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1334401453"
+  },
+  {
+   "id": "s:web-sc-four-sauces",
+   "kind": "web",
+   "title": "South Carolina's Four Barbecue Sauces (Gwen Fowler)",
+   "publisher": "South Carolina Department of Parks, Recreation & Tourism — discoversouthcarolina.com",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sc-parks-sauce-map",
+   "kind": "web",
+   "title": "South Carolina Department of Parks, Recreation & Tourism — the four barbecue sauce regions",
+   "url": "https://discoversouthcarolina.com/",
+   "note": "the state tourism office's sauce map (mustard, vinegar-pepper, light tomato, heavy tomato)"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-midway",
+   "kind": "web",
+   "title": "Midway BBQ — oral history with Jay Allen (Rien Fertel, 12 Jun 2012)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/midway-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-midway-bbq",
+   "kind": "web",
+   "title": "Midway BBQ — official site",
+   "publisher": "Midway BBQ, Buffalo SC",
+   "url": "https://midway-bbq.com/bbq-restaurant/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:high-sc-barbeque",
+   "kind": "book",
+   "title": "A History of South Carolina Barbeque",
+   "author": "Lake E. High Jr.",
+   "publisher": "The History Press",
+   "year": 2013
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-sc-four-sauces"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-scba-bbq-history",
+   "note": "the dating from the SCBA history and the Wikipedia articles on the state and on barbecue sauce; Kovacik & Winberry and Moss from the Wikipedia state article; Midway from the SFA 2012 interview; the twin-invention paragraph is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the recipe is the tourism office's description filled out with the tradition's usual proportions; no house recipe is published"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-midway-bbq"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "Chester chosen as a point in the tourism office's 'upper middle' band; the map is contested, see story"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "its South Carolina cousin: a thin vinegar-and-ketchup sauce that the SC Barbeque Association maps as one country with the Piedmont.",
+   "rel": "kin"
+  },
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "the thin vinegar-and-ketchup country to its east; the two share a color and little else.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the band to its north on the four-sauce map, where ketchup goes into the vinegar instead of mustard.",
+   "rel": "kin"
+  },
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "shares the Pee Dee with it on the tourism office's map — the same sauce with ketchup in it.",
+   "rel": "kin"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the South Carolina style built on the same sauce.",
+   "rel": "kin"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the style it names on the map: the Pee Dee and the upper Midlands.",
+   "rel": "whole"
+  },
+  {
+   "from": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "the Upstate style it belongs to: pork butts, hickory, a thin tomato sauce beside the mustard.",
+   "rel": "whole"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "one of his four: vinegar-and-pepper with ketchup, from around 1900.",
+   "rel": "kin"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "a variation on vinegar sauce, in his count, not a region of its own.",
+   "rel": "kin"
+  },
+  {
+   "from": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "one of the four: vinegar-and-pepper with ketchup, from around 1900.",
+   "rel": "kin"
+  },
+  {
+   "from": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the South Carolina Piedmont's sauce, a thin ketchup and vinegar credited to North Carolina's influence.",
+   "rel": "term"
+  }
+ ]
+}

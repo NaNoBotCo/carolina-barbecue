@@ -1,0 +1,418 @@
+{
+ "schema": 1,
+ "id": "cheerwine",
+ "type": "dish",
+ "names": {
+  "name": "Cheerwine",
+  "aliases": [
+   "Cheerwine soda",
+   "Retro Cheerwine",
+   "Original 1917 Formula",
+   "Diet Cheerwine"
+  ],
+  "said": "One word, capital C. It is a soda with no wine in it; the name is for the burgundy colour and the cheer.",
+  "sort": "Cheerwine"
+ },
+ "etymology": {
+  "root": "cheer + wine: named, the company says, for its burgundy-red colour and cheery disposition — wine for the colour, cheer for the taste; it contains no alcohol",
+  "first_attested": "1917, Salisbury, North Carolina; registered as a trademark in 1926 (Wikipedia)",
+  "note": "The company's own line, as Wikipedia quotes it: 'it made sense to name a burgundy-red, bubbly, cherry concoction — Cheerwine.'",
+  "tier": "cited",
+  "source": "s:wp-cheerwine"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc",
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "course": "drink",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A cherry-flavoured soft drink — burgundy-red, sweet, with a strong black-cherry note and more carbonation than most sodas — made in Salisbury, Rowan County, North Carolina by the Carolina Beverage Corporation since 1917, and run by founder L.D. Peeler's family throughout. On a Piedmont barbecue counter it is the soda beside the tea: Lexington Barbecue lists Cheerwine and Diet Cheerwine with the Cokes, and the Barbecue Center sells it by the 10-, 16- and 32-ounce cup. It is bottled in glass with cane sugar as Retro or 'Original 1917 Formula' Cheerwine, comes as ice cream and sherbet in Food Lion, and has had its own festival in Salisbury each year since its centennial in 2017.",
+  "story": "Two accounts of 1917 survive, and they agree on the man and the town. Wikipedia's: when the Maysville Syrup Company of Maysville, Kentucky went bankrupt that year, L. D. Peeler, Hughston Kirby, Kurt Weinmann and other investors bought its assets, moved them to North Carolina as the Carolina Syrup Company, and the same year bought a cherry-soda recipe from a St. Louis flavor salesman and sold it as Cheerwine. The company's own: Peeler made it during the wartime sugar shortage from a wild-cherry flavour a St. Louis salesman brought him, and named it for its burgundy-red colour and cheery disposition. The trademark was registered in 1926. Peeler's son Clifford took over in 1931 and kept the company profitable through the Depression; the plant moved to its present Salisbury site in July 1967; Clifford's grandsons Cliff and Mark Ritchie joined in the late 1970s, and Cliff Ritchie has headed the parent company since 1992 by Wikipedia's account, since 2007 by the company's — which makes it, by its own claim, the oldest soft-drink company still run by its founding family. The rest is reach: Pepsi distributors bottling it outside the Carolinas from 2005, a Krispy Kreme Cheerwine doughnut in July 2010, a New York Times piece on 'The Expanding Cult of Cheerwine' in 2011 with a plan the same year to be nationwide by the centennial, and a festival in downtown Salisbury from 2017 that drew over 100,000 people in 2025 and, the Salisbury Post says, $5.9 million to Rowan County.",
+  "how": "Carbonated water, high-fructose corn syrup (cane sugar in the glass-bottle Retro line), caramel colour, phosphoric acid, natural and artificial flavours, caffeine, citric acid, sodium benzoate and Red 40, as the label read in 2021; the flavour is cherry with a black-cherry edge and the fizz is high. It is sold in glass bottles, cans, 12-packs and two-litre bottles, and as a fountain drink at some restaurants and convenience stores, Cook Out and Bojangles among them. At the barbecue counter it comes in a cup over ice with the tray; at home it goes into a Cheerwine cake — a commercial one has been baked in Salisbury since 2008 — and into a float, and with Captain Morgan rum it is a 'Captain Cheerwine'.",
+  "today": "Lexington Barbecue: Cheerwine or Diet Cheerwine $2.90 cash, $3.00 card (September 2026); the Barbecue Center: 10 oz $2.50, 16 oz $2.90, 32 oz $3.75. Sold from Maryland to Florida and in specialty-soda shops beyond. The 2026 Cheerwine Festival was Saturday, May 16, in downtown Salisbury; Cheerwine Zero Sugar arrived in 2021 and a Cheerwine Ale with NoDa Brewing in 2023."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the Piedmont style whose counters list it with the tea.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "on the drinks list with Coke and Diet Coke, $2.90 cash in September 2026.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "among the soft drinks, by the 10-, 16- and 32-ounce cup.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "the other glass on the counter; the tea is the older drink and the default.",
+   "rel": "contrast"
+  },
+  {
+   "to": "texas-pete",
+   "as": "the state's other bottled name on the barbecue table, from Winston-Salem, twelve years younger.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Cheerwine — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cheerwine"
+  },
+  {
+   "label": "Cheerwine — About (company history)",
+   "url": "https://cheerwine.com/about/"
+  },
+  {
+   "label": "Cheerwine Festival — History",
+   "url": "https://cheerwinefest.com/About/History"
+  }
+ ],
+ "sources": [
+  "s:wp-cheerwine",
+  "s:web-cheerwine-about",
+  "s:web-cheerwinefest-history",
+  "s:web-salisburypost-cheerwine-festival-2026",
+  "s:web-lexbbq-menu",
+  "s:web-barbecue-center-menu",
+  "s:wp-texas-pete",
+  "s:book-virginia-house-wife",
+  "s:book-kentucky-housewife"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-cheerwine"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-cheerwine",
+    "note": "menus read 2026-09-15; Rowan County from the Salisbury Post"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-cheerwine",
+    "note": "the two 1917 accounts are given side by side; the Ritchie dates differ between Wikipedia and cheerwine.com/about and both are given; festival numbers from cheerwinefest.com and the Salisbury Post (2026-01-18)"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-cheerwine",
+    "note": "ingredients as Wikipedia lists them for July 2021"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "prices read 2026-09-15; the 2026 festival date from the Salisbury Post; Zero Sugar and the ale from cheerwine.com/about"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wp-cheerwine",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Cheerwine — the label",
+   "source": "s:wp-cheerwine",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Cheerwine",
+   "ingredients": [
+    "carbonated water",
+    "high fructose corn syrup",
+    "caramel color",
+    "phosphoric acid",
+    "natural and artificial flavors",
+    "caffeine",
+    "citric acid",
+    "sodium benzoate (to protect flavor)",
+    "Red 40"
+   ],
+   "note": "Ingredients only, in label order, as the label read in July 2021; the cherry formula the company bought from a St. Louis flavour salesman in 1917 has never been published. Retro Cheerwine is made with cane sugar in place of the corn syrup.",
+   "region": "Salisbury, North Carolina"
+  },
+  {
+   "title": "Cherry Shrub",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Gather ripe morello cherries, pick them from the stalk, and put them in an earthen pot, which must be set into an iron pot of water; make the water boil, but take care that none of it gets into the cherries; when the juice is extracted, pour it into a bag made of tolerably thick cloth, which will permit the juice to pass, but not the pulp of your cherries; sweeten it to your taste, and when it becomes perfectly clear, bottle it—put a gill of brandy into each bottle, before you pour in the juice—cover the corks with rosin. It will keep all summer, in a dry cool place, and is delicious mixed with water.",
+   "page": 171,
+   "note": "The household ancestor of a bottled cherry drink: juice drawn from the fruit, sweetened, bottled and mixed with water to drink. A morello is a sour cherry; the brandy is the keeping agent and can be left out, in which case the syrup must be kept cold."
+  },
+  {
+   "title": "Cherry Shrub",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "text": "Break up some fine ripe cherries, press out all the juice, and put it in a preserving kettle, with a pound of loaf sugar to each quart of the juice. Break up a few of the cherry seeds, boil them in a very little water, till the flavor is extracted, and strain the liquid into the juice and sugar. Boil it for eight or ten minutes, skim it, and cool it. Have ready some small bottles, washed clean, and dried; put in each a wine glass of brandy; fill them with the syrup, and cork them securely. It makes very delicate ice, frozen over twice, as directed for ice creams, and is also fine, mixed with iced waters.",
+   "page": 389,
+   "note": "A pound of sugar to a quart of juice, and the cherry stones boiled separately for the almond note that a black-cherry flavouring still carries. 'Fine, mixed with iced waters' is what a cherry soft drink does."
+  }
+ ],
+ "images": [
+  {
+   "file": "cheerwine/cheerwine-cheerwine-01.jpg",
+   "source": "commons",
+   "title": "File:Cheerwine-01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cheerwine-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACheerwine-01.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "F Delventhal",
+   "credit": "Flickr",
+   "alt": "Bottles of Cheerwine soda.",
+   "date": "2014-12-31",
+   "primary": true,
+   "sha256": "b9901a0dedead797e4abc4d33c064199688c46746d61356571ccf544eb6c2d1d"
+  },
+  {
+   "file": "cheerwine/cheerwine-cheerwine-bottle.jpg",
+   "source": "commons",
+   "title": "File:Cheerwine bottle.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Cheerwine_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACheerwine_bottle.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "RadioFan",
+   "credit": "Own work",
+   "alt": "Cheerwine bottle from 1920 on display at the North Carolina Museum of History",
+   "date": "2011-12-11",
+   "primary": false,
+   "sha256": "9cf52a325180de4d9ce1d5eca06038390a5bbe9db7142e107e96bb3af95653c6"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A cherry-flavoured soft drink — burgundy-red, sweet, with a strong black-cherry note and more carbonation than most sodas — made in Salisbury, Rowan County, North Carolina by the Carolina Beverage Corporation since…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the Piedmont style whose counters list it with the tea.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "on the drinks list with Coke and Diet Coke, $2.90 cash in September 2026.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "among the soft drinks, by the 10-, 16- and 32-ounce cup.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "the other glass on the counter; the tea is the older drink and the default.",
+   "rel": "contrast"
+  },
+  {
+   "to": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "the state's other bottled name on the barbecue table, from Winston-Salem, twelve years younger.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cheerwine",
+   "kind": "wikipedia",
+   "title": "Cheerwine — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cheerwine",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1370184223"
+  },
+  {
+   "id": "s:web-cheerwine-about",
+   "kind": "web",
+   "title": "About — company history timeline",
+   "publisher": "Cheerwine / Carolina Beverage Corporation, Salisbury NC",
+   "url": "https://cheerwine.com/about/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-cheerwinefest-history",
+   "kind": "web",
+   "title": "Cheerwine Festival History",
+   "publisher": "Cheerwine Festival, Salisbury NC",
+   "url": "https://cheerwinefest.com/About/History",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-salisburypost-cheerwine-festival-2026",
+   "kind": "web",
+   "title": "Cheerwine Festival pops back into Salisbury on May 16: 2025 Festival drew 100,000+ guests and generated $5.9 million for Rowan County (2026-01-18)",
+   "publisher": "Salisbury Post",
+   "url": "https://www.salisburypost.com/2026/01/18/cheerwine-festival-pops-back-into-salisbury-on-may-16-2025-festival-drew-100000-guests-and-generated-5-9-million-for-rowan-county/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:web-barbecue-center-menu",
+   "kind": "web",
+   "title": "Barbecue Center — online menu (prices as posted)",
+   "publisher": "Barbecue Center, Lexington, via ehungry",
+   "url": "https://order.ehungry.com/Barbecue-Center-inc/order/barbecuecenternet/main/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-texas-pete",
+   "kind": "wikipedia",
+   "title": "Texas Pete — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Texas_Pete",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1314228689"
+  },
+  {
+   "id": "s:book-virginia-house-wife",
+   "kind": "book",
+   "title": "The Virginia House-Wife, or Methodical Cook",
+   "author": "Mrs. Mary Randolph",
+   "publisher": "Plaskitt & Cugle, Baltimore",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewif00rand",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1824, the first cookbook of the American South. Read in the stereotype printing scanned by the Internet Archive as virginiahousewif00rand, whose page numbers are used here; the fourth-edition scan (virginiahousewi00rand, printed about 1830) was read alongside it to settle characters each scan loses."
+  },
+  {
+   "id": "s:book-kentucky-housewife",
+   "kind": "book",
+   "title": "The Kentucky Housewife, Containing Nearly Thirteen Hundred Full Receipts",
+   "author": "Mrs. Lettice Bryan",
+   "publisher": "Shepard & Stearns, Cincinnati",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "accessed": "2026-09-16",
+   "license": "Public domain"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-cheerwine",
+   "note": "menus read 2026-09-15; Rowan County from the Salisbury Post"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-cheerwine",
+   "note": "the two 1917 accounts are given side by side; the Ritchie dates differ between Wikipedia and cheerwine.com/about and both are given; festival numbers from cheerwinefest.com and the Salisbury Post (2026-01-18)"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-cheerwine",
+   "note": "ingredients as Wikipedia lists them for July 2021"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu",
+   "note": "prices read 2026-09-15; the 2026 festival date from the Salisbury Post; Zero Sugar and the ale from cheerwine.com/about"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-cheerwine"
+  }
+ },
+ "primary_image": {
+  "file": "cheerwine/cheerwine-cheerwine-01.jpg",
+  "source": "commons",
+  "title": "File:Cheerwine-01.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cheerwine-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ACheerwine-01.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "F Delventhal",
+  "credit": "Flickr",
+  "alt": "Bottles of Cheerwine soda.",
+  "date": "2014-12-31",
+  "primary": true,
+  "sha256": "b9901a0dedead797e4abc4d33c064199688c46746d61356571ccf544eb6c2d1d"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "blenheim-ginger-ale",
+   "type": "dish",
+   "name": "Blenheim Ginger Ale",
+   "as": "the other Carolina bottle on a barbecue table; that one is sweet and cherry-red, this one is hot.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "the other glass on a Piedmont counter; both sweet, one carbonated.",
+   "rel": "contrast"
+  },
+  {
+   "from": "roadside-barbecue-signs",
+   "type": "art",
+   "name": "roadside barbecue signs",
+   "as": "the other Carolina bottler whose disc turns up over a pit's name.",
+   "rel": "dish"
+  }
+ ]
+}

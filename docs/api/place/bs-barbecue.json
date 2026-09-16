@@ -1,0 +1,574 @@
+{
+ "schema": 1,
+ "id": "bs-barbecue",
+ "type": "place",
+ "names": {
+  "name": "B's Barbecue",
+  "aliases": [
+   "B's",
+   "B's Barbeque",
+   "B's Bar-B-Q"
+  ],
+  "sort": "Bs Barbecue"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1978",
+  "fuel": "charcoal",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog and chicken pit on the edge of Greenville, Pitt County, in a converted country store on a road the county named for it. Bill McLawhorn, the B, opened it in 1978 with his wife Peggy; their daughters Judy Drach, Tammy Godley and Donna McLawhorn have run it since his death in 2007. There is no telephone, no take-out menu and no closing time: the doors open at nine in the morning and shut when the day's barbecue and chicken are gone, usually early afternoon. Cash or check only. The line forms before opening.",
+  "story": "Bill McLawhorn gave up farming in 1978 and bought a convenience store just inside Greenville's city limits; he and Peggy worked out the sauce together and cooked out back, selling up front. He refused a telephone — 'If you need me, come get me' — and the refusal outlasted him. Bob Garner wrote it up for Our State in 2012 as a place of red picnic tables and cafeteria-style counter service with no promise the food would still be there at noon. Judy Drach told the Southern Foodways Alliance in 2009 that the family could have built something bigger with more staff and a day off, 'but when you start doing all that, then it's like any other restaurant and that's not what we wanted it to be.' Bill died in 2007 and the sisters took it on. The pits were once wood-fired brick; after fires the family went over to charcoal, and the pigs go on around nine at night to be ready by nine in the morning. The county renamed the road B's Barbecue Road.",
+  "how": "Whole hogs and chickens cook overnight over charcoal, the hogs going on about 9 p.m. The pork is chopped by hand, never ground, and dressed with the McLawhorns' vinegar sauce; the chicken is sold by the half or the whole bird. In 2016 Our State printed the board: barbecue dinner $7.75, sandwich $3.75, a pound $8.50, half a chicken $7, a whole one $11.50. The customer orders at the counter and eats at a picnic table or in the car.",
+  "today": "Open Tuesday to Saturday from 9 a.m. until sold out, at 751 B's Barbecue Road, Greenville. No phone. Cash or check. Hours pattern from Our State (2012 and 2016); check before driving."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style, in its plainest form: whole hog, vinegar sauce, chopped by hand.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, cooked overnight over charcoal rather than wood since the fires.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-chicken",
+   "as": "the other thing on the pit, sold by the half and the whole.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopping-block",
+   "as": "where the pork is chopped by hand; the family says it is never ground.",
+   "rel": "part"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "the other Pitt County whole-hog house, across Greenville in Winterville, with a phone and a bar.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "the Ayden pit fifteen miles south that the press pairs it with.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Judy Drach's oral history in 2009.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.6209409,
+  "lon": -77.4173525,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "751 B's Barbecue Rd",
+  "city": "Greenville",
+  "county": "Pitt",
+  "state": "NC",
+  "postcode": "27834"
+ },
+ "links": [
+  {
+   "label": "B's Barbecue — SFA oral history with Judy Drach (2009)",
+   "url": "https://www.southernfoodways.org/interview/bs-barbecue/"
+  },
+  {
+   "label": "B's Barbecue — Our State (2012)",
+   "url": "https://www.ourstate.com/bs-barbecue/"
+  },
+  {
+   "label": "A Day at B's Barbecue — Our State (2016)",
+   "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-a-day-at-bs",
+  "s:web-ourstate-bs-barbecue",
+  "s:sfa-bs-barbecue",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-a-day-at-bs"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-ourstate-a-day-at-bs",
+    "note": "prices as printed in 2016"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-bs-barbecue",
+    "note": "days from 2012, opening hour and cash rule from 2016; no phone to confirm"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded by name via Nominatim"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ourstate-bs-barbecue"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:sfa-bs-barbecue",
+    "note": "The woman-owned tag rests on the SFA bio's 'took over the business'; neither Our State (2016) nor the SFA page uses the word owner, and neither describes the McLawhorns' race."
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [
+  {
+   "file": "bs-barbecue/bs-barbecue-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+   "source": "commons",
+   "title": "File:Cooked and chopped hogs at B's Barbecue.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cooked_and_chopped_hogs_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACooked_and_chopped_hogs_at_B%27s_Barbecue.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "City of Greenville, North Carolina",
+   "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248355806/",
+   "alt": "Taken at B's Barbecue, a Greenville barbecue restaurant that opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+   "date": "2023-09-19 09:13:44",
+   "primary": true,
+   "sha256": "ada44eed068a81c3f2995ac530303b10d34c7bf29adad1261a36d9bff097380a"
+  },
+  {
+   "file": "bs-barbecue/bs-barbecue-hogs-for-smoking-at-b-s-barbecue.jpg",
+   "source": "commons",
+   "title": "File:Hogs for smoking at B's Barbecue.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Hogs_for_smoking_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHogs_for_smoking_at_B%27s_Barbecue.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "City of Greenville, North Carolina",
+   "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248354286/",
+   "alt": "Hogs being prepared for whole hog barbecue at B's Barbecue in Greensville, opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+   "date": "2023-09-19 20:09:52",
+   "primary": false,
+   "sha256": "85f1c372b03f7184588c4dc4b053e8914fbee64545bc01ab411ecf36f3d9d3a4"
+  }
+ ],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified: wood coals or charcoal as the sole heat source. Our State (January 26, 2016) records the change: 'B's used to use wood... But those pits kept catching fire... so B's switched to charcoal.'",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:web-ourstate-a-day-at-bs",
+   "tier": "cited",
+   "note": "Whole hogs and chickens cook overnight; the pork is hand-chopped, never ground."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:sfa-bs-barbecue",
+   "tier": "cited",
+   "note": "SFA (Alan G. Pike, June 10, 2009): 'Bill ran the restaurant until his death in 2007, when Judy and her two sisters, Tammy and Donna, took over the business.' No source read here uses the word owner.",
+   "since": "2007"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-ourstate-a-day-at-bs",
+   "tier": "cited",
+   "note": "Bill and Peggy McLawhorn opened it in 1978; their daughters Judy Drach, Tammy Godley and Donna McLawhorn work the counter, the side and the register."
+  },
+  {
+   "tag": "cash-only",
+   "source": "s:web-ourstate-bs-barbecue",
+   "tier": "cited",
+   "note": "Our State (January 26, 2016): 'B's only takes cash and checks.' Cash or check, no cards."
+  },
+  {
+   "tag": "sold-out-closes",
+   "source": "s:web-ourstate-a-day-at-bs",
+   "tier": "cited",
+   "note": "Opens at nine and shuts when the day's barbecue and chicken are gone, usually early afternoon; the sign goes on the door. There is no telephone."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as B's Barbecue",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as B's Barbecue, Greenville",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-bs-barbecue",
+   "year": 2009,
+   "url": "https://www.southernfoodways.org/interview/bs-barbecue/",
+   "note": "Judy Drach, interviewed by Alan G. Pike, June 10, 2009."
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-a-day-at-bs",
+   "year": 2016
+  }
+ ],
+ "blurb": "A whole-hog and chicken pit on the edge of Greenville, Pitt County, in a converted country store on a road the county named for it.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style, in its plainest form: whole hog, vinegar sauce, chopped by hand.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, cooked overnight over charcoal rather than wood since the fires.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the other thing on the pit, sold by the half and the whole.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "where the pork is chopped by hand; the family says it is never ground.",
+   "rel": "part"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "the other Pitt County whole-hog house, across Greenville in Winterville, with a phone and a bar.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "the Ayden pit fifteen miles south that the press pairs it with.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded Judy Drach's oral history in 2009.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-a-day-at-bs",
+   "kind": "web",
+   "title": "A Day at B's Barbecue — Our State (2016)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-bs-barbecue",
+   "kind": "web",
+   "title": "A Day at B's Barbecue (Jeremy Markovich, 2016-01-26)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-bs-barbecue",
+   "kind": "oral-history",
+   "title": "B's Barbecue — Judy Drach, interviewed by Alan G. Pike, 10 Jun 2009",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/bs-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-barbecuebros-nc-trail",
+   "kind": "web",
+   "title": "NC Historic Barbecue Trail",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "accessed": "2026-09-16",
+   "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-a-day-at-bs"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-a-day-at-bs"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-a-day-at-bs",
+   "note": "prices as printed in 2016"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-ourstate-bs-barbecue",
+   "note": "days from 2012, opening hour and cash rule from 2016; no phone to confirm"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest file; geocoded by name via Nominatim"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-ourstate-bs-barbecue"
+  }
+ },
+ "primary_image": {
+  "file": "bs-barbecue/bs-barbecue-cooked-and-chopped-hogs-at-b-s-barbecue.jpg",
+  "source": "commons",
+  "title": "File:Cooked and chopped hogs at B's Barbecue.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cooked_and_chopped_hogs_at_B%27s_Barbecue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ACooked_and_chopped_hogs_at_B%27s_Barbecue.jpg",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "City of Greenville, North Carolina",
+  "credit": "https://www.flickr.com/photos/cityofgreenvillenc/53248355806/",
+  "alt": "Taken at B's Barbecue, a Greenville barbecue restaurant that opened in 1977. Photographed during filming of a feature on Pitt County Brew &amp; 'Cue Trail locations in Greenville.",
+  "date": "2023-09-19 09:13:44",
+  "primary": true,
+  "sha256": "ada44eed068a81c3f2995ac530303b10d34c7bf29adad1261a36d9bff097380a"
+ },
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-nc",
+   "note": "True 'Cue certified: wood coals or charcoal as the sole heat source. Our State (January 26, 2016) records the change: 'B's used to use wood... But those pits kept catching fire... so B's switched to charcoal.'",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-ourstate-a-day-at-bs",
+   "note": "Whole hogs and chickens cook overnight; the pork is hand-chopped, never ground.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:sfa-bs-barbecue",
+   "note": "SFA (Alan G. Pike, June 10, 2009): 'Bill ran the restaurant until his death in 2007, when Judy and her two sisters, Tammy and Donna, took over the business.' No source read here uses the word owner.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-ourstate-a-day-at-bs",
+   "note": "Bill and Peggy McLawhorn opened it in 1978; their daughters Judy Drach, Tammy Godley and Donna McLawhorn work the counter, the side and the register.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-ourstate-bs-barbecue",
+   "note": "Our State (January 26, 2016): 'B's only takes cash and checks.' Cash or check, no cards.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "sold-out-closes",
+   "label": "Closes when sold out",
+   "icon": "⏳",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-ourstate-a-day-at-bs",
+   "note": "Opens at nine and shuts when the day's barbecue and chicken are gone, usually early afternoon; the sign goes on the door. There is no telephone.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as B's Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  },
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as B's Barbecue, Greenville",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "year": null,
+   "source": "s:web-barbecuebros-nc-trail"
+  },
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "https://www.southernfoodways.org/interview/bs-barbecue/",
+   "year": 2009,
+   "source": "s:sfa-bs-barbecue"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": 2016,
+   "source": "s:web-ourstate-a-day-at-bs"
+  }
+ ],
+ "acclaim": 4,
+ "kin_in": [
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "chicken halves on their own cooker, gone by early afternoon.",
+   "rel": "served-at"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "where a plate is pork, slaw, potatoes, green beans and corn sticks.",
+   "rel": "served-at"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "where the sides are slaw, potatoes or green beans, and the potatoes are what a Piedmont visitor remarks on.",
+   "rel": "served-at"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "where the corn stick is 'bread' on the menu board.",
+   "rel": "served-at"
+  },
+  {
+   "from": "green-beans",
+   "type": "dish",
+   "name": "green beans",
+   "as": "one of the three sides: slaw, potatoes or green beans.",
+   "rel": "served-at"
+  },
+  {
+   "from": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "the other Pitt County whole-hog pit, on the far side of Greenville, cash only and closed when sold out.",
+   "rel": "kin"
+  },
+  {
+   "from": "bob-garner",
+   "type": "person",
+   "name": "Bob Garner",
+   "as": "his 2012 Our State piece: red picnic tables, counter service, no promise the food lasts till noon; one of the five he named to BBQ Jew in 2011.",
+   "rel": "place"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "a Trail stop in Greenville.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  }
+ ]
+}

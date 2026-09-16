@@ -1,0 +1,396 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "true-bbq",
+ "names": {
+  "name": "True BBQ",
+  "aliases": [
+   "True BBQ of West Columbia"
+  ],
+  "sort": "True BBQ"
+ },
+ "region": [
+  "sc-midlands"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "2010",
+  "fuel": "wood",
+  "styles": []
+ },
+ "text": {
+  "what": "A Black-owned pit on D Avenue in West Columbia, opened in 2010 by the brothers Ernest and Milton Zanders after years of selling from street corners and events. The wood-fired pits are visible from the front parking lot. Hash and rice is what the place is known for and what it sells by the pint and the quart alongside pulled pork, ribs, pork chops, brisket and chicken. It is open four days, Thursday to Saturday and no more. A second True BBQ trades in Myrtle Beach.",
+  "story": "Ernest Zanders started the business and Milton, his brother, took over as head cook. They built it up selling barbecue on street corners and at events before they took a building in West Columbia in 2010; a 2026 local piece says fifteen years rather than sixteen, which is the sort of drift an anniversary line picks up. The hardest stretch is recent and it is in the record because Hannah Wade put it there for the Post and Courier's Free Times on June 25, 2022: a relative, Bryan Williams, died of a heart attack in early October 2021, and just before Christmas that year Milton's wife had her fourth stroke. The restaurant kept its doors. Wade also reported that national attention came when Eater named the hash the best in the state — the original Eater piece and its year are not on this disk, so that reaches this record at one remove. The Campaign for Real Barbecue certified the pits for burning wood rather than gas, and the directory EatOkra lists the business as Black-owned. The Free Times profile itself, which names both brothers and the head cook, never uses the phrase.",
+  "how": "Wood-fired pits sit where a customer can see them from the parking lot. Pulled pork, ribs, pork chops, brisket and chicken come by the plate; the hash — the Midlands stew of pork cooked down — goes over white rice and also sells by the pint and the quart to take home. Cards and cash are both taken. There is no buffet.",
+  "today": "Open Thursday to Saturday, 11 a.m. to 8 p.m., closed Sunday to Wednesday, at 1237 D Avenue, West Columbia. A second True BBQ trades in Myrtle Beach and is also on the wood-certified list."
+ },
+ "kin": [
+  {
+   "to": "hash-and-rice",
+   "as": "the dish it is known for, sold by the plate and by the quart.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut behind its pulled pork; no whole hog is described in any source read.",
+   "rel": "part"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified the pits for burning wood rather than gas.",
+   "rel": "org"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "wrote the history of African American barbecue that the Black-owned directories sit downstream of.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 33.9842,
+  "lon": -81.07217,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "1237 D Ave",
+  "city": "West Columbia",
+  "county": "Lexington",
+  "state": "SC",
+  "postcode": "29169"
+ },
+ "links": [
+  {
+   "label": "True BBQ in West Columbia — Destination BBQ",
+   "url": "https://destination-bbq.com/stores/true-bbq/"
+  },
+  {
+   "label": "How a little faith and good barbecue got West Columbia's True BBQ through tragedy — Free Times (2022)",
+   "url": "https://www.postandcourier.com/free-times/food/feature/how-a-little-faith-and-good-barbecue-got-west-columbias-true-bbq-through-tragedy/article_d1ef34ce-f2ff-11ec-b81d-9b16e7abe02c.html"
+  },
+  {
+   "label": "True BBQ — EatOkra",
+   "url": "https://www.eatokra.com/businesses/true-bbq"
+  }
+ ],
+ "sources": [
+  "s:web-pc-free-times-true-bbq-2022",
+  "s:web-destination-bbq-true-bbq",
+  "s:web-eatokra-true-bbq",
+  "s:web-eatokra",
+  "s:web-truecue-sc",
+  "s:web-destination-bbq-hash-map",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-true-bbq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-pc-free-times-true-bbq-2022",
+    "note": "Hannah Wade, Free Times, June 25, 2022 for the brothers, the 2021 deaths and illness, and the report of the Eater honour; the 2010 founding from Destination BBQ and a 2023 visiting writer, against a 2026 local piece that says fifteen years. The Eater article itself is not on this disk."
+   },
+   "facets.fuel": {
+    "tier": "harvested",
+    "source": "s:web-truecue-sc",
+    "note": "wood: True 'Cue certified, and Destination BBQ says the certification is for using wood rather than gas; no verbatim description of the fire was retrieved"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-eatokra-true-bbq",
+   "tier": "harvested",
+   "note": "Listed by EatOkra, a directory of Black-owned restaurants. The Free Times profile of June 25, 2022 names the owners Ernest and Milton Zanders but does not use the phrase Black-owned.",
+   "url": "https://www.eatokra.com/businesses/true-bbq"
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-sc",
+   "tier": "harvested",
+   "note": "True 'Cue certified: the campaign's criterion is wood coals or charcoal as the sole heat source, no electricity or gas except to ignite the wood or reheat the finished barbecue. Destination BBQ says the pits are visible from the front parking lot and that the certification is for using wood rather than gas.",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-true-bbq",
+   "tier": "cited",
+   "note": "Hash and rice is the signature, sold by the plate and by the pint and quart; on Destination BBQ's South Carolina hash map, read 2026-09-16."
+  },
+  {
+   "tag": "weekends-only",
+   "source": "s:web-destination-bbq-true-bbq",
+   "tier": "cited",
+   "note": "Thursday to Saturday, 11 to 8, closed Sunday through Wednesday."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-pc-free-times-true-bbq-2022",
+   "tier": "cited",
+   "note": "The brothers Ernest and Milton Zanders; Ernest started it, Milton took over as head cook."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, West Columbia and Myrtle Beach",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "scba",
+   "what": "on the association's list, filed under Worth the Trip",
+   "source": "s:web-destination-bbq-true-bbq"
+  },
+  {
+   "by": "eater",
+   "what": "its hash named the best in the state",
+   "source": "s:web-pc-free-times-true-bbq-2022",
+   "note": "Reported at one remove: the Free Times said so on June 25, 2022; the Eater article and its year are not on this disk."
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A Black-owned pit on D Avenue in West Columbia, opened in 2010 by the brothers Ernest and Milton Zanders after years of selling from street corners and events. The wood-fired pits are visible from the front parking lot.",
+ "region_terms": [
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the dish it is known for, sold by the plate and by the quart.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut behind its pulled pork; no whole hog is described in any source read.",
+   "rel": "part"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "certified the pits for burning wood rather than gas.",
+   "rel": "org"
+  },
+  {
+   "to": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "wrote the history of African American barbecue that the Black-owned directories sit downstream of.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-pc-free-times-true-bbq-2022",
+   "kind": "web",
+   "title": "How a little faith and good barbecue got West Columbia's True BBQ through tragedy",
+   "author": "Hannah Wade",
+   "publisher": "The Post and Courier / Free Times",
+   "year": 2022,
+   "url": "https://www.postandcourier.com/free-times/food/feature/how-a-little-faith-and-good-barbecue-got-west-columbias-true-bbq-through-tragedy/article_d1ef34ce-f2ff-11ec-b81d-9b16e7abe02c.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-destination-bbq-true-bbq",
+   "kind": "web",
+   "title": "True BBQ in West Columbia",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/true-bbq/",
+   "accessed": "2026-09-16",
+   "note": "undated"
+  },
+  {
+   "id": "s:web-eatokra-true-bbq",
+   "kind": "web",
+   "title": "True BBQ — EatOkra listing",
+   "publisher": "EatOkra",
+   "url": "https://www.eatokra.com/businesses/true-bbq",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-eatokra",
+   "kind": "web",
+   "title": "EatOkra — a directory of Black-owned restaurants",
+   "publisher": "EatOkra",
+   "url": "https://www.eatokra.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-truecue-sc",
+   "kind": "web",
+   "title": "True 'Cue SC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "accessed": "2026-09-16",
+   "note": "65 entries listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-destination-bbq-hash-map",
+   "kind": "web",
+   "title": "The South Carolina BBQ Hash Map",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/",
+   "accessed": "2026-09-16",
+   "note": "147 South Carolina places named as serving hash; harvested to data/harvest/sc-hash-list.json. Hash is not a wood claim."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-true-bbq"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-pc-free-times-true-bbq-2022",
+   "note": "Hannah Wade, Free Times, June 25, 2022 for the brothers, the 2021 deaths and illness, and the report of the Eater honour; the 2010 founding from Destination BBQ and a 2023 visiting writer, against a 2026 local piece that says fifteen years. The Eater article itself is not on this disk."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-true-bbq"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-true-bbq"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-true-bbq"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory, an SFA oral history",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:nc-black-owned-lists",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-eatokra-true-bbq",
+   "note": "Listed by EatOkra, a directory of Black-owned restaurants. The Free Times profile of June 25, 2022 names the owners Ernest and Milton Zanders but does not use the phrase Black-owned.",
+   "tier": "harvested",
+   "url": "https://www.eatokra.com/businesses/true-bbq"
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-sc",
+   "note": "True 'Cue certified: the campaign's criterion is wood coals or charcoal as the sole heat source, no electricity or gas except to ignite the wood or reheat the finished barbecue. Destination BBQ says the pits are visible from the front parking lot and that the certification is for using wood rather than gas.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-true-bbq",
+   "note": "Hash and rice is the signature, sold by the plate and by the pint and quart; on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "weekends-only",
+   "label": "Weekends only",
+   "icon": "📅",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-true-bbq",
+   "note": "Thursday to Saturday, 11 to 8, closed Sunday through Wednesday.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-pc-free-times-true-bbq-2022",
+   "note": "The brothers Ernest and Milton Zanders; Ernest started it, Milton took over as head cook.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, West Columbia and Myrtle Beach",
+   "url": "http://www.truecue.org/true-cue-sc",
+   "year": null,
+   "source": "s:web-truecue-sc"
+  },
+  {
+   "key": "scba",
+   "label": "South Carolina Barbeque Association",
+   "what": "on the association's list, filed under Worth the Trip",
+   "url": "",
+   "year": null,
+   "source": "s:web-destination-bbq-true-bbq"
+  },
+  {
+   "key": "eater",
+   "label": "Eater",
+   "what": "its hash named the best in the state",
+   "url": "",
+   "year": null,
+   "source": "s:web-pc-free-times-true-bbq-2022"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": []
+}

@@ -1,0 +1,398 @@
+{
+ "schema": 1,
+ "id": "lake-high",
+ "type": "person",
+ "names": {
+  "name": "Lake High",
+  "aliases": [
+   "Lake E. High Jr.",
+   "Lake Edward High Jr."
+  ],
+  "sort": "High, Lake"
+ },
+ "region": [
+  "sc",
+  "sc-midlands"
+ ],
+ "facets": {
+  "state": "SC",
+  "role": [
+   "founder",
+   "organizer",
+   "writer"
+  ],
+  "styles": [
+   "sc-mustard",
+   "sc-pee-dee",
+   "sc-light-tomato",
+   "sc-heavy-tomato"
+  ]
+ },
+ "text": {
+  "what": "Lake E. High Jr. of Columbia, a wine judge and, in his own account, a born critic, who founded the South Carolina Barbeque Association with the psychologist Walter Rolandi in 2004 to train judges and promote the state's barbecue, and wrote its history: A History of South Carolina Barbeque (The History Press, 2013). His account gives South Carolina all four of the barbecue sauces he counts — vinegar-and-pepper, mustard, light tomato and heavy tomato — each with a region and a date, and the association publishes them as a map.",
+  "story": "High was 74 when South Carolina Living profiled him in September 2015 as 'the guru of 'que': a master judge of the association he founded, certified as well by the Kansas City Barbeque Society, the Memphis Barbecue Network and the American Wine Society, who said he had probably eaten more barbeque than anyone in the state. When he and Rolandi founded the association the state had two cook-offs a year; by 2015 it had thirty-seven, more per head than any other state, and the association had certified more than 800 judges. His book, published in June 2013 while he was the association's president, runs from the 1500s — Native Americans cooking pork on frames after the Spanish brought the pig, and, in his telling, Europeans learning barbecue at the sixteenth-century colony of Santa Elena at what is now Port Royal — through the 1920s, when the craft settled into restaurants, to the cook-off era. The sauce account, posted on the association's site over his name as founder, runs in order of age: vinegar-and-pepper first, hundreds of years old; mustard from the German settlers of the 1730s to 1750s, distinct to South Carolina; light tomato, vinegar-and-pepper with ketchup, from around 1900; heavy tomato, the newest, of the last sixty years. Only South Carolina, he holds, has all four. Robert Moss, another South Carolinian, counts two: sweet mustard and spicy vinegar. In 2015 High told the magazine, 'Barbeque is a noun, not a verb. It's something Southerners eat, not do.' In August 2018 the co-founders named Jim Wellman of Lexington president and Don Adkins of Seneca vice president.",
+  "today": "The association is active in 2026 with a full cook-off calendar; its site names High as founder and 'a professional wine judge' and lists no current officers. His book remains in print with The History Press. No later interview with High was found for this record (checked September 15, 2026)."
+ },
+ "kin": [
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "co-founded it in 2004 with Walter Rolandi; its president when his book appeared in 2013; its historian.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "one of his four regions: the German mustard of the Midlands, which he dates to the settlers of the 1730s to 1750s.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "one of his four: vinegar-and-pepper, which he calls the oldest sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "one of his four: vinegar-and-pepper with ketchup, from around 1900.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "as": "one of his four: the newest, of the last sixty years.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce his history credits to the German families — Bessinger, Shealy, Hite, Sweatman among them.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the oldest sauce in his account, hundreds of years old.",
+   "rel": "sauce"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "as": "vinegar-and-pepper with ketchup, from around 1900, in his account.",
+   "rel": "sauce"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "the newest sauce in his account.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "the name the mustard sauce carries on his association's map.",
+   "rel": "term"
+  },
+  {
+   "to": "dutch-fork",
+   "as": "the German-settled fork of the Midlands; his history credits those settlers with the mustard sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "as": "the historian who counts two sauces where High counts four.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "South Carolina Barbeque Association — About Us",
+   "url": "https://www.scbarbeque.com/about-us/"
+  },
+  {
+   "label": "SCBA — BBQ History, by Lake E. High Jr.",
+   "url": "https://www.scbarbeque.com/bbq-history/"
+  },
+  {
+   "label": "A History of South Carolina Barbeque — Google Books",
+   "url": "https://books.google.com/books/about/A_History_of_South_Carolina_Barbeque.html?id=3ZMDEAAAQBAJ"
+  },
+  {
+   "label": "The guru of 'que — South Carolina Living, 2015",
+   "url": "https://scliving.coop/sc-life/sc-stories/the-guru-of-que/"
+  }
+ ],
+ "sources": [
+  "s:web-scliving-guru-of-que",
+  "s:web-scba-about",
+  "s:web-scba-bbq-history",
+  "s:web-google-books-high-sc-barbeque",
+  "s:web-columbia-star-scba-leadership",
+  "s:high-sc-barbeque",
+  "s:scba",
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-dutch-fork"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-scliving-guru-of-que"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-scliving-guru-of-que",
+    "note": "age, certifications, counts and quotes from South Carolina Living (2015); the book's span and his title from the publisher's blurb on Google Books; the sauce account from the association's history page; the 2018 officers from the Columbia Star's paywalled preview"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:scba",
+    "note": "site as read on 2026-09-15; High's current role is not stated there"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "Lake E. High Jr. of Columbia, a wine judge and, in his own account, a born critic, who founded the South Carolina Barbeque Association with the psychologist Walter Rolandi in 2004 to train judges and promote the state's…",
+ "region_terms": [
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "co-founded it in 2004 with Walter Rolandi; its president when his book appeared in 2013; its historian.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "one of his four regions: the German mustard of the Midlands, which he dates to the settlers of the 1730s to 1750s.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "one of his four: vinegar-and-pepper, which he calls the oldest sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "one of his four: vinegar-and-pepper with ketchup, from around 1900.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "one of his four: the newest, of the last sixty years.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the sauce his history credits to the German families — Bessinger, Shealy, Hite, Sweatman among them.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the oldest sauce in his account, hundreds of years old.",
+   "rel": "sauce"
+  },
+  {
+   "to": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "vinegar-and-pepper with ketchup, from around 1900, in his account.",
+   "rel": "sauce"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "the newest sauce in his account.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "the name the mustard sauce carries on his association's map.",
+   "rel": "term"
+  },
+  {
+   "to": "dutch-fork",
+   "type": "term",
+   "name": "Dutch Fork",
+   "as": "the German-settled fork of the Midlands; his history credits those settlers with the mustard sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "the historian who counts two sauces where High counts four.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-scliving-guru-of-que",
+   "kind": "web",
+   "title": "The guru of 'que (Diane Veto Parham, September 1, 2015)",
+   "publisher": "South Carolina Living",
+   "url": "https://scliving.coop/sc-life/sc-stories/the-guru-of-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scba-about",
+   "kind": "web",
+   "title": "About Us",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/about-us/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-google-books-high-sc-barbeque",
+   "kind": "web",
+   "title": "A History of South Carolina Barbeque — publisher's description and author note",
+   "publisher": "Google Books (Arcadia Publishing / The History Press)",
+   "url": "https://books.google.com/books/about/A_History_of_South_Carolina_Barbeque.html?id=3ZMDEAAAQBAJ",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-columbia-star-scba-leadership",
+   "kind": "web",
+   "title": "S.C. Barbeque Association announces new leadership (August 17, 2018; paywalled, preview only)",
+   "publisher": "The Columbia Star",
+   "url": "https://www.thecolumbiastar.com/articles/s-c-barbeque-association-announces-new-leadership/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:high-sc-barbeque",
+   "kind": "book",
+   "title": "A History of South Carolina Barbeque",
+   "author": "Lake E. High Jr.",
+   "publisher": "The History Press",
+   "year": 2013
+  },
+  {
+   "id": "s:scba",
+   "kind": "org",
+   "title": "South Carolina Barbeque Association",
+   "url": "https://scbarbeque.com/"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-dutch-fork",
+   "kind": "wikipedia",
+   "title": "Dutch Fork — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dutch_Fork",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-scliving-guru-of-que"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-scliving-guru-of-que",
+   "note": "age, certifications, counts and quotes from South Carolina Living (2015); the book's span and his title from the publisher's blurb on Google Books; the sauce account from the association's history page; the 2018 officers from the Columbia Star's paywalled preview"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:scba",
+   "note": "site as read on 2026-09-15; High's current role is not stated there"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "whose SCBA history dates the sauce to the last sixty years.",
+   "rel": "person"
+  },
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "whose SC Barbeque Association history dates the sauce to about 1900.",
+   "rel": "person"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the SC Barbeque Association's founder, whose history maps the sauce onto the German-settled counties.",
+   "rel": "person"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "whose history dates the sauce to about 1900.",
+   "rel": "person"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "whose history lists the German families behind the sauce — Bessinger, Shealy, Hite, Sweatman.",
+   "rel": "person"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "who calls it liquid sausage.",
+   "rel": "person"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "whose four-sauce map he answers with two.",
+   "rel": "person"
+  },
+  {
+   "from": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "its co-founder and historian, author of the four-sauce account.",
+   "rel": "person"
+  }
+ ]
+}

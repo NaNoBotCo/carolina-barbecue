@@ -1,0 +1,369 @@
+{
+ "schema": 1,
+ "id": "roadside-barbecue-signs",
+ "type": "art",
+ "names": {
+  "name": "roadside barbecue signs",
+  "aliases": [
+   "Bar-B-Q signs",
+   "the pylon sign",
+   "pit signs"
+  ]
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "kind": "sign",
+  "state": "both"
+ },
+ "text": {
+  "what": "The sign a barbecue place puts at the road: a steel pylon with a lit box on top, neon or bulbs picking out a name, a bottler's disc above it, and a changeable letterboard underneath for the day's news. Most spell the word Bar-B-Q, hyphenated, because three short units fit a tall narrow cabinet better than nine letters do. What survives in photographs that anyone may reuse comes almost entirely from one man's slides: John Margolies drove American highways from the late 1960s to 2008 photographing exactly this, and the Library of Congress bought the archive and the rights with it."
+ },
+ "sections": [
+  {
+   "h": "Who paid for the sign",
+   "text": "Often not the restaurant. Steve's Bar-B-Q in Spencer, North Carolina, photographed by Margolies in 1982, is a blue steel cabinet with STEVE'S and BAR-B-Q in white neon script on two lines — and above it, larger than either, a Pepsi-Cola bottle cap in red, white and blue neon, chipped and weathered. The soft-drink bottler supplied and maintained signs like this in return for the top panel and the exclusive pour.\n\n*Inference —* that arrangement explains a good deal about how these signs look. The restaurant's name sits under a national brand's disc, in the bottler's palette rather than its own, and the proportions are the bottler's too. A place that later bought its own sign generally got a bigger pig and a smaller cola.",
+   "images": [
+    0
+   ]
+  },
+  {
+   "h": "The pig on top",
+   "text": "Where the pit paid for its own, the pig went above the letters. Margolies photographed Maurice Bessinger's West Columbia sign in 1988 from two angles: a pylon in white and pale-blue stripes, a red panel of BAR-B-Q in bulb-lit block capitals with a chase of yellow lamps round the border, the pig Little Joe standing on the crown, and below the box a white panel reading Maurice Bessinger's Flying Pig, Coast to Coast. Under all of it the letterboard, on the day, said NOW HIRING WAITRESSES.\n\nThe layout is the standard one: brand on top, product word in the largest type, the human business — hours, hiring, specials — on a board somebody changes with a suction cup on a pole. Bessinger's offices and pits burned in October 2024; the sign was still standing afterwards.",
+   "images": [
+    1,
+    2
+   ]
+  },
+  {
+   "h": "The Margolies archive, and why this record leans on it",
+   "text": "John Margolies photographed roadside commercial architecture for about forty years and left 11,710 colour slides. The Library of Congress digitised them and bought the intellectual property, so the whole archive carries no known restrictions on publication — which makes it the largest freely reusable picture file of American signs in existence, and the reason a page about Carolina barbecue signs can be illustrated at all.\n\nHe shot only a handful in the Carolinas that touch this subject: Bessinger's twice, Steve's at Spencer once. Elsewhere in the same file are the Red Pig at Nahunta, Georgia, and a plain BAR-B-Q at Brownsville, Tennessee, bulbs round a rectangle on a pole in 1979. *Inference —* he was driving routes, not surveying a cuisine, so what he caught in any state is a function of which highway he was on that week.\n\nThe practical consequence for this project: the Carolina signs standing today — Lexington's, Ayden's, Hemingway's — are photographed constantly, and very few of those photographs are free to reuse.",
+   "images": [
+    3
+   ]
+  },
+  {
+   "h": "The board and the plaque",
+   "text": "Not every barbecue sign is lit. At the Lone Star BBQ and Mercantile at Santee, South Carolina, the signs are wooden boards hung from the porch roofs of old frame buildings moved to the site and set on brick piers: Shuler's DINING HALL on one, Dantzler's SOCIAL HALL on the next, painted in a serif face with the family name above the room's function. This is the older Carolina form — the building carries the sign rather than a pole beside it — and it reads at walking pace rather than at fifty miles an hour.\n\nThe third kind is cast. A bronze tablet set into a stucco wall in Lexington commemorates the site of the first known business selling Lexington-style barbecue, prepared under tents on open pits, and records that the North Carolina House of Representatives designated the city the Hickory-Cooked Barbecue Capitol of Piedmont North Carolina. The Lexington City Council commissioned it on March 11, 1985. *Inference —* a town that has a plaque made has stopped advertising and started claiming.",
+   "images": [
+    4,
+    5
+   ]
+  }
+ ],
+ "kin": [
+  {
+   "to": "cannibal-pig-sign",
+   "as": "what goes on the crown of the pylon when the pit pays for its own sign.",
+   "rel": "art"
+  },
+  {
+   "to": "pig-mascot",
+   "as": "the house pig these signs carry, and the reason people recognise a pit from the road.",
+   "rel": "art"
+  },
+  {
+   "to": "barbecue-postcards",
+   "as": "the same buildings and signs, printed and mailed, thirty years earlier.",
+   "rel": "art"
+  },
+  {
+   "to": "fsa-barbecue-photographs",
+   "as": "the other federal picture collection this project draws on, from fifty years before Margolies.",
+   "rel": "art"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word, spelled Bar-B-Q, because it fits a tall cabinet.",
+   "rel": "term"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "as": "West Columbia, the Carolina sign Margolies stopped for twice.",
+   "rel": "place"
+  },
+  {
+   "to": "cheerwine",
+   "as": "the other Carolina bottler whose disc turns up over a pit's name.",
+   "rel": "dish"
+  }
+ ],
+ "links": [
+  {
+   "label": "John Margolies Roadside America Photograph Archive — Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:John_Margolies_Roadside_America_Photograph_Archive"
+  }
+ ],
+ "sources": [
+  "s:commons-margolies",
+  "s:commons",
+  "s:wp-maurice-bessinger"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:commons-margolies",
+   "note": "signs described from the photographs; dates, places and photographer from the Library of Congress records on the Commons file pages"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "tradition",
+    "note": "the bottler-supplied sign is general knowledge of the American roadside trade; no contract or trade source was read for this record, and the closing paragraph is marked inference"
+   },
+   "sections[2].text": {
+    "tier": "cited",
+    "source": "s:commons-margolies",
+    "note": "the 11,710-slide count and the Library of Congress purchase of the rights are from the Library's own collection guide; the reading of what Margolies happened to catch is marked inference"
+   },
+   "sections[3].text": {
+    "tier": "harvested",
+    "source": "s:commons",
+    "note": "both described from the photographs; the plaque's wording, the House designation and the March 11, 1985 commissioning date are read off the tablet itself in Dennis Brown's 2008 photograph"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "roadside-barbecue-signs/roadside-barbecue-signs-steve-s-bar-b-q-sign-spencer-north-carolina-lccn2017709851.jpg",
+   "source": "commons",
+   "title": "File:Steve's Bar-B-Q sign, Spencer, North Carolina LCCN2017709851.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Steve%27s_Bar-B-Q_sign%2C_Spencer%2C_North_Carolina_LCCN2017709851.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASteve%27s_Bar-B-Q_sign%2C_Spencer%2C_North_Carolina_LCCN2017709851.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709851\nImage download: https://cdn.loc.gov/master/pnp/mrg/07700/07760a.tif\nOriginal url: https://hdl.loc.gov/loc.pnp/mrg.07760",
+   "alt": "A blue steel sign cabinet on a pole with STEVE'S and BAR-B-Q in white neon on two lines, and above it, larger than either, a chipped Pepsi-Cola bottle cap in red, white and blue neon. Spencer, North Carolina, 1982.",
+   "date": "1982",
+   "primary": true,
+   "sha256": "8cca0f9ab6428ed562862fa1ce29330f8af3015c1784469a8af8f39f714ffbc1"
+  },
+  {
+   "file": "roadside-barbecue-signs/roadside-barbecue-signs-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg",
+   "source": "commons",
+   "title": "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709630.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709630\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07539a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07539",
+   "alt": "A tall striped pylon carrying a red BAR-B-Q panel in bulb-lit capitals with a border of yellow lamps, the pig Little Joe standing on the crown, and a letterboard at the bottom reading NOW HIRING WAITRESSES. West Columbia, South Carolina, 1988.",
+   "date": "1988",
+   "primary": false,
+   "sha256": "18f1715ba3c3adfd21d20e881b1390c505ccdd63d9cb506e2c1bd735cba379bb"
+  },
+  {
+   "file": "roadside-barbecue-signs/roadside-barbecue-signs-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-897b1ae.jpg",
+   "source": "commons",
+   "title": "File:Bessinger's Bar-B-Q sign, West Columbia, South Carolina LCCN2017709631.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709631.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709631.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709631\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07540a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07540",
+   "alt": "The same Bessinger's sign photographed side on.",
+   "date": "1988",
+   "primary": false,
+   "sha256": "6cd163d44487ad6093502671731c7b74bc04bf4e5bb87821e7c26820c60a8098"
+  },
+  {
+   "file": "roadside-barbecue-signs/roadside-barbecue-signs-bar-b-q-sign-brownsville-tennessee-lccn2017709859.jpg",
+   "source": "commons",
+   "title": "File:Bar-B-Q sign, Brownsville, Tennessee LCCN2017709859.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Bar-B-Q_sign%2C_Brownsville%2C_Tennessee_LCCN2017709859.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABar-B-Q_sign%2C_Brownsville%2C_Tennessee_LCCN2017709859.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709859\nImage download: https://cdn.loc.gov/master/pnp/mrg/07700/07768a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07768",
+   "alt": "A plain rectangular sign on a pole lettered BAR-B-Q with lamps around the border. Brownsville, Tennessee, 1979.",
+   "date": "1979",
+   "primary": false,
+   "sha256": "ad855460ab2f46401569fdfa19cb55c3e7e3b033fb74769f1a8ab19b0287ba2f"
+  },
+  {
+   "file": "roadside-barbecue-signs/roadside-barbecue-signs-lone-star-bbq-santee-south-carolina-2009-1.jpg",
+   "source": "commons",
+   "title": "File:Lone Star BBQ Santee South Carolina 2009 - 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lone_Star_BBQ_Santee_South_Carolina_2009_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALone_Star_BBQ_Santee_South_Carolina_2009_-_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "anoldent",
+   "credit": "https://www.flickr.com/photos/anoldent/3319563014/",
+   "alt": "Two old frame buildings on brick piers at dusk, lit from inside, with painted wooden boards hung from the porch roofs: Shuler's DINING HALL on one and Dantzler's SOCIAL HALL on the next. Lone Star BBQ and Mercantile, Santee, South Carolina.",
+   "date": "Taken on 26 February 2009, 19:20:42",
+   "primary": false,
+   "sha256": "60045bbe2e94f9466d497caa4528f4eceff427d1b8926381468f0dda05d54ae7"
+  },
+  {
+   "file": "roadside-barbecue-signs/roadside-barbecue-signs-lexington-nc-barbecue-sign.jpg",
+   "source": "commons",
+   "title": "File:Lexington NC barbecue sign.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Lexington_NC_barbecue_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_NC_barbecue_sign.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "A bronze tablet set into a stucco wall, lettered LEXINGTON BARBECUE, commemorating the site of the first known business selling Lexington-style barbecue prepared under tents on open pits, and recording the North Carolina House of Representatives' designation of the city as the Hickory-Cooked Barbecue Capitol of Piedmont North Carolina. Commissioned by Lexington City Council, March 11, 1985.",
+   "date": "2008-11-20",
+   "primary": false,
+   "sha256": "72786748eb2544f8e36f9b618f9de547eb27e75132af62dae01c840194b42433"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "The sign a barbecue place puts at the road: a steel pylon with a lit box on top, neon or bulbs picking out a name, a bottler's disc above it, and a changeable letterboard underneath for the day's news.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cannibal-pig-sign",
+   "type": "art",
+   "name": "the pig that serves itself",
+   "as": "what goes on the crown of the pylon when the pit pays for its own sign.",
+   "rel": "art"
+  },
+  {
+   "to": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "the house pig these signs carry, and the reason people recognise a pit from the road.",
+   "rel": "art"
+  },
+  {
+   "to": "barbecue-postcards",
+   "type": "art",
+   "name": "barbecue postcards",
+   "as": "the same buildings and signs, printed and mailed, thirty years earlier.",
+   "rel": "art"
+  },
+  {
+   "to": "fsa-barbecue-photographs",
+   "type": "art",
+   "name": "The FSA photographs of Carolina eating",
+   "as": "the other federal picture collection this project draws on, from fifty years before Margolies.",
+   "rel": "art"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word, spelled Bar-B-Q, because it fits a tall cabinet.",
+   "rel": "term"
+  },
+  {
+   "to": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "West Columbia, the Carolina sign Margolies stopped for twice.",
+   "rel": "place"
+  },
+  {
+   "to": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "as": "the other Carolina bottler whose disc turns up over a pit's name.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:commons-margolies",
+   "kind": "dataset",
+   "title": "John Margolies Roadside America Photograph Archive, 1972-2008",
+   "author": "John Margolies",
+   "publisher": "Library of Congress Prints and Photographs Division; mirrored on Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Category:John_Margolies_Roadside_America_Photograph_Archive",
+   "accessed": "2026-09-16",
+   "note": "Margolies photographed American roadside commercial architecture and signs for thirty-five years; the Library of Congress bought the archive and placed it in the public domain, with no known restrictions on publication. Fetched from Commons because loc.gov refuses requests from this machine."
+  },
+  {
+   "id": "s:commons",
+   "kind": "dataset",
+   "title": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/",
+   "note": "each picture carries its own licence in its sidecar"
+  },
+  {
+   "id": "s:wp-maurice-bessinger",
+   "kind": "wikipedia",
+   "title": "Maurice Bessinger — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:commons-margolies",
+   "note": "signs described from the photographs; dates, places and photographer from the Library of Congress records on the Commons file pages"
+  }
+ },
+ "primary_image": {
+  "file": "roadside-barbecue-signs/roadside-barbecue-signs-steve-s-bar-b-q-sign-spencer-north-carolina-lccn2017709851.jpg",
+  "source": "commons",
+  "title": "File:Steve's Bar-B-Q sign, Spencer, North Carolina LCCN2017709851.tif",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Steve%27s_Bar-B-Q_sign%2C_Spencer%2C_North_Carolina_LCCN2017709851.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ASteve%27s_Bar-B-Q_sign%2C_Spencer%2C_North_Carolina_LCCN2017709851.tif",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "John Margolies",
+  "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709851\nImage download: https://cdn.loc.gov/master/pnp/mrg/07700/07760a.tif\nOriginal url: https://hdl.loc.gov/loc.pnp/mrg.07760",
+  "alt": "A blue steel sign cabinet on a pole with STEVE'S and BAR-B-Q in white neon on two lines, and above it, larger than either, a chipped Pepsi-Cola bottle cap in red, white and blue neon. Spencer, North Carolina, 1982.",
+  "date": "1982",
+  "primary": true,
+  "sha256": "8cca0f9ab6428ed562862fa1ce29330f8af3015c1784469a8af8f39f714ffbc1"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "barbecue-postcards",
+   "type": "art",
+   "name": "barbecue postcards",
+   "as": "the same buildings and the same highways, photographed forty years later in colour.",
+   "rel": "art"
+  },
+  {
+   "from": "cannibal-pig-sign",
+   "type": "art",
+   "name": "the pig that serves itself",
+   "as": "the pylon the pig usually stands on, and the sign trade that put it there.",
+   "rel": "art"
+  },
+  {
+   "from": "fsa-barbecue-photographs",
+   "type": "art",
+   "name": "The FSA photographs of Carolina eating",
+   "as": "the other government-owned picture collection this project draws on, from fifty years later.",
+   "rel": "art"
+  },
+  {
+   "from": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "the pylon, the neon and the bottler's panel the mascot rides on.",
+   "rel": "art"
+  }
+ ]
+}

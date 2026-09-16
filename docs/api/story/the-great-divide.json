@@ -1,0 +1,288 @@
+{
+ "schema": 1,
+ "id": "the-great-divide",
+ "type": "story",
+ "names": {
+  "name": "The Great Divide",
+  "aliases": [
+   "east vs west",
+   "the barbecue war",
+   "vinegar vs dip"
+  ],
+  "said": "Nobody in either camp thinks this is a matter of taste."
+ },
+ "region": [
+  "nc",
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "essay",
+  "state": "NC"
+ },
+ "text": {
+  "what": "North Carolina cooks barbecue two ways and has never agreed to disagree about it. East of Raleigh the whole hog goes on the pit and the sauce is vinegar, salt and pepper with no tomato in it. In the Piedmont only the shoulder goes on, the sauce gets ketchup and a little sugar, and the slaw turns red because it is dressed with that sauce. The argument between them has run in newspapers, been put to a vote in the General Assembly, and is conducted daily at lunch counters in both places."
+ },
+ "sections": [
+  {
+   "h": "Two columnists and a state legislature",
+   "text": "The modern quarrel has named combatants. Jerry Bledsoe of the Greensboro Daily News, who styled himself the world's leading, foremost barbecue authority, wrote for Lexington. Dennis Rogers of the Raleigh News & Observer, the oracle of the holy grub, wrote for the east. Bledsoe's verdict on his opponent went into print: Rogers, he wrote, 'has ruined any chances of this state being distinguished in its barbecue.'\n\nIt got as far as the statute book. Bills in 2006 would have made the Lexington Barbecue Festival the official barbecue festival of North Carolina, and were defeated — naming one style's festival meant choosing a side. The 2007 compromise, House Bill 433, made it the Official Food Festival of the Piedmont Triad Region instead: a regional title, carefully bounded, so that no barbecue could be called the state's."
+  },
+  {
+   "h": "What is actually different",
+   "text": "Four things, and a Carolinian can check all four from the doorway.\n\nThe animal. East: the whole hog, everything but the squeal, chopped together so that ham, shoulder, belly and crisp skin end up in the same forkful. Piedmont: the shoulder only, which is fattier and darker, cooked longer, and comes off the block in bigger strands.\n\nThe sauce. East: vinegar, salt, black pepper, crushed red pepper. Piedmont: the same, plus ketchup or tomato, water and sugar — thin enough to pour, reddish rather than red, and called dip.\n\nThe slaw. East: white, mayonnaise. Piedmont: red, because it is dressed with the dip. This is the fastest tell on a plate.\n\nThe bread. East: cornbread, or corn sticks. Piedmont: hushpuppies."
+  },
+  {
+   "h": "The part both sides skip",
+   "text": "The two styles are closer to each other than either is to anywhere else in the country: both are pork, both are vinegar at the root, both are served with slaw and a soft white roll, and neither sweetens the way Kansas City or the South Carolina Upstate does. The tomato in a Lexington dip is a tablespoon of ketchup, not a sauce.\n\n*Inference —* the loudness of the argument is a function of how small the difference is. Nobody in Ayden argues with Texas.\n\nThe other thing both sides skip: for most of two centuries the people at the pit through the night were Black cooks, enslaved and then paid, in the east and the Piedmont alike, and their names came off the signs as the restaurants incorporated. Adrian Miller's *Black Smoke* is the book that follows that labour and its disappearance, and it is the one history neither camp can claim against the other."
+  },
+  {
+   "h": "South Carolina, which has four of these arguments",
+   "text": "Across the line the map is busier. South Carolina's tourism office prints four sauce regions: mustard through the Midlands where German families settled, vinegar and pepper in the Pee Dee and along the coast, a light tomato sauce through the middle, and heavy tomato in the Upstate. The Pee Dee cooks the whole hog with vinegar and pepper, which makes it eastern North Carolina's first cousin and a long way from Columbia in every sense.\n\nSouth Carolinians will tell you the four-way map is the more interesting problem. North Carolinians will tell you that a state which puts mustard on a pig has forfeited the right to an opinion."
+  }
+ ],
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "one of the two combatants: whole hog, clear vinegar, white slaw, cornbread.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington",
+   "as": "the other: shoulders, red dip, red slaw, hushpuppies.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "the festival the 2006 bills tried to make the state's own, and the 2007 act made the Piedmont Triad's instead.",
+   "rel": "event"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "as": "the Piedmont's columnist, who called himself the world's foremost barbecue authority and meant it about half seriously.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "as": "the east's columnist, the oracle of the holy grub, who took the whole hog's side for decades.",
+   "rel": "person"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the fastest way to tell which side of the line a plate came from.",
+   "rel": "contrast"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the sauce the east will not add tomato to.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the tablespoon of ketchup that started a war.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "eastern North Carolina's cousin across the state line, cooking the same hog with the same sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the answer South Carolina's Midlands gives, which neither North Carolina camp accepts.",
+   "rel": "contrast"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "whose Black Smoke follows the cooks both camps forgot to argue about.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "House Bill 433 (2007) — NC General Assembly",
+   "url": "https://www.ncleg.gov/BillLookUp/2007/H433"
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-north-carolina",
+  "s:web-ncga-hb433-2007",
+  "s:reed-holy-smoke",
+  "s:miller-black-smoke",
+  "s:wp-barbecue-in-south-carolina",
+  "s:sc-parks-sauce-map"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  },
+  "fields": {
+   "sections[2].text": {
+    "tier": "inference",
+    "note": "the closeness argument is this project's reading; the Black Smoke paragraph is Miller's subject, cited"
+   },
+   "sections[3].text": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-in-south-carolina",
+    "note": "the closing two sentences are the camps' own talk, reported"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "North Carolina cooks barbecue two ways and has never agreed to disagree about it. East of Raleigh the whole hog goes on the pit and the sauce is vinegar, salt and pepper with no tomato in it.",
+ "region_terms": [
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "one of the two combatants: whole hog, clear vinegar, white slaw, cornbread.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the other: shoulders, red dip, red slaw, hushpuppies.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the festival the 2006 bills tried to make the state's own, and the 2007 act made the Piedmont Triad's instead.",
+   "rel": "event"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "the Piedmont's columnist, who called himself the world's foremost barbecue authority and meant it about half seriously.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "the east's columnist, the oracle of the holy grub, who took the whole hog's side for decades.",
+   "rel": "person"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the fastest way to tell which side of the line a plate came from.",
+   "rel": "contrast"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the sauce the east will not add tomato to.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the tablespoon of ketchup that started a war.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "eastern North Carolina's cousin across the state line, cooking the same hog with the same sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the answer South Carolina's Midlands gives, which neither North Carolina camp accepts.",
+   "rel": "contrast"
+  },
+  {
+   "to": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "whose Black Smoke follows the cooks both camps forgot to argue about.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-ncga-hb433-2007",
+   "kind": "web",
+   "title": "North Carolina House Bill 433 (2007): Lexington Barbecue Festival / Official Food Festival of the Piedmont Triad",
+   "publisher": "North Carolina General Assembly",
+   "url": "https://www.ncleg.gov/BillLookUp/2007/H433",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  },
+  {
+   "id": "s:miller-black-smoke",
+   "kind": "book",
+   "title": "Black Smoke: African Americans and the United States of Barbecue",
+   "author": "Adrian Miller",
+   "publisher": "University of North Carolina Press",
+   "year": 2021,
+   "url": "https://uncpress.org/book/9781469662800/black-smoke/"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:sc-parks-sauce-map",
+   "kind": "web",
+   "title": "South Carolina Department of Parks, Recreation & Tourism — the four barbecue sauce regions",
+   "url": "https://discoversouthcarolina.com/",
+   "note": "the state tourism office's sauce map (mustard, vinegar-pepper, light tomato, heavy tomato)"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

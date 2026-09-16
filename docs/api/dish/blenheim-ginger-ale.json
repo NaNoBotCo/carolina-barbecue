@@ -1,0 +1,280 @@
+{
+ "schema": 1,
+ "id": "blenheim-ginger-ale",
+ "type": "dish",
+ "names": {
+  "name": "Blenheim Ginger Ale",
+  "aliases": [
+   "Blenheim",
+   "Old #3",
+   "hot ginger ale"
+  ],
+  "said": "Ordered by the cap: pink cap for the hot one, gold for Not As Hot, white for diet."
+ },
+ "etymology": {
+  "root": "named for Blenheim, Marlboro County, South Carolina, the town that grew up around the mineral spring the drink was first mixed with",
+  "first_attested": "1903, when Dr. C. R. May and A. J. Matheson opened the Blenheim Bottling Company (Wikipedia)",
+  "note": "Bottling moved to Hamer, in Dillon County, in 1993; the name stayed with the spring.",
+  "tier": "cited",
+  "source": "s:wp-blenheim-ginger-ale"
+ },
+ "region": [
+  "sc",
+  "carolinas",
+  "sc-pee-dee"
+ ],
+ "facets": {
+  "course": "drink",
+  "styles": [
+   "sc-pee-dee",
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "A ginger ale bottled at Hamer, in Dillon County, South Carolina, made with Jamaica ginger and sugar in mineral water from a spring in Marlboro County, and hot enough that the heat is the point of it. It comes in three strengths: #3 Hot with a pink cap, #5 Not As Hot with a gold cap, and #9 Diet with a white cap. It was made first as a stomach tonic rather than a soft drink, and it sits on Pee Dee barbecue tables the way Cheerwine sits on Piedmont ones.",
+  "story": "*Tradition holds —* in 1781 a Patriot named James Spears, running from the British, lost a shoe in the mud of a natural spring; when he came back for it he found the hollow full of water, tasted it and found it strongly mineral. Word spread, and by the late 1800s a small town had grown up at the spring. In the late 1890s Dr. C. R. May began sending patients with stomach trouble to drink the water, and because they complained about its iron taste he mixed in Jamaica ginger and sugar. He went into partnership with A. J. Matheson and they opened the Blenheim Bottling Company in 1903; the plant beside the springs was built in 1920, and for ninety years the company made as little as eighteen or twenty cases a day. In 1993 Alan Schafer, who owned the South of the Border roadside attraction at Hamer, bought Blenheim and moved the bottling to a new plant next to it rather than refurbish the old one. Charles Kuralt filmed a segment on it for CBS on 26 June 1983. In February 1998 William Grimes of the New York Times described the first swallow as bringing on a four-sneeze fit.",
+  "how": "The recipe is the company's and has not changed in over 110 years: Jamaica ginger and sugar in the mineral water, carbonated and bottled. A ginger ale made at home is a ginger syrup — grated ginger boiled with sugar and water, strained — mixed with carbonated water, or a brewed one, in which the sugar solution is fermented briefly with yeast in a sealed vessel until it carbonates itself. The Blenheim heat is in the quantity of ginger rather than in any added pepper.",
+  "today": "Bottled at Hamer, next to South of the Border. Distribution stayed inside the Carolinas for most of the company's life; the company now ships to 44 states and three international distributors."
+ },
+ "kin": [
+  {
+   "to": "cheerwine",
+   "as": "the other Carolina bottle on a barbecue table; that one is sweet and cherry-red, this one is hot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "what it is drunk instead of.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "a Pee Dee product, from the springs at Blenheim in Marlboro County.",
+   "rel": "whole"
+  },
+  {
+   "to": "pee-dee",
+   "as": "the region the bottle comes from and is named for in its own telling.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "what is set beside the tray in its corner of South Carolina.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "cheerwine",
+   "tell": "Both are Carolina-made bottles with cult followings. Cheerwine is burgundy, cherry-flavoured and made at Salisbury, North Carolina; Blenheim is pale, hot with ginger and made at Hamer, South Carolina."
+  }
+ ],
+ "links": [
+  {
+   "label": "Blenheim Ginger Ale — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blenheim_Ginger_Ale"
+  }
+ ],
+ "sources": [
+  "s:wp-blenheim-ginger-ale",
+  "s:wp-hamer-south-carolina",
+  "s:wp-barbecue-in-south-carolina"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-blenheim-ginger-ale"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-blenheim-ginger-ale",
+    "note": "the 1781 shoe is the company's own founding story and is marked as tradition; the 1903 partnership, the 1920 plant, the 1993 sale, the Kuralt segment and the Grimes description are from the article"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-blenheim-ginger-ale",
+    "note": "the home method from the Wikibooks Cookbook page"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-blenheim-ginger-ale"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-ginger-ale",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Ginger Ale",
+   "source": "s:wikibooks-ginger-ale",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AGinger_Ale",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup (240 ml) water",
+    "½ cup (120 ml) fresh or frozen ginger in ½ in (1.25 cm) dice",
+    "½ cup (120 ml) water",
+    "½ cup (120 ml) white sugar",
+    "1½ tsp (7.5 ml) lime juice",
+    "Carbonated water as needed"
+   ],
+   "text": "1. Combine the 1 cup (240 mL) water with the ginger in a saucepan. Bring to a boil, then remove from the heat and strain the liquid.\n2. Combine the ½ cup (120 ml) water with the sugar in a saucepan. Bring to a boil, and simmer until reduced to about 5 oz (150 ml). Remove from the heat.\n3. Combine the ginger liquid, the syrup, and the lime juice.\n4. To make the finished soda, combine 1 volume of ginger syrup with 1 volume of carbonated water.",
+   "yield": "3 servings",
+   "note": "A ginger ale made at home from ginger, sugar and water; Blenheim's own formula has never been published."
+  },
+  {
+   "title": "Ginger Beer",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Pour two gallons of boiling water on two pounds brown sugar, one and a half ounce of cream of tartar, and the same of pounded ginger; stir them well, and put it in a small cask; when milk warm, put in half a pint of good yeast, shake the cask well, and stop it close—in twenty-four hours it will be fit to bottle—cork it very well, and in ten days it will sparkle like Champaigne—one or two lemons cut in slices and put in, will improve it much. For economy, you may use molasses instead of sugar—one quart in place of two pounds. This is a wholesome and delicious beverage in warm weather.",
+   "page": 175,
+   "note": "The Southern household ginger drink of 1824, fermented in a cask rather than carbonated in a plant: an ounce and a half of pounded ginger to two gallons, which is the proportion that makes a ginger drink hot. 'Champaigne' is the book's spelling."
+  },
+  {
+   "title": "Uncle Remus Mint Julep",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "text": "Boil sugar and water ten minutes, and cool; add strained lemon juice, mint leaves bruised, and ginger ale; half fill glasses with crushed ice and pour the mixture over it.",
+   "page": 27,
+   "ingredients": [
+    "¾ cup sugar,",
+    "Juice 3 lemons,",
+    "1 cup of water,",
+    "4 sprigs of mints,",
+    "1 pint ginger ale,",
+    "or",
+    "\"Any flavoring desired.\""
+   ],
+   "note": "Included for what it shows rather than what it is: bottled ginger ale is already an ordinary Southern pantry item by 1922, sold by the pint and mixed into a non-alcoholic punch. The book's title for it is a minstrel one; the quantities are transcribed as printed, including the quotation marks in the last line."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "A ginger ale bottled at Hamer, in Dillon County, South Carolina, made with Jamaica ginger and sugar in mineral water from a spring in Marlboro County, and hot enough that the heat is the point of it.",
+ "region_terms": [
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "as": "the other Carolina bottle on a barbecue table; that one is sweet and cherry-red, this one is hot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "what it is drunk instead of.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "a Pee Dee product, from the springs at Blenheim in Marlboro County.",
+   "rel": "whole"
+  },
+  {
+   "to": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the region the bottle comes from and is named for in its own telling.",
+   "rel": "term"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "what is set beside the tray in its corner of South Carolina.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-blenheim-ginger-ale",
+   "kind": "wikipedia",
+   "title": "Blenheim Ginger Ale — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blenheim_Ginger_Ale",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-hamer-south-carolina",
+   "kind": "wikipedia",
+   "title": "Hamer, South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hamer,_South_Carolina",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-blenheim-ginger-ale"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-blenheim-ginger-ale",
+   "note": "the 1781 shoe is the company's own founding story and is marked as tradition; the 1903 partnership, the 1920 plant, the 1993 sale, the Kuralt segment and the Grimes description are from the article"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-blenheim-ginger-ale",
+   "note": "the home method from the Wikibooks Cookbook page"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-blenheim-ginger-ale"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-blenheim-ginger-ale"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

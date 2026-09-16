@@ -1,0 +1,325 @@
+{
+ "schema": 1,
+ "id": "stephensons-bar-b-q",
+ "type": "place",
+ "names": {
+  "name": "Stephenson's Bar-B-Q",
+  "aliases": [
+   "Stephenson's Barbecue",
+   "Stephenson's",
+   "Stephenson's BBQ"
+  ],
+  "sort": "Stephensons Bar-B-Q"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1958",
+  "fuel": "charcoal",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A family barbecue house on N.C. 50 at Willow Spring, in western Johnston County south of Raleigh, opened in July 1958 by hog farmer Paul Stephenson and run since his death by his son Andy. It cooks pork shoulders over hardwood charcoal — whole hogs at the start, shoulders later for leaner meat — and barbecue chicken with a tangy sauce, with hushpuppies and collards from the recipes of Paul's wife Jean, a home-economics teacher. It serves about 600 meals a day and closes on Sundays.",
+  "story": "Paul Stephenson raised shoats — young pigs — on a Depression-era farm. A man bought fourteen of them one day, and when Stephenson asked what for, he said the barbecue man wanted them. Stephenson did the arithmetic: a hundred-pound pig sold for $11.50, and cut into three-ounce sandwiches at 35 cents each it was worth a good deal more. He taught himself to cook a pig, put up a building on his own land, and sold his first barbecue in July 1958. He cooked over hardwood until the energy crisis of the mid-1970s, when the family switched to hardwood charcoal; Andy Stephenson, who took over after his father died about 2008, told Our State in 2014 that charcoal cooks slower and needs checking less often than wood. The whole hog gave way to shoulders for the reason customers everywhere gave, leaner meat. Jean Stephenson worked out the collards and the hushpuppies.",
+  "how": "Shoulders cook over hardwood charcoal; the barbecue is chopped and sauced in the eastern way, and the barbecue chicken gets a tangy sauce of its own. Plates carry hushpuppies — fried cornmeal fritters — and collards, both to Jean Stephenson's recipes. The kitchen turns out about 600 meals a day (Our State, 2014).",
+  "today": "Open, closed Sundays, at 11964 N.C. Highway 50 North, Willow Spring, per Our State (2014). The map point marks the community, not the building."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style, on shoulders now rather than the whole hog it began with.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut since the switch from whole hog, made for leaner meat.",
+   "rel": "part"
+  },
+  {
+   "to": "whole-hog",
+   "as": "what Paul Stephenson cooked first, in 1958, before shoulders took over.",
+   "rel": "origin"
+  },
+  {
+   "to": "barbecue-chicken",
+   "as": "the second meat, with its own tangy sauce.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "Jean Stephenson's recipe.",
+   "rel": "serves"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "the road it did not take: the family chose hardwood charcoal in the 1970s energy crisis.",
+   "rel": "contrast"
+  }
+ ],
+ "geo": {
+  "lat": 35.5957129,
+  "lon": -78.7313999,
+  "precision": "town",
+  "source": "OpenStreetMap (Nominatim, Willow Spring locality, 2026-09-15)"
+ },
+ "address": {
+  "street": "11964 NC Highway 50 N",
+  "city": "Willow Spring",
+  "county": "Johnston",
+  "state": "NC",
+  "postcode": "27592"
+ },
+ "links": [
+  {
+   "label": "Stephenson's Barbecue — Our State (2014)",
+   "url": "https://www.ourstate.com/stephensons-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-stephensons",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-stephensons"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-stephensons",
+    "note": "2014 pattern; no current hours on disk"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest and not found by Nominatim or Overpass; the locality centroid stands in"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ourstate-stephensons"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. Shoulders cook over hardwood charcoal.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-ourstate-stephensons",
+   "tier": "cited",
+   "note": "Opened in July 1958 by hog farmer Paul Stephenson and run since his death by his son Andy; the hushpuppies and collards are to Paul's wife Jean's recipes."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Stephenson's Barbecue",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Stephenson's Barbecue, Willow Springs",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-stephensons",
+   "year": 2014
+  }
+ ],
+ "blurb": "A family barbecue house on N.C. 50 at Willow Spring, in western Johnston County south of Raleigh, opened in July 1958 by hog farmer Paul Stephenson and run since his death by his son Andy.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style, on shoulders now rather than the whole hog it began with.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut since the switch from whole hog, made for leaner meat.",
+   "rel": "part"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "what Paul Stephenson cooked first, in 1958, before shoulders took over.",
+   "rel": "origin"
+  },
+  {
+   "to": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the second meat, with its own tangy sauce.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "Jean Stephenson's recipe.",
+   "rel": "serves"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the road it did not take: the family chose hardwood charcoal in the 1970s energy crisis.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-stephensons",
+   "kind": "web",
+   "title": "Stephenson's Barbecue — Our State (2014)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/stephensons-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-barbecuebros-nc-trail",
+   "kind": "web",
+   "title": "NC Historic Barbecue Trail",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "accessed": "2026-09-16",
+   "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-stephensons"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-stephensons"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-stephensons"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-ourstate-stephensons",
+   "note": "2014 pattern; no current hours on disk"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest and not found by Nominatim or Overpass; the locality centroid stands in"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-ourstate-stephensons"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-nc",
+   "note": "True 'Cue certified. Shoulders cook over hardwood charcoal.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-ourstate-stephensons",
+   "note": "Opened in July 1958 by hog farmer Paul Stephenson and run since his death by his son Andy; the hushpuppies and collards are to Paul's wife Jean's recipes.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Stephenson's Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  },
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Stephenson's Barbecue, Willow Springs",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "year": null,
+   "source": "s:web-barbecuebros-nc-trail"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": 2014,
+   "source": "s:web-ourstate-stephensons"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  }
+ ]
+}

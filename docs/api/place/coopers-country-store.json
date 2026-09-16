@@ -1,0 +1,448 @@
+{
+ "schema": 1,
+ "id": "coopers-country-store",
+ "type": "place",
+ "names": {
+  "name": "Cooper's Country Store",
+  "aliases": [
+   "Cooper's",
+   "Burrows's Service Station"
+  ],
+  "sort": "Cooper's Country Store"
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1937",
+  "fuel": "wood",
+  "styles": [
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "A whitewashed general store on US 521 near Salters, south of Kingstree in Williamsburg County, that sells hardware, groceries, gasoline, diesel, propane, plow points, cast-iron cookware, live crickets — and, from a small meat counter at the back, whole-hog barbecue cooked over wood embers, hash, boiled peanuts and salt-cured country hams. Theron Burrows opened it as an Esso station in 1937; George Cooper built the pit after 1974; his nephew Russell Cooper has run it since 2003. It is a store, not a restaurant, and the barbecue is one more thing it keeps.",
+  "story": "In 1937 the federal government built Highway 521 from Manning to Georgetown, and Theron Burrows, a tobacco and cotton farmer, opened an Esso service station and store on the new road. When he died in 1974 his daughter Adalyn and her husband George Cooper took it over as Cooper's Country Store. George watched families along the highway selling barbecue from car trunks and built his own pit — chickens on one half, hogs on the other. He ran the store twenty-nine years and in 2003 sold it to his nephew Russell Cooper, who told Rien Fertel of the Southern Foodways Alliance in June 2012: 'We keep all the meats. We keep all the hams. We got a full line of groceries and we got a full line of hardware. We got gasoline. We got propane. We got diesel fuel. You name it, we got it.' Garden & Gun sent Hunter Kennedy in 2014 and found the two-storey porte cochère over the pumps, the wood-panelled aisles, the plow points and cant hooks, and the Southampton-style country hams the same family has cured for the store for nearly sixty years, sold by the slice or whole and shipped across the country. A lunch buffet was added in March 2024.",
+  "how": "Whole hogs cook over wood embers until the meat pulls with tongs; when the hog is flipped, the pitmaster Laverne Darby — more than thirty-five years at the pit — mops it with the vinegar sauce, which Russell Cooper describes as 'downright vinegar and salt and pepper', with black pepper, crushed pepper and ground red pepper. The hash is not ground but stringy, pulled meat cooked down. Barbecue and hash are sold from the meat counter at the back, with the hams, house-cured bacon, smoked tails and hocks; barbecue sandwiches and boiled peanuts too. The lunch buffet runs Wednesday to Saturday, 10:30 to 2.",
+  "today": "Open Monday to Saturday, 7 a.m. to 7 p.m., closed Sunday; lunch buffet Wednesday to Saturday, 10:30 a.m. to 2 p.m. 6945 SC Highway 521, Salters. The coordinates here are the highway at Salters Depot, not the building. Checked September 15, 2026 against Destination BBQ."
+ },
+ "kin": [
+  {
+   "to": "sc-pee-dee",
+   "as": "its style, in the store's own words: 'downright vinegar and salt and pepper' on a whole hog.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "cooked over wood embers until it pulls with tongs, for a meat counter rather than a dining room.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "its sauce — vinegar, salt, black, crushed and ground red pepper — mopped on at the flip.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "stringy hash, unground, from the meat counter.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "sold over the counter with the boiled peanuts.",
+   "rel": "serves"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "the Kingstree buffet house seven miles north, the county's other whole-hog name.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Russell Cooper here in June 2012.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "interviewed Russell Cooper here in June 2012.",
+   "rel": "person"
+  }
+ ],
+ "geo": {
+  "lat": 33.5938608,
+  "lon": -79.8541999,
+  "precision": "town",
+  "source": "Nominatim (OpenStreetMap): US 521 at Salters Depot, 2026-09-15"
+ },
+ "address": {
+  "street": "6945 SC-521",
+  "city": "Salters",
+  "county": "Williamsburg",
+  "state": "SC",
+  "postcode": "29590"
+ },
+ "links": [
+  {
+   "label": "Cooper's Country Store — Southern Foodways Alliance interview (2012)",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/"
+  },
+  {
+   "label": "Our Kind of Place: Cooper's Country Store — Garden & Gun",
+   "url": "https://gardenandgun.com/our-kind-of-place-coopers-country-store"
+  },
+  {
+   "label": "Cooper's Country Store — Destination BBQ",
+   "url": "https://destination-bbq.com/stores/coopers-country-store/"
+  }
+ ],
+ "sources": [
+  "s:web-sfa-coopers-country-store",
+  "s:sfa-oral-histories",
+  "s:web-garden-gun-coopers-2014",
+  "s:web-destination-bbq-coopers",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sfa-coopers-country-store"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-coopers"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-coopers"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest; the house number did not geocode, so the point is US 521 at Salters Depot"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-coopers"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:web-sfa-coopers-country-store",
+   "tier": "cited",
+   "note": "Whole hogs cook over wood embers until the meat pulls with tongs."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-sfa-coopers-country-store",
+   "tier": "cited",
+   "note": "Wood embers; the pitmaster Laverne Darby, more than thirty-five years at the pit, mops the hog when it is flipped."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-coopers",
+   "tier": "cited",
+   "note": "Hash sold from the meat counter at the back — not ground but stringy, pulled meat cooked down."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-destination-bbq-coopers",
+   "tier": "cited",
+   "note": "Lunch buffet Wednesday to Saturday, 10:30 to 2."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-sfa-coopers-country-store",
+   "tier": "cited",
+   "note": "George Cooper built the pit after 1974; his nephew Russell Cooper has run it since 2003."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:web-sfa-coopers-country-store",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/",
+   "note": "Russell Cooper, interviewed by Rien Fertel."
+  },
+  {
+   "by": "garden-and-gun",
+   "what": "a feature",
+   "source": "s:web-garden-gun-coopers-2014",
+   "year": 2014
+  }
+ ],
+ "blurb": "A whitewashed general store on US 521 near Salters, south of Kingstree in Williamsburg County, that sells hardware, groceries, gasoline, diesel, propane, plow points, cast-iron cookware, live crickets — and, from a…",
+ "region_terms": [
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "its style, in the store's own words: 'downright vinegar and salt and pepper' on a whole hog.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "cooked over wood embers until it pulls with tongs, for a meat counter rather than a dining room.",
+   "rel": "part"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "its sauce — vinegar, salt, black, crushed and ground red pepper — mopped on at the flip.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "stringy hash, unground, from the meat counter.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "sold over the counter with the boiled peanuts.",
+   "rel": "serves"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "the Kingstree buffet house seven miles north, the county's other whole-hog name.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded Russell Cooper here in June 2012.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Russell Cooper here in June 2012.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-sfa-coopers-country-store",
+   "kind": "web",
+   "title": "Cooper's Country Store — Russell Cooper, interviewed by Rien Fertel, June 15, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-oral-histories",
+   "kind": "oral-history",
+   "title": "Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina)",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "note": "interviews with pitmasters and owners; cite the individual interview page in the record's links"
+  },
+  {
+   "id": "s:web-garden-gun-coopers-2014",
+   "kind": "web",
+   "title": "Our Kind of Place: Cooper's Country Store — Hunter Kennedy (December 2013/January 2014)",
+   "publisher": "Garden & Gun",
+   "url": "https://gardenandgun.com/our-kind-of-place-coopers-country-store",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-destination-bbq-coopers",
+   "kind": "web",
+   "title": "Cooper's Country Store, SC BBQ in Salters",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/coopers-country-store/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-sfa-coopers-country-store"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-sfa-coopers-country-store"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-coopers"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-coopers"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest; the house number did not geocode, so the point is US 521 at Salters Depot"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-coopers"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-sfa-coopers-country-store",
+   "note": "Whole hogs cook over wood embers until the meat pulls with tongs.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-sfa-coopers-country-store",
+   "note": "Wood embers; the pitmaster Laverne Darby, more than thirty-five years at the pit, mops the hog when it is flipped.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-coopers",
+   "note": "Hash sold from the meat counter at the back — not ground but stringy, pulled meat cooked down.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "buffet",
+   "label": "Buffet",
+   "icon": "🍽",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-destination-bbq-coopers",
+   "note": "Lunch buffet Wednesday to Saturday, 10:30 to 2.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-sfa-coopers-country-store",
+   "note": "George Cooper built the pit after 1974; his nephew Russell Cooper has run it since 2003.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/",
+   "year": 2012,
+   "source": "s:web-sfa-coopers-country-store"
+  },
+  {
+   "key": "garden-and-gun",
+   "label": "Garden & Gun",
+   "what": "a feature",
+   "url": "",
+   "year": 2014,
+   "source": "s:web-garden-gun-coopers-2014"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the 1937 filling station and store on Highway 521 where Russell Cooper cooks whole hogs with 'downright vinegar and salt and pepper'.",
+   "rel": "place"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "where Russell Cooper's version is 'downright vinegar and salt and pepper'.",
+   "rel": "served-at"
+  },
+  {
+   "from": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "the country store seven miles south on US 521 that cooks whole hogs for its meat counter.",
+   "rel": "kin"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Russell Cooper there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its South Carolina set.",
+   "rel": "place"
+  }
+ ]
+}

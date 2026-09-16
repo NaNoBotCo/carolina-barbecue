@@ -1,0 +1,355 @@
+{
+ "schema": 1,
+ "id": "pig-pickin-cake",
+ "type": "dish",
+ "names": {
+  "name": "pig pickin' cake",
+  "aliases": [
+   "pig pickin cake",
+   "pig picking cake",
+   "pineapple pig pickin' cake",
+   "pea pickin' cake",
+   "sunshine cake",
+   "mandarin orange cake"
+  ],
+  "said": "Named for the party, not an ingredient: a pig pickin' is the whole-hog gathering where guests pick the meat off the pig, and this is the cake that comes after.",
+  "sort": "pig pickin cake"
+ },
+ "etymology": {
+  "root": "pig pickin' (the whole-hog party, named for picking the meat off the cooked pig) + cake",
+  "first_attested": "1975, a recipe in the Raleigh News & Observer, the oldest KC Hysmith could name (2024); a 1980 reference in the Boca Raton News",
+  "note": "Folk: that the orange and pineapple are there to cool the mouth after vinegar barbecue (Coastal Review, 2017). 'Pea pickin' cake' is a reshaping by ear; Coastal Review calls it a mistake, Chowhound records it as a second name. John Shelton Reed, quoted by Hysmith, says North Carolinians did not say 'pig-picking' before the 1970s. *Inference —* the name is no older than the expression.",
+  "tier": "cited",
+  "source": "s:web-hysmith-pig-pickin-cake"
+ },
+ "region": [
+  "nc",
+  "nc-east",
+  "carolinas"
+ ],
+ "facets": {
+  "course": "sweet",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A layer cake of convenience-food parts: yellow or butter-golden cake mix beaten with eggs, oil and a can of mandarin oranges, juice and all, baked in three eight-inch pans and frosted with a can of crushed pineapple folded into instant vanilla pudding and whipped topping, sometimes with pecans or coconut on top, and served cold. It is North Carolina's barbecue dessert by name — the pig pickin' being the whole-hog party where guests pick the meat off the pig — and it is carried to those parties; Hysmith places it at barbecue restaurants too, though it is a home cake first. Our State calls it an essential companion to any good barbecue, noun not verb.",
+  "story": "The cake has no founding story that anyone has documented, and two writers have looked. KC Hysmith, tracing it in 2024, found the oldest recipe she could name in the Raleigh News & Observer in 1975 and a reference in the Boca Raton News in 1980; every ingredient but the eggs comes from a can or a box, which reads like a brand's test kitchen, but she could not find which brand, and the 'Nancy Ware's cake' some sources credit stays a mystery. She reads it as a variation of the Pineapple Dream Cake of the convenience-food years. John Shelton Reed told her North Carolinians did not say 'pig-picking' until the 1970s, so the name is a child of that decade; *Inference —* the cake is older than its name, renamed for the party it was carried to. Liz Biro, in Coastal Review in 2017, gives the folk reason the state claims it — the name, and the way orange and pineapple cool the mouth after tangy pork — and notes that when Google sorted Thanksgiving searches by state in 2014, the New York Times reported pig pickin' cake as North Carolina's first. Our State printed Mavis Brannon of Mooresville's version the same year, sent in by her daughter, who remembered her yeast rolls as well. Chowhound records pea pickin' cake and sunshine cake as other names; Biro calls the first a mistake.",
+  "how": "One box of yellow or butter-golden cake mix, four eggs, a quarter to three-quarters cup of oil and an 11-ounce can of mandarin oranges, chopped and undrained, beaten together and divided among three greased and floured 8-inch pans; 350 degrees for 15 to 20 minutes, then cooled through. The frosting is a 16- or 20-ounce can of crushed pineapple, drained, stirred into a small box of instant vanilla pudding, with two 8-ounce tubs of whipped topping folded in and, in Biro's version, a cup of chopped pecans. The layers are stacked and covered, top and sides, and the cake goes into the refrigerator; it is served cold and keeps there, loosely covered, a few hours by Our State's count. Some cooks bake it as a single layer or as cupcakes and finish it with orange segments, coconut or toasted pecans.",
+  "today": "A home cake, carried to pig pickins and Thanksgiving tables: the dish North Carolinians searched for most in November 2014, by Google's count as the New York Times reported it. Recipes in Our State (2017) and Coastal Review (2017); Hysmith (2024) and Chowhound (2025) on the name. The barbecue-house menus read for this record — Lexington Barbecue, the Barbecue Center, Sam Jones, Parker's — do not list it."
+ },
+ "kin": [
+  {
+   "to": "pig-pickin",
+   "as": "the party it is named for and carried to; the name is no older than the 1970s, when the party got its name.",
+   "rel": "event"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "whole hog is what a pickin cooks, and vinegar pork is what the orange and pineapple are said to cool.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the pig that gets picked before the cake is cut.",
+   "rel": "kin"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "the other barbecue dessert; the pudding is on the restaurant menu, the cake on the picnic table.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-tea",
+   "as": "poured with it at the pickin.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "who dates the expression 'pig-picking' to the 1970s, and with it the cake's name.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "banana-pudding",
+   "tell": "The cake is sliced; the pudding is spooned. Orange and pineapple in a frosted layer cake, against bananas and wafers in custard."
+  }
+ ],
+ "links": [
+  {
+   "label": "KC Hysmith — The Chilling Legend of the Pig Pickin' Cake",
+   "url": "https://penknife.substack.com/p/the-chilling-legend-of-the-pig-pickin"
+  },
+  {
+   "label": "Our State — Mom's Prized Pineapple Pig Pickin' Cake",
+   "url": "https://www.ourstate.com/moms-prized-pineapple-pig-pickin-cake/"
+  },
+  {
+   "label": "Coastal Review — Our Coast's Food: Pig Pickin' Cake",
+   "url": "https://coastalreview.org/2017/08/coasts-food-pick-pickin-cake/"
+  }
+ ],
+ "sources": [
+  "s:web-hysmith-pig-pickin-cake",
+  "s:web-chowhound-pig-pickin-cake",
+  "s:web-coastalreview-pig-pickin-cake",
+  "s:web-ourstate-pig-pickin-cake",
+  "s:wp-pig-pickin",
+  "s:web-lexbbq-menu",
+  "s:web-barbecue-center-menu",
+  "s:web-samjones-menu",
+  "s:web-parkers-bbq-wilson-menu"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-hysmith-pig-pickin-cake"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-ourstate-pig-pickin-cake",
+    "note": "quantities from Our State (2017) and Coastal Review (2017)"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-hysmith-pig-pickin-cake",
+    "note": "the 1975 and 1980 finds are Hysmith's, not seen here; the renaming is marked inference; the Google/Times claim is as Coastal Review reports it"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-ourstate-pig-pickin-cake",
+    "note": "Biro's quantities where they differ; shapes and toppings from Chowhound"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-coastalreview-pig-pickin-cake",
+    "note": "menus read 2026-09-15; absence from four menus is not absence from the trade"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:web-ourstate-pig-pickin-cake",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Pig pickin' cake",
+   "source": "s:web-ourstate-pig-pickin-cake",
+   "license": "ingredients-only",
+   "url": "https://www.ourstate.com/pig-pickin-cake/",
+   "ingredients": [
+    "1 box yellow or butter-golden cake mix",
+    "4 eggs",
+    "¼–¾ cup vegetable oil",
+    "1 can (11 oz) mandarin oranges, chopped and undrained",
+    "1 can (16–20 oz) crushed pineapple, drained",
+    "1 small box instant vanilla pudding mix",
+    "2 tubs (8 oz each) whipped topping",
+    "chopped pecans or coconut, to finish (optional)"
+   ],
+   "note": "Ingredients only: the list of parts is a fact and may be repeated; the method belongs to the cooks who wrote it down, and is linked, not copied. Quantities as the published versions give them.",
+   "region": "North Carolina"
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "A layer cake of convenience-food parts: yellow or butter-golden cake mix beaten with eggs, oil and a can of mandarin oranges, juice and all, baked in three eight-inch pans and frosted with a can of crushed pineapple…",
+ "region_terms": [
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the party it is named for and carried to; the name is no older than the 1970s, when the party got its name.",
+   "rel": "event"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "whole hog is what a pickin cooks, and vinegar pork is what the orange and pineapple are said to cool.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the pig that gets picked before the cake is cut.",
+   "rel": "kin"
+  },
+  {
+   "to": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "the other barbecue dessert; the pudding is on the restaurant menu, the cake on the picnic table.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "poured with it at the pickin.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "who dates the expression 'pig-picking' to the 1970s, and with it the cake's name.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-hysmith-pig-pickin-cake",
+   "kind": "web",
+   "title": "The Chilling Legend of the Pig Pickin' Cake (KC Hysmith, 2024-10-18)",
+   "publisher": "Penknife (Substack)",
+   "url": "https://penknife.substack.com/p/the-chilling-legend-of-the-pig-pickin",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-chowhound-pig-pickin-cake",
+   "kind": "web",
+   "title": "How The Southern Pig Pickin Cake Got Its Quirky Name (Ashlen Wilder, 2025-05-22)",
+   "publisher": "Chowhound",
+   "url": "https://www.chowhound.com/1861962/southern-pig-pickin-cake-nostalgic-origins/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-coastalreview-pig-pickin-cake",
+   "kind": "web",
+   "title": "Our Coast's Food: Pig Pickin' Cake (Liz Biro, 2017-08-14)",
+   "publisher": "Coastal Review",
+   "url": "https://coastalreview.org/2017/08/coasts-food-pick-pickin-cake/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-pig-pickin-cake",
+   "kind": "web",
+   "title": "Mom's Prized Pineapple Pig Pickin' Cake (2017-05-05; the recipe of Mavis Brannon of Mooresville, sent by Donna Troutman)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/moms-prized-pineapple-pig-pickin-cake/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:web-barbecue-center-menu",
+   "kind": "web",
+   "title": "Barbecue Center — online menu (prices as posted)",
+   "publisher": "Barbecue Center, Lexington, via ehungry",
+   "url": "https://order.ehungry.com/Barbecue-Center-inc/order/barbecuecenternet/main/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-samjones-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Sam Jones BBQ, Winterville and Raleigh NC",
+   "url": "https://www.samjonesbbq.com/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-parkers-bbq-wilson-menu",
+   "kind": "web",
+   "title": "Menu (no prices posted)",
+   "publisher": "Parker's Barbecue, Wilson NC",
+   "url": "https://parkersbbqwilson.com/menu/",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ourstate-pig-pickin-cake",
+   "note": "quantities from Our State (2017) and Coastal Review (2017)"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-hysmith-pig-pickin-cake",
+   "note": "the 1975 and 1980 finds are Hysmith's, not seen here; the renaming is marked inference; the Google/Times claim is as Coastal Review reports it"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-pig-pickin-cake",
+   "note": "Biro's quantities where they differ; shapes and toppings from Chowhound"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-coastalreview-pig-pickin-cake",
+   "note": "menus read 2026-09-15; absence from four menus is not absence from the trade"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:web-hysmith-pig-pickin-cake"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "the other barbecue dessert, and the one that carries the party's name.",
+   "rel": "kin"
+  },
+  {
+   "from": "peach-cobbler",
+   "type": "dish",
+   "name": "peach cobbler",
+   "as": "the third of the desserts a Carolina pit is likely to have.",
+   "rel": "kin"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the sheet cake that borrows the party's name.",
+   "rel": "serves"
+  }
+ ]
+}

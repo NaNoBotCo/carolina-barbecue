@@ -1,0 +1,199 @@
+{
+ "schema": 1,
+ "id": "browns-bar-b-que",
+ "type": "place",
+ "names": {
+  "name": "Brown's Bar-B-Que",
+  "aliases": [
+   "Brown's Bar-B-Q",
+   "Brown's BBQ",
+   "Brown's"
+  ],
+  "sort": "Brown's"
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1981",
+  "styles": [
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "A farm family's buffet house on the Williamsburg County Highway north of Kingstree, in the Pee Dee, opened in 1981 as a take-out window by Thomas M. Brown Jr., a row-crop farmer, with a dining room added about ten years on. Whole hogs are cooked and chopped, mopped on the pit with a vinegar-and-hot-pepper sauce the family calls barbecue gravy, and set on a long buffet with ribs, smoked ham, barbecued and fried chicken, barbecued and baked turkey, perloo, liver hash and rice, and vegetables the Browns grow themselves — corn, squash, okra, butter beans, collards, cabbage. The Barbeque Association names it among the state's top barbecue houses.",
+  "story": "Thomas Brown learned to cook as a teenager laid up after a motorcycle accident broke his leg, working a hot plate within reach of the bed. He farmed — soy, wheat, hay and oats for market — and in 1981 opened a take-out window on the highway; the dining room came a decade later. The farm feeds the buffet: corn, squash, zucchini, broccoli, okra, butter beans, collards and cabbage in season. When the Southern Foodways Alliance came through the Pee Dee in June 2012, Rien Fertel recorded the Browns, and Angela Brown told him, 'We always take barbecue everywhere we go.' Kingstree is a whole-hog town — its Pig Pickin' festival each fall draws cooking teams, seventy of them in 2010, to compete on the county's vinegar-based barbecue — and Brown's is its standing barbecue house, more than forty years on. In April 2024 a visiting writer paid $14.95 for the buffet and ate liver hash over rice with salt, pepper and Texas Pete.",
+  "how": "Whole hogs on the pit, mopped as they cook with the barbecue gravy — vinegar and hot pepper — then chopped. The buffet runs the length of the room: chopped barbecue, ribs, smoked ham, barbecued and fried chicken, barbecued and baked turkey, perloo (rice cooked with chicken), white rice, liver hash — hash with the liver in it, as the name says — macaroni, sweet potatoes, coleslaw, potato salad, the farm's vegetables, a salad bar and pecan pie. Buffet $14.95 in April 2024; a whole-hog plate with bread, baked beans and slaw is the take-out order.",
+  "today": "Open Wednesday to Saturday 11 a.m. to 9 p.m. and Sunday 11 to 3, closed Monday and Tuesday, per Destination BBQ; 809 North Williamsburg County Highway (US 52), Kingstree. Checked September 15, 2026."
+ },
+ "kin": [
+  {
+   "to": "sc-pee-dee",
+   "as": "its style: whole hog with vinegar and hot pepper, in Williamsburg County.",
+   "rel": "whole"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "its barbecue gravy: vinegar and hot pepper, mopped on the hog on the pit.",
+   "rel": "sauce"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, mopped as it cooks and chopped for the line.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "liver hash here, over white rice.",
+   "rel": "serves"
+  },
+  {
+   "to": "chicken-bog",
+   "as": "its perloo is the same chicken-and-rice under the Pee Dee name.",
+   "rel": "serves"
+  },
+  {
+   "to": "texas-pete",
+   "as": "on the table for the hash.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "Kingstree's fall Pig Pickin' festival is the competitive form of what Brown's cooks all year.",
+   "rel": "event"
+  },
+  {
+   "to": "mccabes-bar-b-q",
+   "as": "the Manning buffet forty minutes west, the same whole-hog-and-vegetables form.",
+   "rel": "kin"
+  },
+  {
+   "to": "coopers-country-store",
+   "as": "the country store seven miles south on US 521 that cooks whole hogs for its meat counter.",
+   "rel": "kin"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "as": "the Hemingway pit twenty miles east; the two are the county's whole-hog names.",
+   "rel": "kin"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "names it among the state's top barbecue houses.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded the Browns in June 2012.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 33.6943268,
+  "lon": -79.8181123,
+  "precision": "street",
+  "source": "Nominatim (OpenStreetMap): N Williamsburg County Hwy at Kingstree, 2026-09-15"
+ },
+ "address": {
+  "street": "809 N Williamsburg County Hwy",
+  "city": "Kingstree",
+  "county": "Williamsburg",
+  "state": "SC",
+  "postcode": "29556"
+ },
+ "links": [
+  {
+   "label": "Brown's Bar-B-Q — Southern Foodways Alliance interview (2012)",
+   "url": "https://www.southernfoodways.org/interview/browns-bar-b-q/"
+  },
+  {
+   "label": "Brown's Bar-B-Q — Destination BBQ",
+   "url": "https://destination-bbq.com/stores/browns-bar-b-q/"
+  }
+ ],
+ "sources": [
+  "s:web-sfa-browns-bar-b-q",
+  "s:sfa-oral-histories",
+  "s:web-destination-bbq-browns",
+  "s:web-john-tanner-browns-2024",
+  "s:wp-kingstree-south-carolina",
+  "s:wp-hash-stew",
+  "s:osm",
+  "s:web-destination-bbq-hash-map"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-browns"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-sfa-browns-bar-b-q",
+    "note": "the festival from the Kingstree Wikipedia article; the 2024 price from John Tanner's blog"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-browns"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest; Nominatim matched the highway at Kingstree, not the house number"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-browns"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:web-sfa-browns-bar-b-q",
+    "note": "The SFA page, re-read 2026-09-16, names no owner, describes no fuel and does not describe the family's race; no black-owned, no woman-owned and no wood-cooked tag is set. Angela Brown appears only as an interviewee."
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "whole-hog",
+   "source": "s:web-destination-bbq-browns",
+   "tier": "cited",
+   "note": "Whole hogs cooked and chopped, mopped on the pit with the family's barbecue gravy."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-destination-bbq-browns",
+   "tier": "cited",
+   "note": "A buffet the length of the room; $14.95 in April 2024."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-hash-map",
+   "tier": "harvested",
+   "note": "Liver hash and rice on the buffet; also on Destination BBQ's South Carolina hash map, read 2026-09-16.",
+   "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-sfa-browns-bar-b-q",
+   "tier": "cited",
+   "note": "Thomas M. Brown Jr., a row-crop farmer, started serving takeout plates from a window on the family farm in 1981."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:web-sfa-browns-bar-b-q",
+   "year": 2012,
+   "url": "https://www.southernfoodways.org/interview/browns-bar-b-q/",
+   "note": "Angela Brown and Thomas M. Brown Jr., interviewed by Rien Fertel, June 17, 2012."
+  }
+ ]
+}

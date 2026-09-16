@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "hog",
+ "type": "term",
+ "names": {
+  "name": "hog",
+  "aliases": ["whole hog", "hogg"],
+  "said": "A Carolina pit cooks a hog, not a pig — 'we cook whole hog', 'a hundred-and-twenty-pound hog' — and gives its size in dressed weight, the carcass with the innards out."
+ },
+ "etymology": {
+  "root": "Old English hogg, implied in the late-12th-century hogaster and written hogge by the mid-14th century; origin uncertain — a Celtic source (Welsh hwch, Cornish hogh 'swine') is proposed, and the OED, quoted by etymonline, calls it improbable. The original sense was age, not species: a castrated male, or a swine reared for slaughter at about a year old; stockmen also said it of yearling sheep and horses",
+  "first_attested": "before 1100 (dictionary.com); hogaster late 12c., hogge mid-14c. (etymonline); 'go the whole hog' 1828, American English (etymonline)",
+  "note": "Whole hog, 1828, is explained two ways in the Online Etymology Dictionary: the butcher's offer of the whole slaughtered animal at a discount rather than the choice bits, or — the entry leans this way — an allegory, in English from 1779 and in a poem by Cowper, of Muslim sophists who argued away the ban on pork one part at a time until the whole hog was exempt. Wiktionary's derivation from Old Norse hǫggva 'to cut', making the hog 'the cut one', is not in the Online Etymology Dictionary and is given here as folk.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": ["carolinas", "us-south"],
+ "facets": {"letter": "H", "part_of_speech": "noun"},
+ "text": {
+  "what": "In Carolina barbecue speech the animal is a hog. Whole hog is the eastern North Carolina and Pee Dee style; a hog killing is the winter work of the farm; a hog's size is its dressed weight. American dictionaries make a hog a domesticated swine of 120 pounds or more raised for market and a pig the younger, smaller animal; the pit's small hogs of 80 to 120 pounds dressed sit at the bottom of that range. The pig pickin' hog is a barrow, a castrated male, or a gilt, a young female — boars and sows are too big.",
+  "story": "Hog is older than pig for the grown animal. Old English hogg meant a swine of a certain age — a castrated male, or one reared for slaughter at about a year; pig, until the fourteenth century, meant a young one. Dressed weight is the pit's unit: the weight after the organs, head and inedible parts are removed, about 72 per cent of live weight for a pig by Wikipedia's example. A pig pickin' hog is 80 to 120 pounds dressed; elsewhere hogs run to 300 pounds, but in the Carolinas small hogs cooked hot so the skin crisps and can be chopped in. Hog killing was the farm's winter work: NCpedia describes it beginning on the first frigid day of autumn or winter, neighbours gathering before dawn, as many as 100 hogs penned and fattened on gleaned peas, potatoes and corn, and the weeks after full of spare ribs, liver and sausage, the hams a month or two later. *Tradition holds —* the barbecue was what a hog killing or a church homecoming did with fresh meat before curing. 'Go the whole hog', American English of 1828, is the same animal as a figure of speech."
+ },
+ "kin": [
+  {"to": "whole-hog", "as": "the cut that is the whole animal; the phrase and the style share the word.", "rel": "part"},
+  {"to": "hog-killing", "as": "the winter farm work the word names: neighbours before dawn, scalding water, and the first frigid day.", "rel": "event"},
+  {"to": "eastern-nc", "as": "the style whose answer to what barbecue is, is the hog, entire.", "rel": "term"},
+  {"to": "sc-pee-dee", "as": "the South Carolina region where whole hog over hardwood coals is the common style.", "rel": "term"},
+  {"to": "pig-pickin", "as": "the gathering named for pulling meat off the hog by hand; its hog is a barrow or gilt of 80 to 120 pounds dressed.", "rel": "event"},
+  {"to": "pork-skins", "as": "the skin of the hog, fried; in the Pee Dee the hog is sometimes skinned before cooking and the skin fried.", "rel": "part"},
+  {"to": "hash-and-rice", "as": "what the head and liver of the hog become in South Carolina.", "rel": "part"},
+  {"to": "pork-shoulder", "as": "the cut the Piedmont takes instead of the hog.", "rel": "contrast"},
+  {"to": "barbecue", "as": "the word that in the east means the hog after cooking.", "rel": "term"}
+ ],
+ "confusable_with": [
+  {"id": "whole-hog", "tell": "'Hog' is the animal; 'whole hog' is the cut and the style. The pig-or-hog tell is size: a hog is the market-weight animal, a pig the young one; the pit's hog is small, 80 to 120 pounds dressed."}
+ ],
+ "links": [
+  {"label": "hog — Online Etymology Dictionary", "url": "https://www.etymonline.com/word/hog"},
+  {"label": "Dressed weight — Wikipedia", "url": "https://en.wikipedia.org/wiki/Dressed_weight"},
+  {"label": "NCpedia — Hog Killing", "url": "https://www.ncpedia.org/hog-killing"}
+ ],
+ "sources": ["s:etymonline", "s:web-dictionary-com-hog", "s:wiktionary-hog", "s:wp-dressed-weight", "s:wp-pig-pickin", "s:wp-whole-hog-barbecue", "s:web-ncpedia-hog-killing", "s:wp-barbecue-in-south-carolina", "s:wp-hash-stew"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:etymonline"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:etymonline", "note": "dressed weight from its Wikipedia article; hog sizes from the Pig pickin' and Whole hog barbecue articles; hog killing from NCpedia; one sentence marked tradition"},
+   "names.said": {"tier": "tradition", "note": "usage; the dressed-weight convention is in the Pig pickin' article"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

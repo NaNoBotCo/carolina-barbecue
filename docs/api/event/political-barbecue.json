@@ -1,0 +1,479 @@
+{
+ "schema": 1,
+ "id": "political-barbecue",
+ "type": "event",
+ "names": {
+  "name": "political barbecue",
+  "aliases": [
+   "stump meeting",
+   "campaign barbecue",
+   "rally barbecue",
+   "the candidate's pig"
+  ]
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "state": "both",
+  "when": "election years; the weeks before a vote",
+  "status": "open"
+ },
+ "text": {
+  "what": "The free feed a candidate or a party puts on to draw a crowd: a whole hog, or these days a pile of pork butts, cooked for whoever comes, with speeches or a rope line attached. It is as old as the republic in the Carolinas — the communal whole-hog barbecue fed political rallies in the colonial Carolinas and Virginia — and it has two living forms. In South Carolina the Galivants Ferry Stump Meeting in Horry County has gathered Democratic candidates on the Holliday family's land every second spring since 1880, descended from Wade Hampton's 1876 appearance there. In North Carolina the Mallard Creek church barbecue in Charlotte was the candidates' October stop from 1929 to 2024.",
+  "story": "Robert Moss finds the political barbecue an institution of the early republic and the whole-hog rally established in the colonies by the 1700s. In North Carolina the tradition runs through the pig pickin' — local parties and politicians still use one to draw people to meetings and rallies — and its cost is recorded in one sentence from 1983, when Rufus Edmisten, running for governor, was overheard saying he had eaten enough barbecue and was not going to eat any more. In South Carolina the form is the stump meeting. Wade Hampton, the Confederate general running for governor, spoke at Galivants Ferry in 1876 and was elected that year; in 1880 Joseph William Holliday, merchant and tobacco farmer, invited the county's Democratic candidates to speak at his store, and the meeting has been held there in the spring of every second year since, carried on by the Hollidays and grown into a statewide event with national candidates — the longest-running Democratic campaign-speech site in the country, by the county's marker and the community's own account; by 2004 it counted 128 years. *Tradition holds —* chicken bog and barbecue are the food of the day. Mallard Creek's Presbyterians did not plan a political stop; they planned to pay off a Sunday-school building in 1929, and the candidates came to the crowd. By 2015 the crowd was 20,000 and the guests had included a former vice-president; the church retired the barbecue in 2025. The Lexington Barbecue Festival's politics — two bills in 2006 to make it the state's official festival, defeated by the east, and a regional title in 2007 — are the same appetite turned on the food itself.",
+  "how": "A hog or a pile of butts is cooked by a church, a club or a hired pit; the candidate pays, or the host does; plates are free or cheap; the speaking is from a stump, a flatbed or a stage, or there is no speaking at all and the candidates walk a rope line with fliers. The date is the calendar's: spring of an election year at Galivants Ferry, the fourth Thursday of October at Mallard Creek.",
+  "today": "Galivants Ferry continues on its two-year cycle; Mallard Creek ended in 2025; the pig pickin' rally goes on wherever a county party has a cooker."
+ },
+ "kin": [
+  {
+   "to": "mallard-creek-barbecue",
+   "as": "North Carolina's political stop for ninety-three Octobers.",
+   "rel": "event"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the North Carolina rally's usual form: a pig, a cooker, a candidate.",
+   "rel": "event"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "the church that cooks the pig is usually raising money at the same time.",
+   "rel": "event"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "the politics of barbecue itself: bills, a compromise title.",
+   "rel": "event"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the colonial rally's meat.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the modern rally's meat, by the butt.",
+   "rel": "part"
+  },
+  {
+   "to": "chicken-bog",
+   "as": "the Pee Dee's rally dish, tradition holds, at Galivants Ferry.",
+   "rel": "serves"
+  },
+  {
+   "to": "robert-moss",
+   "as": "the historian of the early republic's barbecue.",
+   "rel": "person"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word that also names the gathering.",
+   "rel": "term"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "Galivants Ferry sits at the Pee Dee's edge, in Horry County.",
+   "rel": "kin"
+  },
+  {
+   "to": "hog-killing",
+   "as": "the other occasion for a whole pig before the twentieth century.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "fundraiser-barbecue",
+   "tell": "Who pays. A political barbecue is free to the eater and paid for by the candidate or the party; a fundraiser sells the plate."
+  },
+  {
+   "id": "mallard-creek-barbecue",
+   "tell": "Mallard Creek was a church fundraiser the candidates attended; a political barbecue is the candidate's own."
+  }
+ ],
+ "geo": {
+  "lat": 34.0561,
+  "lon": -79.2465,
+  "precision": "town",
+  "source": "Nominatim (OpenStreetMap): Galivants Ferry, Horry County — the standing South Carolina example"
+ },
+ "links": [
+  {
+   "label": "Galivants Ferry, South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galivants_Ferry,_South_Carolina"
+  },
+  {
+   "label": "Horry County Historical Society — the stump meeting marker",
+   "url": "https://horrycountyhistory.org/horry-county-historical-markers/galivants-ferry-stump-meeting/"
+  }
+ ],
+ "sources": [
+  "s:moss-barbecue-history",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-pig-pickin",
+  "s:wp-galivants-ferry-south-carolina",
+  "s:web-horry-history-galivants-ferry",
+  "s:web-ourstate-mallard-creek",
+  "s:web-wfae-mallard-creek-ends",
+  "s:wp-lexington-barbecue-festival",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-horry-history-galivants-ferry",
+    "note": "Moss (2010) for the early republic; the Galivants Ferry menu is hedged inline as tradition — press accounts name chicken bog and barbecue but were not readable on this disk"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "a concept given the coordinates of its standing South Carolina example"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "political-barbecue/political-barbecue-andrew-jackson-barbecue-cartoon.jpg",
+   "source": "commons",
+   "title": "File:Andrew Jackson Barbecue Cartoon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Andrew_Jackson_Barbecue_Cartoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AAndrew_Jackson_Barbecue_Cartoon.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Henry R. Robinson",
+   "credit": "https://www.loc.gov/item/2008661772/",
+   "alt": "\"The Political Barbecue\". 1834 cartoon depicting Andrew Jackson being roasted over the fires of opinion.\n\nAndrew Jackson is roasted over the fires of \"Public Opinion\" by the figure of Justice in a car",
+   "date": "1834",
+   "primary": true,
+   "sha256": "61033b19091c3444fec2f6908083289ddc8fba03d4ae5c4914d47bc4bed2f699"
+  },
+  {
+   "file": "political-barbecue/political-barbecue-the-political-barbecue-going-the-whole-hog-c-1832-1833-by-an.jpg",
+   "source": "commons",
+   "title": "File:The political barbecue, Going the whole hog, c. 1832-1833, by an unknown artist, from the Digital Commonwealth - commonwealth 9880w959q.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_political_barbecue%2C_Going_the_whole_hog%2C_c._1832-1833%2C_by_an_unknown_artist%2C_from_the_Digital_Commonwealth_-_commonwealth_9880w959q.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_political_barbecue%2C_Going_the_whole_hog%2C_c._1832-1833%2C_by_an_unknown_artist%2C_from_the_Digital_Commonwealth_-_commonwealth_9880w959q.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Unknown authorUnknown author",
+   "credit": "Digital Commonwealth",
+   "alt": "The political barbecue, Going the whole hog, c. 1832-1833, by an unknown artist, from the Digital Commonwealth - commonwealth 9880w959q. (https://www.digitalcommonwealth.org/search/commonwealth:9880w9",
+   "date": "between circa 1832 and circa 1833date QS",
+   "primary": false,
+   "sha256": "df9a3e6e183d176a7ceebb3ff1b9979299d32e68b7bfa3d672e3bd6a467d5eb3"
+  },
+  {
+   "file": "political-barbecue/political-barbecue-the-political-barbecue-lccn2008661772.jpg",
+   "source": "commons",
+   "title": "File:The political barbecue LCCN2008661772.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/The_political_barbecue_LCCN2008661772.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_political_barbecue_LCCN2008661772.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Henry R. Robinson",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2008661772\nImage download: https://cdn.loc.gov/service/pnp/cph/3a10000/3a12000/3a12000/3a12097r.jpg\nOriginal url: https://www.loc.gov/pictures/item/2",
+   "alt": "Title: The political barbecue\nAbstract/medium: 1 print : lithograph on wove paper ; 25.5 x 36.6 cm. (image)",
+   "date": "1834",
+   "primary": false,
+   "sha256": "411d54eed50f1f5066a83d46c06309ee158600265e0540be2c830fd4748fa98f"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "The free feed a candidate or a party puts on to draw a crowd: a whole hog, or these days a pile of pork butts, cooked for whoever comes, with speeches or a rope line attached.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "North Carolina's political stop for ninety-three Octobers.",
+   "rel": "event"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the North Carolina rally's usual form: a pig, a cooker, a candidate.",
+   "rel": "event"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "the church that cooks the pig is usually raising money at the same time.",
+   "rel": "event"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the politics of barbecue itself: bills, a compromise title.",
+   "rel": "event"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the colonial rally's meat.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the modern rally's meat, by the butt.",
+   "rel": "part"
+  },
+  {
+   "to": "chicken-bog",
+   "type": "dish",
+   "name": "chicken bog",
+   "as": "the Pee Dee's rally dish, tradition holds, at Galivants Ferry.",
+   "rel": "serves"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "the historian of the early republic's barbecue.",
+   "rel": "person"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word that also names the gathering.",
+   "rel": "term"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "Galivants Ferry sits at the Pee Dee's edge, in Horry County.",
+   "rel": "kin"
+  },
+  {
+   "to": "hog-killing",
+   "type": "pit",
+   "name": "hog killing",
+   "as": "the other occasion for a whole pig before the twentieth century.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:moss-barbecue-history",
+   "kind": "book",
+   "title": "Barbecue: The History of an American Institution",
+   "author": "Robert F. Moss",
+   "publisher": "University of Alabama Press",
+   "year": 2010,
+   "note": "revised edition 2020"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:wp-galivants-ferry-south-carolina",
+   "kind": "wikipedia",
+   "title": "Galivants Ferry, South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galivants_Ferry,_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-horry-history-galivants-ferry",
+   "kind": "web",
+   "title": "Galivant's Ferry Stump Meeting — historical marker text",
+   "publisher": "Horry County Historical Society",
+   "url": "https://horrycountyhistory.org/horry-county-historical-markers/galivants-ferry-stump-meeting/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-mallard-creek",
+   "kind": "web",
+   "title": "Pork & Politics Merge at Mallard Creek Presbyterian Church (Greg Lacour, February 2016, updated 2018)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/pork-and-politics-merge-at-mallard-creek-presbyterian-church/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wfae-mallard-creek-ends",
+   "kind": "web",
+   "title": "Mallard Creek Barbecue ends after 93 years (Kenneth Lee Jr., October 1, 2025)",
+   "publisher": "WFAE 90.7",
+   "url": "https://www.wfae.org/charlotte-area/2025-10-01/mallard-creek-barbecue-ends-after-93-years",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-lexington-barbecue-festival",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-horry-history-galivants-ferry",
+   "note": "Moss (2010) for the early republic; the Galivants Ferry menu is hedged inline as tradition — press accounts name chicken bog and barbecue but were not readable on this disk"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "a concept given the coordinates of its standing South Carolina example"
+  }
+ },
+ "primary_image": {
+  "file": "political-barbecue/political-barbecue-andrew-jackson-barbecue-cartoon.jpg",
+  "source": "commons",
+  "title": "File:Andrew Jackson Barbecue Cartoon.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Andrew_Jackson_Barbecue_Cartoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AAndrew_Jackson_Barbecue_Cartoon.jpg",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "Henry R. Robinson",
+  "credit": "https://www.loc.gov/item/2008661772/",
+  "alt": "\"The Political Barbecue\". 1834 cartoon depicting Andrew Jackson being roasted over the fires of opinion.\n\nAndrew Jackson is roasted over the fires of \"Public Opinion\" by the figure of Justice in a car",
+  "date": "1834",
+  "primary": true,
+  "sha256": "61033b19091c3444fec2f6908083289ddc8fba03d4ae5c4914d47bc4bed2f699"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicken-bog",
+   "type": "dish",
+   "name": "chicken bog",
+   "as": "the Galivants Ferry stump meeting serves it with snap beans, rolls and Pepsi.",
+   "rel": "event"
+  },
+  {
+   "from": "hog-killing",
+   "type": "pit",
+   "name": "hog killing",
+   "as": "the other occasion for a whole pig before the twentieth century, per Reed.",
+   "rel": "event"
+  },
+  {
+   "from": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "the cooker behind the candidate's free plate.",
+   "rel": "event"
+  },
+  {
+   "from": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "its founder stood for the legislature in 1964 and for governor in 1974, and flew the Confederate flag over the restaurants from 2000 to 2013.",
+   "rel": "event"
+  },
+  {
+   "from": "maurice-bessinger",
+   "type": "person",
+   "name": "Maurice Bessinger",
+   "as": "he ran for the House in 1964 and for governor in 1974, and chaired George Wallace's state campaign.",
+   "rel": "event"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "the institution of the early republic he documents from newspapers, letters and diaries.",
+   "rel": "event"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "the candidates come to the fundraiser's crowd.",
+   "rel": "event"
+  },
+  {
+   "from": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the festival's own politics: two failed bills in 2006 and a regional title in 2007.",
+   "rel": "event"
+  },
+  {
+   "from": "mallard-creek-barbecue",
+   "type": "event",
+   "name": "Mallard Creek Barbecue",
+   "as": "North Carolina's standing political stop: candidates on a rope line, no speeches.",
+   "rel": "whole"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the same pig with a candidate attached.",
+   "rel": "event"
+  },
+  {
+   "from": "political-barbecue-prints",
+   "type": "art",
+   "name": "Going the whole hog — the 1830s barbecue lithographs",
+   "as": "the institution the prints are drawing: the candidate's free pig and the crowd it gathers.",
+   "rel": "event"
+  }
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "schema": 1,
+ "id": "sam-jones",
+ "type": "person",
+ "names": {
+  "name": "Sam Jones",
+  "aliases": [
+   "Samuel Jones"
+  ],
+  "sort": "Jones, Sam"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder",
+   "family",
+   "writer"
+  ],
+  "state": "NC",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "Samuel 'Sam' Jones is the grandson of Pete Jones and a third-generation pitmaster of the Skylight Inn in Ayden, where he sold chopped pork as a child. With Michael Letchworth he opened Sam Jones BBQ in Winterville on November 10, 2015, and a second restaurant in Raleigh in February 2021. His book with Daniel Vaughn, Whole Hog BBQ: The Gospel of Carolina Barbecue (2019), writes the family method down. He was a James Beard semifinalist for Best Chef: Southeast in 2018, and Sam Jones BBQ holds a Michelin Bib Gourmand from the first Michelin Guide American South (2025).",
+  "story": "At four, Sam Jones told a reporter that he wanted to be a trash man and the Prince of Barbecue; his father Bruce joked about putting hog grease in his milk bottle. He grew up in the Skylight Inn, quit it at fifteen, and came back after a college paper on barbecue told him what his work was. He described the return to Rien Fertel of the Southern Foodways Alliance in November 2011 as a flag-bearer's job, keeping the standard up on the field: 'I don't want our style of barbecue to be one of them things where you read about it in the history books. I want it to be one of them things where you can go get it and taste it and see it.' Southern Living put him among ten Southern pitmasters in 2012. A cooking event in Charleston in 2013 turned him toward a place of his own; in 2014 he and Michael Letchworth signed for a loan, and Sam Jones BBQ opened in Winterville on November 10, 2015, with a longer menu than the Skylight's — ribs, turkey, chicken, banana pudding — around the same wood-cooked hog. The James Beard Foundation listed him as a semifinalist for Best Chef: Southeast in 2018; Whole Hog BBQ, written with Daniel Vaughn of Texas Monthly, came out from Ten Speed Press in 2019. The Raleigh restaurant opened in a former garage on West Lenoir Street in February 2021. He has served as Ayden's fire chief, lives on the farm he grew up on with his wife Sarah and two daughters, and told Garden & Gun in 2019: 'Today I'm proud to be from Ayden, North Carolina.'",
+  "today": "Living. He runs Sam Jones BBQ in Winterville and Raleigh with Michael Letchworth and the Skylight Inn with his father Bruce and Jeff Jones; a stall in Raleigh's Morgan Street Food Hall is planned for the end of 2026, and Sam Jones BBQ holds a Bib Gourmand from the first Michelin Guide American South, November 2025."
+ },
+ "kin": [
+  {
+   "to": "skylight-inn",
+   "as": "the family pit he grew up in and still helps run; his grandfather opened it in 1947.",
+   "rel": "place"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "his own restaurant, opened in Winterville in 2015 with Michael Letchworth and in Raleigh in 2021.",
+   "rel": "place"
+  },
+  {
+   "to": "pete-jones",
+   "as": "his grandfather, whose whole hog over wood is the method he wrote down.",
+   "rel": "person"
+  },
+  {
+   "to": "skilton-dennis",
+   "as": "the ancestor whose 1830 wagon his family's billboard names as the start of the trade.",
+   "rel": "origin"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style he cooks and wrote the book on: whole hog, wood coals, vinegar and pepper.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, cooked whole and chopped with the skin, at both of his restaurants.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded his oral history at the Skylight Inn on November 29, 2011, before he had a restaurant of his own.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "as": "interviewed him for the Alliance in 2011.",
+   "rel": "person"
+  },
+  {
+   "to": "pitmaster",
+   "as": "Southern Living named him one of ten Southern pitmasters in 2012.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Sam Jones BBQ — official",
+   "url": "https://www.samjonesbbq.com/"
+  },
+  {
+   "label": "Skylight Inn — SFA oral history with Samuel Jones (2011)",
+   "url": "https://www.southernfoodways.org/interview/skylight-inn/"
+  },
+  {
+   "label": "Sam Jones — Southern Smoke Foundation biography",
+   "url": "https://www.southernsmoke.org/chef/sam-jones/"
+  }
+ ],
+ "sources": [
+  "s:sfa-skylight-inn",
+  "s:web-samjonesbbq",
+  "s:web-southernsmoke-sam-jones",
+  "s:web-gardenandgun-sam-jones-2019",
+  "s:web-hoodline-sam-jones-morgan-street-2026",
+  "s:web-visitraleigh-sam-jones",
+  "s:jones-whole-hog-bbq",
+  "s:wp-skylight-inn-bbq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:sfa-skylight-inn"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:sfa-skylight-inn",
+    "note": "the flag-bearer image is the SFA transcript as the sam-jones-bbq record relays it; the 2013 event, the 2015 date and the Southern Living list from the restaurant's site; leaving at fifteen, the 2018 semifinalist listing and the fire chief from Southern Smoke; Raleigh from Visit Raleigh; the quote from Garden & Gun"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-hoodline-sam-jones-morgan-street-2026",
+    "note": "the Michelin listing and the food-hall plan from Hoodline, 9 Sep 2026; which of the two restaurants carries the Bib Gourmand is not stated there"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Samuel 'Sam' Jones is the grandson of Pete Jones and a third-generation pitmaster of the Skylight Inn in Ayden, where he sold chopped pork as a child.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "the family pit he grew up in and still helps run; his grandfather opened it in 1947.",
+   "rel": "place"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "his own restaurant, opened in Winterville in 2015 with Michael Letchworth and in Raleigh in 2021.",
+   "rel": "place"
+  },
+  {
+   "to": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "his grandfather, whose whole hog over wood is the method he wrote down.",
+   "rel": "person"
+  },
+  {
+   "to": "skilton-dennis",
+   "type": "person",
+   "name": "Skilton Dennis",
+   "as": "the ancestor whose 1830 wagon his family's billboard names as the start of the trade.",
+   "rel": "origin"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style he cooks and wrote the book on: whole hog, wood coals, vinegar and pepper.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, cooked whole and chopped with the skin, at both of his restaurants.",
+   "rel": "part"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded his oral history at the Skylight Inn on November 29, 2011, before he had a restaurant of his own.",
+   "rel": "kin"
+  },
+  {
+   "to": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed him for the Alliance in 2011.",
+   "rel": "person"
+  },
+  {
+   "to": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "Southern Living named him one of ten Southern pitmasters in 2012.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:sfa-skylight-inn",
+   "kind": "oral-history",
+   "title": "Skylight Inn — Samuel Jones, interviewed by Rien T. Fertel, 29 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/skylight-inn/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-samjonesbbq",
+   "kind": "web",
+   "title": "Sam Jones BBQ — official site (home and About pages)",
+   "publisher": "Sam Jones BBQ",
+   "url": "https://www.samjonesbbq.com/about",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-southernsmoke-sam-jones",
+   "kind": "web",
+   "title": "Sam Jones — chef biography, Southern Smoke Foundation",
+   "publisher": "Southern Smoke Foundation",
+   "url": "https://www.southernsmoke.org/chef/sam-jones/",
+   "accessed": "2026-09-15",
+   "note": "dates the Whole Hog BBQ book 2018; the publisher's year, 2019, is used"
+  },
+  {
+   "id": "s:web-gardenandgun-sam-jones-2019",
+   "kind": "web",
+   "title": "Sam Jones, North Carolina's Barbecue Baron — Garden & Gun (Kathleen Purvis, April/May 2019)",
+   "publisher": "Garden & Gun",
+   "url": "https://gardenandgun.com/sam-jones-interview",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-hoodline-sam-jones-morgan-street-2026",
+   "kind": "web",
+   "title": "Sam Jones BBQ plants second Raleigh flag at Morgan Street Food Hall — Hoodline (9 Sep 2026)",
+   "publisher": "Hoodline",
+   "url": "https://hoodline.com/2026/09/michelin-starred-sam-jones-bbq-plants-second-raleigh-flag-at-morgan-street-food-hall/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-visitraleigh-sam-jones",
+   "kind": "web",
+   "title": "Sam Jones BBQ is Now Open in Raleigh, N.C.! — Visit Raleigh (10 Feb 2021)",
+   "publisher": "Greater Raleigh Convention and Visitors Bureau",
+   "url": "https://www.visitraleigh.com/plan-a-trip/visitraleigh-insider-blog/post/sam-jones-bbq-is-now-open-in-raleigh-nc/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:jones-whole-hog-bbq",
+   "kind": "book",
+   "title": "Whole Hog BBQ: The Gospel of Carolina Barbecue",
+   "author": "Sam Jones and Daniel Vaughn",
+   "publisher": "Ten Speed Press",
+   "year": 2019
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:sfa-skylight-inn"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:sfa-skylight-inn",
+   "note": "the flag-bearer image is the SFA transcript as the sam-jones-bbq record relays it; the 2013 event, the 2015 date and the Southern Living list from the restaurant's site; leaving at fifteen, the 2018 semifinalist listing and the fire chief from Southern Smoke; Raleigh from Visit Raleigh; the quote from Garden & Gun"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-hoodline-sam-jones-morgan-street-2026",
+   "note": "the Michelin listing and the food-hall plan from Hoodline, 9 Sep 2026; which of the two restaurants carries the Bib Gourmand is not stated there"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sam-jones-sauce",
+   "type": "sauce",
+   "name": "Sam Jones BBQ sauce",
+   "as": "the third-generation pitmaster the bottle is named for.",
+   "rel": "person"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "who carries the Skylight cake to his own restaurants.",
+   "rel": "person"
+  },
+  {
+   "from": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "its founder, who wrote the family method down in 2019.",
+   "rel": "person"
+  },
+  {
+   "from": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "the grandson who carried the method to his own restaurants and wrote it down in a book.",
+   "rel": "person"
+  },
+  {
+   "from": "pete-jones",
+   "type": "person",
+   "name": "Pete Jones",
+   "as": "his grandson, who grew up in the Skylight and carried the family's whole hog to Winterville and Raleigh.",
+   "rel": "person"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "the Skylight's grandson, one of the pitmasters his book follows.",
+   "rel": "person"
+  },
+  {
+   "from": "skilton-dennis",
+   "type": "person",
+   "name": "Skilton Dennis",
+   "as": "his descendant, who wrote the family's claim into a book in 2019.",
+   "rel": "person"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "interviewed at the Skylight Inn for its North Carolina project.",
+   "rel": "person"
+  }
+ ]
+}

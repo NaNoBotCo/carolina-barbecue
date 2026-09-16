@@ -1,0 +1,2015 @@
+{
+ "source": "Nominatim reverse geocoding of OpenStreetMap data, ODbL",
+ "rows": {
+  "node/11300576164": {
+   "town": "Asheville",
+   "county": "Buncombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:35Z"
+  },
+  "way/949775569": {
+   "town": "",
+   "county": "Onslow",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:36Z"
+  },
+  "way/1024611801": {
+   "town": "Greenville",
+   "county": "Pitt",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:38Z"
+  },
+  "way/1024718852": {
+   "town": "Shelby",
+   "county": "Cleveland",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:40Z"
+  },
+  "node/4374715979": {
+   "town": "Fuquay-Varina",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:42Z"
+  },
+  "way/617512599": {
+   "town": "Durham",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:43Z"
+  },
+  "way/427932015": {
+   "town": "Lexington",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:45Z"
+  },
+  "way/553071649": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:47Z"
+  },
+  "way/281843538": {
+   "town": "Thomasville",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:48Z"
+  },
+  "way/1413283317": {
+   "town": "Macclesfield",
+   "county": "Edgecombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:50Z"
+  },
+  "node/5180669890": {
+   "town": "Trinity",
+   "county": "Randolph",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:52Z"
+  },
+  "way/764140987": {
+   "town": "Asheville",
+   "county": "Buncombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:54Z"
+  },
+  "node/2272176272": {
+   "town": "Cary",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:56Z"
+  },
+  "node/2627547996": {
+   "town": "Pittsboro",
+   "county": "Chatham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:57Z"
+  },
+  "node/12941392102": {
+   "town": "Sylva",
+   "county": "Jackson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:05:59Z"
+  },
+  "way/1307970188": {
+   "town": "Murphy",
+   "county": "Cherokee",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:01Z"
+  },
+  "node/12148025357": {
+   "town": "High Point",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:02Z"
+  },
+  "node/13063286133": {
+   "town": "Jamestown",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:04Z"
+  },
+  "way/731170825": {
+   "town": "Mills River",
+   "county": "Henderson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:05Z"
+  },
+  "node/4526614255": {
+   "town": "Sherrills Ford",
+   "county": "Catawba",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:07Z"
+  },
+  "node/8792800702": {
+   "town": "Morganton",
+   "county": "Burke",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:09Z"
+  },
+  "way/630793671": {
+   "town": "Sanford",
+   "county": "Lee",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:11Z"
+  },
+  "node/7191076919": {
+   "town": "Yanceyville",
+   "county": "Caswell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:13Z"
+  },
+  "way/490968733": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:14Z"
+  },
+  "way/306633837": {
+   "town": "Windsor",
+   "county": "Bertie",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:16Z"
+  },
+  "node/4848475721": {
+   "town": "Winston-Salem",
+   "county": "Forsyth",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:17Z"
+  },
+  "way/1236101832": {
+   "town": "Hertford",
+   "county": "Perquimans",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:19Z"
+  },
+  "node/4265648382": {
+   "town": "Statesville",
+   "county": "Iredell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:21Z"
+  },
+  "node/5734090497": {
+   "town": "Newland",
+   "county": "Avery",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:23Z"
+  },
+  "way/544590710": {
+   "town": "Hickory",
+   "county": "Catawba",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:24Z"
+  },
+  "node/6464966885": {
+   "town": "Salisbury",
+   "county": "Rowan",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:26Z"
+  },
+  "node/7776784125": {
+   "town": "Huntersville",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:27Z"
+  },
+  "node/8455924367": {
+   "town": "Garner",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:29Z"
+  },
+  "node/10112353508": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:31Z"
+  },
+  "node/11774144077": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:33Z"
+  },
+  "way/1096847681": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:35Z"
+  },
+  "way/575156963": {
+   "town": "Cary",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:36Z"
+  },
+  "way/422429753": {
+   "town": "Durham",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:38Z"
+  },
+  "node/3307013373": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:40Z"
+  },
+  "node/6433424484": {
+   "town": "High Point",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:41Z"
+  },
+  "node/4134055333": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:42Z"
+  },
+  "way/230512858": {
+   "town": "",
+   "county": "McDowell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:44Z"
+  },
+  "node/11448147136": {
+   "town": "",
+   "county": "Cabarrus",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:46Z"
+  },
+  "way/484438446": {
+   "town": "",
+   "county": "Currituck",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:48Z"
+  },
+  "node/2103238246": {
+   "town": "Cary",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:49Z"
+  },
+  "node/9795783404": {
+   "town": "Southern Pines",
+   "county": "Moore",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:51Z"
+  },
+  "node/9957988852": {
+   "town": "",
+   "county": "Haywood",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:53Z"
+  },
+  "node/10723640180": {
+   "town": "Canton",
+   "county": "Haywood",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:55Z"
+  },
+  "node/13556735751": {
+   "town": "Albemarle",
+   "county": "Stanly",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:57Z"
+  },
+  "way/303371221": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:06:59Z"
+  },
+  "way/1075014293": {
+   "town": "",
+   "county": "Buncombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:01Z"
+  },
+  "way/202503445": {
+   "town": "",
+   "county": "Randolph",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:03Z"
+  },
+  "way/1087992617": {
+   "town": "Southern Pines",
+   "county": "Moore",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:04Z"
+  },
+  "way/1094129751": {
+   "town": "Hendersonville",
+   "county": "Henderson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:06Z"
+  },
+  "way/301602792": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:08Z"
+  },
+  "node/13113064696": {
+   "town": "",
+   "county": "Rowan",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:10Z"
+  },
+  "node/1416565274": {
+   "town": "Saluda",
+   "county": "Polk",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:11Z"
+  },
+  "node/12451360084": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:13Z"
+  },
+  "node/13286536982": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:15Z"
+  },
+  "way/403521734": {
+   "town": "Lenoir",
+   "county": "Caldwell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:17Z"
+  },
+  "way/547589192": {
+   "town": "Salisbury",
+   "county": "Rowan",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:18Z"
+  },
+  "node/6424209712": {
+   "town": "Spencer",
+   "county": "Rowan",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:20Z"
+  },
+  "way/701917665": {
+   "town": "Asheboro",
+   "county": "Randolph",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:21Z"
+  },
+  "node/6606961367": {
+   "town": "High Point",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:22Z"
+  },
+  "way/376480957": {
+   "town": "Lowell",
+   "county": "Gaston",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:24Z"
+  },
+  "way/65706381": {
+   "town": "Durham",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:26Z"
+  },
+  "way/550528403": {
+   "town": "Asheboro",
+   "county": "Randolph",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:28Z"
+  },
+  "way/810766310": {
+   "town": "Boone",
+   "county": "Watauga",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:29Z"
+  },
+  "way/1094132985": {
+   "town": "Flat Rock",
+   "county": "Henderson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:31Z"
+  },
+  "node/12018287442": {
+   "town": "Asheville",
+   "county": "Buncombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:33Z"
+  },
+  "node/5196052022": {
+   "town": "Mebane",
+   "county": "Alamance",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:34Z"
+  },
+  "way/371725551": {
+   "town": "Burlington",
+   "county": "Alamance",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:36Z"
+  },
+  "node/5788853568": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:38Z"
+  },
+  "way/1091755159": {
+   "town": "Rutherford College",
+   "county": "Burke",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:40Z"
+  },
+  "node/12377391306": {
+   "town": "Hickory",
+   "county": "Catawba",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:42Z"
+  },
+  "node/14135355304": {
+   "town": "",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:44Z"
+  },
+  "node/2614929755": {
+   "town": "Concord",
+   "county": "Cabarrus",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:47Z"
+  },
+  "way/1069451388": {
+   "town": "Rockwell",
+   "county": "Rowan",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:48Z"
+  },
+  "node/6050438148": {
+   "town": "",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:49Z"
+  },
+  "way/1481637744": {
+   "town": "",
+   "county": "Avery",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:51Z"
+  },
+  "node/6388367341": {
+   "town": "High Point",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:53Z"
+  },
+  "way/453214328": {
+   "town": "",
+   "county": "Lenoir",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:55Z"
+  },
+  "node/5346236634": {
+   "town": "Fayetteville",
+   "county": "Cumberland",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:56Z"
+  },
+  "node/5774871154": {
+   "town": "Mooresville",
+   "county": "Iredell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:07:58Z"
+  },
+  "node/13175520901": {
+   "town": "Cary",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:00Z"
+  },
+  "way/1296460281": {
+   "town": "Cary",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:01Z"
+  },
+  "way/1224477438": {
+   "town": "Dover",
+   "county": "Craven",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:03Z"
+  },
+  "way/674159065": {
+   "town": "Lexington",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:05Z"
+  },
+  "node/9005357392": {
+   "town": "",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:06Z"
+  },
+  "way/604810311": {
+   "town": "Asheville",
+   "county": "Buncombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:08Z"
+  },
+  "way/905879710": {
+   "town": "Clemmons",
+   "county": "Forsyth",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:09Z"
+  },
+  "node/3680839186": {
+   "town": "Mount Airy",
+   "county": "Surry",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:11Z"
+  },
+  "node/12674019595": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:12Z"
+  },
+  "way/47968997": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:14Z"
+  },
+  "way/684487537": {
+   "town": "Asheville",
+   "county": "Buncombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:16Z"
+  },
+  "way/544065043": {
+   "town": "",
+   "county": "Halifax",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:17Z"
+  },
+  "node/12179375131": {
+   "town": "Fayetteville",
+   "county": "Cumberland",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:19Z"
+  },
+  "node/7099039005": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:21Z"
+  },
+  "way/258708723": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:22Z"
+  },
+  "way/436484874": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:24Z"
+  },
+  "way/31345349": {
+   "town": "Durham",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:26Z"
+  },
+  "way/764344190": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:28Z"
+  },
+  "node/7781297450": {
+   "town": "Huntersville",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:29Z"
+  },
+  "way/926764815": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:31Z"
+  },
+  "node/11386952087": {
+   "town": "Mint Hill",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:33Z"
+  },
+  "node/10649857819": {
+   "town": "Durham",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:35Z"
+  },
+  "way/608009719": {
+   "town": "Woodfin",
+   "county": "Buncombe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:36Z"
+  },
+  "way/1275913007": {
+   "town": "Morehead City",
+   "county": "Carteret",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:38Z"
+  },
+  "way/760241003": {
+   "town": "Columbus",
+   "county": "Polk",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:40Z"
+  },
+  "way/1171047686": {
+   "town": "Pittsboro",
+   "county": "Chatham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:42Z"
+  },
+  "way/849374572": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:43Z"
+  },
+  "way/563262135": {
+   "town": "Gastonia",
+   "county": "Gaston",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:46Z"
+  },
+  "way/47731728": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:47Z"
+  },
+  "way/267464006": {
+   "town": "Greenville",
+   "county": "Pitt",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:50Z"
+  },
+  "way/580522679": {
+   "town": "Durham",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:52Z"
+  },
+  "way/1094131254": {
+   "town": "Hendersonville",
+   "county": "Henderson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:54Z"
+  },
+  "node/12026746235": {
+   "town": "Kill Devil Hills",
+   "county": "Dare",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:56Z"
+  },
+  "way/432968714": {
+   "town": "",
+   "county": "Moore",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:08:58Z"
+  },
+  "way/761063449": {
+   "town": "Knightdale",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:00Z"
+  },
+  "node/11879197089": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:01Z"
+  },
+  "node/4834801027": {
+   "town": "Cary",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:03Z"
+  },
+  "node/4001468172": {
+   "town": "",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:04Z"
+  },
+  "node/904508348": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:07Z"
+  },
+  "way/614158454": {
+   "town": "Bakersville",
+   "county": "Mitchell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:09Z"
+  },
+  "way/659540006": {
+   "town": "",
+   "county": "Johnston",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:11Z"
+  },
+  "node/13403711044": {
+   "town": "",
+   "county": "Cherokee",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:12Z"
+  },
+  "node/10233493752": {
+   "town": "Oriental",
+   "county": "Pamlico",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:14Z"
+  },
+  "node/4338783695": {
+   "town": "",
+   "county": "Swain",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:16Z"
+  },
+  "way/315335644": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:17Z"
+  },
+  "node/5538678264": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:19Z"
+  },
+  "way/728084924": {
+   "town": "Williamston",
+   "county": "Martin",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:21Z"
+  },
+  "way/810282918": {
+   "town": "Reidsville",
+   "county": "Rockingham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:22Z"
+  },
+  "node/12895944701": {
+   "town": "Denton",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:24Z"
+  },
+  "node/2955593931": {
+   "town": "Ayden",
+   "county": "Pitt",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:25Z"
+  },
+  "way/1099959199": {
+   "town": "",
+   "county": "Johnston",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:27Z"
+  },
+  "node/2002859717": {
+   "town": "Leland",
+   "county": "Brunswick",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:29Z"
+  },
+  "way/47663316": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:32Z"
+  },
+  "way/80020044": {
+   "town": "Henderson",
+   "county": "Vance",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:34Z"
+  },
+  "way/207540526": {
+   "town": "Morrisville",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:36Z"
+  },
+  "way/220548386": {
+   "town": "",
+   "county": "Nash",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:38Z"
+  },
+  "way/550543878": {
+   "town": "Knightdale",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:39Z"
+  },
+  "way/1097192549": {
+   "town": "Sanford",
+   "county": "Lee",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:41Z"
+  },
+  "way/1471512055": {
+   "town": "Goldsboro",
+   "county": "Wayne",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:42Z"
+  },
+  "way/205230395": {
+   "town": "",
+   "county": "Johnston",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:44Z"
+  },
+  "node/4554693908": {
+   "town": "Nashville",
+   "county": "Nash",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:46Z"
+  },
+  "node/13116385201": {
+   "town": "Sanford",
+   "county": "Lee",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:48Z"
+  },
+  "node/10572978117": {
+   "town": "Brevard",
+   "county": "Transylvania",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:49Z"
+  },
+  "way/895120488": {
+   "town": "Graham",
+   "county": "Alamance",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:51Z"
+  },
+  "way/673513057": {
+   "town": "Lexington",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:52Z"
+  },
+  "node/10054655488": {
+   "town": "West Jefferson",
+   "county": "Ashe",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:54Z"
+  },
+  "way/397358116": {
+   "town": "Concord",
+   "county": "Cabarrus",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:55Z"
+  },
+  "way/515382950": {
+   "town": "Nags Head",
+   "county": "Dare",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:57Z"
+  },
+  "way/509351798": {
+   "town": "",
+   "county": "Currituck",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:09:59Z"
+  },
+  "way/702924899": {
+   "town": "",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:01Z"
+  },
+  "node/13062644259": {
+   "town": "Lexington",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:02Z"
+  },
+  "way/324238125": {
+   "town": "Greensboro",
+   "county": "Guilford",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:03Z"
+  },
+  "node/6047089328": {
+   "town": "",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:05Z"
+  },
+  "node/11333333851": {
+   "town": "Raeford",
+   "county": "Hoke",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:07Z"
+  },
+  "way/1261835189": {
+   "town": "Columbia",
+   "county": "Tyrrell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:09Z"
+  },
+  "node/5267486136": {
+   "town": "Burlington",
+   "county": "Alamance",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:11Z"
+  },
+  "node/11916281077": {
+   "town": "",
+   "county": "Dare",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:13Z"
+  },
+  "way/1097193194": {
+   "town": "",
+   "county": "Lee",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:14Z"
+  },
+  "way/323193538": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:15Z"
+  },
+  "way/515543140": {
+   "town": "Kill Devil Hills",
+   "county": "Dare",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:17Z"
+  },
+  "way/340982016": {
+   "town": "Thomasville",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:19Z"
+  },
+  "node/4349039898": {
+   "town": "Davidson",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:20Z"
+  },
+  "way/323191988": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:22Z"
+  },
+  "way/605968761": {
+   "town": "Garner",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:25Z"
+  },
+  "node/299528024": {
+   "town": "Durham",
+   "county": "Durham",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:27Z"
+  },
+  "way/681750746": {
+   "town": "Boone",
+   "county": "Watauga",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:28Z"
+  },
+  "node/2664104847": {
+   "town": "Chapel Hill",
+   "county": "Orange",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:30Z"
+  },
+  "node/2144920174": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:31Z"
+  },
+  "way/403736782": {
+   "town": "Lenoir",
+   "county": "Caldwell",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:33Z"
+  },
+  "way/1168415266": {
+   "town": "Salisbury",
+   "county": "Rowan",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:35Z"
+  },
+  "node/5921952105": {
+   "town": "Burlington",
+   "county": "Alamance",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:36Z"
+  },
+  "node/13207241449": {
+   "town": "Yellowhill Community ᎡᎳᏬᏗ",
+   "county": "Swain",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:38Z"
+  },
+  "node/9758466443": {
+   "town": "Morrisville",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:39Z"
+  },
+  "node/6475583334": {
+   "town": "Raleigh",
+   "county": "Wake",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:41Z"
+  },
+  "node/6439936487": {
+   "town": "Denton",
+   "county": "Davidson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:43Z"
+  },
+  "node/13545138801": {
+   "town": "Wilmington",
+   "county": "New Hanover",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:44Z"
+  },
+  "way/973365159": {
+   "town": "Boone",
+   "county": "Watauga",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:46Z"
+  },
+  "node/12475203233": {
+   "town": "Broadway",
+   "county": "Lee",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:47Z"
+  },
+  "node/9958056518": {
+   "town": "Dillon",
+   "county": "Dillon",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:10:49Z"
+  },
+  "way/903544845": {
+   "town": "Surfside Beach",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:10:51Z"
+  },
+  "way/1308918137": {
+   "town": "North Myrtle Beach",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:10:53Z"
+  },
+  "way/1017377806": {
+   "town": "",
+   "county": "Aiken",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:10:54Z"
+  },
+  "node/11940481153": {
+   "town": "Oak Island",
+   "county": "Brunswick",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:10:56Z"
+  },
+  "node/6309404418": {
+   "town": "Spartanburg",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:10:58Z"
+  },
+  "node/3060046054": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:10:59Z"
+  },
+  "way/913841648": {
+   "town": "Pickens",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:01Z"
+  },
+  "node/11532512564": {
+   "town": "Conway",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:03Z"
+  },
+  "way/1070540633": {
+   "town": "",
+   "county": "Oconee",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:05Z"
+  },
+  "way/686732521": {
+   "town": "Fountain Inn",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:06Z"
+  },
+  "way/1324227479": {
+   "town": "Burnettown",
+   "county": "Aiken",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:08Z"
+  },
+  "way/1070542184": {
+   "town": "",
+   "county": "Oconee",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:10Z"
+  },
+  "node/9960757267": {
+   "town": "North Myrtle Beach",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:11Z"
+  },
+  "node/4365061713": {
+   "town": "",
+   "county": "Orangeburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:13Z"
+  },
+  "way/681959546": {
+   "town": "",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:15Z"
+  },
+  "way/298204774": {
+   "town": "Fountain Inn",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:16Z"
+  },
+  "way/783601241": {
+   "town": "Hilton Head Island",
+   "county": "Beaufort",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:18Z"
+  },
+  "node/6336596122": {
+   "town": "",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:20Z"
+  },
+  "node/4778730959": {
+   "town": "",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:21Z"
+  },
+  "node/671383387": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:23Z"
+  },
+  "node/2484393949": {
+   "town": "",
+   "county": "Anderson",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:25Z"
+  },
+  "way/1304346965": {
+   "town": "Olanta",
+   "county": "Florence",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:27Z"
+  },
+  "way/550529100": {
+   "town": "",
+   "county": "York",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:29Z"
+  },
+  "node/14099572053": {
+   "town": "Conway",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:30Z"
+  },
+  "node/3081238715": {
+   "town": "Manning",
+   "county": "Clarendon",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:32Z"
+  },
+  "node/3884224722": {
+   "town": "",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:34Z"
+  },
+  "way/575667536": {
+   "town": "Blythewood",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:36Z"
+  },
+  "node/13791664201": {
+   "town": "",
+   "county": "Aiken",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:38Z"
+  },
+  "node/3051146659": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:39Z"
+  },
+  "node/5202877399": {
+   "town": "Easley",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:41Z"
+  },
+  "node/13392057132": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:42Z"
+  },
+  "node/4410321916": {
+   "town": "",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:43Z"
+  },
+  "node/2344884773": {
+   "town": "",
+   "county": "Onslow",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:11:46Z"
+  },
+  "way/550515929": {
+   "town": "",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:47Z"
+  },
+  "way/993486049": {
+   "town": "",
+   "county": "Laurens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:49Z"
+  },
+  "node/9373412774": {
+   "town": "Irmo",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:51Z"
+  },
+  "way/1239239481": {
+   "town": "",
+   "county": "Anderson",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:52Z"
+  },
+  "node/12798888801": {
+   "town": "",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:54Z"
+  },
+  "node/12786899579": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:56Z"
+  },
+  "way/521874840": {
+   "town": "Duncan",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:11:58Z"
+  },
+  "way/552417588": {
+   "town": "Gaffney",
+   "county": "Cherokee",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:00Z"
+  },
+  "node/5268764954": {
+   "town": "",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:02Z"
+  },
+  "node/5366320452": {
+   "town": "Prosperity",
+   "county": "Newberry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:04Z"
+  },
+  "way/1070557441": {
+   "town": "",
+   "county": "Oconee",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:05Z"
+  },
+  "node/793298101": {
+   "town": "Simpsonville",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:07Z"
+  },
+  "way/499699576": {
+   "town": "Greenville",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:09Z"
+  },
+  "node/8077308904": {
+   "town": "Darlington",
+   "county": "Darlington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:10Z"
+  },
+  "node/13351680747": {
+   "town": "Florence",
+   "county": "Florence",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:12Z"
+  },
+  "way/511584980": {
+   "town": "Columbia",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:13Z"
+  },
+  "way/1278882338": {
+   "town": "",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:15Z"
+  },
+  "way/1454942665": {
+   "town": "Sullivan's Island",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:17Z"
+  },
+  "way/654274177": {
+   "town": "",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:18Z"
+  },
+  "way/1017392111": {
+   "town": "",
+   "county": "Aiken",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:20Z"
+  },
+  "way/473363755": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:21Z"
+  },
+  "node/3054622091": {
+   "town": "North Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:23Z"
+  },
+  "way/122127119": {
+   "town": "Spartanburg",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:25Z"
+  },
+  "way/301401673": {
+   "town": "North Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:27Z"
+  },
+  "way/1122798074": {
+   "town": "North Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:28Z"
+  },
+  "node/5114990141": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:30Z"
+  },
+  "way/49797255": {
+   "town": "Greenville",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:32Z"
+  },
+  "node/10796157039": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:34Z"
+  },
+  "way/499514024": {
+   "town": "Mauldin",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:36Z"
+  },
+  "way/693133736": {
+   "town": "Easley",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:38Z"
+  },
+  "way/48158221": {
+   "town": "Greenville",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:39Z"
+  },
+  "node/9905239643": {
+   "town": "Branchville",
+   "county": "Orangeburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:41Z"
+  },
+  "node/5103738895": {
+   "town": "",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:42Z"
+  },
+  "way/375232170": {
+   "town": "",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:44Z"
+  },
+  "node/5268764517": {
+   "town": "Lexington",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:46Z"
+  },
+  "way/373845325": {
+   "town": "Columbia",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:48Z"
+  },
+  "way/508450748": {
+   "town": "",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:50Z"
+  },
+  "node/12477049153": {
+   "town": "Columbia",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:51Z"
+  },
+  "node/3051120751": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:52Z"
+  },
+  "way/134581074": {
+   "town": "Mount Pleasant",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:54Z"
+  },
+  "node/8195621306": {
+   "town": "",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:56Z"
+  },
+  "way/394517341": {
+   "town": "",
+   "county": "Union",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:57Z"
+  },
+  "way/1154864015": {
+   "town": "Columbia",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:12:59Z"
+  },
+  "way/528389241": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:01Z"
+  },
+  "node/11658306673": {
+   "town": "North Myrtle Beach",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:03Z"
+  },
+  "node/5678391645": {
+   "town": "Greenville",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:04Z"
+  },
+  "node/10594605114": {
+   "town": "Spartanburg",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:06Z"
+  },
+  "way/766092117": {
+   "town": "Greer",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:08Z"
+  },
+  "way/56254741": {
+   "town": "Mauldin",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:09Z"
+  },
+  "way/1049569112": {
+   "town": "",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:11Z"
+  },
+  "node/11767338291": {
+   "town": "North Myrtle Beach",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:13Z"
+  },
+  "node/4253485720": {
+   "town": "Hilton Head Island",
+   "county": "Beaufort",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:14Z"
+  },
+  "way/269651803": {
+   "town": "Columbia",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:16Z"
+  },
+  "node/4412235790": {
+   "town": "Hollywood",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:18Z"
+  },
+  "node/5114990135": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:20Z"
+  },
+  "node/10608320580": {
+   "town": "",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:21Z"
+  },
+  "node/357113405": {
+   "town": "",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:22Z"
+  },
+  "way/554934764": {
+   "town": "Columbia",
+   "county": "Richland",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:24Z"
+  },
+  "way/301557900": {
+   "town": "North Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:26Z"
+  },
+  "node/13847193264": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:28Z"
+  },
+  "way/1008074409": {
+   "town": "",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:29Z"
+  },
+  "node/5781611883": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:31Z"
+  },
+  "way/188413186": {
+   "town": "Mount Pleasant",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:33Z"
+  },
+  "way/1053972795": {
+   "town": "",
+   "county": "Williamsburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:35Z"
+  },
+  "node/2953310413": {
+   "town": "Aiken",
+   "county": "Aiken",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:36Z"
+  },
+  "node/5487024969": {
+   "town": "",
+   "county": "Anderson",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:38Z"
+  },
+  "node/6318159129": {
+   "town": "Spartanburg",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:40Z"
+  },
+  "way/551654920": {
+   "town": "Batesburg-Leesville",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:41Z"
+  },
+  "way/682302650": {
+   "town": "",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:43Z"
+  },
+  "way/484448881": {
+   "town": "Emerald Isle",
+   "county": "Carteret",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:13:45Z"
+  },
+  "node/11308502777": {
+   "town": "Laurinburg",
+   "county": "Scotland",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:13:47Z"
+  },
+  "way/1373483623": {
+   "town": "Lumberton",
+   "county": "Robeson",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:13:49Z"
+  },
+  "node/5207338142": {
+   "town": "Easley",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:50Z"
+  },
+  "node/9599363679": {
+   "town": "Easley",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:52Z"
+  },
+  "node/6318540512": {
+   "town": "",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:54Z"
+  },
+  "way/783588305": {
+   "town": "",
+   "county": "Anderson",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:56Z"
+  },
+  "way/469322443": {
+   "town": "Williamston",
+   "county": "Anderson",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:13:58Z"
+  },
+  "node/3231684021": {
+   "town": "Mauldin",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:00Z"
+  },
+  "way/554301089": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:01Z"
+  },
+  "node/6204786978": {
+   "town": "",
+   "county": "Dillon",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:03Z"
+  },
+  "way/216523196": {
+   "town": "Rock Hill",
+   "county": "York",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:05Z"
+  },
+  "way/1290318664": {
+   "town": "",
+   "county": "Anderson",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:07Z"
+  },
+  "way/239963561": {
+   "town": "Newberry",
+   "county": "Newberry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:09Z"
+  },
+  "node/12875699633": {
+   "town": "North Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:10Z"
+  },
+  "node/13097311514": {
+   "town": "Carolina Beach",
+   "county": "New Hanover",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:14:12Z"
+  },
+  "node/13658784711": {
+   "town": "",
+   "county": "Berkeley",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:13Z"
+  },
+  "way/653833875": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:15Z"
+  },
+  "way/499876387": {
+   "town": "",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:16Z"
+  },
+  "way/1063735621": {
+   "town": "Hampton",
+   "county": "Hampton",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:18Z"
+  },
+  "way/696008724": {
+   "town": "McBee",
+   "county": "Chesterfield",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:20Z"
+  },
+  "way/749306352": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:22Z"
+  },
+  "way/555811680": {
+   "town": "Easley",
+   "county": "Pickens",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:23Z"
+  },
+  "way/565982977": {
+   "town": "",
+   "county": "Anderson",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:25Z"
+  },
+  "node/13021863813": {
+   "town": "Charleston",
+   "county": "Charleston",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:26Z"
+  },
+  "way/1279993143": {
+   "town": "Summerville",
+   "county": "Dorchester",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:28Z"
+  },
+  "node/2732305272": {
+   "town": "Myrtle Beach",
+   "county": "Horry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:29Z"
+  },
+  "node/3925503109": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:31Z"
+  },
+  "way/540474372": {
+   "town": "",
+   "county": "Spartanburg",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:32Z"
+  },
+  "way/802004009": {
+   "town": "Sumter",
+   "county": "Sumter",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:34Z"
+  },
+  "node/4782009080": {
+   "town": "",
+   "county": "Darlington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:36Z"
+  },
+  "node/13353621593": {
+   "town": "Florence",
+   "county": "Florence",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:37Z"
+  },
+  "way/322756231": {
+   "town": "Mauldin",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:39Z"
+  },
+  "node/9039367873": {
+   "town": "Lexington",
+   "county": "Lexington",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:41Z"
+  },
+  "way/1108061870": {
+   "town": "",
+   "county": "Newberry",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:42Z"
+  },
+  "node/13351971848": {
+   "town": "Florence",
+   "county": "Florence",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:44Z"
+  },
+  "node/5260308282": {
+   "town": "Tega Cay",
+   "county": "York",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:45Z"
+  },
+  "node/3313338154": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:14:47Z"
+  },
+  "way/860943132": {
+   "town": "",
+   "county": "York",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:49Z"
+  },
+  "node/5260801984": {
+   "town": "",
+   "county": "York",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:50Z"
+  },
+  "node/4799491046": {
+   "town": "Fayetteville",
+   "county": "Cumberland",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:14:52Z"
+  },
+  "way/544061042": {
+   "town": "Fayetteville",
+   "county": "Cumberland",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:14:54Z"
+  },
+  "node/8660666763": {
+   "town": "Greenville",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:55Z"
+  },
+  "way/546854706": {
+   "town": "",
+   "county": "Lancaster",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:58Z"
+  },
+  "node/1833743220": {
+   "town": "",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:14:59Z"
+  },
+  "node/12444522286": {
+   "town": "Greenville",
+   "county": "Greenville",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:15:01Z"
+  },
+  "node/8092709189": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:15:02Z"
+  },
+  "way/602634399": {
+   "town": "New Bern",
+   "county": "Craven",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:15:04Z"
+  },
+  "node/5300320693": {
+   "town": "",
+   "county": "York",
+   "state": "South Carolina",
+   "fetched_at": "2026-09-15T13:15:06Z"
+  },
+  "way/803323572": {
+   "town": "Charlotte",
+   "county": "Mecklenburg",
+   "state": "North Carolina",
+   "fetched_at": "2026-09-15T13:15:07Z"
+  }
+ }
+}

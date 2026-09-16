@@ -1,0 +1,143 @@
+{
+ "schema": 1,
+ "id": "wayne-monk",
+ "type": "person",
+ "names": {
+  "name": "Wayne Monk",
+  "aliases": [
+   "Honeymonk"
+  ],
+  "sort": "Monk, Wayne"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder"
+  ],
+  "state": "NC",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Wayne Monk opened Lexington Barbecue beside U.S. 29/70 in Lexington, Davidson County, in 1962, at twenty-six, after years as a carhop and then a pit hand under Warner Stamey, and he owns it with his son Rick. The pit cooks pork shoulders over oak and hickory coals and serves them with the dip, the Piedmont's thin red vinegar sauce; locals call it the Honeymonk, from his name and his early partner Sonny Hunneycutt's. He cooked for the heads of government at the 1983 economic summit in Williamsburg, and the James Beard Foundation named the restaurant an America's Classic in 2003.",
+  "story": "Monk was a teenage carhop at a Lexington barbecue place, worked for Holland Tussey, and spent several years working directly under Warner Stamey at Stamey's in downtown Lexington — Stamey had bought Jess Swicegood's stand there in 1938 — so that his own pit stands two teachers from the courthouse tents of 1919. At twenty-six, in 1962, he bought a roadside parcel beside U.S. Highway 29/70 that had been Tussey's, built onto the small cafe on it, and opened Lexington Barbecue #1 with Sonny Hunneycutt; the partner left, and the joined name, Honeymonk, stayed on the town's tongue. In 1983 a politically connected local attorney asked whether he would cook for President Reagan, and he served barbecue to the heads of government at that year's economic summit in Williamsburg, Virginia, Margaret Thatcher and François Mitterrand among them. The James Beard Foundation made the restaurant an America's Classic in 2003, the same year as the Skylight Inn in Ayden. Garden & Gun found three generations at the pits in 2015: Wayne; Rick, who started at thirteen and is pitmaster, bookkeeper or janitor as the day requires; and Rick's son Nathan, who began in the kitchen at about sixteen. 'It's not a job. It's a way of life,' Rick said. The American Royal inducted Wayne Monk into its Barbecue Hall of Fame on September 14, 2019 — he 'set the standard that practically defines North Carolina barbecue', the citation said — and the new North Carolina Bar-B-Q Hall of Fame inducted him at Burlington on March 1, 2024.",
+  "today": "Living: no death notice was found in the sources read for this record (September 2026). The restaurant's site names him as founder and lists Rick Monk as owner; Lexington Barbecue is open Tuesday to Saturday at 100 Smokehouse Lane, Lexington."
+ },
+ "kin": [
+  {
+   "to": "lexington-barbecue",
+   "as": "the pit he opened in 1962 and owns with his son Rick.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington",
+   "as": "the style, in the restaurant most often named as its standing example.",
+   "rel": "whole"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "his teacher: he worked under Stamey for several years in downtown Lexington before opening his own place.",
+   "rel": "origin"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "his teacher's Greensboro house, opened in 1953 while Monk was still learning.",
+   "rel": "kin"
+  },
+  {
+   "to": "jess-swicegood",
+   "as": "the stand Stamey bought in 1938 is where Monk's teacher learned; his pit is two steps from Swicegood's tent.",
+   "rel": "origin"
+  },
+  {
+   "to": "sid-weaver",
+   "as": "the 1919 tent at the head of the line Monk stands in.",
+   "rel": "origin"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "his sauce, which went to the 1983 economic summit at Williamsburg.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut he has cooked since 1962, over oak and hickory coals.",
+   "rel": "part"
+  },
+  {
+   "to": "brick-pit",
+   "as": "the pits under his four chimneys, whose smoke shows from the road.",
+   "rel": "part"
+  },
+  {
+   "to": "outside-brown",
+   "as": "the crusty outside of his shoulders, which Bob Garner described set aside on the block.",
+   "rel": "serves"
+  },
+  {
+   "to": "pitmaster",
+   "as": "'serving pork barbecue since 1962' — two decades before the dictionaries record the word.",
+   "rel": "term"
+  },
+  {
+   "to": "bob-garner",
+   "as": "wrote his Our State profile in 2012, the source for Tussey, Stamey and the summit.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "Lexington Barbecue — About Us",
+   "url": "https://www.lexbbq.com/about-us"
+  },
+  {
+   "label": "Lexington Barbecue — Our State (Bob Garner, 2012)",
+   "url": "https://www.ourstate.com/lexington-barbecue/"
+  },
+  {
+   "label": "Wayne Monk inducted into the NC Bar-B-Q Hall of Fame — DavidsonLocal (2024)",
+   "url": "https://www.davidsonlocal.com/news/wayne-monk-inducted-into-the-nc-bar-b-q-hall-of-fame"
+  },
+  {
+   "label": "Lexington Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue"
+  }
+ ],
+ "sources": [
+  "s:web-lexbbq-about",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-davidsonlocal-wayne-monk",
+  "s:web-adrianmiller-bbq-hof-2019",
+  "s:web-gardenandgun-keepers-of-the-flame",
+  "s:wp-lexington-barbecue",
+  "s:web-stameys-history",
+  "s:wp-skylight-inn-bbq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-lexington-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-lexington-barbecue",
+    "note": "carhop and Stamey from the restaurant's site and Garner; Tussey, the attorney and the summit guests from Garner (Our State 2012); Hunneycutt and the 2024 induction from DavidsonLocal; the 2019 induction and citation from Adrian Miller's post; three generations from Garden & Gun (2015); the 1938 purchase from Stamey's history"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-about",
+    "note": "the brief for this record suggested a 2024 death; searches of obituaries and news through September 2026 found none, and the restaurant's site presents him as founder without a death notice. Left as living, flagged for a check"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

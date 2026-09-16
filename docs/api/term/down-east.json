@@ -1,0 +1,338 @@
+{
+ "schema": 1,
+ "id": "down-east",
+ "type": "term",
+ "names": {
+  "name": "Down East",
+  "aliases": [
+   "down east",
+   "Downeast",
+   "Down-East"
+  ],
+  "said": "'Down East' in North Carolina is where the whole hog is; a Raleigh eater 'goes Down East for barbecue'. On the coast the phrase narrows to the fishing villages east of Beaufort."
+ },
+ "etymology": {
+  "root": "down + east, a sailing direction. Along the New England coast the summer wind is south-westerly, so a ship bound east from Boston runs downwind, and Maine was Down East (Wiktionary; Wikipedia). In North Carolina the same phrase names the coastal communities east of Beaufort in Carteret County and, broadened, the eastern part of the state (Wikipedia)",
+  "first_attested": "1817, nautical, for the New England sense (Wiktionary); 1810–20, an Americanism (dictionary.com); the North Carolina sense is undated in the sources consulted",
+  "note": "*Inference —* the North Carolina phrase is the same logic on another coast: rivers and roads run down to the sea, and east is where the sea is. No source consulted derives it from the Maine phrase, and none needs to.",
+  "tier": "cited",
+  "source": "s:wiktionary-down-east"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "letter": "D",
+  "part_of_speech": "phrase"
+ },
+ "text": {
+  "what": "In North Carolina, the coastal plain east of Raleigh — the barbecue east, where the hog is cooked whole and the sauce has no tomato; eastern North Carolina barbecue is also called Down East barbecue. The narrow sense is the string of fishing communities east of Beaufort in Carteret County — Bettie, Otway, Straits, Harkers Island, Gloucester, Marshallberg, out to Cedar Island — and Wikipedia says the phrase has broadened to mean eastern North Carolina generally, the central coastal plain of Greenville, Goldsboro, Kinston, New Bern, Rocky Mount, Tarboro, Washington and Wilson.",
+  "story": "The phrase is New England's first: a ship from Boston bound for Maine ran before the south-west wind, so Maine was down east, and the term is on record from 1817. North Carolina has its own. To Carteret County, Down East is the villages east of Beaufort, where the accent is the coastal 'High Tider' brogue; to Raleigh and the Piedmont the same words cover the whole coastal plain, and the towns Wikipedia lists for that broader sense are the barbecue towns — Rocky Mount, where Bob Melton opened the state's first sit-down barbecue restaurant in 1924; Wilson, where Ed Mitchell grew up; Greenville, with Ayden and the Skylight Inn just south. In the 1980s newspaper war over what barbecue meant, Dennis Rogers of the Raleigh News & Observer spoke for the east and Jerry Bledsoe of Greensboro for Lexington. *Tradition holds —* in barbecue talk Down East means whole hog and vinegar, and where it begins is argued; the fall line east of Raleigh is the usual answer. *Inference —* down is the way the rivers run — Neuse, Tar, Roanoke — and east is where they go; the Carolina phrase needs no ship."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style, which is also called Down East barbecue.",
+   "rel": "term"
+  },
+  {
+   "to": "whole-hog",
+   "as": "what Down East cooks.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the Down East sauce: no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-slaw",
+   "as": "the Down East slaw: mayonnaise, pale, on the bun.",
+   "rel": "serves"
+  },
+  {
+   "to": "piedmont",
+   "as": "the other direction — west of the fall line, where the shoulder and the dip begin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pee-dee",
+   "as": "South Carolina's name for the same whole-hog coastal plain, across the state line.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "in Ayden, a Down East pit in the broad sense, cooking whole hogs over wood since 1947.",
+   "rel": "place"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "in Rocky Mount, in the broadened Down East: the first sit-down barbecue restaurant in the state, 1924.",
+   "rel": "place"
+  },
+  {
+   "to": "bob-melton",
+   "as": "who cooked whole hog in an open pit by the Tar River before he sold it.",
+   "rel": "person"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "of Wilson, a Down East town in the broad sense, who learned barbecue at family gatherings there.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "as": "the Raleigh News & Observer columnist on the eastern side of the 1980s barbecue feud with Jerry Bledsoe.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "piedmont",
+   "tell": "Down East is east of the fall line — whole hog, clear sauce, white slaw. The Piedmont is west of it — shoulder, red dip, red slaw."
+  }
+ ],
+ "links": [
+  {
+   "label": "Down East (North Carolina) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Down_East_(North_Carolina)"
+  },
+  {
+   "label": "Down East — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Down_East"
+  },
+  {
+   "label": "down east — Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/down_east"
+  }
+ ],
+ "sources": [
+  "s:wiktionary-down-east",
+  "s:web-dictionary-com-down-east",
+  "s:wp-down-east",
+  "s:wp-down-east-north-carolina",
+  "s:wp-meltons-barbecue",
+  "s:wp-ed-mitchell-pitmaster",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-barbecue-in-north-carolina"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-down-east-north-carolina"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-down-east-north-carolina",
+    "note": "the Maine sense from Wiktionary and the Down East article; the towns from the North Carolina article; the columnists from the Barbecue in North Carolina article; two sentences marked tradition and inference"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage; the eastern-nc record lists 'Down East barbecue' among the style's names"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "In North Carolina, the coastal plain east of Raleigh — the barbecue east, where the hog is cooked whole and the sauce has no tomato; eastern North Carolina barbecue is also called Down East barbecue.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style, which is also called Down East barbecue.",
+   "rel": "term"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "what Down East cooks.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the Down East sauce: no tomato.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "the Down East slaw: mayonnaise, pale, on the bun.",
+   "rel": "serves"
+  },
+  {
+   "to": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the other direction — west of the fall line, where the shoulder and the dip begin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "South Carolina's name for the same whole-hog coastal plain, across the state line.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "in Ayden, a Down East pit in the broad sense, cooking whole hogs over wood since 1947.",
+   "rel": "place"
+  },
+  {
+   "to": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "in Rocky Mount, in the broadened Down East: the first sit-down barbecue restaurant in the state, 1924.",
+   "rel": "place"
+  },
+  {
+   "to": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "who cooked whole hog in an open pit by the Tar River before he sold it.",
+   "rel": "person"
+  },
+  {
+   "to": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "of Wilson, a Down East town in the broad sense, who learned barbecue at family gatherings there.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "the Raleigh News & Observer columnist on the eastern side of the 1980s barbecue feud with Jerry Bledsoe.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wiktionary-down-east",
+   "kind": "web",
+   "title": "down east — Wiktionary",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/down_east",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-dictionary-com-down-east",
+   "kind": "web",
+   "title": "down east — Dictionary.com",
+   "publisher": "Dictionary.com",
+   "url": "https://www.dictionary.com/browse/down-east",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-down-east",
+   "kind": "wikipedia",
+   "title": "Down East — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Down_East",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-down-east-north-carolina",
+   "kind": "wikipedia",
+   "title": "Down East (North Carolina) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Down_East_(North_Carolina)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-ed-mitchell-pitmaster",
+   "kind": "wikipedia",
+   "title": "Ed Mitchell (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ed_Mitchell_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-down-east-north-carolina"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-down-east-north-carolina",
+   "note": "the Maine sense from Wiktionary and the Down East article; the towns from the North Carolina article; the columnists from the Barbecue in North Carolina article; two sentences marked tradition and inference"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-down-east-north-carolina"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "he cooked whole hog in an open pit by the Tar River before he sold it.",
+   "rel": "term"
+  },
+  {
+   "from": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "the country he came from, Wilson, and wrote about.",
+   "rel": "term"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "North Carolina's name for the same coastal-plain whole-hog country.",
+   "rel": "kin"
+  },
+  {
+   "from": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the other side of the fall line.",
+   "rel": "contrast"
+  }
+ ]
+}

@@ -1,0 +1,408 @@
+{
+ "schema": 1,
+ "id": "jim-early",
+ "type": "person",
+ "names": {
+  "name": "Jim Early",
+  "aliases": [
+   "James Howard Early Jr.",
+   "Chef Early"
+  ],
+  "sort": "Early, Jim"
+ },
+ "region": [
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "role": [
+   "founder",
+   "organizer",
+   "writer",
+   "cook"
+  ],
+  "styles": [
+   "eastern-nc",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "James Howard Early Jr. (1939–2021), a Winston-Salem lawyer and cook who founded the North Carolina Barbecue Society in 2006 and led it until his death. His self-published guide, The Best Tar Heel Barbecue: Manteo to Murphy (2002), came out of a search through all hundred counties for pits still cooking pork over wood coals; the society's Historic Barbecue Trail is that list under rules he wrote — wood or charcoal on grates, a house sauce, fifteen years' cooking, no more than two stops in a town.",
+  "story": "Early was born in Henderson, grew up in Winston-Salem, took his bachelor's and law degrees at Wake Forest, and practiced law for years before barbecue took over. The search behind the book covered 22,000 miles and about 4,000 hours across the state's hundred counties; he found fewer than thirty restaurants still cooking over wood coals, six of them Black-owned and three owned by women. The society he founded in 2006 set itself to preserve the state's barbecue history and, in its own words, to secure North Carolina's place as the Barbecue Capital of the World; the less formal motto was to cook and eat barbecue as often as possible, preferably among friends. It ran two-day cooking boot camps three times a year — Tanglewood Park in May, Sugar Mountain in July, Castle Hayne in September — teaching whole hog, pork butt, ribs, chicken, brisket and Early's pimento cheese; CNN put the school on a 2012 list of ten cooking schools worldwide, the only one in the United States. He published a monthly magazine, Pigtails, and a second book, Jim Early's Reflections: The Memories and Recipes of a Southern Cook. In September 2017 he closed his law office to run the society full time. He took no side in the east–west argument, and told Our State in 2016 that '99.99 percent of places' now cooked with gas or electricity; the Trail bypasses all of them. He died on June 21, 2021, at 82, weeks after a stroke.",
+  "today": "Died June 21, 2021. The society's two web addresses did not resolve when this project checked on September 15, 2026; its Facebook page carries on as a forum, and the Trail's list is reprinted by Our State and others. His 2002 guidebook is held by libraries and sold used."
+ },
+ "kin": [
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "founded it in 2006, was its president, and ran it full time from September 2017 until his death.",
+   "rel": "kin"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "what he found at almost every pit in a hundred counties; fewer than thirty cooked over wood coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the fuel his Trail requires: wood or charcoal, on grates.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "as": "what the Trail's Piedmont stops cook in.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "taught at his boot camps, beside butts, ribs, chicken and brisket.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "bums-restaurant",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "stephensons-bar-b-q",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "allen-and-son",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "one of the events his society existed to promote.",
+   "rel": "event"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the eastern half of a Trail that runs Manteo to Murphy; he took no side.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "as": "the western half of the same Trail.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "North Carolina Barbecue Society — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/North_Carolina_Barbecue_Society"
+  },
+  {
+   "label": "WRAL, 2021 — society founder Jim Early dies",
+   "url": "https://www.wral.com/north-carolina-barbecue-society-founder-jim-early-dies/19843878/"
+  },
+  {
+   "label": "James Early obituary — Winston-Salem Journal via Legacy.com",
+   "url": "https://www.legacy.com/us/obituaries/winstonsalem/name/james-early-obituary?pid=199329162"
+  },
+  {
+   "label": "Our State, 2016 — the Historic Barbecue Trail",
+   "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/"
+  }
+ ],
+ "sources": [
+  "s:wp-north-carolina-barbecue-society",
+  "s:web-wral-jim-early-dies",
+  "s:web-legacy-jim-early-obituary",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:web-tanner-nc-hall-of-fame",
+  "s:early-best-tar-heel-barbecue",
+  "s:ncbs"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-legacy-jim-early-obituary"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-wral-jim-early-dies",
+    "note": "birth, degrees, Pigtails and the second book from the Winston-Salem Journal obituary; the miles, hours and counts from WRAL; the boot camps and CNN from the Wikipedia article; the Trail rules and the '99.99 percent' line from Our State (2016)"
+   },
+   "text.today": {
+    "tier": "field",
+    "note": "the dead web addresses are the society record's DNS check of 2026-09-15; the Facebook status from Tanner (2024); used copies seen listed on 2026-09-15"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "James Howard Early Jr. (1939–2021), a Winston-Salem lawyer and cook who founded the North Carolina Barbecue Society in 2006 and led it until his death.",
+ "region_terms": [
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "founded it in 2006, was its president, and ran it full time from September 2017 until his death.",
+   "rel": "kin"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "what he found at almost every pit in a hundred counties; fewer than thirty cooked over wood coals.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "the fuel his Trail requires: wood or charcoal, on grates.",
+   "rel": "kin"
+  },
+  {
+   "to": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "what the Trail's Piedmont stops cook in.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "taught at his boot camps, beside butts, ribs, chicken and brisket.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "bs-barbecue",
+   "type": "place",
+   "name": "B's Barbecue",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "bums-restaurant",
+   "type": "place",
+   "name": "Bum's Restaurant",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "stephensons-bar-b-q",
+   "type": "place",
+   "name": "Stephenson's Bar-B-Q",
+   "as": "a stop on the Trail he drew; WRAL named it in his obituary.",
+   "rel": "place"
+  },
+  {
+   "to": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "one of the events his society existed to promote.",
+   "rel": "event"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the eastern half of a Trail that runs Manteo to Murphy; he took no side.",
+   "rel": "kin"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the western half of the same Trail.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-north-carolina-barbecue-society",
+   "kind": "wikipedia",
+   "title": "North Carolina Barbecue Society — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/North_Carolina_Barbecue_Society",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-wral-jim-early-dies",
+   "kind": "web",
+   "title": "North Carolina Barbecue Society founder Jim Early dies (August 26, 2021)",
+   "publisher": "WRAL",
+   "url": "https://www.wral.com/north-carolina-barbecue-society-founder-jim-early-dies/19843878/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-legacy-jim-early-obituary",
+   "kind": "web",
+   "title": "James Early Obituary (1939–2021), Winston-Salem Journal",
+   "publisher": "Legacy.com",
+   "url": "https://www.legacy.com/us/obituaries/winstonsalem/name/james-early-obituary?pid=199329162",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-historic-barbecue-trail",
+   "kind": "web",
+   "title": "Running on Full: The North Carolina Historic Barbecue Trail (Bryan Mims, January 29, 2016)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-tanner-nc-hall-of-fame",
+   "kind": "web",
+   "title": "A New North Carolina Barbecue Hall of Fame (March 12, 2024)",
+   "publisher": "John Tanner's Barbecue Blog",
+   "url": "https://johntannersbbqblog.wordpress.com/2024/03/12/a-new-north-carolina-barbecue-hall-of-fame/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:early-best-tar-heel-barbecue",
+   "kind": "book",
+   "title": "The Best Tar Heel Barbecue: Manteo to Murphy",
+   "author": "Jim Early",
+   "publisher": "self-published",
+   "year": 2002
+  },
+  {
+   "id": "s:ncbs",
+   "kind": "org",
+   "title": "North Carolina Barbecue Society — Historic Barbecue Trail",
+   "url": "https://www.ncbbqsociety.com/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-legacy-jim-early-obituary"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-wral-jim-early-dies",
+   "note": "birth, degrees, Pigtails and the second book from the Winston-Salem Journal obituary; the miles, hours and counts from WRAL; the boot camps and CNN from the Wikipedia article; the Trail rules and the '99.99 percent' line from Our State (2016)"
+  },
+  "text.today": {
+   "tier": "field",
+   "note": "the dead web addresses are the society record's DNS check of 2026-09-15; the Facebook status from Tanner (2024); used copies seen listed on 2026-09-15"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "found fewer than thirty wood pits in a hundred counties; the rest cook this way.",
+   "rel": "person"
+  },
+  {
+   "from": "jack-cobb-and-son",
+   "type": "place",
+   "name": "Jack Cobb & Son Barbecue Place",
+   "as": "wrote it up in The Best Tar Heel Barbecue, the book behind the Society's trail.",
+   "rel": "person"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "its founder, president and guidebook author, 2006 until his death in 2021.",
+   "rel": "person"
+  }
+ ]
+}

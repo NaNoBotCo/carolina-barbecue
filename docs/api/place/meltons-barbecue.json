@@ -1,0 +1,352 @@
+{
+ "schema": 1,
+ "id": "meltons-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Melton's Barbecue",
+  "aliases": [
+   "Bob Melton's",
+   "Bob Melton's Barbecue",
+   "Melton's"
+  ],
+  "sort": "Meltons Barbecue"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "1924",
+  "fuel": "mixed",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "The Rocky Mount whole-hog house that Wikipedia records as North Carolina's first sit-down barbecue restaurant. Bob Melton, a horse trader, cooked hogs for friends in an open pit by the Tar River, sold meat by the pound, and in 1924 (some accounts say 1922) opened a shed of a restaurant that grew room by room. It served finely chopped whole hog with a vinegar sauce, boiled potatoes, slaw, corn sticks, hushpuppies and Brunswick stew, and sent barbecue out by bus to parties across the state. Floods from Hurricanes Fran and Floyd drove it out of the river bottom, and it closed in 2005.",
+  "story": "Robert Benjamin Melton traded horses in Rocky Mount and cooked whole hogs on the banks of the Tar River for his friends; by 1922 he was selling barbecue there, and in 1924 he built the shed that Wikipedia and UNC's North Carolina Miscellany call the state's first indoor, sit-down barbecue restaurant. In 1929 a plate with boiled potatoes cost 45 cents and a sandwich 15. Food writer Beth Tartan recorded that a Raleigh hostess with company coming would call and say 'Ride me a party,' and Melton's would put barbecue and fixings on the bus. Life magazine called him the King of Southern Barbecue in 1958, the year he died; his partners W.B. Melton, T.O. Fulghum and Add Smith carried on. By the time John Egerton visited for Southern Food (1993) the pits had gone from charcoal to gas with wood chips, a change he judged for the worse. The low ground flooded: after Hurricane Fran the restaurant reopened in ten days and customers came by boat for a stretch, and a plaque later marked the high-water line. Hurricane Floyd in 1999, the 75th-anniversary year, put water over the ceiling and silt through the building. The restaurant moved to a strip mall, could not make the numbers in a shrinking local economy, and closed in 2005.",
+  "how": "Small hogs of 80 to 90 pounds, cooked whole over charcoal in the early decades and over gas with wood chips by the 1990s, chopped fine — 'the consistency of chopped peanut butter,' a 1988 Boating writer said — and seasoned with a vinegar sauce. The sides were boiled potatoes, slaw, corn sticks, hushpuppies and Brunswick stew, the plate of the Coastal Plain.",
+  "today": "Closed since 2005. The original site was in the Tar River bottom at Rocky Mount; the map point marks the town, not the building."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style's first restaurant, which put the vinegar-sauced whole hog on a menu in 1924.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, small hogs of 80 to 90 pounds chopped fine.",
+   "rel": "part"
+  },
+  {
+   "to": "bob-melton",
+   "as": "its founder, the horse trader Life magazine crowned in 1958.",
+   "rel": "person"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "on the 45-cent plate of 1929 and on every plate after.",
+   "rel": "serves"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "a side here, as at the other eastern houses of its generation.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "served with corn sticks, both breads on one table.",
+   "rel": "serves"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "the switch it made from charcoal to gas and wood chips, which Egerton noted in 1993.",
+   "rel": "part"
+  }
+ ],
+ "geo": {
+  "lat": 35.9423833,
+  "lon": -77.7956949,
+  "precision": "town",
+  "source": "OpenStreetMap (Nominatim, town centroid of Rocky Mount, 2026-09-15)"
+ },
+ "address": {
+  "city": "Rocky Mount",
+  "state": "NC"
+ },
+ "links": [
+  {
+   "label": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue"
+  },
+  {
+   "label": "Bob Melton — North Carolina Miscellany (UNC Libraries)",
+   "url": "https://blogs.lib.unc.edu/ncm/tag/bob-melton/"
+  }
+ ],
+ "sources": [
+  "s:wp-meltons-barbecue",
+  "s:web-ncm-bob-melton",
+  "s:wp-whole-hog-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-meltons-barbecue",
+    "note": "the Life 1958 title, the 1922 riverbank start and the death year from North Carolina Miscellany; Wikipedia dates the Fran flood 1997 and Miscellany 1996 — the year is left out of the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "town centroid only; the riverside building is gone and its address is not on disk"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:wp-meltons-barbecue",
+   "tier": "cited",
+   "note": "Floods from Hurricanes Fran and Floyd drove it out of the river bottom; it closed in 2005.",
+   "since": "2005"
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:wp-meltons-barbecue",
+   "tier": "cited",
+   "note": "Small hogs of 80 to 90 pounds cooked whole and chopped fine."
+  }
+ ],
+ "blurb": "The Rocky Mount whole-hog house that Wikipedia records as North Carolina's first sit-down barbecue restaurant.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style's first restaurant, which put the vinegar-sauced whole hog on a menu in 1924.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, small hogs of 80 to 90 pounds chopped fine.",
+   "rel": "part"
+  },
+  {
+   "to": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "its founder, the horse trader Life magazine crowned in 1958.",
+   "rel": "person"
+  },
+  {
+   "to": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "on the 45-cent plate of 1929 and on every plate after.",
+   "rel": "serves"
+  },
+  {
+   "to": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "a side here, as at the other eastern houses of its generation.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "served with corn sticks, both breads on one table.",
+   "rel": "serves"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the switch it made from charcoal to gas and wood chips, which Egerton noted in 1993.",
+   "rel": "part"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-ncm-bob-melton",
+   "kind": "web",
+   "title": "bob melton — North Carolina Miscellany (UNC Libraries), post of 5 Jun 2023",
+   "publisher": "University of North Carolina at Chapel Hill Libraries",
+   "url": "https://blogs.lib.unc.edu/ncm/tag/bob-melton/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue",
+   "note": "the Life 1958 title, the 1922 riverbank start and the death year from North Carolina Miscellany; Wikipedia dates the Fran flood 1997 and Miscellany 1996 — the year is left out of the prose"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "town centroid only; the riverside building is gone and its address is not on disk"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": [],
+   "source": "s:wp-meltons-barbecue",
+   "note": "Floods from Hurricanes Fran and Floyd drove it out of the river bottom; it closed in 2005.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:wp-meltons-barbecue",
+   "note": "Small hogs of 80 to 90 pounds cooked whole and chopped fine.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "where a sandwich cost 15 cents in 1929.",
+   "rel": "served-at"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "where a plate with boiled potatoes cost 45 cents in 1929.",
+   "rel": "served-at"
+  },
+  {
+   "from": "boiled-potatoes",
+   "type": "dish",
+   "name": "boiled potatoes",
+   "as": "where a plate with boiled potatoes cost 45 cents in 1929.",
+   "rel": "served-at"
+  },
+  {
+   "from": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "where it sat beside boiled potatoes and corn sticks from 1924 to 2005.",
+   "rel": "served-at"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "which served corn sticks and hushpuppies on one table, beside boiled potatoes.",
+   "rel": "served-at"
+  },
+  {
+   "from": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "the shed he built by the Tar River in 1924, the state's first sit-down barbecue restaurant.",
+   "rel": "place"
+  },
+  {
+   "from": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "which chopped whole hog so fine a 1988 writer compared it to chopped peanut butter.",
+   "rel": "place"
+  },
+  {
+   "from": "down-east",
+   "type": "term",
+   "name": "Down East",
+   "as": "in Rocky Mount, in the broadened Down East: the first sit-down barbecue restaurant in the state, 1924.",
+   "rel": "place"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "which put 'barbecue and fixings on the bus' for Raleigh parties.",
+   "rel": "place"
+  },
+  {
+   "from": "light-bread",
+   "type": "term",
+   "name": "light bread",
+   "as": "selling a barbecue sandwich for 15 cents in 1929.",
+   "rel": "place"
+  },
+  {
+   "from": "barbecue-postcards",
+   "type": "art",
+   "name": "barbecue postcards",
+   "as": "a Rocky Mount pit of exactly this period, when a Carolina barbecue house would order cards.",
+   "rel": "place"
+  }
+ ]
+}

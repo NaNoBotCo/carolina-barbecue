@@ -1,0 +1,394 @@
+{
+ "schema": 1,
+ "id": "pit",
+ "type": "term",
+ "names": {
+  "name": "pit",
+  "aliases": [
+   "barbecue pit",
+   "the pit",
+   "pit house",
+   "open pit"
+  ],
+  "said": "'The pit' is the brick or block box the coals go in, the room it sits in, and often the whole business: 'out back at the pit', 'the pit opens at ten'."
+ },
+ "etymology": {
+  "root": "Old English pytt 'a hole in the ground, water hole, well, grave', a Germanic borrowing of Latin puteus 'well, pit, shaft'; the barbecue sense keeps the hole's name after the hole has become a box of brick or cinder block above ground, and then a gas cooker inside a building",
+  "first_attested": "Old English (etymonline); the barbecue-pit sense is undated in the dictionaries consulted — Wiktionary lists two dozen senses of pit and none for barbecue",
+  "note": "Wikipedia's article on pit barbecue says the word is applied across the 'barbecue belt' to an enclosed, above-ground pit; NCpedia says few commercial barbecue pits today are dug in the ground.",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "letter": "P",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The place the cooking happens. First a trench in the ground filled with hardwood coals, the split hog on a rack above; then a wide, shallow container of cinder block, brick or steel above ground, still a pit; then, at many places, a gas cooker, still the pit. The word also names the room, the building — a pit house — and the restaurant, as in Backyard BBQ Pit or Dickey's Barbecue Pit. A smokehouse is a different building: a windowless outbuilding where hams and bacon are cured in cold smoke for weeks, not a place a meal is cooked.",
+  "story": "Pit is a Germanic borrowing of Latin puteus, a well; in Old English a hole, a well, a grave and hell. The barbecue pit was that hole: Wikipedia's article on pit barbecue describes meat cooked buried below ground, an earth-oven practice of Indigenous peoples. The whole-hog article has the pit dug into the earth or built above it as a wide, shallow container, usually of cinder blocks, filled with charcoal burned down from wood in a fireplace or a burn barrel; the South Carolina Encyclopedia gives the traditional pit as an open pit fuelled by hardwood coals in a rectangular cement-block structure, the meat suspended above. NCpedia says few commercial pits today are dug in the ground; the whole-hog article says new restaurants mostly use gas-fired pits and many older ones have switched. At the Skylight Inn the pit crew makes its charcoal from oak and hickory logs in fireplaces beside the pits. Ed Mitchell co-founded a Raleigh restaurant called The Pit. *Inference —* a word that survived the loss of the hole survived the loss of the fire: the pit is wherever the barbecue is made, and the name on the sign says so."
+ },
+ "kin": [
+  {
+   "to": "brick-pit",
+   "as": "the masonry pit, the first form above ground.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "as": "the cinder-block pit, the common whole-hog form: a rectangular cement-block structure with the meat above the coals.",
+   "rel": "part"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "the drum beside the pit where logs become the coals shovelled in.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "what burns beside the pit to make its coals.",
+   "rel": "part"
+  },
+  {
+   "to": "direct-heat",
+   "as": "the pit's way of cooking: coals under the meat, the meat on a rack above.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "as": "the cooker that replaced the coals at many pits and kept the name.",
+   "rel": "descendant"
+  },
+  {
+   "to": "pig-cooker",
+   "as": "the pig pickin's charcoal or propane cooker, homemade or custom-built: a pit on wheels.",
+   "rel": "kin"
+  },
+  {
+   "to": "pitmaster",
+   "as": "the person; the word is built on this one.",
+   "rel": "term"
+  },
+  {
+   "to": "backyard-bbq-pit",
+   "as": "a Durham restaurant named for the thing.",
+   "rel": "place"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where the coals for the pits are burned down from oak and hickory in fireplaces beside them.",
+   "rel": "place"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "as": "a Greenville, South Carolina pit that calls itself a smokehouse — the two words meet on the sign.",
+   "rel": "place"
+  },
+  {
+   "to": "ed-mitchell",
+   "as": "who co-founded The Pit in Raleigh and left it in 2011.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "gas-and-electric-cookers",
+   "tell": "A cooker is an appliance; a pit is a place. When a pit switches to gas the appliance sits inside the place and the sign does not change."
+  },
+  {
+   "id": "pig-cooker",
+   "tell": "A pig cooker is towed to the party; a pit stays where it was built."
+  }
+ ],
+ "links": [
+  {
+   "label": "pit — Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/word/pit"
+  },
+  {
+   "label": "Pit barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pit_barbecue"
+  },
+  {
+   "label": "Whole hog barbecue — Wikipedia (Preparation)",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue#Preparation"
+  }
+ ],
+ "sources": [
+  "s:etymonline",
+  "s:wiktionary-pit",
+  "s:wp-pit-barbecue",
+  "s:wp-whole-hog-barbecue",
+  "s:web-sc-encyclopedia-barbecue",
+  "s:ncpedia-barbecue",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-ed-mitchell-pitmaster",
+  "s:wp-smokehouse",
+  "s:wp-barbecue-in-the-united-states",
+  "s:wp-pig-pickin"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-whole-hog-barbecue",
+    "note": "the ground pit from the Pit barbecue article; the block pit from the Whole hog article and the SC Encyclopedia; the last sentence is inference"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage; the restaurant names are Backyard BBQ Pit (cast list) and Dickey's Barbecue Pit (Barbecue in the United States article)"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The place the cooking happens. First a trench in the ground filled with hardwood coals, the split hog on a rack above; then a wide, shallow container of cinder block, brick or steel above ground, still a pit; then, at…",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the masonry pit, the first form above ground.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the cinder-block pit, the common whole-hog form: a rectangular cement-block structure with the meat above the coals.",
+   "rel": "part"
+  },
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the drum beside the pit where logs become the coals shovelled in.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "what burns beside the pit to make its coals.",
+   "rel": "part"
+  },
+  {
+   "to": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the pit's way of cooking: coals under the meat, the meat on a rack above.",
+   "rel": "part"
+  },
+  {
+   "to": "gas-and-electric-cookers",
+   "type": "pit",
+   "name": "gas and electric cookers",
+   "as": "the cooker that replaced the coals at many pits and kept the name.",
+   "rel": "descendant"
+  },
+  {
+   "to": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "the pig pickin's charcoal or propane cooker, homemade or custom-built: a pit on wheels.",
+   "rel": "kin"
+  },
+  {
+   "to": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "the person; the word is built on this one.",
+   "rel": "term"
+  },
+  {
+   "to": "backyard-bbq-pit",
+   "type": "place",
+   "name": "Backyard BBQ Pit",
+   "as": "a Durham restaurant named for the thing.",
+   "rel": "place"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "where the coals for the pits are burned down from oak and hickory in fireplaces beside them.",
+   "rel": "place"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "type": "place",
+   "name": "Henry's Smokehouse",
+   "as": "a Greenville, South Carolina pit that calls itself a smokehouse — the two words meet on the sign.",
+   "rel": "place"
+  },
+  {
+   "to": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "who co-founded The Pit in Raleigh and left it in 2011.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline",
+   "kind": "web",
+   "title": "Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "id": "s:wiktionary-pit",
+   "kind": "web",
+   "title": "pit — Wiktionary",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/pit",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-pit-barbecue",
+   "kind": "wikipedia",
+   "title": "Pit barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pit_barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:web-sc-encyclopedia-barbecue",
+   "kind": "web",
+   "title": "Barbecue — South Carolina Encyclopedia",
+   "publisher": "University of South Carolina, Institute for Southern Studies",
+   "url": "https://www.scencyclopedia.org/sce/entries/barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-ed-mitchell-pitmaster",
+   "kind": "wikipedia",
+   "title": "Ed Mitchell (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ed_Mitchell_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-smokehouse",
+   "kind": "wikipedia",
+   "title": "Smokehouse — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Smokehouse",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-the-united-states",
+   "kind": "wikipedia",
+   "title": "Barbecue in the United States — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_the_United_States",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue",
+   "note": "the ground pit from the Pit barbecue article; the block pit from the Whole hog article and the SC Encyclopedia; the last sentence is inference"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the word, which in the east means this open bed of coals.",
+   "rel": "term"
+  },
+  {
+   "from": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the word, which in the Piedmont means this brick chamber.",
+   "rel": "term"
+  },
+  {
+   "from": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "the word for the hole, then the box, that holds the coals under the meat.",
+   "rel": "term"
+  },
+  {
+   "from": "ed-mitchell",
+   "type": "person",
+   "name": "Ed Mitchell",
+   "as": "The Pit, the Raleigh restaurant he co-founded in 2007 and left in 2011, took the word for its name.",
+   "rel": "term"
+  },
+  {
+   "from": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "the word it is built on.",
+   "rel": "term"
+  }
+ ]
+}

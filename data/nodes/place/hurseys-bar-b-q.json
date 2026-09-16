@@ -1,0 +1,154 @@
+{
+ "schema": 1,
+ "id": "hurseys-bar-b-q",
+ "type": "place",
+ "names": {
+  "name": "Hursey's Bar-B-Q",
+  "aliases": [
+   "Hursey's",
+   "Hursey's Pig Pickin' Bar-B-Q",
+   "Hursey's BBQ"
+  ],
+  "sort": "Hurseys Bar-B-Q"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1945",
+  "fuel": "unknown",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The Burlington, Alamance County, barbecue business of the Hursey family: Sylvester and Daisy Hursey began smoking pork over a backyard pit in 1945 with a sauce of their own, moved to a cafe in Gibsonville with two big pits behind it, and built a Burlington restaurant on Rauhut Street in 1957; their son Charles took over the Burlington trade in 1966, and his sons Chuck and Chris manage it now, a fourth generation coming on. It smokes more than 1,200 pork shoulders a week over hickory, plus hams, for five restaurants, a catering house and a wholesale trade; broasted chicken and hot apple turnovers are the other things it is known for.",
+  "story": "The family's telling starts in the mid-1940s with Sylvester Hursey and a friend cooking their first pig after a night out; in 1945 he and Daisy set up a homemade pit in the yard and sold to neighbors, using his father's way with hickory-smoked pork and a sauce they kept to themselves. When the yard was too small they bought a cafe on Piedmont Street in Gibsonville and built two large pits behind it. The family says the state issued them its first license to wholesale barbecue — in 1949 by the company's history, in 1945 by Our State's 2014 account. Sylvester built the Rauhut Street restaurant in Burlington in 1957; Charles Hursey went full-time in 1960 out of high school and took over Rauhut Street in mid-1966, expanding the wholesale plant on Highway 87 North. Our State in 2014 found Charles, about seventy, and his wife Ellen at the register, and counted five addresses in Burlington, Graham and Mebane. The company lists a win at a North and South Carolina cook-off held in Washington, D.C., and a National Golden Chicken Award among its credentials.",
+  "how": "Pork shoulders, more than 1,200 a week, and hams are hickory-smoked and served chopped or sliced with the family's Old-Fashioned Barbecue Sauce and hushpuppies; broasted chicken — pressure-fried — and hot apple turnovers are the other things people drive for. The wholesale kitchen also makes hot-dog chili by the ton: Our State reckoned 200,000 hot dogs' worth in ten days.",
+  "today": "Open daily 11 to 9 at 1834 South Church Street, Burlington, per OpenStreetMap (2026); four more Hursey's stand in Burlington, Graham and Mebane (Our State, 2014)."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style, on shoulders with a Piedmont sauce, at wholesale scale.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut, 1,200 a week and more.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the plate.",
+   "rel": "serves"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "the phrase on the South Church Street sign, 'Pig Pickin' Bar-B-Q'.",
+   "rel": "term"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory smoke; the cooker type is not described in the sources read.",
+   "rel": "part"
+  }
+ ],
+ "geo": {
+  "lat": 36.08222,
+  "lon": -79.46281,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "1834 S Church St",
+  "city": "Burlington",
+  "county": "Alamance",
+  "state": "NC",
+  "postcode": "27215"
+ },
+ "links": [
+  {
+   "label": "Hursey's BBQ — official",
+   "url": "https://www.hurseysbarbq.com/"
+  },
+  {
+   "label": "Hursey's Bar-B-Q — Our State (2014)",
+   "url": "https://www.ourstate.com/hurseys-bar-b-q/"
+  }
+ ],
+ "sources": [
+  "s:web-hurseysbarbq-about",
+  "s:web-ourstate-hurseys",
+  "s:osm",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-hurseysbarbq-about"
+  },
+  "fields": {
+   "facets": {
+    "tier": "cited",
+    "source": "s:web-hurseysbarbq-about",
+    "note": "fuel left unknown: both sources say hickory-smoked, neither describes the cooker"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "harvest row way/371725551; the Mebane row (Compass Dr) is a second Hursey's"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. Both of this record's own sources say hickory-smoked without describing the cooker, so the certification is the fuel evidence.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-hurseysbarbq-about",
+   "tier": "cited",
+   "note": "Sylvester and Daisy Hursey began over a backyard pit in 1945; their son Charles took over the Burlington trade in 1966 and his sons Chuck and Chris manage it now, a fourth generation coming on."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Hursey's Barbecue",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Hursey's Barbecue, Burlington",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-hurseys",
+   "year": 2014
+  }
+ ]
+}

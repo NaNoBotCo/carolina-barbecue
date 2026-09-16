@@ -1,0 +1,786 @@
+{
+ "schema": 1,
+ "id": "sc-pee-dee",
+ "type": "style",
+ "names": {
+  "name": "Pee Dee whole-hog barbecue",
+  "aliases": [
+   "Pee Dee barbecue",
+   "vinegar-and-pepper barbecue",
+   "Williamsburg County barbecue",
+   "South Carolina whole hog"
+  ],
+  "said": "In the Pee Dee a place 'cooks hogs'. The sauce is 'the sauce' or 'pepper vinegar'; Brown's in Kingstree calls its own 'barbecue gravy'."
+ },
+ "region": [
+  "sc-pee-dee",
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "meat": "whole hog",
+  "base": "vinegar-pepper",
+  "fuel": "wood"
+ },
+ "text": {
+  "what": "Whole hogs cooked overnight over hardwood coals, pulled or chopped, and dressed with a thin sauce of vinegar, salt, black pepper and red pepper — the same sauce as eastern North Carolina's across the state line. The skin is taken off and fried into skins sold by the bag. Hash over rice, chicken bog, slaw and white bread fill the plate, often from a buffet. The style belongs to the Pee Dee, the northeast of South Carolina along the Pee Dee and Black rivers — Hemingway, Kingstree, Manning, Florence — and runs down the coast, where the state tourism office marks vinegar-and-pepper as the sauce of the shore.",
+  "story": "The vinegar-and-pepper sauce is the oldest in the Carolinas; the state tourism office calls it 'the oldest sauce, perhaps the oldest in the nation'. The South Carolina Barbeque Association ties it to the Scots who settled Williamsburg County, and Wikipedia's history of barbecue sauce credits enslaved African cooks with popularising the vinegar, black pepper and chili-flake sauce of the eastern Carolinas. *Tradition holds —* the Pee Dee's whole hog is the same cooking as the Coastal Plain's north of the line, one tradition with a border through it.\n\nThe pits that carry it are family stores. Theron Burrows opened an Esso station and country store on the new Highway 521 between Manning and Georgetown in 1937; George and Adalyn Cooper took it over in 1974, and Russell Cooper cooks whole hogs there beside the hardware and the hams with a sauce he calls 'downright vinegar and salt and pepper'. Roosevelt and Ella Scott opened a gas station and variety store in an oak grove at Hemingway in 1972 and cooked a hog or two on weekends; their son Rodney cooked his first at eleven, and by 2012 the store cooked eight to ten a night. Thomas Brown, a farmer, began selling plates from a window on his farm outside Kingstree in 1981 and built a dining room a decade later. Kingstree holds a Pig Pickin' Festival each fall, judged on vinegar-based barbecue, and Hemingway a Bar-B-Q Shag Festival each spring.\n\nRodney Scott left the family business after a quarrel with his father in 2016 and opened Rodney Scott's Whole Hog BBQ in Charleston with Nick Pihakis in February 2017; in 2018 the James Beard Foundation named him Best Chef: Southeast, the second pitmaster to win a chef award, and after his Chef's Table episode in 2020 the restaurant set sales records three days running. Roosevelt Scott died in 2010 and Ella in 2023; the Hemingway store closed for five months and reopened in May 2024 under Ella's brother Sam Wilson and grandson Dominic Scott. In May 2026 the Charleston company's locations were reported closed temporarily under lawsuits and liens.",
+  "how": "At Scott's the wood — freshly cut hickory, pecan and oak — burns down in a barrel of sheet metal with old truck axles for a grate; the embers are scooped from the bottom and hauled into the pit house under cinder-block-and-brick pits to hold the heat for twelve hours or more while the hog cooks overnight. Cooper's cooks chickens on one half of the pit and hogs on the other. The meat is pulled at Scott's, chopped at Brown's, 'picked and mixed' at McCabe's after up to twelve hours; at Brown's the vinegar-and-hot-pepper 'gravy' is mopped on as the hog smokes. It is served as a sandwich on white bread or a plate with beans and slaw, with skins sold on the side.",
+  "today": "Scott's Bar-B-Que at Hemingway is open Wednesday to Saturday; Cooper's Country Store sells gasoline, groceries, hardware and whole-hog barbecue on Highway 521; Brown's in Kingstree and McCabe's in Manning cook whole hogs for their buffets. Rodney Scott's Charleston restaurants were reported closed temporarily in May 2026."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the same cooking north of the line: whole hog, vinegar and pepper, no tomato. The Pee Dee is the eastern tradition's southern half.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "its sauce: vinegar, salt, black and red pepper, mopped on the hog and poured over the meat.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the other South Carolina: yellow sauce in the middle of the state, where this is clear vinegar in the northeast.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "shares the Pee Dee with it on the tourism office's map — the same sauce with ketchup in it.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, cooked overnight and pulled or chopped whole.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-skins",
+   "as": "the skin, taken off and fried, sold by the bag at Scott's.",
+   "rel": "serves"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the stew over rice that shares the buffet with the pork.",
+   "rel": "serves"
+  },
+  {
+   "to": "chicken-bog",
+   "as": "the Pee Dee's chicken-and-rice pilaf, most at home from Florence to the coast.",
+   "rel": "serves"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "the sheet-metal barrel with truck axles for a grate in which Scott's burns its wood to embers.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "as": "the cinder-block-and-brick pits at Scott's, fed with embers through the night.",
+   "rel": "part"
+  },
+  {
+   "to": "direct-heat",
+   "as": "coals shovelled under the hog, not smoke from a firebox.",
+   "rel": "part"
+  },
+  {
+   "to": "pee-dee",
+   "as": "the region: the northeast of the state along the Pee Dee River.",
+   "rel": "term"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "cooked his first hog at eleven at his parents' Hemingway store and carried the style to Charleston and a James Beard award.",
+   "rel": "person"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "as": "the Scott family's store and pit house at Hemingway, since 1972.",
+   "rel": "place"
+  },
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "as": "Rodney Scott's Charleston restaurant, opened February 2017: whole hog with a spicy vinegar sauce.",
+   "rel": "place"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "Thomas Brown's farm pit outside Kingstree, since 1981, where the vinegar-and-hot-pepper 'gravy' is mopped onto the hog.",
+   "rel": "place"
+  },
+  {
+   "to": "mccabes-bar-b-q",
+   "as": "Manning's whole-hog pit: pigs cooked up to twelve hours, then picked and mixed.",
+   "rel": "place"
+  },
+  {
+   "to": "coopers-country-store",
+   "as": "the 1937 filling station and store on Highway 521 where Russell Cooper cooks whole hogs with 'downright vinegar and salt and pepper'.",
+   "rel": "place"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "Kingstree's fall Pig Pickin' Festival, a cook-off judged on vinegar-based barbecue.",
+   "rel": "event"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "whose 2012 oral histories with Rodney Scott, Russell Cooper and the Browns are this page's record.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "pulled pork on white bread at Scott's.",
+   "rel": "serves"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "eastern-nc",
+   "tell": "Nothing on the tray tells them apart — whole hog, vinegar and pepper, pale slaw on both sides of the line. Hash and rice or chicken bog on the plate, and skins by the bag at the counter, put you in South Carolina."
+  },
+  {
+   "id": "sc-mustard",
+   "tell": "Clear sauce and pale meat is the Pee Dee; yellow is the Midlands. Both may cook whole hogs and both serve hash."
+  }
+ ],
+ "geo": {
+  "lat": 33.7517,
+  "lon": -79.4464,
+  "precision": "region",
+  "source": "Hemingway, Scott's town, in the Williamsburg County whole-hog country (Wikipedia coordinates)"
+ },
+ "links": [
+  {
+   "label": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina"
+  },
+  {
+   "label": "Scott's Bar-B-Que — Southern Foodways Alliance oral history",
+   "url": "https://www.southernfoodways.org/interview/scotts-bar-b-que/"
+  },
+  {
+   "label": "Cooper's Country Store — Southern Foodways Alliance oral history",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/"
+  },
+  {
+   "label": "Time & Tradition of Whole-Hog Barbecue — Discover South Carolina",
+   "url": "https://discoversouthcarolina.com/articles/time-and-tradition-of-whole-hog-barbecue"
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-south-carolina",
+  "s:wp-barbecue-sauce",
+  "s:wp-scotts-variety-store-and-bar-b-q",
+  "s:wp-rodney-scott",
+  "s:wp-rodney-scotts-whole-hog-bbq",
+  "s:wp-kingstree-south-carolina",
+  "s:wp-hemingway-south-carolina",
+  "s:wp-chicken-bog",
+  "s:wp-whole-hog-barbecue",
+  "s:web-sc-four-sauces",
+  "s:web-scba-bbq-history",
+  "s:web-sfa-scotts",
+  "s:web-scotts-destination-bbq",
+  "s:web-sfa-coopers",
+  "s:web-sfa-browns",
+  "s:web-sc-whole-hog",
+  "s:web-sfa-sc-trail",
+  "s:sfa-oral-histories"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-south-carolina"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-sfa-scotts",
+    "note": "the sauce's age from the tourism office and the SCBA history, its Black origins from the Wikipedia sauce article; Cooper's, Scott's and Brown's from the SFA 2012 interviews; the festivals from the Kingstree and Hemingway articles; Rodney Scott's career and the 2023–26 events from the three Wikipedia articles; the one-tradition sentence is marked tradition"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-scotts-destination-bbq",
+    "note": "the burn barrel, woods and pits from Destination BBQ's Scott's page; Cooper's pit from the SFA; Brown's mop and McCabe's timing from the tourism office's whole-hog article"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-scotts-destination-bbq",
+    "note": "hours from Destination BBQ; the May 2026 closure from the Rodney Scott's Whole Hog BBQ article; check before driving"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "Wikipedia coordinates for Hemingway; region precision"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Whole hogs cooked overnight over hardwood coals, pulled or chopped, and dressed with a thin sauce of vinegar, salt, black pepper and red pepper — the same sauce as eastern North Carolina's across the state line.",
+ "region_terms": [
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the same cooking north of the line: whole hog, vinegar and pepper, no tomato. The Pee Dee is the eastern tradition's southern half.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "its sauce: vinegar, salt, black and red pepper, mopped on the hog and poured over the meat.",
+   "rel": "sauce"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the other South Carolina: yellow sauce in the middle of the state, where this is clear vinegar in the northeast.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "shares the Pee Dee with it on the tourism office's map — the same sauce with ketchup in it.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, cooked overnight and pulled or chopped whole.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "the skin, taken off and fried, sold by the bag at Scott's.",
+   "rel": "serves"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the stew over rice that shares the buffet with the pork.",
+   "rel": "serves"
+  },
+  {
+   "to": "chicken-bog",
+   "type": "dish",
+   "name": "chicken bog",
+   "as": "the Pee Dee's chicken-and-rice pilaf, most at home from Florence to the coast.",
+   "rel": "serves"
+  },
+  {
+   "to": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "the sheet-metal barrel with truck axles for a grate in which Scott's burns its wood to embers.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "the cinder-block-and-brick pits at Scott's, fed with embers through the night.",
+   "rel": "part"
+  },
+  {
+   "to": "direct-heat",
+   "type": "pit",
+   "name": "direct heat",
+   "as": "coals shovelled under the hog, not smoke from a firebox.",
+   "rel": "part"
+  },
+  {
+   "to": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the region: the northeast of the state along the Pee Dee River.",
+   "rel": "term"
+  },
+  {
+   "to": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "cooked his first hog at eleven at his parents' Hemingway store and carried the style to Charleston and a James Beard award.",
+   "rel": "person"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "the Scott family's store and pit house at Hemingway, since 1972.",
+   "rel": "place"
+  },
+  {
+   "to": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "Rodney Scott's Charleston restaurant, opened February 2017: whole hog with a spicy vinegar sauce.",
+   "rel": "place"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "Thomas Brown's farm pit outside Kingstree, since 1981, where the vinegar-and-hot-pepper 'gravy' is mopped onto the hog.",
+   "rel": "place"
+  },
+  {
+   "to": "mccabes-bar-b-q",
+   "type": "place",
+   "name": "McCabe's Bar-B-Q",
+   "as": "Manning's whole-hog pit: pigs cooked up to twelve hours, then picked and mixed.",
+   "rel": "place"
+  },
+  {
+   "to": "coopers-country-store",
+   "type": "place",
+   "name": "Cooper's Country Store",
+   "as": "the 1937 filling station and store on Highway 521 where Russell Cooper cooks whole hogs with 'downright vinegar and salt and pepper'.",
+   "rel": "place"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "Kingstree's fall Pig Pickin' Festival, a cook-off judged on vinegar-based barbecue.",
+   "rel": "event"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "whose 2012 oral histories with Rodney Scott, Russell Cooper and the Browns are this page's record.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "pulled pork on white bread at Scott's.",
+   "rel": "serves"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-sauce",
+   "kind": "wikipedia",
+   "title": "Barbecue sauce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sauce",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-scotts-variety-store-and-bar-b-q",
+   "kind": "wikipedia",
+   "title": "Scott's Variety Store and Bar-B-Q — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scott%27s_Variety_Store_and_Bar-B-Q",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-rodney-scott",
+   "kind": "wikipedia",
+   "title": "Rodney Scott (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-rodney-scotts-whole-hog-bbq",
+   "kind": "wikipedia",
+   "title": "Rodney Scott's Whole Hog BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott%27s_Whole_Hog_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-kingstree-south-carolina",
+   "kind": "wikipedia",
+   "title": "Kingstree, South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kingstree,_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-hemingway-south-carolina",
+   "kind": "wikipedia",
+   "title": "Hemingway, South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hemingway,_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-chicken-bog",
+   "kind": "wikipedia",
+   "title": "Chicken bog — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_bog",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1364534069"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:web-sc-four-sauces",
+   "kind": "web",
+   "title": "South Carolina's Four Barbecue Sauces (Gwen Fowler)",
+   "publisher": "South Carolina Department of Parks, Recreation & Tourism — discoversouthcarolina.com",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-scotts",
+   "kind": "web",
+   "title": "Scott's Bar-B-Que — oral history with Rodney Scott (Rien Fertel, 21 Jun 2012)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/scotts-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scotts-destination-bbq",
+   "kind": "web",
+   "title": "The Scott's Bar-B-Que in Hemingway",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/scotts-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-coopers",
+   "kind": "web",
+   "title": "Cooper's Country Store — oral history with Russell Cooper (Rien Fertel, 15 Jun 2012)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-browns",
+   "kind": "web",
+   "title": "Brown's Bar-B-Q — oral history with Thomas and Angela Brown (Rien Fertel, 17 Jun 2012)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/browns-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sc-whole-hog",
+   "kind": "web",
+   "title": "Time & Tradition of Whole-Hog Barbecue",
+   "publisher": "South Carolina Department of Parks, Recreation & Tourism — discoversouthcarolina.com",
+   "url": "https://discoversouthcarolina.com/articles/time-and-tradition-of-whole-hog-barbecue",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-sc-trail",
+   "kind": "web",
+   "title": "South Carolina BBQ — Southern BBQ Trail",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/south-carolina-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-oral-histories",
+   "kind": "oral-history",
+   "title": "Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina)",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "note": "interviews with pitmasters and owners; cite the individual interview page in the record's links"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-south-carolina"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-sfa-scotts",
+   "note": "the sauce's age from the tourism office and the SCBA history, its Black origins from the Wikipedia sauce article; Cooper's, Scott's and Brown's from the SFA 2012 interviews; the festivals from the Kingstree and Hemingway articles; Rodney Scott's career and the 2023–26 events from the three Wikipedia articles; the one-tradition sentence is marked tradition"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-scotts-destination-bbq",
+   "note": "the burn barrel, woods and pits from Destination BBQ's Scott's page; Cooper's pit from the SFA; Brown's mop and McCabe's timing from the tourism office's whole-hog article"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-scotts-destination-bbq",
+   "note": "hours from Destination BBQ; the May 2026 closure from the Rodney Scott's Whole Hog BBQ article; check before driving"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "Wikipedia coordinates for Hemingway; region precision"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "its nearest cousin across the state line: the Pee Dee also cooks the whole hog with a vinegar-pepper sauce.",
+   "rel": "kin"
+  },
+  {
+   "from": "sc-heavy-tomato",
+   "type": "style",
+   "name": "Heavy tomato barbecue",
+   "as": "the other end of the state, whole hog and clear vinegar, which the SCBA's history counts as the oldest sauce where this is the newest.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "shares the Pee Dee with it; the tourism office puts both sauces there, and the whole hog under both.",
+   "rel": "kin"
+  },
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the other South Carolina: whole hog and clear vinegar-pepper in the northeast, where this is mustard in the middle.",
+   "rel": "contrast"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the whole-hog country it shares with vinegar-and-pepper.",
+   "rel": "kin"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the same sauce south of the line, on the Pee Dee's whole hogs and down the coast.",
+   "rel": "whole"
+  },
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "on Rodney Scott's Charleston menu with the catfish and ribs.",
+   "rel": "whole"
+  },
+  {
+   "from": "blenheim-ginger-ale",
+   "type": "dish",
+   "name": "Blenheim Ginger Ale",
+   "as": "a Pee Dee product, from the springs at Blenheim in Marlboro County.",
+   "rel": "whole"
+  },
+  {
+   "from": "chicken-bog",
+   "type": "dish",
+   "name": "chicken bog",
+   "as": "the region's own pot, cooked for the tobacco crew where the pit cooks the whole hog.",
+   "rel": "whole"
+  },
+  {
+   "from": "dukes-mayonnaise",
+   "type": "dish",
+   "name": "Duke's mayonnaise",
+   "as": "a South Carolina product, made outside Greenville since 1917.",
+   "rel": "whole"
+  },
+  {
+   "from": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "where liver hash holds on, around Florence, Latta and Hemingway.",
+   "rel": "kin"
+  },
+  {
+   "from": "pork-skins",
+   "type": "dish",
+   "name": "pork skins",
+   "as": "where the hog is sometimes skinned before cooking and the skin fried separately.",
+   "rel": "kin"
+  },
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the South Carolina region that keeps the whole hog under a vinegar-pepper sauce; the pig is sometimes skinned first and the skin fried.",
+   "rel": "whole"
+  },
+  {
+   "from": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "its style: whole hog with vinegar and hot pepper, in Williamsburg County.",
+   "rel": "whole"
+  },
+  {
+   "from": "buxton-hall-barbecue",
+   "type": "place",
+   "name": "Buxton Hall Barbecue",
+   "as": "the hash over rice came from Moss's South Carolina; the two Carolinas shared one plate here.",
+   "rel": "kin"
+  },
+  {
+   "from": "coopers-country-store",
+   "type": "place",
+   "name": "Cooper's Country Store",
+   "as": "its style, in the store's own words: 'downright vinegar and salt and pepper' on a whole hog.",
+   "rel": "whole"
+  },
+  {
+   "from": "mccabes-bar-b-q",
+   "type": "place",
+   "name": "McCabe's Bar-B-Q",
+   "as": "its style: whole hog and vinegar-pepper, at the Pee Dee's inland edge.",
+   "rel": "whole"
+  },
+  {
+   "from": "rodney-scotts-whole-hog-bbq",
+   "type": "place",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "as": "the style: Pee Dee whole hog in a Lowcountry city.",
+   "rel": "whole"
+  },
+  {
+   "from": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "the style it stands for: whole hog over wood coals, vinegar and pepper, in the Pee Dee.",
+   "rel": "whole"
+  },
+  {
+   "from": "shulers-bar-b-que",
+   "type": "place",
+   "name": "Shuler's Bar-B-Que",
+   "as": "the region it cooks in, and the vinegar-leaning country north of the Midlands mustard belt.",
+   "rel": "whole"
+  },
+  {
+   "from": "elliott-moss",
+   "type": "person",
+   "name": "Elliott Moss",
+   "as": "his home style — Florence is in the Pee Dee — and the burn-barrel method his Florence pit is described by.",
+   "rel": "whole"
+  },
+  {
+   "from": "lake-high",
+   "type": "person",
+   "name": "Lake High",
+   "as": "one of his four: vinegar-and-pepper, which he calls the oldest sauce.",
+   "rel": "kin"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "the South Carolina whole-hog country his book crosses.",
+   "rel": "kin"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "the other: spicy vinegar.",
+   "rel": "kin"
+  },
+  {
+   "from": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "the style he took to the coast: whole hog over hardwood coals, vinegar and pepper.",
+   "rel": "whole"
+  },
+  {
+   "from": "south-carolina-barbeque-association",
+   "type": "org",
+   "name": "South Carolina Barbeque Association",
+   "as": "one of the four: vinegar-and-pepper, which the association calls the original sauce.",
+   "rel": "kin"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "Kingstree's Pig Pickin' Festival is the Pee Dee's version, vinegar-based.",
+   "rel": "kin"
+  },
+  {
+   "from": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "Galivants Ferry sits at the Pee Dee's edge, in Horry County.",
+   "rel": "kin"
+  },
+  {
+   "from": "hog",
+   "type": "term",
+   "name": "hog",
+   "as": "the South Carolina region where whole hog over hardwood coals is the common style.",
+   "rel": "term"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "the style named for the region.",
+   "rel": "term"
+  },
+  {
+   "from": "fsa-barbecue-photographs",
+   "type": "art",
+   "name": "The FSA photographs of Carolina eating",
+   "as": "the style whose region reaches down to St. Helena Island; the Fourth of July frames are the Lowcountry's oldest colour pictures here.",
+   "rel": "kin"
+  },
+  {
+   "from": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "as": "eastern North Carolina's cousin across the state line, cooking the same hog with the same sauce.",
+   "rel": "kin"
+  }
+ ]
+}

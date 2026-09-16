@@ -1,0 +1,218 @@
+{
+ "schema": 1,
+ "id": "boiled-potatoes",
+ "type": "dish",
+ "names": {
+  "name": "boiled potatoes",
+  "aliases": [
+   "barbecue potatoes",
+   "stewed potatoes",
+   "potatoes"
+  ],
+  "said": "'Potatoes' on an eastern plate means these, boiled whole or in halves — not fries and not potato salad."
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "Potatoes boiled whole or in halves until they are soft and served beside chopped whole hog on the eastern North Carolina plate — the side the Piedmont does not have. At Parker's in Wilson and, by Bob Garner's account, most eastern restaurants they are stewed rather than plainly boiled: peeled potatoes, often with onion, simmered in water with ketchup or red sauce, hot sauce, paprika, sugar, salt, pepper and a spoon of bacon grease, so the broth seasons them through. They come on the plate with slaw and the plate's bread, a corn stick or hushpuppies, and they have been there since Melton's in Rocky Mount charged 45 cents for barbecue with boiled potatoes in 1929.",
+  "story": "The potato is the eastern plate's own vegetable, and the first record of it is a price. When Bob Melton's shed on the Tar River in Rocky Mount — the state's first sit-down barbecue restaurant, Wikipedia says — printed its prices in 1929, a plate of barbecue with boiled potatoes was 45 cents and a sandwich 15; by 1988 the plate came with slaw, hushpuppies and Brunswick stew, and the potatoes stayed on the side list with the corn sticks until the restaurant closed in 2005. Clyde Cooper's in Raleigh opened on New Year's Day 1938 with boiled potatoes, French fries, coleslaw and Brunswick stew beside the pork, and the core of that menu has not changed. Bob Garner's North Carolina Barbecue: Flavored by Time (1996) prints Tad Everett's barbecue potatoes — potatoes and onions in chunks, bacon drippings, catsup, Texas Pete and a little sugar, covered with water and simmered until soft — as a variation on the boiled potatoes of most eastern restaurants, and places the dish around Palmyra, Hobgood and Oak City. *Tradition holds —* the seasoned broth is the pit's idea of a potato: the pepper and a spoon of ketchup in the pot, so the side tastes of the same table as the meat. A Barbecue Bros writer touring the whole-hog pits in 2022 called B's potatoes a simple side not really found in the Piedmont; in Lexington the tray's starch is the hushpuppy.",
+  "how": "Small potatoes, scrubbed, whole or halved, or larger ones peeled and cut in chunks, go into a pot with cold water and salt and boil until a fork slides in. The stewed way, as Mandy Rivers reconstructs Parker's version and as Garner prints Tad Everett's, adds onion, a quarter-cup of hot sauce, smoked or sweet paprika, black pepper, bacon grease and half a cup of red sauce or a quarter-cup of ketchup, with a little sugar, and simmers twenty to forty minutes until the potatoes are soft and have drunk the broth. *Inference —* the ketchup and paprika are what tint them. They are served hot beside the slaw and the bread, and take the pork's vinegar sauce spooned over.",
+  "today": "On the plate at B's in Greenville, where the sides are slaw, potatoes or green beans and the barbecue dinner was $7.75 in 2016; on Bum's buffet in Ayden with the collards and black-eyed peas; by the bulk order at Parker's in Wilson; on the menu at Clyde Cooper's in Raleigh (2026). Melton's closed in 2005 and its 1929 price survives on Wikipedia."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style whose plate carries it; no Piedmont tray does.",
+   "rel": "whole"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the eastern plate's second side, with slaw, at Melton's in 1929 and at B's now.",
+   "rel": "part"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "the other eastern side on Melton's and Clyde Cooper's lists.",
+   "rel": "kin"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "where a plate with boiled potatoes cost 45 cents in 1929.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bs-barbecue",
+   "as": "where the sides are slaw, potatoes or green beans, and the potatoes are what a Piedmont visitor remarks on.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bums-restaurant",
+   "as": "on the buffet with collards, cabbage pastry and black-eyed peas.",
+   "rel": "served-at"
+  },
+  {
+   "to": "parkers-barbecue",
+   "as": "which sells potatoes by the bulk order; its stewed version is the one a recipe writer rebuilt with hot sauce, paprika and red sauce.",
+   "rel": "served-at"
+  },
+  {
+   "to": "clyde-coopers",
+   "as": "on the 1938 opening menu with fries, slaw and Brunswick stew.",
+   "rel": "served-at"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "what the stewed broth is built to taste like, and what goes over them at the table.",
+   "rel": "sauce"
+  },
+  {
+   "to": "texas-pete",
+   "as": "the hot sauce in Tad Everett's pot and in the Parker's-style broth.",
+   "rel": "sauce"
+  },
+  {
+   "to": "cornbread",
+   "as": "the bread beside them on the eastern plate; at B's the corn stick.",
+   "rel": "kin"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the other bread; Melton's served both.",
+   "rel": "kin"
+  },
+  {
+   "to": "fixins",
+   "as": "the eastern fixin the word covers, with slaw and bread.",
+   "rel": "term"
+  },
+  {
+   "to": "bob-garner",
+   "as": "who printed Tad Everett's barbecue potatoes in Flavored by Time.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "South Your Mouth — BBQ Boiled Potatoes (Parker's version, reconstructed)",
+   "url": "https://www.southyourmouth.com/2026/01/bbq-boiled-potatoes.html"
+  },
+  {
+   "label": "Bob Garner's Tad's Barbecue Potatoes, transcribed",
+   "url": "https://groups.google.com/g/smokeringbbq/c/5qb358ou8gY"
+  }
+ ],
+ "sources": [
+  "s:wp-meltons-barbecue",
+  "s:web-garner-recipes-smokering",
+  "s:garner-flavored-by-time",
+  "s:web-southyourmouth-bbq-potatoes",
+  "s:web-barbecuebros-bs-barbecue",
+  "s:web-bbqjew-bs-barbecue",
+  "s:web-ourstate-a-day-at-bs",
+  "s:sfa-bums-restaurant",
+  "s:web-parkers-bbq-wilson-menu",
+  "s:web-clydecoopersbbq-story",
+  "s:wp-barbecue-in-north-carolina",
+  "s:book-housekeeping-in-old-virginia",
+  "s:book-dixie-cookery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-meltons-barbecue"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-garner-recipes-smokering",
+    "note": "Garner's headnote is read from a reader's transcription of the 1996 book, not the book; Parker's ingredients from South Your Mouth (2026); 'not found in the Piedmont' from Barbecue Bros (2022)"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-meltons-barbecue",
+    "note": "Clyde Cooper's from its own story page; the broth's purpose is marked tradition inline"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-southyourmouth-bbq-potatoes",
+    "note": "a recipe blogger's reconstruction of Parker's and Garner's transcribed recipe; the colour is marked inference"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-a-day-at-bs",
+    "note": "B's price as printed in 2016; sides from Barbecue Bros 2022; Bum's from the SFA interview (2011); Parker's and Clyde Cooper's pages read 2026-09-15"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-housekeeping-in-old-virginia",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "To Boil Irish Potatoes",
+   "source": "s:book-housekeeping-in-old-virginia",
+   "license": "Public domain",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "author": "Marion Cabell Tyree, editor",
+   "book": "Housekeeping in Old Virginia",
+   "page": 246,
+   "text": "Old potatoes must be nicely peeled and dropped in boiling water, covered with a lid and boiled hard half an hour. Then drain off the water and set by the fire. This makes them mealy. — Mrs. S. T."
+  },
+  {
+   "title": "Boiled Irish Potatoes",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "page": "36–37",
+   "text": "If they are young, put them in a bucket of cold water, scrape off the skins, wash them, and drop into boiling water. When soft, dress with cream and melted butter.\n\nIf you wish to have them mashed, pare them, and put into plenty of boiling water until half done. Then renew the boiling by pouring over fresh hot water, and when barely done, pour off the water, and let them steam ten minutes, when they must be mashed, and dressed with butter and salt, and served in a hot water dish. Or you may put the potatoes in a steamer over boiling water, and boil till tender; press one by one in a napkin to remove all the moisture, and lay on a hot water dish with a lid, and serve.",
+   "region": "North Carolina"
+  },
+  {
+   "title": "Stewed Irish Potatoes",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "page": 37,
+   "text": "Slice thin, and boil in water till tender; pour off the water and put in some butter, salt, pepper, and rich cream and a dust of flour. Before taking up, stir in the beaten yolk of an egg, with some chopped parsley. It is a nice breakfast dish.",
+   "note": "The eastern pits stew them rather than boil them dry, in butter and a little liquid; this is that method, from a North Carolina book of 1867, without the barbecue plate around it.",
+   "region": "North Carolina"
+  }
+ ],
+ "images": [
+  {
+   "file": "boiled-potatoes/boiled-potatoes-boiled-potatoes-with-salt-massachusetts.jpg",
+   "source": "commons",
+   "title": "File:Boiled potatoes with salt - Massachusetts.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Boiled_potatoes_with_salt_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABoiled_potatoes_with_salt_-_Massachusetts.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Daderot",
+   "credit": "Own work",
+   "alt": "Boiled potatoes with salt - Massachusetts, USA.",
+   "date": "30 April 2025 (according to Exif data)",
+   "primary": true,
+   "sha256": "2b6478a418c09c183b26b3aac743d3fd7f804cdd1196070b826a7854f4f54d22"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

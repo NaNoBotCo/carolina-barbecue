@@ -1,0 +1,6191 @@
+{
+ "source": "OpenStreetMap contributors",
+ "license": "ODbL 1.0",
+ "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+ "attribution": "© OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
+ "fetched_at": "2026-09-16T03:25:25Z",
+ "endpoint": "https://overpass-api.de/api/interpreter",
+ "query": "[out:json][timeout:120];area[\"ISO3166-2\"=\"US-NC\"]->.nc;area[\"ISO3166-2\"=\"US-SC\"]->.sc;(nwr[\"cuisine\"~\"barbecue|bbq\",i](area.nc);nwr[\"cuisine\"~\"barbecue|bbq\",i](area.sc););out center tags;",
+ "osm_base": "2026-09-16T03:23:21Z",
+ "count": 335,
+ "places": [
+  {
+   "osm_id": "node/11300576164",
+   "slug": "12-bones",
+   "name": "12 Bones",
+   "state": "NC",
+   "lat": 35.57752,
+   "lon": -82.56629,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "12 Bones"
+   }
+  },
+  {
+   "osm_id": "way/949775569",
+   "slug": "3-daughters-bbq-seafood-and-chicken",
+   "name": "3 Daughters BBQ, Seafood & Chicken",
+   "state": "NC",
+   "lat": 34.54935,
+   "lon": -77.43127,
+   "tags": {
+    "addr:city": "Sneads Ferry",
+    "addr:housenumber": "2004",
+    "addr:postcode": "28460",
+    "addr:state": "NC",
+    "addr:street": "NC-172",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "3 Daughters BBQ, Seafood & Chicken",
+    "opening_hours": "Mo-Su 11:00-20:00",
+    "phone": "+1-910-741-0848",
+    "website": "3daughtersbbq.wixsite.com"
+   }
+  },
+  {
+   "osm_id": "way/1024611801",
+   "slug": "abrams",
+   "name": "Abrams",
+   "state": "NC",
+   "lat": 35.60186,
+   "lon": -77.39581,
+   "tags": {
+    "addr:housenumber": "1001",
+    "amenity": "fast_food",
+    "cuisine": "barbecue;chicken;seafood",
+    "drive_through": "yes",
+    "name": "Abrams",
+    "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+    "outdoor_seating": "no",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/1024718852",
+   "slug": "alston-bridges-barbecue",
+   "name": "Alston Bridges Barbecue",
+   "state": "NC",
+   "lat": 35.30425,
+   "lon": -81.5277,
+   "tags": {
+    "addr:city": "Shelby",
+    "addr:housenumber": "620",
+    "addr:postcode": "28150",
+    "addr:state": "NC",
+    "addr:street": "East Grover Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Alston Bridges Barbecue",
+    "phone": "+1-704-482-1998",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4374715979",
+   "slug": "aviator-smokehouse",
+   "name": "Aviator Smokehouse",
+   "state": "NC",
+   "lat": 35.59323,
+   "lon": -78.79374,
+   "tags": {
+    "addr:housenumber": "525",
+    "addr:street": "Broad Street",
+    "amenity": "restaurant",
+    "check_date": "2024-07-27",
+    "cuisine": "barbecue",
+    "name": "Aviator Smokehouse",
+    "opening_hours": "Mo-Th 11:30-22:00; Fr-Sa 11:30-23:00; Su 12:00-21:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "phone": "+1 919-557-7656",
+    "website": "https://www.aviatorbrew.com/smokehouse/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/617512599",
+   "slug": "backyard-bbq-pit",
+   "name": "Backyard BBQ Pit",
+   "state": "NC",
+   "lat": 35.89406,
+   "lon": -78.89769,
+   "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "5122",
+    "addr:postcode": "27713",
+    "addr:state": "NC",
+    "addr:street": "Apex Highway",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Backyard BBQ Pit"
+   }
+  },
+  {
+   "osm_id": "way/427932015",
+   "slug": "bar-b-q-center",
+   "name": "Bar-B-Q Center",
+   "state": "NC",
+   "lat": 35.83159,
+   "lon": -80.2443,
+   "tags": {
+    "addr:city": "Thomasville",
+    "addr:housenumber": "900",
+    "addr:postcode": "27292",
+    "addr:state": "NC",
+    "addr:street": "North Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bar-B-Q Center",
+    "opening_hours": "Mo-Sa 11:00-21:00",
+    "phone": "+1-336-248-4633",
+    "website": "https://barbecuecenter.net/"
+   }
+  },
+  {
+   "osm_id": "way/553071649",
+   "slug": "bar-b-q-king",
+   "name": "Bar-B-Q King",
+   "state": "NC",
+   "lat": 35.22449,
+   "lon": -80.88912,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "2900",
+    "addr:postcode": "28208",
+    "addr:state": "NC",
+    "addr:street": "Wilkinson Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bar-B-Q King",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/281843538",
+   "slug": "barbecue-shack",
+   "name": "Barbecue Shack",
+   "state": "NC",
+   "lat": 35.87237,
+   "lon": -80.07625,
+   "tags": {
+    "addr:city": "Thomasville",
+    "addr:housenumber": "706",
+    "addr:postcode": "27360",
+    "addr:street": "Randolph Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Barbecue Shack"
+   }
+  },
+  {
+   "osm_id": "way/1413283317",
+   "slug": "barbeque-house",
+   "name": "Barbeque House",
+   "state": "NC",
+   "lat": 35.75053,
+   "lon": -77.67023,
+   "tags": {
+    "addr:city": "Macclesfield",
+    "addr:housenumber": "114",
+    "addr:postcode": "27852",
+    "addr:state": "NC",
+    "addr:street": "East Green Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Barbeque House",
+    "opening_hours": "Fr-Sa 10:00-20:00; Su 10:00-15:00",
+    "phone": "+1-252-827-5115"
+   }
+  },
+  {
+   "osm_id": "node/5180669890",
+   "slug": "bbq-joes",
+   "name": "BBQ Joe's",
+   "state": "NC",
+   "lat": 35.86936,
+   "lon": -80.03378,
+   "tags": {
+    "addr:city": "Trinity",
+    "addr:housenumber": "4873",
+    "addr:postcode": "27370",
+    "addr:state": "NC",
+    "addr:street": "NC Highway 62",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "BBQ Joe's",
+    "opening_hours": "Mo-Sa 06:00-20:00",
+    "outdoor_seating": "no",
+    "phone": "+13364760474",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/764140987",
+   "slug": "bears-smokehouse",
+   "name": "Bear's Smokehouse",
+   "state": "NC",
+   "lat": 35.5901,
+   "lon": -82.55557,
+   "tags": {
+    "addr:city": "Asheville",
+    "addr:housenumber": "133",
+    "addr:postcode": "28801",
+    "addr:state": "NC",
+    "addr:street": "Coxe Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bear's Smokehouse",
+    "website": "https://bearsbbq.com/asheville"
+   }
+  },
+  {
+   "osm_id": "node/2272176272",
+   "slug": "big-mikes-bbq",
+   "name": "Big Mike's BBQ",
+   "state": "NC",
+   "lat": 35.7846,
+   "lon": -78.80939,
+   "tags": {
+    "addr:city": "Cary",
+    "addr:housenumber": "1222",
+    "addr:postcode": "27513",
+    "addr:state": "NC",
+    "addr:street": "Northwest Maynard Road",
+    "amenity": "restaurant",
+    "check_date": "2025-11-28",
+    "cuisine": "barbecue",
+    "name": "Big Mike's BBQ",
+    "opening_hours": "Su 12:00-20:00; Mo-Sa 11:00-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+1 919 799 2023",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "website": "https://bigmikesbbqnc.com/",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "osm_id": "node/2627547996",
+   "slug": "big-mikes-bbq-restaurant",
+   "name": "Big Mikes BBQ Restaurant",
+   "state": "NC",
+   "lat": 35.71973,
+   "lon": -79.16958,
+   "tags": {
+    "addr:city": "Pittsboro",
+    "addr:housenumber": "440",
+    "addr:postcode": "27312",
+    "addr:state": "NC",
+    "addr:street": "East Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Big Mikes BBQ Restaurant",
+    "opening_hours": "Tu-Sa 11:00-21:00",
+    "phone": "+1-919-704-8028",
+    "website": "https://bigmikesbbqnc.com/"
+   }
+  },
+  {
+   "osm_id": "node/12941392102",
+   "slug": "big-nicks-bbq",
+   "name": "Big Nick's BBQ",
+   "state": "NC",
+   "lat": 35.37824,
+   "lon": -83.21161,
+   "tags": {
+    "addr:housenumber": "7",
+    "addr:postcode": "28779",
+    "addr:street": "East Sylva Shopping Court",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Big Nick's BBQ",
+    "opening_hours": "Mo-Su 10:30-21:00",
+    "website": "https://www.bignicksbbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/1307970188",
+   "slug": "big-nicks-bbq-murphy",
+   "name": "Big Nick's BBQ",
+   "state": "NC",
+   "lat": 35.08008,
+   "lon": -84.03913,
+   "tags": {
+    "addr:city": "Murphy",
+    "addr:housenumber": "630",
+    "addr:postcode": "28906",
+    "addr:state": "NC",
+    "addr:street": "West US 64",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Big Nick's BBQ"
+   }
+  },
+  {
+   "osm_id": "node/12148025357",
+   "slug": "biscuits-brisket-and-beer",
+   "name": "Biscuits Brisket & Beer",
+   "state": "NC",
+   "lat": 35.95926,
+   "lon": -80.01047,
+   "tags": {
+    "addr:housenumber": "275",
+    "addr:street": "North Elm Street",
+    "amenity": "restaurant",
+    "check_date": "2024-08-31",
+    "cuisine": "barbecue",
+    "name": "Biscuits Brisket & Beer"
+   }
+  },
+  {
+   "osm_id": "node/13063286133",
+   "slug": "black-powder-smokehouse",
+   "name": "Black Powder Smokehouse",
+   "state": "NC",
+   "lat": 35.99661,
+   "lon": -79.93477,
+   "tags": {
+    "addr:housenumber": "302",
+    "addr:street": "East Main Street",
+    "amenity": "restaurant",
+    "check_date": "2025-08-11",
+    "cuisine": "barbecue",
+    "name": "Black Powder Smokehouse",
+    "opening_hours": "Tu-Sa 11:00-20:00",
+    "phone": "+1-336-858-5761",
+    "website": "https://www.blackpowdersmokehouse.com/"
+   }
+  },
+  {
+   "osm_id": "way/731170825",
+   "slug": "bold-bites",
+   "name": "Bold Bites",
+   "state": "NC",
+   "lat": 35.37645,
+   "lon": -82.55955,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "burger;barbecue",
+    "name": "Bold Bites"
+   }
+  },
+  {
+   "osm_id": "node/4526614255",
+   "slug": "boss-hog-bbq",
+   "name": "Boss Hog BBQ",
+   "state": "NC",
+   "lat": 35.58235,
+   "lon": -80.99211,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Boss Hog BBQ"
+   }
+  },
+  {
+   "osm_id": "node/8792800702",
+   "slug": "boulevard-barbeque",
+   "name": "Boulevard Barbeque",
+   "state": "NC",
+   "lat": 35.73742,
+   "lon": -81.68001,
+   "tags": {
+    "addr:city": "Morganton",
+    "addr:housenumber": "810",
+    "addr:postcode": "28655",
+    "addr:state": "NC",
+    "addr:street": "South College Street",
+    "amenity": "restaurant",
+    "cuisine": "american;barbecue",
+    "name": "Boulevard Barbeque",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+    "phone": "+1 828 608 0847",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://www.boulevardbarbeque.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/630793671",
+   "slug": "brannan-schlitz-bbq",
+   "name": "Brannan Schlitz BBQ",
+   "state": "NC",
+   "lat": 35.44982,
+   "lon": -79.1473,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Brannan Schlitz BBQ"
+   }
+  },
+  {
+   "osm_id": "node/7191076919",
+   "slug": "briggs-bar-b-que-and-grill",
+   "name": "Briggs Bar-B-Que & Grill",
+   "state": "NC",
+   "lat": 36.40685,
+   "lon": -79.31912,
+   "tags": {
+    "addr:city": "Yanceyville",
+    "addr:housenumber": "989",
+    "addr:postcode": "27379",
+    "addr:state": "NC",
+    "addr:street": "East Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Briggs Bar-B-Que & Grill",
+    "phone": "+13366944743",
+    "website": "https://briggsbarbquegrillnc.com/"
+   }
+  },
+  {
+   "osm_id": "way/490968733",
+   "slug": "buffalo-wings",
+   "name": "Buffalo Wings",
+   "state": "NC",
+   "lat": 35.02638,
+   "lon": -80.83885,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "16715",
+    "addr:postcode": "28277",
+    "addr:state": "NC",
+    "addr:street": "Orchard Stone Run",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Buffalo Wings"
+   }
+  },
+  {
+   "osm_id": "way/306633837",
+   "slug": "bunns-barbeque",
+   "name": "Bunn's Barbeque",
+   "state": "NC",
+   "lat": 35.99946,
+   "lon": -76.94703,
+   "tags": {
+    "addr:housenumber": "127",
+    "addr:postcode": "27983",
+    "addr:street": "North King Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bunn's Barbeque",
+    "phone": "+1-252-794-2274"
+   }
+  },
+  {
+   "osm_id": "node/4848475721",
+   "slug": "camel-city-bbq-factory",
+   "name": "Camel City BBQ Factory",
+   "state": "NC",
+   "lat": 36.10299,
+   "lon": -80.2452,
+   "tags": {
+    "addr:housenumber": "701",
+    "addr:postcode": "27101",
+    "addr:state": "NC",
+    "addr:street": "North Liberty Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Camel City BBQ Factory",
+    "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+    "outdoor_seating": "yes",
+    "phone": "+13363069999",
+    "takeaway": "yes",
+    "website": "https://www.camelcitybbq.com"
+   }
+  },
+  {
+   "osm_id": "way/1236101832",
+   "slug": "captain-bobs-bbq-and-seafood",
+   "name": "Captain Bob's BBQ & Seafood",
+   "state": "NC",
+   "lat": 36.17455,
+   "lon": -76.46434,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue;seafood",
+    "name": "Captain Bob's BBQ & Seafood"
+   }
+  },
+  {
+   "osm_id": "node/4265648382",
+   "slug": "carolina-bar-b-q",
+   "name": "Carolina Bar-B-Q",
+   "state": "NC",
+   "lat": 35.78559,
+   "lon": -80.87965,
+   "tags": {
+    "addr:city": "Statesville",
+    "addr:housenumber": "213",
+    "addr:postcode": "28677",
+    "addr:state": "NC",
+    "addr:street": "Salisbury Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Carolina Bar-B-Q",
+    "opening_hours": "Mo-Th 11:00-20:00; Fr,Sa 11:00-21:00; Su off",
+    "smoking": "no"
+   }
+  },
+  {
+   "osm_id": "node/5734090497",
+   "slug": "carolina-barbeque",
+   "name": "Carolina Barbeque",
+   "state": "NC",
+   "lat": 36.08396,
+   "lon": -81.92897,
+   "tags": {
+    "addr:city": "Newland",
+    "addr:housenumber": "500",
+    "addr:postcode": "28657",
+    "addr:state": "NC",
+    "addr:street": "Pineola Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Carolina Barbeque",
+    "opening_hours": "Mo-Sa 10:30-21:00, Su 11:00-18:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-828-737-0700",
+    "takeaway": "yes",
+    "website": "https://www.carolinabbqnewland.com/"
+   }
+  },
+  {
+   "osm_id": "way/544590710",
+   "slug": "charlie-graingers",
+   "name": "Charlie Graingers",
+   "state": "NC",
+   "lat": 35.76447,
+   "lon": -81.33237,
+   "tags": {
+    "addr:city": "Hickory",
+    "addr:housenumber": "2450",
+    "addr:postcode": "28601",
+    "addr:state": "NC",
+    "addr:street": "North Center Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Charlie Graingers"
+   }
+  },
+  {
+   "osm_id": "node/6464966885",
+   "slug": "checkered-flag-bar-b-que",
+   "name": "Checkered Flag Bar-B-Que",
+   "state": "NC",
+   "lat": 35.65665,
+   "lon": -80.48993,
+   "tags": {
+    "addr:city": "Salisbury",
+    "addr:housenumber": "1530",
+    "addr:state": "NC",
+    "addr:street": "South Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Checkered Flag Bar-B-Que",
+    "opening_hours": "Mo-Th 06:00-20:00; Fr 06:00-21:00; Sa 09:00-18:00",
+    "outdoor_seating": "no",
+    "phone": "+1 704 636 2628",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/7776784125",
+   "slug": "city-barbecue",
+   "name": "City Barbecue",
+   "state": "NC",
+   "lat": 35.40501,
+   "lon": -80.86752,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "City Barbecue"
+   }
+  },
+  {
+   "osm_id": "node/8455924367",
+   "slug": "city-barbeque",
+   "name": "City Barbeque",
+   "state": "NC",
+   "lat": 35.69792,
+   "lon": -78.58401,
+   "tags": {
+    "addr:city": "Garner",
+    "addr:housenumber": "110",
+    "addr:postcode": "27529",
+    "addr:state": "NC",
+    "addr:street": "Cabela Dr",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "City Barbeque",
+    "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-22:00",
+    "phone": "+1 919-258-2009",
+    "website": "https://www.citybbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/10112353508",
+   "slug": "city-barbeque-35310--80747",
+   "name": "City Barbeque",
+   "state": "NC",
+   "lat": 35.3104,
+   "lon": -80.74681,
+   "tags": {
+    "addr:postcode": "28262",
+    "amenity": "restaurant",
+    "check_date": "2026-09-12",
+    "cuisine": "barbecue",
+    "name": "City Barbeque",
+    "opening_hours": "Su-Th 10:30-21:00; Fr-Sa 10:30-22:00",
+    "phone": "+1 704-278-8015",
+    "website": "https://www.citybbq.com"
+   }
+  },
+  {
+   "osm_id": "node/11774144077",
+   "slug": "city-barbeque-36104--79820",
+   "name": "City Barbeque",
+   "state": "NC",
+   "lat": 36.1037,
+   "lon": -79.81974,
+   "tags": {
+    "addr:housenumber": "2647",
+    "addr:street": "Lawndale Drive",
+    "amenity": "restaurant",
+    "check_date": "2024-12-15",
+    "contact:facebook": "https://www.facebook.com/CityBarbequeAndCatering",
+    "cuisine": "barbecue",
+    "name": "City Barbeque",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
+    "payment:cash": "yes",
+    "phone": "+1 336-477-9024",
+    "website": "https://www.citybbq.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/1096847681",
+   "slug": "city-barbeque-raleigh",
+   "name": "City Barbeque",
+   "state": "NC",
+   "lat": 35.81591,
+   "lon": -78.69964,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:housenumber": "4122",
+    "addr:postcode": "27607",
+    "addr:state": "NC",
+    "addr:street": "Lake Boone Trail",
+    "amenity": "restaurant",
+    "check_date": "2023-04-28",
+    "cuisine": "barbecue",
+    "name": "City Barbeque",
+    "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-919-739-2506",
+    "takeaway": "yes",
+    "website": "https://www.citybbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/575156963",
+   "slug": "city-barbeque-and-catering",
+   "name": "City Barbeque and Catering",
+   "state": "NC",
+   "lat": 35.76096,
+   "lon": -78.78292,
+   "tags": {
+    "addr:city": "Cary",
+    "addr:housenumber": "1305",
+    "addr:postcode": "27511-5525",
+    "addr:state": "NC",
+    "addr:street": "Kildaire Farm Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "City Barbeque and Catering",
+    "opening_hours": "Mo-Sa 10:30-22:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/422429753",
+   "slug": "city-bbq",
+   "name": "City BBQ",
+   "state": "NC",
+   "lat": 35.91134,
+   "lon": -78.93721,
+   "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "208",
+    "addr:postcode": "27713",
+    "addr:state": "NC",
+    "addr:street": "NC Highway 54",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "City BBQ",
+    "opening_hours": "Su 11:00-20:00; Mo-Th 11:00-21:00; Fr,Sa 11:00-22:00",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "http://citybbq.com",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/3307013373",
+   "slug": "clyde-coopers-bbq",
+   "name": "Clyde Cooper's BBQ",
+   "state": "NC",
+   "lat": 35.77627,
+   "lon": -78.63816,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:housenumber": "327",
+    "addr:postcode": "27601",
+    "addr:state": "NC",
+    "addr:street": "South Wilmington Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Clyde Cooper's BBQ",
+    "opening_hours": "Mo-Sa 10:00-18:00",
+    "payment:cash": "yes",
+    "phone": "+1 919-832-7614",
+    "smoking": "no",
+    "website": "https://clydecoopersbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/6433424484",
+   "slug": "country-barbecue-express",
+   "name": "Country Barbecue Express",
+   "state": "NC",
+   "lat": 35.99832,
+   "lon": -80.03384,
+   "tags": {
+    "addr:city": "High Point",
+    "addr:housenumber": "2928",
+    "addr:postcode": "27265",
+    "addr:state": "NC",
+    "addr:street": "North Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Country Barbecue Express",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "phone": "+1-336-886-0160",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4134055333",
+   "slug": "country-barbeque",
+   "name": "Country Barbeque",
+   "state": "NC",
+   "lat": 36.06021,
+   "lon": -79.88265,
+   "tags": {
+    "addr:city": "Greensboro",
+    "addr:housenumber": "4012",
+    "addr:postcode": "27407",
+    "addr:state": "NC",
+    "addr:street": "West Wendover Avenue",
+    "amenity": "restaurant",
+    "check_date": "2026-09-13",
+    "cuisine": "barbecue",
+    "name": "Country Barbeque",
+    "opening_hours": "Mo-Sa 06:00-21:00",
+    "phone": "+1-336-292-3557",
+    "website": "https://thecountrybarbeque.com/country-bbq-greensboro/"
+   }
+  },
+  {
+   "osm_id": "way/230512858",
+   "slug": "countryside-bbq",
+   "name": "Countryside BBQ",
+   "state": "NC",
+   "lat": 35.66703,
+   "lon": -81.9817,
+   "tags": {
+    "addr:city": "Marion",
+    "addr:housenumber": "2070",
+    "addr:postcode": "28752",
+    "addr:state": "NC",
+    "addr:street": "Rutherford Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Countryside BBQ",
+    "opening_hours": "Fr-Sa 11:00-21:00, Mo-Th 11:00-20:00",
+    "phone": "+1-828-652-4885"
+   }
+  },
+  {
+   "osm_id": "node/11448147136",
+   "slug": "crave-hot-dogs-and-bbq",
+   "name": "Crave Hot Dogs and BBQ",
+   "state": "NC",
+   "lat": 35.37274,
+   "lon": -80.73307,
+   "tags": {
+    "addr:city": "Concord",
+    "addr:housenumber": "3050",
+    "addr:postcode": "28027",
+    "addr:state": "NC",
+    "addr:street": "Derita Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Crave Hot Dogs and BBQ",
+    "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00; PH off",
+    "outdoor_seating": "yes",
+    "phone": "+17049100009",
+    "website": "http://www.iwantcrave.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/484438446",
+   "slug": "currituck-bbq-company",
+   "name": "Currituck BBQ Company",
+   "state": "NC",
+   "lat": 36.35721,
+   "lon": -75.96046,
+   "tags": {
+    "addr:city": "Barco",
+    "addr:housenumber": "4467",
+    "addr:postcode": "27917",
+    "addr:state": "NC",
+    "addr:street": "Caratoke Highway",
+    "amenity": "restaurant",
+    "check_date": "2024-04-05",
+    "cuisine": "barbecue",
+    "name": "Currituck BBQ Company",
+    "website": "https://www.currituckbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/2103238246",
+   "slug": "dannys-bar-b-que",
+   "name": "Danny's Bar-B-Que",
+   "state": "NC",
+   "lat": 35.7381,
+   "lon": -78.78491,
+   "tags": {
+    "addr:housenumber": "311-G",
+    "addr:postcode": "27518",
+    "addr:state": "NC",
+    "addr:street": "Ashville Avenue",
+    "amenity": "restaurant",
+    "check_date": "2023-12-09",
+    "cuisine": "barbecue",
+    "name": "Danny's Bar-B-Que",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+    "payment:cash": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/9795783404",
+   "slug": "dickeys-barbecue-pit-southern-pines",
+   "name": "Dickey's Barbecue Pit",
+   "state": "NC",
+   "lat": 35.17005,
+   "lon": -79.42552,
+   "tags": {
+    "addr:city": "Southern Pines",
+    "addr:housenumber": "10564",
+    "addr:postcode": "28387",
+    "addr:state": "NC",
+    "addr:street": "US 15-501",
+    "amenity": "restaurant",
+    "brand": "Dickey's Barbecue Pit",
+    "brand:wikidata": "Q19880747",
+    "cuisine": "barbecue",
+    "name": "Dickey's Barbecue Pit",
+    "phone": "+19106848844",
+    "website": "https://www.dickeys.com/locations/north-carolina/southern-pines/southern-pines"
+   }
+  },
+  {
+   "osm_id": "node/9957988852",
+   "slug": "dickeys-barbecue-pit-waynesville",
+   "name": "Dickey's Barbecue Pit",
+   "state": "NC",
+   "lat": 35.52722,
+   "lon": -82.99539,
+   "tags": {
+    "addr:city": "Waynesville",
+    "addr:housenumber": "1778",
+    "addr:postcode": "28786",
+    "addr:state": "NC",
+    "addr:street": "Dellwood Road",
+    "amenity": "restaurant",
+    "brand": "Dickey's Barbecue Pit",
+    "brand:wikidata": "Q19880747",
+    "cuisine": "barbecue",
+    "name": "Dickey's Barbecue Pit",
+    "phone": "+18289440271"
+   }
+  },
+  {
+   "osm_id": "node/10723640180",
+   "slug": "dickeys-barbecue-pit-canton",
+   "name": "Dickey's Barbecue Pit",
+   "state": "NC",
+   "lat": 35.53256,
+   "lon": -82.86138,
+   "tags": {
+    "addr:city": "Canton",
+    "addr:housenumber": "66",
+    "addr:postcode": "28716",
+    "addr:state": "NC",
+    "addr:street": "New Clyde Highway",
+    "amenity": "restaurant",
+    "brand": "Dickey's Barbecue Pit",
+    "brand:wikidata": "Q19880747",
+    "cuisine": "barbecue",
+    "name": "Dickey's Barbecue Pit",
+    "phone": "+18284920237"
+   }
+  },
+  {
+   "osm_id": "node/13556735751",
+   "slug": "dickeys-barbecue-pit-albemarle",
+   "name": "Dickey's Barbecue Pit",
+   "state": "NC",
+   "lat": 35.34379,
+   "lon": -80.16933,
+   "tags": {
+    "addr:city": "Albemarle",
+    "addr:housenumber": "720",
+    "addr:postcode": "28001",
+    "addr:state": "NC",
+    "addr:street": "NC 24/27 Bypass East",
+    "amenity": "restaurant",
+    "brand": "Dickey's Barbecue Pit",
+    "brand:wikidata": "Q19880747",
+    "cuisine": "barbecue",
+    "name": "Dickey's Barbecue Pit",
+    "phone": "+1-704-982-2727",
+    "website": "https://www.dickeys.com/locations/north-carolina/albemarle"
+   }
+  },
+  {
+   "osm_id": "way/303371221",
+   "slug": "dickeys-barbecue-pit-35861--78706",
+   "name": "Dickey's Barbecue Pit",
+   "state": "NC",
+   "lat": 35.86101,
+   "lon": -78.70586,
+   "tags": {
+    "addr:housenumber": "6552",
+    "addr:postcode": "27612",
+    "addr:street": "Glenwood Avenue",
+    "amenity": "restaurant",
+    "brand": "Dickey's Barbecue Pit",
+    "brand:wikidata": "Q19880747",
+    "cuisine": "barbecue",
+    "name": "Dickey's Barbecue Pit"
+   }
+  },
+  {
+   "osm_id": "node/3313338154",
+   "slug": "dickeys-bbq-pit",
+   "name": "Dickey's BBQ Pit",
+   "state": "NC",
+   "lat": 35.05374,
+   "lon": -80.84698,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Dickey's BBQ Pit"
+   }
+  },
+  {
+   "osm_id": "way/1075014293",
+   "slug": "doc-browns-bbq",
+   "name": "Doc Brown's BBQ",
+   "state": "NC",
+   "lat": 35.54506,
+   "lon": -82.67714,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Doc Brown's BBQ"
+   }
+  },
+  {
+   "osm_id": "way/202503445",
+   "slug": "dollar-general",
+   "name": "Dollar General",
+   "state": "NC",
+   "lat": 35.72565,
+   "lon": -79.74165,
+   "tags": {
+    "addr:city": "Asheboro",
+    "addr:housenumber": "3409",
+    "addr:postcode": "27203",
+    "addr:street": "US 64 East",
+    "brand": "Dollar General",
+    "brand:wikidata": "Q145168",
+    "cuisine": "barbecue",
+    "name": "Dollar General",
+    "website": "https://www.dollargeneral.com/store-directory/nc/asheboro/17691"
+   }
+  },
+  {
+   "osm_id": "node/2344884773",
+   "slug": "em-r-wings",
+   "name": "Em R Wings",
+   "state": "NC",
+   "lat": 34.52506,
+   "lon": -77.43346,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Em R Wings"
+   }
+  },
+  {
+   "osm_id": "way/1087992617",
+   "slug": "embers-bbq",
+   "name": "Embers BBQ",
+   "state": "NC",
+   "lat": 35.17395,
+   "lon": -79.39256,
+   "tags": {
+    "addr:city": "Southern Pines",
+    "addr:housenumber": "130",
+    "addr:postcode": "28387",
+    "addr:state": "NC",
+    "addr:street": "Southwest Broad Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Embers BBQ",
+    "phone": "+19106840330",
+    "website": "https://embersbbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/1094129751",
+   "slug": "flat-rock-wood-room",
+   "name": "Flat Rock Wood Room",
+   "state": "NC",
+   "lat": 35.29255,
+   "lon": -82.44877,
+   "tags": {
+    "addr:housenumber": "1501",
+    "addr:street": "Greenville Highway",
+    "amenity": "restaurant",
+    "check_date": "2025-10-25",
+    "cuisine": "pizza;barbecue",
+    "description": "Check for Winter hours of operation",
+    "name": "Flat Rock Wood Room",
+    "opening_hours": "We, Th, Su 11:30-20:00; Fr, Sa 11:30-21:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "phone": "+1-828-435-1391",
+    "takeaway": "yes",
+    "website": "https://flatrockwoodroom.com/",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "osm_id": "way/301602792",
+   "slug": "fountain-view-restaurant",
+   "name": "Fountain View Restaurant",
+   "state": "NC",
+   "lat": 36.06935,
+   "lon": -79.80934,
+   "tags": {
+    "addr:housenumber": "1209",
+    "addr:street": "North Drive",
+    "amenity": "restaurant",
+    "cuisine": "chicken;hot_dog;asian;american;sandwich;sausage;mexican;coffee_shop;ice_cream;deli;barbecue;caribbean;pizza;burger;cake;pasta;breakfast;international;grill",
+    "diet:vegetarian": "yes",
+    "name": "Fountain View Restaurant",
+    "opening_hours": "Mo-Th 07:00-20:30; Fr 07:00-19:30; Sa 09:00-14:00, 16:00-19:30; Su 09:00-20:00",
+    "smoking": "outside",
+    "website": "https://dineoncampus.com/uncg"
+   }
+  },
+  {
+   "osm_id": "node/4799491046",
+   "slug": "fred-chasons-grandsons",
+   "name": "Fred Chason's Grandsons",
+   "state": "NC",
+   "lat": 35.11507,
+   "lon": -78.88074,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Fred Chason's Grandsons"
+   }
+  },
+  {
+   "osm_id": "way/544061042",
+   "slug": "fullers-country-style-buffet",
+   "name": "Fuller's Country Style Buffet",
+   "state": "NC",
+   "lat": 35.02777,
+   "lon": -79.05439,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue;seafood",
+    "name": "Fuller's Country Style Buffet"
+   }
+  },
+  {
+   "osm_id": "node/13113064696",
+   "slug": "garys-bar-b-cue",
+   "name": "Gary's Bar-B-Cue",
+   "state": "NC",
+   "lat": 35.56899,
+   "lon": -80.57176,
+   "tags": {
+    "addr:housenumber": "620",
+    "addr:street": "North Highway 29",
+    "amenity": "restaurant",
+    "check_date": "2025-09-01",
+    "cuisine": "barbecue",
+    "name": "Gary's Bar-B-Cue",
+    "opening_hours": "Tu-Sa 11:00-21:00",
+    "phone": "+1-704-857-8314",
+    "website": "https://garys-barbecue.restaurants-world.com/"
+   }
+  },
+  {
+   "osm_id": "node/1416565274",
+   "slug": "green-river-bbq",
+   "name": "Green River BBQ",
+   "state": "NC",
+   "lat": 35.23568,
+   "lon": -82.35047,
+   "tags": {
+    "addr:city": "Saluda",
+    "addr:housenumber": "131",
+    "addr:postcode": "28773",
+    "addr:state": "NC",
+    "addr:street": "Highway 176 East",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Green River BBQ",
+    "phone": "+18287499892",
+    "website": "https://greenriverbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/12451360084",
+   "slug": "gyu-kaku",
+   "name": "Gyu-Kaku",
+   "state": "NC",
+   "lat": 35.21824,
+   "lon": -80.84296,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Gyu-Kaku",
+    "brand:wikidata": "Q11349387",
+    "cuisine": "japanese;barbecue",
+    "name": "Gyu-Kaku"
+   }
+  },
+  {
+   "osm_id": "node/13286536982",
+   "slug": "gyu-kaku-36137--79859",
+   "name": "Gyu-Kaku",
+   "state": "NC",
+   "lat": 36.13682,
+   "lon": -79.85861,
+   "tags": {
+    "addr:housenumber": "3920",
+    "addr:street": "Cotswold Avenue",
+    "amenity": "restaurant",
+    "brand": "Gyu-Kaku",
+    "brand:wikidata": "Q11349387",
+    "check_date": "2025-11-06",
+    "contact:facebook": "https://www.facebook.com/GyuKakuGreensboroNC/",
+    "cuisine": "japanese;barbecue",
+    "name": "Gyu-Kaku",
+    "opening_hours": "Mo-Th,Su 11:30-20:45; Fr-Sa 11:30-21:45",
+    "phone": "+1-336-663-7075",
+    "website": "https://www.gyu-kaku.com/greensboro/"
+   }
+  },
+  {
+   "osm_id": "way/403521734",
+   "slug": "hannahs-bbq",
+   "name": "Hannah's BBQ",
+   "state": "NC",
+   "lat": 35.91612,
+   "lon": -81.52508,
+   "tags": {
+    "addr:city": "Lenoir",
+    "addr:housenumber": "137",
+    "addr:postcode": "28645",
+    "addr:state": "NC",
+    "addr:street": "Blowing Rock Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hannah's BBQ",
+    "phone": "+1-828-754-7032"
+   }
+  },
+  {
+   "osm_id": "way/547589192",
+   "slug": "hendrix-barbecue",
+   "name": "Hendrix Barbecue",
+   "state": "NC",
+   "lat": 35.68431,
+   "lon": -80.48259,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "drive_through": "yes",
+    "name": "Hendrix Barbecue"
+   }
+  },
+  {
+   "osm_id": "node/6424209712",
+   "slug": "hendrix-real-pit-barbeque",
+   "name": "Hendrix Real Pit Barbeque",
+   "state": "NC",
+   "lat": 35.6965,
+   "lon": -80.41997,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hendrix Real Pit Barbeque"
+   }
+  },
+  {
+   "osm_id": "way/701917665",
+   "slug": "henry-james-bbq",
+   "name": "Henry James BBQ",
+   "state": "NC",
+   "lat": 35.67888,
+   "lon": -79.8187,
+   "tags": {
+    "addr:city": "Asheboro",
+    "addr:housenumber": "2004",
+    "addr:state": "NC",
+    "addr:street": "South Fayetteville Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "diet:vegetarian": "no",
+    "name": "Henry James BBQ",
+    "opening_hours": "Mo-Sa 11:00-21:00",
+    "phone": "+1 336 625-1649",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/6606961367",
+   "slug": "high-point-korean-bbq",
+   "name": "High Point Korean BBQ",
+   "state": "NC",
+   "lat": 35.98367,
+   "lon": -80.02174,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "korean;barbecue",
+    "name": "High Point Korean BBQ"
+   }
+  },
+  {
+   "osm_id": "way/376480957",
+   "slug": "hillbillys-barbeque-and-steaks",
+   "name": "Hillbilly's Barbeque and Steaks",
+   "state": "NC",
+   "lat": 35.26371,
+   "lon": -81.09117,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hillbilly's Barbeque and Steaks"
+   }
+  },
+  {
+   "osm_id": "way/65706381",
+   "slug": "hog-heaven",
+   "name": "Hog Heaven",
+   "state": "NC",
+   "lat": 36.02638,
+   "lon": -78.92324,
+   "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "2411",
+    "addr:postcode": "27705",
+    "addr:state": "NC",
+    "addr:street": "Guess Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hog Heaven",
+    "opening_hours": "Mo-Sa 11:00-20:00"
+   }
+  },
+  {
+   "osm_id": "way/550528403",
+   "slug": "hops-bar-b-q",
+   "name": "Hop's Bar-B-Q",
+   "state": "NC",
+   "lat": 35.70607,
+   "lon": -79.8167,
+   "tags": {
+    "addr:city": "Asheboro",
+    "addr:housenumber": "240",
+    "addr:postcode": "27203",
+    "addr:state": "NC",
+    "addr:street": "Sunset Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hop's Bar-B-Q",
+    "opening_hours": "Mo-Fr 06:00-19:00, Sa 06:00-15:00",
+    "phone": "+1-336-625-2710",
+    "website": "https://hops-bar-b-q.business.site/"
+   }
+  },
+  {
+   "osm_id": "way/810766310",
+   "slug": "howard-station",
+   "name": "Howard Station",
+   "state": "NC",
+   "lat": 36.21764,
+   "lon": -81.68426,
+   "tags": {
+    "addr:city": "Boone",
+    "addr:housenumber": "268",
+    "addr:postcode": "28607",
+    "addr:state": "NC",
+    "addr:street": "Howard Street",
+    "amenity": "restaurant",
+    "cuisine": "wings;barbecue;hot_dog;sandwich;salad;burger",
+    "name": "Howard Station",
+    "opening_hours": "Tu 17:00-23:00; Th-Fr 17:00-23:00; Sa-Su 12:00-23:00",
+    "phone": "+1-828-865-1122",
+    "takeaway": "yes",
+    "website": "https://www.howardstation.com/"
+   }
+  },
+  {
+   "osm_id": "way/1094132985",
+   "slug": "hubba-hubba-smokehouse",
+   "name": "Hubba Hubba Smokehouse",
+   "state": "NC",
+   "lat": 35.27088,
+   "lon": -82.44103,
+   "tags": {
+    "addr:housenumber": "2724",
+    "addr:postcode": "28731",
+    "addr:street": "Greenville Highway",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hubba Hubba Smokehouse",
+    "opening_hours": "Mo-Th 11:00-15:00; Fr-Su 11:00-19:00",
+    "phone": "+1-828-694-3551",
+    "website": "https://hubbahubbasmokehouse.squarespace.com/location"
+   }
+  },
+  {
+   "osm_id": "node/12018287442",
+   "slug": "huli-sues-bbq-and-grill",
+   "name": "Huli Sue's BBQ and Grill",
+   "state": "NC",
+   "lat": 35.59581,
+   "lon": -82.55645,
+   "tags": {
+    "addr:city": "Asheville",
+    "addr:housenumber": "1",
+    "addr:postcode": "28801",
+    "addr:state": "NC",
+    "addr:street": "Page Avenue",
+    "amenity": "restaurant",
+    "cuisine": "hawaiian;barbecue",
+    "name": "Huli Sue's BBQ and Grill",
+    "phone": "+18285050397",
+    "website": "https://hulisuesbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/5196052022",
+   "slug": "hursey-s-carolina-bbq",
+   "name": "Hursey’s Carolina BBQ",
+   "state": "NC",
+   "lat": 36.06564,
+   "lon": -79.30102,
+   "tags": {
+    "addr:housenumber": "428",
+    "addr:postcode": "28571",
+    "addr:state": "NC",
+    "addr:street": "Compass Dr.",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hursey’s Carolina BBQ",
+    "opening_hours": "Mo-Sa 06:00-10:30,11:00-21:00",
+    "phone": "+1-919-568-0116"
+   }
+  },
+  {
+   "osm_id": "way/371725551",
+   "slug": "hursey-s-pig-pickin-bar-b-q",
+   "name": "Hursey’s Pig Pickin’ Bar–B–Q",
+   "state": "NC",
+   "lat": 36.08222,
+   "lon": -79.46281,
+   "tags": {
+    "addr:city": "Burlington",
+    "addr:housenumber": "1834",
+    "addr:postcode": "27215",
+    "addr:state": "NC",
+    "addr:street": "South Church Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hursey’s Pig Pickin’ Bar–B–Q",
+    "opening_hours": "Su-Sa 11:00-21:00",
+    "phone": "+1-336-226-1694",
+    "smoking": "no",
+    "website": "https://hurseysbarbecue.com/"
+   }
+  },
+  {
+   "osm_id": "node/5788853568",
+   "slug": "iron-hen-caf",
+   "name": "Iron Hen Café",
+   "state": "NC",
+   "lat": 36.0875,
+   "lon": -79.79417,
+   "tags": {
+    "addr:city": "Greensboro",
+    "addr:housenumber": "908",
+    "addr:street": "Cridland Road",
+    "check_date": "2025-06-07",
+    "contact:facebook": "https://www.facebook.com/people/Iron-Hen-Cafe/100077127494082/",
+    "cuisine": "american;barbecue",
+    "name": "Iron Hen Café"
+   }
+  },
+  {
+   "osm_id": "way/1091755159",
+   "slug": "jds-smokehouse",
+   "name": "JD's Smokehouse",
+   "state": "NC",
+   "lat": 35.74297,
+   "lon": -81.52601,
+   "tags": {
+    "addr:city": "Connelly Springs",
+    "addr:housenumber": "500",
+    "addr:postcode": "28612",
+    "addr:state": "NC",
+    "addr:street": "Malcolm Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "JD's Smokehouse",
+    "phone": "+1-828-522-1227"
+   }
+  },
+  {
+   "osm_id": "node/12377391306",
+   "slug": "jim-n-nicks-hickory",
+   "name": "Jim 'N Nick's",
+   "state": "NC",
+   "lat": 35.70899,
+   "lon": -81.30919,
+   "tags": {
+    "addr:city": "Hickory",
+    "addr:housenumber": "1687",
+    "addr:postcode": "28602",
+    "addr:state": "NC",
+    "addr:street": "US 70 SE",
+    "amenity": "restaurant",
+    "brand": "Jim 'N Nick's",
+    "brand:wikidata": "Q122955601",
+    "check_date": "2025-08-03",
+    "cuisine": "barbecue",
+    "diet:vegetarian": "yes",
+    "name": "Jim 'N Nick's",
+    "opening_hours": "Mo-Su 11:00-14:30; Mo-Su 16:30-21:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "phone": "+1-828-278-7930",
+    "takeaway": "yes",
+    "website": "https://www.jimnnicks.com",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/14135355304",
+   "slug": "jim-n-nicks-36032--79957",
+   "name": "Jim 'N Nick's",
+   "state": "NC",
+   "lat": 36.03205,
+   "lon": -79.95701,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Jim 'N Nick's",
+    "brand:wikidata": "Q122955601",
+    "check_date": "2026-08-30",
+    "cuisine": "barbecue",
+    "name": "Jim 'N Nick's"
+   }
+  },
+  {
+   "osm_id": "node/2614929755",
+   "slug": "jim-n-nicks",
+   "name": "Jim n Nick's",
+   "state": "NC",
+   "lat": 35.36839,
+   "lon": -80.71202,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Jim n Nick's"
+   }
+  },
+  {
+   "osm_id": "way/1069451388",
+   "slug": "johnnys-barbecue",
+   "name": "Johnny's Barbecue",
+   "state": "NC",
+   "lat": 35.56221,
+   "lon": -80.41629,
+   "tags": {
+    "addr:city": "Rockwell",
+    "addr:housenumber": "8640",
+    "addr:postcode": "28138",
+    "addr:state": "NC",
+    "addr:street": "US-52",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Johnny's Barbecue",
+    "phone": "+1-704-209-0400"
+   }
+  },
+  {
+   "osm_id": "node/6050438148",
+   "slug": "johnson-family-barbecue",
+   "name": "Johnson Family Barbecue",
+   "state": "NC",
+   "lat": 35.97714,
+   "lon": -78.79364,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Johnson Family Barbecue"
+   }
+  },
+  {
+   "osm_id": "way/1481637744",
+   "slug": "kennedy-q",
+   "name": "Kennedy Q",
+   "state": "NC",
+   "lat": 36.07143,
+   "lon": -81.87299,
+   "tags": {
+    "addr:city": "Linville",
+    "addr:housenumber": "4141",
+    "addr:postcode": "28646",
+    "addr:state": "NC",
+    "addr:street": "Mitchell Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Kennedy Q",
+    "opening_hours": "Th-Mo 11:00-17:00",
+    "phone": "+1-828-742-0146",
+    "website": "https://www.kennedyqbbq.com"
+   }
+  },
+  {
+   "osm_id": "node/6388367341",
+   "slug": "kepleys-bar-b-q",
+   "name": "Kepley's Bar-B-Q",
+   "state": "NC",
+   "lat": 35.97231,
+   "lon": -80.01672,
+   "tags": {
+    "addr:city": "High Point",
+    "addr:housenumber": "1304",
+    "addr:postcode": "27262",
+    "addr:state": "NC",
+    "addr:street": "North Main Street",
+    "check_date": "2026-02-10",
+    "cuisine": "barbecue",
+    "name": "Kepley's Bar-B-Q",
+    "opening_hours": "Mo-Sa 08:30-20:30",
+    "phone": "+1-336-884-1021",
+    "start_date": "1948",
+    "website": "https://www.kepleysbarbecue.com/"
+   }
+  },
+  {
+   "osm_id": "way/453214328",
+   "slug": "kings-restaurant",
+   "name": "King's Restaurant",
+   "state": "NC",
+   "lat": 35.24128,
+   "lon": -77.57923,
+   "tags": {
+    "addr:city": "Kinston",
+    "addr:housenumber": "405",
+    "addr:postcode": "28504",
+    "addr:state": "NC",
+    "addr:street": "East New Bern Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "King's Restaurant",
+    "opening_hours": "10:30-21:00",
+    "phone": "+1-252-527-2101",
+    "smoking": "no",
+    "website": "https://www.kingsbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/5346236634",
+   "slug": "kpot-korean-bbq-and-hot-pot",
+   "name": "KPOT Korean BBQ & Hot Pot",
+   "state": "NC",
+   "lat": 35.07161,
+   "lon": -78.96189,
+   "tags": {
+    "addr:city": "Fayetteville",
+    "addr:housenumber": "419",
+    "addr:postcode": "28303",
+    "addr:state": "NC",
+    "addr:street": "Cross Creek Mall",
+    "amenity": "restaurant",
+    "brand": "KPot",
+    "contact:facebook": "https://www.facebook.com/kpotfayettevillenc/",
+    "cuisine": "korean;korean_bbq",
+    "name": "KPOT Korean BBQ & Hot Pot",
+    "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-22:30",
+    "phone": "+14722021535",
+    "website": "https://thekpot.com/location/fayetteville-cross-creek/"
+   }
+  },
+  {
+   "osm_id": "node/5774871154",
+   "slug": "lancaster-s-bbq",
+   "name": "Lancaster’s BBQ",
+   "state": "NC",
+   "lat": 35.59362,
+   "lon": -80.8255,
+   "tags": {
+    "addr:housenumber": "515",
+    "addr:postcode": "28115",
+    "addr:street": "Rinehardt Road",
+    "amenity": "restaurant",
+    "check_date": "2026-02-14",
+    "cuisine": "barbecue",
+    "name": "Lancaster’s BBQ",
+    "opening_hours": "Su-Mo, We-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+    "phone": "+1-704-663-5807",
+    "website": "https://lancastersbbqmooresville.com/"
+   }
+  },
+  {
+   "osm_id": "node/13175520901",
+   "slug": "lawrence-barbeque",
+   "name": "Lawrence Barbeque",
+   "state": "NC",
+   "lat": 35.7879,
+   "lon": -78.77957,
+   "tags": {
+    "addr:housenumber": "150",
+    "addr:postcode": "27511",
+    "addr:street": "East Cedar Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Lawrence Barbeque",
+    "opening_hours": "We-Su 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-919-234-6939",
+    "website": "https://lawrencebarbecue.com/"
+   }
+  },
+  {
+   "osm_id": "way/1296460281",
+   "slug": "lawrence-barbeque-35788--78780",
+   "name": "Lawrence Barbeque",
+   "state": "NC",
+   "lat": 35.7879,
+   "lon": -78.77957,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Lawrence Barbeque"
+   }
+  },
+  {
+   "osm_id": "way/1224477438",
+   "slug": "lenny-and-vcs-king-of-turkey-bbq",
+   "name": "Lenny & VCs King of Turkey BBQ",
+   "state": "NC",
+   "lat": 35.2187,
+   "lon": -77.44581,
+   "tags": {
+    "addr:city": "Dover",
+    "addr:housenumber": "441",
+    "addr:postcode": "28526",
+    "addr:state": "NC",
+    "addr:street": "West Kornegay Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Lenny & VCs King of Turkey BBQ"
+   }
+  },
+  {
+   "osm_id": "way/674159065",
+   "slug": "lexington-bbq",
+   "name": "Lexington BBQ",
+   "state": "NC",
+   "lat": 35.8341,
+   "lon": -80.26746,
+   "tags": {
+    "addr:city": "Lexington",
+    "addr:housenumber": "100",
+    "addr:postcode": "27295",
+    "addr:state": "NC",
+    "addr:street": "Smokehouse Lane",
+    "amenity": "restaurant",
+    "cuisine": "regional;barbecue",
+    "name": "Lexington BBQ",
+    "opening_hours": "Mo-Sa 10:00-21:00; PH off",
+    "phone": "+1-336-249-9814",
+    "website": "https://www.lexbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/9005357392",
+   "slug": "lexington-style-trimmings",
+   "name": "Lexington Style Trimmings",
+   "state": "NC",
+   "lat": 35.80318,
+   "lon": -80.22992,
+   "tags": {
+    "addr:city": "Lexington",
+    "addr:housenumber": "1513",
+    "addr:postcode": "27292",
+    "addr:state": "NC",
+    "addr:street": "East Center Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Lexington Style Trimmings",
+    "opening_hours": "Tu-Sa 10:30-20:00, Su 11:00-20:00",
+    "phone": "+1-336-249-8211"
+   }
+  },
+  {
+   "osm_id": "way/604810311",
+   "slug": "little-pigs-bbq-asheville",
+   "name": "Little Pigs BBQ",
+   "state": "NC",
+   "lat": 35.57421,
+   "lon": -82.55022,
+   "tags": {
+    "addr:city": "Asheville",
+    "addr:housenumber": "384",
+    "addr:postcode": "28803",
+    "addr:state": "NC",
+    "addr:street": "McDowell Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Little Pigs BBQ"
+   }
+  },
+  {
+   "osm_id": "way/905879710",
+   "slug": "little-richards-bar-b-que",
+   "name": "Little Richard's Bar-B-Que",
+   "state": "NC",
+   "lat": 36.03036,
+   "lon": -80.38395,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Little Richard's Bar-B-Que",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "osm_id": "node/3680839186",
+   "slug": "little-richards-bbq",
+   "name": "Little Richard's BBQ",
+   "state": "NC",
+   "lat": 36.50481,
+   "lon": -80.6229,
+   "tags": {
+    "addr:city": "Mount Airy",
+    "addr:housenumber": "455",
+    "addr:postcode": "27030",
+    "addr:state": "NC",
+    "addr:street": "Frederick Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Little Richard's BBQ",
+    "phone": "+13367830227"
+   }
+  },
+  {
+   "osm_id": "node/12674019595",
+   "slug": "longleaf-swine",
+   "name": "Longleaf Swine",
+   "state": "NC",
+   "lat": 35.78086,
+   "lon": -78.63445,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:housenumber": "300",
+    "addr:postcode": "27601",
+    "addr:state": "NC",
+    "addr:street": "East Edenton Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Longleaf Swine",
+    "opening_hours": "We-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-21:00",
+    "phone": "+1-984-200-9649",
+    "website": "https://longleafswine.com"
+   }
+  },
+  {
+   "osm_id": "way/47968997",
+   "slug": "longleaf-swine-raleigh",
+   "name": "Longleaf Swine",
+   "state": "NC",
+   "lat": 35.885,
+   "lon": -78.66026,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:housenumber": "7701",
+    "addr:state": "NC",
+    "addr:street": "Lead Mine Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "description": "Not Open Yet",
+    "name": "Longleaf Swine"
+   }
+  },
+  {
+   "osm_id": "way/684487537",
+   "slug": "luellas-bbq",
+   "name": "Luella's BBQ",
+   "state": "NC",
+   "lat": 35.61528,
+   "lon": -82.55463,
+   "tags": {
+    "addr:city": "Asheville",
+    "addr:housenumber": "501",
+    "addr:postcode": "28804",
+    "addr:state": "NC",
+    "addr:street": "Merrimon Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Luella's BBQ",
+    "phone": "+1-828-505-7427",
+    "website": "https://www.luellasbbq.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/544065043",
+   "slug": "lynchs-bbq-and-grill",
+   "name": "Lynch's BBQ & Grill",
+   "state": "NC",
+   "lat": 36.25546,
+   "lon": -77.945,
+   "tags": {
+    "addr:city": "Hollister",
+    "addr:housenumber": "37674",
+    "addr:postcode": "27844",
+    "addr:state": "NC",
+    "addr:street": "NC-561",
+    "amenity": "restaurant",
+    "cuisine": "burger;american;barbecue",
+    "name": "Lynch's BBQ & Grill",
+    "phone": "+12525865069"
+   }
+  },
+  {
+   "osm_id": "node/12179375131",
+   "slug": "macs",
+   "name": "Mac's",
+   "state": "NC",
+   "lat": 35.07443,
+   "lon": -78.95277,
+   "tags": {
+    "addr:city": "Fayetteville",
+    "addr:housenumber": "482",
+    "addr:postcode": "28303",
+    "addr:state": "NC",
+    "addr:street": "North Mcpherson Church Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mac's",
+    "website": "https://macspeedshop.com/"
+   }
+  },
+  {
+   "osm_id": "node/7099039005",
+   "slug": "macs-speed-shop",
+   "name": "Mac's Speed Shop",
+   "state": "NC",
+   "lat": 36.08575,
+   "lon": -79.80544,
+   "tags": {
+    "addr:housenumber": "1218",
+    "addr:street": "Battleground Avenue",
+    "amenity": "restaurant",
+    "check_date": "2024-12-22",
+    "cuisine": "american;barbecue",
+    "name": "Mac's Speed Shop",
+    "opening_hours": "Mo-We,Su 11:00-22:00; Th-Fr 11:00-23:00",
+    "phone": "+1 336-544-8370",
+    "website": "https://macspeedshop.com/locations/greensboro/"
+   }
+  },
+  {
+   "osm_id": "way/258708723",
+   "slug": "macs-speed-shop-charlotte",
+   "name": "Mac's Speed Shop",
+   "state": "NC",
+   "lat": 35.20296,
+   "lon": -80.86437,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "2511",
+    "addr:postcode": "28203",
+    "addr:state": "NC",
+    "addr:street": "South Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mac's Speed Shop",
+    "phone": "+1-704-522-6227"
+   }
+  },
+  {
+   "osm_id": "way/436484874",
+   "slug": "macs-speed-shop-3",
+   "name": "Mac's Speed Shop",
+   "state": "NC",
+   "lat": 35.13589,
+   "lon": -80.94016,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "2414",
+    "addr:postcode": "28273",
+    "addr:state": "NC",
+    "addr:street": "Sandy Porter Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mac's Speed Shop",
+    "website": "https://macspeedshop.com/"
+   }
+  },
+  {
+   "osm_id": "way/31345349",
+   "slug": "mavericks-smokehouse-and-taproom",
+   "name": "Maverick's Smokehouse and Taproom",
+   "state": "NC",
+   "lat": 36.00031,
+   "lon": -78.90919,
+   "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "900",
+    "addr:postcode": "27701",
+    "addr:state": "NC",
+    "addr:street": "West Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Maverick's Smokehouse and Taproom",
+    "opening_hours": "Mo-Su 11:20-02:00",
+    "outdoor_seating": "yes",
+    "website": "https://www.maverickssmokehouse.com/"
+   }
+  },
+  {
+   "osm_id": "way/764344190",
+   "slug": "mckoys-smokehouse-and-saloon",
+   "name": "McKoy's Smokehouse and Saloon",
+   "state": "NC",
+   "lat": 35.17878,
+   "lon": -80.88001,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "4630",
+    "addr:postcode": "28217",
+    "addr:state": "NC",
+    "addr:street": "Old Pineville Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "McKoy's Smokehouse and Saloon",
+    "opening_hours": "Mo-Th 11:00-22:00, Sa 11:00-23:00, Su 12:00-19:00",
+    "phone": "+1-704-523-6330",
+    "website": "https://mckoys.net/"
+   }
+  },
+  {
+   "osm_id": "node/7781297450",
+   "slug": "midwood-smokehouse",
+   "name": "Midwood Smokehouse",
+   "state": "NC",
+   "lat": 35.44405,
+   "lon": -80.88128,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Midwood Smokehouse"
+   }
+  },
+  {
+   "osm_id": "way/926764815",
+   "slug": "midwood-smokehouse-charlotte",
+   "name": "Midwood Smokehouse",
+   "state": "NC",
+   "lat": 35.07015,
+   "lon": -80.84355,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "12410",
+    "addr:postcode": "28277",
+    "addr:state": "NC",
+    "addr:street": "Johnston Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Midwood Smokehouse",
+    "website": "https://midwoodsmokehouse.com"
+   }
+  },
+  {
+   "osm_id": "node/11386952087",
+   "slug": "mint-hill-rock-store-bar-b-que",
+   "name": "Mint Hill Rock Store Bar B Que",
+   "state": "NC",
+   "lat": 35.17221,
+   "lon": -80.66074,
+   "tags": {
+    "addr:city": "Mint Hill",
+    "addr:housenumber": "7032",
+    "addr:postcode": "28227",
+    "addr:state": "NC",
+    "addr:street": "Brighton Park Drive",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "drive_through": "no",
+    "name": "Mint Hill Rock Store Bar B Que",
+    "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-17:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-704-545-1227",
+    "website": "https://www.bbqminthill.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/10649857819",
+   "slug": "moes-original-bbq-36011--78923",
+   "name": "Moe's Original BBQ",
+   "state": "NC",
+   "lat": 36.01069,
+   "lon": -78.92257,
+   "tags": {
+    "addr:housenumber": "2014",
+    "addr:street": "Hillsborough Road",
+    "amenity": "restaurant",
+    "check_date": "2023-02-11",
+    "cuisine": "barbecue",
+    "name": "Moe's Original BBQ",
+    "opening_hours": "Mo-Th 11:00-20:30; Fr-Sa 11:00-21:30",
+    "outdoor_seating": "yes",
+    "phone": "+1 919-237-1004",
+    "website": "https://www.moesoriginalbbq.com/durham",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/608009719",
+   "slug": "moes-original-bbq-woodfin",
+   "name": "Moe's Original BBQ Woodfin",
+   "state": "NC",
+   "lat": 35.64039,
+   "lon": -82.5791,
+   "tags": {
+    "addr:city": "Woodfin",
+    "addr:housenumber": "72",
+    "addr:postcode": "28804",
+    "addr:state": "NC",
+    "addr:street": "Weaverville Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Moe's Original BBQ Woodfin",
+    "phone": "+18285053542",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/1275913007",
+   "slug": "moores-olde-tyme-barbeque",
+   "name": "Moore's Olde Tyme Barbeque",
+   "state": "NC",
+   "lat": 34.7357,
+   "lon": -76.79902,
+   "tags": {
+    "addr:city": "Morehead City",
+    "addr:housenumber": "5069",
+    "addr:postcode": "28557",
+    "addr:state": "NC",
+    "addr:street": "Hwy 70 W",
+    "amenity": "restaurant",
+    "cuisine": "seafood;barbecue",
+    "name": "Moore's Olde Tyme Barbeque",
+    "opening_hours": "Mo-Su 10:30-21:00",
+    "phone": "+1-252-222-4744",
+    "website": "https://mooresoldetymebbq.com"
+   }
+  },
+  {
+   "osm_id": "way/760241003",
+   "slug": "mountain-view-bbq-and-deli",
+   "name": "Mountain View BBQ & Deli",
+   "state": "NC",
+   "lat": 35.24265,
+   "lon": -82.20983,
+   "tags": {
+    "addr:city": "Columbus",
+    "addr:housenumber": "829",
+    "addr:postcode": "28722",
+    "addr:state": "NC",
+    "addr:street": "West Mills Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;deli",
+    "name": "Mountain View BBQ & Deli",
+    "opening_hours": "Tu-Sa 11:00-20:00",
+    "phone": "+18288947060"
+   }
+  },
+  {
+   "osm_id": "way/1171047686",
+   "slug": "ni-armors-hawaiian-and-polynesian-bbq",
+   "name": "Ni Armor's Hawaiian & Polynesian BBQ",
+   "state": "NC",
+   "lat": 35.72028,
+   "lon": -79.18652,
+   "tags": {
+    "addr:city": "Pittsboro",
+    "addr:housenumber": "517",
+    "addr:postcode": "27312",
+    "addr:state": "NC",
+    "addr:street": "West Street",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/people/Ni-Armors-Hawaiian-Polynesian-BBQ-PittsboroNC/61554108321529/?sk=about",
+    "cuisine": "hawaiian;barbecue;polynesian",
+    "name": "Ni Armor's Hawaiian & Polynesian BBQ",
+    "opening_hours": "Mo off; Tu-Sa 11:00-19:00; Su off",
+    "phone": "+1-919-704-8055",
+    "takeaway": "yes",
+    "website": "https://www.instagram.com/niarmorofficial/"
+   }
+  },
+  {
+   "osm_id": "way/849374572",
+   "slug": "noble-smoke",
+   "name": "Noble Smoke",
+   "state": "NC",
+   "lat": 35.23393,
+   "lon": -80.87689,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "2216",
+    "addr:postcode": "28208",
+    "addr:state": "NC",
+    "addr:street": "Freedom Drive",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Noble Smoke"
+   }
+  },
+  {
+   "osm_id": "way/563262135",
+   "slug": "ole-carlolina-barbeque",
+   "name": "Ole Carlolina Barbeque",
+   "state": "NC",
+   "lat": 35.24982,
+   "lon": -81.17601,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Ole Carlolina Barbeque"
+   }
+  },
+  {
+   "osm_id": "way/47731728",
+   "slug": "ole-time-barbecue",
+   "name": "Ole Time Barbecue",
+   "state": "NC",
+   "lat": 35.7878,
+   "lon": -78.7387,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:housenumber": "6309",
+    "addr:postcode": "27606",
+    "addr:state": "NC",
+    "addr:street": "Hillsborough Street",
+    "amenity": "restaurant",
+    "check_date": "2026-04-04",
+    "cuisine": "barbecue",
+    "name": "Ole Time Barbecue",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su off",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "phone": "+1-919-859-2544",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://oletimebarbecue.com/"
+   }
+  },
+  {
+   "osm_id": "way/267464006",
+   "slug": "parkers",
+   "name": "Parker's",
+   "state": "NC",
+   "lat": 35.59835,
+   "lon": -77.33579,
+   "tags": {
+    "addr:housenumber": "2020",
+    "addr:street": "Greenville Boulevard Southeast",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "drive_through": "yes",
+    "name": "Parker's",
+    "opening_hours": "Mo-Su 10:00-20:30"
+   }
+  },
+  {
+   "osm_id": "way/580522679",
+   "slug": "picnic",
+   "name": "Picnic",
+   "state": "NC",
+   "lat": 36.04038,
+   "lon": -78.95773,
+   "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "1647",
+    "addr:postcode": "27705",
+    "addr:state": "NC",
+    "addr:street": "Cole Mill Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;bar",
+    "name": "Picnic",
+    "outdoor_seating": "yes",
+    "phone": "+1-919-908-9128",
+    "website": "https://www.picnicdurham.com/"
+   }
+  },
+  {
+   "osm_id": "way/1094131254",
+   "slug": "piggys-ice-cream-harrys-grille",
+   "name": "Piggy's Ice Cream-Harry's Grille",
+   "state": "NC",
+   "lat": 35.33136,
+   "lon": -82.44978,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Piggy's Ice Cream-Harry's Grille"
+   }
+  },
+  {
+   "osm_id": "node/12026746235",
+   "slug": "pigman-s-bar-b-que",
+   "name": "Pigman’s Bar-B-Que",
+   "state": "NC",
+   "lat": 35.99784,
+   "lon": -75.65203,
+   "tags": {
+    "addr:postcode": "27948",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Pigman’s Bar-B-Que",
+    "phone": "+1-252-441-6803",
+    "website": "https://pigman.com"
+   }
+  },
+  {
+   "osm_id": "way/432968714",
+   "slug": "pik-n-pig",
+   "name": "Pik N Pig",
+   "state": "NC",
+   "lat": 35.3408,
+   "lon": -79.43711,
+   "tags": {
+    "addr:city": "Carthage",
+    "addr:housenumber": "194",
+    "addr:postcode": "28327",
+    "addr:state": "NC",
+    "addr:street": "Gilliam-McConnell Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Pik N Pig",
+    "opening_hours": "Tu-Sa 11:00-20:00",
+    "phone": "+1-910-947-7591",
+    "website": "https://pik-n-pig.com/"
+   }
+  },
+  {
+   "osm_id": "way/761063449",
+   "slug": "prime-barbecue",
+   "name": "Prime Barbecue",
+   "state": "NC",
+   "lat": 35.7971,
+   "lon": -78.47357,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-03-20",
+    "cuisine": "barbecue",
+    "name": "Prime Barbecue",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/11879197089",
+   "slug": "qinji-hawaiian-bbq-and-ramen",
+   "name": "Qinji Hawaiian BBQ & Ramen",
+   "state": "NC",
+   "lat": 36.10356,
+   "lon": -79.78243,
+   "tags": {
+    "addr:housenumber": "2224",
+    "addr:street": "Golden Gate Drive",
+    "amenity": "restaurant",
+    "check_date": "2025-07-22",
+    "cuisine": "barbecue;ramen",
+    "name": "Qinji Hawaiian BBQ & Ramen",
+    "opening_hours": "Tu-Sa 11:00-21:00; Su 12:00-21:00",
+    "payment:cash": "yes",
+    "phone": "+1 336-332-0066; +1 336-332-0067",
+    "website": "https://www.qinjigreensboro.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4834801027",
+   "slug": "rallypoint-sport-grill",
+   "name": "RallyPoint Sport Grill",
+   "state": "NC",
+   "lat": 35.8313,
+   "lon": -78.77024,
+   "tags": {
+    "addr:city": "Cary",
+    "addr:housenumber": "1837",
+    "addr:postcode": "27513",
+    "addr:state": "NC",
+    "addr:street": "North Harrison Avenue",
+    "amenity": "restaurant",
+    "check_date": "2024-03-30",
+    "contact:facebook": "rallypointsportgrill",
+    "cuisine": "barbecue;american",
+    "description": "A chill bar & grill with BBQ, wings & more, plus sports on HDTVs & live music on a patio.",
+    "name": "RallyPoint Sport Grill",
+    "opening_hours": "Su-Mo 11:00-24:00; Tu-Sa 11:00-02:00",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4001468172",
+   "slug": "randys-barbecue",
+   "name": "Randy's Barbecue",
+   "state": "NC",
+   "lat": 35.81201,
+   "lon": -80.18811,
+   "tags": {
+    "addr:city": "Lexington",
+    "addr:housenumber": "3129",
+    "addr:postcode": "27292",
+    "addr:state": "NC",
+    "addr:street": "US-64",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;regional",
+    "name": "Randy's Barbecue",
+    "opening_hours": "Mo-Sa 05:30-21:30",
+    "phone": "+1-336-249-6714"
+   }
+  },
+  {
+   "osm_id": "node/904508348",
+   "slug": "red-hot-and-blue",
+   "name": "Red Hot & Blue",
+   "state": "NC",
+   "lat": 35.87328,
+   "lon": -78.62398,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:housenumber": "6615",
+    "addr:postcode": "27615",
+    "addr:state": "NC",
+    "addr:street": "Falls of Neuse Rd",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/redhotandbluenc/",
+    "cuisine": "barbecue",
+    "name": "Red Hot & Blue",
+    "opening_hours": "Su-Th 11:00-19:30; Fr-Sa 11:00-20:00",
+    "phone": "+1-919-846-7427",
+    "takeaway": "yes",
+    "website": "https://www.redhotandblue.com/raleigh-nc/"
+   }
+  },
+  {
+   "osm_id": "way/614158454",
+   "slug": "red-wolff-kitchen",
+   "name": "Red Wolff Kitchen",
+   "state": "NC",
+   "lat": 36.01602,
+   "lon": -82.15622,
+   "tags": {
+    "addr:city": "Bakersville",
+    "addr:housenumber": "144",
+    "addr:postcode": "28705",
+    "addr:state": "NC",
+    "addr:street": "Hemlock Drive",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Red Wolff Kitchen",
+    "phone": "+18286889332",
+    "website": "https://www.instagram.com/redwolffkitchen/"
+   }
+  },
+  {
+   "osm_id": "way/659540006",
+   "slug": "redneck-bbq-lab",
+   "name": "Redneck BBQ Lab",
+   "state": "NC",
+   "lat": 35.51558,
+   "lon": -78.55526,
+   "tags": {
+    "addr:city": "Benson",
+    "addr:housenumber": "12101-B",
+    "addr:postcode": "27504",
+    "addr:state": "NC",
+    "addr:street": "NC 210",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "drive_through": "yes",
+    "name": "Redneck BBQ Lab",
+    "opening_hours": "Su-Th 11:00-19:00; Fr-Sa 11:00-20:00",
+    "outdoor_seating": "no",
+    "phone": "+1-919-938-8334",
+    "takeaway": "yes",
+    "website": "http://www.redneckbbqlab.com"
+   }
+  },
+  {
+   "osm_id": "node/13403711044",
+   "slug": "rib-country-bbq",
+   "name": "Rib Country BBQ",
+   "state": "NC",
+   "lat": 35.06742,
+   "lon": -84.05868,
+   "tags": {
+    "addr:city": "Murphy",
+    "addr:housenumber": "2121",
+    "addr:postcode": "28906",
+    "addr:state": "NC",
+    "addr:street": "West US 64",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Rib Country BBQ",
+    "website": "https://ribcountrybbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/10233493752",
+   "slug": "ricks-nc-bbq",
+   "name": "Rick's NC BBQ",
+   "state": "NC",
+   "lat": 35.03062,
+   "lon": -76.6928,
+   "tags": {
+    "addr:city": "Oriental",
+    "addr:housenumber": "802",
+    "addr:postcode": "28571",
+    "addr:state": "NC",
+    "addr:street": "Broad Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Rick's NC BBQ"
+   }
+  },
+  {
+   "osm_id": "node/4338783695",
+   "slug": "sacks",
+   "name": "Sack's",
+   "state": "NC",
+   "lat": 35.33567,
+   "lon": -83.61736,
+   "tags": {
+    "addr:city": "Bryson City",
+    "addr:state": "NC",
+    "addr:street": "Highway 19 West",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Sack's"
+   }
+  },
+  {
+   "osm_id": "way/315335644",
+   "slug": "seoul-food-meat-co",
+   "name": "Seoul Food Meat Co.",
+   "state": "NC",
+   "lat": 35.21925,
+   "lon": -80.85765,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "1400",
+    "addr:postcode": "28203",
+    "addr:state": "NC",
+    "addr:street": "South Church Street",
+    "amenity": "restaurant",
+    "cuisine": "korean;barbecue",
+    "name": "Seoul Food Meat Co.",
+    "outdoor_seating": "yes",
+    "smoking": "outside"
+   }
+  },
+  {
+   "osm_id": "node/5538678264",
+   "slug": "shanes-rib-shack-35302--80748",
+   "name": "Shane's Rib Shack",
+   "state": "NC",
+   "lat": 35.30232,
+   "lon": -80.74777,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Shane's Rib Shack"
+   }
+  },
+  {
+   "osm_id": "node/8092709189",
+   "slug": "shanes-rib-shack-35167--80973",
+   "name": "Shane's Rib Shack",
+   "state": "NC",
+   "lat": 35.16686,
+   "lon": -80.97318,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Shane's Rib Shack"
+   }
+  },
+  {
+   "osm_id": "way/728084924",
+   "slug": "shaws-barbecue-house",
+   "name": "Shaw's Barbecue House",
+   "state": "NC",
+   "lat": 35.842,
+   "lon": -77.06861,
+   "tags": {
+    "addr:city": "Williamston",
+    "addr:housenumber": "202",
+    "addr:postcode": "27892",
+    "addr:state": "NC",
+    "addr:street": "West Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;regional",
+    "diet:vegetarian": "no",
+    "name": "Shaw's Barbecue House",
+    "opening_hours": "Mo-Sa 06:00-19:00",
+    "outdoor_seating": "yes",
+    "phone": "+1 252 792 5339",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/810282918",
+   "slug": "short-sugars",
+   "name": "Short Sugars",
+   "state": "NC",
+   "lat": 36.34422,
+   "lon": -79.66475,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Short Sugars"
+   }
+  },
+  {
+   "osm_id": "node/12895944701",
+   "slug": "shortstops-burgers-and-shakes",
+   "name": "ShortStops (Burgers & Shakes)",
+   "state": "NC",
+   "lat": 35.62924,
+   "lon": -80.10834,
+   "tags": {
+    "addr:housenumber": "18159",
+    "addr:postcode": "27239",
+    "addr:street": "Denton rd",
+    "amenity": "fast_food",
+    "cuisine": "american;barbecue;breakfast;chicken;hotdog;ice_cream",
+    "name": "ShortStops (Burgers & Shakes)",
+    "opening_hours": "Mo-Su 06:00-22:00"
+   }
+  },
+  {
+   "osm_id": "node/2955593931",
+   "slug": "skylight-inn-bbq",
+   "name": "Skylight Inn BBQ",
+   "state": "NC",
+   "lat": 35.46118,
+   "lon": -77.42338,
+   "tags": {
+    "addr:city": "Ayden",
+    "addr:housenumber": "4618",
+    "addr:postcode": "28513",
+    "addr:state": "NC",
+    "addr:street": "South Lee Street",
+    "amenity": "restaurant",
+    "cuisine": "american;barbecue",
+    "name": "Skylight Inn BBQ",
+    "opening_hours": "Mo-Sa 10:00-19:00; Su off",
+    "phone": "+1-252-746-4113",
+    "takeaway": "yes",
+    "website": "https://www.skylightinnbbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/1099959199",
+   "slug": "smithfield-chicken-and-bbq",
+   "name": "Smithfield Chicken & BBQ",
+   "state": "NC",
+   "lat": 35.6522,
+   "lon": -78.3526,
+   "tags": {
+    "addr:city": "Clayton",
+    "addr:housenumber": "33",
+    "addr:postcode": "27527",
+    "addr:state": "NC",
+    "addr:street": "SW Flowers Parkway",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smithfield Chicken & BBQ",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+1-919-371-2722"
+   }
+  },
+  {
+   "osm_id": "node/2002859717",
+   "slug": "smithfields-chicken-n-bar-b-q",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 34.21743,
+   "lon": -78.01846,
+   "tags": {
+    "addr:city": "Leland",
+    "addr:housenumber": "2020",
+    "addr:postcode": "28451",
+    "addr:state": "NC",
+    "addr:street": "Olde Regent Way",
+    "amenity": "fast_food",
+    "cuisine": "chicken;barbecue",
+    "name": "Smithfield's Chicken 'N Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "node/11308502777",
+   "slug": "smithfields-chicken-n-bar-b-q-34760--79481",
+   "name": "smithfield's chicken 'n Bar-B-Q",
+   "state": "NC",
+   "lat": 34.76016,
+   "lon": -79.48109,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue;chicken",
+    "name": "smithfield's chicken 'n Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/47663316",
+   "slug": "smithfields-chicken-n-bar-b-q-garner",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 35.72634,
+   "lon": -78.58056,
+   "tags": {
+    "addr:city": "Garner",
+    "addr:housenumber": "4000",
+    "addr:postcode": "27529",
+    "addr:state": "NC",
+    "addr:street": "Jones Sausage Road",
+    "amenity": "restaurant",
+    "brand": "Smithfield's Chicken 'N Bar-B-Q",
+    "brand:wikidata": "Q7545474",
+    "cuisine": "barbecue;chicken",
+    "name": "Smithfield's Chicken 'N Bar-B-Q",
+    "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-23:00",
+    "phone": "+1-919-779-0095",
+    "website": "https://www.scnbnc.com/"
+   }
+  },
+  {
+   "osm_id": "way/80020044",
+   "slug": "smithfields-chicken-n-bar-b-q-36335--78437",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 36.33508,
+   "lon": -78.43705,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Smithfield's Chicken 'N Bar-B-Q",
+    "brand:wikidata": "Q7545474",
+    "cuisine": "barbecue;chicken",
+    "name": "Smithfield's Chicken 'N Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/207540526",
+   "slug": "smithfields-chicken-n-bar-b-q-morrisville",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 35.81853,
+   "lon": -78.84694,
+   "tags": {
+    "addr:city": "Morrisville",
+    "addr:housenumber": "3578",
+    "addr:postcode": "27560",
+    "addr:street": "Davis Drive",
+    "amenity": "restaurant",
+    "cuisine": "chicken;barbecue",
+    "drive_through": "yes",
+    "name": "Smithfield's Chicken 'N Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/220548386",
+   "slug": "smithfields-chicken-n-bar-b-q-rocky-mount",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 35.96308,
+   "lon": -77.82035,
+   "tags": {
+    "addr:city": "Rocky Mount",
+    "addr:housenumber": "670",
+    "addr:postcode": "27804",
+    "addr:state": "NC",
+    "addr:street": "North Wesleyan Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;chicken",
+    "diet:vegetarian": "no",
+    "name": "Smithfield's Chicken 'N Bar-B-Q",
+    "opening_hours": "Mo-Th,Su 10:00-22:00; Fr,Sa 10:00-23:00",
+    "outdoor_seating": "yes",
+    "phone": "+1 252 937 3032",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/550543878",
+   "slug": "smithfields-chicken-n-bar-b-q-knightdale",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 35.79791,
+   "lon": -78.48468,
+   "tags": {
+    "addr:city": "Knightdale",
+    "addr:housenumber": "7304",
+    "addr:postcode": "27545",
+    "addr:state": "NC",
+    "addr:street": "Knightdale Blvd",
+    "amenity": "restaurant",
+    "brand": "Smithfield's Chicken 'N Bar-B-Q",
+    "brand:wikidata": "Q7545474",
+    "cuisine": "barbecue;chicken",
+    "name": "Smithfield's Chicken 'N Bar-B-Q",
+    "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-23:00",
+    "outdoor_seating": "no",
+    "phone": "+1-919-865-1905",
+    "takeaway": "yes",
+    "website": "https://www.scnbnc.com/"
+   }
+  },
+  {
+   "osm_id": "way/1097192549",
+   "slug": "smithfields-chicken-n-bar-b-q-35457--79142",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 35.45684,
+   "lon": -79.14221,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Smithfield's Chicken 'N Bar-B-Q",
+    "brand:wikidata": "Q7545474",
+    "cuisine": "barbecue;chicken",
+    "name": "Smithfield's Chicken 'N Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/1373483623",
+   "slug": "smithfields-chicken-n-bar-b-q-34666--79003",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 34.66575,
+   "lon": -79.0026,
+   "tags": {
+    "addr:housenumber": "5050",
+    "addr:street": "Fayetteville Road",
+    "amenity": "restaurant",
+    "brand": "Smithfield's Chicken 'N Bar-B-Q",
+    "brand:wikidata": "Q7545474",
+    "check_date": "2025-11-26",
+    "cuisine": "barbecue;chicken",
+    "name": "Smithfield's Chicken 'N Bar-B-Q",
+    "opening_hours": "Nov 27,Dec 25 off",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/1471512055",
+   "slug": "smithfields-chicken-n-bar-b-q-goldsboro",
+   "name": "Smithfield's Chicken 'N Bar-B-Q",
+   "state": "NC",
+   "lat": 35.42958,
+   "lon": -78.0646,
+   "tags": {
+    "addr:city": "Goldsboro",
+    "addr:housenumber": "2902",
+    "addr:postcode": "27530",
+    "addr:state": "NC",
+    "addr:street": "Us Highway 70 West",
+    "amenity": "restaurant",
+    "brand": "Smithfield's Chicken 'N Bar-B-Q",
+    "brand:wikidata": "Q7545474",
+    "cuisine": "barbecue;chicken",
+    "name": "Smithfield's Chicken 'N Bar-B-Q",
+    "phone": "+1-919-947-6772"
+   }
+  },
+  {
+   "osm_id": "way/205230395",
+   "slug": "smithfields-chicken-n-barbeque",
+   "name": "Smithfield's Chicken 'N Barbeque",
+   "state": "NC",
+   "lat": 35.60863,
+   "lon": -78.56256,
+   "tags": {
+    "addr:city": "Garner",
+    "addr:housenumber": "5180",
+    "addr:postcode": "27529",
+    "addr:state": "NC",
+    "addr:street": "NC-42",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;chicken",
+    "name": "Smithfield's Chicken 'N Barbeque",
+    "phone": "+19197730774"
+   }
+  },
+  {
+   "osm_id": "node/4554693908",
+   "slug": "smithfields-chicken-and-barbeque",
+   "name": "Smithfield's Chicken and Barbeque",
+   "state": "NC",
+   "lat": 35.97053,
+   "lon": -77.93861,
+   "tags": {
+    "addr:city": "Nashville",
+    "addr:housenumber": "1169",
+    "addr:postcode": "27856",
+    "addr:state": "NC",
+    "addr:street": "Eastern Avenue",
+    "amenity": "fast_food",
+    "check_date": "2023-04-08",
+    "cuisine": "barbecue",
+    "drive_through": "yes",
+    "name": "Smithfield's Chicken and Barbeque",
+    "opening_hours": "Mo-Th,Su 10:00-22:00; Fr-Sa 10:00-23:00",
+    "phone": "+12524590092",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/602634399",
+   "slug": "smithfields-chicken-and-bbq",
+   "name": "Smithfield's Chicken and BBQ",
+   "state": "NC",
+   "lat": 35.10475,
+   "lon": -77.08077,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smithfield's Chicken and BBQ"
+   }
+  },
+  {
+   "osm_id": "node/13116385201",
+   "slug": "smoke-and-barrel",
+   "name": "Smoke and Barrel",
+   "state": "NC",
+   "lat": 35.48023,
+   "lon": -79.1791,
+   "tags": {
+    "addr:city": "Sanford",
+    "addr:housenumber": "120",
+    "addr:postcode": "27330",
+    "addr:state": "NC",
+    "addr:street": "South Steele Street",
+    "amenity": "restaurant",
+    "cuisine": "grill;barbecue",
+    "name": "Smoke and Barrel",
+    "opening_hours": "Mo-We 11:00-22:00; Th-Sa 11:00-25:00",
+    "website": "https://www.smokeandbarrelsanford.com/"
+   }
+  },
+  {
+   "osm_id": "node/10572978117",
+   "slug": "smoke-on-bbq",
+   "name": "Smoke On BBQ",
+   "state": "NC",
+   "lat": 35.22649,
+   "lon": -82.73797,
+   "tags": {
+    "addr:city": "Brevard",
+    "addr:housenumber": "585",
+    "addr:postcode": "28712",
+    "addr:state": "NC",
+    "addr:street": "South Caldwell Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smoke On BBQ",
+    "phone": "+18285524584"
+   }
+  },
+  {
+   "osm_id": "way/895120488",
+   "slug": "smokehouse-at-steves",
+   "name": "Smokehouse at Steve's",
+   "state": "NC",
+   "lat": 36.07144,
+   "lon": -79.40774,
+   "tags": {
+    "addr:city": "Graham",
+    "addr:housenumber": "331",
+    "addr:postcode": "27253",
+    "addr:state": "NC",
+    "addr:street": "West Harden Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smokehouse at Steve's",
+    "opening_hours": "Mo-Sa 11:00-15:00,10:00-20:00; Su 10:00-15:00"
+   }
+  },
+  {
+   "osm_id": "way/673513057",
+   "slug": "smokey-joes-barbecue",
+   "name": "Smokey Joe's Barbecue",
+   "state": "NC",
+   "lat": 35.81329,
+   "lon": -80.26466,
+   "tags": {
+    "addr:city": "Lexington",
+    "addr:housenumber": "1101",
+    "addr:postcode": "27292",
+    "addr:state": "NC",
+    "addr:street": "South Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smokey Joe's Barbecue",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-16:00",
+    "phone": "+1-336-249-0315",
+    "website": "http://smokeyjoesbbqlexington.com/"
+   }
+  },
+  {
+   "osm_id": "node/10054655488",
+   "slug": "smoky-mountain-barbecue",
+   "name": "Smoky Mountain Barbecue",
+   "state": "NC",
+   "lat": 36.39076,
+   "lon": -81.48859,
+   "tags": {
+    "addr:city": "West Jefferson",
+    "addr:housenumber": "1008",
+    "addr:postcode": "28694",
+    "addr:state": "NC",
+    "addr:street": "South Jefferson Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smoky Mountain Barbecue",
+    "phone": "+13362466818"
+   }
+  },
+  {
+   "osm_id": "way/397358116",
+   "slug": "sonnys-bbq-35367--80713",
+   "name": "Sonny's BBQ",
+   "state": "NC",
+   "lat": 35.36729,
+   "lon": -80.71284,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Sonny's BBQ",
+    "brand:wikidata": "Q7561989",
+    "cuisine": "barbecue",
+    "name": "Sonny's BBQ",
+    "website": "https://www.sonnysbbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/515382950",
+   "slug": "sooeys-bbq-and-rib-shack",
+   "name": "Sooey's BBQ & Rib Shack",
+   "state": "NC",
+   "lat": 35.95956,
+   "lon": -75.6257,
+   "tags": {
+    "addr:city": "Nags Head",
+    "addr:housenumber": "3919",
+    "addr:postcode": "27959",
+    "addr:state": "NC",
+    "addr:street": "South Croatan Highway;South Virginia Dare Trail",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;burger;american;sandwich",
+    "name": "Sooey's BBQ & Rib Shack",
+    "phone": "+1-252-449-6465",
+    "start_date": "1960",
+    "website": "https://www.sooeysbbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/509351798",
+   "slug": "southland-restaurant",
+   "name": "Southland Restaurant",
+   "state": "NC",
+   "lat": 36.54891,
+   "lon": -76.19101,
+   "tags": {
+    "addr:city": "Moyock",
+    "addr:housenumber": "141",
+    "addr:postcode": "27958",
+    "addr:state": "NC",
+    "addr:street": "Caratoke Highway",
+    "amenity": "restaurant",
+    "cuisine": "american;barbecue",
+    "name": "Southland Restaurant",
+    "opening_hours": "Tu-Th 11:00-15:00,Fr-Sa 11:00-20:00,Su 10:00-16:00",
+    "phone": "+1-252-435-6247",
+    "website": "https://www.southlandrestaurant.com/"
+   }
+  },
+  {
+   "osm_id": "way/702924899",
+   "slug": "speedy-lohrs-bbq",
+   "name": "Speedy Lohr's BBQ",
+   "state": "NC",
+   "lat": 35.76316,
+   "lon": -80.26398,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Speedy Lohr's BBQ"
+   }
+  },
+  {
+   "osm_id": "node/13062644259",
+   "slug": "speedys-bbq",
+   "name": "Speedy's BBQ",
+   "state": "NC",
+   "lat": 35.83524,
+   "lon": -80.24499,
+   "tags": {
+    "addr:housenumber": "408",
+    "addr:street": "Piedmont Drive",
+    "amenity": "restaurant",
+    "check_date": "2025-08-10",
+    "cuisine": "barbecue",
+    "name": "Speedy's BBQ",
+    "phone": "+1-336-248-2410"
+   }
+  },
+  {
+   "osm_id": "way/324238125",
+   "slug": "stameys-barbecue",
+   "name": "Stamey's Barbecue",
+   "state": "NC",
+   "lat": 36.11161,
+   "lon": -79.83095,
+   "tags": {
+    "addr:city": "Greensboro",
+    "addr:housenumber": "2812",
+    "addr:postcode": "27408",
+    "addr:state": "NC",
+    "addr:street": "Battleground Avenue",
+    "amenity": "restaurant",
+    "check_date": "2026-08-08",
+    "cuisine": "barbecue",
+    "drive_through": "yes",
+    "name": "Stamey's Barbecue",
+    "opening_hours": "Mo-Sa 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-336-288-9275",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "website": "https://www.stameys.com/"
+   }
+  },
+  {
+   "osm_id": "node/6047089328",
+   "slug": "stameys-barbeque",
+   "name": "Stamey's Barbeque",
+   "state": "NC",
+   "lat": 35.80684,
+   "lon": -80.37605,
+   "tags": {
+    "addr:city": "Lexington",
+    "addr:housenumber": "4524",
+    "addr:postcode": "27295",
+    "addr:state": "NC",
+    "addr:street": "S NC 150",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Stamey's Barbeque",
+    "phone": "+1-336-853-6426"
+   }
+  },
+  {
+   "osm_id": "node/5300320693",
+   "slug": "stateline-bbq",
+   "name": "Stateline BBQ",
+   "state": "NC",
+   "lat": 35.10998,
+   "lon": -81.04245,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Stateline BBQ"
+   }
+  },
+  {
+   "osm_id": "node/11333333851",
+   "slug": "stewarts-tavern",
+   "name": "Stewart's Tavern",
+   "state": "NC",
+   "lat": 34.97929,
+   "lon": -79.22389,
+   "tags": {
+    "addr:city": "Raeford",
+    "addr:housenumber": "116",
+    "addr:postcode": "28376",
+    "addr:state": "NC",
+    "addr:street": "North Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Stewart's Tavern",
+    "phone": "+1-910-479-1313",
+    "website": "https://stewartstavern.com/"
+   }
+  },
+  {
+   "osm_id": "way/1261835189",
+   "slug": "stick-burnin-bbq-company",
+   "name": "Stick Burnin' BBQ Company",
+   "state": "NC",
+   "lat": 35.91743,
+   "lon": -76.25329,
+   "tags": {
+    "addr:city": "Columbia",
+    "addr:housenumber": "203",
+    "addr:postcode": "27925",
+    "addr:state": "NC",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Stick Burnin' BBQ Company"
+   }
+  },
+  {
+   "osm_id": "node/5267486136",
+   "slug": "stokelys-bbq",
+   "name": "Stokely's BBQ",
+   "state": "NC",
+   "lat": 36.07726,
+   "lon": -79.48611,
+   "tags": {
+    "amenity": "disused",
+    "cuisine": "barbecue;american",
+    "name": "Stokely's BBQ"
+   }
+  },
+  {
+   "osm_id": "node/11916281077",
+   "slug": "stus-food-truck",
+   "name": "Stu's Food Truck",
+   "state": "NC",
+   "lat": 35.34731,
+   "lon": -75.50199,
+   "tags": {
+    "addr:city": "Avon",
+    "addr:housenumber": "41001",
+    "addr:postcode": "27915",
+    "addr:state": "NC",
+    "addr:street": "North Carolina Highway 12",
+    "amenity": "fast_food",
+    "cuisine": "breakfast;barbecue;tacos;hot_dog;sandwich",
+    "drive_through": "no",
+    "name": "Stu's Food Truck",
+    "phone": "+12522420674",
+    "website": "https://www.facebook.com/stusfoodtruck"
+   }
+  },
+  {
+   "osm_id": "way/1097193194",
+   "slug": "stubbs-and-sons-bbq",
+   "name": "Stubbs and Sons BBQ",
+   "state": "NC",
+   "lat": 35.43084,
+   "lon": -79.22207,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Stubbs and Sons BBQ"
+   }
+  },
+  {
+   "osm_id": "way/323193538",
+   "slug": "sweet-lews-bbq",
+   "name": "Sweet Lew's BBQ",
+   "state": "NC",
+   "lat": 35.22807,
+   "lon": -80.82114,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "923",
+    "addr:postcode": "28205",
+    "addr:state": "NC",
+    "addr:street": "Belmont Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Sweet Lew's BBQ"
+   }
+  },
+  {
+   "osm_id": "way/515543140",
+   "slug": "ten-o-six",
+   "name": "Ten O Six",
+   "state": "NC",
+   "lat": 36.00753,
+   "lon": -75.65394,
+   "tags": {
+    "addr:city": "Kill Devil Hills",
+    "addr:housenumber": "1006",
+    "addr:postcode": "27948",
+    "addr:state": "NC",
+    "addr:street": "South Virginia Dare Trail",
+    "amenity": "restaurant",
+    "contact:facebook": "Ten0SixOBX",
+    "cuisine": "bagel;barbecue;burger;pancake;sandwich;seafood",
+    "name": "Ten O Six",
+    "opening_hours": "Mo,We-Su 07:00-16:00",
+    "phone": "+1 252 441 9607",
+    "start_date": "1978",
+    "takeaway": "yes",
+    "website": "https://www.tenosixobx.com"
+   }
+  },
+  {
+   "osm_id": "way/340982016",
+   "slug": "terry-house-barbecue",
+   "name": "Terry House Barbecue",
+   "state": "NC",
+   "lat": 35.86093,
+   "lon": -80.08862,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Terry House Barbecue"
+   }
+  },
+  {
+   "osm_id": "node/4349039898",
+   "slug": "the-crazy-pig-in-davidson",
+   "name": "The Crazy Pig in Davidson",
+   "state": "NC",
+   "lat": 35.49632,
+   "lon": -80.85272,
+   "tags": {
+    "addr:city": "Davidson",
+    "addr:housenumber": "402",
+    "addr:postcode": "28036",
+    "addr:state": "NC",
+    "addr:street": "South Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Crazy Pig in Davidson",
+    "opening_hours": "Mo-Sa 07:00-20:00",
+    "smoking": "no",
+    "website": "https://thecrazypigbbq.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/323191988",
+   "slug": "the-improper-pig",
+   "name": "The Improper Pig",
+   "state": "NC",
+   "lat": 35.22011,
+   "lon": -80.81196,
+   "tags": {
+    "addr:city": "Charlotte",
+    "addr:housenumber": "1600",
+    "addr:postcode": "28205",
+    "addr:state": "NC",
+    "addr:street": "Central Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Improper Pig",
+    "website": "https://theimproperpigreafarms.com"
+   }
+  },
+  {
+   "osm_id": "way/803323572",
+   "slug": "the-improper-pig-35052--80773",
+   "name": "The Improper Pig",
+   "state": "NC",
+   "lat": 35.05233,
+   "lon": -80.77342,
+   "tags": {
+    "addr:housenumber": "9855",
+    "addr:street": "Sandy Rock Place",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Improper Pig",
+    "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-22:00"
+   }
+  },
+  {
+   "osm_id": "way/605968761",
+   "slug": "the-original-carolina-barbecue-of-garner-inc",
+   "name": "The Original Carolina Barbecue of Garner, Inc.",
+   "state": "NC",
+   "lat": 35.71185,
+   "lon": -78.62646,
+   "tags": {
+    "addr:city": "Garner",
+    "addr:housenumber": "733",
+    "addr:postcode": "27529",
+    "addr:state": "NC",
+    "addr:street": "US 70",
+    "amenity": "restaurant",
+    "check_date": "2023-07-22",
+    "cuisine": "barbecue",
+    "name": "The Original Carolina Barbecue of Garner, Inc.",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+19197730222",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/299528024",
+   "slug": "the-original-q-shack",
+   "name": "The Original Q Shack",
+   "state": "NC",
+   "lat": 35.97457,
+   "lon": -78.92438,
+   "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "2510",
+    "addr:postcode": "27707",
+    "addr:state": "NC",
+    "addr:street": "University Dr",
+    "amenity": "restaurant",
+    "check_date": "2023-02-22",
+    "cuisine": "barbecue;burger",
+    "name": "The Original Q Shack",
+    "opening_hours": "Tu-Th 11:00-20:00; Fr-Sa 11:00-21:00",
+    "phone": "+1 919-402-4227",
+    "website": "http://theqshackoriginal.com",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/681750746",
+   "slug": "the-pedalin-pig",
+   "name": "The Pedalin' Pig",
+   "state": "NC",
+   "lat": 36.20741,
+   "lon": -81.70338,
+   "tags": {
+    "addr:city": "Boone",
+    "addr:housenumber": "2968-A",
+    "addr:postcode": "28607",
+    "addr:street": "NC Highway 105",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Pedalin' Pig",
+    "opening_hours": "Su-We,Th-Sa 11:00-21:00,11:00-22:00",
+    "phone": "+1 828-355-9559",
+    "website": "https://thepedalinpig.com/"
+   }
+  },
+  {
+   "osm_id": "node/2664104847",
+   "slug": "the-pig",
+   "name": "The Pig",
+   "state": "NC",
+   "lat": 35.96226,
+   "lon": -79.03488,
+   "tags": {
+    "addr:city": "Chapel Hill",
+    "addr:housenumber": "630",
+    "addr:postcode": "27514",
+    "addr:state": "NC",
+    "addr:street": "Weaver Dairy Road",
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "drive_through": "no",
+    "name": "The Pig",
+    "opening_hours": "Mo-Sa 11:00-21:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/2144920174",
+   "slug": "the-pit",
+   "name": "The Pit",
+   "state": "NC",
+   "lat": 35.77591,
+   "lon": -78.64471,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:state": "NC",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Pit",
+    "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+1 919 890 4500",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "www.thepit-bbq.com",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/403736782",
+   "slug": "the-red-pig",
+   "name": "The Red Pig",
+   "state": "NC",
+   "lat": 35.89208,
+   "lon": -81.52455,
+   "tags": {
+    "addr:city": "Lenoir",
+    "addr:housenumber": "253",
+    "addr:postcode": "28645",
+    "addr:state": "NC",
+    "addr:street": "McLean Drive Southwest",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Red Pig",
+    "phone": "+1-828-572-2696"
+   }
+  },
+  {
+   "osm_id": "way/1168415266",
+   "slug": "the-smoke-pit",
+   "name": "The Smoke Pit",
+   "state": "NC",
+   "lat": 35.64817,
+   "lon": -80.4588,
+   "tags": {
+    "addr:city": "Salisbury",
+    "addr:housenumber": "509",
+    "addr:postcode": "28146",
+    "addr:state": "NC",
+    "addr:street": "Faith Road",
+    "amenity": "restaurant",
+    "check_date": "2026-05-03",
+    "cuisine": "barbecue",
+    "name": "The Smoke Pit",
+    "opening_hours": "Tu-Sa 11:00-21:00; Su 11:00-20:00",
+    "payment:cash": "yes",
+    "phone": "+1-704-754-8336",
+    "website": "https://www.thesmokepitonline.com/locations/"
+   }
+  },
+  {
+   "osm_id": "node/5921952105",
+   "slug": "tickle-my-ribs",
+   "name": "Tickle My Ribs",
+   "state": "NC",
+   "lat": 36.07848,
+   "lon": -79.52902,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Tickle My Ribs",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/13207241449",
+   "slug": "tomahawk-toss",
+   "name": "Tomahawk Toss",
+   "state": "NC",
+   "lat": 35.47506,
+   "lon": -83.3185,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-10-10",
+    "cuisine": "barbecue",
+    "name": "Tomahawk Toss"
+   }
+  },
+  {
+   "osm_id": "node/9758466443",
+   "slug": "toyars-bbq-and-hotpot-restaurant",
+   "name": "Toyar's BBQ & Hotpot Restaurant",
+   "state": "NC",
+   "lat": 35.83451,
+   "lon": -78.85778,
+   "tags": {
+    "addr:housenumber": "4075",
+    "addr:postcode": "27560",
+    "addr:street": "Davis Drive",
+    "amenity": "restaurant",
+    "cuisine": "asian;barbecue;chinese",
+    "name": "Toyar's BBQ & Hotpot Restaurant",
+    "opening_hours": "Su 11:30-21:30; Fr-Sa 11:30-22:00; Mo, We-Th 11:30-21:30",
+    "phone": "+1 919 4128078",
+    "website": "https://toyarbbqhotpot.com/"
+   }
+  },
+  {
+   "osm_id": "node/6475583334",
+   "slug": "transfer-co-food-hall",
+   "name": "Transfer Co. Food Hall",
+   "state": "NC",
+   "lat": 35.77516,
+   "lon": -78.63216,
+   "tags": {
+    "addr:city": "Raleigh",
+    "addr:housenumber": "500",
+    "addr:postcode": "27601",
+    "addr:state": "NC",
+    "addr:street": "East Davie Street",
+    "amenity": "restaurant",
+    "cuisine": "sandwich;asian;argentinian;mexican;salad;burger;barbecue;regional;international",
+    "name": "Transfer Co. Food Hall",
+    "opening_hours": "Mo 11:00-21:00; Tu-Th 07:00-21:00; Fr 07:00-22:00; Sa 08:00-22:00; Su 08:00-20:00",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "website": "https://www.transfercofoodhall.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/6439936487",
+   "slug": "troutmans-bbq",
+   "name": "Troutman's BBQ",
+   "state": "NC",
+   "lat": 35.6249,
+   "lon": -80.10837,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Troutman's BBQ",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "phone": "+1-336-859-2206"
+   }
+  },
+  {
+   "osm_id": "node/13545138801",
+   "slug": "whiskey-trail-pub-and-grill",
+   "name": "Whiskey Trail Pub and Grill",
+   "state": "NC",
+   "lat": 34.16535,
+   "lon": -77.86287,
+   "tags": {
+    "addr:city": "Wilmington",
+    "addr:housenumber": "4039",
+    "addr:postcode": "28409",
+    "addr:state": "NC",
+    "addr:street": "Masonboro Loop Road",
+    "amenity": "bar",
+    "check_date": "2026-02-11",
+    "contact:facebook": "116375108384821",
+    "cuisine": "american;barbecue;burger;friture;grill;sandwich",
+    "name": "Whiskey Trail Pub and Grill",
+    "opening_hours": "Fr-Sa 11:00-00:00; Su, Tu-Th 11:00-23:00",
+    "phone": "+1-910-399-3266",
+    "website": "https://whiskeytrailsportspub.com/"
+   }
+  },
+  {
+   "osm_id": "way/973365159",
+   "slug": "willie-brooks-bbq",
+   "name": "Willie Brooks BBQ",
+   "state": "NC",
+   "lat": 36.20171,
+   "lon": -81.67783,
+   "tags": {
+    "addr:city": "Boone",
+    "addr:housenumber": "1475",
+    "addr:postcode": "28607",
+    "addr:street": "NC Highway 105",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;sandwich;soup;salad;wings",
+    "name": "Willie Brooks BBQ",
+    "opening_hours": "Mo-Fr 11:30-20:00; Tu off; We-Th 11:30-20:00; Fr,Sa 11:30-21:00; Su 11:30-19:00",
+    "phone": "+1 828-386-1357",
+    "website": "https://williebrooksbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/12475203233",
+   "slug": "woodard-family-bbq-and-grill",
+   "name": "Woodard Family BBQ & Grill",
+   "state": "NC",
+   "lat": 35.45695,
+   "lon": -79.05266,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Woodard Family BBQ & Grill"
+   }
+  },
+  {
+   "osm_id": "node/5260308282",
+   "slug": "521-bbq-and-grill",
+   "name": "521 BBQ & Grill",
+   "state": "SC",
+   "lat": 35.04794,
+   "lon": -80.99202,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "521 BBQ & Grill"
+   }
+  },
+  {
+   "osm_id": "node/9958056518",
+   "slug": "b-c-steak-and-bbq",
+   "name": "B C Steak & BBQ",
+   "state": "SC",
+   "lat": 34.44016,
+   "lon": -79.37222,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "steak;barbecue",
+    "name": "B C Steak & BBQ"
+   }
+  },
+  {
+   "osm_id": "way/903544845",
+   "slug": "bar-b-que-house",
+   "name": "Bar-B-Que House",
+   "state": "SC",
+   "lat": 33.62077,
+   "lon": -78.97175,
+   "tags": {
+    "addr:city": "Surfside Beach",
+    "addr:housenumber": "1205",
+    "addr:postcode": "29575",
+    "addr:state": "SC",
+    "addr:street": "US-17 BUS",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bar-B-Que House"
+   }
+  },
+  {
+   "osm_id": "way/1308918137",
+   "slug": "bar-b-que-house-north-myrtle-beach",
+   "name": "Bar-B-Que House",
+   "state": "SC",
+   "lat": 33.84384,
+   "lon": -78.65998,
+   "tags": {
+    "addr:city": "North Myrtle Beach",
+    "addr:housenumber": "1561",
+    "addr:postcode": "29582",
+    "addr:state": "SC",
+    "addr:street": "US Highway 17 North",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bar-B-Que House",
+    "opening_hours": "Mo-Su 11:00-20:00",
+    "phone": "+1-843-249-6901",
+    "website": "https://www.bestbbqonthebeach.com/"
+   }
+  },
+  {
+   "osm_id": "way/1017377806",
+   "slug": "bbq-barn",
+   "name": "BBQ Barn",
+   "state": "SC",
+   "lat": 33.49402,
+   "lon": -81.95022,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "BBQ Barn"
+   }
+  },
+  {
+   "osm_id": "node/6309404418",
+   "slug": "bearded-bros-bbq",
+   "name": "Bearded Bros BBQ",
+   "state": "SC",
+   "lat": 34.94053,
+   "lon": -81.90878,
+   "tags": {
+    "addr:city": "Spartanburg",
+    "addr:housenumber": "827",
+    "addr:postcode": "29302",
+    "addr:state": "SC",
+    "addr:street": "Union Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bearded Bros BBQ",
+    "phone": "+18643452631",
+    "website": "https://beardedbrosbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/3060046054",
+   "slug": "bessingers-bar-b-q",
+   "name": "Bessinger's Bar-B-Q",
+   "state": "SC",
+   "lat": 32.78697,
+   "lon": -80.01177,
+   "tags": {
+    "addr:housenumber": "1602",
+    "addr:street": "Savannah Highway",
+    "amenity": "restaurant",
+    "check_date": "2023-11-25",
+    "cuisine": "barbecue",
+    "name": "Bessinger's Bar-B-Q",
+    "opening_hours": "11:00-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+1 843-556-1354",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://www.bessingersbbq.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/913841648",
+   "slug": "big-cliffs-bbq",
+   "name": "Big Cliff's BBQ",
+   "state": "SC",
+   "lat": 34.88881,
+   "lon": -82.7097,
+   "tags": {
+    "addr:city": "Pickens",
+    "addr:housenumber": "304",
+    "addr:postcode": "29671",
+    "addr:state": "SC",
+    "addr:street": "Ann Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Big Cliff's BBQ",
+    "website": "https://big-cliffs-bbq.business.site/"
+   }
+  },
+  {
+   "osm_id": "node/11532512564",
+   "slug": "big-ds-bbq-trough",
+   "name": "Big D's BBQ Trough",
+   "state": "SC",
+   "lat": 33.86203,
+   "lon": -79.0938,
+   "tags": {
+    "addr:city": "Conway",
+    "addr:housenumber": "2917",
+    "addr:postcode": "29526",
+    "addr:state": "SC",
+    "addr:street": "Church Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Big D's BBQ Trough",
+    "opening_hours": "Tu-We 11:00-15:00; Th-Sa 11:00-21:00",
+    "phone": "+1-843-365-7485",
+    "website": "https://bigdsbbqtrough.com/"
+   }
+  },
+  {
+   "osm_id": "way/1070540633",
+   "slug": "big-ds-house-of-bbq",
+   "name": "Big D's House of BBQ",
+   "state": "SC",
+   "lat": 34.81554,
+   "lon": -82.99451,
+   "tags": {
+    "addr:city": "West Union",
+    "addr:housenumber": "246",
+    "addr:postcode": "29696",
+    "addr:state": "SC",
+    "addr:street": "Burnt Tanyard Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Big D's House of BBQ"
+   }
+  },
+  {
+   "osm_id": "way/686732521",
+   "slug": "bobbys-bbq",
+   "name": "Bobby's BBQ",
+   "state": "SC",
+   "lat": 34.70625,
+   "lon": -82.22974,
+   "tags": {
+    "addr:city": "Fountain Inn",
+    "addr:housenumber": "1301",
+    "addr:postcode": "29644",
+    "addr:state": "SC",
+    "addr:street": "North Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bobby's BBQ",
+    "website": "https://www.eatbobbys.com"
+   }
+  },
+  {
+   "osm_id": "way/1324227479",
+   "slug": "bobbys-bbq-33539--81830",
+   "name": "Bobby's BBQ",
+   "state": "SC",
+   "lat": 33.53948,
+   "lon": -81.82986,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bobby's BBQ"
+   }
+  },
+  {
+   "osm_id": "way/1070542184",
+   "slug": "brasstown-creek",
+   "name": "Brasstown Creek",
+   "state": "SC",
+   "lat": 34.73595,
+   "lon": -83.27178,
+   "tags": {
+    "addr:city": "Westminster",
+    "addr:housenumber": "275",
+    "addr:postcode": "29693",
+    "addr:state": "SC",
+    "addr:street": "Brasstown Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Brasstown Creek"
+   }
+  },
+  {
+   "osm_id": "node/9960757267",
+   "slug": "brisket",
+   "name": "Brisket",
+   "state": "SC",
+   "lat": 33.81418,
+   "lon": -78.69894,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Brisket"
+   }
+  },
+  {
+   "osm_id": "node/4365061713",
+   "slug": "brown-derby-ii",
+   "name": "Brown Derby II",
+   "state": "SC",
+   "lat": 33.50154,
+   "lon": -80.83704,
+   "tags": {
+    "addr:city": "Orangeburg",
+    "addr:housenumber": "1397",
+    "addr:postcode": "29115",
+    "addr:state": "SC",
+    "addr:street": "Belleville Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Brown Derby II"
+   }
+  },
+  {
+   "osm_id": "way/681959546",
+   "slug": "bubbas-bbq-bash",
+   "name": "Bubbas BBQ Bash",
+   "state": "SC",
+   "lat": 34.9527,
+   "lon": -81.9976,
+   "tags": {
+    "addr:city": "Arcadia",
+    "addr:housenumber": "827",
+    "addr:postcode": "29320",
+    "addr:state": "SC",
+    "addr:street": "West Blackstock Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bubbas BBQ Bash",
+    "phone": "+18645827487",
+    "website": "https://bubbasbbqandbash.com/"
+   }
+  },
+  {
+   "osm_id": "way/298204774",
+   "slug": "buckys-bar-b-q",
+   "name": "Bucky's Bar-B-Q",
+   "state": "SC",
+   "lat": 34.69346,
+   "lon": -82.20003,
+   "tags": {
+    "addr:housenumber": "103",
+    "addr:street": "North Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bucky's Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/783601241",
+   "slug": "bullies-bbq",
+   "name": "Bullies BBQ",
+   "state": "SC",
+   "lat": 32.17359,
+   "lon": -80.73433,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Bullies BBQ"
+   }
+  },
+  {
+   "osm_id": "node/6336596122",
+   "slug": "carolina-barbecue",
+   "name": "Carolina Barbecue",
+   "state": "SC",
+   "lat": 34.9857,
+   "lon": -81.97353,
+   "tags": {
+    "addr:city": "Spartanburg",
+    "addr:housenumber": "7119",
+    "addr:postcode": "29303",
+    "addr:state": "SC",
+    "addr:street": "Lone Oak Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Carolina Barbecue",
+    "phone": "+18645030542",
+    "website": "https://www.mycarolinabbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/4778730959",
+   "slug": "carolina-bbq",
+   "name": "Carolina BBQ",
+   "state": "SC",
+   "lat": 34.98571,
+   "lon": -81.97353,
+   "tags": {
+    "addr:city": "Spartanburg",
+    "addr:housenumber": "7115",
+    "addr:postcode": "29303",
+    "addr:street": "Lone Oak Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Carolina BBQ",
+    "takeaway": "yes",
+    "website": "https://www.mycarolinabbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/671383387",
+   "slug": "charlies-bar-b-que",
+   "name": "Charlie's Bar-B-Que",
+   "state": "SC",
+   "lat": 34.85086,
+   "lon": -82.2314,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "8590",
+    "addr:postcode": "29651",
+    "addr:state": "SC",
+    "addr:street": "Pelham Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Charlie's Bar-B-Que"
+   }
+  },
+  {
+   "osm_id": "node/2484393949",
+   "slug": "circle-m-barbecue",
+   "name": "Circle M Barbecue",
+   "state": "SC",
+   "lat": 34.6946,
+   "lon": -82.67919,
+   "tags": {
+    "addr:city": "Liberty",
+    "addr:housenumber": "345",
+    "addr:postcode": "29657",
+    "addr:street": "Martin Sausage Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Circle M Barbecue",
+    "phone": "+1 864 375 9133"
+   }
+  },
+  {
+   "osm_id": "way/1304346965",
+   "slug": "country-cousins-b-b-q",
+   "name": "Country Cousins B-B-Q",
+   "state": "SC",
+   "lat": 33.93726,
+   "lon": -79.93382,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Country Cousins B-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/550529100",
+   "slug": "courtneys-bbq",
+   "name": "Courtney's BBQ",
+   "state": "SC",
+   "lat": 35.10435,
+   "lon": -81.20141,
+   "tags": {
+    "addr:city": "Clover",
+    "addr:housenumber": "1166",
+    "addr:postcode": "29710",
+    "addr:state": "SC",
+    "addr:street": "State Highway 55 East",
+    "amenity": "restaurant",
+    "check_date": "2023-02-16",
+    "contact:facebook": "courtneysbbq",
+    "cuisine": "barbecue",
+    "name": "Courtney's BBQ",
+    "opening_hours": "We,Th 15:00-20:00; Fr 14:00-20:30; Sa 11:30-20:00",
+    "phone": "+1 803 222 5900",
+    "start_date": "1999",
+    "takeaway": "yes",
+    "website": "https://www.courtneysbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/14099572053",
+   "slug": "cws-wings-and-ribs",
+   "name": "CW's Wings and Ribs",
+   "state": "SC",
+   "lat": 33.85745,
+   "lon": -79.08726,
+   "tags": {
+    "addr:city": "Conway",
+    "addr:housenumber": "117",
+    "addr:postcode": "29526",
+    "addr:state": "SC",
+    "addr:street": "Rivertown Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "wings;barbecue;american",
+    "name": "CW's Wings and Ribs",
+    "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+    "phone": "+1-843-331-3161",
+    "website": "http://cwswingandrib.com/"
+   }
+  },
+  {
+   "osm_id": "node/3081238715",
+   "slug": "d-and-h-bar-b-que",
+   "name": "D&H Bar-B-Que",
+   "state": "SC",
+   "lat": 33.6884,
+   "lon": -80.21181,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "name": "D&H Bar-B-Que"
+   }
+  },
+  {
+   "osm_id": "node/3884224722",
+   "slug": "dickeys-barbecue-pit",
+   "name": "Dickey's Barbecue Pit",
+   "state": "SC",
+   "lat": 35.05261,
+   "lon": -81.98873,
+   "tags": {
+    "addr:city": "Boiling Springs",
+    "addr:housenumber": "4080",
+    "addr:postcode": "29316",
+    "addr:street": "Highway 9",
+    "amenity": "restaurant",
+    "brand": "Dickey's Barbecue Pit",
+    "brand:wikidata": "Q19880747",
+    "cuisine": "barbecue",
+    "name": "Dickey's Barbecue Pit"
+   }
+  },
+  {
+   "osm_id": "way/575667536",
+   "slug": "doko-smoke-bbq",
+   "name": "Doko Smoke BBQ",
+   "state": "SC",
+   "lat": 34.21643,
+   "lon": -80.97284,
+   "tags": {
+    "addr:city": "Blythewood",
+    "addr:housenumber": "408",
+    "addr:postcode": "29016",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Doko Smoke BBQ",
+    "opening_hours": "Th,Fr 11:00-18:00; Sa 10:30-14:00",
+    "website": "https://www.dokosmoke.com/"
+   }
+  },
+  {
+   "osm_id": "node/13791664201",
+   "slug": "dukes-bar-b-que-aiken",
+   "name": "Duke's Bar-B-Que Aiken",
+   "state": "SC",
+   "lat": 33.46391,
+   "lon": -81.68725,
+   "tags": {
+    "addr:housenumber": "4248",
+    "addr:postcode": "29803",
+    "addr:street": "Whiskey Road",
+    "amenity": "restaurant",
+    "check_date": "2026-05-03",
+    "cuisine": "barbecue",
+    "name": "Duke's Bar-B-Que Aiken",
+    "opening_hours": "Su 11:00-16:00; We-Fr 10:30-20:00; Sa 09:30-20:00",
+    "phone": "+1-844-536-9836",
+    "website": "https://dukesbbqaiken.com/"
+   }
+  },
+  {
+   "osm_id": "node/3051146659",
+   "slug": "dukes-barbecue",
+   "name": "Duke's Barbecue",
+   "state": "SC",
+   "lat": 32.75964,
+   "lon": -79.97479,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "name": "Duke's Barbecue"
+   }
+  },
+  {
+   "osm_id": "node/5202877399",
+   "slug": "dukes-doggs-and-bbq",
+   "name": "Dukes Doggs & BBQ",
+   "state": "SC",
+   "lat": 34.82858,
+   "lon": -82.60942,
+   "tags": {
+    "addr:city": "Easley",
+    "addr:housenumber": "405",
+    "addr:postcode": "29640",
+    "addr:state": "SC",
+    "addr:street": "West Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Dukes Doggs & BBQ"
+   }
+  },
+  {
+   "osm_id": "node/13392057132",
+   "slug": "eastside-soul-food",
+   "name": "Eastside Soul Food",
+   "state": "SC",
+   "lat": 32.79393,
+   "lon": -79.93491,
+   "tags": {
+    "addr:city": "Charleston",
+    "addr:housenumber": "46",
+    "addr:postcode": "29403",
+    "addr:state": "SC",
+    "addr:street": "America Street",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/ESSFOOD",
+    "cuisine": "southern;barbecue;fried_chicken",
+    "name": "Eastside Soul Food",
+    "opening_hours": "Mo-Sa 11:00-21:00",
+    "phone": "+1-843-973-3100",
+    "smoking": "no",
+    "start_date": "2014",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4410321916",
+   "slug": "eatery-express",
+   "name": "Eatery Express",
+   "state": "SC",
+   "lat": 32.57847,
+   "lon": -80.32465,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Eatery Express",
+    "opening_hours": "Th-Sa 11:30-20:00"
+   }
+  },
+  {
+   "osm_id": "way/860943132",
+   "slug": "famous-daves",
+   "name": "Famous Dave's",
+   "state": "SC",
+   "lat": 35.09741,
+   "lon": -80.93523,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Famous Dave's",
+    "brand:wikidata": "Q5433448",
+    "cuisine": "barbecue",
+    "name": "Famous Dave's"
+   }
+  },
+  {
+   "osm_id": "way/550515929",
+   "slug": "farm-boys-barbeque",
+   "name": "Farm Boy's Barbeque",
+   "state": "SC",
+   "lat": 34.17261,
+   "lon": -81.33101,
+   "tags": {
+    "addr:city": "Chapin",
+    "addr:housenumber": "525",
+    "addr:postcode": "29036",
+    "addr:state": "SC",
+    "addr:street": "Columbia Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Farm Boy's Barbeque",
+    "opening_hours": "Th-Sa 11:00-20:00",
+    "outdoor_seating": "no",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/993486049",
+   "slug": "fat-daddys-bbq-and-hash-house",
+   "name": "Fat Daddy's BBQ and Hash House",
+   "state": "SC",
+   "lat": 34.27686,
+   "lon": -81.94772,
+   "tags": {
+    "addr:city": "Cross Hill",
+    "addr:housenumber": "12340",
+    "addr:postcode": "29332",
+    "addr:state": "SC",
+    "addr:street": "Highway 39",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/FatDaddysBBQandHash",
+    "cuisine": "barbecue",
+    "name": "Fat Daddy's BBQ and Hash House"
+   }
+  },
+  {
+   "osm_id": "node/9373412774",
+   "slug": "fire-and-spice",
+   "name": "Fire and Spice",
+   "state": "SC",
+   "lat": 34.10618,
+   "lon": -81.19056,
+   "tags": {
+    "addr:city": "Irmo",
+    "addr:housenumber": "7971",
+    "addr:postcode": "29063",
+    "addr:state": "SC",
+    "addr:street": "North Woodrow Street",
+    "amenity": "restaurant",
+    "cuisine": "sandwich;barbecue",
+    "name": "Fire and Spice",
+    "opening_hours": "Tu-Fr 11:00 - 14:00",
+    "phone": "+1-803-602-5353"
+   }
+  },
+  {
+   "osm_id": "way/1239239481",
+   "slug": "fork-grove-barbecue",
+   "name": "Fork Grove Barbecue",
+   "state": "SC",
+   "lat": 34.47969,
+   "lon": -82.78456,
+   "tags": {
+    "addr:city": "Anderson",
+    "addr:housenumber": "1721",
+    "addr:postcode": "29626",
+    "addr:state": "SC",
+    "addr:street": "Highway 187 South",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/forkgrovebbq/",
+    "cuisine": "barbecue",
+    "name": "Fork Grove Barbecue"
+   }
+  },
+  {
+   "osm_id": "node/5260801984",
+   "slug": "fort-mill-bbq-company",
+   "name": "Fort Mill BBQ Company",
+   "state": "SC",
+   "lat": 35.06241,
+   "lon": -80.99293,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Fort Mill BBQ Company"
+   }
+  },
+  {
+   "osm_id": "node/12798888801",
+   "slug": "fullbelly-bbq",
+   "name": "Fullbelly BBQ",
+   "state": "SC",
+   "lat": 33.75147,
+   "lon": -78.8689,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Fullbelly BBQ",
+    "opening_hours": "Mo-Th 11:00-20:15; Fr-Su 11:00-21:00",
+    "website": "https://eatatfullbellybbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/12786899579",
+   "slug": "galp-o-gaucho-brazilian-steakhouse",
+   "name": "Galpão Gaucho Brazilian Steakhouse",
+   "state": "SC",
+   "lat": 32.77879,
+   "lon": -79.92715,
+   "tags": {
+    "addr:city": "Charleston",
+    "addr:housenumber": "167",
+    "addr:postcode": "29401",
+    "addr:state": "SC",
+    "addr:street": "East Bay Street",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/galpaogauchobraziliansteakhouse",
+    "cuisine": "steak_house;brazilian;barbecue",
+    "name": "Galpão Gaucho Brazilian Steakhouse",
+    "opening_hours": "Mo-Th 16:00-21:00; Fr 16:00-22:00; Sa 12:00-22:00; Su 12:00-20:30",
+    "phone": "+1-854-999-3950",
+    "start_date": "2020-02",
+    "website": "https://galpaogauchousa.com/location/charleston-sc"
+   }
+  },
+  {
+   "osm_id": "way/521874840",
+   "slug": "game-day-barbecue",
+   "name": "Game Day Barbecue",
+   "state": "SC",
+   "lat": 34.93809,
+   "lon": -82.14635,
+   "tags": {
+    "addr:city": "Duncan",
+    "addr:housenumber": "165",
+    "addr:postcode": "29334",
+    "addr:state": "SC",
+    "addr:street": "West Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Game Day Barbecue",
+    "phone": "+1-864-439-8929"
+   }
+  },
+  {
+   "osm_id": "way/552417588",
+   "slug": "granddaddys-bbq",
+   "name": "GrandDaddy's BBQ",
+   "state": "SC",
+   "lat": 35.08036,
+   "lon": -81.70621,
+   "tags": {
+    "addr:city": "Gaffney",
+    "addr:housenumber": "139",
+    "addr:postcode": "29341",
+    "addr:street": "Lemmons Lane",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "GrandDaddy's BBQ",
+    "website": "http://www.slowsmokingbbq.com"
+   }
+  },
+  {
+   "osm_id": "node/5268764954",
+   "slug": "granny-and-papaws-southern-kitchen-and-bbq",
+   "name": "Granny & Papaw's  Southern Kitchen & BBQ",
+   "state": "SC",
+   "lat": 33.97977,
+   "lon": -81.31116,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "southern;barbecue",
+    "name": "Granny & Papaw's  Southern Kitchen & BBQ"
+   }
+  },
+  {
+   "osm_id": "node/5366320452",
+   "slug": "hawg-heaven-barbeque",
+   "name": "Hawg Heaven Barbeque",
+   "state": "SC",
+   "lat": 34.22182,
+   "lon": -81.54197,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Hawg Heaven Barbeque"
+   }
+  },
+  {
+   "osm_id": "way/1070557441",
+   "slug": "heavenly-hogs-bbq",
+   "name": "Heavenly Hogs BBQ",
+   "state": "SC",
+   "lat": 34.66465,
+   "lon": -82.94076,
+   "tags": {
+    "addr:city": "Seneca",
+    "addr:housenumber": "1328",
+    "addr:postcode": "29678",
+    "addr:state": "SC",
+    "addr:street": "South Walnut Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Heavenly Hogs BBQ"
+   }
+  },
+  {
+   "osm_id": "node/793298101",
+   "slug": "henrys-smokehouse",
+   "name": "Henry's Smokehouse",
+   "state": "SC",
+   "lat": 34.73805,
+   "lon": -82.25618,
+   "tags": {
+    "addr:housenumber": "123",
+    "addr:street": "North Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Henry's Smokehouse"
+   }
+  },
+  {
+   "osm_id": "way/499699576",
+   "slug": "henrys-smokehouse-greenville",
+   "name": "Henry's Smokehouse",
+   "state": "SC",
+   "lat": 34.86283,
+   "lon": -82.38386,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "240",
+    "addr:postcode": "29609",
+    "addr:street": "Wade Hampton Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Henry's Smokehouse",
+    "takeaway": "yes",
+    "website": "https://www.henryssmokehouse.com/"
+   }
+  },
+  {
+   "osm_id": "node/8077308904",
+   "slug": "holt-bros-bbq",
+   "name": "Holt Bros BBQ",
+   "state": "SC",
+   "lat": 34.28136,
+   "lon": -79.85612,
+   "tags": {
+    "addr:city": "Darlington",
+    "addr:housenumber": "1503",
+    "addr:postcode": "29532",
+    "addr:state": "SC",
+    "addr:street": "South Main Street",
+    "amenity": "restaurant",
+    "cuisine": "chicken;barbecue",
+    "name": "Holt Bros BBQ",
+    "opening_hours": "Tu-Th 11:00-20:00; Fr,Sa 11:00-21:00",
+    "phone": "+1-843-944-0158",
+    "website": "https://holtbrosbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/13351680747",
+   "slug": "holt-bros-bbq-34193--79809",
+   "name": "Holt Bros. BBQ",
+   "state": "SC",
+   "lat": 34.19303,
+   "lon": -79.80858,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Holt Bros. BBQ"
+   }
+  },
+  {
+   "osm_id": "node/8660666763",
+   "slug": "home-team-bbq",
+   "name": "Home Team BBQ",
+   "state": "SC",
+   "lat": 34.84885,
+   "lon": -82.3721,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Home Team BBQ",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "website": "https://hometeambbq.com"
+   }
+  },
+  {
+   "osm_id": "way/511584980",
+   "slug": "home-team-bbq-33999--81016",
+   "name": "Home Team BBQ",
+   "state": "SC",
+   "lat": 33.99947,
+   "lon": -81.01555,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Home Team BBQ"
+   }
+  },
+  {
+   "osm_id": "way/1278882338",
+   "slug": "home-team-bbq-mount-pleasant",
+   "name": "Home Team BBQ",
+   "state": "SC",
+   "lat": 32.87916,
+   "lon": -79.76269,
+   "tags": {
+    "addr:city": "Mount Pleasant",
+    "addr:housenumber": "3563",
+    "addr:postcode": "29466",
+    "addr:state": "SC",
+    "addr:street": "North US Highway 17",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Home Team BBQ",
+    "opening_hours": "Mo-Su 11:00-00:00",
+    "phone": "+1 843-225-7427",
+    "website": "https://hometeambbq.com/location/mount-pleasant-coming-soon/"
+   }
+  },
+  {
+   "osm_id": "way/1454942665",
+   "slug": "home-team-bbq-sullivans-island",
+   "name": "Home Team BBQ",
+   "state": "SC",
+   "lat": 32.76235,
+   "lon": -79.83688,
+   "tags": {
+    "addr:city": "Sullivan's Island",
+    "addr:housenumber": "2209",
+    "addr:postcode": "29482",
+    "addr:state": "SC",
+    "addr:street": "Middle Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Home Team BBQ",
+    "phone": "+18432257427",
+    "takeaway": "yes",
+    "website": "https://www.hometeambbq.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/654274177",
+   "slug": "hugh-babys",
+   "name": "Hugh-Baby's",
+   "state": "SC",
+   "lat": 32.79478,
+   "lon": -79.99202,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2023-08-13",
+    "cuisine": "burger;barbecue",
+    "drive_through": "yes",
+    "name": "Hugh-Baby's",
+    "opening_hours": "11:00-21:00",
+    "outdoor_seating": "no",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/1017392111",
+   "slug": "ironhead-barbeque",
+   "name": "Ironhead Barbeque",
+   "state": "SC",
+   "lat": 33.5313,
+   "lon": -81.94573,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "american;barbecue",
+    "name": "Ironhead Barbeque"
+   }
+  },
+  {
+   "osm_id": "way/473363755",
+   "slug": "jbs-smokeshack",
+   "name": "JB's Smokeshack",
+   "state": "SC",
+   "lat": 32.72711,
+   "lon": -80.0701,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "american;barbecue",
+    "name": "JB's Smokeshack"
+   }
+  },
+  {
+   "osm_id": "node/3054622091",
+   "slug": "jim-n-nicks-32872--80022",
+   "name": "Jim 'N Nick's",
+   "state": "SC",
+   "lat": 32.87204,
+   "lon": -80.02161,
+   "tags": {
+    "addr:housenumber": "4964",
+    "addr:street": "Centre Pointe Drive",
+    "amenity": "restaurant",
+    "brand": "Jim 'N Nick's",
+    "brand:wikidata": "Q122955601",
+    "cuisine": "barbecue",
+    "name": "Jim 'N Nick's",
+    "phone": "+1 8437473800",
+    "website": "https://jimnnicks.com/"
+   }
+  },
+  {
+   "osm_id": "way/122127119",
+   "slug": "jim-n-nicks-spartanburg",
+   "name": "Jim 'N Nick's",
+   "state": "SC",
+   "lat": 34.93538,
+   "lon": -81.99083,
+   "tags": {
+    "addr:city": "Spartanburg",
+    "addr:housenumber": "106",
+    "addr:postcode": "29301",
+    "addr:state": "SC",
+    "addr:street": "East Blackstock Road",
+    "amenity": "restaurant",
+    "brand": "Jim 'N Nick's",
+    "brand:wikidata": "Q122955601",
+    "cuisine": "barbecue",
+    "name": "Jim 'N Nick's"
+   }
+  },
+  {
+   "osm_id": "way/301401673",
+   "slug": "jim-n-nicks-3",
+   "name": "Jim 'N Nick's",
+   "state": "SC",
+   "lat": 32.87203,
+   "lon": -80.02158,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Jim 'N Nick's",
+    "brand:wikidata": "Q122955601",
+    "cuisine": "barbecue",
+    "name": "Jim 'N Nick's"
+   }
+  },
+  {
+   "osm_id": "way/546854706",
+   "slug": "jim-n-nicks-bar-b-q",
+   "name": "Jim 'N Nick's Bar-B-Q",
+   "state": "SC",
+   "lat": 34.99886,
+   "lon": -80.85632,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Jim 'N Nick's Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/1122798074",
+   "slug": "king-bbq",
+   "name": "King BBQ",
+   "state": "SC",
+   "lat": 32.85469,
+   "lon": -79.97418,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;barbecue",
+    "name": "King BBQ"
+   }
+  },
+  {
+   "osm_id": "node/5114990141",
+   "slug": "lewis-barbecue",
+   "name": "Lewis Barbecue",
+   "state": "SC",
+   "lat": 32.80872,
+   "lon": -79.94661,
+   "tags": {
+    "addr:housenumber": "464",
+    "addr:postcode": "29403",
+    "addr:street": "North Nasseau Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Lewis Barbecue",
+    "opening_hours": "Su,Mo 11:00-21:00; Tu-Sa 11:00-22:00",
+    "phone": "+1 843-805-9500",
+    "website": "https://lewisbarbecue.com/"
+   }
+  },
+  {
+   "osm_id": "way/49797255",
+   "slug": "lewis-barbecue-greenville",
+   "name": "Lewis Barbecue",
+   "state": "SC",
+   "lat": 34.8614,
+   "lon": -82.40405,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "214",
+    "addr:postcode": "29609",
+    "addr:state": "SC",
+    "addr:street": "Rutherford Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Lewis Barbecue",
+    "website": "https://lewisbarbecue.com/"
+   }
+  },
+  {
+   "osm_id": "node/10796157039",
+   "slug": "little-pigs-bar-b-q",
+   "name": "Little Pigs Bar-B-Q",
+   "state": "SC",
+   "lat": 34.89375,
+   "lon": -82.28892,
+   "tags": {
+    "addr:city": "Greer",
+    "addr:housenumber": "2428",
+    "addr:postcode": "29650",
+    "addr:state": "SC",
+    "addr:street": "Hudson Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Little Pigs Bar-B-Q",
+    "opening_hours": "Mo-Sa 10:30-20:00",
+    "phone": "+1-864-244-1090",
+    "website": "https://littlepigsgreenville.com"
+   }
+  },
+  {
+   "osm_id": "way/499514024",
+   "slug": "little-pigs-bar-bq",
+   "name": "Little Pigs Bar-BQ",
+   "state": "SC",
+   "lat": 34.77795,
+   "lon": -82.30876,
+   "tags": {
+    "addr:city": "Mauldin",
+    "addr:housenumber": "109",
+    "addr:postcode": "29662",
+    "addr:street": "South Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Little Pigs Bar-BQ"
+   }
+  },
+  {
+   "osm_id": "node/1833743220",
+   "slug": "little-pigs-bbq",
+   "name": "Little Pigs BBQ",
+   "state": "SC",
+   "lat": 34.82469,
+   "lon": -82.41302,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Little Pigs BBQ"
+   }
+  },
+  {
+   "osm_id": "way/693133736",
+   "slug": "little-pigs-bbq-easley",
+   "name": "Little Pigs BBQ",
+   "state": "SC",
+   "lat": 34.81567,
+   "lon": -82.60223,
+   "tags": {
+    "addr:city": "Easley",
+    "addr:housenumber": "1028",
+    "addr:state": "SC",
+    "addr:street": "South Pendleton Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Little Pigs BBQ",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/48158221",
+   "slug": "macs-speed-shop-greenville",
+   "name": "Mac's Speed Shop",
+   "state": "SC",
+   "lat": 34.8436,
+   "lon": -82.40844,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "930",
+    "addr:postcode": "29601",
+    "addr:state": "SC",
+    "addr:street": "South Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mac's Speed Shop",
+    "website": "https://www.macspeedshop.com/"
+   }
+  },
+  {
+   "osm_id": "node/9905239643",
+   "slug": "main-street-bar-b-que",
+   "name": "Main Street Bar-B-Que",
+   "state": "SC",
+   "lat": 33.24915,
+   "lon": -80.81624,
+   "tags": {
+    "addr:city": "Branchville",
+    "addr:housenumber": "7639",
+    "addr:state": "SC",
+    "addr:street": "Freedom Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Main Street Bar-B-Que"
+   }
+  },
+  {
+   "osm_id": "node/5103738895",
+   "slug": "martins-bar-b-que-joint",
+   "name": "Martin's Bar-B-Que Joint",
+   "state": "SC",
+   "lat": 32.73849,
+   "lon": -79.96628,
+   "tags": {
+    "addr:city": "Charleston",
+    "addr:housenumber": "1622",
+    "addr:postcode": "29412",
+    "addr:state": "SC",
+    "addr:street": "Highland Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Martin's Bar-B-Que Joint",
+    "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+    "phone": "+18437900838",
+    "website": "https://www.martinsbbqjoint.com/charleston"
+   }
+  },
+  {
+   "osm_id": "way/375232170",
+   "slug": "maurices",
+   "name": "Maurice's",
+   "state": "SC",
+   "lat": 34.07044,
+   "lon": -80.95246,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "drive_through": "yes",
+    "name": "Maurice's"
+   }
+  },
+  {
+   "osm_id": "node/5268764517",
+   "slug": "maurices-bbq",
+   "name": "Maurice's BBQ",
+   "state": "SC",
+   "lat": 33.98453,
+   "lon": -81.25275,
+   "tags": {
+    "addr:city": "Lexington",
+    "addr:housenumber": "766",
+    "addr:postcode": "29072",
+    "addr:state": "SC",
+    "addr:street": "West Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Maurice's BBQ",
+    "phone": "+1 803 359 8789",
+    "website": "https://www.piggiepark.com/"
+   }
+  },
+  {
+   "osm_id": "way/373845325",
+   "slug": "maurices-bbq-33993--80979",
+   "name": "Maurice's BBQ",
+   "state": "SC",
+   "lat": 33.99279,
+   "lon": -80.979,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Maurice's BBQ"
+   }
+  },
+  {
+   "osm_id": "way/508450748",
+   "slug": "maurices-bbq-33956--81233",
+   "name": "Maurice's BBQ",
+   "state": "SC",
+   "lat": 33.95627,
+   "lon": -81.23279,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Maurice's BBQ"
+   }
+  },
+  {
+   "osm_id": "node/12477049153",
+   "slug": "maurices-piggie-park-bbq",
+   "name": "Maurice's Piggie Park BBQ",
+   "state": "SC",
+   "lat": 34.01118,
+   "lon": -81.04502,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Maurice's Piggie Park BBQ"
+   }
+  },
+  {
+   "osm_id": "node/3051120751",
+   "slug": "melvins-legendary-bar-b-que",
+   "name": "Melvin's Legendary Bar-B-Que",
+   "state": "SC",
+   "lat": 32.75282,
+   "lon": -79.97211,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Melvin's Legendary Bar-B-Que"
+   }
+  },
+  {
+   "osm_id": "way/134581074",
+   "slug": "melvins-ribs-and-que",
+   "name": "Melvin's Ribs & Que",
+   "state": "SC",
+   "lat": 32.80368,
+   "lon": -79.89006,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "name": "Melvin's Ribs & Que"
+   }
+  },
+  {
+   "osm_id": "node/8195621306",
+   "slug": "middleton-and-maker-village-bbq",
+   "name": "MIDDLETON & MAKER VILLAGE BBQ",
+   "state": "SC",
+   "lat": 32.94028,
+   "lon": -79.70849,
+   "tags": {
+    "addr:housenumber": "5105",
+    "addr:street": "North US 17",
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "name": "MIDDLETON & MAKER VILLAGE BBQ"
+   }
+  },
+  {
+   "osm_id": "way/394517341",
+   "slug": "midway-bbq",
+   "name": "Midway BBQ",
+   "state": "SC",
+   "lat": 34.72383,
+   "lon": -81.65961,
+   "tags": {
+    "addr:city": "Buffalo",
+    "addr:housenumber": "811",
+    "addr:postcode": "29321",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Midway BBQ",
+    "website": "https://midwaybbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/1154864015",
+   "slug": "midwood-smokehouse-33992--80975",
+   "name": "Midwood Smokehouse",
+   "state": "SC",
+   "lat": 33.99236,
+   "lon": -80.97476,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Midwood Smokehouse"
+   }
+  },
+  {
+   "osm_id": "way/528389241",
+   "slug": "mike-and-jeffs-bbq",
+   "name": "Mike & Jeffs BBQ",
+   "state": "SC",
+   "lat": 34.87663,
+   "lon": -82.41555,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "2401",
+    "addr:postcode": "29609",
+    "addr:street": "Old Buncombe Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mike & Jeffs BBQ",
+    "website": "https://www.mikeandjeffsbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/11658306673",
+   "slug": "mission-bbq",
+   "name": "Mission BBQ",
+   "state": "SC",
+   "lat": 33.84105,
+   "lon": -78.66289,
+   "tags": {
+    "addr:city": "North Myrtle Beach",
+    "addr:housenumber": "1380",
+    "addr:postcode": "29582",
+    "addr:state": "SC",
+    "addr:street": "US Highway 17 North",
+    "amenity": "restaurant",
+    "brand": "Mission BBQ",
+    "brand:wikidata": "Q85785905",
+    "cuisine": "barbecue",
+    "name": "Mission BBQ",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+    "phone": "+1-843-510-0500"
+   }
+  },
+  {
+   "osm_id": "node/5678391645",
+   "slug": "moes-original-bar-b-que",
+   "name": "Moe's Original Bar B Que",
+   "state": "SC",
+   "lat": 34.86126,
+   "lon": -82.39721,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "109",
+    "addr:postcode": "29601",
+    "addr:state": "SC",
+    "addr:street": "West Stone Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Moe's Original Bar B Que",
+    "outdoor_seating": "yes",
+    "website": "https://www.moesoriginalbbq.com/greenville/"
+   }
+  },
+  {
+   "osm_id": "node/10594605114",
+   "slug": "moes-original-bbq",
+   "name": "Moe's Original BBQ",
+   "state": "SC",
+   "lat": 34.95972,
+   "lon": -81.94075,
+   "tags": {
+    "addr:city": "Spartanburg",
+    "addr:housenumber": "578",
+    "addr:postcode": "29303",
+    "addr:state": "SC",
+    "addr:street": "North Church Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Moe's Original BBQ",
+    "phone": "+1-864-707-2757",
+    "website": "https://www.moesoriginalbbq.com/spartanburg"
+   }
+  },
+  {
+   "osm_id": "node/12444522286",
+   "slug": "moohogz-craft-bbq",
+   "name": "MooHogz Craft BBQ",
+   "state": "SC",
+   "lat": 34.85319,
+   "lon": -82.4139,
+   "tags": {
+    "addr:housenumber": "157",
+    "addr:street": "Welborn Street",
+    "amenity": "restaurant",
+    "check_date": "2024-12-20",
+    "cuisine": "barbecue",
+    "name": "MooHogz Craft BBQ",
+    "opening_hours": "Mo 11:00-17:00; Tu-Th 11:00-21:00; Fr-Sa 09:00-21:00; Su 12:00-15:00; PH off",
+    "payment:cash": "yes",
+    "website": "https://www.moohogzbbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/766092117",
+   "slug": "mutts",
+   "name": "Mutt's",
+   "state": "SC",
+   "lat": 34.92086,
+   "lon": -82.23635,
+   "tags": {
+    "addr:city": "Greer",
+    "addr:housenumber": "101",
+    "addr:postcode": "29650",
+    "addr:state": "SC",
+    "addr:street": "West Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mutt's",
+    "outdoor_seating": "yes",
+    "website": "http://www.muttsbbqgreer.com/"
+   }
+  },
+  {
+   "osm_id": "way/56254741",
+   "slug": "mutts-bbq",
+   "name": "Mutt's BBQ",
+   "state": "SC",
+   "lat": 34.78277,
+   "lon": -82.29824,
+   "tags": {
+    "addr:city": "Mauldin",
+    "addr:housenumber": "214",
+    "addr:postcode": "29662",
+    "addr:street": "East Butler Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mutt's BBQ"
+   }
+  },
+  {
+   "osm_id": "way/1049569112",
+   "slug": "mutts-bbq-easley",
+   "name": "Mutt's BBQ",
+   "state": "SC",
+   "lat": 34.81291,
+   "lon": -82.55047,
+   "tags": {
+    "addr:city": "Easley",
+    "addr:housenumber": "1030",
+    "addr:postcode": "29642",
+    "addr:state": "SC",
+    "addr:street": "Powdersville Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Mutt's BBQ"
+   }
+  },
+  {
+   "osm_id": "node/11767338291",
+   "slug": "old-south-bbq",
+   "name": "Old South BBQ",
+   "state": "SC",
+   "lat": 33.83952,
+   "lon": -78.64501,
+   "tags": {
+    "addr:city": "North Myrtle Beach",
+    "addr:housenumber": "1020",
+    "addr:postcode": "29582",
+    "addr:state": "SC",
+    "addr:street": "Sea Mountain Highway",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Old South BBQ",
+    "opening_hours": "Mo-Su 11:00-19:00",
+    "phone": "+1-843-663-1056"
+   }
+  },
+  {
+   "osm_id": "node/4253485720",
+   "slug": "one-hot-mamas-american-grille",
+   "name": "One Hot Mama's American Grille",
+   "state": "SC",
+   "lat": 32.15456,
+   "lon": -80.76443,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "One Hot Mama's American Grille"
+   }
+  },
+  {
+   "osm_id": "way/269651803",
+   "slug": "palmetto-pig",
+   "name": "Palmetto Pig",
+   "state": "SC",
+   "lat": 33.99106,
+   "lon": -81.04037,
+   "tags": {
+    "addr:city": "Columbia",
+    "addr:housenumber": "530",
+    "addr:postcode": "29201",
+    "addr:state": "SC",
+    "addr:street": "Devine Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Palmetto Pig",
+    "opening_hours": "Tu-We 11:30-14:30; Th-Sa 11:00-21:00",
+    "website": "https://www.palmettopig.com/columbia.htm"
+   }
+  },
+  {
+   "osm_id": "node/4412235790",
+   "slug": "po-boys-bar-b-q",
+   "name": "Po Boys Bar-B-Q",
+   "state": "SC",
+   "lat": 32.73414,
+   "lon": -80.2377,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Po Boys Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "node/5114990135",
+   "slug": "poogans-smokehouse",
+   "name": "Poogan's Smokehouse",
+   "state": "SC",
+   "lat": 32.77961,
+   "lon": -79.92696,
+   "tags": {
+    "addr:city": "Charleston",
+    "addr:housenumber": "188",
+    "addr:postcode": "29401",
+    "addr:state": "SC",
+    "addr:street": "East Bay Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Poogan's Smokehouse",
+    "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:30-23:00; Su 11:00-22:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "phone": "+1-843-577-5665",
+    "smoking": "no",
+    "start_date": "2015",
+    "website": "https://www.pooganssmokehouse.com"
+   }
+  },
+  {
+   "osm_id": "node/10608320580",
+   "slug": "prices-bbq",
+   "name": "Price's BBQ",
+   "state": "SC",
+   "lat": 34.02386,
+   "lon": -81.40154,
+   "tags": {
+    "addr:city": "Gilbert",
+    "addr:postcode": "29054",
+    "addr:state": "SC",
+    "addr:street": "Ervin Price Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Price's BBQ"
+   }
+  },
+  {
+   "osm_id": "node/357113405",
+   "slug": "radd-dews-bar-b-que-pit",
+   "name": "Radd Dew's Bar-B-Que Pit",
+   "state": "SC",
+   "lat": 33.93295,
+   "lon": -79.13337,
+   "tags": {
+    "addr:city": "Aynor",
+    "addr:housenumber": "851",
+    "addr:postcode": "29511",
+    "addr:state": "SC",
+    "addr:street": "Horry Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue;american;seafood",
+    "name": "Radd Dew's Bar-B-Que Pit",
+    "opening_hours": "Fr,Sa 16:00-20:30; Su 11:00-15:00",
+    "phone": "+1-843-397-3453",
+    "website": "https://destination-bbq.com/stores/radd-dews-bar-b-que-pit/"
+   }
+  },
+  {
+   "osm_id": "way/554934764",
+   "slug": "railroad-bbq",
+   "name": "Railroad BBQ",
+   "state": "SC",
+   "lat": 34.00954,
+   "lon": -81.02231,
+   "tags": {
+    "addr:city": "Columbia",
+    "addr:housenumber": "2001",
+    "addr:postcode": "29204",
+    "addr:state": "SC",
+    "addr:street": "Hampton Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Railroad BBQ"
+   }
+  },
+  {
+   "osm_id": "way/301557900",
+   "slug": "roberts-bar-b-que",
+   "name": "Robert's Bar-b-que",
+   "state": "SC",
+   "lat": 32.91644,
+   "lon": -80.10527,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Robert's Bar-b-que"
+   }
+  },
+  {
+   "osm_id": "node/13847193264",
+   "slug": "rodney-scotts-whole-hog-bbq",
+   "name": "Rodney Scott's Whole Hog BBQ",
+   "state": "SC",
+   "lat": 32.80344,
+   "lon": -79.95121,
+   "tags": {
+    "addr:city": "Charleston",
+    "addr:housenumber": "1011",
+    "addr:postcode": "29403",
+    "addr:state": "SC",
+    "addr:street": "King Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Rodney Scott's Whole Hog BBQ",
+    "start_date": "2017-02",
+    "takeaway": "yes",
+    "wikidata": "Q104855771",
+    "wikipedia": "en:Rodney Scott's Whole Hog BBQ"
+   }
+  },
+  {
+   "osm_id": "way/1008074409",
+   "slug": "roller-mills-smokehouse",
+   "name": "Roller Mills Smokehouse",
+   "state": "SC",
+   "lat": 34.65955,
+   "lon": -82.814,
+   "tags": {
+    "addr:city": "Clemson",
+    "addr:housenumber": "190",
+    "addr:postcode": "29631",
+    "addr:state": "SC",
+    "addr:street": "New Hope Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Roller Mills Smokehouse"
+   }
+  },
+  {
+   "osm_id": "node/5781611883",
+   "slug": "s-b-h-bbq-co",
+   "name": "S.B.H. BBQ CO.",
+   "state": "SC",
+   "lat": 34.85782,
+   "lon": -82.2561,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "5021",
+    "addr:postcode": "29615",
+    "addr:state": "SC",
+    "addr:street": "Pelham Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "S.B.H. BBQ CO."
+   }
+  },
+  {
+   "osm_id": "way/188413186",
+   "slug": "saltwater-cowboys",
+   "name": "Saltwater Cowboys",
+   "state": "SC",
+   "lat": 32.79157,
+   "lon": -79.88191,
+   "tags": {
+    "addr:city": "Mount Pleasant",
+    "addr:housenumber": "130",
+    "addr:postcode": "29464",
+    "addr:state": "SC",
+    "addr:street": "Mill Street",
+    "amenity": "restaurant",
+    "cuisine": "seafood;barbecue",
+    "name": "Saltwater Cowboys",
+    "opening_hours": "Mo-Sa 11:00-24:00; Su 10:00-24:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-843-856-0700",
+    "website": "https://saltwater-cowboys.com/"
+   }
+  },
+  {
+   "osm_id": "way/1053972795",
+   "slug": "scotts-bar-b-que",
+   "name": "Scott's Bar-B-Que",
+   "state": "SC",
+   "lat": 33.7433,
+   "lon": -79.47498,
+   "tags": {
+    "addr:city": "Hemingway",
+    "addr:housenumber": "2734",
+    "addr:postcode": "29554",
+    "addr:state": "SC",
+    "addr:street": "Hemingway Highway",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Scott's Bar-B-Que"
+   }
+  },
+  {
+   "osm_id": "node/2953310413",
+   "slug": "shanes-rib-shack",
+   "name": "Shane's Rib Shack",
+   "state": "SC",
+   "lat": 33.50301,
+   "lon": -81.7081,
+   "tags": {
+    "addr:city": "aiken",
+    "addr:housenumber": "2645",
+    "addr:postcode": "29803",
+    "addr:street": "Whiskey Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Shane's Rib Shack",
+    "phone": "+1-803-226-0192",
+    "smoking": "outside"
+   }
+  },
+  {
+   "osm_id": "node/5487024969",
+   "slug": "shanes-rib-shack-34787--82478",
+   "name": "Shane's Rib Shack",
+   "state": "SC",
+   "lat": 34.78701,
+   "lon": -82.47775,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Shane's Rib Shack"
+   }
+  },
+  {
+   "osm_id": "node/6318159129",
+   "slug": "shanes-rib-shack-spartanburg",
+   "name": "Shane's Rib Shack",
+   "state": "SC",
+   "lat": 34.92165,
+   "lon": -81.98525,
+   "tags": {
+    "addr:city": "Spartanburg",
+    "addr:housenumber": "1735",
+    "addr:postcode": "29301",
+    "addr:state": "SC",
+    "addr:street": "John B White Sr Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Shane's Rib Shack"
+   }
+  },
+  {
+   "osm_id": "way/551654920",
+   "slug": "shealys-bbq",
+   "name": "Shealy's BBQ",
+   "state": "SC",
+   "lat": 33.91475,
+   "lon": -81.51528,
+   "tags": {
+    "addr:city": "Batesburg-Leesville",
+    "addr:housenumber": "240",
+    "addr:postcode": "29070",
+    "addr:state": "SC",
+    "addr:street": "East Columbia Avenue",
+    "amenity": "restaurant",
+    "cuisine": "chicken;barbecue;buffet",
+    "name": "Shealy's BBQ",
+    "opening_hours": "Mo,Tu,Th-Sa 09:00-21:00; We,Su closed",
+    "phone": "+1 803 532 8135",
+    "website": "https://www.shealysbbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/682302650",
+   "slug": "sheltons-smoking-butts",
+   "name": "Sheltons Smoking Butts",
+   "state": "SC",
+   "lat": 34.85321,
+   "lon": -82.15118,
+   "tags": {
+    "addr:city": "Greer",
+    "addr:housenumber": "155",
+    "addr:postcode": "29651",
+    "addr:state": "SC",
+    "addr:street": "Lake Place",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Sheltons Smoking Butts"
+   }
+  },
+  {
+   "osm_id": "node/5207338142",
+   "slug": "smittys-smokin-soul-food",
+   "name": "Smitty's Smokin' Soul Food",
+   "state": "SC",
+   "lat": 34.83004,
+   "lon": -82.60327,
+   "tags": {
+    "addr:city": "Easley",
+    "addr:housenumber": "104A",
+    "addr:postcode": "29640",
+    "addr:state": "SC",
+    "addr:street": "East Main Street",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/Smittyssmokinsoulfood",
+    "cuisine": "barbecue",
+    "name": "Smitty's Smokin' Soul Food",
+    "website": "https://www.smittyssmokinsoulfood.com/"
+   }
+  },
+  {
+   "osm_id": "node/9599363679",
+   "slug": "smitty-s-smokin-soulfood",
+   "name": "Smitty’s Smokin’ Soulfood",
+   "state": "SC",
+   "lat": 34.82648,
+   "lon": -82.56242,
+   "tags": {
+    "addr:city": "Easley",
+    "addr:housenumber": "5284",
+    "addr:postcode": "29640",
+    "addr:state": "SC",
+    "addr:street": "Calhoun Memorial Highway",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/Smittyssmokinsoulfood",
+    "cuisine": "barbecue",
+    "name": "Smitty’s Smokin’ Soulfood",
+    "website": "https://www.smittyssmokinsoulfood.com/"
+   }
+  },
+  {
+   "osm_id": "node/6318540512",
+   "slug": "smoky-blues-barbeque",
+   "name": "Smok'y Blues Barbeque",
+   "state": "SC",
+   "lat": 34.92418,
+   "lon": -82.00206,
+   "tags": {
+    "addr:city": "Spartanburg",
+    "addr:housenumber": "458",
+    "addr:postcode": "29301",
+    "addr:state": "SC",
+    "addr:street": "Oak Grove Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smok'y Blues Barbeque"
+   }
+  },
+  {
+   "osm_id": "way/783588305",
+   "slug": "smokin-pig",
+   "name": "Smokin Pig",
+   "state": "SC",
+   "lat": 34.60054,
+   "lon": -82.61584,
+   "tags": {
+    "addr:city": "Anderson",
+    "addr:housenumber": "1696",
+    "addr:postcode": "29621",
+    "addr:street": "Evergreen Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smokin Pig",
+    "opening_hours": "Th,Fr,Sa 11:00-21:00",
+    "website": "https://thesmokinpigsc.com/"
+   }
+  },
+  {
+   "osm_id": "way/469322443",
+   "slug": "smokin-pig-express",
+   "name": "Smokin Pig Express",
+   "state": "SC",
+   "lat": 34.61592,
+   "lon": -82.4886,
+   "tags": {
+    "addr:city": "Williamston",
+    "addr:housenumber": "720",
+    "addr:postcode": "29697",
+    "addr:state": "SC",
+    "addr:street": "Anderson Drive",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smokin Pig Express"
+   }
+  },
+  {
+   "osm_id": "node/3231684021",
+   "slug": "smokin-wings-n-things",
+   "name": "Smokin Wings N Things",
+   "state": "SC",
+   "lat": 34.80934,
+   "lon": -82.27995,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "1054",
+    "addr:postcode": "29607",
+    "addr:street": "East Butler Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smokin Wings N Things",
+    "website": "https://www.smokinwingsgreenville.com/"
+   }
+  },
+  {
+   "osm_id": "way/554301089",
+   "slug": "smoky-dreams",
+   "name": "Smoky Dreams",
+   "state": "SC",
+   "lat": 34.82032,
+   "lon": -82.25728,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "2131",
+    "addr:postcode": "29607",
+    "addr:street": "Woodruff Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Smoky Dreams",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "website": "https://www.smokydreamsbbq.com/"
+   }
+  },
+  {
+   "osm_id": "node/6204786978",
+   "slug": "sombrero-restaurant",
+   "name": "Sombrero Restaurant",
+   "state": "SC",
+   "lat": 34.49836,
+   "lon": -79.30851,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-11-26",
+    "cuisine": "burger;sandwich;salad;dessert;barbecue",
+    "name": "Sombrero Restaurant",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "smoking": "no",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/216523196",
+   "slug": "sonnys-bbq",
+   "name": "Sonny's BBQ",
+   "state": "SC",
+   "lat": 34.97665,
+   "lon": -80.98381,
+   "tags": {
+    "addr:city": "Rock Hill",
+    "addr:housenumber": "2781",
+    "addr:postcode": "29730",
+    "addr:state": "SC",
+    "addr:street": "Cherry Road",
+    "amenity": "restaurant",
+    "brand": "Sonny's BBQ",
+    "brand:wikidata": "Q7561989",
+    "cuisine": "barbecue",
+    "drive_through": "yes",
+    "name": "Sonny's BBQ",
+    "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-21:30",
+    "outdoor_seating": "no",
+    "phone": "+1-803-324-7984",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "website": "https://www.sonnysbbq.com/locations/rock-hill"
+   }
+  },
+  {
+   "osm_id": "way/1290318664",
+   "slug": "southern-smoke-bbq",
+   "name": "Southern Smoke BBQ",
+   "state": "SC",
+   "lat": 34.66385,
+   "lon": -82.51043,
+   "tags": {
+    "addr:city": "Pelzer",
+    "addr:housenumber": "926",
+    "addr:postcode": "29669",
+    "addr:state": "SC",
+    "addr:street": "Easley Highway",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Southern Smoke BBQ"
+   }
+  },
+  {
+   "osm_id": "way/239963561",
+   "slug": "steelhorse-smokehouse",
+   "name": "Steelhorse Smokehouse",
+   "state": "SC",
+   "lat": 34.27519,
+   "lon": -81.61698,
+   "tags": {
+    "addr:city": "Newberry",
+    "addr:housenumber": "1506",
+    "addr:state": "SC",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Steelhorse Smokehouse",
+    "phone": "+1-803-597-5262",
+    "website": "https://www.steelhorsesmokehouse.com/"
+   }
+  },
+  {
+   "osm_id": "node/12875699633",
+   "slug": "sticky-fingers-rib-house",
+   "name": "Sticky Fingers Rib House",
+   "state": "SC",
+   "lat": 32.8582,
+   "lon": -80.03395,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Sticky Fingers Rib House"
+   }
+  },
+  {
+   "osm_id": "node/13658784711",
+   "slug": "swig-and-swine",
+   "name": "Swig & Swine",
+   "state": "SC",
+   "lat": 33.21427,
+   "lon": -79.98078,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue;grill",
+    "name": "Swig & Swine"
+   }
+  },
+  {
+   "osm_id": "way/653833875",
+   "slug": "swig-and-swine-32784--79998",
+   "name": "Swig & Swine",
+   "state": "SC",
+   "lat": 32.78377,
+   "lon": -79.99787,
+   "tags": {
+    "addr:housenumber": "1217",
+    "addr:street": "Savannah Highway",
+    "amenity": "restaurant",
+    "check_date": "2024-12-01",
+    "cuisine": "barbecue;chicken",
+    "name": "Swig & Swine",
+    "opening_hours": "11:00-21:00",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "way/499876387",
+   "slug": "swig-n-swine",
+   "name": "Swig N Swine",
+   "state": "SC",
+   "lat": 32.92216,
+   "lon": -79.82895,
+   "tags": {
+    "addr:city": "Mount Pleasant",
+    "addr:housenumber": "2379",
+    "addr:postcode": "29466",
+    "addr:state": "SC",
+    "addr:street": "SC-41",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Swig N Swine",
+    "phone": "+18434167368",
+    "website": "https://swigandswinebbq.com/"
+   }
+  },
+  {
+   "osm_id": "way/1063735621",
+   "slug": "the-baarr-b-q-place",
+   "name": "The BAARR-B-Q Place",
+   "state": "SC",
+   "lat": 32.87072,
+   "lon": -81.11405,
+   "tags": {
+    "addr:city": "Hampton",
+    "addr:housenumber": "606",
+    "addr:postcode": "29924",
+    "addr:state": "SC",
+    "addr:street": "Elm Street West",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The BAARR-B-Q Place",
+    "phone": "+1-803-914-1042",
+    "website": "https://thebaarrbqplace.com/"
+   }
+  },
+  {
+   "osm_id": "way/696008724",
+   "slug": "the-company-store-and-restaurant",
+   "name": "The Company Store & Restaurant",
+   "state": "SC",
+   "lat": 34.47066,
+   "lon": -80.25475,
+   "tags": {
+    "addr:city": "McBee",
+    "addr:housenumber": "134",
+    "addr:postcode": "29101",
+    "addr:state": "SC",
+    "addr:street": "North 7th Street",
+    "amenity": "restaurant",
+    "cuisine": "burger;american;sandwich;barbecue",
+    "name": "The Company Store & Restaurant",
+    "phone": "+1-843-335-8834"
+   }
+  },
+  {
+   "osm_id": "way/749306352",
+   "slug": "the-kakery-at-stone-house",
+   "name": "The Kakery at Stone House",
+   "state": "SC",
+   "lat": 35.0208,
+   "lon": -82.50147,
+   "tags": {
+    "addr:city": "Marietta",
+    "addr:housenumber": "908",
+    "addr:postcode": "29661",
+    "addr:state": "SC",
+    "addr:street": "Slater Road",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=61576094450214",
+    "cuisine": "barbecue",
+    "name": "The Kakery at Stone House"
+   }
+  },
+  {
+   "osm_id": "way/555811680",
+   "slug": "the-smokin-pig",
+   "name": "The Smokin' Pig",
+   "state": "SC",
+   "lat": 34.82053,
+   "lon": -82.60105,
+   "tags": {
+    "addr:city": "Easley",
+    "addr:housenumber": "701",
+    "addr:postcode": "29640",
+    "addr:street": "South Pendleton Street",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Smokin' Pig",
+    "takeaway": "yes",
+    "website": "https://www.thesmokinpigsc.com/"
+   }
+  },
+  {
+   "osm_id": "way/565982977",
+   "slug": "the-smokin-pig-pendleton",
+   "name": "The Smokin' Pig",
+   "state": "SC",
+   "lat": 34.61018,
+   "lon": -82.76743,
+   "tags": {
+    "addr:city": "Pendleton",
+    "addr:housenumber": "6630",
+    "addr:postcode": "29670",
+    "addr:state": "SC",
+    "addr:street": "Highway 76",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "The Smokin' Pig",
+    "website": "https://thesmokinpigsc.com/Pendleton_Page.html"
+   }
+  },
+  {
+   "osm_id": "node/13021863813",
+   "slug": "the-wreckfish-bar-and-grill",
+   "name": "The Wreckfish Bar & Grill",
+   "state": "SC",
+   "lat": 32.78138,
+   "lon": -79.92619,
+   "tags": {
+    "addr:city": "Charleston",
+    "addr:housenumber": "6",
+    "addr:postcode": "29401",
+    "addr:state": "SC",
+    "addr:street": "North Market Street",
+    "amenity": "restaurant",
+    "cuisine": "seafood;barbecue",
+    "name": "The Wreckfish Bar & Grill",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "phone": "+1-843-958-8500",
+    "start_date": "2025-03-17",
+    "website": "https://wreckfishchs.com"
+   }
+  },
+  {
+   "osm_id": "way/1279993143",
+   "slug": "this-little-piggy",
+   "name": "This Little Piggy",
+   "state": "SC",
+   "lat": 33.01933,
+   "lon": -80.1771,
+   "tags": {
+    "addr:city": "Summerville",
+    "addr:housenumber": "100",
+    "addr:postcode": "29483",
+    "addr:street": "Central Avenue",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "This Little Piggy",
+    "website": "https://thislittlepiggysummerville.com/"
+   }
+  },
+  {
+   "osm_id": "node/2732305272",
+   "slug": "thornys-steakhouse-and-saloon",
+   "name": "Thorny's Steakhouse & Saloon",
+   "state": "SC",
+   "lat": 33.68211,
+   "lon": -78.89621,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "american;burger;beef;fish;grill;fries;meat;chicken;pasta;barbecue;wings;sandwich;seafood",
+    "name": "Thorny's Steakhouse & Saloon",
+    "opening_hours": "Mo-Fr 15:30-22:00+; Sa,Su 11:00-22:00+",
+    "outdoor_seating": "no",
+    "phone": "+1-843-448-2333",
+    "smoking": "no",
+    "website": "https://thornys.com",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/3925503109",
+   "slug": "toms-bbq",
+   "name": "Tom's BBQ",
+   "state": "SC",
+   "lat": 34.82565,
+   "lon": -82.29417,
+   "tags": {
+    "addr:city": "Greenville",
+    "addr:housenumber": "1143",
+    "addr:postcode": "29607",
+    "addr:street": "Woodruff Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Tom's BBQ"
+   }
+  },
+  {
+   "osm_id": "way/540474372",
+   "slug": "twin-palmetto",
+   "name": "Twin Palmetto",
+   "state": "SC",
+   "lat": 34.87758,
+   "lon": -82.14614,
+   "tags": {
+    "addr:city": "Duncan",
+    "addr:housenumber": "2245",
+    "addr:postcode": "29334",
+    "addr:state": "SC",
+    "addr:street": "State Highway 101",
+    "amenity": "restaurant",
+    "cuisine": "burger;italian;sandwich;fish_and_chips;greek;barbecue",
+    "name": "Twin Palmetto",
+    "opening_hours": "Mo-Sa 10:30-22:00",
+    "outdoor_seating": "no",
+    "phone": "+1-864-801-8779",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/802004009",
+   "slug": "wards-bar-b-q",
+   "name": "Ward's Bar-b-q",
+   "state": "SC",
+   "lat": 33.93954,
+   "lon": -80.38331,
+   "tags": {
+    "addr:city": "Sumter",
+    "addr:housenumber": "1087",
+    "addr:postcode": "29150",
+    "addr:state": "SC",
+    "addr:street": "Alice Drive",
+    "amenity": "restaurant",
+    "cuisine": "regional;barbecue;southern;sandwich",
+    "name": "Ward's Bar-b-q",
+    "opening_hours": "We-Su 10:30-19:30",
+    "phone": "+1-803-775-0008"
+   }
+  },
+  {
+   "osm_id": "node/4782009080",
+   "slug": "westwood-bbq",
+   "name": "Westwood BBQ",
+   "state": "SC",
+   "lat": 34.3404,
+   "lon": -80.08749,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Westwood BBQ"
+   }
+  },
+  {
+   "osm_id": "node/13353621593",
+   "slug": "wholly-smokin",
+   "name": "Wholly Smokin'",
+   "state": "SC",
+   "lat": 34.19611,
+   "lon": -79.76591,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Wholly Smokin'"
+   }
+  },
+  {
+   "osm_id": "way/322756231",
+   "slug": "wholy-smoke-bbq-and-seafood",
+   "name": "Wholy Smoke BBQ & seafood",
+   "state": "SC",
+   "lat": 34.7749,
+   "lon": -82.32118,
+   "tags": {
+    "addr:city": "Mauldin",
+    "addr:housenumber": "447",
+    "addr:postcode": "29662",
+    "addr:state": "SC",
+    "addr:street": "West Butler Road",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100063982484647",
+    "cuisine": "barbecue",
+    "name": "Wholy Smoke BBQ & seafood",
+    "website": "https://www.wholysmokemauldin.com/"
+   }
+  },
+  {
+   "osm_id": "node/9039367873",
+   "slug": "willie-jewells-bar-b-q",
+   "name": "Willie Jewell's Bar-B-Q",
+   "state": "SC",
+   "lat": 34.01297,
+   "lon": -81.1515,
+   "tags": {
+    "addr:city": "Lexington",
+    "addr:housenumber": "105",
+    "addr:postcode": "29072",
+    "addr:state": "SC",
+    "addr:street": "Saluda Pointe Court",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Willie Jewell's Bar-B-Q"
+   }
+  },
+  {
+   "osm_id": "way/1108061870",
+   "slug": "wises-bar-b-q-house",
+   "name": "Wise's Bar-B-Q House",
+   "state": "SC",
+   "lat": 34.35135,
+   "lon": -81.72074,
+   "tags": {
+    "addr:city": "Newberry",
+    "addr:housenumber": "25548",
+    "addr:postcode": "29108",
+    "addr:state": "SC",
+    "addr:street": "Wilson Road",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Wise's Bar-B-Q House",
+    "opening_hours": "Fr-Sa 09:00-21:00",
+    "phone": "+1-803-276-6699",
+    "website": "https://wisesbbq.com"
+   }
+  },
+  {
+   "osm_id": "node/13351971848",
+   "slug": "woodstone-barbecue",
+   "name": "Woodstone Barbecue",
+   "state": "SC",
+   "lat": 34.17219,
+   "lon": -79.76585,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Woodstone Barbecue"
+   }
+  },
+  {
+   "osm_id": "node/11940481153",
+   "slug": "bbq-house",
+   "name": "BBQ House",
+   "state": "unknown",
+   "lat": 33.91285,
+   "lon": -78.11272,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "BBQ House"
+   }
+  },
+  {
+   "osm_id": "way/484448881",
+   "slug": "shepard-barbecue",
+   "name": "Shepard Barbecue",
+   "state": "unknown",
+   "lat": 34.66524,
+   "lon": -77.03132,
+   "tags": {
+    "addr:city": "Emerald Isle",
+    "addr:housenumber": "7801",
+    "addr:street": "Emerald Drive",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Shepard Barbecue",
+    "opening_hours": "We-Th 11:00-15:00; Fr-Sa 11:00-18:00",
+    "phone": "+12527642387"
+   }
+  },
+  {
+   "osm_id": "node/13097311514",
+   "slug": "sunny-daze-smokehouse",
+   "name": "Sunny Daze Smokehouse",
+   "state": "unknown",
+   "lat": 34.03352,
+   "lon": -77.89212,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Sunny Daze Smokehouse"
+   }
+  }
+ ]
+}

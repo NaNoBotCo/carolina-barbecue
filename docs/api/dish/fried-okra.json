@@ -1,0 +1,300 @@
+{
+ "schema": 1,
+ "id": "fried-okra",
+ "type": "dish",
+ "names": {
+  "name": "fried okra",
+  "aliases": [
+   "okra"
+  ],
+  "said": "Taken by the scoop; a plate of it eats like a snack, which is why it gets called Southern popcorn."
+ },
+ "region": [
+  "carolinas",
+  "sc",
+  "nc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "sc-mustard",
+   "sc-pee-dee",
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "Okra pods sliced into rounds, rolled in cornmeal and fried until the outside is crisp. It is the commonest way okra is cooked in the South and a standing side at barbecue houses and meat-and-three counters, eaten most in summer when the pods are in. Cutting the pods small keeps the outside crisp and leaves the inside slippery; whole pods can be fried too.",
+  "story": "Okra came to the Americas on slave ships, and the method of frying it is thought to have roots in the Congo or West Africa before it arrived here. Fried vegetables and fritters spread through Southern cooking in the middle of the nineteenth century, and fried okra spread with them; the dish belongs to soul food, to Cajun cooking and to Gullah Geechee cooking, and is part of the Oklahoma state meal. In the Carolinas the barbecue connection is a farm one as much as a kitchen one: Brown's Bar-B-Que in Kingstree grows the okra it serves, along with corn, squash, butter beans, collards and cabbage, and McCabe's in Manning puts it on a buffet beside the hash and rice. Older Southern cookbooks cook it wet rather than dry — boiled and finished with cream and butter, or cut into a soup — and the frying is the newer habit.",
+  "how": "The pods are topped and cut into rounds about half an inch thick. They are tossed or dredged in cornmeal, or dipped first in beaten egg or buttermilk and then in cornmeal, or cornmeal and flour, and fried in butter or vegetable oil, deep or in a pan, until browned. The batter may be seasoned with black pepper and cayenne. Drained and salted, and sometimes given a dipping sauce.",
+  "today": "On the buffet line at Dukes Bar-B-Que in Orangeburg with the collards and corn nuggets; at McCabe's in Manning with the tomatoes and butter beans; at Brown's in Kingstree, grown on the family's own farm."
+ },
+ "kin": [
+  {
+   "to": "dukes-bar-b-que",
+   "as": "on the line with the collards, the corn nuggets and the mac and cheese.",
+   "rel": "served-at"
+  },
+  {
+   "to": "mccabes-bar-b-q",
+   "as": "on the buffet with the tomatoes, butter beans and perloo.",
+   "rel": "served-at"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "grown on the Browns' own farm and cooked for the buffet.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the other cornmeal thing out of the same fryer.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "a scoop of it in the tray.",
+   "rel": "part"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "a standing side on the Orangeburg buffets.",
+   "rel": "whole"
+  },
+  {
+   "to": "fixins",
+   "as": "one of the fixins on a South Carolina line.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Fried okra — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fried_okra"
+  }
+ ],
+ "sources": [
+  "s:wp-fried-okra",
+  "s:wp-dukes-bar-b-que",
+  "s:web-discoversc-mccabes",
+  "s:web-sfa-browns-bar-b-q",
+  "s:web-destination-bbq-browns"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-fried-okra"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-fried-okra",
+    "note": "Brown's farm from the Southern Foodways interview; McCabe's from Discover South Carolina"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-fried-okra"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-fried-okra",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Fried Okra",
+   "source": "s:wikibooks-fried-okra",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AFried_Okra",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "Fresh okra",
+    "Cultured buttermilk or plain milk",
+    "Flour",
+    "Spices as desired (e.g. salt, pepper, cayenne, thyme, etc.)",
+    "Corn meal"
+   ],
+   "text": "1. Wash and drain a couple of handfuls of fresh okra.\n2. Cut each okra into three or four slices, about ¾–1 inch (2–2.5 cm) long. Discard the stem.\n3. Soak the okra in buttermilk or plain milk, drain, then dredge in seasoned flour and corn meal. A quick way to do this is to put ½ cup flour and 1 cup of corn meal in a plastic bag, add the spices you like, put in the okra, and shake.\n4. Let the okra rest a few minutes. If any pieces look soggy, dredge them again in a flour/corn meal mix.\n5. Deep fry the okra in hot oil until a light to medium brown. They're done in 2–3 minutes.\n6. Drain, and enjoy!"
+  },
+  {
+   "title": "Spicy Fried Okra",
+   "source": "s:wikibooks-spicy-fried-okra",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASpicy_Fried_Okra",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "40 okra, stemmed and halved lengthwise",
+    "2 tbsp salt",
+    "2 tbsp freshly ground black pepper",
+    "1 tsp cayenne pepper",
+    "1 cup all-purpose flour, divided",
+    "Hot sauce",
+    "2½ quarts peanut oil",
+    "Kosher salt"
+   ],
+   "text": "1. Combine salt, peppers, and ½ cup flour. Coat okra with flour mixture.\n2. Dip okra into hot sauce and dredge in remaining flour, adding more as needed. Let rest 2–3 minutes.\n3. Heat oil in a large pot or a deep-fryer to 375°F. Add okra, 6 at a time, and fry 3–4 minutes until golden brown and crispy. Drain on a cooling rack and repeat until all okra has been fried.\n4. Sprinkle fried okra with additional kosher salt and freshly ground black pepper and serve warm."
+  },
+  {
+   "title": "Okra",
+   "source": "s:book-housekeeping-in-old-virginia",
+   "license": "Public domain",
+   "year": 1879,
+   "url": "https://archive.org/details/housekeepinginol00tyre",
+   "author": "Marion Cabell Tyree, editor",
+   "book": "Housekeeping in Old Virginia",
+   "text": "Boil young okra till tender, in salt and water. Drain, add half a teacup of cream, and a heaping tablespoonful butter. Let it boil up, turn it out in a dish, sprinkle salt and pepper over it and serve hot.",
+   "page": 246,
+   "note": "The wet way, 1879: boiled and finished with cream and butter, with no cornmeal and no fat to fry in. An ancestor of the side rather than the fried dish."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "Okra pods sliced into rounds, rolled in cornmeal and fried until the outside is crisp.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "on the line with the collards, the corn nuggets and the mac and cheese.",
+   "rel": "served-at"
+  },
+  {
+   "to": "mccabes-bar-b-q",
+   "type": "place",
+   "name": "McCabe's Bar-B-Q",
+   "as": "on the buffet with the tomatoes, butter beans and perloo.",
+   "rel": "served-at"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "grown on the Browns' own farm and cooked for the buffet.",
+   "rel": "served-at"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the other cornmeal thing out of the same fryer.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "a scoop of it in the tray.",
+   "rel": "part"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "a standing side on the Orangeburg buffets.",
+   "rel": "whole"
+  },
+  {
+   "to": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "one of the fixins on a South Carolina line.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-fried-okra",
+   "kind": "wikipedia",
+   "title": "Fried okra — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fried_okra",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-dukes-bar-b-que",
+   "kind": "wikipedia",
+   "title": "Dukes Bar-B-Que — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dukes_Bar-B-Que",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1373146410"
+  },
+  {
+   "id": "s:web-discoversc-mccabes",
+   "kind": "web",
+   "title": "100-Mile Barbecue: McCabe's Bar-B-Que in Manning — Gwen Fowler",
+   "publisher": "Discover South Carolina (South Carolina Department of Parks, Recreation & Tourism)",
+   "url": "https://discoversouthcarolina.com/articles/100-mile-barbecue-mccabes-bar-b-que-in-manning",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-browns-bar-b-q",
+   "kind": "web",
+   "title": "Brown's Bar-B-Q — Thomas M. Brown Jr. and Angela Brown, interviewed by Rien Fertel, June 17, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/browns-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-destination-bbq-browns",
+   "kind": "web",
+   "title": "Brown's Bar-B-Q Restaurant in Kingstree, SC",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/browns-bar-b-q/",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-fried-okra"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-fried-okra",
+   "note": "Brown's farm from the Southern Foodways interview; McCabe's from Discover South Carolina"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-fried-okra"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-fried-okra"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

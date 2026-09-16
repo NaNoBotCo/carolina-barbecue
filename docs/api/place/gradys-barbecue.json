@@ -1,0 +1,523 @@
+{
+ "schema": 1,
+ "id": "gradys-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Grady's Barbecue",
+  "aliases": [
+   "Grady's BBQ",
+   "Grady's Bar-B-Q",
+   "Grady's"
+  ],
+  "sort": "Gradys Barbecue"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1986",
+  "fuel": "wood",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "A whole-hog pit at a country crossroads in Dudley, Wayne County, south of Goldsboro, opened on July 4, 1986 by Steve and Gerri Grady and run by Gerri and their son Scottie since Steve's death in August 2025. Hogs cook over oak and hickory coals; the barbecue is chopped by hand and served with stewed collards, cabbage, slaw and potato salad, and tea Gerri brews on the stove. The Assembly reported in February 2026 that it is, by most accounts, the one Black-owned brick-and-mortar whole-hog restaurant at the top of North Carolina's best-of lists, and one of the last of its kind. It opens four days a week.",
+  "story": "Steve Grady's brother started the restaurant on a Friday in 1986 and quit by Saturday; he disliked the smoke. Steve and Gerri, married that same year, bought it with bank loans and the backing of the boss at the sawmill where Steve worked. Both had grown up on farms at Seven Springs. Steve had learned whole hog from his father and grandfather, who cooked a couple of pigs a year in pits dug in the ground for holidays; Gerri learned to cook at nine or ten from her mother and grandmother and then her mother-in-law, and told ABC11 in 2021, 'This is cooking the old fashioned way. It's a dash of this and a dash of that. There are no measurements.' Steve cut oak and hickory from storm-downed trees across Wayne County and stacked it beside the building where customers could see it. USA Today and GQ wrote the place up; the Gradys spoke for the North Carolina Barbecue Society and gave the Southern Foodways Alliance an oral history in December 2011. In June 2020 Steve was hospitalized with COVID-19; the restaurant reopened that July on its 34th anniversary. In 2024 the NC BBQ Hall of Fame and the American Royal both inducted him. Stephen Grady died on August 26, 2025; Gerri and Scottie kept the pit going.",
+  "how": "Steve started the charcoal fires at eleven at night and came back at four in the morning to put the hogs on over hickory and oak; by eight the barbecue was ready. The meat is hand-chopped and dressed with a spicy vinegar sauce, and the plate carries slaw, hushpuppies — fried cornmeal fritters — and the day's vegetables, stewed collards, cabbage and potato salad, peeled and chopped by hand that morning.",
+  "today": "Open four days a week at 3096 Arrington Bridge Road, Dudley, run by Gerri Grady and her son Scottie since Steve Grady's death in August 2025. Days and hours are from Our State (2013) and The Assembly (February 2026); check before driving."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style, cooked the way the Gradys' grandparents cooked it in pits dug in the ground.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, over oak and hickory coals from four in the morning.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "its fuel, cut from storm-downed trees across Wayne County and stacked in view of the door.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the plate beside the day's vegetables.",
+   "rel": "serves"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "as": "the other Wayne County whole-hog pit, on U.S. 70 the far side of Goldsboro.",
+   "rel": "kin"
+  },
+  {
+   "to": "scotts-famous-barbecue",
+   "as": "Goldsboro's older Black-owned barbecue, closed now, whose sauce is still bottled.",
+   "rel": "kin"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "the Gradys spoke for it; Steve Grady entered the NC BBQ Hall of Fame in 2024.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded the Gradys' oral history in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.2652434,
+  "lon": -77.959773,
+  "precision": "street",
+  "source": "OpenStreetMap (Nominatim geocode, 2026-09-15)"
+ },
+ "address": {
+  "street": "3096 Arrington Bridge Rd",
+  "city": "Dudley",
+  "county": "Wayne",
+  "state": "NC",
+  "postcode": "28333"
+ },
+ "links": [
+  {
+   "label": "Grady's Barbecue — SFA oral history (2011)",
+   "url": "https://www.southernfoodways.org/interview/gradys-barbecue/"
+  },
+  {
+   "label": "Grady's Barbecue — Our State",
+   "url": "https://www.ourstate.com/gradys-barbecue-dudley/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-gradys",
+  "s:sfa-gradys-barbecue",
+  "s:web-abc11-gradys",
+  "s:web-assembly-black-owned-bbq",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-gradys"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-gradys",
+    "note": "the July 4 opening, the 2024 inductions and Steve Grady's death from The Assembly (2026) and the SFA page; the pandemic year from ABC11 (2021)"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-assembly-black-owned-bbq"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the harvest file; geocoded from the street address via Nominatim, which files the address under Goldsboro"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-ourstate-gradys"
+   },
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-assembly-black-owned-bbq",
+    "note": "The Assembly (Nikki Miller-Ka, 13 February 2026): 'By most accounts, one Black-owned brick-and-mortar whole-hog barbecue restaurant sits atop best-of lists across North Carolina: Grady's BBQ' and 'it's one of the last of its kind.' The same piece names Backyard BBQ Pit, Hickory Tree Turkey BBQ and Corner Boys BBQ as Black-owned, so 'only in the state' would be wrong; the sentence here follows the article's own wording."
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-assembly-black-owned-bbq",
+   "tier": "cited",
+   "note": "The Assembly (Nikki Miller-Ka, February 13, 2026): 'By most accounts, one Black-owned brick-and-mortar whole-hog barbecue restaurant sits atop best-of lists across North Carolina: Grady's BBQ', and 'Run by 81-year-old Geral Grady and her family, it's one of the last of its kind.'"
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-ourstate-gradys",
+   "tier": "cited",
+   "note": "Opened on July 4, 1986 by Steve and Gerri Grady; The Assembly (February 13, 2026) has it 'Run by 81-year-old Geral Grady and her family' since Steve Grady's death in August 2025. The two sources spell her name Gerri and Geral.",
+   "since": "1986"
+  },
+  {
+   "tag": "whole-hog",
+   "source": "s:web-ourstate-gradys",
+   "tier": "cited",
+   "note": "Hogs go on over hickory and oak at four in the morning; by eight the barbecue is ready."
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. The campaign's criterion, as its page states it: wood coals or charcoal as the sole heat source, no electricity or gas except for ignition or reheating.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-assembly-black-owned-bbq",
+   "tier": "cited",
+   "note": "Gerri Grady and her son Scottie run it."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Grady's Barbecue",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Grady's Barbecue, Dudley",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-gradys-barbecue",
+   "note": "Stephen and Gerri Grady."
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-gradys",
+   "year": 2013
+  }
+ ],
+ "blurb": "A whole-hog pit at a country crossroads in Dudley, Wayne County, south of Goldsboro, opened on July 4, 1986 by Steve and Gerri Grady and run by Gerri and their son Scottie since Steve's death in August 2025.",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style, cooked the way the Gradys' grandparents cooked it in pits dug in the ground.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, over oak and hickory coals from four in the morning.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "its fuel, cut from storm-downed trees across Wayne County and stacked in view of the door.",
+   "rel": "part"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "on the plate beside the day's vegetables.",
+   "rel": "serves"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "the other Wayne County whole-hog pit, on U.S. 70 the far side of Goldsboro.",
+   "rel": "kin"
+  },
+  {
+   "to": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "Goldsboro's older Black-owned barbecue, closed now, whose sauce is still bottled.",
+   "rel": "kin"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "the Gradys spoke for it; Steve Grady entered the NC BBQ Hall of Fame in 2024.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded the Gradys' oral history in 2011.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ourstate-gradys",
+   "kind": "web",
+   "title": "Grady's Barbecue — Our State (2013)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/gradys-barbecue-dudley/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-gradys-barbecue",
+   "kind": "oral-history",
+   "title": "Grady's Barbecue — Stephen and Gerri Grady, interviewed by Rien T. Fertel, 7 Dec 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/gradys-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-abc11-gradys",
+   "kind": "web",
+   "title": "Grady's BBQ: How one of North Carolina's last whole hog barbecue joints survived the COVID-19 pandemic — ABC11 (24 Apr 2021)",
+   "publisher": "ABC11 Raleigh-Durham",
+   "url": "https://abc11.com/gradys-bbq-north-carolina-whole-hog-nc-barbecue-dudley/10543450/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-assembly-black-owned-bbq",
+   "kind": "web",
+   "title": "N.C.'s Black-Owned BBQ Restaurants Are Keeping The Fire Alive — The Assembly (Nikki Miller-Ka, 13 Feb 2026)",
+   "publisher": "The Assembly",
+   "url": "https://www.theassemblync.com/news/culture/food/north-carolina-black-owned-whole-hog-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-barbecuebros-nc-trail",
+   "kind": "web",
+   "title": "NC Historic Barbecue Trail",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "accessed": "2026-09-16",
+   "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-assembly-black-owned-bbq",
+   "note": "The Assembly (Nikki Miller-Ka, 13 February 2026): 'By most accounts, one Black-owned brick-and-mortar whole-hog barbecue restaurant sits atop best-of lists across North Carolina: Grady's BBQ' and 'it's one of the last of its kind.' The same piece names Backyard BBQ Pit, Hickory Tree Turkey BBQ and Corner Boys BBQ as Black-owned, so 'only in the state' would be wrong; the sentence here follows the article's own wording."
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-gradys",
+   "note": "the July 4 opening, the 2024 inductions and Steve Grady's death from The Assembly (2026) and the SFA page; the pandemic year from ABC11 (2021)"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-ourstate-gradys"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-assembly-black-owned-bbq"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "not in the harvest file; geocoded from the street address via Nominatim, which files the address under Goldsboro"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-ourstate-gradys"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory, an SFA oral history",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:nc-black-owned-lists",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-assembly-black-owned-bbq",
+   "note": "The Assembly (Nikki Miller-Ka, February 13, 2026): 'By most accounts, one Black-owned brick-and-mortar whole-hog barbecue restaurant sits atop best-of lists across North Carolina: Grady's BBQ', and 'Run by 81-year-old Geral Grady and her family, it's one of the last of its kind.'",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-ourstate-gradys",
+   "note": "Opened on July 4, 1986 by Steve and Gerri Grady; The Assembly (February 13, 2026) has it 'Run by 81-year-old Geral Grady and her family' since Steve Grady's death in August 2025. The two sources spell her name Gerri and Geral.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "whole-hog",
+   "label": "Whole hog",
+   "icon": "🐖",
+   "group": "pit",
+   "evidence": "what the pit says it cooks, or a press piece",
+   "resources": [],
+   "source": "s:web-ourstate-gradys",
+   "note": "Hogs go on over hickory and oak at four in the morning; by eight the barbecue is ready.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-nc",
+   "note": "True 'Cue certified. The campaign's criterion, as its page states it: wood coals or charcoal as the sole heat source, no electricity or gas except for ignition or reheating.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-assembly-black-owned-bbq",
+   "note": "Gerri Grady and her son Scottie run it.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Grady's Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  },
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as Grady's Barbecue, Dudley",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "year": null,
+   "source": "s:web-barbecuebros-nc-trail"
+  },
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "",
+   "year": null,
+   "source": "s:sfa-gradys-barbecue"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": 2013,
+   "source": "s:web-ourstate-gradys"
+  }
+ ],
+ "acclaim": 4,
+ "kin_in": [
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "stewed, on a plate whose vegetables are chopped by hand that morning.",
+   "rel": "served-at"
+  },
+  {
+   "from": "potato-salad",
+   "type": "dish",
+   "name": "potato salad",
+   "as": "one of the day's vegetables, peeled and chopped by hand that morning.",
+   "rel": "served-at"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "brewed on the stovetop by Gerri Grady.",
+   "rel": "served-at"
+  },
+  {
+   "from": "backyard-bbq-pit",
+   "type": "place",
+   "name": "Backyard BBQ Pit",
+   "as": "the other Black-owned pit The Assembly surveyed in 2026, cooking whole hog in Wayne County.",
+   "rel": "kin"
+  },
+  {
+   "from": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "the Black-owned whole-hog pit south of Goldsboro that carries the county's tradition on.",
+   "rel": "kin"
+  },
+  {
+   "from": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "the other Wayne County whole-hog pit, at a crossroads south of town.",
+   "rel": "kin"
+  },
+  {
+   "from": "bob-garner",
+   "type": "person",
+   "name": "Bob Garner",
+   "as": "one of the five places he named to BBQ Jew in 2011.",
+   "rel": "place"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Stephen and Gerri Grady in December 2011.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "schema": 1,
+ "id": "clyde-coopers",
+ "type": "place",
+ "names": {
+  "name": "Clyde Cooper's BBQ",
+  "aliases": [
+   "Clyde Cooper's Barbecue",
+   "Clyde Cooper's",
+   "Cooper's"
+  ],
+  "sort": "Clyde Coopers BBQ"
+ },
+ "region": [
+  "nc-east"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1938",
+  "fuel": "unknown",
+  "styles": [
+   "eastern-nc",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Raleigh's downtown barbecue house since New Year's Day 1938, when Clyde Cooper opened on East Davie Street with fifty dollars borrowed from a brother-in-law; it moved around the corner to 327 South Wilmington Street in 2014 when the old building was lost to development, carrying the awning and the front door with it. It cooks pork shoulders — hand-trimmed, never whole hog — in pits on the upper floor, chops them and dresses them with Cooper's tangy sauce, which the city's tourism office calls a blend of eastern and Lexington ways. Fried chicken, Brunswick stew, collards, hushpuppies, boiled potatoes and banana pudding fill out the board; fried pork skins ride on the tray.",
+  "story": "Clyde Cooper opened on January 1, 1938 in an 1884 building at 109 East Davie Street, and for fifty years he alone held the key. He cooked at first behind his house on Chapel Hill Road until the health department stopped him and the pits went upstairs, built to order by Nunnery-Freeman. The restaurant's own history says he was among the first Raleigh business owners to let Black customers in through the front door, in the early 1960s. After decades of being asked, he sold around 1988 to a builder named Tony; Debbie Holt, who had managed the place for him for five and a half years, took it over around 2008. Clyde Cooper died on February 12, 1998, short of a hundred. Holt told the Southern Foodways Alliance in November 2011 that she was fighting a developer's plan for a multistory apartment building on the Davie Street site — 'Ain't all about the money. It's about saving it for people and generations to come.' The building was lost; in 2014 the restaurant moved to South Wilmington Street, where the old awning hangs over the lunch counter and the old door hangs on the wall. In 2023, marking 85 years, Visit Raleigh noted it had at last begun taking credit cards.",
+  "how": "Pork shoulders are trimmed by hand and cooked in the upstairs pits, then served chopped, sliced or coarse; the sauce is tangy rather than sweet, on Cooper's recipe. A tray — barbecue, slaw, hushpuppies and fried pork skins — cost $11 in 2023. Fried chicken, ribs and brisket, Brunswick stew, collards, boiled potatoes, several kinds of fried pork skins and banana pudding are the rest of the menu.",
+  "today": "Open Monday to Saturday 10 to 6, at 327 South Wilmington Street, Raleigh, per OpenStreetMap (2026). Cards accepted since 2023."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "its sauce leans east — tangy, vinegar-forward — though the meat is shoulder.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "as": "its cut is the Piedmont's, shoulder not whole hog; the tourism office calls the result a blend.",
+   "rel": "kin"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut, hand-trimmed, cooked upstairs.",
+   "rel": "part"
+  },
+  {
+   "to": "pork-skins",
+   "as": "fried skins on the tray and by the bag, in several kinds; the thing regulars name.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the $11 tray of 2023: barbecue, slaw, hushpuppies, skins.",
+   "rel": "serves"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "on the menu since the early years.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the tray.",
+   "rel": "serves"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "the dessert.",
+   "rel": "serves"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "Raleigh's other barbecue name since 2021, a whole-hog house six blocks west on Lenoir Street.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Debbie Holt in 2011, mid-fight for the old building.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.77627,
+  "lon": -78.63816,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "327 S Wilmington St",
+  "city": "Raleigh",
+  "county": "Wake",
+  "state": "NC",
+  "postcode": "27601"
+ },
+ "links": [
+  {
+   "label": "Clyde Cooper's BBQ — official",
+   "url": "https://clydecoopersbbq.com/"
+  },
+  {
+   "label": "Clyde Cooper's Barbecue — SFA oral history with Debbie Holt (2011)",
+   "url": "https://www.southernfoodways.org/interview/clyde-coopers-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:web-clydecoopersbbq-story",
+  "s:sfa-clyde-coopers-barbecue",
+  "s:web-visitraleigh-clyde-coopers",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-clydecoopersbbq-story"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-clydecoopersbbq-story",
+    "note": "ownership dates are as the restaurant's reprinted 2011 interview gives them ('around'); the 2014 move and the cards from Visit Raleigh"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-visitraleigh-clyde-coopers",
+    "note": "$11 tray as printed in 2023"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "woman-owned",
+   "source": "s:sfa-clyde-coopers-barbecue",
+   "tier": "cited",
+   "note": "SFA (Rien T. Fertel, November 22, 2011): 'Present owners Debbie and Randy Holt have taken up the fight to preserve culinary and architectural history.'"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-clyde-coopers-barbecue",
+   "year": 2011,
+   "url": "https://www.southernfoodways.org/interview/clyde-coopers-barbecue/",
+   "note": "Debbie Holt, interviewed by Rien T. Fertel, November 22, 2011."
+  }
+ ]
+}

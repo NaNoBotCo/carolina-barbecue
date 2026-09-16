@@ -1,0 +1,327 @@
+{
+ "schema": 1,
+ "id": "maurice-bessinger",
+ "type": "person",
+ "names": {
+  "name": "Maurice Bessinger",
+  "aliases": [
+   "Lloyd Maurice Bessinger Sr.",
+   "L. Maurice Bessinger"
+  ],
+  "sort": "Bessinger, Maurice"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "role": [
+   "founder",
+   "sauce-maker"
+  ],
+  "state": "SC",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "Lloyd Maurice Bessinger Sr. (July 14, 1930 – February 22, 2014) opened Maurice's Piggie Park, a drive-in, in West Columbia in 1953 with his brother Joe Jr., built it into a chain, and bottled his father's mustard sauce as Carolina Gold for supermarkets nationwide. He refused Black customers until the suit that became Newman v. Piggie Park Enterprises (1968), ran for the legislature in 1964 and for governor in 1974, and raised the Confederate flag over his restaurants on July 1, 2000, the day it came off the State House dome. His children took the last flags down in 2013.",
+  "story": "Bessinger was born on the family farm near Orangeburg on July 14, 1930, the eighth of eleven children of Joseph Jacob and Genora Thomas Bessinger, and started cooking at nine in his father's Holly Hill restaurant in 1939. He served in the Army in the Korean War, came home in 1952, and with Joe Jr. opened the first Piggie Park drive-in in West Columbia in 1953; there were four by 1964. That year Anne Newman, the wife of a Black minister, was refused entry, and Matthew J. Perry filed a class action under Title II of the Civil Rights Act of 1964; Bessinger answered that his religious beliefs compelled him to oppose integration. The district court held the Act reached his sandwich shop but not the drive-ins; the Fourth Circuit reversed; and in 1968 the Supreme Court held 8–0 in Newman v. Piggie Park Enterprises, 390 U.S. 400, that a plaintiff who wins such an injunction ordinarily recovers attorney's fees. He chaired George Wallace's 1964 campaign in the state, lost a House race that year by about a hundred votes, and took 2.5 percent in the 1974 Democratic primary for governor. By 1999 the sauce — mustard, brown sugar, soy sauce and vinegar, sold as Carolina Gold — had made his the largest barbecue business in the country. On July 1, 2000 he raised Confederate flags over them and called the flag a Christian symbol; his restaurants distributed a tract arguing that slavery is not inherently evil; Bi-Lo, Food Lion, Harris Teeter, Kroger, Piggly Wiggly, Publix, Sam's Club, Wal-Mart and Winn-Dixie dropped the sauce, and his $50 million suit against them failed at the state Supreme Court in 2007. He published an autobiography, Defending My Heritage, in 2001. He died on February 22, 2014, at eighty-three.",
+  "today": "Dead: February 22, 2014, West Columbia, aged eighty-three. His sons Lloyd and Paul, his daughter Debbie and his grandchildren run Maurice's Piggie Park; the flags came down by 2013 and the sauce is sold as Southern Gold."
+ },
+ "kin": [
+  {
+   "to": "maurices-piggie-park",
+   "as": "the drive-in he opened in 1953 and ran until his death in 2014.",
+   "rel": "place"
+  },
+  {
+   "to": "joe-bessinger",
+   "as": "his father, in whose Holly Hill restaurant he started cooking at nine.",
+   "rel": "person"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "he bottled it as Carolina Gold, put it in supermarkets nationwide, and lost those shelves in 2000.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "as": "his brand name for the sauce, from the 1990s until his family renamed it Southern Gold.",
+   "rel": "term"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the style he made a national product and the name that carries its court case.",
+   "rel": "whole"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "as": "his brother Thomas's Charleston house, reported as a separate concern when the flags went up.",
+   "rel": "kin"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "he ran for the House in 1964 and for governor in 1974, and chaired George Wallace's state campaign.",
+   "rel": "event"
+  }
+ ],
+ "links": [
+  {
+   "label": "Maurice Bessinger — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger"
+  },
+  {
+   "label": "Newman v. Piggie Park Enterprises, Inc. — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Newman_v._Piggie_Park_Enterprises,_Inc."
+  },
+  {
+   "label": "Maurice's Piggie Park BBQ — official history",
+   "url": "https://www.piggiepark.com/our-story/history/"
+  }
+ ],
+ "sources": [
+  "s:wp-maurice-bessinger",
+  "s:wp-newman-v-piggie-park-enterprises-inc",
+  "s:wp-barbecue-in-south-carolina",
+  "s:web-wis-maurice-bessinger-dies-2014",
+  "s:web-legacy-maurice-bessinger-obituary",
+  "s:web-piggiepark-history",
+  "s:web-baltimore-sun-bessinger-2002",
+  "s:web-seattle-times-piggie-park-2002"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-maurice-bessinger",
+    "note": "parents and the eighth of eleven from the obituary in The State, read through a search excerpt; cooking at nine from WIS; the case from the Newman article; the politics, the flags, the chains and the suit from the Bessinger article"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-history"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Lloyd Maurice Bessinger Sr. (July 14, 1930 – February 22, 2014) opened Maurice's Piggie Park, a drive-in, in West Columbia in 1953 with his brother Joe Jr., built it into a chain, and bottled his father's mustard sauce…",
+ "region_terms": [
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "the drive-in he opened in 1953 and ran until his death in 2014.",
+   "rel": "place"
+  },
+  {
+   "to": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "as": "his father, in whose Holly Hill restaurant he started cooking at nine.",
+   "rel": "person"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "he bottled it as Carolina Gold, put it in supermarkets nationwide, and lost those shelves in 2000.",
+   "rel": "sauce"
+  },
+  {
+   "to": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "his brand name for the sauce, from the 1990s until his family renamed it Southern Gold.",
+   "rel": "term"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the style he made a national product and the name that carries its court case.",
+   "rel": "whole"
+  },
+  {
+   "to": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "his brother Thomas's Charleston house, reported as a separate concern when the flags went up.",
+   "rel": "kin"
+  },
+  {
+   "to": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "he ran for the House in 1964 and for governor in 1974, and chaired George Wallace's state campaign.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-maurice-bessinger",
+   "kind": "wikipedia",
+   "title": "Maurice Bessinger — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-newman-v-piggie-park-enterprises-inc",
+   "kind": "wikipedia",
+   "title": "Newman v. Piggie Park Enterprises, Inc. — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Newman_v._Piggie_Park_Enterprises,_Inc.",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-wis-maurice-bessinger-dies-2014",
+   "kind": "web",
+   "title": "Maurice Bessinger, founder of Maurice's Piggie Park, dies at 83 — WIS (24 Feb 2014)",
+   "publisher": "WIS-TV",
+   "url": "https://www.wistv.com/story/24804313/maurice-bessinger-dies-at-83/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-legacy-maurice-bessinger-obituary",
+   "kind": "web",
+   "title": "L. Maurice Bessinger Sr. obituary — The State, via Legacy.com (February 2014)",
+   "publisher": "The State / Legacy.com",
+   "url": "https://www.legacy.com/us/obituaries/thestate/name/l-bessinger-obituary?id=12888219",
+   "accessed": "2026-09-15",
+   "note": "the page refused a direct fetch; its text was read through a search excerpt"
+  },
+  {
+   "id": "s:web-piggiepark-history",
+   "kind": "web",
+   "title": "Uncover Our Rich History — Maurice's Piggie Park BBQ",
+   "publisher": "Maurice's Piggie Park (official site)",
+   "url": "https://www.piggiepark.com/our-story/history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-baltimore-sun-bessinger-2002",
+   "kind": "web",
+   "title": "S.C. barbecue king stands his ground (September 22, 2002)",
+   "publisher": "The Baltimore Sun",
+   "url": "https://www.baltimoresun.com/2002/09/22/sc-barbecue-king-stands-his-ground/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-seattle-times-piggie-park-2002",
+   "kind": "web",
+   "title": "Confederate flag still flies over Piggie Park — Ariel Sabar (October 5, 2002)",
+   "publisher": "The Seattle Times",
+   "url": "https://archive.seattletimes.com/archive/20021005/carolina05/confederate-flag-still-flies-over-piggie-park",
+   "accessed": "2026-09-15"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-maurice-bessinger",
+   "note": "parents and the eighth of eleven from the obituary in The State, read through a search excerpt; cooking at nine from WIS; the case from the Newman article; the politics, the flags, the chains and the suit from the Bessinger article"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-piggiepark-history"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "made the sauce a supermarket product and his company the largest barbecue business in the country by 1999; the defendant in Newman v. Piggie Park, and the man who raised Confederate flags over his restaurants in 2000.",
+   "rel": "person"
+  },
+  {
+   "from": "maurices-southern-gold",
+   "type": "sauce",
+   "name": "Maurice's Southern Gold",
+   "as": "the man who put it in supermarkets and whose politics took it out of them.",
+   "rel": "person"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "bottled it as Carolina Gold, sold it in supermarkets nationwide in the 1990s, and lost those shelves in 2000 over the Confederate flag.",
+   "rel": "person"
+  },
+  {
+   "from": "bessingers-bar-b-q",
+   "type": "place",
+   "name": "Bessinger's Bar-B-Q",
+   "as": "Thomas's brother; his flags of 2000 were his own, and the Charleston houses were reported as separate concerns.",
+   "rel": "person"
+  },
+  {
+   "from": "maurices-piggie-park",
+   "type": "place",
+   "name": "Maurice's Piggie Park BBQ",
+   "as": "its founder, 1953 to his death in 2014, and the reason the name carries a court case and a flag.",
+   "rel": "person"
+  },
+  {
+   "from": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "as": "his eighth child, who started in the Holly Hill kitchen at nine and took the sauce to the supermarkets.",
+   "rel": "person"
+  },
+  {
+   "from": "carolina-gold",
+   "type": "term",
+   "name": "Carolina Gold",
+   "as": "who sold his mustard sauce under the Carolina Gold brand, and lost the shelves for it in 2000.",
+   "rel": "person"
+  },
+  {
+   "from": "cannibal-pig-sign",
+   "type": "art",
+   "name": "the pig that serves itself",
+   "as": "who put the pig on the sign and kept it there for half a century.",
+   "rel": "person"
+  },
+  {
+   "from": "pig-mascot",
+   "type": "art",
+   "name": "the pig mascot",
+   "as": "who took one drive-in's pig onto grocery shelves across the country.",
+   "rel": "person"
+  }
+ ]
+}

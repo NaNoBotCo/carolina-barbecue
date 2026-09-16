@@ -1,0 +1,1054 @@
+{
+ "schema": 1,
+ "id": "lexington",
+ "type": "style",
+ "names": {
+  "name": "Lexington-style barbecue",
+  "aliases": [
+   "Lexington barbecue",
+   "Piedmont-style barbecue",
+   "Western-style barbecue",
+   "Western North Carolina barbecue"
+  ],
+  "said": "In the Piedmont the sauce is 'dip' and the slaw is 'red slaw' or 'barbecue slaw'. Barbecue is ordered chopped, coarse-chopped or sliced, and 'brown' means the crusty outside of the shoulder."
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "meat": "shoulder",
+  "base": "lexington-dip",
+  "fuel": "wood"
+ },
+ "text": {
+  "what": "Pork shoulders cooked slowly over hardwood coals, usually hickory, then chopped, coarse-chopped or sliced and dressed with a thin red sauce the Piedmont calls dip: vinegar, ketchup or tomato, water, salt, pepper and red pepper, sweeter or hotter by the house. It comes with red slaw — cabbage dressed with the same dip instead of mayonnaise — and hushpuppies, on a tray or a bun. The style belongs to the Piedmont west of Raleigh. Lexington, a Davidson County town of about 20,000 that calls itself the Barbecue Capital of the World and counted more than twenty barbecue restaurants in 2003, is its center; Greensboro, Salisbury, Shelby and High Point are its other towns.",
+  "story": "Sid Weaver sold barbecue from a tent by the old Davidson County courthouse in 1919, and Jess Swicegood ran a stand a few yards from his within the decade. Warner Stamey, born in 1911, boarded with his sister in Lexington for high school and learned the pits from both men; he sold barbecue in Shelby after graduating, came back in 1938 to buy Swicegood's place and rename it, and in 1953 opened Stamey's on High Point Road in Greensboro. Stamey's own history credits him with putting hushpuppies beside barbecue. Alton Beck, who had worked for Weaver, built the town's first bricks-and-mortar barbecue restaurant on West Center Street in 1938. Wayne Monk, who had worked for Holland Tussey and took Stamey as his model, opened Lexington Barbecue beside U.S. 29/70 in 1962; in 1983 a politically connected local attorney asked whether he would cook for President Reagan, and he served the heads of government at that year's economic summit in Williamsburg, Virginia — Thatcher and Mitterrand among them. In 2003 the James Beard Foundation named the restaurant an America's Classic.\n\nThe east–west argument is a newspaper invention that outlived the columns. Jerry Bledsoe of the Greensboro Daily News, self-styled 'world's leading, foremost barbecue authority', and Dennis Rogers of the Raleigh News & Observer, 'oracle of the holy grub', traded columns for decades over whether ketchup belongs in the sauce. Bledsoe said Rogers 'has ruined any chances of this state being distinguished in its barbecue'; Rogers wrote that people who would put ketchup in sauce fed to innocent children 'are capable of most anything'. The joke reached the General Assembly in the 2005–06 session, when House Bill 21 and Senate Bill 47 would have made the Lexington Barbecue Festival the official barbecue festival of North Carolina; with nearly half the state eating eastern, neither passed. House Bill 433 passed in 2007 with a narrower title — 'Official Food Festival of the Piedmont Triad Region of the State of North Carolina' — which named no style official for the state.",
+  "how": "Shoulders roast for about ten hours over coals from a wood fire beside the pits — at Lexington Barbecue mostly oak, with hickory when it can be had — meat side down over the embers until it browns, then turned. Some Piedmont places cook on gas or electric cookers. The cooked shoulder is chopped, coarse-chopped or sliced to order, and the crusty outside can be asked for as 'brown'. The dip goes on at the block and stands on the table. A tray is barbecue and red slaw; a plate adds hushpuppies; a sandwich is chopped pork and red slaw on a bun.",
+  "today": "Lexington counted more than twenty barbecue restaurants for about 20,000 people in 2003; Lexington Barbecue, Bar-B-Q Center and Cook's are in and around town, Stamey's in Greensboro, Red Bridges Barbecue Lodge in Shelby. The Lexington Barbecue Festival closes Main Street each October — October 24 in 2026 — and has been the Official Food Festival of the Piedmont Triad since 2007."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the other North Carolina: the whole hog with clear vinegar and white slaw, where this is the shoulder with a red dip and red slaw. Each defines itself against the other.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its sauce — the east's vinegar and pepper with ketchup or tomato added, called dip in the Piedmont — and the dressing of its slaw.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "its slaw, red because it is dressed with the dip and not mayonnaise; the sign of the Piedmont on any tray.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the only cut it cooks; the darker, fattier meat of the shoulder is what the style is built on.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "its fuel: Lexington shoulders roast over oak and hickory coals, hickory when it can be had.",
+   "rel": "part"
+  },
+  {
+   "to": "outside-brown",
+   "as": "the crusty outside of the shoulder, chopped through the meat or asked for on its own as 'brown'.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the bread of the Piedmont tray; Stamey's own history credits Warner Stamey with putting them beside barbecue.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the Piedmont order: chopped pork and red slaw, no bread, hushpuppies on the side.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "chopped shoulder and red slaw on a bun; the red slaw is what tells a Lexington sandwich.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopped",
+   "as": "the word for how the shoulder comes off the block — chopped, coarse-chopped or sliced, by the customer's order.",
+   "rel": "term"
+  },
+  {
+   "to": "dip",
+   "as": "the Piedmont's word for its sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "piedmont",
+   "as": "the region whose name is this style's other name.",
+   "rel": "term"
+  },
+  {
+   "to": "sid-weaver",
+   "as": "sold barbecue from a tent by the Lexington courthouse from 1919; the line starts with him.",
+   "rel": "origin"
+  },
+  {
+   "to": "jess-swicegood",
+   "as": "ran the stand beside Weaver's; Warner Stamey learned from both and bought his place in 1938.",
+   "rel": "origin"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "carried the method to Shelby and Greensboro and put hushpuppies on the tray; the men he taught run the Piedmont's pits.",
+   "rel": "person"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "opened Lexington Barbecue in 1962 and cooked the style for the 1983 economic summit at Williamsburg.",
+   "rel": "person"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "as": "the Piedmont's columnist in the newspaper war with the east.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "as": "the east's columnist, whose ketchup jokes this style answered for decades.",
+   "rel": "person"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "Wayne Monk's pit beside U.S. 29/70 since 1962, an America's Classic since 2003.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "an uptown Lexington pit; in Lexington, the Southern Foodways Alliance notes, eaters don't squirt sauce, they dip.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "Warner Stamey's Greensboro pit, opened 1953, with the brick pits built in the late 1960s.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "Shelby's pit, one of the state's oldest, cooking shoulders in the Piedmont way.",
+   "rel": "place"
+  },
+  {
+   "to": "cooks-barbecue",
+   "as": "Doug Cook's stand outside Lexington, built by hand in 1969.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "as": "Reidsville's pit, on the north edge of the dip country.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "as": "the October street festival, held since 1984, whose 'official' title took three bills to settle.",
+   "rel": "event"
+  },
+  {
+   "to": "sc-light-tomato",
+   "as": "its South Carolina cousin: a thin vinegar-and-ketchup sauce that the SC Barbeque Association maps as one country with the Piedmont.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word, which in the Piedmont is a noun for chopped shoulder with dip.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "eastern-nc",
+   "tell": "Red slaw and a reddish dip on chopped or sliced shoulder mean Lexington; pale mayonnaise slaw and a clear vinegar sauce on meat with crisp skin chopped through it mean the east. If the counter understands 'brown', you are in the Piedmont."
+  },
+  {
+   "id": "sc-light-tomato",
+   "tell": "South Carolina's light tomato sauce is the same vinegar-and-ketchup idea, and the SC Barbeque Association maps it with the Piedmont. The tell is on the plate: red slaw and hushpuppies are Lexington; hash over rice is South Carolina."
+  }
+ ],
+ "geo": {
+  "lat": 35.797,
+  "lon": -80.274,
+  "precision": "region",
+  "source": "Lexington, Davidson County, the town the style is named for (Wikipedia coordinates)"
+ },
+ "links": [
+  {
+   "label": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina"
+  },
+  {
+   "label": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival"
+  },
+  {
+   "label": "Lexington Barbecue — Our State (Bob Garner, 2012)",
+   "url": "https://www.ourstate.com/lexington-barbecue/"
+  },
+  {
+   "label": "Stamey's Barbecue — History",
+   "url": "https://www.stameys.com/history/history.htm"
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-north-carolina",
+  "s:wp-lexington-north-carolina",
+  "s:wp-lexington-barbecue-festival",
+  "s:wp-lexington-barbecue",
+  "s:wp-north-carolina-barbecue-society",
+  "s:wp-coleslaw",
+  "s:web-stameys-history",
+  "s:web-ourstate-stameys",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-ourstate-lexington-cover-up",
+  "s:web-abc-barbecue-feud",
+  "s:web-bbqjew-defining-styles",
+  "s:web-lexbbq",
+  "s:web-sfa-nc-trail",
+  "s:web-scba-bbq-history",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-lexington-barbecue",
+    "note": "Weaver 1919 and Beck 1938 from Markovich (Our State 2015); Stamey from the restaurant's own history page; Monk, Tussey and the 1983 summit from Garner (Our State 2012); the columnists from the ABC News 2005 story, BBQ Jew (2009) and the Wikipedia article; the bills from the Wikipedia articles on the state's barbecue and the festival"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the cook from Garner's Our State pieces and Lexington Barbecue's own site; gas and electric cookers from BBQ Jew; 'brown' and the order forms are the tradition's usage as Reed records it"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-lexington-barbecue-festival"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "Wikipedia coordinates for the town; region precision"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "lexington/lexington-lexington-nc-barbecue-sign.jpg",
+   "source": "commons",
+   "title": "File:Lexington NC barbecue sign.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Lexington_NC_barbecue_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_NC_barbecue_sign.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Dennis Brown",
+   "credit": "Own work",
+   "alt": "Images from uptown Lexington North Carolina, including official buildings and landmarks. Sign commemorating the first place Lexington style barbecue was sold, and the State House recognizing Lexington",
+   "date": "2008-11-20",
+   "primary": true,
+   "sha256": "72786748eb2544f8e36f9b618f9de547eb27e75132af62dae01c840194b42433"
+  },
+  {
+   "file": "lexington/lexington-north-carolina-barbecue-hushpuppies-baked-beans-red-cole-sla.jpg",
+   "source": "commons",
+   "title": "File:North Carolina barbecue hushpuppies baked beans red cole slaw.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/North_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANorth_Carolina_barbecue_hushpuppies_baked_beans_red_cole_slaw.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Jeffery Loo",
+   "credit": "Flickr: North Carolina barbecue, hushpuppies, baked beans, red cole slaw",
+   "alt": "Lexington style North Carolina barbecue served with hushpuppies, baked beans and red cole slaw. Lexington style North Carolina barbecue uses a vinegar and ketchup type sauce, and uses only the pork sh",
+   "date": "Taken on 25 May 2007, 19:44:09",
+   "primary": false,
+   "sha256": "32f345c8a40c307352bda594b256e514c3a03b7a3f0a4eb13f8c56d6bee42329"
+  },
+  {
+   "file": "lexington/lexington-street-banner-in-lexington-north-carolina.jpg",
+   "source": "commons",
+   "title": "File:Street banner in Lexington, North Carolina.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Street_banner_in_Lexington%2C_North_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AStreet_banner_in_Lexington%2C_North_Carolina.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Kenneth C. Zirkel",
+   "credit": "Own work",
+   "alt": "Street banner in Lexington, North Carolina",
+   "date": "2017-10-30 13:10:41",
+   "primary": false,
+   "sha256": "b64362dd1fd196b5066a3d95d24de306c239432912d4bb2d0c8d8500e106592f"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Pork shoulders cooked slowly over hardwood coals, usually hickory, then chopped, coarse-chopped or sliced and dressed with a thin red sauce the Piedmont calls dip: vinegar, ketchup or tomato, water, salt, pepper and red…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the other North Carolina: the whole hog with clear vinegar and white slaw, where this is the shoulder with a red dip and red slaw. Each defines itself against the other.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its sauce — the east's vinegar and pepper with ketchup or tomato added, called dip in the Piedmont — and the dressing of its slaw.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "its slaw, red because it is dressed with the dip and not mayonnaise; the sign of the Piedmont on any tray.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the only cut it cooks; the darker, fattier meat of the shoulder is what the style is built on.",
+   "rel": "part"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "its fuel: Lexington shoulders roast over oak and hickory coals, hickory when it can be had.",
+   "rel": "part"
+  },
+  {
+   "to": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the crusty outside of the shoulder, chopped through the meat or asked for on its own as 'brown'.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the bread of the Piedmont tray; Stamey's own history credits Warner Stamey with putting them beside barbecue.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the Piedmont order: chopped pork and red slaw, no bread, hushpuppies on the side.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "chopped shoulder and red slaw on a bun; the red slaw is what tells a Lexington sandwich.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the word for how the shoulder comes off the block — chopped, coarse-chopped or sliced, by the customer's order.",
+   "rel": "term"
+  },
+  {
+   "to": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the Piedmont's word for its sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the region whose name is this style's other name.",
+   "rel": "term"
+  },
+  {
+   "to": "sid-weaver",
+   "type": "person",
+   "name": "Sid Weaver",
+   "as": "sold barbecue from a tent by the Lexington courthouse from 1919; the line starts with him.",
+   "rel": "origin"
+  },
+  {
+   "to": "jess-swicegood",
+   "type": "person",
+   "name": "Jess Swicegood",
+   "as": "ran the stand beside Weaver's; Warner Stamey learned from both and bought his place in 1938.",
+   "rel": "origin"
+  },
+  {
+   "to": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "carried the method to Shelby and Greensboro and put hushpuppies on the tray; the men he taught run the Piedmont's pits.",
+   "rel": "person"
+  },
+  {
+   "to": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "opened Lexington Barbecue in 1962 and cooked the style for the 1983 economic summit at Williamsburg.",
+   "rel": "person"
+  },
+  {
+   "to": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "the Piedmont's columnist in the newspaper war with the east.",
+   "rel": "person"
+  },
+  {
+   "to": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "the east's columnist, whose ketchup jokes this style answered for decades.",
+   "rel": "person"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "Wayne Monk's pit beside U.S. 29/70 since 1962, an America's Classic since 2003.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "an uptown Lexington pit; in Lexington, the Southern Foodways Alliance notes, eaters don't squirt sauce, they dip.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "Warner Stamey's Greensboro pit, opened 1953, with the brick pits built in the late 1960s.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "Shelby's pit, one of the state's oldest, cooking shoulders in the Piedmont way.",
+   "rel": "place"
+  },
+  {
+   "to": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "Doug Cook's stand outside Lexington, built by hand in 1969.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "Reidsville's pit, on the north edge of the dip country.",
+   "rel": "place"
+  },
+  {
+   "to": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the October street festival, held since 1984, whose 'official' title took three bills to settle.",
+   "rel": "event"
+  },
+  {
+   "to": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "its South Carolina cousin: a thin vinegar-and-ketchup sauce that the SC Barbeque Association maps as one country with the Piedmont.",
+   "rel": "kin"
+  },
+  {
+   "to": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the word, which in the Piedmont is a noun for chopped shoulder with dip.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-north-carolina",
+   "kind": "wikipedia",
+   "title": "Lexington, North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington,_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-barbecue-festival",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue Festival — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue_Festival",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-lexington-barbecue",
+   "kind": "wikipedia",
+   "title": "Lexington Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lexington_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-north-carolina-barbecue-society",
+   "kind": "wikipedia",
+   "title": "North Carolina Barbecue Society — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/North_Carolina_Barbecue_Society",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-coleslaw",
+   "kind": "wikipedia",
+   "title": "Coleslaw — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coleslaw",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369436670"
+  },
+  {
+   "id": "s:web-stameys-history",
+   "kind": "web",
+   "title": "History",
+   "publisher": "Stamey's Barbecue, Greensboro NC",
+   "url": "https://www.stameys.com/history",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-stameys",
+   "kind": "web",
+   "title": "Stamey's Old Fashioned Barbecue (Bob Garner, 31 Aug 2012)",
+   "publisher": "Our State magazine",
+   "url": "https://www.ourstate.com/stameys-old-fashioned-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-lexington-barbecue",
+   "kind": "web",
+   "title": "Lexington Barbecue (Bob Garner, 2012-08-31)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/lexington-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-lexington-cover-up",
+   "kind": "web",
+   "title": "The Great Lexington Barbecue Cover-Up (Jeremy Markovich, 31 Mar 2015)",
+   "publisher": "Our State magazine",
+   "url": "https://www.ourstate.com/lexington-barbecue-pits/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-abc-barbecue-feud",
+   "kind": "web",
+   "title": "Smoke, Fire as BBQ Bigshots Battle Over Ketchup (John Berman, World News Tonight, 2 Jun 2005)",
+   "publisher": "ABC News",
+   "url": "https://abcnews.go.com/WNT/story?id=813146",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-bbqjew-defining-styles",
+   "kind": "web",
+   "title": "Defining the Styles (30 Nov 2009)",
+   "publisher": "BBQ Jew",
+   "url": "https://bbqjew.com/2009/11/30/cantwealljustgetalong/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq",
+   "kind": "web",
+   "title": "Lexington Barbecue — official site",
+   "publisher": "Lexington Barbecue",
+   "url": "https://www.lexbbq.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-nc-trail",
+   "kind": "web",
+   "title": "North Carolina BBQ — Southern BBQ Trail",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/north-carolina-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scba-bbq-history",
+   "kind": "web",
+   "title": "BBQ History (Lake E. High Jr.)",
+   "publisher": "South Carolina Barbeque Association",
+   "url": "https://www.scbarbeque.com/bbq-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-north-carolina"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-lexington-barbecue",
+   "note": "Weaver 1919 and Beck 1938 from Markovich (Our State 2015); Stamey from the restaurant's own history page; Monk, Tussey and the 1983 summit from Garner (Our State 2012); the columnists from the ABC News 2005 story, BBQ Jew (2009) and the Wikipedia article; the bills from the Wikipedia articles on the state's barbecue and the festival"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the cook from Garner's Our State pieces and Lexington Barbecue's own site; gas and electric cookers from BBQ Jew; 'brown' and the order forms are the tradition's usage as Reed records it"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-lexington-barbecue-festival"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "Wikipedia coordinates for the town; region precision"
+  }
+ },
+ "primary_image": {
+  "file": "lexington/lexington-lexington-nc-barbecue-sign.jpg",
+  "source": "commons",
+  "title": "File:Lexington NC barbecue sign.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Lexington_NC_barbecue_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ALexington_NC_barbecue_sign.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "author": "Dennis Brown",
+  "credit": "Own work",
+  "alt": "Images from uptown Lexington North Carolina, including official buildings and landmarks. Sign commemorating the first place Lexington style barbecue was sold, and the State House recognizing Lexington",
+  "date": "2008-11-20",
+  "primary": true,
+  "sha256": "72786748eb2544f8e36f9b618f9de547eb27e75132af62dae01c840194b42433"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the other North Carolina: shoulders instead of the whole hog, a red dip instead of clear vinegar, red slaw instead of white. The two define each other.",
+   "rel": "contrast"
+  },
+  {
+   "from": "sc-light-tomato",
+   "type": "style",
+   "name": "Light tomato barbecue",
+   "as": "its North Carolina twin — shoulder with a vinegar-and-ketchup dip; the SC Barbeque Association maps the two as one country.",
+   "rel": "kin"
+  },
+  {
+   "from": "golding-farms-sauces",
+   "type": "sauce",
+   "name": "Golding Farms Foods",
+   "as": "the style of the Piedmont it manufactures in, whose pits mix their own dip and buy no bottles.",
+   "rel": "style"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the style it names: pork shoulder with dip and red slaw, in the Piedmont.",
+   "rel": "whole"
+  },
+  {
+   "from": "light-tomato-sauce",
+   "type": "sauce",
+   "name": "light tomato sauce",
+   "as": "the North Carolina style that made the same sauce its own.",
+   "rel": "kin"
+  },
+  {
+   "from": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "its home ground: Winston-Salem is twenty miles north of Lexington, in dip country, and the sauce began at a barbecue stand there.",
+   "rel": "place"
+  },
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "sold by the cup at the Barbecue Center, on the same menu as the banana split.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-chicken",
+   "type": "dish",
+   "name": "barbecue chicken",
+   "as": "the Piedmont's chicken takes the same thin tomato-and-vinegar dip as the shoulder.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the style whose sandwich carries red slaw, its defining mark.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the style whose counter vocabulary this is: chopped, coarse chopped, sliced, brown, in a tray with red slaw.",
+   "rel": "whole"
+  },
+  {
+   "from": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "on the Piedmont plate since Kennedy's advertised it with slaw and hushpuppies in 1949.",
+   "rel": "whole"
+  },
+  {
+   "from": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "as": "the Piedmont style whose counters list it with the tea.",
+   "rel": "whole"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the style that made them barbecue bread, from the 1940s, in place of rolls.",
+   "rel": "whole"
+  },
+  {
+   "from": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the style whose word this is; nowhere else in the Carolinas is the crust ordered by name.",
+   "rel": "whole"
+  },
+  {
+   "from": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the style it marks: the slaw is red because the pit's dip is in it.",
+   "rel": "whole"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "'Iced Tea (Unsweet on Request)' at Lexington Barbecue: sweet is the default.",
+   "rel": "whole"
+  },
+  {
+   "from": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "the style cooked in it: shoulders only, over hickory and oak coals, under a chimney.",
+   "rel": "whole"
+  },
+  {
+   "from": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "cooked over hickory and oak coals; the shoulder's crust is the wood's work.",
+   "rel": "kin"
+  },
+  {
+   "from": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the style that uses only this cut, darker and moister than the loin, under a red dip.",
+   "rel": "whole"
+  },
+  {
+   "from": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "the cut and the wood are the Piedmont's: shoulders over hickory.",
+   "rel": "whole"
+  },
+  {
+   "from": "alston-bridges-barbecue",
+   "type": "place",
+   "name": "Alston Bridges Barbecue",
+   "as": "the style of its tray, cooked forty miles west of Lexington itself.",
+   "rel": "whole"
+  },
+  {
+   "from": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "the style, with the town's largest curb-service trade and a dairy bar's dessert.",
+   "rel": "whole"
+  },
+  {
+   "from": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "as": "its cut is the Piedmont's, shoulder not whole hog; the tourism office calls the result a blend.",
+   "rel": "kin"
+  },
+  {
+   "from": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "the style, in a one-family pit built by hand on the south side of town.",
+   "rel": "whole"
+  },
+  {
+   "from": "fuzzys-bar-b-q",
+   "type": "place",
+   "name": "Fuzzy's Bar-B-Q",
+   "as": "the style of its tray: shoulder over hickory, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "from": "hurseys-bar-b-q",
+   "type": "place",
+   "name": "Hursey's Bar-B-Q",
+   "as": "the style, on shoulders with a Piedmont sauce, at wholesale scale.",
+   "rel": "whole"
+  },
+  {
+   "from": "keatons-barbecue",
+   "type": "place",
+   "name": "Keaton's Barbecue",
+   "as": "the sauce is the Piedmont's, vinegar and tomato; the meat is not.",
+   "rel": "kin"
+  },
+  {
+   "from": "kepleys-barbecue",
+   "type": "place",
+   "name": "Kepley's Bar-B-Q",
+   "as": "the style, in the High Point form: chopped pork, red slaw, a bun.",
+   "rel": "whole"
+  },
+  {
+   "from": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the style, in the restaurant most often named as its standing example.",
+   "rel": "whole"
+  },
+  {
+   "from": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "the style at its western edge, in Shelby, where the dip runs a little sweeter than in Lexington.",
+   "rel": "whole"
+  },
+  {
+   "from": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "the style's shoulders and its region, with a sauce that belonged to neither North Carolina camp.",
+   "rel": "whole"
+  },
+  {
+   "from": "speedy-lohrs-barbecue",
+   "type": "place",
+   "name": "Speedy Lohr's Barbecue",
+   "as": "the style of its tray: shoulder over wood, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "from": "speedys-barbecue",
+   "type": "place",
+   "name": "Speedy's Barbecue",
+   "as": "the style of its tray, cooked on electric rather than over coals.",
+   "rel": "whole"
+  },
+  {
+   "from": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the style, carried from Lexington to Greensboro in 1953 by the man who taught half its cooks.",
+   "rel": "whole"
+  },
+  {
+   "from": "tarheel-q",
+   "type": "place",
+   "name": "Tarheel Q",
+   "as": "the style of its tray: shoulder over wood, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "from": "bob-garner",
+   "type": "person",
+   "name": "Bob Garner",
+   "as": "the Piedmont half of his state-wide books and segments.",
+   "rel": "kin"
+  },
+  {
+   "from": "dennis-rogers",
+   "type": "person",
+   "name": "Dennis Rogers",
+   "as": "the style his columns needled for decades.",
+   "rel": "contrast"
+  },
+  {
+   "from": "jerry-bledsoe",
+   "type": "person",
+   "name": "Jerry Bledsoe",
+   "as": "the style he championed in print from Greensboro.",
+   "rel": "kin"
+  },
+  {
+   "from": "jess-swicegood",
+   "type": "person",
+   "name": "Jess Swicegood",
+   "as": "the style's second name after Weaver's: his stand and Weaver's tent are where it was worked out.",
+   "rel": "origin"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "the western half of the same Trail.",
+   "rel": "kin"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "the other style Holy Smoke sets out.",
+   "rel": "kin"
+  },
+  {
+   "from": "sid-weaver",
+   "type": "person",
+   "name": "Sid Weaver",
+   "as": "the style begins with his tent by the courthouse in 1919.",
+   "rel": "origin"
+  },
+  {
+   "from": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "the style he carried to Shelby and Greensboro and taught to the men who run its pits.",
+   "rel": "whole"
+  },
+  {
+   "from": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "the style, in the restaurant most often named as its standing example.",
+   "rel": "whole"
+  },
+  {
+   "from": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "the other North Carolina style its certificate requires a pit to cook.",
+   "rel": "kin"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "the other half of the Trail, and of the argument the society recorded without joining.",
+   "rel": "kin"
+  },
+  {
+   "from": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "the style it sells by the ton: shoulder, dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "from": "barbecue",
+   "type": "term",
+   "name": "barbecue",
+   "as": "the other North Carolina answer: pork shoulder with a red dip.",
+   "rel": "term"
+  },
+  {
+   "from": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the style that made chopping an ordering scale: chopped, coarse chopped, sliced, all from the shoulder.",
+   "rel": "term"
+  },
+  {
+   "from": "dip",
+   "type": "term",
+   "name": "dip",
+   "as": "the style whose sauce goes by this word; 'Piedmont' and 'Western' style mean the same dip.",
+   "rel": "term"
+  },
+  {
+   "from": "piedmont",
+   "type": "term",
+   "name": "Piedmont",
+   "as": "the style the word means in North Carolina barbecue: 'Piedmont- or Western-style'.",
+   "rel": "term"
+  },
+  {
+   "from": "pulled-pork",
+   "type": "term",
+   "name": "pulled pork",
+   "as": "the North Carolina style most often served 'pulled' or very lightly chopped, leaving larger strands of muscle.",
+   "rel": "term"
+  },
+  {
+   "from": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "red slaw there, and no question asked.",
+   "rel": "term"
+  },
+  {
+   "from": "pigs-in-the-city",
+   "type": "art",
+   "name": "Pigs in the City",
+   "as": "the style that gave the town the animal: shoulders, dip, red slaw.",
+   "rel": "style"
+  },
+  {
+   "from": "the-great-divide",
+   "type": "story",
+   "name": "The Great Divide",
+   "as": "the other: shoulders, red dip, red slaw, hushpuppies.",
+   "rel": "part"
+  }
+ ]
+}

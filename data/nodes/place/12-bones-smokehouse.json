@@ -1,0 +1,154 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "12-bones-smokehouse",
+ "names": {
+  "name": "12 Bones Smokehouse",
+  "aliases": [
+   "12 Bones",
+   "12 Bones South"
+  ],
+  "sort": "12 Bones Smokehouse"
+ },
+ "region": [
+  "nc-mountains"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "2005",
+  "fuel": "unknown",
+  "styles": []
+ },
+ "text": {
+  "what": "A mountain barbecue house now trading from Hendersonville Road in Arden, south of Asheville, after Hurricane Helene took its River Arts District room in September 2024. Tom Montgomery and Sabra Kelley opened the first one in 2005 in a cinder-block shack on an Asheville floodplain; Bryan and Angela King have owned it since about 2012. Ribs are the signature — blueberry-chipotle and other glazes that are not Carolina orthodoxy — with pulled pork alongside. Barack Obama ate here in April 2010, which is the thing most often said about it.",
+  "story": "The first 12 Bones was a cinder-block shack in a floodplain in the River Arts District, opened in 2005 by Tom Montgomery and Sabra Kelley. Bryan and Angela King bought it — 2012 by two 2024 accounts, 2011 by a 2017 one — and Explore Asheville's profile puts the ownership plainly in Bryan King's own words, that he owns 12 Bones with his wife Angela. On April 23, 2010 Barack Obama came in and ate ribs, mac and cheese, corn pudding and sweet tea; accounts differ on whether he visited twice or three times. In January 2017 the original Riverside Drive building was closed and demolished for a road project and a roundabout, and the business moved to Foundy Street beside Wedge Brewing. Then on September 27, 2024 Helene put the floodplain under water. Bryan King described going inside to find mud in the attic and the building almost completely submerged, and called it a very long recovery. By April 2025 the business had told Blue Ridge Public Radio it would not rebuild on Foundy Street. Arden is what is left, open seven days now rather than the weekday lunches the Asheville room kept.",
+  "how": "Ribs are the thing: a dry rub and a run of glazes, the blueberry-chipotle the one people name, which is not how a Piedmont or a Coastal Plain pit finishes pork. Pulled pork, sides and a brewing operation fill the rest. An Explore Asheville listing says the meats are smoked long and slow over oak and cherry; that reads as the restaurant's own copy and could not be confirmed on the company's site, which is why the fuel here is left unknown.",
+  "today": "Open seven days, 11 a.m. to 8 p.m., at 2350 Hendersonville Road, Arden — the only location the company lists. The Foundy Street room in Asheville's River Arts District closed with Helene in September 2024 and will not be rebuilt."
+ },
+ "kin": [
+  {
+   "to": "pork-shoulder",
+   "as": "the cut behind its pulled pork, beside the ribs it is better known for.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the plate in the mountains, where the glazed rib rather than the chopped shoulder is the order.",
+   "rel": "serves"
+  },
+  {
+   "to": "buxton-hall-barbecue",
+   "as": "the other Asheville barbecue name of the same decade; Buxton Hall closed in 2023, 12 Bones lost its river room to Helene in 2024.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.46609,
+  "lon": -82.51633,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "2350 Hendersonville Rd",
+  "city": "Arden",
+  "county": "Buncombe",
+  "state": "NC",
+  "postcode": "28704"
+ },
+ "links": [
+  {
+   "label": "Bryan & Angela King — 12 Bones Smokehouse, Explore Asheville",
+   "url": "https://www.exploreasheville.com/bryan-angela-king-12-bones-smokehouse"
+  },
+  {
+   "label": "12 Bones Smokehouse — Our State (2024)",
+   "url": "https://www.ourstate.com/12-bones-smokehouse-asheville/"
+  },
+  {
+   "label": "Obamas visit Asheville — Mountain Xpress (2010)",
+   "url": "https://mountainx.com/news/042810buzz3/"
+  }
+ ],
+ "sources": [
+  "s:web-exploreasheville-12-bones",
+  "s:web-ourstate-12-bones-2024",
+  "s:web-bpr-rad-2025",
+  "s:web-mountainx-obama-2010",
+  "s:web-12bones-news",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-12-bones-2024"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-12-bones-2024",
+    "note": "Ownership from Explore Asheville's profile; the 2012 sale date from Our State (September 10, 2024) against 2011 from a 2017 piece; Obama from Mountain Xpress (April 28, 2010), with the visit count disputed between a 2017 broadcast report and a 2017 magazine piece; the Foundy Street decision from Blue Ridge Public Radio (April 29, 2025); Bryan King's flood quotation from WLOS (October 8, 2024)."
+   },
+   "facets.fuel": {
+    "tier": "cited",
+    "source": "s:web-exploreasheville-12-bones",
+    "note": "unknown: an Explore Asheville listing says oak and cherry, in what reads as the restaurant's own copy, and it could not be confirmed on the company's own site, whose menu pages returned 404. No wood-cooked tag is set."
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim matched 12 Bones Brewing at the same Arden address; the OSM barbecue harvest holds a bare '12 Bones' node in Asheville with no address"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "woman-owned",
+   "source": "s:web-exploreasheville-12-bones",
+   "tier": "cited",
+   "note": "Explore Asheville quotes Bryan King, 'who owns 12 Bones with his wife, Angela'. Angela King is quoted in her own voice in Our State, September 10, 2024.",
+   "since": "2012"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-exploreasheville-12-bones",
+   "tier": "cited",
+   "note": "Owned and run by Bryan and Angela King, who wrote a cookbook about the pit together in 2015."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-12-bones-2024",
+   "year": 2024,
+   "url": "https://www.ourstate.com/12-bones-smokehouse-asheville/"
+  },
+  {
+   "by": "other",
+   "what": "President Barack Obama ate here on April 23, 2010 — ribs, mac and cheese, corn pudding and sweet tea",
+   "source": "s:web-mountainx-obama-2010",
+   "year": 2010,
+   "url": "https://mountainx.com/news/042810buzz3/",
+   "note": "Accounts differ on whether he came twice or three times."
+  },
+  {
+   "by": "southern-living",
+   "what": "named on a barbecue list",
+   "source": "s:web-12bones-news",
+   "year": 2025,
+   "note": "Cited on the restaurant's own press page, dated March 20, 2025; the publisher's site could not be fetched, so this rests on the restaurant's index."
+  },
+  {
+   "by": "eater",
+   "what": "named on a Carolinas list",
+   "source": "s:web-12bones-news",
+   "year": 2025,
+   "note": "Cited on the restaurant's own press page, dated March 5, 2025; the publisher's site could not be fetched."
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16"
+}

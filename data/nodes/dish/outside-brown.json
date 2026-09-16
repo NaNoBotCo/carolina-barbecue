@@ -1,0 +1,199 @@
+{
+ "schema": 1,
+ "id": "outside-brown",
+ "type": "dish",
+ "names": {
+  "name": "outside brown",
+  "aliases": [
+   "brown",
+   "outside brown meat",
+   "chopped brown",
+   "brownies",
+   "bark"
+  ],
+  "said": "Ask for it 'brown', or for 'extra outside brown'; some counters chop it in, some set it aside for the order."
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "course": "main",
+  "meat": "shoulder",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The dark crust from the outside of a pork shoulder — the bark, where ten hours of smoke and dip have cooked into the surface — ordered by name at Lexington pits. Regulars ask for extra outside brown on a tray or sandwich; ordered 'brown', the meat comes chopped from that crust rather than from the pale inside. The word marks the Piedmont. Eastern pits chop the whole hog together, skin and all, and have no order for it, though NCpedia notes that some North Carolinians follow South Carolina in separating skin, the dry 'outside meat' and the juicier 'inside meat'.",
+  "story": "Bob Garner, writing about Lexington Barbecue in 2012, watched the shoulders roast ten hours over oak coals, hickory when it could be had, the attendants shovelling fresh coals from the fireboxes under the dripping meat every half hour; when the shoulders came off, that outside 'brown', as it is called, was lifted off the meat and saved for special orders. A regular quoted by Carolina Country in 2018 counted 'chopped brown' among the ten ways to order. When Southern Living's readers named Lexington Barbecue the best in the state in 2026, the News & Observer explained the house words to newcomers: regulars ask for extra outside brown, the caramelized, heavily smoked end bits, and the pork comes dressed in a thin vinegar-and-ketchup dip. Barbecue Bros, in 2019, corrected a New York pitmaster who had called it an off-menu item: it is the bark from the shoulders, which locals know to ask for. *Tradition holds —* the crust is prized because it carries the most smoke and dip, and because a shoulder yields little of it; one shoulder feeds many trays and the brown runs out first. *Inference —* the word does for the Piedmont what the chopped skin does for the east: it puts the pit's crust, not only its meat, into the order.",
+  "how": "Order the tray or sandwich and add the word: 'brown', 'outside brown' or 'extra brown'. The counter takes the crust set aside from the morning's shoulders and chops it in, or chops the whole order from it. It is darker and drier than the inside meat and has taken more of the dip. Coarse chopped shows it best; fine chopping hides it. *Tradition holds —* the supply is finite and late in the day the answer is often no.",
+  "today": "Lexington Barbecue's menu (September 2026) lists chopped, sliced and coarse chop trays and sandwiches and no brown; the order is spoken at the counter. The News & Observer's 2026 guide to the house treats it as the thing regulars ask for."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style whose word this is; nowhere else in the Carolinas is the crust ordered by name.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut whose outside it is.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "cooked into the crust over the fire and added again on the block.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "the coals whose smoke makes the crust; Lexington Barbecue burns mostly oak, hickory when it can get it.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the order it modifies.",
+   "rel": "whole"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "the other order it modifies.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "where the brown is lifted off the shoulders and saved for special orders.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "the other Lexington counter where the word is understood.",
+   "rel": "served-at"
+  },
+  {
+   "to": "wayne-monk",
+   "as": "whose pit Garner described, shoulders and coals and the brown set aside.",
+   "rel": "person"
+  },
+  {
+   "to": "pork-skins",
+   "as": "the eastern crust: chopped hog skin, where the Piedmont has bark.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chopped",
+   "as": "the cut it is usually served in; 'chopped brown' is one of the ten ways to order.",
+   "rel": "term"
+  },
+  {
+   "to": "bob-garner",
+   "as": "who wrote down how the brown is set aside at Lexington Barbecue.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pork-skins",
+   "tell": "Outside brown is meat, the dark outer layer of a shoulder; pork skins are the pig's hide, blistered or fried. Brown is a Lexington order; skins are an eastern chop or a side."
+  }
+ ],
+ "links": [
+  {
+   "label": "Our State — Lexington Barbecue (Bob Garner, 2012)",
+   "url": "https://www.ourstate.com/lexington-barbecue/"
+  },
+  {
+   "label": "Barbecue Bros — outside brown",
+   "url": "https://barbecuebros.co/tag/outside-brown/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-carolinacountry-lexington",
+  "s:web-newsobserver-lexington-2026",
+  "s:web-barbecuebros-outside-brown",
+  "s:web-leisuregrouptravel-lexington",
+  "s:ncpedia-barbecue",
+  "s:web-lexbbq-menu",
+  "s:reed-holy-smoke",
+  "s:wikibooks-eastern-north-carolina-barbecued-pig",
+  "s:book-mrs-hills-new-cook-book",
+  "s:book-kentucky-housewife"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-lexington-barbecue"
+  },
+  "fields": {
+   "names.aliases": {
+    "tier": "tradition",
+    "note": "'brownies' comes from the project brief; no source read for this record uses it. 'brown', 'outside brown' and 'chopped brown' are in the cited articles"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-lexington-barbecue",
+    "note": "scarcity and the comparison with eastern skin are marked as tradition and inference inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "ordering practice as reported by Leisure Group Travel, Barbecue Bros and the News & Observer; the late-day shortage is tradition"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:wikibooks-eastern-north-carolina-barbecued-pig",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Eastern North Carolina Barbecued Pig",
+   "source": "s:wikibooks-eastern-north-carolina-barbecued-pig",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecued_Pig",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "80 pound pig (butchered with head removed)",
+    "Salt",
+    "40 pounds charcoal (for charcoal cooking option)",
+    "Your favorite vinegar-based Eastern NC sauce"
+   ],
+   "text": "1. Salt hams, ribs/midsection and shoulders liberally and place skin side up on either a gas or charcoal grill or a BBQ pit.\n2. Keep lid closed, and aim for a heat of approximately 275–350°F.\n3. Allow 1 hour per 10 pounds cooking time (gas or charcoal).\n4. 2 hours before being done, place pig with the skin side down. As soon as it is flipped, pour BBQ sauce on meat side.\n5. Close lid and allow skin to crisp.\n6. The pig will be done to perfection when the ham bone can be twisted freely.\n7. Lift lid and allow guests to pick/pull meat, or the chef can remove meat and chop to their liking on a chopping block.",
+   "yield": "about 27 lb of meat, serving 30–40",
+   "note": "Step five is where the brown comes from: the pig is turned skin down for the last two hours and the lid kept shut so the outside crisps.",
+   "region": "eastern North Carolina"
+  },
+  {
+   "title": "To Barbecue Any Kind of Fresh Meat (receipt 200)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "page": "145–146",
+   "text": "Gash the meat. Broil slowly over a solid fire. Baste constantly with a sauce composed of butter, mustard, red and black pepper, vinegar. Mix these in a pan, and set it where the sauce will keep warm, not hot. Have a swab made by tying a piece of clean, soft cloth upon a stick about a foot long; dip this in the sauce and baste with it. Where a large carcass is barbecued, it is usual to dig a pit in the ground outdoors, and lay narrow bars of wood across. Very early in the morning fill the pit with wood; set it burning, and in this way heat it very hot. When the wood has burned to coals, lay the meat over. Should the fire need replenishing, keep a fire outside burning, from which draw coals, and scatter evenly in the pit under the meat. Should there be any sauce left pour it over the meat. For barbecuing a joint, a large gridiron answers well; it needs constant attention; should be cooked slowly and steadily.",
+   "note": "Constant basting over coals is what builds a crust on the outside of a joint. A few characters in this paragraph are damaged in the scan and are read from context; the line 'Gash the meat' runs straight into 'Broil slowly' in the printing."
+  },
+  {
+   "title": "To Barbecue Shoat",
+   "source": "s:book-kentucky-housewife",
+   "license": "Public domain",
+   "year": 1839,
+   "url": "https://archive.org/details/kentuckyhousewif0000unse",
+   "author": "Mrs. Lettice Bryan",
+   "book": "The Kentucky Housewife",
+   "page": "95–96",
+   "text": "Take either a hind or fore quarter, rub it well with salt, pepper, and a small portion of molasses, and if practicable, let it lie for a few hours; then rinse it clean, and wipe it dry with a cloth, and place it on a large gridiron, over a bed of clear coals. Do not barbecue it hastily, but let it cook slowly for several hours, turning it over occasionally, and basting it with nothing but a little salt-water and pepper, merely to season and moisten it a little. When it is well done, serve it without a garnish, and having the skin taken off, which should be done before it is put down to roast, squeeze over it a little lemon juice, and accompany it with melted butter and wine, bread sauce, raw sallad, slaugh, or cucumbers, and stewed fruit. Beef may be barbecued in the same manner.",
+   "note": "The contrary instruction, 1839: the skin is taken off before the meat goes down, so there is no browned outside to ask for. A Lexington shoulder is cooked with the skin on and the outside is the part regulars order by name."
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

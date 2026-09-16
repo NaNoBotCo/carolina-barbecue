@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "jess-swicegood",
+ "type": "person",
+ "names": {
+  "name": "Jess Swicegood",
+  "aliases": ["Jesse Swicegood"],
+  "sort": "Swicegood, Jess"
+ },
+ "region": ["nc-piedmont", "nc"],
+ "facets": {
+  "role": ["pitmaster", "founder"],
+  "state": "NC",
+  "styles": ["lexington"]
+ },
+ "text": {
+  "what": "Jess Swicegood ran a barbecue stand a few yards from Sid Weaver's tent by the Lexington courthouse in the 1920s, taught Warner Stamey pit cooking alongside Weaver, and sold Stamey the business in 1938 — for $300, by Robert Moss's account — when Stamey came back from Shelby and renamed it Stamey's. Through that sale the Swicegood stand is the ancestor of Stamey's in Greensboro and, through Stamey's pupil Wayne Monk, of Lexington Barbecue. He is spelled Jess and Jesse in the sources, and no dates of birth or death are on record here.",
+  "story": "The sources agree on the order: Weaver's tent in 1919, Swicegood's stand beside it within the decade, then the two of them together. Moss's history, as the Barbecue Bros relay it, says Weaver 'later teamed up with Jess Swicegood and those two men perfected Lexington-style barbecue and helped spread the technique across the Piedmont of North Carolina'. Stamey's history and the American Royal's 2020 bio put Swicegood first in the pair that taught Warner Stamey when he was a high-school boy boarding with his sister, and the Southern Foodways Alliance's note on Stamey's calls the two 'pit-cooking pioneers'. In 1938 Stamey moved back to Lexington, bought out his mentor and renamed the operation Stamey's; Wayne Monk worked under Stamey in downtown Lexington for several years before he opened Lexington Barbecue in 1962. *Inference —* a stand that changed hands for $300 was a tent or a shed, not a building; the first permanent barbecue restaurant in town was Alton Beck's, in 1938, the same year.",
+  "today": "Dead, on no date this record can name. The Lexington stand he sold in 1938 carried the Stamey name into the 1950s; the Stamey family's restaurants are in Greensboro, and Lexington Barbecue, opened by Stamey's pupil Wayne Monk in 1962, cooks a mile or two from where his stand stood."
+ },
+ "kin": [
+  {"to": "lexington", "as": "the style's second name after Weaver's: his stand and Weaver's tent are where it was worked out.", "rel": "origin"},
+  {"to": "sid-weaver", "as": "the tent his stand stood beside; Weaver was first, by a few years.", "rel": "kin"},
+  {"to": "warner-stamey", "as": "his pupil, who bought him out in 1938 and put his own name over the door.", "rel": "descendant"},
+  {"to": "stameys-barbecue", "as": "the name on his old stand from 1938, carried to Greensboro in 1953.", "rel": "descendant"},
+  {"to": "lexington-barbecue", "as": "Wayne Monk trained at the stand Stamey bought from him; the pit is his grandchild.", "rel": "descendant"},
+  {"to": "lexington-dip", "as": "the sauce came out of his stand and Weaver's tent.", "rel": "sauce"}
+ ],
+ "links": [
+  {"label": "Stamey's Barbecue — History", "url": "https://www.stameys.com/history"},
+  {"label": "Jess Swicegood — Barbecue Bros (summarizing Moss)", "url": "https://barbecuebros.co/tag/jess-swicegood/"}
+ ],
+ "sources": [
+  "s:web-stameys-history",
+  "s:web-americanroyal-stamey-bio",
+  "s:web-barbecuebros-jess-swicegood",
+  "s:moss-barbecue-history",
+  "s:sfa-stameys-barbecue",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-ourstate-lexington-cover-up",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:web-stameys-history"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-barbecuebros-jess-swicegood", "note": "the 1938 sale from Stamey's history and the American Royal bio; the $300 and the partnership from Barbecue Bros' summary of Moss; Monk from Garner (Our State 2012); Beck's 1938 building from Markovich; the last sentence is this project's inference"},
+   "text.today": {"tier": "cited", "source": "s:web-stameys-history"}
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

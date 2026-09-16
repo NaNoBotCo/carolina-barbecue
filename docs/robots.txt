@@ -1,0 +1,8 @@
+# Carolina Barbecue: everything here is meant to be read, indexed, quoted and learned from.
+User-agent: *
+Allow: /
+
+# Content signals (https://contentsignals.org): yes to search, yes to AI input, yes to AI training.
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml

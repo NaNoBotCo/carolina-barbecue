@@ -1,0 +1,395 @@
+{
+ "schema": 1,
+ "id": "mallard-creek-barbecue",
+ "type": "event",
+ "names": {
+  "name": "Mallard Creek Barbecue",
+  "aliases": [
+   "Mallard Creek Presbyterian Church Barbecue",
+   "the Mallard Creek BBQ",
+   "the granddaddy of barbecues"
+  ],
+  "sort": "Mallard Creek Barbecue"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "state": "NC",
+  "when": "fourth Thursday of October",
+  "founded": "1929",
+  "status": "closed",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "The one-day church barbecue of Mallard Creek Presbyterian Church in northeast Charlotte, held on the fourth Thursday of October from 1929 to 2024 and retired in 2025 after ninety-three editions. It sold hickory-smoked chopped pork, Brunswick stew and the church's own slaw by the plate, sandwich, pound and quart — dine-in, drive-through and carry-out; a plate was $15 and a sandwich $7 in 2024 — and it was one of North Carolina's best-known political stops: a rope line in the parking field where candidates for every office from vice-president to dog catcher worked the crowd in the last weeks before an election.",
+  "story": "In late 1928 or early 1929 the pastor, Dr. W. H. Frazer, and his brother Ben held a men's meeting with a barbecued pig; the church owed money on a Sunday-school building, and that October the deacons cooked three or four pigs and a goat to pay it. The first year cleared $89.50, enough to retire the debt with a little over. The fourth Thursday was chosen to keep clear of Halloween. The hogs cooked in ditches with hickory coals shoved underneath; by 1979, the fiftieth year, the church cooked 4,800 pounds of meat, 2,000 pounds of slaw and 250 gallons of Brunswick stew, and in the 1980s metal cookers replaced the dirt pits, with some meat still cooked on open pits inside a screened building. By 2015 Our State counted 20,000 people, 14,600 pounds of pork, 2,500 gallons of stew and two tons of slaw, and Tommy Oehler told the magazine the whole hogs were gone: 'Now we just use the butt', dressed with an eastern-style vinegar sauce. The politics grew with the plates. Dan Quayle came seeking the 2000 Republican nomination; Charlotte mayors Richard Vinroot, Pat McCrory and Jennifer Roberts worked the line; Deborah Ross came running for the Senate. No speeches: candidates set up booths, hand out fliers and court voters along a rope in the parking area. On October 1, 2025, the church announced with 'heavy hearts' that the barbecue was retired. The leaders of its four main components had stepped aside, co-chair Charles Kimrey said, and the church could not find volunteers able to take eight to ten days off work for the preparation; each prep day took about a hundred volunteers and the day itself about three hundred. 'Everything seems to have a life cycle and for the Mallard Creek BBQ, that life cycle is 93 years.'",
+  "how": "For a week before, volunteers cooked pork butts — hickory-smoked, then chopped, cooled and seasoned — and stewed Brunswick stew in quantity; on the Thursday the church served from morning, dine-in, drive-through and walk-up, by plate (barbecue, stew, applesauce, slaw and bread), sandwich, pound or quart. Proceeds went to the church's missions and to the building debt the barbecue was founded to retire.",
+  "today": "Retired. The last barbecue was held Thursday, October 24, 2024; the church announced the end on October 1, 2025, three weeks before the date it would have kept."
+ },
+ "kin": [
+  {
+   "to": "fundraiser-barbecue",
+   "as": "a church plate sale kept up for ninety-three years by volunteers.",
+   "rel": "whole"
+  },
+  {
+   "to": "political-barbecue",
+   "as": "North Carolina's standing political stop: candidates on a rope line, no speeches.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut by 2016 — 'now we just use the butt' — after decades of whole hogs.",
+   "rel": "part"
+  },
+  {
+   "to": "whole-hog",
+   "as": "three or four pigs and a goat in 1929; whole hogs in ditches for decades after.",
+   "rel": "origin"
+  },
+  {
+   "to": "brunswick-stew",
+   "as": "2,500 gallons of it in 2015, and a quart to take home.",
+   "rel": "serves"
+  },
+  {
+   "to": "slaw",
+   "as": "the church's own blend, two tons of it in 2015.",
+   "rel": "term"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "the eastern-style vinegar sauce on the chopped pork.",
+   "rel": "sauce"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style of its sauce, in a Piedmont city.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory coals in the ditches in 1929; hickory-smoked to the end.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "as": "began in dirt ditches and moved to metal cookers in the 1980s.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-cooker",
+   "as": "the metal cookers that replaced the dirt pits in the 1980s.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "$7 in 2024.",
+   "rel": "serves"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "fundraiser-barbecue",
+   "tell": "Mallard Creek was one church's barbecue; the fundraiser barbecue is the whole form, still running at hundreds of churches and fire stations."
+  },
+  {
+   "id": "political-barbecue",
+   "tell": "Mallard Creek sold plates to pay a church's debts and the candidates came to the crowd; a political barbecue is put on by the candidate."
+  }
+ ],
+ "geo": {
+  "lat": 35.3345,
+  "lon": -80.7497,
+  "precision": "exact",
+  "source": "Nominatim (OpenStreetMap): Mallard Creek Presbyterian Church"
+ },
+ "address": {
+  "street": "1600 W Mallard Creek Church Rd",
+  "city": "Charlotte",
+  "county": "Mecklenburg",
+  "state": "NC",
+  "postcode": "28262"
+ },
+ "links": [
+  {
+   "label": "Mallard Creek Presbyterian Church — history of the barbecue",
+   "url": "https://mallardcreekchurch.org/events/annual-barbecue/history/"
+  },
+  {
+   "label": "Our State, 2016 — Pork & Politics",
+   "url": "https://www.ourstate.com/pork-and-politics-merge-at-mallard-creek-presbyterian-church/"
+  },
+  {
+   "label": "WFAE, October 1, 2025 — the barbecue ends",
+   "url": "https://www.wfae.org/charlotte-area/2025-10-01/mallard-creek-barbecue-ends-after-93-years"
+  }
+ ],
+ "sources": [
+  "s:web-mallard-creek-history",
+  "s:web-mallard-creek-annual-barbecue",
+  "s:web-ourstate-mallard-creek",
+  "s:web-wfae-mallard-creek-ends",
+  "s:web-wbtv-mallard-creek-canceled",
+  "s:web-spectrum-mallard-creek-ending",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-mallard-creek-history"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ourstate-mallard-creek",
+    "note": "the ending from WFAE, WBTV and Spectrum News, all October 1–3, 2025"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "geocoded by hand via Nominatim on 2026-09-15"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The one-day church barbecue of Mallard Creek Presbyterian Church in northeast Charlotte, held on the fourth Thursday of October from 1929 to 2024 and retired in 2025 after ninety-three editions.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "a church plate sale kept up for ninety-three years by volunteers.",
+   "rel": "whole"
+  },
+  {
+   "to": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "North Carolina's standing political stop: candidates on a rope line, no speeches.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut by 2016 — 'now we just use the butt' — after decades of whole hogs.",
+   "rel": "part"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "three or four pigs and a goat in 1929; whole hogs in ditches for decades after.",
+   "rel": "origin"
+  },
+  {
+   "to": "brunswick-stew",
+   "type": "dish",
+   "name": "Brunswick stew",
+   "as": "2,500 gallons of it in 2015, and a quart to take home.",
+   "rel": "serves"
+  },
+  {
+   "to": "slaw",
+   "type": "term",
+   "name": "slaw",
+   "as": "the church's own blend, two tons of it in 2015.",
+   "rel": "term"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "the eastern-style vinegar sauce on the chopped pork.",
+   "rel": "sauce"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style of its sauce, in a Piedmont city.",
+   "rel": "kin"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "hickory coals in the ditches in 1929; hickory-smoked to the end.",
+   "rel": "part"
+  },
+  {
+   "to": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "began in dirt ditches and moved to metal cookers in the 1980s.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-cooker",
+   "type": "pit",
+   "name": "pig cooker",
+   "as": "the metal cookers that replaced the dirt pits in the 1980s.",
+   "rel": "part"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "$7 in 2024.",
+   "rel": "serves"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-mallard-creek-history",
+   "kind": "web",
+   "title": "History of the Annual Barbecue",
+   "publisher": "Mallard Creek Presbyterian Church",
+   "url": "https://mallardcreekchurch.org/events/annual-barbecue/history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-mallard-creek-annual-barbecue",
+   "kind": "web",
+   "title": "Annual Barbecue (2024 event page: menu, prices, service)",
+   "publisher": "Mallard Creek Presbyterian Church",
+   "url": "https://mallardcreekchurch.org/events/annual-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-mallard-creek",
+   "kind": "web",
+   "title": "Pork & Politics Merge at Mallard Creek Presbyterian Church (Greg Lacour, February 2016, updated 2018)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/pork-and-politics-merge-at-mallard-creek-presbyterian-church/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wfae-mallard-creek-ends",
+   "kind": "web",
+   "title": "Mallard Creek Barbecue ends after 93 years (Kenneth Lee Jr., October 1, 2025)",
+   "publisher": "WFAE 90.7",
+   "url": "https://www.wfae.org/charlotte-area/2025-10-01/mallard-creek-barbecue-ends-after-93-years",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wbtv-mallard-creek-canceled",
+   "kind": "web",
+   "title": "Nearly 100-year-old BBQ canceled in Charlotte, organizers say (October 1, 2025)",
+   "publisher": "WBTV",
+   "url": "https://www.wbtv.com/2025/10/01/nearly-100-year-old-bbq-canceled-charlotte-organizers-say/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-spectrum-mallard-creek-ending",
+   "kind": "web",
+   "title": "After 93 years, Mallard Creek Presbyterian Church ending longstanding barbecue event (October 2, 2025)",
+   "publisher": "Spectrum News 1 Charlotte",
+   "url": "https://spectrumlocalnews.com/nc/charlotte/news/2025/10/03/after-93-years--mallard-creek-presbyterian-church-ending-longstanding-barbecue-event-",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-mallard-creek-history"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ourstate-mallard-creek",
+   "note": "the ending from WFAE, WBTV and Spectrum News, all October 1–3, 2025"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-mallard-creek-history"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-mallard-creek-history"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "geocoded by hand via Nominatim on 2026-09-15"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "block-pit",
+   "type": "pit",
+   "name": "block pit",
+   "as": "began in dirt ditches in 1929 and moved to metal cookers in the 1980s.",
+   "rel": "event"
+  },
+  {
+   "from": "burn-barrel",
+   "type": "pit",
+   "name": "burn barrel",
+   "as": "began in 1929 with hickory coals shoved under hogs in ditches.",
+   "rel": "event"
+  },
+  {
+   "from": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "cooked whole pigs in 1929 and pork butts by 2016.",
+   "rel": "event"
+  },
+  {
+   "from": "fundraiser-barbecue",
+   "type": "event",
+   "name": "fundraiser barbecue",
+   "as": "the church plate sale at its largest scale, 1929 to 2024.",
+   "rel": "event"
+  },
+  {
+   "from": "political-barbecue",
+   "type": "event",
+   "name": "political barbecue",
+   "as": "North Carolina's political stop for ninety-three Octobers.",
+   "rel": "event"
+  }
+ ]
+}

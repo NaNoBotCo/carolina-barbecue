@@ -1,0 +1,387 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "fuzzys-bar-b-q",
+ "names": {
+  "name": "Fuzzy's Bar-B-Q",
+  "aliases": [
+   "Fuzzy's",
+   "Fuzzy's Barbecue"
+  ],
+  "sort": "Fuzzy's Bar-B-Q"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1954",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A pork-shoulder house on Highway Street in Madison, Rockingham County, opened in 1954 by T.H. 'Fuzzy' Nelson and in the Nelson family since. Shoulders cook over hickory coals in pits behind the building; the tray is the Piedmont tray, chopped or coarse-chopped pork with the dip — the thin vinegar-and-ketchup sauce of the region — red slaw and hushpuppies. It holds True 'Cue certification, which turns on wood or charcoal being the only heat under the meat, and it is a stop on the North Carolina Barbecue Society's Historic Barbecue Trail. Breakfast is served from early morning, which few barbecue houses do.",
+  "story": "T.H. Nelson, called Fuzzy, opened on the road through Madison in 1954, and the family kept it. The restaurant's own page calls itself a Nelson family restaurant operated by Fuzzy's son and daughter, Phil and Debbie, with Hilda Vestal managing after more than seventeen years; a visitor writing in April 2016 instead named a son, Fred, as the one running it, and the two accounts are not reconciled here. The building was rebuilt around 1978 and photographs of the first one hang inside. The pits stayed outdoors and the wood stayed in them. Both rosters of the Historic Barbecue Trail read for this project carry Fuzzy's — the older twenty-three-stop list and Visit NC's twenty-stop page of 2026 — which makes it one of the few pits to survive every revision of that list, while the Campaign for Real Barbecue certified it separately. *Inference —* the double listing is why Fuzzy's appears in nearly every written account of the trail, though its own advertising runs to one page and a telephone number. That page also claims notice from The New Yorker, from PM Magazine and from a Congressional barbecue contest. No issue, date or citation is given for any of the three, and none is repeated here as established.",
+  "how": "Pork shoulders cook over hickory coals in pits behind the building, the fire tended through the cook rather than set and left. The meat is chopped or coarse-chopped and dressed with the dip; red slaw — cabbage cut fine and dressed with the same sauce, which is why it is red — and hushpuppies fill the tray. The kitchen serves breakfast from early morning as well, so the room is working hours before the barbecue houses down in Lexington open their doors.",
+  "today": "Open at 407 North Highway Street, Madison. Three sources give three sets of hours: the restaurant's page says Monday to Saturday from seven in the morning and Sunday from seven, the NC Pork Council says Tuesday to Saturday from six and closed Sunday and Monday, and it lists a different street besides. Check before driving."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style of its tray: shoulder over hickory, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut — shoulders only, as the Piedmont houses cook them.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "its sauce: thin vinegar reddened with ketchup, on the meat and in the slaw.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "the slaw on its tray, red because the dip dresses it.",
+   "rel": "serves"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "its wood — hickory burned to coals in the pits out back.",
+   "rel": "part"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "as": "carries it on the Historic Barbecue Trail, on both rosters read for this project.",
+   "rel": "org"
+  }
+ ],
+ "geo": {
+  "lat": 36.39363,
+  "lon": -79.96889,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "407 N Highway St",
+  "city": "Madison",
+  "county": "Rockingham",
+  "state": "NC",
+  "postcode": "27025"
+ },
+ "links": [
+  {
+   "label": "Fuzzy's Bar-B-Q — about",
+   "url": "https://fuzzysbbqmadison.com/ABOUT_US_.html"
+  },
+  {
+   "label": "True 'Cue NC — certified pits",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "label": "Cradle of 'Cue — Visit NC Project 543",
+   "url": "https://project543.visitnc.com/cradle-of-cue/"
+  }
+ ],
+ "sources": [
+  "s:web-fuzzys-bbq",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail",
+  "s:web-visitnc-project543",
+  "s:web-ourstate-historic-barbecue-trail",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-fuzzys-bbq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-fuzzys-bbq",
+    "note": "Phil and Debbie from the restaurant's own page; the rebuild and the competing 'Fred' account from a 2016 visitor blog. The New Yorker, PM Magazine and Congressional-contest claims are the restaurant's, uncited, and are not adopted."
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim matched Highway Street rather than the house number, so the point is the road, not the building"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-fuzzys-bbq",
+    "note": "three sources, three sets of hours; the NC Pork Council also gives a different street, which four other sources contradict"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified: wood coals or charcoal as the sole heat source. The restaurant's own page says pit cooked over hickory coals.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-fuzzys-bbq",
+   "tier": "cited",
+   "note": "The restaurant's own page: 'a Nelson Family owned Restaurant, operated by Fuzzy's Son & Daughter, Phil & Debbie.' A 2016 visitor account instead names a son, Fred, as the one running it."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-fuzzys-bbq",
+   "tier": "cited",
+   "note": "Opened by T.H. 'Fuzzy' Nelson in 1954 and described by the business as a Nelson family restaurant."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as Fuzzy's Barbecue, Madison",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, on both rosters read",
+   "source": "s:web-visitnc-project543",
+   "url": "https://project543.visitnc.com/cradle-of-cue/"
+  },
+  {
+   "by": "our-state",
+   "what": "named in the magazine's account of the Historic Barbecue Trail",
+   "source": "s:web-ourstate-historic-barbecue-trail",
+   "year": 2016
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A pork-shoulder house on Highway Street in Madison, Rockingham County, opened in 1954 by T.H. 'Fuzzy' Nelson and in the Nelson family since.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style of its tray: shoulder over hickory, the dip, red slaw.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut — shoulders only, as the Piedmont houses cook them.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "its sauce: thin vinegar reddened with ketchup, on the meat and in the slaw.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the slaw on its tray, red because the dip dresses it.",
+   "rel": "serves"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "its wood — hickory burned to coals in the pits out back.",
+   "rel": "part"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "type": "org",
+   "name": "Campaign for Real Barbecue",
+   "as": "certified the pit as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "to": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "carries it on the Historic Barbecue Trail, on both rosters read for this project.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-fuzzys-bbq",
+   "kind": "web",
+   "title": "About Us — Fuzzy's Bar-B-Q",
+   "publisher": "Fuzzy's Bar-B-Q, Madison",
+   "url": "https://fuzzysbbqmadison.com/ABOUT_US_.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-barbecuebros-nc-trail",
+   "kind": "web",
+   "title": "NC Historic Barbecue Trail",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "accessed": "2026-09-16",
+   "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  },
+  {
+   "id": "s:web-visitnc-project543",
+   "kind": "web",
+   "title": "Cradle of 'Cue — the Historic Barbecue Trail",
+   "publisher": "Visit North Carolina (Project 543)",
+   "url": "https://project543.visitnc.com/cradle-of-cue/",
+   "accessed": "2026-09-16",
+   "note": "Twenty stops, © 2026. Differs from the older 23-stop roster: it drops Hill's and Speedy Lohr's of Arcadia, swaps Real Q in for Little Richard's, and still lists Smiley's, which closed in 2022."
+  },
+  {
+   "id": "s:web-ourstate-historic-barbecue-trail",
+   "kind": "web",
+   "title": "Running on Full: The North Carolina Historic Barbecue Trail (Bryan Mims, January 29, 2016)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-fuzzys-bbq"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-fuzzys-bbq",
+   "note": "Phil and Debbie from the restaurant's own page; the rebuild and the competing 'Fred' account from a 2016 visitor blog. The New Yorker, PM Magazine and Congressional-contest claims are the restaurant's, uncited, and are not adopted."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-fuzzys-bbq"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-fuzzys-bbq",
+   "note": "three sources, three sets of hours; the NC Pork Council also gives a different street, which four other sources contradict"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Nominatim matched Highway Street rather than the house number, so the point is the road, not the building"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-fuzzys-bbq"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-nc",
+   "note": "True 'Cue certified: wood coals or charcoal as the sole heat source. The restaurant's own page says pit cooked over hickory coals.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-fuzzys-bbq",
+   "note": "The restaurant's own page: 'a Nelson Family owned Restaurant, operated by Fuzzy's Son & Daughter, Phil & Debbie.' A 2016 visitor account instead names a son, Fred, as the one running it.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-fuzzys-bbq",
+   "note": "Opened by T.H. 'Fuzzy' Nelson in 1954 and described by the business as a Nelson family restaurant.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as Fuzzy's Barbecue, Madison",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  },
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "a stop on the Historic Barbecue Trail, on both rosters read",
+   "url": "https://project543.visitnc.com/cradle-of-cue/",
+   "year": null,
+   "source": "s:web-visitnc-project543"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "named in the magazine's account of the Historic Barbecue Trail",
+   "url": "",
+   "year": 2016,
+   "source": "s:web-ourstate-historic-barbecue-trail"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": []
+}

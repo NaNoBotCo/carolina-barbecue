@@ -1,0 +1,356 @@
+{
+ "schema": 1,
+ "id": "light-bread",
+ "type": "term",
+ "names": {
+  "name": "light bread",
+  "aliases": [
+   "light-bread",
+   "lightbread",
+   "white bread"
+  ],
+  "said": "'Light bread' is the store loaf or the soft bun, said against cornbread and biscuits; a sandwich is barbecue and slaw on light bread."
+ },
+ "etymology": {
+  "root": "light (adj.), Old English leoht 'not heavy', from Proto-Germanic *lingkhtaz — of bread, risen with yeast, against the dense pone and quick breads of cornmeal — + bread. Midland and Southern American English for white bread, or any bread leavened with yeast (dictionary.com); 'Southern US: white bread' (Wiktionary)",
+  "first_attested": "1815–25 (dictionary.com)",
+  "note": "The name is about leavening, not colour: the loaf is light because yeast lifts it. Cornbread was the South's daily bread because wheat withered and turned rancid in its heat and humidity (Wikipedia). *Inference —* wheat bread was the bought, occasional loaf, and the name marks it as the exception.",
+  "tier": "cited",
+  "source": "s:web-dictionary-com-light-bread"
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "letter": "L",
+  "part_of_speech": "noun"
+ },
+ "text": {
+  "what": "The Southern name for white yeast bread — a store loaf or a soft bun — as against cornbread, biscuits and pone, a dense cornmeal cake. On a Carolina barbecue tray it is what the sandwich is built on: chopped barbecue and slaw on a soft white bun. At the Skylight Inn the sandwich is on a white roll; Dukes buffets in South Carolina set out white bread beside the hash. Dictionary.com labels the term Midland and Southern U.S., and defines it as white bread or any bread leavened with yeast.",
+  "story": "The word is old on the farm and young on the menu. Dictionary.com dates light bread to 1815–25; it is light in the baker's sense, risen with yeast, against the heavy cornmeal breads that fed the South because wheat would not keep in its heat. The barbecue sandwich is a twentieth-century form — Wikipedia says the tradition of whole hog as a sandwich filling began in the 1900s, and Melton's in Rocky Mount sold a barbecue sandwich for 15 cents in 1929 — and the bread it needed was the soft white bun that machine-sliced loaves made ordinary from the 1920s. The bun is never the point: Wikipedia's barbecue-sandwich article says the bread keeps the meat from drying and holds its heat, and in the east the slaw goes on the bun. *Tradition holds —* the tray, barbecue and slaw without bread, is the order for people who do not want the light bread at all; hushpuppies and cornsticks are the tray's bread and light bread the sandwich's. NCpedia's sides are baked corn sticks and fried hush puppies."
+ },
+ "kin": [
+  {
+   "to": "barbecue-sandwich",
+   "as": "the dish: barbecue and slaw on light bread.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the order without it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "the tray's bread instead — fried cornmeal, not wheat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cornbread",
+   "as": "the other bread, and the older; light bread is named against it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "white-slaw",
+   "as": "what goes on the light bread with the meat in the east.",
+   "rel": "serves"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where the sandwich is on a white roll.",
+   "rel": "place"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "whose buffets set out white bread beside the hash and rice.",
+   "rel": "place"
+  },
+  {
+   "to": "meltons-barbecue",
+   "as": "selling a barbecue sandwich for 15 cents in 1929.",
+   "rel": "place"
+  },
+  {
+   "to": "fixins",
+   "as": "on a plate, light bread is one more fixin.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "cornbread",
+   "tell": "Light bread is leavened with yeast and white; cornbread is cornmeal, quick or unleavened, yellow or white. The sandwich is on light bread; the tray comes with cornbread or hushpuppies."
+  }
+ ],
+ "links": [
+  {
+   "label": "light bread — Dictionary.com",
+   "url": "https://www.dictionary.com/browse/light-bread"
+  },
+  {
+   "label": "light bread — Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/light_bread"
+  },
+  {
+   "label": "Barbecue sandwich — Wikipedia (North Carolina)",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sandwich"
+  }
+ ],
+ "sources": [
+  "s:etymonline",
+  "s:web-dictionary-com-light-bread",
+  "s:wiktionary-light-bread",
+  "s:wp-cornbread",
+  "s:wp-white-bread",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-meltons-barbecue",
+  "s:wp-barbecue-sandwich",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-dukes-bar-b-que",
+  "s:ncpedia-barbecue",
+  "s:wp-barbecue-in-north-carolina"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-dictionary-com-light-bread"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-dictionary-com-light-bread",
+    "note": "the date from dictionary.com; the wheat from the Cornbread article; the sandwich dates from the Whole hog and Melton's articles; sliced bread from the White bread article; the tray sentence is marked tradition"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "usage; the regional label is dictionary.com's"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The Southern name for white yeast bread — a store loaf or a soft bun — as against cornbread, biscuits and pone, a dense cornmeal cake.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the dish: barbecue and slaw on light bread.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the order without it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "the tray's bread instead — fried cornmeal, not wheat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "the other bread, and the older; light bread is named against it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "white-slaw",
+   "type": "dish",
+   "name": "white slaw",
+   "as": "what goes on the light bread with the meat in the east.",
+   "rel": "serves"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "where the sandwich is on a white roll.",
+   "rel": "place"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "whose buffets set out white bread beside the hash and rice.",
+   "rel": "place"
+  },
+  {
+   "to": "meltons-barbecue",
+   "type": "place",
+   "name": "Melton's Barbecue",
+   "as": "selling a barbecue sandwich for 15 cents in 1929.",
+   "rel": "place"
+  },
+  {
+   "to": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "on a plate, light bread is one more fixin.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline",
+   "kind": "web",
+   "title": "Online Etymology Dictionary",
+   "url": "https://www.etymonline.com/"
+  },
+  {
+   "id": "s:web-dictionary-com-light-bread",
+   "kind": "web",
+   "title": "light bread — Dictionary.com",
+   "publisher": "Dictionary.com",
+   "url": "https://www.dictionary.com/browse/light-bread",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wiktionary-light-bread",
+   "kind": "web",
+   "title": "light bread — Wiktionary",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/light_bread",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-cornbread",
+   "kind": "wikipedia",
+   "title": "Cornbread — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cornbread",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1371329180"
+  },
+  {
+   "id": "s:wp-white-bread",
+   "kind": "wikipedia",
+   "title": "White bread — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White_bread",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-meltons-barbecue",
+   "kind": "wikipedia",
+   "title": "Melton's Barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Melton%27s_Barbecue",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-barbecue-sandwich",
+   "kind": "wikipedia",
+   "title": "Barbecue sandwich — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_sandwich",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1360377497"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-dukes-bar-b-que",
+   "kind": "wikipedia",
+   "title": "Dukes Bar-B-Que — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dukes_Bar-B-Que",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1373146410"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:wp-barbecue-in-north-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in North Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_North_Carolina",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-dictionary-com-light-bread"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-dictionary-com-light-bread",
+   "note": "the date from dictionary.com; the wheat from the Cornbread article; the sandwich dates from the Whole hog and Melton's articles; sliced bread from the White bread article; the tray sentence is marked tradition"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:web-dictionary-com-light-bread"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the white loaf the sandwich is built on when there is no bun.",
+   "rel": "term"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "the yeast loaf it is named against; the sandwich is on light bread, the tray gets cornbread.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "the loaf of sliced white bread at the end of the line.",
+   "rel": "term"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the sandwich's bread; on a plate, one more fixin.",
+   "rel": "kin"
+  }
+ ]
+}

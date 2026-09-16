@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "id": "pitmaster",
+ "type": "term",
+ "names": {
+  "name": "pitmaster",
+  "aliases": ["pit master", "pit-master", "pit man", "pit boss"],
+  "said": "Press and menus say pitmaster. Older Carolina speech says the cook, or the pit man, or the man's name — a cook forty years at the pit is called by his first name before either."
+ },
+ "etymology": {
+  "root": "pit (Old English pytt, the cooking pit) + master (Old English, from Latin magister 'chief, teacher'; 'a workman qualified to carry on a trade on his own account' from c. 1300), on the pattern of quartermaster and the other -master compounds for the person in charge of a thing",
+  "first_attested": "'pit master', of a barbecue cook: 22 September 1939, Daily Times-News, Burlington, North Carolina — 'Jeter Crutchfield, pit master, will supervise the beginning of roasting pork for the barbecue tonight at midnight' — as quoted by Texas Monthly (2018) and Destination BBQ (2021); the one-word form 1980–85 (dictionary.com)",
+  "note": "The compound had other lives first: an English coal-mining word in the nineteenth century, a sportswriter's word for boxing referees in the 1920s, and in the 1970s a label for snake wranglers and a cockfight ringleader (Texas Monthly). Wiktionary carries no citation; the OED was not consulted. Destination BBQ notes that Crutchfield was white and that the verb is supervise: the cooking that night was done by Black men.",
+  "tier": "cited",
+  "source": "s:web-texas-monthly-call-barbecue-greats"
+ },
+ "region": ["carolinas", "us-south"],
+ "facets": {"letter": "P", "part_of_speech": "noun"},
+ "text": {
+  "what": "The person who runs the pit — the fire, the coals, the turning of the hog, the call that it is done. A recent word for an old job. Wiktionary defines it as one who operates a barbecue pit and adds that it is used as a term of respect; dictionary.com dates it 1980–85; Wikipedia titles its articles 'Ed Mitchell (pitmaster)' and 'Rodney Scott (pitmaster)', and BBQ Pitmasters has been on cable since 2009. In the Carolinas the older words are the cook and the pit man, and a place is known by a family's name before any title.",
+  "story": "Pit is the hole and master is Latin magister, the chief; the compound follows quartermaster. Texas Monthly traced 'pit master' through unrelated trades and found the earliest barbecue use it could in a 1939 North Carolina newspaper item: 'Jeter Crutchfield, pit master, will supervise the beginning of roasting pork for the barbecue tonight at midnight.' Destination BBQ gives the paper as the Burlington Daily Times-News of 22 September 1939 and points at the verb: Crutchfield supervised, and the men at the pit that night were Black. Adrian Miller's Black Smoke traces the history of those cooks — Black barbecuers, pitmasters and restaurateurs — and their place in the tradition. Dictionary.com dates the one-word pitmaster to 1980–85; the television series BBQ Pitmasters premiered on TLC on 3 December 2009. Rodney Scott of Hemingway, named Best Chef Southeast by the James Beard Foundation in 2018, was only the second pitmaster to win a Beard chef award. *Inference —* the word arrived with the audience: once barbecue was written about, the cook needed a title a writer could print. *Tradition holds —* in the Carolinas he still answers to his name."
+ },
+ "kin": [
+  {"to": "pit", "as": "the word it is built on.", "rel": "term"},
+  {"to": "ed-mitchell", "as": "the Wilson pitmaster the press calls North Carolina's most famous.", "rel": "person"},
+  {"to": "rodney-scott", "as": "the Hemingway pitmaster who won a James Beard chef award in 2018, the second pitmaster to do so.", "rel": "person"},
+  {"to": "pete-jones", "as": "who ran the Skylight Inn's pits from 1947 until 2006, most of it before the word was common.", "rel": "person"},
+  {"to": "wayne-monk", "as": "owner of Lexington Barbecue, 'serving pork barbecue since 1962' — two decades before dictionaries record the word.", "rel": "person"},
+  {"to": "adrian-miller", "as": "whose Black Smoke tells the history of the Black pitmasters the word was late to name.", "rel": "person"},
+  {"to": "whole-hog", "as": "the cut whose cooking most needs one: several people to flip and tend, and a cook who becomes prominent in the community.", "rel": "kin"},
+  {"to": "southern-foodways-alliance", "as": "whose oral histories record pitmasters in their own words.", "rel": "kin"}
+ ],
+ "links": [
+  {"label": "pitmaster — Wiktionary", "url": "https://en.wiktionary.org/wiki/pitmaster"},
+  {"label": "pitmaster — Dictionary.com", "url": "https://www.dictionary.com/browse/pitmaster"},
+  {"label": "What Should We Call the Barbecue Greats? — Texas Monthly", "url": "https://www.texasmonthly.com/bbq/call-barbecue-greats/"}
+ ],
+ "sources": ["s:etymonline", "s:wiktionary-pitmaster", "s:web-dictionary-com-pitmaster", "s:web-texas-monthly-call-barbecue-greats", "s:web-destination-bbq-history-of-barbecue", "s:wp-bbq-pitmasters", "s:wp-ed-mitchell-pitmaster", "s:wp-rodney-scott-pitmaster", "s:wp-adrian-miller", "s:miller-black-smoke", "s:wp-whole-hog-barbecue", "s:web-lexington-barbecue-menu", "s:sfa-oral-histories"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:web-texas-monthly-call-barbecue-greats"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-texas-monthly-call-barbecue-greats", "note": "the 1939 quotation from Texas Monthly; the newspaper's name and date, and the note on Crutchfield, from Destination BBQ (a blog: verify against the paper itself); the last two sentences are inference and tradition"},
+   "names.said": {"tier": "tradition", "note": "usage; 'pit man' and 'the cook' are the older words as heard, not as cited"},
+   "etymology": {"tier": "cited", "source": "s:web-texas-monthly-call-barbecue-greats", "note": "the 1939 first use rests on a magazine and a blog quoting a newspaper this project has not seen"}
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

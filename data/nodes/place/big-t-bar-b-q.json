@@ -1,0 +1,181 @@
+{
+ "schema": 1,
+ "type": "place",
+ "id": "big-t-bar-b-q",
+ "names": {
+  "name": "Big T Bar-B-Q",
+  "aliases": [
+   "Big T's Bar-B-Que",
+   "Big T's"
+  ],
+  "sort": "Big T Bar-B-Q"
+ },
+ "region": [
+  "sc-midlands"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "fuel": "wood",
+  "styles": []
+ },
+ "text": {
+  "what": "A Black-owned wood-burning pit on Congaree Road at Gadsden, in lower Richland County below Columbia, run by Larry Brown, known as Teddy and as Big T, who has sold barbecue to the Columbia area for more than thirty years. Logs burn down in a warped burn box behind the smokehouse and the coals are shovelled into low metal pits under pork shoulders. Hash goes over rice, made with pork and offal in the Midlands way. A second house on Garners Ferry Road in Columbia serves the same barbecue from a buffet.",
+  "story": "Neither the founding year nor a founding date is on this disk; what the listings agree on is that Larry Brown has been at it in this part of Richland County for over thirty years. He is not a Sweatman, and Big T has no connection to Sweatman's Bar-B-Que at Holly Hill, though the two names travel together in loose accounts of South Carolina barbecue. The evidence that the business is Black-owned is the directory kind rather than the profile kind: EatOkra, which indexes Black-owned restaurants, carries it, and the chef Todd Richards put it in his guide to Black-owned barbecue. A 2019 newspaper profile that would have said it in a reporter's words could not be fetched for this record. The South Carolina Barbeque Association's own page files Big T under Worth the Trip and describes the method — slow over coals and wood at the Gadsden operation — while saying the hash there is a little mild for the writer's taste, which is the sort of judgement a project like this one records rather than adopts. Brown's son Travis works the pits. The Gadsden house closes Sunday, Monday and Tuesday; the Columbia house runs a buffet.",
+  "how": "Logs burn down to coals in a large warped burn box behind the smokehouse, and the coals are shovelled into low metal pits under pork shoulders — not whole hogs. The hash is the Midlands kind, pork and offal cooked down and ladled over white rice. Cards and cash are both taken. The Garners Ferry Road house in Columbia serves from a buffet; Gadsden does not.",
+  "today": "Open at 2520 Congaree Road, Gadsden, closed Sunday, Monday and Tuesday, with a second house at 7535 Garners Ferry Road, Columbia. The map point is the Congaree Road centreline rather than the building: the geocoder returned the road, not the house number."
+ },
+ "kin": [
+  {
+   "to": "pork-shoulder",
+   "as": "the cut: shoulders over shovelled coals, not whole hogs.",
+   "rel": "part"
+  },
+  {
+   "to": "burn-barrel",
+   "as": "the principle of its fire, here a warped burn box behind the smokehouse.",
+   "rel": "part"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the Midlands plate it serves — pork and offal cooked down, over white rice.",
+   "rel": "serves"
+  },
+  {
+   "to": "campaign-for-real-barbecue",
+   "as": "certified both its houses as cooking on wood or charcoal alone.",
+   "rel": "org"
+  },
+  {
+   "to": "south-carolina-barbeque-association",
+   "as": "files it under Worth the Trip and describes the coals-and-wood method at Gadsden.",
+   "rel": "org"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "wrote the history of African American barbecue that the Black-owned directories sit downstream of.",
+   "rel": "person"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "sweatmans-bar-b-que",
+   "tell": "No relation. Sweatman's is Harold 'Bub' Sweatman's whole-hog house at Holly Hill in Orangeburg County, opened 1977 and sold twice since. Big T is Larry Brown's shoulder pit at Gadsden in Richland County. Loose accounts sometimes attach a Sweatman surname to Big T; no source read here does."
+  }
+ ],
+ "geo": {
+  "lat": 33.8552,
+  "lon": -80.76565,
+  "precision": "street",
+  "source": "OpenStreetMap via Nominatim"
+ },
+ "address": {
+  "street": "2520 Congaree Rd",
+  "city": "Gadsden",
+  "county": "Richland",
+  "state": "SC",
+  "postcode": "29052"
+ },
+ "links": [
+  {
+   "label": "Big T's Bar-B-Que, Gadsden — Destination BBQ",
+   "url": "https://destination-bbq.com/stores/big-ts-bar-b-que-3/"
+  },
+  {
+   "label": "Big T's Bar-B-Q — South Carolina Barbeque Association",
+   "url": "https://top100bbq.com/index.php/worth-the-trip-barbecue/80-worth-the-trip/100-big-ts-bar-b-q"
+  },
+  {
+   "label": "Big T's Bar-B-Que — EatOkra",
+   "url": "https://www.eatokra.com/businesses/big-t-s-bar-b-que"
+  }
+ ],
+ "sources": [
+  "s:web-destination-bbq-big-t",
+  "s:web-top100bbq-big-t",
+  "s:web-eatokra-big-t",
+  "s:web-eatokra",
+  "s:web-truecue-sc",
+  "s:web-destination-bbq-hash-map",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-destination-bbq-big-t"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-top100bbq-big-t",
+    "note": "Ownership from Destination BBQ and EatOkra; the method and the hash judgement from the SC Barbeque Association's own page. A 2019 Post and Courier / Free Times profile that would have carried a reporter's words on the ownership returned HTTP 429 on four attempts and is not cited."
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "not in the OSM barbecue harvest; Nominatim matched Congaree Road rather than the house number, so the point is the road"
+   },
+   "facets": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-big-t",
+    "note": "no founding year in any source read; Destination BBQ says only that Brown has served the Columbia area for over thirty years"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-eatokra-big-t",
+   "tier": "harvested",
+   "note": "Listed by EatOkra, a directory of Black-owned restaurants, and included in the chef Todd Richards's guide to Black-owned barbecue. Destination BBQ names the owner as Larry 'Big T' (Teddy) Brown. No press profile naming him and saying so could be fetched for this record.",
+   "url": "https://www.eatokra.com/businesses/big-t-s-bar-b-que"
+  },
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-sc",
+   "tier": "harvested",
+   "note": "True 'Cue certified: the campaign's criterion is wood coals or charcoal as the sole heat source, no electricity or gas except to ignite the wood or reheat the finished barbecue. Both houses are on the list. Destination BBQ describes hot coals in low metal pits, the wood burned down in a warped burn box behind the smokehouse and shovelled in.",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-destination-bbq-big-t",
+   "tier": "cited",
+   "note": "Destination BBQ: a classic South Carolina hash of pork and offal. Both houses are on Destination BBQ's South Carolina hash map, read 2026-09-16."
+  },
+  {
+   "tag": "buffet",
+   "source": "s:web-destination-bbq-big-t",
+   "tier": "cited",
+   "note": "The Garners Ferry Road house in Columbia serves from a buffet; the Gadsden house does not."
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-destination-bbq-big-t",
+   "tier": "cited",
+   "note": "Larry Brown, with his son Travis working the pits."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, both houses, listed as Big T Bar-B-Que",
+   "source": "s:web-truecue-sc",
+   "url": "http://www.truecue.org/true-cue-sc"
+  },
+  {
+   "by": "scba",
+   "what": "filed under Worth the Trip on the association's list",
+   "source": "s:web-top100bbq-big-t"
+  },
+  {
+   "by": "other",
+   "what": "one of fifteen pits in the chef Todd Richards's guide to Black-owned barbecue",
+   "source": "s:web-eatokra-big-t"
+  }
+ ],
+ "images": [],
+ "updated": "2026-09-16"
+}

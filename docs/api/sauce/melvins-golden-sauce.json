@@ -1,0 +1,315 @@
+{
+ "schema": 1,
+ "id": "melvins-golden-sauce",
+ "type": "sauce",
+ "names": {
+  "name": "Melvin's Golden Sauce",
+  "aliases": [
+   "Melvin's Original Golden Secret",
+   "Golden Secret Sauce"
+  ],
+  "said": "The Golden, at Melvin's counters in Charleston and Mount Pleasant."
+ },
+ "region": [
+  "sc-lowcountry",
+  "sc"
+ ],
+ "facets": {
+  "base": "mustard",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "The mustard sauce of Melvin's Bar-B-Que in Charleston, sold in 16-ounce glass bottles, half gallons and gallons, beside the house's Southern Red, Sweet Red and Vinegar sauces. The maker publishes no ingredient list and no Nutrition Facts for any of the four, so what this page can give is the history the family tells and the shape of its line, not a measurement.",
+  "story": "The maker's account dates the sauce to 1933 and to Melvin Bessinger's father, Joe Bessinger — Big Joe on the bottle's copy — and says the recipe passed down spoken and was never written. Joe Bessinger's mustard sauce at Holly Hill is the same sauce the mustard record carries as the Midlands origin story, and his sons carried it out of the Midlands in four directions: Maurice to West Columbia, Melvin and Thomas to Charleston, Robert to Charleston too.\n\nThe present line is four sauces and reads as a map of the whole subject. Golden is the family mustard. Southern Red the house calls a tangy tomato sauce blending vinegar and tomato. Sweet Red the current owner describes as a Kansas City style he worked out in his own kitchen. Vinegar, the newest, the house says its pitmaster made for the owner's wife, who grew up in North Carolina on vinegar barbecue. *Inference —* a Charleston counter selling all four is not unusual now; what is unusual is that it sells them as four named things rather than as one house sauce."
+ },
+ "kin": [
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce its Golden bottle is, and the record that carries the Bessinger family's part in it.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "the Midlands style a Lowcountry counter sells, four generations out from Holly Hill.",
+   "rel": "style"
+  },
+  {
+   "to": "joe-bessinger",
+   "as": "the father the maker's page credits the 1933 recipe to.",
+   "rel": "person"
+  },
+  {
+   "to": "melvins-legendary-bar-b-que",
+   "as": "the Charleston restaurant the sauce is made for.",
+   "rel": "served-at"
+  },
+  {
+   "to": "maurices-southern-gold",
+   "as": "the brother's bottle, from the same father's recipe, sold as Southern Gold at West Columbia.",
+   "rel": "kin"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "as": "what the house's Sweet Red bottle is, by the owner's own description.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "what the house's newest bottle reaches for, made for a North Carolinian at a Charleston counter.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "maurices-southern-gold",
+   "tell": "Two brothers, one father's mustard recipe. Melvin's Golden is sold from Charleston, Maurice's Southern Gold from West Columbia."
+  }
+ ],
+ "links": [
+  {
+   "label": "Melvin's BBQ — Golden Sauce",
+   "url": "https://melvinsbbq.com/products/melvins-original-golden-secret"
+  },
+  {
+   "label": "Melvin's BBQ — Our Story",
+   "url": "https://melvinsbbq.com/pages/our-story"
+  }
+ ],
+ "sources": [
+  "s:web-melvinsbbq-golden",
+  "s:web-melvins-our-story",
+  "s:web-sfa-melvins-legendary-bar-b-q",
+  "s:web-sc-four-sauces",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:book-mrs-hills-new-cook-book",
+  "s:wikibooks-savory-mustard-sauce"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-melvinsbbq-golden"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-melvinsbbq-golden",
+    "note": "the 1933 date, the attribution to Joe Bessinger and the descriptions of the four sauces are the maker's own product pages; the closing sentence is marked inference"
+   },
+   "profile": {
+    "tier": "cited",
+    "source": "s:web-melvinsbbq-golden",
+    "note": "nothing measured"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-mrs-hills-new-cook-book",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "Mustard, vinegar, butter and pepper, written out in 1867. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar."
+  },
+  {
+   "title": "Savory Mustard Sauce",
+   "source": "s:wikibooks-savory-mustard-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASavory_Mustard_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "½ cup Dijon mustard",
+    "¼ cup chicken broth",
+    "1 ¼ tsp cornstarch",
+    "1 pinch of salt",
+    "¼ tsp freshly ground black pepper",
+    "1 tbsp olive oil",
+    "1 shallot, very finely minced",
+    "3 tbsp unsalted butter, divided"
+   ],
+   "text": "1. Heat olive oil in a large slope-sided skillet over medium high heat. Add shallot and sauté until golden.\n2. Meanwhile, combine broth and starch. Set aside.\n3. Once shallot has cooked, add mustard, salt, and pepper to pan. Decrease heat to medium low heat.\n4. Once sauce heats to just below a simmer, add broth mixture. Cook, whisking continuously, until sauce thickens slightly.\n5. Whisk in butter 1 tbsp at a time, waiting for the one before it to fully melt before adding another.\n6. Once all butter has been used, remove sauce from heat.\n7. Serve with a steak or some pork tenderloin, or use as a grilling baste."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "mustard",
+  "maker": "Melvin's BBQ",
+  "town": "Charleston",
+  "state": "SC",
+  "ingredients": [],
+  "tomato_rank": null,
+  "vinegar_rank": null,
+  "mustard_rank": null,
+  "sugar_rank": null,
+  "serving_tbsp": null,
+  "sugar_g_per_tbsp": null,
+  "sodium_mg_per_tbsp": null,
+  "heat": null,
+  "source": "s:web-melvinsbbq-golden",
+  "url": "https://melvinsbbq.com/products/melvins-original-golden-secret",
+  "accessed": "2026-09-16",
+  "note": "Nothing measured. The maker's product page, read 2026-09-16, gives the 1933 date and the Bessinger attribution and prints no ingredient list and no Nutrition Facts; the same is true of the house's other three sauces. The base is the sauce's name and the family's account, not a reading of an ingredient order."
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "The mustard sauce of Melvin's Bar-B-Que in Charleston, sold in 16-ounce glass bottles, half gallons and gallons, beside the house's Southern Red, Sweet Red and Vinegar sauces.",
+ "region_terms": [
+  {
+   "key": "sc-lowcountry",
+   "name": "The Lowcountry",
+   "state": "SC",
+   "note": "Charleston and the coast"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the sauce its Golden bottle is, and the record that carries the Bessinger family's part in it.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the Midlands style a Lowcountry counter sells, four generations out from Holly Hill.",
+   "rel": "style"
+  },
+  {
+   "to": "joe-bessinger",
+   "type": "person",
+   "name": "Joe Bessinger",
+   "as": "the father the maker's page credits the 1933 recipe to.",
+   "rel": "person"
+  },
+  {
+   "to": "melvins-legendary-bar-b-que",
+   "type": "place",
+   "name": "Melvin's Legendary Bar-B-Que",
+   "as": "the Charleston restaurant the sauce is made for.",
+   "rel": "served-at"
+  },
+  {
+   "to": "maurices-southern-gold",
+   "type": "sauce",
+   "name": "Maurice's Southern Gold",
+   "as": "the brother's bottle, from the same father's recipe, sold as Southern Gold at West Columbia.",
+   "rel": "kin"
+  },
+  {
+   "to": "heavy-tomato-sauce",
+   "type": "sauce",
+   "name": "heavy tomato sauce",
+   "as": "what the house's Sweet Red bottle is, by the owner's own description.",
+   "rel": "kin"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "what the house's newest bottle reaches for, made for a North Carolinian at a Charleston counter.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-melvinsbbq-golden",
+   "kind": "web",
+   "title": "Melvin's BBQ Golden Sauce — product page",
+   "publisher": "Melvin's BBQ, Charleston SC (melvinsbbq.com)",
+   "url": "https://melvinsbbq.com/products/melvins-original-golden-secret",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-melvins-our-story",
+   "kind": "web",
+   "title": "Our Story — Melvin's BBQ",
+   "publisher": "Melvin's BBQ (official site)",
+   "url": "https://melvinsbbq.com/pages/our-story",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-melvins-legendary-bar-b-q",
+   "kind": "web",
+   "title": "Melvin's Legendary Bar-B-Q — David Bessinger, interviewed by Rien Fertel, June 26, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/melvins-legendary-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sc-four-sauces",
+   "kind": "web",
+   "title": "South Carolina's Four Barbecue Sauces (Gwen Fowler)",
+   "publisher": "South Carolina Department of Parks, Recreation & Tourism — discoversouthcarolina.com",
+   "url": "https://discoversouthcarolina.com/articles/south-carolinas-four-barbecue-sauces",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sauce-harvest-2026-09-16",
+   "kind": "web",
+   "title": "Bottled Carolina barbecue sauce labels, 68 rows",
+   "publisher": "This project — data/harvest/sauces.json",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "The harvest file itself: every label this project could read on 2026-09-16, with the page each row came from. Cited where a record reports a figure computed across the harvest rather than from one bottle.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  },
+  {
+   "id": "s:wikibooks-savory-mustard-sauce",
+   "kind": "web",
+   "title": "Cookbook:Savory Mustard Sauce — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASavory_Mustard_Sauce",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-melvinsbbq-golden"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-melvinsbbq-golden",
+   "note": "the 1933 date, the attribution to Joe Bessinger and the descriptions of the four sauces are the maker's own product pages; the closing sentence is marked inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

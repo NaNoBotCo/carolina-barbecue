@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "id": "north-carolina-barbecue-society",
+ "type": "org",
+ "names": {
+  "name": "North Carolina Barbecue Society",
+  "aliases": ["NCBS", "NC Barbecue Society", "the Society"],
+  "sort": "North Carolina Barbecue Society"
+ },
+ "region": ["nc"],
+ "facets": {"state": "NC", "founded": "2006", "status": "unknown"},
+ "text": {
+  "what": "A non-profit founded in 2006 in Winston-Salem by Jim Early, a lawyer and cook, to promote North Carolina's barbecue culture and, in its own words, to secure the state's place as the Barbecue Capital of the World. Its lasting work is the Historic Barbecue Trail: a route of about two dozen restaurants, some 700 miles end to end, admitted only if the meat cooks on grates over pits with wood or charcoal, the owners make their own sauce, the pits have run fifteen consecutive years, and no town has more than two. Early wrote the guidebook, The Best Tar Heel Barbecue: Manteo to Murphy, and the society ran two-day cooking boot camps three times a year.",
+  "story": "Jim Early had a law office in Winston-Salem and a self-published guide to every barbecue place from Manteo to Murphy when he founded the society in 2006; he closed the law office in September 2017 to run it full time. Searching the state's hundred counties for pits still cooking pork slowly over wood coals, he found fewer than thirty, and the Trail is that list under its rules — Wilber's in Goldsboro, the Skylight Inn in Ayden, B's in Greenville, Allen & Son near Chapel Hill, Stamey's in Greensboro, Short Sugar's in Reidsville, the Bar-B-Q Center in Lexington and Red Bridges in Shelby among them. Wikipedia's article counts twenty-five establishments in twenty-one locales; WRAL in 2021 counted twenty. The boot camps ran at Tanglewood Park in May, Sugar Mountain in July and Castle Hayne in September, teaching whole hog, butts, ribs, chicken, brisket and Early's pimento cheese; CNN put the school on a 2012 list of ten cooking schools worldwide, the only one in the United States. The society's motto, in its less formal version, was to cook and eat barbecue as often as possible, preferably among friends, and to promote the state as the Cradle of 'Cue. It took no side in the east-west argument but recorded it: the 2006 bills that would have made Lexington's festival official, and their failure. Early died on June 21, 2021, at 82, after a stroke. In March 2024 John Tanner's barbecue blog reported that the society 'appears to have withered considerably' since, with Ben Thompson keeping its Facebook page as a forum, and that a separate group of pitmasters, Chuck Hursey among them, had started a North Carolina Barbecue Hall of Fame. Neither ncbbqsociety.com nor ncbbqsociety.org resolved when this project checked on September 15, 2026.",
+  "how": "Membership is by dues, and the sponsors are mostly barbecue restaurants. The Trail is followed by car with the map or Early's book; a stop earns its place by its pit, its sauce and its years, not its fame. The boot camps were two-day schools open to anyone who paid.",
+  "today": "Status unknown as of September 2026: the founder is dead, both web addresses are down, and the Facebook page carries on as a forum. The Trail's list is reprinted by Our State and others."
+ },
+ "kin": [
+  {"to": "jim-early", "as": "its founder, president and guidebook author, 2006 until his death in 2021.", "rel": "person"},
+  {"to": "campaign-for-real-barbecue", "as": "the other North Carolina list of wood pits, drawn by different rules and different founders.", "rel": "contrast"},
+  {"to": "lexington-barbecue-festival", "as": "one of the events the society existed to promote.", "rel": "event"},
+  {"to": "hickory-and-oak", "as": "the Trail's rule: wood or charcoal on grates, nothing else.", "rel": "kin"},
+  {"to": "gas-and-electric-cookers", "as": "excluded from the Trail by rule.", "rel": "contrast"},
+  {"to": "brick-pit", "as": "what the Trail's Piedmont stops cook in.", "rel": "kin"},
+  {"to": "skylight-inn", "as": "a Trail stop in Ayden.", "rel": "place"},
+  {"to": "wilbers-barbecue", "as": "a Trail stop in Goldsboro.", "rel": "place"},
+  {"to": "bs-barbecue", "as": "a Trail stop in Greenville.", "rel": "place"},
+  {"to": "allen-and-son", "as": "a Trail stop in Orange County.", "rel": "place"},
+  {"to": "stameys-barbecue", "as": "a Trail stop in Greensboro.", "rel": "place"},
+  {"to": "short-sugars", "as": "a Trail stop in Reidsville.", "rel": "place"},
+  {"to": "bar-b-q-center", "as": "a Trail stop in Lexington.", "rel": "place"},
+  {"to": "red-bridges-barbecue-lodge", "as": "a Trail stop in Shelby.", "rel": "place"},
+  {"to": "eastern-nc", "as": "the society's Trail runs from Manteo to Murphy without ranking east against west.", "rel": "kin"},
+  {"to": "lexington", "as": "the other half of the Trail, and of the argument the society recorded without joining.", "rel": "kin"}
+ ],
+ "confusable_with": [
+  {"id": "campaign-for-real-barbecue", "tell": "Both list North Carolina's wood pits. The society's Trail (2006, Jim Early) requires fifteen years, a house sauce and no more than two stops per town; True 'Cue (2013, Reed and Levine) certifies any place cooking its local style solely with wood, in several states."}
+ ],
+ "links": [
+  {"label": "North Carolina Barbecue Society — Wikipedia", "url": "https://en.wikipedia.org/wiki/North_Carolina_Barbecue_Society"},
+  {"label": "Our State, 2016 — the Historic Barbecue Trail", "url": "https://www.ourstate.com/north-carolina-historic-barbecue-trail/"},
+  {"label": "NCBS Historic Barbecue Trail — Facebook group", "url": "https://www.facebook.com/groups/ncbshistoricbbqtrail/"}
+ ],
+ "sources": ["s:wp-north-carolina-barbecue-society", "s:web-ourstate-historic-barbecue-trail", "s:web-wral-jim-early-dies", "s:web-legacy-jim-early-obituary", "s:web-tanner-nc-hall-of-fame", "s:early-best-tar-heel-barbecue", "s:ncbs"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-north-carolina-barbecue-society"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-ourstate-historic-barbecue-trail", "note": "Early's age from the Winston-Salem Journal obituary listing; the dead web addresses are this project's own check on 2026-09-15"},
+   "text.today": {"tier": "field", "note": "DNS lookups for ncbbqsociety.com and ncbbqsociety.org failed on 2026-09-15; status from Tanner (2024)"}
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

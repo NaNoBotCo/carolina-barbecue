@@ -1,0 +1,293 @@
+{
+ "schema": 1,
+ "id": "jess-swicegood",
+ "type": "person",
+ "names": {
+  "name": "Jess Swicegood",
+  "aliases": [
+   "Jesse Swicegood"
+  ],
+  "sort": "Swicegood, Jess"
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "pitmaster",
+   "founder"
+  ],
+  "state": "NC",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Jess Swicegood ran a barbecue stand a few yards from Sid Weaver's tent by the Lexington courthouse in the 1920s, taught Warner Stamey pit cooking alongside Weaver, and sold Stamey the business in 1938 — for $300, by Robert Moss's account — when Stamey came back from Shelby and renamed it Stamey's. Through that sale the Swicegood stand is the ancestor of Stamey's in Greensboro and, through Stamey's pupil Wayne Monk, of Lexington Barbecue. He is spelled Jess and Jesse in the sources, and no dates of birth or death are on record here.",
+  "story": "The sources agree on the order: Weaver's tent in 1919, Swicegood's stand beside it within the decade, then the two of them together. Moss's history, as the Barbecue Bros relay it, says Weaver 'later teamed up with Jess Swicegood and those two men perfected Lexington-style barbecue and helped spread the technique across the Piedmont of North Carolina'. Stamey's history and the American Royal's 2020 bio put Swicegood first in the pair that taught Warner Stamey when he was a high-school boy boarding with his sister, and the Southern Foodways Alliance's note on Stamey's calls the two 'pit-cooking pioneers'. In 1938 Stamey moved back to Lexington, bought out his mentor and renamed the operation Stamey's; Wayne Monk worked under Stamey in downtown Lexington for several years before he opened Lexington Barbecue in 1962. *Inference —* a stand that changed hands for $300 was a tent or a shed, not a building; the first permanent barbecue restaurant in town was Alton Beck's, in 1938, the same year.",
+  "today": "Dead, on no date this record can name. The Lexington stand he sold in 1938 carried the Stamey name into the 1950s; the Stamey family's restaurants are in Greensboro, and Lexington Barbecue, opened by Stamey's pupil Wayne Monk in 1962, cooks a mile or two from where his stand stood."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style's second name after Weaver's: his stand and Weaver's tent are where it was worked out.",
+   "rel": "origin"
+  },
+  {
+   "to": "sid-weaver",
+   "as": "the tent his stand stood beside; Weaver was first, by a few years.",
+   "rel": "kin"
+  },
+  {
+   "to": "warner-stamey",
+   "as": "his pupil, who bought him out in 1938 and put his own name over the door.",
+   "rel": "descendant"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "the name on his old stand from 1938, carried to Greensboro in 1953.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "Wayne Monk trained at the stand Stamey bought from him; the pit is his grandchild.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "the sauce came out of his stand and Weaver's tent.",
+   "rel": "sauce"
+  }
+ ],
+ "links": [
+  {
+   "label": "Stamey's Barbecue — History",
+   "url": "https://www.stameys.com/history"
+  },
+  {
+   "label": "Jess Swicegood — Barbecue Bros (summarizing Moss)",
+   "url": "https://barbecuebros.co/tag/jess-swicegood/"
+  }
+ ],
+ "sources": [
+  "s:web-stameys-history",
+  "s:web-americanroyal-stamey-bio",
+  "s:web-barbecuebros-jess-swicegood",
+  "s:moss-barbecue-history",
+  "s:sfa-stameys-barbecue",
+  "s:web-ourstate-lexington-barbecue",
+  "s:web-ourstate-lexington-cover-up",
+  "s:reed-holy-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-stameys-history"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-barbecuebros-jess-swicegood",
+    "note": "the 1938 sale from Stamey's history and the American Royal bio; the $300 and the partnership from Barbecue Bros' summary of Moss; Monk from Garner (Our State 2012); Beck's 1938 building from Markovich; the last sentence is this project's inference"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-stameys-history"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "Jess Swicegood ran a barbecue stand a few yards from Sid Weaver's tent by the Lexington courthouse in the 1920s, taught Warner Stamey pit cooking alongside Weaver, and sold Stamey the business in 1938 — for $300, by…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style's second name after Weaver's: his stand and Weaver's tent are where it was worked out.",
+   "rel": "origin"
+  },
+  {
+   "to": "sid-weaver",
+   "type": "person",
+   "name": "Sid Weaver",
+   "as": "the tent his stand stood beside; Weaver was first, by a few years.",
+   "rel": "kin"
+  },
+  {
+   "to": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "his pupil, who bought him out in 1938 and put his own name over the door.",
+   "rel": "descendant"
+  },
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the name on his old stand from 1938, carried to Greensboro in 1953.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "Wayne Monk trained at the stand Stamey bought from him; the pit is his grandchild.",
+   "rel": "descendant"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the sauce came out of his stand and Weaver's tent.",
+   "rel": "sauce"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-stameys-history",
+   "kind": "web",
+   "title": "History",
+   "publisher": "Stamey's Barbecue, Greensboro NC",
+   "url": "https://www.stameys.com/history",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-americanroyal-stamey-bio",
+   "kind": "web",
+   "title": "Warner Stamey, Pitmaster, Restaurateur — 2020 Legacy Inductee biography, American Royal Barbecue Hall of Fame (PDF)",
+   "publisher": "American Royal",
+   "url": "https://americanroyal.com/wp-content/uploads/2024/07/BBQ-HOF-Stamey-Legacy-bio.pdf",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebros-jess-swicegood",
+   "kind": "web",
+   "title": "Jess Swicegood — Barbecue Bros tag page, summarizing Robert F. Moss, Barbecue: The History of an American Institution",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/tag/jess-swicegood/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:moss-barbecue-history",
+   "kind": "book",
+   "title": "Barbecue: The History of an American Institution",
+   "author": "Robert F. Moss",
+   "publisher": "University of Alabama Press",
+   "year": 2010,
+   "note": "revised edition 2020"
+  },
+  {
+   "id": "s:sfa-stameys-barbecue",
+   "kind": "oral-history",
+   "title": "Stamey's Barbecue — Chip Stamey, interviewed by Rien T. Fertel, 18 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/stameys-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-lexington-barbecue",
+   "kind": "web",
+   "title": "Lexington Barbecue (Bob Garner, 2012-08-31)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/lexington-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-lexington-cover-up",
+   "kind": "web",
+   "title": "The Great Lexington Barbecue Cover-Up (Jeremy Markovich, 31 Mar 2015)",
+   "publisher": "Our State magazine",
+   "url": "https://www.ourstate.com/lexington-barbecue-pits/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:reed-holy-smoke",
+   "kind": "book",
+   "title": "Holy Smoke: The Big Book of North Carolina Barbecue",
+   "author": "John Shelton Reed, Dale Volberg Reed, with William McKinney",
+   "publisher": "University of North Carolina Press",
+   "year": 2008,
+   "url": "https://uncpress.org/book/9780807832028/holy-smoke/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-stameys-history"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-barbecuebros-jess-swicegood",
+   "note": "the 1938 sale from Stamey's history and the American Royal bio; the $300 and the partnership from Barbecue Bros' summary of Moss; Monk from Garner (Our State 2012); Beck's 1938 building from Markovich; the last sentence is this project's inference"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-stameys-history"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "ran the stand beside Weaver's; Warner Stamey learned from both and bought his place in 1938.",
+   "rel": "origin"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "the stand beside Weaver's, bought by Stamey in 1938.",
+   "rel": "origin"
+  },
+  {
+   "from": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "the Lexington man whose stand Stamey bought and renamed in 1938.",
+   "rel": "origin"
+  },
+  {
+   "from": "sid-weaver",
+   "type": "person",
+   "name": "Sid Weaver",
+   "as": "the stand beside his; the two are named together as the men who taught Warner Stamey.",
+   "rel": "kin"
+  },
+  {
+   "from": "warner-stamey",
+   "type": "person",
+   "name": "Warner Stamey",
+   "as": "his teacher, whose Lexington stand he bought and renamed in 1938.",
+   "rel": "origin"
+  },
+  {
+   "from": "wayne-monk",
+   "type": "person",
+   "name": "Wayne Monk",
+   "as": "the stand Stamey bought in 1938 is where Monk's teacher learned; his pit is two steps from Swicegood's tent.",
+   "rel": "origin"
+  }
+ ]
+}

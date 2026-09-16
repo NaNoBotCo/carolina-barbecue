@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "id": "hillsborough-hog-day",
+ "type": "event",
+ "names": {
+  "name": "Hillsborough Hog Day",
+  "aliases": ["Hog Day", "Hog Day Festival", "Hillsborough Hog Day Festival"],
+  "sort": "Hillsborough Hog Day"
+ },
+ "region": ["nc-piedmont", "nc"],
+ "facets": {"state": "NC", "when": "a weekend in September (June until 2014)", "founded": "1983", "status": "open"},
+ "text": {
+  "what": "A two-day barbecue festival and cook-off at River Park in downtown Hillsborough, Orange County, held since 1983 — the oldest continuing barbecue festival in North Carolina, by the Daily Tar Heel's account — and run since 2014 by the Orange County Optimist Club as a fundraiser for children's programs. A Friday evening opens it; Saturday brings the cook-off, live music, a car show, a fun run and the Pigs on Parade. In 2019 the count was 27 cooking teams, more than 100 vendors and a collective three tons of barbecue; the 2025 festival, September 13 and 14, came two months after Tropical Storm Chantal flooded the Eno riverfront and lost its 5K to the water.",
+  "story": "Hog Day was the Hillsborough/Orange County Chamber of Commerce's festival for thirty-one years, drawing up to 35,000 people as the county's largest festival, until the chamber's board voted in January 2014 that it was not 'an adequate use of resources' for the chamber's mission. Craig Lloyd, the chamber's former executive director and a Hog Day hand since he won a design contest more than thirty years ago, gathered the volunteers into a new Orange County Optimist Club and put the festival on that June 20 and 21 at the Efland Ruritan Club under the theme 'Bringing Home the Bacon', because it was '100% developed and produced by local volunteers'; after two years in Efland it came home to River Park in 2016, the thirty-fourth festival, now in September. Hurricane Florence pushed 2018 to a make-up weekend on November 2 and 3; the pandemic cancelled 2020 and 2021; 2022 was the return. The cook-off carries a North Carolina Pork Council contest alongside the festival's own — James Catlett and Brittany Thompson took the two first places in 2025 — and the proceeds go to youth: Future Farmers of America, the Hillsborough 4-H club and a Holy Family Catholic Church youth group in 2025. Lloyd, now the club's president, is the 'Godfather of Hog Day' on the festival's site; Al Hartkopf chairs it.",
+  "how": "Friday night music at River Park; Saturday from 10 to 5, the cook-off teams sell plates and sandwiches, vendors line the park, and the car show, the fun run along the Eno and the Pigs on Parade fill the day. Proceeds go to the Optimist Club's charities.",
+  "today": "Open. The 2025 festival ran September 13 and 14 at River Park; the organizer is the Orange County Optimist Club, at hogday.org."
+ },
+ "kin": [
+  {"to": "fundraiser-barbecue", "as": "a chamber's, then a service club's, fundraiser for youth programs.", "rel": "whole"},
+  {"to": "lexington-barbecue-festival", "as": "the state's other long-running barbecue festival, a year younger: Lexington's first was 1984, Hillsborough's 1983.", "rel": "kin"},
+  {"to": "allen-and-son", "as": "Orange County's pit on the Historic Barbecue Trail, up the road from River Park.", "rel": "place"},
+  {"to": "pig-cooker", "as": "what the cook-off teams bring to the park.", "rel": "part"}
+ ],
+ "confusable_with": [
+  {"id": "lexington-barbecue-festival", "tell": "Hog Day is a two-day cook-off in a riverside park in September; Lexington is one Saturday on Main Street in October with the town's restaurants cooking."}
+ ],
+ "geo": {"lat": 36.0730, "lon": -79.0984, "precision": "exact", "source": "Nominatim (OpenStreetMap): River Park, Hillsborough"},
+ "address": {"street": "144 E Margaret Ln", "city": "Hillsborough", "county": "Orange", "state": "NC", "postcode": "27278"},
+ "links": [
+  {"label": "Hog Day — official", "url": "https://www.hogday.org/"},
+  {"label": "Daily Tar Heel, 2025 — Hog Day", "url": "https://www.dailytarheel.com/article/lifestyle-hog-day-festival-20250922"},
+  {"label": "WRAL, 2014 — the chamber cancels", "url": "https://www.wral.com/story/hillsborough-hogg-day-canceled/13292690/"}
+ ],
+ "sources": ["s:web-dailytarheel-hog-day-2025", "s:web-wral-hog-day-canceled", "s:web-chapelboro-hog-day-returns-2014", "s:web-chapelboro-hog-day-2016", "s:web-chapelboro-hog-day-2019", "s:web-hogday-org", "s:web-ourstate-historic-barbecue-trail", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:web-dailytarheel-hog-day-2025"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:web-chapelboro-hog-day-returns-2014", "note": "the second Efland year and the 2016 return, the Florence make-up date and the pandemic years come from local news headlines and summaries seen in search results (News of Orange, September 2016 and 2022); the pages themselves rate-limited this project"},
+   "geo": {"tier": "harvested", "source": "s:osm", "note": "geocoded by hand via Nominatim on 2026-09-15; the street address from hogday.org"},
+   "kin[3].as": {"tier": "tradition", "note": "cook-off teams' equipment is general knowledge, not cited"}
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

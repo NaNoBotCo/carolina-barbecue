@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "pulled-pork",
+ "type": "term",
+ "names": {
+  "name": "pulled pork",
+  "aliases": ["pulled-pork", "pulled"],
+  "said": "In the Carolinas the meat is barbecue and the counter asks 'chopped or sliced?'; 'pulled pork' is what the same meat is called on a menu written for people from somewhere else, and on the Carolina menus that are."
+ },
+ "etymology": {
+  "root": "pull (v.), Old English pullian 'to pluck off (wool), to draw out', of uncertain origin + pork (n.), c. 1300, Old French porc 'pig', Latin porcus; the participle names how the cooked meat leaves the bone — pulled apart, not cut",
+  "first_attested": "",
+  "note": "No dictionary consulted dates the compound: Wiktionary defines it without a citation, and the etymologies here are of the two words. The cut it assumes, the Boston butt, is the upper shoulder, named for the barrels, called butts, that New England butchers packed pork in; the name is in print by 1915 (Wikipedia).",
+  "tier": "cited",
+  "source": "s:etymonline"
+ },
+ "region": ["carolinas", "us-south"],
+ "facets": {"letter": "P", "part_of_speech": "noun"},
+ "text": {
+  "what": "Pork cooked slowly over coals or in a cooker until it comes off the bone in strands, then taken apart by hand or with forks rather than cut. Outside the Carolinas it is the name of the dish, and the dish is a shoulder — the Boston butt, the upper shoulder, is the cut it almost always means. Inside the Carolinas the meat is called barbecue, and 'pulled' is one answer, with 'chopped' and 'sliced', to how you want it: Memphis pulls by hand; the North Carolina east chops fine; Lexington serves it pulled or lightly chopped, leaving strands.",
+  "story": "Pull is Old English pullian, to pluck off or draw out, and pork came in from Old French porc after 1300. Together they name a texture: meat cooked until its connective tissue gives way, which the Wikipedia article puts at an internal temperature of 195 to 205 °F, and taken apart along the grain. The cut the phrase assumes is the shoulder, and the shoulder's upper half is the Boston butt, named for the New England barrels, called butts, that pork was packed in; the name is in print by 1915. The Carolinas had the thing before the phrase. The east chopped its whole hog with cleavers; Lexington chopped or sliced its shoulders; Memphis built its sandwich on shoulder pulled by hand, not chopped with a blade. Ed Mitchell of Wilson builds a pulled pork sandwich from a whole hog, shoulder, ham and belly together; the Dukes restaurants of Orangeburg list pulled pork on the buffet; the South Carolina mustard sandwich is described as pulled pork. *Inference —* a Carolina menu that says pulled pork is speaking to the road; one that says barbecue is speaking to the county. No source consulted dates the compound."
+ },
+ "kin": [
+  {"to": "barbecue", "as": "the Carolina word for the same meat; pulled pork is what it is called when the menu speaks to the rest of the country.", "rel": "term"},
+  {"to": "chopped", "as": "the other answer at the counter — cut with a cleaver rather than taken apart by hand; the east chops fine, Lexington coarse.", "rel": "contrast"},
+  {"to": "pork-shoulder", "as": "the cut the phrase assumes: almost always a shoulder, and the upper half of it is the Boston butt.", "rel": "part"},
+  {"to": "whole-hog", "as": "the cut the east pulls instead; Ed Mitchell's pulled pork sandwich is shoulder, ham and belly from one hog.", "rel": "part"},
+  {"to": "lexington", "as": "the North Carolina style most often served 'pulled' or very lightly chopped, leaving larger strands of muscle.", "rel": "term"},
+  {"to": "eastern-nc", "as": "the style that chops after pulling from the bone, so its meat is never called pulled.", "rel": "contrast"},
+  {"to": "barbecue-sandwich", "as": "the sandwich the phrase usually sells; in South Carolina the mustard-sauce version is described as pulled pork.", "rel": "serves"},
+  {"to": "sc-mustard", "as": "the style whose sandwich Wikipedia describes as pulled pork under a yellow sauce.", "rel": "term"},
+  {"to": "ed-mitchell", "as": "the Wilson pitmaster who builds a pulled pork sandwich from a whole hog rather than a shoulder.", "rel": "person"},
+  {"to": "dukes-bar-b-que", "as": "the Orangeburg family of restaurants whose buffets list pulled pork beside hash and rice.", "rel": "place"}
+ ],
+ "confusable_with": [
+  {"id": "chopped", "tell": "Pulled meat comes in strands the length of the muscle; chopped meat has been cut across with a blade into pieces. On a Carolina tray, strands mean the Piedmont or a hand-pulled kitchen; a fine, even chop means the east."}
+ ],
+ "links": [
+  {"label": "pull — Online Etymology Dictionary", "url": "https://www.etymonline.com/word/pull"},
+  {"label": "Pulled pork — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pulled_pork"},
+  {"label": "pulled pork — Wiktionary", "url": "https://en.wiktionary.org/wiki/pulled_pork"}
+ ],
+ "sources": ["s:etymonline", "s:wp-pulled-pork", "s:wp-boston-butt", "s:wiktionary-pulled-pork", "s:wp-barbecue-sandwich", "s:wp-barbecue-in-north-carolina", "s:wp-barbecue-in-the-united-states", "s:wp-whole-hog-barbecue", "s:wp-ed-mitchell-pitmaster", "s:wp-dukes-bar-b-que", "s:ncpedia-barbecue"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-pulled-pork"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:wp-pulled-pork", "note": "the word roots from etymonline; the Boston butt from its Wikipedia article; the Memphis contrast from the Barbecue in the United States article; the last two sentences are this project's inference and its report of a gap"},
+   "names.said": {"tier": "tradition", "note": "usage as reported in the Barbecue sandwich and Barbecue in North Carolina articles ('barbecue' in NC means chopped pork) and on Carolina menus"},
+   "etymology": {"tier": "cited", "source": "s:etymonline", "note": "no first attestation for the compound was found; first_attested is left blank on purpose"}
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}

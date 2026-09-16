@@ -1,0 +1,299 @@
+{
+ "schema": 1,
+ "id": "adam-scott",
+ "type": "person",
+ "names": {
+  "name": "Adam Scott",
+  "aliases": [
+   "Rev. Adam Scott",
+   "Elder Adam Scott"
+  ],
+  "sort": "Scott, Adam"
+ },
+ "region": [
+  "nc-east",
+  "nc"
+ ],
+ "facets": {
+  "role": [
+   "cook",
+   "founder",
+   "sauce-maker"
+  ],
+  "state": "NC",
+  "styles": [
+   "eastern-nc"
+  ]
+ },
+ "text": {
+  "what": "The Rev. Adam Scott (1890–1983) was a Black cook and Holiness minister in Goldsboro who by his company's date went into the barbecue business in 1917, cooking whole hogs in his back yard and selling chopped pork with a vinegar sauce through the back door; between 1931 and 1933 the house on Brazil Street became a restaurant. He said the sauce came to him in a dream; his son A. Martel Scott patented it in 1946, and the family still bottles it. David Cecelski's account has him catering a barbecue for President Franklin Roosevelt at the White House in 1933.",
+  "story": "Adam Scott was born in Goldsboro in 1890, the son of Joseph Scott, who was born in Oberlin, Ohio, and the grandson of Charles and Mary Scott, who had likely been enslaved in Johnston County. His first cooking job was at the Elberon Hotel in Atlantic City in 1911. Back home he catered barbecues from about the mid-1910s — 1917 is the company's founding date — and between 1931 and 1933 opened a restaurant at his home on Brazil Street: two hogs a week at first, cooked Friday night and sold Saturday through the back door, then four to seven hogs a day, with an enclosed porch for a dining room. His first customers were mostly white; he ran a separate cafe for Black customers elsewhere in town. The sauce, sugar-free and fat-free, took him three years to settle, and he said the precise ingredients were revealed to him in a dream. *Tradition holds —* in 1933 he catered barbecue in the White House Rose Garden for President Franklin Roosevelt; Cecelski tells it as fact, without a document behind it, and this record has seen none. He was a minister of the United Holy Church of America, by 1938 pastor of three churches and its general treasurer, and he closed on Sundays. In the 1940s he moved to Winston-Salem to cook for R.J. Reynolds and other private clients; his son Alvin Martel Scott, born 1913, took the Goldsboro business, patented Scott's Famous Barbecue Sauce in 1946, and by 1950 there were three Scott's around town, one run by Adam on the Raleigh road. He died in 1983 at ninety-three and is buried in Elmwood Cemetery under the word 'Elder'. The American Royal made him a legacy inductee of its Barbecue Hall of Fame in 2022.",
+  "today": "Dead: 1983, at ninety-three, in Goldsboro. The restaurants closed after 2001; the sauce is made by his descendants and sold in eastern North Carolina groceries and online, and the American Royal's Barbecue Hall of Fame lists him as a 2022 legacy inductee."
+ },
+ "kin": [
+  {
+   "to": "scotts-famous-barbecue",
+   "as": "the business he began at his back door and his son grew to three restaurants by 1950.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "as": "the sauce he said came to him in a dream, patented by his son in 1946 and still bottled by the family.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "as": "his sauce is the eastern sauce: vinegar and spices, no tomato, no sugar.",
+   "rel": "sauce"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style he cooked and bottled: whole hog and vinegar in Goldsboro from 1917.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut, two a week in the back yard and later seven a day.",
+   "rel": "part"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "as": "Goldsboro's later barbecue name, opened in 1962 on U.S. 70, still cooking.",
+   "rel": "kin"
+  },
+  {
+   "to": "bob-melton",
+   "as": "the other founding name of the east's first generation: Melton's shed at Rocky Mount in 1924, Scott's back door in Goldsboro from 1917.",
+   "rel": "kin"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "whose Black Smoke tells the history of Black cooks like Scott, whose customers were white and whose name went on the bottle.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "Remembering a Barbecue Legend: The Rev. Adam Scott — David Cecelski (2025)",
+   "url": "https://davidcecelski.com/2025/11/21/the-artist-of-barbecue-the-rev-adam-scott-and-a-family-journey-from-slavery-to-the-white-house/"
+  },
+  {
+   "label": "Scott's Cafe — The Green Book in North Carolina (NC AAHC)",
+   "url": "https://aahc.nc.gov/green-book/scotts-cafe"
+  },
+  {
+   "label": "Scott's Barbecue Sauce — Our History",
+   "url": "https://scottsbarbecuesauce.com/our-history/"
+  }
+ ],
+ "sources": [
+  "s:web-cecelski-adam-scott",
+  "s:web-aahc-scotts-cafe",
+  "s:web-scotts-history",
+  "s:web-ncarts-goldsboro",
+  "s:web-moss-bbq-hof-2022",
+  "s:miller-black-smoke"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-cecelski-adam-scott"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-cecelski-adam-scott",
+    "note": "birth, parents, 1911, Brazil Street, the churches, Winston-Salem and the death from Cecelski; 1917, the three years and the dream from the company's history; Martel's birth, the patent and the three 1950 locations from the AAHC essay; the Rose Garden is Cecelski's statement, marked tradition; the 2022 induction from Moss's post"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ncarts-goldsboro",
+    "note": "the 2001 closure from Cecelski and the Arts Council; stores from the sauce record's sources"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-15",
+ "blurb": "The Rev. Adam Scott (1890–1983) was a Black cook and Holiness minister in Goldsboro who by his company's date went into the barbecue business in 1917, cooking whole hogs in his back yard and selling chopped pork with a…",
+ "region_terms": [
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "the business he began at his back door and his son grew to three restaurants by 1950.",
+   "rel": "place"
+  },
+  {
+   "to": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "the sauce he said came to him in a dream, patented by his son in 1946 and still bottled by the family.",
+   "rel": "sauce"
+  },
+  {
+   "to": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "his sauce is the eastern sauce: vinegar and spices, no tomato, no sugar.",
+   "rel": "sauce"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style he cooked and bottled: whole hog and vinegar in Goldsboro from 1917.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut, two a week in the back yard and later seven a day.",
+   "rel": "part"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "Goldsboro's later barbecue name, opened in 1962 on U.S. 70, still cooking.",
+   "rel": "kin"
+  },
+  {
+   "to": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "the other founding name of the east's first generation: Melton's shed at Rocky Mount in 1924, Scott's back door in Goldsboro from 1917.",
+   "rel": "kin"
+  },
+  {
+   "to": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "whose Black Smoke tells the history of Black cooks like Scott, whose customers were white and whose name went on the bottle.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-cecelski-adam-scott",
+   "kind": "web",
+   "title": "Remembering a Barbecue Legend: The Rev. Adam Scott of Goldsboro, N.C. — David Cecelski (21 Nov 2025)",
+   "publisher": "David Cecelski",
+   "url": "https://davidcecelski.com/2025/11/21/the-artist-of-barbecue-the-rev-adam-scott-and-a-family-journey-from-slavery-to-the-white-house/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-aahc-scotts-cafe",
+   "kind": "web",
+   "title": "Scott's Cafe — The Green Book in North Carolina (essay by Brandie K. Ragghianti, 2022)",
+   "publisher": "North Carolina African American Heritage Commission",
+   "url": "https://aahc.nc.gov/green-book/scotts-cafe",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-scotts-history",
+   "kind": "web",
+   "title": "Our History",
+   "publisher": "Scott's Barbecue Sauce, Goldsboro",
+   "url": "https://scottsbarbecuesauce.com/our-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ncarts-goldsboro",
+   "kind": "web",
+   "title": "Let's Eat: Goldsboro — African American Music Trails",
+   "publisher": "North Carolina Arts Council",
+   "url": "https://www.ncarts.org/arts-council-z/cultural-tourism-and-trails/african-american-music-trails/lets-eat/goldsboro",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-moss-bbq-hof-2022",
+   "kind": "web",
+   "title": "BBQ Hall of Fame Inductees Announced — Robert F. Moss (25 May 2022)",
+   "publisher": "Robert F. Moss",
+   "url": "https://robertfmoss.com/features/BBQ-Hall-of-Fame-Inductees-Announced",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:miller-black-smoke",
+   "kind": "book",
+   "title": "Black Smoke: African Americans and the United States of Barbecue",
+   "author": "Adrian Miller",
+   "publisher": "University of North Carolina Press",
+   "year": 2021,
+   "url": "https://uncpress.org/book/9781469662800/black-smoke/"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-cecelski-adam-scott"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-cecelski-adam-scott",
+   "note": "birth, parents, 1911, Brazil Street, the churches, Winston-Salem and the death from Cecelski; 1917, the three years and the dream from the company's history; Martel's birth, the patent and the three 1950 locations from the AAHC essay; the Rose Garden is Cecelski's statement, marked tradition; the 2022 induction from Moss's post"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-ncarts-goldsboro",
+   "note": "the 2001 closure from Cecelski and the Arts Council; stores from the sauce record's sources"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "scotts-barbecue-sauce",
+   "type": "sauce",
+   "name": "Scott's Barbecue Sauce",
+   "as": "the minister and cook who said the recipe came to him in a dream, and sold barbecue in Goldsboro from 1917.",
+   "rel": "person"
+  },
+  {
+   "from": "vinegar-pepper-sauce",
+   "type": "sauce",
+   "name": "vinegar-and-pepper sauce",
+   "as": "who sold his own vinegar sauce with his barbecue in Goldsboro from 1917.",
+   "rel": "person"
+  },
+  {
+   "from": "scotts-famous-barbecue",
+   "type": "place",
+   "name": "Scott's Famous Barbecue",
+   "as": "its founder, cook, preacher and the man who cooked for Roosevelt in 1933.",
+   "rel": "person"
+  },
+  {
+   "from": "bob-melton",
+   "type": "person",
+   "name": "Bob Melton",
+   "as": "his contemporary in Goldsboro: Scott sold from a back door from 1917, Melton from a shed from 1924.",
+   "rel": "kin"
+  },
+  {
+   "from": "wilber-shirley",
+   "type": "person",
+   "name": "Wilber Shirley",
+   "as": "the Goldsboro cook of the generation before his; Scott's sauce is still sold in the town where Wilber's still cooks.",
+   "rel": "kin"
+  }
+ ]
+}

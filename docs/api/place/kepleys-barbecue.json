@@ -1,0 +1,305 @@
+{
+ "schema": 1,
+ "id": "kepleys-barbecue",
+ "type": "place",
+ "names": {
+  "name": "Kepley's Bar-B-Q",
+  "aliases": [
+   "Kepley's Barbecue",
+   "Kepley's"
+  ],
+  "sort": "Kepleys Bar-B-Q"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "closed",
+  "founded": "1948",
+  "fuel": "unknown",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A High Point, Guilford County, barbecue stand in a surplus World War II Quonset hut — a half-cylinder of corrugated steel — opened in June 1948 by Hayden Kepley on North Main Street and closed on February 8, 2025 after 77 years. Bob Burleson came to work there as a sixteen-year-old curb boy the year it opened, bought it with Charlie Johnson when Kepley retired in 1962, and ran it until his death in May 2022 at ninety; his daughter Susan Burleson closed it when she could not staff the hours. It served chopped, vinegary pork with tangy red slaw on a bun, hushpuppies, and 85-cent coffee with refills.",
+  "story": "Hayden Kepley bought an Army Quonset hut in 1948 and started selling barbecue from it; Bob Burleson, newly motherless at sixteen, arrived that summer as a curb boy. In 1962 Kepley sold to Burleson and his son-in-law Charlie Johnson; Johnson retired in 2001 and Susan Burleson became her father's co-owner, then sole owner after he died in May 2022. The menu board was hand-painted wood and did not change for decades; the hut got green awnings outside and wood paneling within. The High Point Enterprise reported in January 2025 that after four longtime waitresses retired Susan Burleson could not find people willing to work the hours — 'I would have to work up here all day and night, and I'm just too old to do that' — and would not sell, because new owners 'would run it the way they want to run it, and it just wouldn't be Kepley's anymore.' The last day was February 8, 2025. Stephanie Hunt, who grew up nearby, wrote its farewell in Garden & Gun two days before.",
+  "how": "Pigs roasted slowly — the sources read do not say over what fuel — and the pork chopped and dressed vinegary, served on a bun under red slaw with hushpuppies on the side; coffee 85 cents with free refills, in 2025. Kepley's shipped barbecue nationwide from the hut.",
+  "today": "Closed since February 8, 2025. The Quonset hut stands at 1304 North Main Street, High Point; OpenStreetMap still carried the listing, with a 1948 start date, in February 2026."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style, in the High Point form: chopped pork, red slaw, a bun.",
+   "rel": "whole"
+  },
+  {
+   "to": "red-slaw",
+   "as": "on the sandwich, tangy.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "as": "the signature: chopped pork and red slaw on a bun.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the side.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopped",
+   "as": "the pork came chopped, vinegary.",
+   "rel": "term"
+  },
+  {
+   "to": "short-sugars",
+   "as": "the Reidsville drive-in of the same era, closed three weeks earlier in the same winter.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.97231,
+  "lon": -80.01672,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "1304 N Main St",
+  "city": "High Point",
+  "county": "Guilford",
+  "state": "NC",
+  "postcode": "27262"
+ },
+ "links": [
+  {
+   "label": "Kepley's Bar-B-Q — history (official)",
+   "url": "https://www.kepleysbarbecue.com/history/"
+  },
+  {
+   "label": "An Ode to Kepley's Barbecue — Garden & Gun (2025)",
+   "url": "https://gardenandgun.com/an-ode-to-kepleys-barbecue-a-north-carolina-institution"
+  }
+ ],
+ "sources": [
+  "s:web-hpe-kepleys-closing",
+  "s:web-gardenandgun-kepleys",
+  "s:web-kepleysbarbecue-history",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-hpe-kepleys-closing"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-hpe-kepleys-closing",
+    "note": "OSM node 6388367341 check_date 2026-02-10, start_date 1948"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "tags": {
+    "tier": "cited",
+    "source": "s:web-kepleysbarbecue-history",
+    "note": "The record states that the sources read do not say over what fuel the pigs roasted, so no wood-cooked tag is set."
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "closed",
+   "source": "s:web-hpe-kepleys-closing",
+   "tier": "cited",
+   "note": "Closed February 8, 2025 after 77 years, when Susan Burleson could not staff the hours.",
+   "since": "2025-02-08"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-kepleysbarbecue-history",
+   "tier": "cited",
+   "note": "Bob Burleson came as a sixteen-year-old curb boy in 1948, bought the stand with Charlie Johnson in 1962 and ran it until his death in 2022; his daughter Susan Burleson closed it."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "garden-and-gun",
+   "what": "a feature",
+   "source": "s:web-gardenandgun-kepleys"
+  }
+ ],
+ "blurb": "A High Point, Guilford County, barbecue stand in a surplus World War II Quonset hut — a half-cylinder of corrugated steel — opened in June 1948 by Hayden Kepley on North Main Street and closed on February 8, 2025 after…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style, in the High Point form: chopped pork, red slaw, a bun.",
+   "rel": "whole"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "on the sandwich, tangy.",
+   "rel": "serves"
+  },
+  {
+   "to": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the signature: chopped pork and red slaw on a bun.",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "on the side.",
+   "rel": "serves"
+  },
+  {
+   "to": "chopped",
+   "type": "term",
+   "name": "chopped",
+   "as": "the pork came chopped, vinegary.",
+   "rel": "term"
+  },
+  {
+   "to": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "the Reidsville drive-in of the same era, closed three weeks earlier in the same winter.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-hpe-kepleys-closing",
+   "kind": "web",
+   "title": "Kepley's, city's iconic barbecue restaurant, to close next month — High Point Enterprise (24 Jan 2025, via Yahoo News)",
+   "publisher": "The High Point Enterprise",
+   "url": "https://www.yahoo.com/news/kepley-city-iconic-barbecue-restaurant-045900655.html",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-gardenandgun-kepleys",
+   "kind": "web",
+   "title": "An Ode to Kepley's Barbecue, a North Carolina Institution — Garden & Gun (Stephanie Hunt, 6 Feb 2025)",
+   "publisher": "Garden & Gun",
+   "url": "https://gardenandgun.com/an-ode-to-kepleys-barbecue-a-north-carolina-institution",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-kepleysbarbecue-history",
+   "kind": "web",
+   "title": "History — Kepley's Bar-B-Q",
+   "publisher": "Kepley's Bar-B-Q",
+   "url": "https://www.kepleysbarbecue.com/history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-hpe-kepleys-closing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-hpe-kepleys-closing"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-hpe-kepleys-closing"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-hpe-kepleys-closing",
+   "note": "OSM node 6388367341 check_date 2026-02-10, start_date 1948"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": [],
+   "source": "s:web-hpe-kepleys-closing",
+   "note": "Closed February 8, 2025 after 77 years, when Susan Burleson could not staff the hours.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-kepleysbarbecue-history",
+   "note": "Bob Burleson came as a sixteen-year-old curb boy in 1948, bought the stand with Charlie Johnson in 1962 and ran it until his death in 2022; his daughter Susan Burleson closed it.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "garden-and-gun",
+   "label": "Garden & Gun",
+   "what": "a feature",
+   "url": "",
+   "year": null,
+   "source": "s:web-gardenandgun-kepleys"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "the other Piedmont drive-in of the same generation, closed the same winter, February 2025.",
+   "rel": "kin"
+  }
+ ]
+}

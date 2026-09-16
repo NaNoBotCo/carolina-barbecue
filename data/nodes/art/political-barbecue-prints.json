@@ -1,0 +1,187 @@
+{
+ "schema": 1,
+ "id": "political-barbecue-prints",
+ "type": "art",
+ "names": {
+  "name": "Going the whole hog — the 1830s barbecue lithographs",
+  "aliases": [
+   "The Political Barbecue",
+   "Going the Whole Hog",
+   "Jackson-era barbecue cartoons"
+  ],
+  "sort": "Going the whole hog"
+ },
+ "region": [
+  "us-south",
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "print",
+  "state": "us"
+ },
+ "text": {
+  "what": "A small group of American political prints from the 1830s in which the barbecue is the joke and the pig is the politician. A lithograph — a print pulled from a drawing made on stone, the cheap illustrated medium of the period — could be sold loose from a shop window within days of the news. H. R. Robinson of New York issued The Political Barbecue in 1834, laying Andrew Jackson on a grid iron over a brick pit lettered PUBLIC OPINION, with one bystander remarking that in South Carolina it is called barbecue. Others draw out the campaign phrase going the whole hog. They are the oldest barbecue pictures this project can show."
+ },
+ "sections": [
+  {
+   "h": "What going the whole hog meant",
+   "text": "The phrase was already a political term of art before the prints. To go the whole hog was to back a man or a measure entirely, without the hedging and half-support a faction could otherwise offer, and in the Jackson years it attached itself to the Democrats — a Whig could use it as an accusation of blind loyalty and a Democrat could use it as a boast, which is what makes it usable in a picture.\n\nBoth sides did use it. One of these sheets is not a cartoon at all but a ballot: a Democratic ticket for Martin Van Buren for President and Richard M. Johnson for Vice President, with the Ohio electors listed under them, and at the head a woodcut of a man in a tall hat carrying a hog across his shoulders. Two banners come off the hog. One reads Going the whole Hog. The other reads Pork 10 cts. p lb.\n\nThe pun sits on a real thing. A whole hog was what a barbecue actually cooked: the animal split and laid over coals, fed to a crowd assembled to hear a candidate. A print that draws a whole hog in an election year is making a joke and reporting a fact at once, and the audience had to be told neither half.",
+   "images": [
+    1
+   ]
+  },
+  {
+   "h": "Robinson's Jackson on the grid iron",
+   "text": "The Political Barbecue, a lithograph on wove paper about 25.5 by 36.6 centimetres, was published by H. R. Robinson at 52 Courtlandt Street, New York, in 1834, and is held by the Library of Congress. Andrew Jackson lies stripped on a grid iron over a brick pit with two arched fireboxes, and the word lettered along the brickwork between them is PUBLIC OPINION. Justice stands at the left with her scales and a knife. Five men in tall hats lean over the body; two more crouch at the fireboxes working the coals.\n\nThe speech balloons are a survey of what the country called the thing. One man says that in Massachusetts they call it roasting; another that in Kentucky it is their High Game to their Low Jack. A third says: 'In South Carolina it is called Barbecue only he wants a little more Basting.' The sheet is a national joke that stops to name South Carolina as the place where the word lives.\n\nA second treatment of the subject, undated but placed around 1832 to 1833, survives in the Digital Commonwealth from an unknown artist, captioned The political barbecue, Going the whole hog. Robinson's other sheet drops the fire altogether: Going the Whole Hog shows an enormous sow lying in a yard, a band across her shoulders reading THE EMPIRE STATE, and a litter of small pigs at her, each labelled with an office or a favour. A signpost points To Kinderhook, Van Buren's home village. Van Buren leans over the fence and says the sow and her litter have made him the greatest man in the Union; a farmer opposite, drawn with a Dutch accent, says the pigs will suck the life's blood out of that old sow.",
+   "images": [
+    0,
+    3,
+    2
+   ]
+  },
+  {
+   "h": "Why they sit in a Carolina catalogue",
+   "text": "None of these prints is Carolinian. They are New York and Boston commercial lithographs about national politics. They belong here because the thing they are joking about is the Carolina and Virginia political barbecue: the free feed a candidate laid on to gather a crowd, which Robert Moss finds established in the colonies by the 1700s and running through the early republic.\n\n*Inference —* a cartoonist only reaches for an image his readers already hold. That a northern print shop could draw a candidate on a barbecue grid iron in 1834 and expect the country to get it says the southern political barbecue was national furniture by then. South Carolina's Galivants Ferry stump meeting, which began in 1880 and is still held, is the same institution two generations later, with the pig still on the fire."
+  }
+ ],
+ "kin": [
+  {
+   "to": "political-barbecue",
+   "as": "the institution the prints are drawing: the candidate's free pig and the crowd it gathers.",
+   "rel": "event"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cooking the phrase is a pun on, and the meat of the colonial rally.",
+   "rel": "pit"
+  },
+  {
+   "to": "hog",
+   "as": "the word doing the work in every one of these prints.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "as": "the historian who puts the whole-hog political rally in the colonies by the 1700s.",
+   "rel": "person"
+  },
+  {
+   "to": "barbecue",
+   "as": "the word a bystander in the 1834 print says South Carolina uses, while Massachusetts says roasting.",
+   "rel": "term"
+  },
+  {
+   "to": "cannibal-pig-sign",
+   "as": "the later American habit of putting a pig on a sign and giving it a part to play.",
+   "rel": "art"
+  },
+  {
+   "to": "fundraiser-barbecue",
+   "as": "the surviving form of the free feed that gathers a crowd for a purpose.",
+   "rel": "event"
+  }
+ ],
+ "links": [
+  {
+   "label": "The political barbecue (1834) — Library of Congress catalogue record",
+   "url": "https://lccn.loc.gov/2008661772"
+  },
+  {
+   "label": "The political barbecue, Going the whole hog — Digital Commonwealth",
+   "url": "https://www.digitalcommonwealth.org/search/commonwealth:9880w959q"
+  }
+ ],
+ "sources": [
+  "s:moss-barbecue-history",
+  "s:commons",
+  "s:wp-whole-hog-barbecue"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:commons",
+   "note": "the prints' dates, dimensions, printmaker and holding institution come from the Library of Congress and Digital Commonwealth catalogue records carried on the Commons file pages"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "harvested",
+    "source": "s:commons",
+    "note": "the ballot is described from the sheet itself (Library of Congress LCCN 2008661288); the political sense of 'going the whole hog' in the Jackson years is general knowledge of the period, with no dictionary citation read for this record"
+   },
+   "sections[1].text": {
+    "tier": "harvested",
+    "source": "s:commons",
+    "note": "read off the plates themselves: Robinson's imprint '52 Courtlandt St. New York', the 'SECOND EDITION' line and the speech balloons, including the South Carolina one, are lettered on the 1834 print; the 25.5 x 36.6 cm measurement is the Library of Congress catalogue record"
+   },
+   "sections[2].text": {
+    "tier": "inference",
+    "note": "Moss (2010) for the colonial political barbecue; the reading of what a northern cartoonist could assume is this project's own"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "political-barbecue-prints/political-barbecue-prints-andrew-jackson-barbecue-cartoon.jpg",
+   "source": "commons",
+   "title": "File:Andrew Jackson Barbecue Cartoon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Andrew_Jackson_Barbecue_Cartoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AAndrew_Jackson_Barbecue_Cartoon.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Henry R. Robinson",
+   "credit": "https://www.loc.gov/item/2008661772/",
+   "alt": "The Political Barbecue, an 1834 lithograph: Andrew Jackson lies stripped on a grid iron over a brick pit whose two arched fireboxes are lettered PUBLIC OPINION. Justice stands at the left with scales and a knife; five men in tall hats lean over the body and two more crouch at the fires. One speech balloon reads that in South Carolina it is called Barbecue, another that in Massachusetts they call it roasting.",
+   "date": "1834",
+   "primary": true,
+   "sha256": "61033b19091c3444fec2f6908083289ddc8fba03d4ae5c4914d47bc4bed2f699"
+  },
+  {
+   "file": "political-barbecue-prints/political-barbecue-prints-democratic-ticket-going-the-whole-hog-lccn2008661288.jpg",
+   "source": "commons",
+   "title": "File:Democratic ticket. Going the whole hog LCCN2008661288.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Democratic_ticket._Going_the_whole_hog_LCCN2008661288.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADemocratic_ticket._Going_the_whole_hog_LCCN2008661288.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2008661288\nImage download: https://cdn.loc.gov/service/pnp/cph/3a00000/3a03000/3a03200/3a03209r.jpg\nOriginal url: https://www.loc.gov/pictures/item/2",
+   "alt": "A printed Democratic ballot: MARTIN VAN BUREN for President, RICHARD M. JOHNSON for Vice President, with the Ohio electors listed below. At the head is a woodcut of a man in a tall hat carrying a hog across his shoulders, with banners reading Going the whole Hog and Pork 10 cts. p lb.",
+   "date": "1836",
+   "primary": false,
+   "sha256": "20c16cd1f42e01f8ba36156888a2d4c1eeecdaeff9206f49b0bf870931ff0a5c"
+  },
+  {
+   "file": "political-barbecue-prints/political-barbecue-prints-going-the-whole-hog-lccn2008661311.jpg",
+   "source": "commons",
+   "title": "File:Going the whole hog LCCN2008661311.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Going_the_whole_hog_LCCN2008661311.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AGoing_the_whole_hog_LCCN2008661311.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Henry R. Robinson",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2008661311\nImage download: https://cdn.loc.gov/service/pnp/cph/3b30000/3b37000/3b37700/3b37763r.jpg\nOriginal url: https://www.loc.gov/pictures/item/2",
+   "alt": "Going the Whole Hog, a lithograph published by H. R. Robinson of New York: an enormous sow lies in a yard with a band across her shoulders reading THE EMPIRE STATE, a litter of small pigs at her, each labelled with an office. A signpost points To Kinderhook; Van Buren looks over the fence at one side and a farmer at the other.",
+   "date": "1837",
+   "primary": false,
+   "sha256": "6979947aa9bdc27bff595144d611bf470bc2df0aedec9168d4c96590d1add0c2"
+  },
+  {
+   "file": "political-barbecue-prints/political-barbecue-prints-the-political-barbecue-going-the-whole-hog-c-1832-1833-by-an.jpg",
+   "source": "commons",
+   "title": "File:The political barbecue, Going the whole hog, c. 1832-1833, by an unknown artist, from the Digital Commonwealth - commonwealth 9880w959q.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_political_barbecue%2C_Going_the_whole_hog%2C_c._1832-1833%2C_by_an_unknown_artist%2C_from_the_Digital_Commonwealth_-_commonwealth_9880w959q.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_political_barbecue%2C_Going_the_whole_hog%2C_c._1832-1833%2C_by_an_unknown_artist%2C_from_the_Digital_Commonwealth_-_commonwealth_9880w959q.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Unknown authorUnknown author",
+   "credit": "Digital Commonwealth",
+   "alt": "An undated version of The Political Barbecue, captioned Going the whole hog, by an unknown artist, held by the Digital Commonwealth and placed around 1832 to 1833.",
+   "date": "between circa 1832 and circa 1833date QS",
+   "primary": false,
+   "sha256": "df9a3e6e183d176a7ceebb3ff1b9979299d32e68b7bfa3d672e3bd6a467d5eb3"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

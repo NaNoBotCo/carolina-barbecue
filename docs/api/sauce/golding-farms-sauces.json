@@ -1,0 +1,292 @@
+{
+ "schema": 1,
+ "id": "golding-farms-sauces",
+ "type": "sauce",
+ "names": {
+  "name": "Golding Farms Foods",
+  "aliases": [
+   "Golding Farms",
+   "Golding Blends"
+  ],
+  "said": "Golding Farms on the retail label; Golding Blends on the company's own site."
+ },
+ "region": [
+  "nc-piedmont",
+  "nc"
+ ],
+ "facets": {
+  "base": "mustard",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A Winston-Salem sauce manufacturer, the second of that city's two, and one whose output mostly reaches a table under someone else's name. It sells a retail line under the Golding Farms label — the Honey Mustard dipping sauce reads distilled vinegar, canola oil, sugar, honey, water, mustard seed, at 3.5 grams of sugar to the tablespoon — and blends and packs sauces for brands, food service and industrial customers.",
+  "story": "The company says it has been bringing flavor forward since 1972 and describes fifty years of blending for brand, food service and industrial buyers from Winston-Salem, with an in-house development team of a chef, scientists and technicians.\n\n*Inference —* Winston-Salem holds both ends of the bottled-sauce trade. T.W. Garner makes Texas Pete under its own name and sells it in every grocery in the state; Golding blends and packs, and the name on the bottle is often a customer's. Between them the city puts more sauce in circulation than any pit town, which is a fact about the sauce shelf rather than about the pits. No Golding Farms barbecue sauce label turned up on 16 September 2026, so the retail reading on this page is of the honey mustard dipping sauce, which the label does not call a barbecue sauce."
+ },
+ "kin": [
+  {
+   "to": "texas-pete",
+   "as": "the other Winston-Salem sauce house, three miles away, whose bottle carries its own name.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the South Carolina sauce its honey mustard shares a first ingredient order with, and none of the history.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington",
+   "as": "the style of the Piedmont it manufactures in, whose pits mix their own dip and buy no bottles.",
+   "rel": "style"
+  }
+ ],
+ "links": [
+  {
+   "label": "Golding Blends — About",
+   "url": "https://www.goldingblends.com/about"
+  },
+  {
+   "label": "USDA FoodData Central 1850366",
+   "url": "https://fdc.nal.usda.gov/food-details/1850366/nutrients"
+  }
+ ],
+ "sources": [
+  "s:web-goldingblends-about",
+  "s:web-usda-fdc-branded",
+  "s:web-sauce-harvest-2026-09-16",
+  "s:book-mrs-hills-new-cook-book",
+  "s:wikibooks-savory-mustard-sauce",
+  "s:wikibooks-barbecue-sauce-sweet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-goldingblends-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-goldingblends-about",
+    "note": "the 1972 date, the fifty years and the development team are the company's own About page; the Winston-Salem paragraph is marked inference"
+   },
+   "profile": {
+    "tier": "harvested",
+    "source": "s:web-usda-fdc-branded"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-mrs-hills-new-cook-book",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Sauce for Barbecues (receipt 335)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "Melt half a pound of butter; stir into it a large tablespoonful of mustard, half a teaspoonful of red pepper, one of black, salt to taste; add vinegar until the sauce has a strong acid taste. The quantity of vinegar will depend upon the strength of it. As soon as the meat becomes hot, begin to baste, and continue basting frequently until it is done; pour over the meat any sauce that remains.",
+   "page": 171,
+   "note": "Mustard, vinegar, butter and pepper, 1867: the family a honey-mustard dipping sauce belongs to. The maker's own formula is not published; these are free-to-use recipes of the same family, for a cook who wants to make a jar."
+  },
+  {
+   "title": "Savory Mustard Sauce",
+   "source": "s:wikibooks-savory-mustard-sauce",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASavory_Mustard_Sauce",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "½ cup Dijon mustard",
+    "¼ cup chicken broth",
+    "1 ¼ tsp cornstarch",
+    "1 pinch of salt",
+    "¼ tsp freshly ground black pepper",
+    "1 tbsp olive oil",
+    "1 shallot, very finely minced",
+    "3 tbsp unsalted butter, divided"
+   ],
+   "text": "1. Heat olive oil in a large slope-sided skillet over medium high heat. Add shallot and sauté until golden.\n2. Meanwhile, combine broth and starch. Set aside.\n3. Once shallot has cooked, add mustard, salt, and pepper to pan. Decrease heat to medium low heat.\n4. Once sauce heats to just below a simmer, add broth mixture. Cook, whisking continuously, until sauce thickens slightly.\n5. Whisk in butter 1 tbsp at a time, waiting for the one before it to fully melt before adding another.\n6. Once all butter has been used, remove sauce from heat.\n7. Serve with a steak or some pork tenderloin, or use as a grilling baste."
+  },
+  {
+   "title": "Barbecue Sauce (Sweet)",
+   "source": "s:wikibooks-barbecue-sauce-sweet",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "1 cup tomato catsup (ketchup)",
+    "¾ cup cider vinegar",
+    "2–3 tablespoons mustard",
+    "3 tablespoons Worcestershire sauce",
+    "1 cup brown sugar",
+    "1–2 teaspoons celery seed",
+    "3 tablespoons margarine",
+    "¼ teaspoon black pepper",
+    "¼ teaspoon red pepper",
+    "1 teaspoon salt",
+    "1 teaspoon onion flakes",
+    "Garlic powder or minced garlic to taste (optional)"
+   ],
+   "text": "1. Combine all ingredients together and bring to a boil. Reduce heat and simmer 10 to 15 minutes, until it thickens slightly.\n2. Arrange chicken pieces or pork chops in a greased baking dish.\n3. Pour half of sauce over and bake at 350°F (175°C) for 30 to 40 minutes.\n4. Pour remaining sauce over before serving."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "mustard",
+  "maker": "Golding Farms Foods",
+  "town": "Winston-Salem",
+  "state": "NC",
+  "ingredients": [
+   "DISTILLED VINEGAR",
+   "CANOLA OIL",
+   "SUGAR",
+   "HONEY",
+   "WATER",
+   "MUSTARD SEED",
+   "CONTAINS 2% OR LESS OF SALT",
+   "DRIED ONION",
+   "YEAST EXTRACT",
+   "SPICES",
+   "EXTRACTIVES OF PAPRIKA",
+   "YELLOW 5",
+   "XANTHAN GUM",
+   "NATURAL FLAVORS"
+  ],
+  "tomato_rank": 0,
+  "vinegar_rank": 1,
+  "mustard_rank": 6,
+  "sugar_rank": 3,
+  "serving_tbsp": 2,
+  "sugar_g_per_tbsp": 3.5,
+  "sodium_mg_per_tbsp": 70.0,
+  "heat": null,
+  "source": "s:web-usda-fdc-branded",
+  "url": "https://fdc.nal.usda.gov/food-details/1850366/nutrients",
+  "accessed": "2026-09-16",
+  "note": "The Honey Mustard dipping sauce, not a barbecue sauce: the label does not use the word. USDA FoodData Central record 1850366, GTIN 073209001086, 2 Tbsp (30 g) serving. Carried because the company is one of North Carolina's two sauce manufacturers and no Golding Farms barbecue sauce label was found on 2026-09-16."
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A Winston-Salem sauce manufacturer, the second of that city's two, and one whose output mostly reaches a table under someone else's name.",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "texas-pete",
+   "type": "sauce",
+   "name": "Texas Pete",
+   "as": "the other Winston-Salem sauce house, three miles away, whose bottle carries its own name.",
+   "rel": "kin"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the South Carolina sauce its honey mustard shares a first ingredient order with, and none of the history.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style of the Piedmont it manufactures in, whose pits mix their own dip and buy no bottles.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-goldingblends-about",
+   "kind": "web",
+   "title": "Golding Blends (Golding Farms Foods) — company site",
+   "publisher": "Golding Farms Foods, Winston-Salem NC",
+   "url": "https://www.goldingblends.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-usda-fdc-branded",
+   "kind": "web",
+   "title": "FoodData Central, Branded Foods",
+   "publisher": "U.S. Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "Nutrition Facts and ingredient statements submitted by manufacturers. Each row in the harvest names the record it came from in source_url and its numeric id in the note. Public domain.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sauce-harvest-2026-09-16",
+   "kind": "web",
+   "title": "Bottled Carolina barbecue sauce labels, 68 rows",
+   "publisher": "This project — data/harvest/sauces.json",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "The harvest file itself: every label this project could read on 2026-09-16, with the page each row came from. Cited where a record reports a figure computed across the harvest rather than from one bottle.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  },
+  {
+   "id": "s:wikibooks-savory-mustard-sauce",
+   "kind": "web",
+   "title": "Cookbook:Savory Mustard Sauce — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ASavory_Mustard_Sauce",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce-sweet",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce (Sweet) — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Sauce_%28Sweet%29",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-goldingblends-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-goldingblends-about",
+   "note": "the 1972 date, the fifty years and the development team are the company's own About page; the Winston-Salem paragraph is marked inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

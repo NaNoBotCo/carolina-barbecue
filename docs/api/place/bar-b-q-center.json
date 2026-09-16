@@ -1,0 +1,560 @@
+{
+ "schema": 1,
+ "id": "bar-b-q-center",
+ "type": "place",
+ "names": {
+  "name": "Bar-B-Q Center",
+  "aliases": [
+   "The Barbecue Center",
+   "Barbecue Center",
+   "Lexington Barbecue Center"
+  ],
+  "sort": "Bar-B-Q Center"
+ },
+ "region": [
+  "nc-piedmont"
+ ],
+ "facets": {
+  "state": "NC",
+  "status": "open",
+  "founded": "1955",
+  "fuel": "wood",
+  "styles": [
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "A pork-shoulder pit and ice-cream counter on North Main Street in Lexington, Davidson County, that began in 1955 as a dairy bar, put a shoulder on a pit one slow winter, and has been the Conrad family's since: Sonny Conrad (1938–2013), who started on curb service there as a teenager in 1955 and became owner in 1969, his wife Nancy, and their sons Michael and Cecil. Shoulders cook over hickory; the barbecue comes chopped, sliced or 'brown' — the smoky outside of the shoulder — with the dip and red slaw. The ice cream never left: about 200 gallons a week, much of it in a banana split of three and a half pounds.",
+  "story": "The dairy bar of 1955 sold ice cream on Main Street, and in the 1960s the strip was a cruising street for hot rods; Sonny Conrad later put up metal railings to keep the place a family one, Our State wrote in 2014. Ice cream sales dip in winter, so one winter a pork shoulder went on a pit, and the restaurant's own history says it moved to its present building at 900 North Main in the late 1950s. Conrad had begun as a curb-service boy in 1955; in 1969 he married Nancy, a waitress there, and became the owner. He told the Southern Foodways Alliance in November 2011 that the kitchen made a hundred gallons a week each of dip and red slaw, that four customers in ten still ate in their cars, and that 'red slaw. That's a good vegetable.' He died in 2013; Nancy still worked, and the sons ran the day to day. Southern Living and Good Morning America have both come for the banana split. New airtight pits went in around 2013, glowing orange with coals; the dining room seats about a hundred at booths and a counter.",
+  "how": "Pork shoulders cook over hickory coals with the family's spice blend; the meat is chopped or sliced, or served brown from the smoky outside, with the Lexington dip — thin, vinegar-based, reddened with ketchup — and red slaw, hushpuppies, baked beans and cornbread. Curb service brings the tray to the car. The banana split weighs three and a half pounds and is built for a table.",
+  "today": "Open Monday to Saturday 11 to 9, at 900 North Main Street, Lexington, per OpenStreetMap (2026), which tags the address to Thomasville in error; the 27292 postcode and the restaurant's own site say Lexington. Dine-in and curb service."
+ },
+ "kin": [
+  {
+   "to": "lexington",
+   "as": "the style, with the town's largest curb-service trade and a dairy bar's dessert.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut, over hickory.",
+   "rel": "part"
+  },
+  {
+   "to": "outside-brown",
+   "as": "'brown' here is the smoky outside of the shoulder, ordered by name.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-dip",
+   "as": "a hundred gallons a week of it, by Sonny Conrad's count in 2011.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "as": "a hundred gallons a week; 'that's a good vegetable.'",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "as": "on the plate with baked beans and cornbread.",
+   "rel": "serves"
+  },
+  {
+   "to": "hickory-and-oak",
+   "as": "hickory, in airtight pits installed around 2013.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "the Monk family's pit across town, the other name visitors come with.",
+   "rel": "kin"
+  },
+  {
+   "to": "cooks-barbecue",
+   "as": "the small brick-pit house south of town, closed since 2022.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded Sonny Conrad two years before his death.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 35.83159,
+  "lon": -80.2443,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "900 N Main St",
+  "city": "Lexington",
+  "county": "Davidson",
+  "state": "NC",
+  "postcode": "27292"
+ },
+ "links": [
+  {
+   "label": "Barbecue Center — official",
+   "url": "https://barbecuecenter.net/"
+  },
+  {
+   "label": "Barbecue Center — SFA oral history with Sonny Conrad (2011)",
+   "url": "https://www.southernfoodways.org/interview/barbecue-center/"
+  },
+  {
+   "label": "Bar-B-Q Center Makes a Name for Itself in Lexington — Our State",
+   "url": "https://www.ourstate.com/bar-b-q-center/"
+  }
+ ],
+ "sources": [
+  "s:web-barbecuecenter-about",
+  "s:web-ourstate-bar-b-q-center",
+  "s:sfa-barbecue-center",
+  "s:osm",
+  "s:web-truecue-nc",
+  "s:web-barbecuebros-nc-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-barbecuecenter-about"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OSM way/427932015 tags addr:city=Thomasville; city corrected to Lexington from the postcode and the official site"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "city corrected from Thomasville to Lexington"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "wood-cooked",
+   "source": "s:web-truecue-nc",
+   "tier": "harvested",
+   "note": "True 'Cue certified. The campaign's criterion, as its page states it: wood coals or charcoal as the sole heat source, no electricity or gas except for ignition or reheating.",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-barbecuecenter-about",
+   "tier": "cited",
+   "note": "The Conrad family's since 1955: Sonny Conrad, his wife Nancy, and their sons Michael and Cecil."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "true-cue",
+   "what": "certified wood-only pit, listed as The Barbecue Center",
+   "source": "s:web-truecue-nc",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "by": "ncbs-trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as The Barbecue Center",
+   "source": "s:web-barbecuebros-nc-trail",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/"
+  },
+  {
+   "by": "sfa",
+   "what": "an oral history recorded with the pit",
+   "source": "s:sfa-barbecue-center"
+  },
+  {
+   "by": "our-state",
+   "what": "a feature",
+   "source": "s:web-ourstate-bar-b-q-center"
+  }
+ ],
+ "blurb": "A pork-shoulder pit and ice-cream counter on North Main Street in Lexington, Davidson County, that began in 1955 as a dairy bar, put a shoulder on a pit one slow winter, and has been the Conrad family's since: Sonny…",
+ "region_terms": [
+  {
+   "key": "nc-piedmont",
+   "name": "The North Carolina Piedmont",
+   "state": "NC",
+   "note": "Lexington, the Triad, Charlotte; 'Western' or 'Lexington-style' in barbecue talk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "the style, with the town's largest curb-service trade and a dairy bar's dessert.",
+   "rel": "whole"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut, over hickory.",
+   "rel": "part"
+  },
+  {
+   "to": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "'brown' here is the smoky outside of the shoulder, ordered by name.",
+   "rel": "serves"
+  },
+  {
+   "to": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "a hundred gallons a week of it, by Sonny Conrad's count in 2011.",
+   "rel": "sauce"
+  },
+  {
+   "to": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "a hundred gallons a week; 'that's a good vegetable.'",
+   "rel": "serves"
+  },
+  {
+   "to": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "on the plate with baked beans and cornbread.",
+   "rel": "serves"
+  },
+  {
+   "to": "hickory-and-oak",
+   "type": "pit",
+   "name": "hickory and oak",
+   "as": "hickory, in airtight pits installed around 2013.",
+   "rel": "part"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the Monk family's pit across town, the other name visitors come with.",
+   "rel": "kin"
+  },
+  {
+   "to": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "the small brick-pit house south of town, closed since 2022.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded Sonny Conrad two years before his death.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-barbecuecenter-about",
+   "kind": "web",
+   "title": "About — Barbecue Center, Lexington",
+   "publisher": "Barbecue Center",
+   "url": "https://barbecuecenter.net/lexington-barbecue-center-about",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-bar-b-q-center",
+   "kind": "web",
+   "title": "Bar-B-Q Center Makes a Name for Itself in Lexington — Our State (2014)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/bar-b-q-center/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-barbecue-center",
+   "kind": "oral-history",
+   "title": "Barbecue Center — Sonny Conrad, interviewed by Rien T. Fertel, 16 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/barbecue-center/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-truecue-nc",
+   "kind": "web",
+   "title": "True 'Cue NC — certified pits",
+   "publisher": "The Campaign for Real Barbecue",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "accessed": "2026-09-16",
+   "note": "Certification, as the page states it: wood coals or charcoal as the sole heat source; no electricity or gas except to ignite the wood, keep the finished barbecue warm, or reheat it. 68 pits listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-barbecuebros-nc-trail",
+   "kind": "web",
+   "title": "NC Historic Barbecue Trail",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "accessed": "2026-09-16",
+   "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-barbecuecenter-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-barbecuecenter-about"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-barbecuecenter-about"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OSM way/427932015 tags addr:city=Thomasville; city corrected to Lexington from the postcode and the official site"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "city corrected from Thomasville to Lexington"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "wood-cooked",
+   "label": "Cooks over wood",
+   "icon": "🔥",
+   "group": "pit",
+   "evidence": "True 'Cue certification, the NCBS Historic Barbecue Trail, the SCBA, an SFA interview, a press piece describing the pit, the pit's own site",
+   "resources": [
+    "r:true-cue",
+    "r:ncbs-trail",
+    "r:scba-trail"
+   ],
+   "source": "s:web-truecue-nc",
+   "note": "True 'Cue certified. The campaign's criterion, as its page states it: wood coals or charcoal as the sole heat source, no electricity or gas except for ignition or reheating.",
+   "tier": "harvested",
+   "url": "http://www.truecue.org/true-cue-nc"
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-barbecuecenter-about",
+   "note": "The Conrad family's since 1955: Sonny Conrad, his wife Nancy, and their sons Michael and Cecil.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "true-cue",
+   "label": "True 'Cue (Campaign for Real Barbecue)",
+   "what": "certified wood-only pit, listed as The Barbecue Center",
+   "url": "http://www.truecue.org/true-cue-nc",
+   "year": null,
+   "source": "s:web-truecue-nc"
+  },
+  {
+   "key": "ncbs-trail",
+   "label": "NC Barbecue Society Historic Barbecue Trail",
+   "what": "a stop on the Historic Barbecue Trail, listed as The Barbecue Center",
+   "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
+   "year": null,
+   "source": "s:web-barbecuebros-nc-trail"
+  },
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the pit",
+   "url": "",
+   "year": null,
+   "source": "s:sfa-barbecue-center"
+  },
+  {
+   "key": "our-state",
+   "label": "Our State magazine",
+   "what": "a feature",
+   "url": "",
+   "year": null,
+   "source": "s:web-ourstate-bar-b-q-center"
+  }
+ ],
+ "acclaim": 4,
+ "kin_in": [
+  {
+   "from": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "an uptown Lexington pit; in Lexington, the Southern Foodways Alliance notes, eaters don't squirt sauce, they dip.",
+   "rel": "place"
+  },
+  {
+   "from": "lexington-dip",
+   "type": "sauce",
+   "name": "Lexington dip",
+   "as": "where, in the Southern Foodways Alliance's line, eaters don't squirt sauce, they dip.",
+   "rel": "served-at"
+  },
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "homemade, $4.00 small and $6.25 large in September 2026.",
+   "rel": "served-at"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "where the sandwich comes chopped, sliced or coarse chopped.",
+   "rel": "served-at"
+  },
+  {
+   "from": "barbecue-tray",
+   "type": "dish",
+   "name": "barbecue tray",
+   "as": "the other Lexington counter, whose plate is two sides and hushpuppies or a potato bun.",
+   "rel": "served-at"
+  },
+  {
+   "from": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "as": "among the soft drinks, by the 10-, 16- and 32-ounce cup.",
+   "rel": "served-at"
+  },
+  {
+   "from": "hushpuppies",
+   "type": "dish",
+   "name": "hushpuppies",
+   "as": "hushpuppies or a potato bun with every plate.",
+   "rel": "served-at"
+  },
+  {
+   "from": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the other Lexington counter where the word is understood.",
+   "rel": "served-at"
+  },
+  {
+   "from": "red-slaw",
+   "type": "dish",
+   "name": "red slaw",
+   "as": "the other Lexington counter that puts it on the sandwich by default.",
+   "rel": "served-at"
+  },
+  {
+   "from": "sweet-tea",
+   "type": "dish",
+   "name": "sweet tea",
+   "as": "priced from the 10-ounce cup to the gallon jug.",
+   "rel": "served-at"
+  },
+  {
+   "from": "brick-pit",
+   "type": "pit",
+   "name": "brick pit",
+   "as": "a three-chamber brick oven cooking three hundred shoulders a week since 1955.",
+   "rel": "place"
+  },
+  {
+   "from": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "chopped, sliced or coarse chopped 'chunks', dip on the meat.",
+   "rel": "place"
+  },
+  {
+   "from": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "cooks three hundred shoulders a week in a three-chamber brick pit.",
+   "rel": "place"
+  },
+  {
+   "from": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "the Conrads' pit on Main Street.",
+   "rel": "kin"
+  },
+  {
+   "from": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "the other Lexington pit on Main Street, ice cream and all.",
+   "rel": "kin"
+  },
+  {
+   "from": "jim-early",
+   "type": "person",
+   "name": "Jim Early",
+   "as": "a stop on the Trail he drew.",
+   "rel": "place"
+  },
+  {
+   "from": "rien-fertel",
+   "type": "person",
+   "name": "Rien Fertel",
+   "as": "interviewed Sonny Conrad there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "from": "north-carolina-barbecue-society",
+   "type": "org",
+   "name": "North Carolina Barbecue Society",
+   "as": "a Trail stop in Lexington.",
+   "rel": "place"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "an interview in its North Carolina set.",
+   "rel": "place"
+  },
+  {
+   "from": "lexington-barbecue-festival",
+   "type": "event",
+   "name": "Lexington Barbecue Festival",
+   "as": "a Main Street pit house in the festival's town.",
+   "rel": "place"
+  },
+  {
+   "from": "pigs-in-the-city",
+   "type": "art",
+   "name": "Pigs in the City",
+   "as": "one of the Main Street restaurants the pigs stand among.",
+   "rel": "place"
+  }
+ ]
+}

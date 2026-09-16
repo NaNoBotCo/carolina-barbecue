@@ -1,0 +1,633 @@
+{
+ "schema": 1,
+ "id": "sweet-tea",
+ "type": "dish",
+ "names": {
+  "name": "sweet tea",
+  "aliases": [
+   "tea",
+   "sweet iced tea",
+   "iced tea"
+  ],
+  "said": "'Tea' on a Carolina barbecue menu means this: iced, and sweetened while hot. Lexington Barbecue prints it as 'Iced Tea (Unsweet on Request)'; the unsweetened glass is the one you ask for."
+ },
+ "region": [
+  "carolinas",
+  "us-south"
+ ],
+ "facets": {
+  "course": "drink",
+  "styles": [
+   "eastern-nc",
+   "lexington",
+   "sc-mustard",
+   "sc-pee-dee",
+   "sc-light-tomato",
+   "sc-heavy-tomato"
+  ]
+ },
+ "text": {
+  "what": "Black tea brewed strong, sweetened with sugar while hot — so it dissolves, rather than being stirred into a cold glass — and poured over ice. It is the drink of the Carolina barbecue house in both states and every sauce region: sold by the glass, the quart and the gallon, brewed on the stove at Grady's in Dudley, named by Dukes in Orangeburg among the five things people come for, and served, Wikipedia says, wherever whole hog is. Some cooks temper it with a pinch of baking soda against bitterness; lemon is the usual addition. Its presence on a menu is one sign used to tell whether a place counts as the South.",
+  "story": "Sweet tea began as a luxury of three shipped-in things — tea, sugar and ice, the ice the dearest — and became cheap when all three did. The oldest known recipe for it is in Housekeeping in Old Virginia, a community cookbook compiled by Marion Cabell Tyree (copyright 1878, and dated 1879 by the historian Robert Moss): ice, sugar, hot green tea, lemon. Green tea was the tea of the 19th-century South; the Second World War cut off its sources and black tea from British India took its place, and by the war's end black tea was the American tea. Moss, checking Summerville, South Carolina's 2013 claim to be 'The Birthplace of Sweet Tea' — a trademarked tagline, a Sweet Tea Trail and billboards on I-26 and I-95, resting on Dr. Charles Shepard's Pinehurst Tea Plantation of 1888–1915, the first successful tea farm in the country — found the Boston Journal recommending iced tea in July 1868, twenty years before Shepard planted, and Fannie Farmer's 1896 Boston Cooking-School Cook Book telling readers to pour tea over cracked ice and sweeten to taste. Summerville answered with a jar: 'Mason', fifteen feet tall, filled on National Tea Day 2016 with 2,524 gallons of sweet tea, the world's largest, a record traded since 2010 among Chick-fil-A, Summerville and Lipton. In 2003 a Georgia House bill, apparently an April Fool's joke, would have made selling iced tea without offering sweet tea a misdemeanor; it never came to a vote.",
+  "how": "Tea bags or loose black tea steep in a pot of boiling water — some cooks add a pinch of baking soda — and the sugar goes in while the tea is hot; cold water and ice bring it down. At Grady's, Gerri Grady brews it on the stovetop for the day's service; at Allen & Son Keith Allen brewed it himself and sold it by the litre. It is served in a tall glass over ice, with lemon if you want it. Pits sell it to go by the pint, quart, half gallon and gallon — Parker's in Wilson lists all four — and the Barbecue Center in Lexington prices it from a 10-ounce cup to the gallon jug. The sugar can run to 22 degrees Brix, twice a Coca-Cola.",
+  "today": "Lexington Barbecue: 'Iced Tea (Unsweet on Request)', $2.90 cash, $3.00 card (September 2026). The Barbecue Center: 10 oz $2.50, 16 oz $2.90, 32 oz $3.75, half gallon $6.00, gallon $8.50. Summerville holds a Sweet Tea Festival each September and keeps the record jar."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the drink Wikipedia names as whole hog's accompaniment; Grady's brews it on the stove.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "as": "'Iced Tea (Unsweet on Request)' at Lexington Barbecue: sweet is the default.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "as": "one of the five things Dukes in Orangeburg says people come for.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "$2.90 cash in September 2026, unsweet on request.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "priced from the 10-ounce cup to the gallon jug.",
+   "rel": "served-at"
+  },
+  {
+   "to": "gradys-barbecue",
+   "as": "brewed on the stovetop by Gerri Grady.",
+   "rel": "served-at"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "named by Tony Kittrell with the barbecue, hash and rice, the sauce and the sliced bread.",
+   "rel": "served-at"
+  },
+  {
+   "to": "parkers-barbecue",
+   "as": "sold by the pint, quart, half gallon and gallon.",
+   "rel": "served-at"
+  },
+  {
+   "to": "allen-and-son",
+   "as": "by the litre, brewed by Keith Allen himself.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "homemade, with the lemonade.",
+   "rel": "served-at"
+  },
+  {
+   "to": "buxton-hall-barbecue",
+   "as": "'steeped, sweetened, iced', beside the cocktails.",
+   "rel": "served-at"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "poured at the pickin with beer and soft drinks.",
+   "rel": "event"
+  },
+  {
+   "to": "cheerwine",
+   "as": "the other glass on a Piedmont counter; both sweet, one carbonated.",
+   "rel": "contrast"
+  },
+  {
+   "to": "banana-pudding",
+   "as": "the dessert on the same table.",
+   "rel": "kin"
+  },
+  {
+   "to": "fixins",
+   "as": "the drink counted among the fixins.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "as": "who tested Summerville's birthplace claim against the 1868 Boston Journal and the 1879 Tyree recipe.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "Sweet tea — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sweet_tea"
+  },
+  {
+   "label": "Robert F. Moss — Summerville can't squeeze the facts out of sweet tea's murky history",
+   "url": "https://charlestoncitypaper.com/2013/11/13/summerville-cant-squeeze-the-facts-out-of-sweet-teas-murky-history/"
+  }
+ ],
+ "sources": [
+  "s:wp-sweet-tea",
+  "s:web-moss-sweet-tea-summerville",
+  "s:web-visitsummerville-tea",
+  "s:wp-whole-hog-barbecue",
+  "s:wp-pig-pickin",
+  "s:wp-cuisine-of-the-southern-united-states",
+  "s:web-lexbbq-menu",
+  "s:web-barbecue-center-menu",
+  "s:web-ourstate-gradys",
+  "s:web-sfa-dukes-bar-b-que",
+  "s:web-parkers-bbq-wilson-menu",
+  "s:web-ourstate-allen-son",
+  "s:web-destination-bbq-sweatmans",
+  "s:web-ourstate-buxton-hall",
+  "s:book-aunt-carolines-dixieland-recipes",
+  "s:wikibooks-iced-tea"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-sweet-tea"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-sweet-tea",
+    "note": "Grady's from Our State (2013); Dukes from the SFA interview (2012); whole hog from the Whole hog barbecue article"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-moss-sweet-tea-summerville",
+    "note": "the recipe date is 1878 in Wikipedia and 1879 in Moss, both given; the jar from Visit Summerville and Wikipedia; the Georgia bill from Wikipedia"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-sweet-tea",
+    "note": "sizes from the Parker's and Barbecue Center menus, read 2026-09-15"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-menu",
+    "note": "prices read 2026-09-15; the festival month from Visit Summerville"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-aunt-carolines-dixieland-recipes",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Iced Tea",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "page": 25,
+   "text": "Use one scant teaspoonful of tea to one cup of boiling water. Pour boiling water over tea leaves and let stand until milk warm. Then strain and sweeten to taste while tea is still warm, as it requires less sugar. Serve with crushed ice, green mint leaves, and sliced lemon and orange.",
+   "note": "The sweetening rule the Carolina glass still follows, printed in 1922: sugar goes in while the tea is warm, because warm tea takes less of it."
+  },
+  {
+   "title": "Tea — Southern Style",
+   "source": "s:book-aunt-carolines-dixieland-recipes",
+   "license": "Public domain",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "author": "Emma and William McKinney",
+   "book": "Aunt Caroline's Dixieland Recipes",
+   "page": 25,
+   "text": "Take one-half teaspoonful of tea to one cup of boiling water. Put the tea in the pot, pour the boiling water upon it and let stand where it will keep hot for five minutes. Then serve. Tea should never be boiled for it makes it bitter.",
+   "note": "The hot brew on the facing column, at half the strength of the iced one: iced tea is made stronger because the ice waters it down."
+  },
+  {
+   "title": "Iced Tea",
+   "source": "s:wikibooks-iced-tea",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AIced_Tea",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "3 tea bags",
+    "1 teaspoon stevia",
+    "2 teaspoons citric acid crystals (or malic / tartaric / citric blends)",
+    "4 teaspoons sugar"
+   ],
+   "text": "1. Fill a drip coffee maker with cold water and place the tea bags in the basket.\n2. Place the stevia, acid, and sugar in the pot, and place the pot in the machine.\n3. Let it run through its cycle, then chill the product. This is a concentrate and will make several litres of iced tea.\n4. Place some ice in a tall glass and fill 80–90% with cold water. Pour in some iced tea nectar. You may reduce the water and add some fruit juice if desired.",
+   "yield": "more than 24 servings",
+   "note": "A concentrate brewed through a drip coffee maker and diluted in the glass; sweetened with stevia and a little sugar rather than the Carolina cup of it."
+  }
+ ],
+ "images": [
+  {
+   "file": "sweet-tea/sweet-tea-clear-cup-of-sweet-tea.jpg",
+   "source": "commons",
+   "title": "File:Clear Cup of Sweet Tea.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Clear_Cup_of_Sweet_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AClear_Cup_of_Sweet_Tea.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Allthebees",
+   "credit": "Own work",
+   "alt": "Glass of sweet tea from The Grill at Ole Miss in a clear plastic cup, on a grey table with a dirty white plate in the background.",
+   "date": "2026-04-10 12:27:14",
+   "primary": true,
+   "sha256": "42cdc30f44fa7bc012c76a78f356bb2c31f4111047e2e5355547043531f3abf3"
+  },
+  {
+   "file": "sweet-tea/sweet-tea-keaton-s-bbq-cheerwine-sweet-tea.jpg",
+   "source": "commons",
+   "title": "File:Keaton's bbq cheerwine & sweet tea.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Keaton%27s_bbq_cheerwine_%26_sweet_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKeaton%27s_bbq_cheerwine_%26_sweet_tea.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Krista",
+   "credit": "https://www.flickr.com/photos/scaredykat/6131699205/",
+   "alt": "Get the full scoop",
+   "date": "2011-09-02 17:13:37",
+   "primary": false,
+   "sha256": "7a163c658efd795f0a0f5636a8c12c645444520e5a0ba851a312a4d0cf6b4796"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "Black tea brewed strong, sweetened with sugar while hot — so it dissolves, rather than being stirred into a cold glass — and poured over ice.",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the drink Wikipedia names as whole hog's accompaniment; Grady's brews it on the stove.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington",
+   "type": "style",
+   "name": "Lexington-style barbecue",
+   "as": "'Iced Tea (Unsweet on Request)' at Lexington Barbecue: sweet is the default.",
+   "rel": "whole"
+  },
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "one of the five things Dukes in Orangeburg says people come for.",
+   "rel": "whole"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "$2.90 cash in September 2026, unsweet on request.",
+   "rel": "served-at"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "priced from the 10-ounce cup to the gallon jug.",
+   "rel": "served-at"
+  },
+  {
+   "to": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "as": "brewed on the stovetop by Gerri Grady.",
+   "rel": "served-at"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "named by Tony Kittrell with the barbecue, hash and rice, the sauce and the sliced bread.",
+   "rel": "served-at"
+  },
+  {
+   "to": "parkers-barbecue",
+   "type": "place",
+   "name": "Parker's Barbecue",
+   "as": "sold by the pint, quart, half gallon and gallon.",
+   "rel": "served-at"
+  },
+  {
+   "to": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "by the litre, brewed by Keith Allen himself.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "as": "homemade, with the lemonade.",
+   "rel": "served-at"
+  },
+  {
+   "to": "buxton-hall-barbecue",
+   "type": "place",
+   "name": "Buxton Hall Barbecue",
+   "as": "'steeped, sweetened, iced', beside the cocktails.",
+   "rel": "served-at"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "poured at the pickin with beer and soft drinks.",
+   "rel": "event"
+  },
+  {
+   "to": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "as": "the other glass on a Piedmont counter; both sweet, one carbonated.",
+   "rel": "contrast"
+  },
+  {
+   "to": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "the dessert on the same table.",
+   "rel": "kin"
+  },
+  {
+   "to": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the drink counted among the fixins.",
+   "rel": "term"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "who tested Summerville's birthplace claim against the 1868 Boston Journal and the 1879 Tyree recipe.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-sweet-tea",
+   "kind": "wikipedia",
+   "title": "Sweet tea — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sweet_tea",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1364874899"
+  },
+  {
+   "id": "s:web-moss-sweet-tea-summerville",
+   "kind": "web",
+   "title": "Summerville can't squeeze the facts out of sweet tea's murky history (Robert F. Moss, 2013-11-13)",
+   "publisher": "Charleston City Paper",
+   "url": "https://charlestoncitypaper.com/2013/11/13/summerville-cant-squeeze-the-facts-out-of-sweet-teas-murky-history/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-visitsummerville-tea",
+   "kind": "web",
+   "title": "From Camellia to Cup: Summerville's Tea History",
+   "publisher": "Visit Summerville SC",
+   "url": "https://www.visitsummerville.com/tea-history",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:wp-cuisine-of-the-southern-united-states",
+   "kind": "wikipedia",
+   "title": "Cuisine of the Southern United States — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cuisine_of_the_Southern_United_States",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:web-barbecue-center-menu",
+   "kind": "web",
+   "title": "Barbecue Center — online menu (prices as posted)",
+   "publisher": "Barbecue Center, Lexington, via ehungry",
+   "url": "https://order.ehungry.com/Barbecue-Center-inc/order/barbecuecenternet/main/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-gradys",
+   "kind": "web",
+   "title": "Grady's Barbecue — Our State (2013)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/gradys-barbecue-dudley/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-dukes-bar-b-que",
+   "kind": "web",
+   "title": "Dukes Bar-B-Que — Tony Kittrell, interviewed by Rien Fertel, June 4, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-parkers-bbq-wilson-menu",
+   "kind": "web",
+   "title": "Menu (no prices posted)",
+   "publisher": "Parker's Barbecue, Wilson NC",
+   "url": "https://parkersbbqwilson.com/menu/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-allen-son",
+   "kind": "web",
+   "title": "Allen & Son in Chapel Hill — Our State (Jason Zengerle, 6 Aug 2017)",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/allen-son-in-chapel-hill/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-destination-bbq-sweatmans",
+   "kind": "web",
+   "title": "Sweatman's Bar-B-Que Restaurant near Holly Hill, SC",
+   "publisher": "Destination BBQ",
+   "url": "https://destination-bbq.com/stores/sweatmans-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-ourstate-buxton-hall",
+   "kind": "web",
+   "title": "Buxton Hall Barbecue Brings Whole-Hog Tradition and Hash to Asheville — Our State",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/buxton-hall-barbecue-asheville/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:book-aunt-carolines-dixieland-recipes",
+   "kind": "book",
+   "title": "Aunt Caroline's Dixieland Recipes: A Rare Collection of Choice Southern Dishes",
+   "author": "Emma and William McKinney",
+   "publisher": "Laird & Lee, Inc., Chicago",
+   "year": 1922,
+   "url": "https://archive.org/details/cu31924087257881",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "A white-authored book framed around 'Aunt Caroline', a Black cook drawn as a minstrel figure, with several recipe titles in that idiom; the recipes themselves are written plainly. Read in the Cornell University copy, which carries the Library's no-known-copyright-restrictions statement. Recipes quoted here keep the book's own titles and are chosen from the plainly named ones."
+  },
+  {
+   "id": "s:wikibooks-iced-tea",
+   "kind": "web",
+   "title": "Cookbook:Iced Tea — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AIced_Tea",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-sweet-tea",
+   "note": "Grady's from Our State (2013); Dukes from the SFA interview (2012); whole hog from the Whole hog barbecue article"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-moss-sweet-tea-summerville",
+   "note": "the recipe date is 1878 in Wikipedia and 1879 in Moss, both given; the jar from Visit Summerville and Wikipedia; the Georgia bill from Wikipedia"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-sweet-tea",
+   "note": "sizes from the Parker's and Barbecue Center menus, read 2026-09-15"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-lexbbq-menu",
+   "note": "prices read 2026-09-15; the festival month from Visit Summerville"
+  }
+ },
+ "primary_image": {
+  "file": "sweet-tea/sweet-tea-clear-cup-of-sweet-tea.jpg",
+  "source": "commons",
+  "title": "File:Clear Cup of Sweet Tea.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Clear_Cup_of_Sweet_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AClear_Cup_of_Sweet_Tea.jpg",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "Allthebees",
+  "credit": "Own work",
+  "alt": "Glass of sweet tea from The Grill at Ole Miss in a clear plastic cup, on a grey table with a dirty white plate in the background.",
+  "date": "2026-04-10 12:27:14",
+  "primary": true,
+  "sha256": "42cdc30f44fa7bc012c76a78f356bb2c31f4111047e2e5355547043531f3abf3"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "banana-pudding",
+   "type": "dish",
+   "name": "banana pudding",
+   "as": "the drink on the same table.",
+   "rel": "kin"
+  },
+  {
+   "from": "blenheim-ginger-ale",
+   "type": "dish",
+   "name": "Blenheim Ginger Ale",
+   "as": "what it is drunk instead of.",
+   "rel": "contrast"
+  },
+  {
+   "from": "cheerwine",
+   "type": "dish",
+   "name": "Cheerwine",
+   "as": "the other glass on the counter; the tea is the older drink and the default.",
+   "rel": "contrast"
+  },
+  {
+   "from": "peach-cobbler",
+   "type": "dish",
+   "name": "peach cobbler",
+   "as": "what it is eaten with.",
+   "rel": "kin"
+  },
+  {
+   "from": "pig-pickin-cake",
+   "type": "dish",
+   "name": "pig pickin' cake",
+   "as": "poured with it at the pickin.",
+   "rel": "kin"
+  },
+  {
+   "from": "allen-and-son",
+   "type": "place",
+   "name": "Allen & Son Barbeque",
+   "as": "on every table.",
+   "rel": "serves"
+  },
+  {
+   "from": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "named by Tony Kittrell among the five things people come for.",
+   "rel": "serves"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "Summerville's claim to it, which he tested for the Charleston City Paper in 2013.",
+   "rel": "kin"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "poured with beer and soft drinks.",
+   "rel": "serves"
+  },
+  {
+   "from": "fixins",
+   "type": "term",
+   "name": "fixins",
+   "as": "the drink among the fixins.",
+   "rel": "part"
+  }
+ ]
+}

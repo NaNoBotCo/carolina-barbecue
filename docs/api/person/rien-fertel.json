@@ -1,0 +1,789 @@
+{
+ "schema": 1,
+ "id": "rien-fertel",
+ "type": "person",
+ "names": {
+  "name": "Rien Fertel",
+  "aliases": [
+   "Rien T. Fertel"
+  ],
+  "sort": "Fertel, Rien"
+ },
+ "region": [
+  "us-south",
+  "carolinas"
+ ],
+ "facets": {
+  "role": [
+   "writer",
+   "scholar"
+  ],
+  "styles": [
+   "eastern-nc",
+   "sc-pee-dee"
+  ]
+ },
+ "text": {
+  "what": "A New Orleans writer and historian — a Tulane doctorate in history, 2013 — who recorded the Southern Foodways Alliance's barbecue oral histories in North Carolina in 2011 and South Carolina in 2012, then spent five years following the whole-hog pitmasters of Tennessee and the Carolinas for The One True Barbecue (Touchstone, 2016): part travelogue, part memoir, about the cooks who fire, flip and chop 200-pound pigs in smoke-filled pit houses, from Rodney Scott of Hemingway and Sam Jones of Ayden to Ricky Parker of Lexington, Tennessee.",
+  "story": "Fertel's first bite of whole hog was at Siler's Old Time BBQ in Henderson, Tennessee, in 2008, and the cook who held his attention was Ricky Parker of Scott's-Parker's in Lexington, Tennessee, who died of liver disease at fifty-one; Fertel went back to see Parker's sons at the pits. For the Southern Foodways Alliance he recorded the North Carolina set in November and December 2011 — Chip Stamey in Greensboro, Sonny Conrad at the Barbecue Center, David Wilson at Short Sugar's, Brandon Cook at Cook's, Debbie Holt at Clyde Cooper's, the Parker's crew in Wilson, Samuel Jones at the Skylight Inn on November 29, Bum and Larry Dennis in Ayden, Stephen and Gerri Grady in Dudley — and the South Carolina set in June 2012: Douglas Oliver at Sweatman's, Tony Kittrell at Dukes, Jay Allen at Midway, Jackie Hite, Russell Cooper at Cooper's Country Store, the Browns in Kingstree, David Bessinger at Melvin's, and Rodney Scott in Hemingway, where the pits were turning eight to ten hogs a night. The One True Barbecue follows the whole-hog line from those pits: Scott, who went on to a Charleston restaurant and a James Beard award; Jones, the Skylight's grandson; Keith 'Pop' Ward, who tends Wilber's pits through the night in Goldsboro; Oliver at Sweatman's; three places named Scott's; and a new generation, Tyson Ho at Arrogant Swine in Brooklyn and Elliott Moss at Buxton Hall in Asheville. Robert Moss reviewed it for Southern Living, and John Shelton Reed wrote that it 'should be read by anyone who thinks barbecue is about sticky red sauce'. Fertel holds that most barbecue writing is hyperbole.",
+  "today": "Visiting professor of history at Tulane and book critic for the Times-Picayune/Advocate; his fourth book, Brown Pelican (LSU Press, 2022), left barbecue behind. He calls New Orleans home and lives part of the time in a century-old church in St. Martinville, Louisiana."
+ },
+ "kin": [
+  {
+   "to": "southern-foodways-alliance",
+   "as": "recorded its North Carolina barbecue interviews in November and December 2011 and its South Carolina set in June 2012, before writing The One True Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cooking The One True Barbecue is about: the pitmasters who cook the whole animal, in Tennessee and the Carolinas.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "interviewed Samuel Jones there on November 29, 2011; one of the pits his book follows.",
+   "rel": "place"
+  },
+  {
+   "to": "sam-jones",
+   "as": "the Skylight's grandson, one of the pitmasters his book follows.",
+   "rel": "person"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "as": "interviewed Rodney Scott there in June 2012; one of three places named Scott's in his book.",
+   "rel": "place"
+  },
+  {
+   "to": "rodney-scott",
+   "as": "followed from the Hemingway pits onto the national scene in his book.",
+   "rel": "person"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "as": "where Keith 'Pop' Ward, who tends the pits through the night, is one of his subjects.",
+   "rel": "place"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "as": "interviewed the cook Douglas Oliver there in June 2012; Oliver is in the book.",
+   "rel": "place"
+  },
+  {
+   "to": "bums-restaurant",
+   "as": "interviewed Bum and Larry Dennis in December 2011; Bum's is in the book.",
+   "rel": "place"
+  },
+  {
+   "to": "gradys-barbecue",
+   "as": "interviewed Stephen and Gerri Grady in December 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "parkers-barbecue",
+   "as": "interviewed Donald Williams and Kevin Lamm there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "clyde-coopers",
+   "as": "interviewed Debbie Holt there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "as": "interviewed Chip Stamey there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "as": "interviewed Natalie Ramsey and Chase Webb there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "as": "interviewed David and John David Wilson there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "cooks-barbecue",
+   "as": "interviewed Brandon Cook there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "as": "interviewed Sonny Conrad there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "interviewed Tony Kittrell there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "coopers-country-store",
+   "as": "interviewed Russell Cooper there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "midway-bbq",
+   "as": "interviewed Jay Allen there on June 12, 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "jackie-hites-bar-b-q",
+   "as": "interviewed Jackie Hite there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "as": "interviewed Thomas and Angela Brown there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "buxton-hall-barbecue",
+   "as": "Elliott Moss's Asheville pit, among the new generation in his book.",
+   "rel": "place"
+  },
+  {
+   "to": "elliott-moss",
+   "as": "one of the new-generation cooks his book ends with.",
+   "rel": "person"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the North Carolina whole-hog country his book crosses.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "the South Carolina whole-hog country his book crosses.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-shelton-reed",
+   "as": "blurbed the book.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "as": "reviewed the book for Southern Living in May 2016.",
+   "rel": "person"
+  }
+ ],
+ "links": [
+  {
+   "label": "Rien Fertel — about",
+   "url": "https://www.rienfertel.com/about"
+  },
+  {
+   "label": "The One True Barbecue — the author's page",
+   "url": "https://www.rienfertel.com/onetruebarbecue-book"
+  },
+  {
+   "label": "Skylight Inn — SFA interview by Rien Fertel, 2011",
+   "url": "https://www.southernfoodways.org/interview/skylight-inn/"
+  }
+ ],
+ "sources": [
+  "s:web-rienfertel-about",
+  "s:web-rienfertel-onetruebarbecue",
+  "s:fertel-one-true-barbecue",
+  "s:web-southernliving-quest-one-true-barbecue",
+  "s:web-barbecuebros-one-true-barbecue",
+  "s:web-wunc-one-true-barbecue",
+  "s:web-bpr-one-true-barbecue",
+  "s:sfa-skylight-inn",
+  "s:sfa-north-carolina-bbq",
+  "s:sfa-gradys-barbecue",
+  "s:sfa-parkers-barbecue",
+  "s:sfa-bums-restaurant",
+  "s:sfa-clyde-coopers-barbecue",
+  "s:sfa-stameys-barbecue",
+  "s:sfa-red-bridges-barbecue-lodge",
+  "s:sfa-short-sugars-pit-bar-b-q",
+  "s:sfa-cooks-barbecue",
+  "s:sfa-barbecue-center",
+  "s:web-sfa-scotts-bar-b-que",
+  "s:web-sfa-sweatmans-bar-b-que",
+  "s:web-sfa-dukes-bar-b-que",
+  "s:web-sfa-coopers-country-store",
+  "s:web-sfa-midway-bbq",
+  "s:web-sfa-jackie-hites-bar-b-q",
+  "s:web-sfa-browns-bar-b-q",
+  "s:web-sfa-melvins-legendary-bar-b-q",
+  "s:wp-rodney-scott-pitmaster"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-rienfertel-about"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-rienfertel-onetruebarbecue",
+    "note": "the book's own description; the five years and the named pitmasters from Robert Moss's Southern Living review"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-southernliving-quest-one-true-barbecue",
+    "note": "Siler's, Parker and the cast from Moss's review and the Barbecue Bros book-club post; each interview from its SFA page; the hyperbole line from WUNC (2016); Reed's blurb from the author's page"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-rienfertel-about",
+    "note": "as read on 2026-09-15"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "A New Orleans writer and historian — a Tulane doctorate in history, 2013 — who recorded the Southern Foodways Alliance's barbecue oral histories in North Carolina in 2011 and South Carolina in 2012, then spent five…",
+ "region_terms": [
+  {
+   "key": "us-south",
+   "name": "The American South",
+   "state": null,
+   "note": "for nodes shared with the wider region"
+  },
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "recorded its North Carolina barbecue interviews in November and December 2011 and its South Carolina set in June 2012, before writing The One True Barbecue.",
+   "rel": "kin"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cooking The One True Barbecue is about: the pitmasters who cook the whole animal, in Tennessee and the Carolinas.",
+   "rel": "kin"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "interviewed Samuel Jones there on November 29, 2011; one of the pits his book follows.",
+   "rel": "place"
+  },
+  {
+   "to": "sam-jones",
+   "type": "person",
+   "name": "Sam Jones",
+   "as": "the Skylight's grandson, one of the pitmasters his book follows.",
+   "rel": "person"
+  },
+  {
+   "to": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "interviewed Rodney Scott there in June 2012; one of three places named Scott's in his book.",
+   "rel": "place"
+  },
+  {
+   "to": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "followed from the Hemingway pits onto the national scene in his book.",
+   "rel": "person"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "where Keith 'Pop' Ward, who tends the pits through the night, is one of his subjects.",
+   "rel": "place"
+  },
+  {
+   "to": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "as": "interviewed the cook Douglas Oliver there in June 2012; Oliver is in the book.",
+   "rel": "place"
+  },
+  {
+   "to": "bums-restaurant",
+   "type": "place",
+   "name": "Bum's Restaurant",
+   "as": "interviewed Bum and Larry Dennis in December 2011; Bum's is in the book.",
+   "rel": "place"
+  },
+  {
+   "to": "gradys-barbecue",
+   "type": "place",
+   "name": "Grady's Barbecue",
+   "as": "interviewed Stephen and Gerri Grady in December 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "parkers-barbecue",
+   "type": "place",
+   "name": "Parker's Barbecue",
+   "as": "interviewed Donald Williams and Kevin Lamm there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "as": "interviewed Debbie Holt there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "stameys-barbecue",
+   "type": "place",
+   "name": "Stamey's Barbecue",
+   "as": "interviewed Chip Stamey there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "red-bridges-barbecue-lodge",
+   "type": "place",
+   "name": "Red Bridges Barbecue Lodge",
+   "as": "interviewed Natalie Ramsey and Chase Webb there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "short-sugars",
+   "type": "place",
+   "name": "Short Sugar's Pit Bar-B-Q",
+   "as": "interviewed David and John David Wilson there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "interviewed Brandon Cook there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-b-q-center",
+   "type": "place",
+   "name": "Bar-B-Q Center",
+   "as": "interviewed Sonny Conrad there in November 2011.",
+   "rel": "place"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "interviewed Tony Kittrell there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "coopers-country-store",
+   "type": "place",
+   "name": "Cooper's Country Store",
+   "as": "interviewed Russell Cooper there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "interviewed Jay Allen there on June 12, 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "jackie-hites-bar-b-q",
+   "type": "place",
+   "name": "Jackie Hite's Bar-B-Q",
+   "as": "interviewed Jackie Hite there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "browns-bar-b-que",
+   "type": "place",
+   "name": "Brown's Bar-B-Que",
+   "as": "interviewed Thomas and Angela Brown there in June 2012.",
+   "rel": "place"
+  },
+  {
+   "to": "buxton-hall-barbecue",
+   "type": "place",
+   "name": "Buxton Hall Barbecue",
+   "as": "Elliott Moss's Asheville pit, among the new generation in his book.",
+   "rel": "place"
+  },
+  {
+   "to": "elliott-moss",
+   "type": "person",
+   "name": "Elliott Moss",
+   "as": "one of the new-generation cooks his book ends with.",
+   "rel": "person"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the North Carolina whole-hog country his book crosses.",
+   "rel": "kin"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the South Carolina whole-hog country his book crosses.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "blurbed the book.",
+   "rel": "person"
+  },
+  {
+   "to": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "reviewed the book for Southern Living in May 2016.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-rienfertel-about",
+   "kind": "web",
+   "title": "Pronounced /rye-ən/ (about me)",
+   "publisher": "rienfertel.com (Rien Fertel)",
+   "url": "https://www.rienfertel.com/about",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-rienfertel-onetruebarbecue",
+   "kind": "web",
+   "title": "The One True Barbecue — the author's book page",
+   "publisher": "rienfertel.com (Rien Fertel)",
+   "url": "https://www.rienfertel.com/onetruebarbecue-book",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:fertel-one-true-barbecue",
+   "kind": "book",
+   "title": "The One True Barbecue: Fire, Smoke, and the Pitmasters Who Cook the Whole Hog",
+   "author": "Rien Fertel",
+   "publisher": "Touchstone",
+   "year": 2016,
+   "note": "subtitle as on the publisher's page"
+  },
+  {
+   "id": "s:web-southernliving-quest-one-true-barbecue",
+   "kind": "web",
+   "title": "A Quest for the One True Barbecue (Robert Moss, Southern Living, May 2016; syndicated on Yahoo News)",
+   "publisher": "Southern Living via Yahoo News",
+   "url": "https://www.yahoo.com/news/quest-one-true-barbecue-124158588.html",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-barbecuebros-one-true-barbecue",
+   "kind": "web",
+   "title": "Barbecue Bros Book Club: The One True Barbecue by Rien Fertel (March 27, 2017)",
+   "publisher": "Barbecue Bros",
+   "url": "https://barbecuebros.co/2017/03/27/barbecue-bros-book-club-the-one-true-barbecue-by-rien-fertel/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-wunc-one-true-barbecue",
+   "kind": "web",
+   "title": "The One True Barbecue (The State of Things, May 25, 2016)",
+   "publisher": "WUNC",
+   "url": "https://www.wunc.org/arts-culture/2016-05-25/the-one-true-barbecue",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-bpr-one-true-barbecue",
+   "kind": "web",
+   "title": "The One True Barbecue (May 25, 2016)",
+   "publisher": "Blue Ridge Public Radio",
+   "url": "https://www.bpr.org/2016-05-25/the-one-true-barbecue",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-skylight-inn",
+   "kind": "oral-history",
+   "title": "Skylight Inn — Samuel Jones, interviewed by Rien T. Fertel, 29 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/skylight-inn/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-north-carolina-bbq",
+   "kind": "oral-history",
+   "title": "North Carolina BBQ — oral history project index (17 interviews)",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/southern-bbq-trail/north-carolina-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-gradys-barbecue",
+   "kind": "oral-history",
+   "title": "Grady's Barbecue — Stephen and Gerri Grady, interviewed by Rien T. Fertel, 7 Dec 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/gradys-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-parkers-barbecue",
+   "kind": "oral-history",
+   "title": "Parker's Barbecue — Donald Williams and Kevin Lamm, interviewed by Rien T. Fertel, 27 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/parkers-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-bums-restaurant",
+   "kind": "oral-history",
+   "title": "Bum's Restaurant — Latham 'Bum' Dennis and Larry Dennis, interviewed by Rien T. Fertel, 5 Dec 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/bums-restaurant/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-clyde-coopers-barbecue",
+   "kind": "oral-history",
+   "title": "Clyde Cooper's Barbecue — Debbie Holt, interviewed by Rien T. Fertel, 22 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/clyde-coopers-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-stameys-barbecue",
+   "kind": "oral-history",
+   "title": "Stamey's Barbecue — Chip Stamey, interviewed by Rien T. Fertel, 18 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/stameys-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-red-bridges-barbecue-lodge",
+   "kind": "oral-history",
+   "title": "Red Bridges Barbecue Lodge — Natalie Ramsey and Chase Webb, interviewed by Rien T. Fertel, 19 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/red-bridges-barbecue-lodge/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-short-sugars-pit-bar-b-q",
+   "kind": "oral-history",
+   "title": "Short Sugar's Pit Bar-B-Q — David Wilson and John David Wilson, interviewed by Rien T. Fertel, 21 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/short-sugars-pit-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-cooks-barbecue",
+   "kind": "oral-history",
+   "title": "Cook's Barbecue — Brandon Cook, interviewed by Rien T. Fertel, 17 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/cooks-barbecue/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:sfa-barbecue-center",
+   "kind": "oral-history",
+   "title": "Barbecue Center — Sonny Conrad, interviewed by Rien T. Fertel, 16 Nov 2011",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/barbecue-center/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-scotts-bar-b-que",
+   "kind": "web",
+   "title": "Scott's Bar-B-Que — Rodney Scott, interviewed by Rien Fertel, June 21, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/scotts-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-sweatmans-bar-b-que",
+   "kind": "web",
+   "title": "Sweatman's Bar-B-Que — Douglas Oliver, interviewed by Rien Fertel, June 4, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/sweatmans-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-dukes-bar-b-que",
+   "kind": "web",
+   "title": "Dukes Bar-B-Que — Tony Kittrell, interviewed by Rien Fertel, June 4, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-coopers-country-store",
+   "kind": "web",
+   "title": "Cooper's Country Store — Russell Cooper, interviewed by Rien Fertel, June 15, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/coopers-country-store/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-midway-bbq",
+   "kind": "web",
+   "title": "Midway BBQ — Jay Allen, interviewed by Rien Fertel, June 12, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/midway-bbq/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-jackie-hites-bar-b-q",
+   "kind": "web",
+   "title": "Jackie Hite's Bar-B-Q — James Lee 'Jackie' Hite, interviewed by Rien Fertel, June 13, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/jackie-hites-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-browns-bar-b-q",
+   "kind": "web",
+   "title": "Brown's Bar-B-Q — Thomas M. Brown Jr. and Angela Brown, interviewed by Rien Fertel, June 17, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/browns-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-sfa-melvins-legendary-bar-b-q",
+   "kind": "web",
+   "title": "Melvin's Legendary Bar-B-Q — David Bessinger, interviewed by Rien Fertel, June 26, 2012",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/melvins-legendary-bar-b-q/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:wp-rodney-scott-pitmaster",
+   "kind": "wikipedia",
+   "title": "Rodney Scott (pitmaster) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Scott_(pitmaster)",
+   "license": "CC BY-SA 4.0"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-rienfertel-onetruebarbecue",
+   "note": "the book's own description; the five years and the named pitmasters from Robert Moss's Southern Living review"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-southernliving-quest-one-true-barbecue",
+   "note": "Siler's, Parker and the cast from Moss's review and the Barbecue Bros book-club post; each interview from its SFA page; the hyperbole line from WUNC (2016); Reed's blurb from the author's page"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-rienfertel-about",
+   "note": "as read on 2026-09-15"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cooks-barbecue",
+   "type": "place",
+   "name": "Cook's Barbecue",
+   "as": "interviewed Brandon Cook for the Southern Foodways Alliance in 2011.",
+   "rel": "person"
+  },
+  {
+   "from": "coopers-country-store",
+   "type": "place",
+   "name": "Cooper's Country Store",
+   "as": "interviewed Russell Cooper here in June 2012.",
+   "rel": "person"
+  },
+  {
+   "from": "jack-cobb-and-son",
+   "type": "place",
+   "name": "Jack Cobb & Son Barbecue Place",
+   "as": "the interviewer who took Rudy Cobb's oral history in 2011.",
+   "rel": "person"
+  },
+  {
+   "from": "jackie-hites-bar-b-q",
+   "type": "place",
+   "name": "Jackie Hite's Bar-B-Q",
+   "as": "interviewed Jackie Hite here in June 2012.",
+   "rel": "person"
+  },
+  {
+   "from": "midway-bbq",
+   "type": "place",
+   "name": "Midway BBQ",
+   "as": "interviewed Jay Allen here on June 12, 2012.",
+   "rel": "person"
+  },
+  {
+   "from": "morris-barbeque",
+   "type": "place",
+   "name": "Morris Barbeque",
+   "as": "the interviewer who took the oral history in 2011, and to whom Morris described the gas cooker.",
+   "rel": "person"
+  },
+  {
+   "from": "scotts-bar-b-que",
+   "type": "place",
+   "name": "Scott's Bar-B-Que",
+   "as": "interviewed Rodney Scott here in June 2012.",
+   "rel": "person"
+  },
+  {
+   "from": "bum-dennis",
+   "type": "person",
+   "name": "Bum Dennis",
+   "as": "interviewed him for the Alliance in 2011.",
+   "rel": "person"
+  },
+  {
+   "from": "john-shelton-reed",
+   "type": "person",
+   "name": "John Shelton Reed",
+   "as": "Reed's blurb on The One True Barbecue: it 'should be read by anyone who thinks barbecue is about sticky red sauce'.",
+   "rel": "person"
+  },
+  {
+   "from": "robert-moss",
+   "type": "person",
+   "name": "Robert F. Moss",
+   "as": "whose The One True Barbecue Moss reviewed for Southern Living in May 2016.",
+   "rel": "person"
+  },
+  {
+   "from": "rodney-scott",
+   "type": "person",
+   "name": "Rodney Scott",
+   "as": "interviewed him for the Alliance in 2012.",
+   "rel": "person"
+  },
+  {
+   "from": "sam-jones",
+   "type": "person",
+   "name": "Sam Jones",
+   "as": "interviewed him for the Alliance in 2011.",
+   "rel": "person"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "interviewed the Skylight Inn for its North Carolina project before writing The One True Barbecue.",
+   "rel": "person"
+  }
+ ]
+}

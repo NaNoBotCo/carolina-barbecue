@@ -1,0 +1,612 @@
+{
+ "schema": 1,
+ "id": "pork-skins",
+ "type": "dish",
+ "names": {
+  "name": "pork skins",
+  "aliases": [
+   "skins",
+   "cracklins",
+   "cracklings",
+   "crackling",
+   "pork rinds",
+   "fried skins"
+  ],
+  "said": "'Skins' at the eastern counter; 'cracklins' when they come off a whole hog at a pig pickin or out of the lard pot at a hog killing."
+ },
+ "region": [
+  "carolinas",
+  "nc-east",
+  "sc-pee-dee",
+  "nc",
+  "sc"
+ ],
+ "facets": {
+  "course": "side",
+  "meat": "whole hog",
+  "styles": [
+   "eastern-nc",
+   "sc-pee-dee",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "The pig's hide, cooked until it blisters and cracks. On an eastern whole hog the skin faces up through the night and is turned to the coals at the end to crisp; at Skylight Inn it is chopped into the meat, where the crunch and the salt are part of what 'barbecue' means. Sold on their own, skins are a side or a snack: fresh fried squares with pimento cheese at Sam Jones BBQ, a pork skin sandwich with slaw at Lexington Barbecue. In the Pee Dee the hog is sometimes skinned before cooking and the skin fried on its own. A crackling keeps a little fat and meat under the skin; a rind is skin alone.",
+  "story": "The skin is the pit's own by-product. At a hog killing the fat is rendered for lard and the cracklings are what is left in the pot, and *tradition holds —* crackling bread, cornbread with cracklings baked in, was the winter bread of the farm. On the eastern pit the same crust comes off the barbecue: the small hogs of the Carolinas are cooked hot enough for the skin to crisp, and the skin takes up more of the smoke than the meat does, so the chopped skin carries the flavor of the fire into every bite. At a pig pickin some cooks wipe the ash from the skin with paper towels or a whisk broom before the hog is turned, to keep the cracklings clean. Tennessee cooks larger hogs at lower heat and the skin never crisps — one of the marks that separate the Carolina hog from the Memphis one. At Skylight Inn the chop takes in tenderloin, inner meat and crisped skin together, which NCpedia records as the eastern habit: in some areas bits of skin are integral to the finished product. South of the line the Pee Dee sometimes strips the hide before the pig goes on and fries it apart, and NCpedia notes North Carolinians who follow that lead, sorting skin from outside meat from inside meat.",
+  "how": "On the pit: the hog cooks skin-up, is turned skin-down at the end, and the blistered skin is chopped with cleavers into the meat, or lifted, salted and broken into pieces. Fried: the skin is cut into squares, rendered slowly, then fried hot so it puffs. Commercial rinds are dried pellets rehydrated and fried in pork fat at 200–210 °C, which swells them to five times their size; the pink or purple spot on a bagged rind is a USDA inspection stamp. Eaten with the fingers, salted, with hot sauce, or with pimento cheese.",
+  "today": "Sam Jones BBQ lists fresh fried pork skins with housemade pimento cheese (September 2026). Lexington Barbecue sells a pork skin sandwich with slaw at $4.50 cash, $4.65 card (September 2026). Bagged rinds from the gas station are the same thing at a distance."
+ },
+ "kin": [
+  {
+   "to": "eastern-nc",
+   "as": "the style that chops the skin into the meat instead of setting it aside.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the hog they come off; in the Carolinas the skin is crisped on purpose.",
+   "rel": "part"
+  },
+  {
+   "to": "skylight-inn",
+   "as": "where the crisped skin goes through the chop with the tenderloin and inner meat.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "as": "where fresh fried skins come with pimento cheese.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lexington-barbecue",
+   "as": "where skins are sold as a sandwich with slaw.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sc-pee-dee",
+   "as": "where the hog is sometimes skinned before cooking and the skin fried separately.",
+   "rel": "kin"
+  },
+  {
+   "to": "outside-brown",
+   "as": "the Piedmont's crust: bark from a shoulder, where the east has skin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hog-killing",
+   "as": "where cracklings began, as the residue of the lard pot.",
+   "rel": "origin"
+  },
+  {
+   "to": "cornbread",
+   "as": "crackling bread is cornbread with these baked in.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-pickin",
+   "as": "where the skin is wiped clean of ash before the hog is turned, for the cracklings.",
+   "rel": "event"
+  },
+  {
+   "to": "chopping-block",
+   "as": "where the skin goes into the meat under the cleavers.",
+   "rel": "part"
+  },
+  {
+   "to": "hog",
+   "as": "the animal whose hide this is.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "outside-brown",
+   "tell": "Skin is glassy and blistered and shatters; outside brown is dark meat from the outside of a shoulder and chews. If it came off a whole hog in the east it is skin."
+  }
+ ],
+ "links": [
+  {
+   "label": "Pork rind — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pork_rind"
+  },
+  {
+   "label": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue"
+  }
+ ],
+ "sources": [
+  "s:wp-whole-hog-barbecue",
+  "s:wp-skylight-inn-bbq",
+  "s:wp-pork-rind",
+  "s:wp-cracklings",
+  "s:wp-cornbread",
+  "s:wp-pig-pickin",
+  "s:wp-barbecue-in-south-carolina",
+  "s:ncpedia-barbecue",
+  "s:web-samjones-menu",
+  "s:web-lexbbq-menu",
+  "s:book-mrs-hills-new-cook-book",
+  "s:book-dixie-cookery",
+  "s:wikibooks-eastern-north-carolina-barbecued-pig"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-whole-hog-barbecue",
+    "note": "crackling bread as farm bread is marked tradition inline; the rest is in the articles cited"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-pork-rind"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-samjones-menu",
+    "note": "menus read 2026-09-15"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-mrs-hills-new-cook-book",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "To Try the Fat (receipt 215)",
+   "source": "s:book-mrs-hills-new-cook-book",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "author": "Mrs. A. P. Hill",
+   "book": "Mrs. Hill's New Cook-Book",
+   "text": "The lard for cooking is made from the leaf fat, the fat from the chine, head and trimmings of the joints, etc. Wash it well, and soak twelve hours; if put to soak in the evening let it remain until next morning; wash it in tepid water, changing it twice; cut it in small pieces; pour a little water in the bottom of the kettle to prevent the fat from scorching (very little water is necessary); boil briskly until the oil from the meat is nearly extracted, and the process almost completed; then reduce the fire; stir frequently, turning the meat up from the bottom; when done, the cracklings will be a good brown, and float to the top and break crisp. Great care must be taken after the oil begins to look clear, to prevent its burning (the least taste of that kind will injure its quality); at the same time the cracklings must be thoroughly done, the water entirely evaporated, or the lard will turn sour. Strain first through a colander, pressing the oil out; then place a muslin or other thin cloth over the mouth of the jar, and strain again.",
+   "note": "Cracklings as a by-product of rendering lard at hog-killing, which is where most of them came from: fried out of the fat rather than crisped on a pit. 'When done, the cracklings will be a good brown, and float to the top and break crisp' is the test. The running head is unreadable in the scan, so no page is given; the receipt number locates it."
+  },
+  {
+   "title": "To whiten Lard",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "text": "To twelve gallons of lard add a pint of lye. Put the lye in when the lard is first put on. When the cracklings are a light-brown the lard is done. Strain through a thin cloth put inside of a colander.",
+   "note": "From the household chapter rather than the cookery, and included for the same test by another hand: the cracklings tell you when to stop. The lye is for the lard, not for eating. No page is legible in the scan.",
+   "region": "North Carolina"
+  },
+  {
+   "title": "Eastern North Carolina Barbecued Pig",
+   "source": "s:wikibooks-eastern-north-carolina-barbecued-pig",
+   "license": "CC BY-SA 4.0",
+   "year": "read 16 September 2026",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecued_Pig",
+   "book": "Wikibooks Cookbook",
+   "ingredients": [
+    "80 pound pig (butchered with head removed)",
+    "Salt",
+    "40 pounds charcoal (for charcoal cooking option)",
+    "Your favorite vinegar-based Eastern NC sauce"
+   ],
+   "text": "1. Salt hams, ribs/midsection and shoulders liberally and place skin side up on either a gas or charcoal grill or a BBQ pit.\n2. Keep lid closed, and aim for a heat of approximately 275–350°F.\n3. Allow 1 hour per 10 pounds cooking time (gas or charcoal).\n4. 2 hours before being done, place pig with the skin side down. As soon as it is flipped, pour BBQ sauce on meat side.\n5. Close lid and allow skin to crisp.\n6. The pig will be done to perfection when the ham bone can be twisted freely.\n7. Lift lid and allow guests to pick/pull meat, or the chef can remove meat and chop to their liking on a chopping block.",
+   "yield": "about 27 lb of meat, serving 30–40",
+   "note": "The skin crisped on the pit rather than in a kettle: turned down to the coals for the last two hours with the lid closed.",
+   "region": "eastern North Carolina"
+  }
+ ],
+ "images": [
+  {
+   "file": "pork-skins/pork-skins-2020-09-05-19-03-38-a-sample-of-smithfield-farms-ori-0bcca5e.jpg",
+   "source": "commons",
+   "title": "File:2020-09-05 19 03 38 A sample of Smithfield Farms Original Pork Rinds Chicharrones in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/2020-09-05_19_03_38_A_sample_of_Smithfield_Farms_Original_Pork_Rinds_Chicharrones_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2020-09-05_19_03_38_A_sample_of_Smithfield_Farms_Original_Pork_Rinds_Chicharrones_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Famartin",
+   "credit": "Own work",
+   "alt": "A sample of Smithfield Farms Original Pork Rinds Chicharrones in the Franklin Farm section of Oak Hill, Fairfax County, Virginia",
+   "date": "2020-09-05 19:03:38",
+   "primary": true,
+   "sha256": "4e63c1346051ff3abc5d23d64cfbaada7e4988321917814a340687b47d7a7dd4"
+  },
+  {
+   "file": "pork-skins/pork-skins-2020-09-05-19-04-25-a-single-smithfield-farms-origin-e9890de.jpg",
+   "source": "commons",
+   "title": "File:2020-09-05 19 04 25 A single Smithfield Farms Original Pork Rinds Chicharrones in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2020-09-05_19_04_25_A_single_Smithfield_Farms_Original_Pork_Rinds_Chicharrones_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2020-09-05_19_04_25_A_single_Smithfield_Farms_Original_Pork_Rinds_Chicharrones_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Famartin",
+   "credit": "Own work",
+   "alt": "A single Smithfield Farms Original Pork Rinds Chicharrones in the Franklin Farm section of Oak Hill, Fairfax County, Virginia",
+   "date": "2020-09-05 19:04:25",
+   "primary": false,
+   "sha256": "e36fe87bb16e008f0732213f46661b843ad77bdfc4cfd8038c220b0d378cc29d"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15",
+ "blurb": "The pig's hide, cooked until it blisters and cracks. On an eastern whole hog the skin faces up through the night and is turned to the coals at the end to crisp; at Skylight Inn it is chopped into the meat, where the…",
+ "region_terms": [
+  {
+   "key": "carolinas",
+   "name": "The Carolinas",
+   "state": null,
+   "note": "both states together; use when a node belongs to the whole tradition"
+  },
+  {
+   "key": "nc-east",
+   "name": "Eastern North Carolina",
+   "state": "NC",
+   "note": "the Coastal Plain, east of the fall line and roughly east of Raleigh; 'Down East' further out toward the coast"
+  },
+  {
+   "key": "sc-pee-dee",
+   "name": "The Pee Dee",
+   "state": "SC",
+   "note": "the northeast of the state along the Pee Dee River: Florence, Hemingway, Kingstree, Marion"
+  },
+  {
+   "key": "nc",
+   "name": "North Carolina",
+   "state": "NC"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style that chops the skin into the meat instead of setting it aside.",
+   "rel": "whole"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the hog they come off; in the Carolinas the skin is crisped on purpose.",
+   "rel": "part"
+  },
+  {
+   "to": "skylight-inn",
+   "type": "place",
+   "name": "Skylight Inn BBQ",
+   "as": "where the crisped skin goes through the chop with the tenderloin and inner meat.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sam-jones-bbq",
+   "type": "place",
+   "name": "Sam Jones BBQ",
+   "as": "where fresh fried skins come with pimento cheese.",
+   "rel": "served-at"
+  },
+  {
+   "to": "lexington-barbecue",
+   "type": "place",
+   "name": "Lexington Barbecue",
+   "as": "where skins are sold as a sandwich with slaw.",
+   "rel": "served-at"
+  },
+  {
+   "to": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "where the hog is sometimes skinned before cooking and the skin fried separately.",
+   "rel": "kin"
+  },
+  {
+   "to": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the Piedmont's crust: bark from a shoulder, where the east has skin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hog-killing",
+   "type": "pit",
+   "name": "hog killing",
+   "as": "where cracklings began, as the residue of the lard pot.",
+   "rel": "origin"
+  },
+  {
+   "to": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "crackling bread is cornbread with these baked in.",
+   "rel": "kin"
+  },
+  {
+   "to": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "where the skin is wiped clean of ash before the hog is turned, for the cracklings.",
+   "rel": "event"
+  },
+  {
+   "to": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "where the skin goes into the meat under the cleavers.",
+   "rel": "part"
+  },
+  {
+   "to": "hog",
+   "type": "term",
+   "name": "hog",
+   "as": "the animal whose hide this is.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-whole-hog-barbecue",
+   "kind": "wikipedia",
+   "title": "Whole hog barbecue — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whole_hog_barbecue",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1369482778"
+  },
+  {
+   "id": "s:wp-skylight-inn-bbq",
+   "kind": "wikipedia",
+   "title": "Skylight Inn BBQ — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-pork-rind",
+   "kind": "wikipedia",
+   "title": "Pork rind — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pork_rind",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-cracklings",
+   "kind": "wikipedia",
+   "title": "Cracklings — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cracklings",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1364096265"
+  },
+  {
+   "id": "s:wp-cornbread",
+   "kind": "wikipedia",
+   "title": "Cornbread — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cornbread",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1371329180"
+  },
+  {
+   "id": "s:wp-pig-pickin",
+   "kind": "wikipedia",
+   "title": "Pig pickin' — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
+   "license": "CC BY-SA 4.0",
+   "note": "revision 1315979086"
+  },
+  {
+   "id": "s:wp-barbecue-in-south-carolina",
+   "kind": "wikipedia",
+   "title": "Barbecue in South Carolina — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_South_Carolina",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:ncpedia-barbecue",
+   "kind": "web",
+   "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
+   "url": "https://www.ncpedia.org/barbecue",
+   "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:web-samjones-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Sam Jones BBQ, Winterville and Raleigh NC",
+   "url": "https://www.samjonesbbq.com/menu",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lexbbq-menu",
+   "kind": "web",
+   "title": "Lexington Barbecue — Menu",
+   "publisher": "Lexington Barbecue, Lexington NC",
+   "url": "https://www.lexbbq.com/menu/",
+   "accessed": "2026-09-15",
+   "note": "cash and card prices"
+  },
+  {
+   "id": "s:book-mrs-hills-new-cook-book",
+   "kind": "book",
+   "title": "Mrs. Hill's New Cook-Book; or, Housekeeping Made Easy. A Practical System for Private Families, in Town and Country, Especially Adapted to the Southern States",
+   "author": "Mrs. A. P. Hill (Annabella P. Hill), of Georgia",
+   "publisher": "G. W. Dillingham Co., New York",
+   "year": 1867,
+   "url": "https://archive.org/details/mrshillsnewcookb00hill",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "First published 1867 by Carleton, New York; copyright renewed 1870. Read in the new and enlarged edition of 1898, which is the scan on the Internet Archive. Receipts are numbered; the numbers are given with the page."
+  },
+  {
+   "id": "s:book-dixie-cookery",
+   "kind": "book",
+   "title": "Dixie Cookery; or, How I Managed My Table for Twelve Years. A Practical Cook-Book for Southern Housekeepers",
+   "author": "Mrs. [Maria Massey] Barringer, of North Carolina",
+   "publisher": "Loring",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "accessed": "2026-09-16",
+   "license": "Public domain",
+   "note": "Written in Concord, Cabarrus County, North Carolina. Published in the United States in 1867 and in the public domain. Read in the Internet Archive scan; recipe texts copied from it verbatim, spelling and punctuation as printed."
+  },
+  {
+   "id": "s:wikibooks-eastern-north-carolina-barbecued-pig",
+   "kind": "web",
+   "title": "Cookbook:Eastern North Carolina Barbecued Pig — Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook%3AEastern_North_Carolina_Barbecued_Pig",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0",
+   "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-whole-hog-barbecue",
+   "note": "crackling bread as farm bread is marked tradition inline; the rest is in the articles cited"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-pork-rind"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-samjones-menu",
+   "note": "menus read 2026-09-15"
+  }
+ },
+ "primary_image": {
+  "file": "pork-skins/pork-skins-2020-09-05-19-03-38-a-sample-of-smithfield-farms-ori-0bcca5e.jpg",
+  "source": "commons",
+  "title": "File:2020-09-05 19 03 38 A sample of Smithfield Farms Original Pork Rinds Chicharrones in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/2020-09-05_19_03_38_A_sample_of_Smithfield_Farms_Original_Pork_Rinds_Chicharrones_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3A2020-09-05_19_03_38_A_sample_of_Smithfield_Farms_Original_Pork_Rinds_Chicharrones_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Famartin",
+  "credit": "Own work",
+  "alt": "A sample of Smithfield Farms Original Pork Rinds Chicharrones in the Franklin Farm section of Oak Hill, Fairfax County, Virginia",
+  "date": "2020-09-05 19:03:38",
+  "primary": true,
+  "sha256": "4e63c1346051ff3abc5d23d64cfbaada7e4988321917814a340687b47d7a7dd4"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sc-pee-dee",
+   "type": "style",
+   "name": "Pee Dee whole-hog barbecue",
+   "as": "the skin, taken off and fried, sold by the bag at Scott's.",
+   "rel": "serves"
+  },
+  {
+   "from": "barbecue-sandwich",
+   "type": "dish",
+   "name": "barbecue sandwich",
+   "as": "the filling of Lexington Barbecue's other sandwich.",
+   "rel": "kin"
+  },
+  {
+   "from": "cornbread",
+   "type": "dish",
+   "name": "cornbread",
+   "as": "crackling bread is this bread with cracklings baked in.",
+   "rel": "kin"
+  },
+  {
+   "from": "outside-brown",
+   "type": "dish",
+   "name": "outside brown",
+   "as": "the eastern crust: chopped hog skin, where the Piedmont has bark.",
+   "rel": "contrast"
+  },
+  {
+   "from": "chopping-block",
+   "type": "pit",
+   "name": "chopping block",
+   "as": "the crisp skin chopped through the eastern barbecue.",
+   "rel": "part"
+  },
+  {
+   "from": "hog-killing",
+   "type": "pit",
+   "name": "hog killing",
+   "as": "cracklings, the fat's crisp remainder, are the killing's snack; pork skins are the pit's.",
+   "rel": "kin"
+  },
+  {
+   "from": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the crisp skin the eastern chop is judged on, chopped into the meat.",
+   "rel": "part"
+  },
+  {
+   "from": "clyde-coopers",
+   "type": "place",
+   "name": "Clyde Cooper's BBQ",
+   "as": "fried skins on the tray and by the bag, in several kinds; the thing regulars name.",
+   "rel": "serves"
+  },
+  {
+   "from": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "as": "sold from the same hogs.",
+   "rel": "serves"
+  },
+  {
+   "from": "morris-barbeque",
+   "type": "place",
+   "name": "Morris Barbeque",
+   "as": "the first thing it sells out of every Saturday; they have to be ordered ahead.",
+   "rel": "serves"
+  },
+  {
+   "from": "speedy-lohrs-barbecue",
+   "type": "place",
+   "name": "Speedy Lohr's Barbecue",
+   "as": "a Thursday sandwich here rather than a daily side.",
+   "rel": "serves"
+  },
+  {
+   "from": "sweatmans-bar-b-que",
+   "type": "place",
+   "name": "Sweatman's Bar-B-Que",
+   "as": "fried when the hogs yield them.",
+   "rel": "serves"
+  },
+  {
+   "from": "pig-pickin",
+   "type": "event",
+   "name": "pig pickin'",
+   "as": "the cracklings a clean flip produces.",
+   "rel": "part"
+  },
+  {
+   "from": "hog",
+   "type": "term",
+   "name": "hog",
+   "as": "the skin of the hog, fried; in the Pee Dee the hog is sometimes skinned before cooking and the skin fried.",
+   "rel": "part"
+  },
+  {
+   "from": "pee-dee",
+   "type": "term",
+   "name": "Pee Dee",
+   "as": "in the Pee Dee the hog is sometimes skinned before cooking and the skin fried.",
+   "rel": "serves"
+  }
+ ]
+}

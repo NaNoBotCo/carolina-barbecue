@@ -1,0 +1,197 @@
+{
+ "schema": 1,
+ "id": "green-beans",
+ "type": "dish",
+ "names": {
+  "name": "green beans",
+  "aliases": [
+   "string beans",
+   "snaps",
+   "snap beans",
+   "simmered green beans"
+  ],
+  "said": "'Beans' on an eastern plate means these when the board also lists baked beans; Parker's in Wilson prints them as string beans."
+ },
+ "etymology": {
+  "root": "green + bean; the older Southern names are string beans, for the fibre pulled off the pod before cooking, and snaps, for the sound the pod makes when broken",
+  "first_attested": "'snaps, string beans' as a recipe heading in Mary Randolph's The Virginia House-Wife, 1824",
+  "note": "Modern varieties are bred stringless, so the first name describes a job the cook no longer has.",
+  "tier": "cited",
+  "source": "s:book-virginia-house-wife"
+ },
+ "region": [
+  "carolinas",
+  "nc-east",
+  "nc",
+  "sc",
+  "us-south"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "eastern-nc",
+   "sc-mustard",
+   "sc-pee-dee",
+   "lexington"
+  ]
+ },
+ "text": {
+  "what": "Whole or broken pods of the common bean, stewed slow with a piece of pork until they give up their squeak and take on the meat's salt, and served in a cup or a compartment beside the barbecue. They are the plain vegetable on a Carolina barbecue plate — a house that keeps one vegetable and no buffet usually keeps these — and the Southern way with them is long cooking rather than short, so the pod goes soft and olive rather than staying bright.",
+  "story": "The pod bean has been in Southern cookbooks as long as there have been Southern cookbooks, under the names the field gave it. Mary Randolph heads the receipt 'Ragout of French Beans, Snaps, String Beans' in 1824 and boils them fifteen minutes before finishing them in brown gravy — the short French method. Maria Massey Barringer, writing at Concord, North Carolina in 1867, gives an hour and a half in salt water and then butter and cream, and adds that the more common way is to boil them with a piece of thin middling, the side of the hog. That second sentence is the Southern one, and the one the barbecue plate inherited. On barbecue menus the bean is the mark of a short kitchen: when Beau Hammond opened Henry's Smokehouse in Greenville, South Carolina, the whole side list was coleslaw and simmered green beans.",
+  "how": "The pods are snapped or cut into lengths and the strings pulled off, where there are any. They go into a pot with a piece of streak-of-lean, fatback, ham hock or bacon and enough water to cover, and simmer an hour or more until soft; new potatoes are often dropped in with them for the last stretch. Salt, black pepper, sometimes a little sugar or a splash of the pot's own vinegar. The pot liquor goes into the bowl with them. A shorter method — fifteen or twenty minutes, then butter and cream — is in the old books and is not what a pit serves.",
+  "today": "On the plate at B's Barbecue in Greenville, North Carolina, where the sides are slaw, potatoes or green beans; the whole side list at Henry's Smokehouse in Greenville, South Carolina, with the coleslaw; on the buffets at McCabe's in Manning and Shealy's in Batesburg-Leesville; printed as string beans on the menu at Parker's in Wilson."
+ },
+ "kin": [
+  {
+   "to": "bs-barbecue",
+   "as": "one of the three sides: slaw, potatoes or green beans.",
+   "rel": "served-at"
+  },
+  {
+   "to": "henrys-smokehouse",
+   "as": "half the original side list, with the coleslaw.",
+   "rel": "served-at"
+  },
+  {
+   "to": "mccabes-bar-b-q",
+   "as": "on the Manning buffet with the greens and the butter beans.",
+   "rel": "served-at"
+  },
+  {
+   "to": "shealys-bar-b-que",
+   "as": "green and butter beans both, on the Batesburg-Leesville line.",
+   "rel": "served-at"
+  },
+  {
+   "to": "parkers-barbecue",
+   "as": "printed as string beans on the Wilson menu.",
+   "rel": "served-at"
+  },
+  {
+   "to": "boiled-potatoes",
+   "as": "the other plain eastern vegetable, often cooked in the same pot.",
+   "rel": "kin"
+  },
+  {
+   "to": "collards",
+   "as": "the other pork-cooked green; a buffet with room keeps both.",
+   "rel": "kin"
+  },
+  {
+   "to": "baked-beans",
+   "as": "the sweet bean on the same board, which is why a menu distinguishes them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "barbecue-tray",
+   "as": "the vegetable compartment, where a house keeps one.",
+   "rel": "part"
+  },
+  {
+   "to": "fixins",
+   "as": "one of the fixins on an eastern plate.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "baked-beans",
+   "tell": "Green beans are the pod, cooked with pork and served in their own liquor; baked beans are dried white beans in a sweet brown sauce."
+  }
+ ],
+ "links": [
+  {
+   "label": "B's Barbecue — Our State",
+   "url": "https://www.ourstate.com/bs-barbecue/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-a-day-at-bs",
+  "s:sfa-bs-barbecue",
+  "s:web-henrys-home",
+  "s:web-destination-bbq-henrys",
+  "s:web-discoversc-mccabes",
+  "s:web-shealys-home",
+  "s:web-ourstate-parkers",
+  "s:book-virginia-house-wife",
+  "s:book-dixie-cookery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-a-day-at-bs"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition",
+    "source": "s:book-dixie-cookery",
+    "note": "the long-cooked pork-seasoned method is general knowledge of the tradition; Barringer's 1867 book is the earliest source here that states it"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:book-virginia-house-wife",
+    "note": "Randolph 1824 and Barringer 1867 read in the books; Henry's opening side list from the restaurant's own pages and Destination BBQ"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "source": "s:book-dixie-cookery",
+    "note": "the short method is Randolph's and Barringer's; the long one is the tradition's"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ourstate-a-day-at-bs",
+    "note": "Parker's menu and the South Carolina buffets as their sources describe them"
+   },
+   "recipes": {
+    "tier": "cited",
+    "source": "s:book-dixie-cookery",
+    "note": "each recipe carries its own source, licence and page"
+   }
+  }
+ },
+ "recipes": [
+  {
+   "title": "Beans",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "text": "String, and break them in halves; boil in salt and water, and throw in a piece of soda the size of a pea, if they are old, or you wish them a fine color. Boil them for an hour and a half; pour off the water, and dress with butter and cream, and sprinkle over some pepper. But a more common way is to boil them with a piece of thin middling.",
+   "page": 32,
+   "note": "A North Carolina book of 1867. The last sentence is the method the barbecue plate kept: the beans cooked with a piece of the side of the hog. Soda in the water was used to hold the green, and is not used now.",
+   "region": "North Carolina"
+  },
+  {
+   "title": "Ragout of French Beans, Snaps, String Beans",
+   "source": "s:book-virginia-house-wife",
+   "license": "Public domain",
+   "year": 1824,
+   "url": "https://archive.org/details/virginiahousewi00rand",
+   "author": "Mrs. Mary Randolph",
+   "book": "The Virginia House-Wife",
+   "text": "Let them be young and fresh gathered, string them, and cut them in long thin slices; throw them in boiling water for fifteen minutes; have ready some well seasoned brown gravy, drain the water from the beans, put them in the gravy, stew them a few minutes, and serve them garnished with forcemeat balls; there must not be gravy enough to float the beans.",
+   "page": 106,
+   "note": "The short French method, 1824, with all three names for the bean in the title. A ragout is a stew; forcemeat balls are seasoned minced meat rolled and cooked."
+  },
+  {
+   "title": "Lima Beans",
+   "source": "s:book-dixie-cookery",
+   "license": "Public domain",
+   "year": 1867,
+   "url": "https://archive.org/details/dixiecookeryorho00barr",
+   "author": "Mrs. Barringer, of North Carolina",
+   "book": "Dixie Cookery",
+   "text": "Let them boil about an hour, and when the water is poured off, season with salt, pepper, and butter. Send to table hot. Dried Lima beans must be soaked over night, and boiled two hours, or until they are soft, and should have some cream added to the dressing.",
+   "page": 32,
+   "note": "Butter beans, on the same page — the other bean a Carolina buffet keeps, and the one in a Brunswick stew.",
+   "region": "North Carolina"
+  }
+ ],
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

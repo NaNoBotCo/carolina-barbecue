@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "id": "pee-dee",
+ "type": "term",
+ "names": {
+  "name": "Pee Dee",
+  "aliases": ["Pedee", "Peedee", "the Pee Dee", "Great Pee Dee"],
+  "said": "'The Pee Dee' is the river and the corner of South Carolina it drains — Florence, Marion, Kingstree, Hemingway; in barbecue it means whole hog with a thin, hot vinegar-and-pepper sauce."
+ },
+ "etymology": {
+  "root": "from the Pee Dee (Pedee) people, an Indigenous nation of the South Carolina Piedmont and the river valley; the river took their name and the region took the river's. Their language was never recorded and the name's meaning is unknown",
+  "first_attested": "",
+  "note": "The anthropologist Frank Speck suggested Catawban words meaning 'something good' or 'smart, capable'; a story that a trader named Patrick Daley carved 'P.D.' on trees is folk etymology without scholarly support (Wikipedia). Spellings: Pedee, Peedee, Peadea, Pidee.",
+  "tier": "cited",
+  "source": "s:wp-pee-dee-people"
+ },
+ "region": ["sc-pee-dee"],
+ "facets": {"letter": "P", "part_of_speech": "noun"},
+ "text": {
+  "what": "The river and the region. The Pee Dee rises in the North Carolina mountains as the Yadkin, takes the name Pee Dee below the mouth of the Uwharrie, crosses into South Carolina and reaches the sea at Winyah Bay. The region is the state's north-east corner — Chesterfield, Darlington, Dillon, Florence, Marlboro and Marion counties always, Horry, Georgetown and Williamsburg usually. Its barbecue is whole hog over hardwood coals, sometimes skinned first with the skin fried, and a sauce of vinegar, salt and pepper that Wikipedia calls virtually identical to eastern North Carolina's.",
+  "story": "The people gave the river its name and the river gave it to the land. The Pedee were a Southeastern Woodlands people of the South Carolina Piedmont and the river valley, part of the South Appalachian Mississippian culture — the mound-building culture of the Southeast, about 1000 to 1500 — and numbered about 600 in 1600; their language was never written down, and the name's meaning is a guess. Four state-recognized tribes claim their descent. Its barbecue is the whole hog. The South Carolina Encyclopedia gives the Pee Dee sauce as 'watery thin and fiery hot pepper and vinegar concoctions'; the Wikipedia article on South Carolina barbecue calls the vinegar sauce heavily based on Native American basting sauces, a claim it makes without a document behind it. Scott's Variety Store and Bar-B-Q opened in Hemingway in 1972 and became known for whole-hog platters; Rodney Scott grew up at its pit and took the Pee Dee hog to Charleston in 2017. Kingstree holds a Pig Pickin' festival every fall for Williamsburg County's vinegar barbecue. *Inference —* the Pee Dee and Down East are one barbecue country cut by a state line."
+ },
+ "kin": [
+  {"to": "sc-pee-dee", "as": "the style named for the region.", "rel": "term"},
+  {"to": "eastern-nc", "as": "the same cooking north of the line: whole hog, vinegar and pepper.", "rel": "kin"},
+  {"to": "down-east", "as": "North Carolina's name for the same coastal-plain whole-hog country.", "rel": "kin"},
+  {"to": "whole-hog", "as": "the Pee Dee's cut.", "rel": "part"},
+  {"to": "vinegar-pepper-sauce", "as": "the Pee Dee sauce: 'watery thin and fiery hot'.", "rel": "sauce"},
+  {"to": "pork-skins", "as": "in the Pee Dee the hog is sometimes skinned before cooking and the skin fried.", "rel": "serves"},
+  {"to": "hash-and-rice", "as": "the Pee Dee's hash is liver hash.", "rel": "serves"},
+  {"to": "chicken-bog", "as": "the Pee Dee's rice dish, most common there and in the Lowcountry.", "rel": "serves"},
+  {"to": "scotts-bar-b-que", "as": "Hemingway, 1972: the Pee Dee's best-known whole-hog pit.", "rel": "place"},
+  {"to": "rodney-scott", "as": "who cooked at Scott's from about age eleven and took the Pee Dee hog to Charleston.", "rel": "person"},
+  {"to": "rodney-scotts-whole-hog-bbq", "as": "the Charleston restaurant, opened 2017, that carried the Pee Dee hog to the coast.", "rel": "place"},
+  {"to": "pig-pickin", "as": "Kingstree's fall festival is a Pig Pickin', for the county's vinegar barbecue.", "rel": "event"},
+  {"to": "piedmont", "as": "where the Pee Dee people lived before the name moved downriver.", "rel": "kin"}
+ ],
+ "confusable_with": [
+  {"id": "sc-mustard", "tell": "Pee Dee sauce is thin, clear and hot; Midlands sauce is yellow with mustard. If the sauce is yellow you have left the Pee Dee."}
+ ],
+ "links": [
+  {"label": "Pee Dee — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pee_Dee"},
+  {"label": "Pee Dee people — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pee_Dee_people"},
+  {"label": "Pee Dee River — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pee_Dee_River"}
+ ],
+ "sources": ["s:wp-pee-dee", "s:wp-pee-dee-river", "s:wp-pee-dee-people", "s:wiktionary-pee-dee", "s:wp-barbecue-in-south-carolina", "s:web-sc-encyclopedia-barbecue", "s:wp-hemingway-south-carolina", "s:wp-scotts-variety-store-and-bar-b-q", "s:wp-rodney-scott-pitmaster", "s:wp-kingstree-south-carolina", "s:wp-chicken-bog"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-pee-dee"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:wp-pee-dee-people", "note": "the people from their article; the sauce from the SC Encyclopedia and the SC barbecue article; Scott's and Rodney Scott from their articles; the last sentence is inference"},
+   "names.said": {"tier": "tradition", "note": "usage; the towns are the region's per its article and the Hemingway and Kingstree articles"},
+   "etymology": {"tier": "cited", "source": "s:wp-pee-dee-people", "note": "no first attestation of the name was found; first_attested is left blank on purpose"}
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-15"
+}

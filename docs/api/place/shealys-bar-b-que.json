@@ -1,0 +1,403 @@
+{
+ "schema": 1,
+ "id": "shealys-bar-b-que",
+ "type": "place",
+ "names": {
+  "name": "Shealy's Bar-B-Que",
+  "aliases": [
+   "Shealy's Bar-B-Que House",
+   "Shealy's BBQ",
+   "Shealy's"
+  ],
+  "sort": "Shealy's"
+ },
+ "region": [
+  "sc-midlands",
+  "sc"
+ ],
+ "facets": {
+  "state": "SC",
+  "status": "open",
+  "founded": "1969",
+  "styles": [
+   "sc-mustard"
+  ]
+ },
+ "text": {
+  "what": "A buffet house on East Columbia Avenue in Batesburg-Leesville, Lexington County, opened in June 1969 by Victor and Sara Shealy with their teenage children Tommy and Nancy, and family-run since. It is the barbecue buffet in its fullest form: pork shoulders smoked by the thousand each week and served chopped with mustard sauce — vinegar and tomato sauces alongside — hash over rice, fried chicken, ribs, country-fried steak and more than forty home-cooked sides, with a salad bar and a dessert bar, all you can eat. The South Carolina House marked its fiftieth anniversary with a resolution in 2019.",
+  "story": "Victor and Sara Shealy barbecued whole hogs in their back yard on weekends in the early 1950s, and word of Victor's sauce spread until they were cooking four or five hogs a week. They quit their jobs, borrowed about $20,000 to buy a building, and in June 1969 opened Shealy's Bar-B-Que House with Tommy and Nancy, then teenagers, working beside them. *Tradition holds —* Sara put the food on a buffet from the first year, and the family counts it among the first barbecue buffets in the state. On April 30, 2019 the South Carolina House of Representatives adopted a resolution for the fiftieth anniversary, naming the 'all-you-can-eat buffet' of 'renowned barbeque and over forty home-cooked sides'. The house stands at the western edge of the Midlands mustard belt; *Inference —* by the map, a quarter mile across the railroad from where Jackie Hite's cooked whole hogs until 2018.",
+  "how": "Everything is on the line: chopped pork and ribs with a choice of mustard, vinegar or tomato sauce; hash — the thick pork gravy of the Midlands — over white rice; fried chicken by the heap, and off the menu the pulley bone, the wishbone piece; country-fried steak with milk gravy, lima beans, creamed corn, collards, mac and cheese, green and butter beans, mashed potatoes, a salad bar and a dessert bar. A 2015 review put the buffet under $15 a head with a drink. Carry-out plates go from 10 a.m.",
+  "today": "Open Monday, Tuesday and Thursday to Saturday, buffet 11 a.m. to 9 p.m., carry-out 10 to 8:30; closed Wednesday and Sunday. 340 East Columbia Avenue, Batesburg-Leesville — OpenStreetMap records the building at number 240. Checked September 15, 2026."
+ },
+ "kin": [
+  {
+   "to": "sc-mustard",
+   "as": "its style, at the western edge of the mustard belt; vinegar and tomato sauces stand beside the mustard.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "as": "the sauce it is known for, from Victor Shealy's back-yard recipe.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "as": "the thick pork gravy over white rice on its line.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "as": "the cut: shoulders by the thousand each week, smoked and chopped, not whole hogs.",
+   "rel": "part"
+  },
+  {
+   "to": "jackie-hites-bar-b-q",
+   "as": "the town's other barbecue house, across the tracks, closed in 2018.",
+   "rel": "kin"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "as": "the Orangeburg buffet lineage; Shealy's is the Lexington County answer, forty sides long.",
+   "rel": "kin"
+  },
+  {
+   "to": "hites-bar-b-q",
+   "as": "the West Columbia stand twenty-five miles east; another Lexington County mustard house.",
+   "rel": "kin"
+  }
+ ],
+ "geo": {
+  "lat": 33.91475,
+  "lon": -81.51528,
+  "precision": "street",
+  "source": "OpenStreetMap"
+ },
+ "address": {
+  "street": "340 E Columbia Ave",
+  "city": "Batesburg-Leesville",
+  "county": "Lexington",
+  "state": "SC",
+  "postcode": "29070"
+ },
+ "links": [
+  {
+   "label": "Shealy's BBQ — official",
+   "url": "https://www.shealysbbq.com/"
+  },
+  {
+   "label": "H. 4503 (2019) — South Carolina House resolution",
+   "url": "https://www.scstatehouse.gov/sess123_2019-2020/bills/4503.htm"
+  }
+ ],
+ "sources": [
+  "s:web-sc-house-h4503-shealys-2019",
+  "s:web-shealys-home",
+  "s:web-lake-murray-country-shealys",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sc-house-h4503-shealys-2019"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-sc-house-h4503-shealys-2019",
+    "note": "back-yard hogs, the $20,000 loan and the four or five hogs a week from the Lake Murray Country page; the 'first buffet' claim is marked as tradition — the family's own claim, reported in press this project could not fetch"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-lake-murray-country-shealys"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-shealys-home"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-shealys-home",
+    "note": "OSM tags the building 240 E Columbia Ave; the restaurant gives 340"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "images": [],
+ "updated": "2026-09-16",
+ "tags": [
+  {
+   "tag": "buffet",
+   "source": "s:web-shealys-home",
+   "tier": "cited",
+   "note": "More than forty home-cooked sides with a salad bar and a dessert bar, all you can eat; under $15 a head with a drink in a 2015 review."
+  },
+  {
+   "tag": "hash",
+   "source": "s:web-lake-murray-country-shealys",
+   "tier": "cited",
+   "note": "Hash — the thick pork gravy of the Midlands — over white rice."
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-sc-house-h4503-shealys-2019",
+   "tier": "cited",
+   "note": "The South Carolina House resolution of 2019 has it opened in June 1969 by Victor and Sara Shealy and family-run since. The resolution names Sara Shealy as a co-founder; who holds the business today is not on this disk.",
+   "since": "1969"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-sc-house-h4503-shealys-2019",
+   "tier": "cited",
+   "note": "Opened in June 1969 by Victor and Sara Shealy with their teenage children Tommy and Nancy, and family-run since."
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "South Carolina House resolution H.4503 marking the restaurant's fiftieth anniversary",
+   "source": "s:web-sc-house-h4503-shealys-2019",
+   "year": 2019
+  }
+ ],
+ "blurb": "A buffet house on East Columbia Avenue in Batesburg-Leesville, Lexington County, opened in June 1969 by Victor and Sara Shealy with their teenage children Tommy and Nancy, and family-run since.",
+ "region_terms": [
+  {
+   "key": "sc-midlands",
+   "name": "The South Carolina Midlands",
+   "state": "SC",
+   "note": "Columbia and the counties around it, including the Dutch Fork; the mustard belt"
+  },
+  {
+   "key": "sc",
+   "name": "South Carolina",
+   "state": "SC"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "its style, at the western edge of the mustard belt; vinegar and tomato sauces stand beside the mustard.",
+   "rel": "whole"
+  },
+  {
+   "to": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the sauce it is known for, from Victor Shealy's back-yard recipe.",
+   "rel": "sauce"
+  },
+  {
+   "to": "hash-and-rice",
+   "type": "dish",
+   "name": "hash and rice",
+   "as": "the thick pork gravy over white rice on its line.",
+   "rel": "serves"
+  },
+  {
+   "to": "pork-shoulder",
+   "type": "pit",
+   "name": "pork shoulder",
+   "as": "the cut: shoulders by the thousand each week, smoked and chopped, not whole hogs.",
+   "rel": "part"
+  },
+  {
+   "to": "jackie-hites-bar-b-q",
+   "type": "place",
+   "name": "Jackie Hite's Bar-B-Q",
+   "as": "the town's other barbecue house, across the tracks, closed in 2018.",
+   "rel": "kin"
+  },
+  {
+   "to": "dukes-bar-b-que",
+   "type": "place",
+   "name": "Dukes Bar-B-Que",
+   "as": "the Orangeburg buffet lineage; Shealy's is the Lexington County answer, forty sides long.",
+   "rel": "kin"
+  },
+  {
+   "to": "hites-bar-b-q",
+   "type": "place",
+   "name": "Hite's Bar-B-Que",
+   "as": "the West Columbia stand twenty-five miles east; another Lexington County mustard house.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-sc-house-h4503-shealys-2019",
+   "kind": "web",
+   "title": "H. 4503, Session 123 (2019–2020): a House resolution honoring Shealy's Bar-B-Que House on its fiftieth anniversary (April 30, 2019)",
+   "publisher": "South Carolina Legislature Online",
+   "url": "https://www.scstatehouse.gov/sess123_2019-2020/bills/4503.htm",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-shealys-home",
+   "kind": "web",
+   "title": "Shealy's BBQ — official site",
+   "publisher": "Shealy's Bar-B-Que House, Batesburg-Leesville",
+   "url": "https://www.shealysbbq.com/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:web-lake-murray-country-shealys",
+   "kind": "web",
+   "title": "Shealy's Bar-B-Que",
+   "publisher": "Lake Murray Country (Capital City / Lake Murray Country Regional Tourism Board)",
+   "url": "https://www.lakemurraycountry.com/businesses/shealys-bar-b-que/",
+   "accessed": "2026-09-15"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+   "url": "https://www.openstreetmap.org/copyright",
+   "license": "ODbL 1.0",
+   "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-sc-house-h4503-shealys-2019"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-sc-house-h4503-shealys-2019",
+   "note": "back-yard hogs, the $20,000 loan and the four or five hogs a week from the Lake Murray Country page; the 'first buffet' claim is marked as tradition — the family's own claim, reported in press this project could not fetch"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-lake-murray-country-shealys"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-shealys-home"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-shealys-home",
+   "note": "OSM tags the building 240 E Columbia Ave; the restaurant gives 340"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "buffet",
+   "label": "Buffet",
+   "icon": "🍽",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-shealys-home",
+   "note": "More than forty home-cooked sides with a salad bar and a dessert bar, all you can eat; under $15 a head with a drink in a 2015 review.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "hash",
+   "label": "Serves hash",
+   "icon": "🍚",
+   "group": "plate",
+   "evidence": "a menu or a press piece",
+   "resources": [],
+   "source": "s:web-lake-murray-country-shealys",
+   "note": "Hash — the thick pork gravy of the Midlands — over white rice.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ],
+   "source": "s:web-sc-house-h4503-shealys-2019",
+   "note": "The South Carolina House resolution of 2019 has it opened in June 1969 by Victor and Sara Shealy and family-run since. The resolution names Sara Shealy as a co-founder; who holds the business today is not on this disk.",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-sc-house-h4503-shealys-2019",
+   "note": "Opened in June 1969 by Victor and Sara Shealy with their teenage children Tommy and Nancy, and family-run since.",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "South Carolina House resolution H.4503 marking the restaurant's fiftieth anniversary",
+   "url": "",
+   "year": 2019,
+   "source": "s:web-sc-house-h4503-shealys-2019"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "sc-mustard",
+   "type": "style",
+   "name": "South Carolina mustard barbecue",
+   "as": "the Batesburg-Leesville buffet, established 1969.",
+   "rel": "place"
+  },
+  {
+   "from": "mustard-sauce",
+   "type": "sauce",
+   "name": "mustard-based barbecue sauce",
+   "as": "the Batesburg-Leesville buffet, since 1969, which sells its sauce online.",
+   "rel": "served-at"
+  },
+  {
+   "from": "collards",
+   "type": "dish",
+   "name": "collards",
+   "as": "one of the vegetables on the Batesburg-Leesville line.",
+   "rel": "served-at"
+  },
+  {
+   "from": "green-beans",
+   "type": "dish",
+   "name": "green beans",
+   "as": "green and butter beans both, on the Batesburg-Leesville line.",
+   "rel": "served-at"
+  },
+  {
+   "from": "mac-and-cheese",
+   "type": "dish",
+   "name": "mac and cheese",
+   "as": "one of the vegetables on the Batesburg-Leesville line.",
+   "rel": "served-at"
+  },
+  {
+   "from": "jackie-hites-bar-b-q",
+   "type": "place",
+   "name": "Jackie Hite's Bar-B-Q",
+   "as": "the town's other barbecue house, a quarter mile across the tracks, still open.",
+   "rel": "kin"
+  }
+ ]
+}

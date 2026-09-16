@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "skilton-dennis",
+ "type": "person",
+ "names": {
+  "name": "Skilton Dennis",
+  "aliases": ["Skilton M. Dennis"],
+  "sort": "Dennis, Skilton"
+ },
+ "region": ["nc-east", "nc"],
+ "facets": {
+  "role": ["cook", "family"],
+  "state": "NC",
+  "styles": ["eastern-nc"]
+ },
+ "text": {
+  "what": "Skilton Dennis is the ancestor the Dennis and Jones families of Ayden name as the start of barbecue for sale in North Carolina: by their account he sold smoked hog meat and cornbread from a wagon in 1830, and Otter Dennis, of the same family, founded the town. The 1830 is painted on the Skylight Inn's billboard as one of its four tenets and was recorded from Bum and Larry Dennis by the Southern Foodways Alliance; Bob Garner's 2012 profile of Pete Jones puts the covered wagon in the mid-1800s. No document has been produced.",
+  "story": "The claim is the families'. Pete Jones, who opened the Skylight Inn in 1947, learned the trade from the Dennis side of his family and liked to say that barbecue ran in his blood; his great-great-grandfather, he told Bob Garner, sold barbecue from a covered wagon in Ayden in the mid-1800s. The billboard outside the Skylight sets the tradition at 1830. Bum Dennis and his son Larry gave Rien Fertel the same story for the Southern Foodways Alliance in December 2011: Skilton Dennis selling smoked hog meat and cornbread from a wagon in 1830, and Otter Dennis founding the 'enigmatically-named' town. John Tanner's post on Bum's death counts the wagon-seller as a great-great-great-grandfather, 'add 4 or 5 more greats' — the arithmetic of a family story, not of a record. The Alliance's page for Sam Jones says the Dennis clan's history shows them as the first in North Carolina to serve pit barbecue publicly. *Inference —* Ayden was incorporated only in 1891, around a railroad depot on William Henry Harris's farm; a wagon in 1830 would have served the farms and churches of what became southern Pitt County, not a town. *Inference —* this project has seen no census, deed or grave for a Skilton Dennis selling barbecue in 1830; the date is held here as the families' and nothing more.",
+  "today": "Dead, on no date this record can name. The two families that tell his story cook whole hog in Ayden: the Joneses at the Skylight Inn, opened 1947, and the Dennises at Bum's Restaurant, opened 1963, a few blocks apart."
+ },
+ "kin": [
+  {"to": "skylight-inn", "as": "its billboard names his 1830 wagon as the tradition the Jones family upholds.", "rel": "descendant"},
+  {"to": "bums-restaurant", "as": "the Dennis family's pit, whose founder told the Alliance the wagon story in 2011.", "rel": "descendant"},
+  {"to": "pete-jones", "as": "his descendant, who put the 1830 on the Skylight's sign.", "rel": "person"},
+  {"to": "bum-dennis", "as": "his descendant, who gave the Southern Foodways Alliance the wagon and the date.", "rel": "person"},
+  {"to": "sam-jones", "as": "his descendant, who wrote the family's claim into a book in 2019.", "rel": "person"},
+  {"to": "eastern-nc", "as": "the style whose oldest dated claim — a wagon, 1830, Ayden — is his.", "rel": "whole"}
+ ],
+ "links": [
+  {"label": "Bum's Restaurant — SFA oral history (2011)", "url": "https://www.southernfoodways.org/interview/bums-restaurant/"},
+  {"label": "Skylight Inn BBQ — Wikipedia", "url": "https://en.wikipedia.org/wiki/Skylight_Inn_BBQ"}
+ ],
+ "sources": [
+  "s:sfa-bums-restaurant",
+  "s:sfa-skylight-inn",
+  "s:wp-skylight-inn-bbq",
+  "s:web-ourstate-skylight-inn",
+  "s:web-tanner-bum-dennis-2022",
+  "s:wp-ayden-north-carolina",
+  "s:jones-whole-hog-bbq",
+  "s:fertel-one-true-barbecue"
+ ],
+ "provenance": {
+  "default": {"tier": "tradition", "source": "s:sfa-bums-restaurant", "note": "the whole record is the families' claim as they told it to the Alliance, the press and this project's sources; nothing in it is documented"},
+  "fields": {
+   "text.story": {"tier": "tradition", "source": "s:sfa-bums-restaurant", "note": "the 1830 wagon and Otter Dennis from the SFA Bum's page; Garner's mid-1800s from Our State 2012; the greats from John Tanner; the Dennis-clan line from the SFA Skylight page; Ayden's 1891 incorporation from Wikipedia. A 2012 Barbecue Bus post, which could not be fetched, is reported in search to argue from a grave record of 1842–1900 that the name belongs to a later man; not read, not asserted"},
+   "text.today": {"tier": "cited", "source": "s:wp-skylight-inn-bbq"}
+  }
+ },
+ "images": [],
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-15"
+}
