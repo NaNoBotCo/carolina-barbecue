@@ -31,12 +31,15 @@ Every page says what its neighbours are to it, in both directions.
   tablespoon of table sugar is 12.6 g.
 - **[Which part of the pig](https://nanobotco.github.io/carolina-barbecue/pig/)** — a
   drawn hog, and a small one per style showing what that style takes off it.
-- **[Make a sauce](https://nanobotco.github.io/carolina-barbecue/make/)** — pick a region
-  and how you like it, and get a scaled recipe. Two of the six start from a real published
-  recipe (a Wikibooks Eastern North Carolina sauce, CC BY-SA; Mary Randolph's 1824 pepper
-  vinegar) and one descends from Mrs. Hill's 1867 "Sauce for Barbecues". The other three
-  say plainly that the proportions are this project's own. Every result is drawn against
-  the 68 measured bottles, which are mostly sweeter than anything you would make.
+- **[Make it](https://nanobotco.github.io/carolina-barbecue/make/)** — a sauce or a rub.
+  Six sauce regions: two start from a published recipe (a Wikibooks Eastern North Carolina
+  sauce, CC BY-SA; Mary Randolph's 1824 pepper vinegar), one descends from Mrs. Hill's 1867
+  "Sauce for Barbecues", and three say plainly that the proportions are this project's own.
+  Every result is drawn against the 68 measured bottles, which are mostly sweeter than
+  anything you would make. Four rub levels run from **salt and nothing else** — which is what
+  most whole-hog pits actually do — out through Ed Mitchell's four ingredients to a full
+  modern rub, with the Carolina fact stated at the top: the seasoning that decides the
+  flavour happens after the cook, at the chopping block.
 - **[Count it up](https://nanobotco.github.io/carolina-barbecue/numbers/)** — a map of
   the two states shaded by distance to the nearest pit (half of both is within 10.6
   miles of one), when the pits opened, what 142 recipes call for, which days they open,

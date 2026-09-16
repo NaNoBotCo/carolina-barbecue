@@ -170,7 +170,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Carolina <b>Barbecue</b></a>
-<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}make/index.html">Make one</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">What we know</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
+<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}make/index.html">Make it</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">What we know</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
 <main>
 {body}
 {share_row(canonical, share_title or title) if canonical else ""}
@@ -777,7 +777,7 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
     body = (banner + f'<div class="hero"><div><h1><span class="kind">a directory of a living tradition</span>Carolina Barbecue</h1><p class="sub">{E(TAGLINE)}.</p>'
             f'<p>Whole hogs over coals in the east. Shoulders and a red dip in the Piedmont. '
             f'Mustard in the Midlands. Hash over rice down the Pee Dee.</p>'
-            f'<div class="cta"><a class="btn" href="near/index.html">📍 Find the Q near me</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the sauce</a><a class="btn ghost" href="make/index.html">Make a sauce</a><a class="btn ghost" href="numbers/index.html">Count it up</a><a class="btn ghost" href="quiz/index.html">Which side are you on?</a><a class="btn ghost" href="wander.html">🎲 A page at random</a></div></div>'
+            f'<div class="cta"><a class="btn" href="near/index.html">📍 Find the Q near me</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the sauce</a><a class="btn ghost" href="make/index.html">Make a sauce or a rub</a><a class="btn ghost" href="numbers/index.html">Count it up</a><a class="btn ghost" href="quiz/index.html">Which side are you on?</a><a class="btn ghost" href="wander.html">🎲 A page at random</a></div></div>'
             f'<div class="mapwrap">{svg}</div></div>'
             '<div class="facts">' + "".join(f'<div class="fact"><div class="n">{n:,}</div><div class="l">{E(l)}</div></div>' for n, l in facts) + "</div>")
     # the loudest thing on the page after the map: what is worth driving for
@@ -1155,7 +1155,8 @@ def main() -> int:
                             ("pig", pages.pig_page(page, by_id, SITE_URL)),
                             ("quiz", pages.quiz_page(page, jload(DATA / "vocab" / "quiz.json"), by_id, SITE_URL)),
                             ("numbers", pages.numbers_page(page, recs, places, geo, SITE_URL, SITE)),
-                            ("make", pages.make_page(page, jload(DATA / "vocab" / "sauce-builder.json"), sauces, recs, SITE_URL))):
+                            ("make", pages.make_page(page, jload(DATA / "vocab" / "sauce-builder.json"), sauces, recs, SITE_URL,
+                                            jload(DATA / "vocab" / "rub-builder.json")))):
         d = SITE / name
         d.mkdir(exist_ok=True)
         (d / "index.html").write_text(html_text, encoding="utf-8")

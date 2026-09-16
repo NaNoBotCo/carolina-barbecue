@@ -1,0 +1,153 @@
+{
+ "note": "A rub is the part of Carolina barbecue that people from elsewhere expect to be bigger than it is. The levels below run from what a whole-hog pit actually does outward to a full modern rub, and each says where it came from. Quantities per pound are this project's rule of thumb and are marked as such; the proportions inside each level are either a named pitmaster's list or a published recipe's own ratios.",
+ "carolina_note": "At most whole-hog pits the meat goes on with salt and little else, and the seasoning that decides the flavour happens after the cook: the meat is chopped on the block and dressed there with vinegar sauce, and at the Skylight Inn with Texas Pete besides. A heavy rub is a Memphis and Texas habit that Carolina pits mostly did not take up. Start light. You can always season at the block.",
+ "meats": [
+  {
+   "key": "hog",
+   "label": "A whole hog",
+   "lb": 120,
+   "note": "dressed weight, the middle of the 80-to-180 range a pit cooks"
+  },
+  {
+   "key": "shoulder",
+   "label": "A pork shoulder",
+   "lb": 9,
+   "note": "a whole shoulder, bone in"
+  },
+  {
+   "key": "ribs",
+   "label": "A rack of ribs",
+   "lb": 3,
+   "note": "spare ribs, before trimming"
+  },
+  {
+   "key": "chicken",
+   "label": "A chicken",
+   "lb": 4,
+   "note": "a whole bird, split"
+  }
+ ],
+ "heats": [
+  {
+   "key": "none",
+   "label": "No heat",
+   "mult": 0.0
+  },
+  {
+   "key": "mild",
+   "label": "Mild",
+   "mult": 0.5
+  },
+  {
+   "key": "medium",
+   "label": "Medium",
+   "mult": 1.0
+  },
+  {
+   "key": "hot",
+   "label": "Hot",
+   "mult": 2.0
+  }
+ ],
+ "levels": [
+  {
+   "key": "salt",
+   "name": "Salt, and that is all",
+   "tbsp_per_lb": 0.167,
+   "says": "What most whole-hog pits put on the meat. The flavour comes later, at the block.",
+   "anchor": {
+    "kind": "cited",
+    "note": "The whole-hog record has it: the meat is not basted before the flip, and a dry rub is something only some cooks use. The rate here — about half a teaspoon of salt to the pound — is this project's rule of thumb.",
+    "source": "s:this-project"
+   },
+   "parts": {
+    "salt": 1.0
+   },
+   "when": [
+    "Salt the cut surfaces, not the skin.",
+    "Put it on the pit.",
+    "Season for real at the block, with vinegar sauce."
+   ]
+  },
+  {
+   "key": "salt-pepper",
+   "name": "Salt and black pepper",
+   "tbsp_per_lb": 0.25,
+   "says": "The next step out, and as far as a lot of pits go.",
+   "anchor": {
+    "kind": "cited",
+    "note": "Two ingredients, in a two-to-one ratio by volume. The ratio and the rate are this project's.",
+    "source": "s:this-project"
+   },
+   "parts": {
+    "salt": 0.667,
+    "coarse black pepper": 0.333
+   },
+   "when": [
+    "Mix the two and put them on the cut surfaces.",
+    "On the pit.",
+    "Dress at the block."
+   ]
+  },
+  {
+   "key": "mitchell",
+   "name": "Ed Mitchell's four",
+   "tbsp_per_lb": 0.3,
+   "says": "Salt, black pepper, red pepper, onion powder — the list a named Wilson pitmaster works from.",
+   "anchor": {
+    "kind": "named",
+    "title": "Ed Mitchell's rub",
+    "publisher": "Wikipedia",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikipedia.org/wiki/Ed_Mitchell_(pitmaster)",
+    "source": "s:wp-ed-mitchell-pitmaster",
+    "note": "His article gives the ingredients and no amounts: 'His rub comprises salt, black pepper, red pepper, and onion powder.' The four are his; the proportions and the rate are this project's."
+   },
+   "parts": {
+    "salt": 0.5,
+    "ground black pepper": 0.2,
+    "crushed red pepper": 0.12,
+    "onion powder": 0.18
+   }
+  },
+  {
+   "key": "full",
+   "name": "A full modern rub",
+   "tbsp_per_lb": 1.0,
+   "says": "Sweet, red, and a long way from an eastern pit — the kind of rub a competition cook carries.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Barbecue Rub",
+    "publisher": "Wikibooks Cookbook",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook%3ABarbecue_Rub",
+    "source": "s:wikibooks-barbecue-rub",
+    "note": "The recipe's own proportions, held exactly and scaled to the meat. It is not a Carolina recipe and does not claim to be."
+   },
+   "parts": {
+    "brown sugar": 0.2759,
+    "salt": 0.069,
+    "garlic powder": 0.069,
+    "paprika": 0.2759,
+    "chipotle powder": 0.069,
+    "cayenne pepper": 0.0517,
+    "dried rosemary": 0.0517,
+    "chili powder": 0.069,
+    "dehydrated lemon peel": 0.069
+   },
+   "when": [
+    "Mix it all in a jar; it keeps.",
+    "Put it on a few hours ahead, or the night before.",
+    "Cook, then dress at the block if you are eating it the Carolina way."
+   ]
+  }
+ ],
+ "heat_ingredients": [
+  "crushed red pepper",
+  "cayenne pepper",
+  "chipotle powder",
+  "chili powder",
+  "ground black pepper",
+  "coarse black pepper"
+ ]
+}
