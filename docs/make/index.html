@@ -165,16 +165,17 @@ mark.tier{background:transparent;color:var(--mute);font-style:italic}
 </head>
 <body>
 <header class="top"><a class="brand" href="../index.html">Carolina <b>Barbecue</b></a>
-<nav class="crumbs"><a href="../index.html">Directory</a> · <a href="../near/index.html">Find the Q</a> · <a href="../places/index.html">Map</a> · <a href="../sauce/index.html">The sauce</a> · <a href="../make/index.html">Make it</a> · <a href="../pig/index.html">The pig</a> · <a href="../art/index.html">Pig art</a> · <a href="../stories/index.html">Stories</a> · <a href="../quiz/index.html">Quiz</a> · <a href="../search/index.html">Search</a> · <a href="../words/index.html">Words</a> · <a href="../sources/index.html">Where we got it</a> · <a href="../coverage/index.html">What we know</a> · <a href="../api/index.json">API</a> · <a href="../llms.txt">llms.txt</a> · <a class="wander" href="../wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
+<nav class="crumbs"><a href="../index.html">Directory</a> · <a href="../near/index.html">Find the Q</a> · <a href="../places/index.html">Map</a> · <a href="../sauce/index.html">The sauce</a> · <a href="../make/index.html">Make it</a> · <a href="../pig/index.html">The pig</a> · <a href="../art/index.html">Pig art</a> · <a href="../stories/index.html">Stories</a> · <a href="../quiz/index.html">Quiz</a> · <a href="../search/index.html">Search</a> · <a href="../words/index.html">Words</a> · <a href="../sources/index.html">Where we got it</a> · <a href="../coverage/index.html">Where this stops</a> · <a href="../api/index.json">API</a> · <a href="../llms.txt">llms.txt</a> · <a class="wander" href="../wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
 <main>
 
 <h1><span class="kind">Carolina Barbecue</span>Make it</h1>
-<p class="lede">A sauce or a rub, built from what this site can actually cite. Where a free recipe exists it is used and
-named; where none does, the page says the proportions are ours.</p>
+<p class="lede">Build a sauce, a rub or a slaw from sources this site can cite. Published recipes get named where they
+exist. Everything else says plainly that the proportions are ours.</p>
 
 <div class="tabs" role="tablist">
   <button type="button" role="tab" data-panel="sauce" aria-selected="true">A sauce</button>
   <button type="button" role="tab" data-panel="rub" aria-selected="false">A rub</button>
+  <button type="button" role="tab" data-panel="slaw" aria-selected="false">Slaw</button>
 </div>
 
 <section class="panel" id="panel-sauce">
@@ -199,6 +200,19 @@ named; where none does, the page says the proportions are ours.</p>
 <div class="recipe" id="rubout"></div>
 <p class="legend">Amounts per pound are this project's rule of thumb, not a pit's measurement — the proportions inside
 each level are the cited thing. A rub is easy to overdo and hard to undo; the block will take care of the rest.</p>
+</section>
+
+<section class="panel" id="panel-slaw" hidden>
+<p class="carolina-note">Chop finer than instinct says. Eastern pits mince it near as small as the meat so the two marry on the bun; Lexington pits chop fine and stain it with the dip. Dress ahead, chill until it weeps.</p>
+<div class="dials">
+  <div class="dial"><b>Which slaw</b><div class="opts" data-dial="kind"><button type="button" data-v="white" aria-pressed="true">White slaw</button><button type="button" data-v="red" aria-pressed="false">Red slaw</button><button type="button" data-v="mustard" aria-pressed="false">Yellow slaw</button><button type="button" data-v="boiled" aria-pressed="false">A boiled dressing, 1879</button></div></div>
+  <div class="dial"><b>How much cabbage</b><div class="opts" data-dial="size"><button type="button" data-v="half" aria-pressed="false">Half a head</button><button type="button" data-v="head" aria-pressed="true">One head</button><button type="button" data-v="two" aria-pressed="false">Two heads</button><button type="button" data-v="crowd" aria-pressed="false">A pig pickin&#x27;</button></div></div>
+  <div class="dial"><b>Sweetness</b><div class="opts" data-dial="sweet"><button type="button" data-v="dry" aria-pressed="false">Barely</button><button type="button" data-v="some" aria-pressed="true">Some</button><button type="button" data-v="sweet" aria-pressed="false">Carolina sweet</button></div></div>
+  <div class="dial"><b>Heat</b><div class="opts" data-dial="heat"><button type="button" data-v="none" aria-pressed="false">None</button><button type="button" data-v="some" aria-pressed="true">Some</button><button type="button" data-v="more" aria-pressed="false">More</button></div></div>
+</div>
+<div class="recipe" id="slawout"></div>
+<p class="legend">A medium head runs 2 lb and shreds to 8 cups; quantities scale off that. Three dressings follow
+the records' cited descriptions and say so. The 1879 one keeps its author's quantities.</p>
 </section>
 
 <p class="legend">Sugar is worked out from the quantities on screen: 12.6 g of sugar in a
@@ -380,6 +394,72 @@ function render(){
   });
 }
 document.querySelector("#panel-rub .dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
+  [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+
+/* ------------------------------------------------------------------ the slaw */
+(function(){
+var S={"note": "Four ways to dress cabbage, three of them drawn from a published recipe and one composed from the record's own description. Quantities scale off the cabbage, not the bowl.", "carolina_note": "Chop finer than instinct says. Eastern pits mince it near as small as the meat so the two marry on the bun; Lexington pits chop fine and stain it with the dip. Dress ahead, chill until it weeps.", "sizes": [{"key": "half", "label": "Half a head", "cups": 4, "lb": 1}, {"key": "head", "label": "One head", "cups": 8, "lb": 2}, {"key": "two", "label": "Two heads", "cups": 16, "lb": 4}, {"key": "crowd", "label": "A pig pickin'", "cups": 64, "lb": 16}], "sweets": [{"key": "dry", "label": "Barely", "mult": 0.4}, {"key": "some", "label": "Some", "mult": 1.0}, {"key": "sweet", "label": "Carolina sweet", "mult": 1.8}], "kinds": [{"key": "white", "name": "White slaw", "dish": "white-slaw", "region": "Eastern North Carolina and most of South Carolina", "says": "Mayonnaise, sugar, vinegar. Cut fine so it mixes with the meat on the bun.", "anchor": {"kind": "composed", "source": "s:wp-barbecue-in-north-carolina", "note": "Composed from the record's cited description — mayonnaise or whipped dressing, sugar, vinegar, salt, pepper, sometimes carrot or onion. Wikibooks' coleslaw skips the sugar that defines this one, so its proportions are not borrowed here."}, "per_cup": [{"name": "mayonnaise", "q": 0.055, "unit": "cup"}, {"name": "cider vinegar", "q": 0.016, "unit": "cup"}, {"name": "sugar", "q": 0.75, "unit": "tsp", "dial": "sweet"}, {"name": "salt", "q": 0.09, "unit": "tsp"}, {"name": "ground black pepper", "q": 0.06, "unit": "tsp"}, {"name": "grated carrot", "q": 0.06, "unit": "cup", "optional": true}], "steps": ["Chop the cabbage fine — finer than feels right.", "Whisk the dressing until the sugar dissolves.", "Fold it through and chill it two hours. It weeps; drain or stir."]}, {"key": "red", "name": "Red slaw", "dish": "red-slaw", "region": "Lexington and the Piedmont", "says": "Cabbage stained with the pit's own dip. No mayonnaise anywhere near it.", "anchor": {"kind": "composed", "source": "s:wp-red-slaw", "note": "Composed from the record's cited description: vinegar, ketchup, sugar, salt, black pepper, or a ladle of the house dip. Build the dip on the sauce tab and spoon that over instead — the pits do."}, "per_cup": [{"name": "cider vinegar", "q": 0.031, "unit": "cup"}, {"name": "ketchup", "q": 0.031, "unit": "cup"}, {"name": "sugar", "q": 0.66, "unit": "tsp", "dial": "sweet"}, {"name": "salt", "q": 0.09, "unit": "tsp"}, {"name": "ground black pepper", "q": 0.08, "unit": "tsp"}, {"name": "crushed red pepper", "q": 0.04, "unit": "tsp", "dial": "heat"}], "steps": ["Mince the cabbage.", "Stir the dressing cold until the sugar goes.", "Turn it through until the cabbage takes the colour, then chill it."], "swap": "Or ladle over the Lexington dip you built on the sauce tab and skip the dressing here."}, {"key": "mustard", "name": "Yellow slaw", "dish": "white-slaw", "region": "Scattered across the Coastal Plain and the Midlands", "says": "Takes mustard into the dressing, and turns the colour of the sauce belt around it.", "anchor": {"kind": "composed", "source": "s:wp-barbecue-in-north-carolina", "note": "The white-slaw record notes only that a yellow slaw takes mustard in the dressing. Proportions here are this project's own."}, "per_cup": [{"name": "mayonnaise", "q": 0.04, "unit": "cup"}, {"name": "prepared yellow mustard", "q": 0.022, "unit": "cup"}, {"name": "cider vinegar", "q": 0.016, "unit": "cup"}, {"name": "sugar", "q": 0.6, "unit": "tsp", "dial": "sweet"}, {"name": "salt", "q": 0.09, "unit": "tsp"}, {"name": "ground black pepper", "q": 0.06, "unit": "tsp"}], "steps": ["Chop the cabbage fine.", "Whisk mustard into the mayonnaise first, then the rest.", "Fold and chill."]}, {"key": "boiled", "name": "A boiled dressing, 1879", "dish": "white-slaw", "region": "The ancestor both slaws descend from", "says": "Eggs, vinegar and butter cooked to a custard, poured over cold cabbage. Predates the mayonnaise jar.", "anchor": {"kind": "recipe", "title": "Dressing for Cold Slaw", "publisher": "Housekeeping in Old Virginia", "year": 1879, "license": "Public domain", "source": "s:book-housekeeping-in-old-virginia", "note": "Marion Cabell Tyree's receipt, in its own quantities: a cup of vinegar, two eggs well beaten, a teaspoonful each of salt and mustard, a tablespoonful each of sugar and butter, a little black pepper. It dresses about a head of cabbage."}, "per_cup": [{"name": "cider vinegar", "q": 0.125, "unit": "cup"}, {"name": "eggs, well beaten", "q": 0.25, "unit": "egg"}, {"name": "butter", "q": 0.125, "unit": "tbsp"}, {"name": "sugar", "q": 0.375, "unit": "tsp", "dial": "sweet"}, {"name": "dry mustard", "q": 0.125, "unit": "tsp"}, {"name": "salt", "q": 0.125, "unit": "tsp"}, {"name": "ground black pepper", "q": 0.04, "unit": "tsp"}], "steps": ["Mix butter, salt, pepper, sugar and mustard; add the eggs last.", "Boil the vinegar and pour it on, stirring the whole time.", "Return it to the pan, boil a few minutes, cool it, and pour it over the cabbage."], "verbatim": true}], "heats": [{"key": "none", "label": "None", "mult": 0.0}, {"key": "some", "label": "Some", "mult": 1.0}, {"key": "more", "label": "More", "mult": 2.0}]}, pick={kind:S.kinds[0].key, size:"head", sweet:"some", heat:"some"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FS=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function frac(v){var w=Math.floor(v+1e-9),r=v-w,b="",bd=9;
+  for(var i=0;i<FS.length;i++){var d=Math.abs(r-FS[i][0]); if(d<bd){bd=d;b=FS[i][1];}}
+  if(r<0.06)return String(w||"0");
+  if(bd>0.08&&w===0)return (Math.round(v*100)/100).toString();
+  if(b==="1"){w+=1;b="";}
+  return (w?w+(b?" ":""):"")+b;}
+function amount(q,unit){
+  /* cups fall back to tablespoons and spoons to each other, so nothing reads as 0.06 cup */
+  if(q<=0)return null;
+  var plural=function(v,w){return frac(v)+" "+w+(v>1.02?"s":"")};
+  if(unit==="cup"){ if(q<0.25) return plural(q*16,"tablespoon"); return plural(q,"cup"); }
+  if(unit==="tbsp"){ if(q<1) return plural(q*3,"teaspoon"); return plural(q,"tablespoon"); }
+  if(unit==="tsp"){ if(q>=3) return plural(q/3,"tablespoon"); return plural(q,"teaspoon"); }
+  if(unit==="egg"){ return frac(q); }
+  return plural(q,unit);
+}
+function kind(){return S.kinds.filter(function(x){return x.key===pick.kind})[0]}
+function render(){
+  var K=kind(), Z=S.sizes.filter(function(x){return x.key===pick.size})[0];
+  var sw=S.sweets.filter(function(x){return x.key===pick.sweet})[0].mult;
+  var ht=S.heats.filter(function(x){return x.key===pick.heat})[0].mult;
+  var rows=K.per_cup.map(function(ing){
+    var q=ing.q*Z.cups;
+    if(ing.dial==="sweet") q*=sw;
+    if(ing.dial==="heat") q*=ht;
+    return {name:ing.name, txt:amount(q,ing.unit), opt:!!ing.optional};
+  });
+  var a=K.anchor, prov;
+  if(a.kind==="recipe") prov='<b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+' ('+esc(a.license)+'). '+esc(a.note);
+  else prov='<b>These proportions are ours.</b> '+esc(a.note);
+  document.getElementById("slawout").innerHTML=
+    '<h3>'+esc(K.name)+' — '+esc(Z.label.toLowerCase())+'</h3>'+
+    '<p class="says">'+esc(K.says)+' · '+esc(K.region)+'</p>'+
+    '<p class="per">Shreds to about <b>'+Z.cups+' cups</b> ('+Z.lb+' lb).</p>'+
+    '<ul><li><span class="q">'+Z.cups+' cups</span><span>cabbage, chopped fine</span></li>'+
+    rows.map(function(x){
+      return '<li class="'+(x.txt?'':'zero')+'"><span class="q">'+esc(x.txt||'')+'</span><span>'+esc(x.name)+
+        (x.opt?' <span class="mute">(optional)</span>':'')+'</span></li>';}).join("")+'</ul>'+
+    '<h4>How</h4><ol>'+K.steps.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>'+
+    (K.swap?'<p class="per"><b>Or:</b> '+esc(K.swap)+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="slawcopy">Copy the slaw</button>'+
+    '<a class="btn ghost" href="../dish/'+esc(K.dish)+'/index.html">About this slaw</a></div>'+
+    '<p class="prov">'+prov+(K.verbatim?' Steps quoted from the receipt.':' Steps are ours.')+'</p>';
+  document.getElementById("slawcopy").addEventListener("click",function(){
+    var txt=K.name+' — '+Z.label.toLowerCase()+'\n\n'+Z.cups+' cups  cabbage, chopped fine\n'+
+      rows.filter(function(x){return x.txt}).map(function(x){return x.txt+'  '+x.name}).join('\n')+
+      '\n\n'+K.steps.join('\n')+'\n\nFrom Carolina Barbecue — https://nanobotco.github.io/carolina-barbecue/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      var b=document.getElementById("slawcopy"); b.textContent="Copied";
+      setTimeout(function(){b.textContent="Copy the slaw"},1600);},function(){});
+  });
+}
+document.querySelector("#panel-slaw .dials").addEventListener("click",function(e){
   var btn=e.target.closest("button[data-v]"); if(!btn)return;
   var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
   [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});

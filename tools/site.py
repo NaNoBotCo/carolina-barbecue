@@ -170,7 +170,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Carolina <b>Barbecue</b></a>
-<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}make/index.html">Make it</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">What we know</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
+<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}make/index.html">Make it</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Where this stops</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
 <main>
 {body}
 {share_row(canonical, share_title or title) if canonical else ""}
@@ -850,13 +850,13 @@ def sources_page(sources: dict) -> str:
 
 
 def coverage_page(cov: dict) -> str:
-    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>What we know, and what we don\'t</h1><p class="lede">{E(cov["scope"])}</p>'
+    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Where this stops</h1><p class="lede">{E(cov["scope"])}</p>'
             '<h2>Records</h2><table>' + "".join(f"<tr><th>{E(DIR_OF[t])}</th><td>{n}</td></tr>" for t, n in cov["records"].items()) + "</table>"
             f'<h2>How records are made</h2><p>{E(cov["how_records_are_made"])}</p>'
             '<h2>Places</h2><table>' + "".join(f"<tr><th>{E(k.replace('_', ' '))}</th><td>{E(str(v))}</td></tr>" for k, v in cov["places"].items() if k != "osm_query") + "</table>"
             f'<p class="mute" style="font-size:.85rem">Overpass query: <code>{E(cov["places"].get("osm_query") or "")}</code></p>'
             f'<h2>Pictures</h2><p>{cov["images"]["count"]} on file. Licences accepted: {E(", ".join(cov["images"]["licences_accepted"]))}.</p>'
-            '<h2>Ain\'t got it yet</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
+            '<h2>Still missing</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
             '<h2>Tiers</h2><table>' + "".join(f"<tr><th>{E(k)}</th><td>{E(v)}</td></tr>" for k, v in cov["tiers"].items()) + "</table>"
             '<p class="mute">The same object as JSON: <a href="../api/coverage.json">api/coverage.json</a>.</p>')
     return page(f"Coverage — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not have yet.", None, f"{SITE_URL}/coverage/", card="coverage")
@@ -1156,7 +1156,8 @@ def main() -> int:
                             ("quiz", pages.quiz_page(page, jload(DATA / "vocab" / "quiz.json"), by_id, SITE_URL)),
                             ("numbers", pages.numbers_page(page, recs, places, geo, SITE_URL, SITE)),
                             ("make", pages.make_page(page, jload(DATA / "vocab" / "sauce-builder.json"), sauces, recs, SITE_URL,
-                                            jload(DATA / "vocab" / "rub-builder.json")))):
+                                            jload(DATA / "vocab" / "rub-builder.json"),
+                                            jload(DATA / "vocab" / "slaw-builder.json")))):
         d = SITE / name
         d.mkdir(exist_ok=True)
         (d / "index.html").write_text(html_text, encoding="utf-8")

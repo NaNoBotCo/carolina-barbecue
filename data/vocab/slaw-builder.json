@@ -1,0 +1,279 @@
+{
+ "note": "Four ways to dress cabbage, three of them drawn from a published recipe and one composed from the record's own description. Quantities scale off the cabbage, not the bowl.",
+ "carolina_note": "Chop finer than instinct says. Eastern pits mince it near as small as the meat so the two marry on the bun; Lexington pits chop fine and stain it with the dip. Dress ahead, chill until it weeps.",
+ "sizes": [
+  {
+   "key": "half",
+   "label": "Half a head",
+   "cups": 4,
+   "lb": 1
+  },
+  {
+   "key": "head",
+   "label": "One head",
+   "cups": 8,
+   "lb": 2
+  },
+  {
+   "key": "two",
+   "label": "Two heads",
+   "cups": 16,
+   "lb": 4
+  },
+  {
+   "key": "crowd",
+   "label": "A pig pickin'",
+   "cups": 64,
+   "lb": 16
+  }
+ ],
+ "sweets": [
+  {
+   "key": "dry",
+   "label": "Barely",
+   "mult": 0.4
+  },
+  {
+   "key": "some",
+   "label": "Some",
+   "mult": 1.0
+  },
+  {
+   "key": "sweet",
+   "label": "Carolina sweet",
+   "mult": 1.8
+  }
+ ],
+ "kinds": [
+  {
+   "key": "white",
+   "name": "White slaw",
+   "dish": "white-slaw",
+   "region": "Eastern North Carolina and most of South Carolina",
+   "says": "Mayonnaise, sugar, vinegar. Cut fine so it mixes with the meat on the bun.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:wp-barbecue-in-north-carolina",
+    "note": "Composed from the record's cited description — mayonnaise or whipped dressing, sugar, vinegar, salt, pepper, sometimes carrot or onion. Wikibooks' coleslaw skips the sugar that defines this one, so its proportions are not borrowed here."
+   },
+   "per_cup": [
+    {
+     "name": "mayonnaise",
+     "q": 0.055,
+     "unit": "cup"
+    },
+    {
+     "name": "cider vinegar",
+     "q": 0.016,
+     "unit": "cup"
+    },
+    {
+     "name": "sugar",
+     "q": 0.75,
+     "unit": "tsp",
+     "dial": "sweet"
+    },
+    {
+     "name": "salt",
+     "q": 0.09,
+     "unit": "tsp"
+    },
+    {
+     "name": "ground black pepper",
+     "q": 0.06,
+     "unit": "tsp"
+    },
+    {
+     "name": "grated carrot",
+     "q": 0.06,
+     "unit": "cup",
+     "optional": true
+    }
+   ],
+   "steps": [
+    "Chop the cabbage fine — finer than feels right.",
+    "Whisk the dressing until the sugar dissolves.",
+    "Fold it through and chill it two hours. It weeps; drain or stir."
+   ]
+  },
+  {
+   "key": "red",
+   "name": "Red slaw",
+   "dish": "red-slaw",
+   "region": "Lexington and the Piedmont",
+   "says": "Cabbage stained with the pit's own dip. No mayonnaise anywhere near it.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:wp-red-slaw",
+    "note": "Composed from the record's cited description: vinegar, ketchup, sugar, salt, black pepper, or a ladle of the house dip. Build the dip on the sauce tab and spoon that over instead — the pits do."
+   },
+   "per_cup": [
+    {
+     "name": "cider vinegar",
+     "q": 0.031,
+     "unit": "cup"
+    },
+    {
+     "name": "ketchup",
+     "q": 0.031,
+     "unit": "cup"
+    },
+    {
+     "name": "sugar",
+     "q": 0.66,
+     "unit": "tsp",
+     "dial": "sweet"
+    },
+    {
+     "name": "salt",
+     "q": 0.09,
+     "unit": "tsp"
+    },
+    {
+     "name": "ground black pepper",
+     "q": 0.08,
+     "unit": "tsp"
+    },
+    {
+     "name": "crushed red pepper",
+     "q": 0.04,
+     "unit": "tsp",
+     "dial": "heat"
+    }
+   ],
+   "steps": [
+    "Mince the cabbage.",
+    "Stir the dressing cold until the sugar goes.",
+    "Turn it through until the cabbage takes the colour, then chill it."
+   ],
+   "swap": "Or ladle over the Lexington dip you built on the sauce tab and skip the dressing here."
+  },
+  {
+   "key": "mustard",
+   "name": "Yellow slaw",
+   "dish": "white-slaw",
+   "region": "Scattered across the Coastal Plain and the Midlands",
+   "says": "Takes mustard into the dressing, and turns the colour of the sauce belt around it.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:wp-barbecue-in-north-carolina",
+    "note": "The white-slaw record notes only that a yellow slaw takes mustard in the dressing. Proportions here are this project's own."
+   },
+   "per_cup": [
+    {
+     "name": "mayonnaise",
+     "q": 0.04,
+     "unit": "cup"
+    },
+    {
+     "name": "prepared yellow mustard",
+     "q": 0.022,
+     "unit": "cup"
+    },
+    {
+     "name": "cider vinegar",
+     "q": 0.016,
+     "unit": "cup"
+    },
+    {
+     "name": "sugar",
+     "q": 0.6,
+     "unit": "tsp",
+     "dial": "sweet"
+    },
+    {
+     "name": "salt",
+     "q": 0.09,
+     "unit": "tsp"
+    },
+    {
+     "name": "ground black pepper",
+     "q": 0.06,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    "Chop the cabbage fine.",
+    "Whisk mustard into the mayonnaise first, then the rest.",
+    "Fold and chill."
+   ]
+  },
+  {
+   "key": "boiled",
+   "name": "A boiled dressing, 1879",
+   "dish": "white-slaw",
+   "region": "The ancestor both slaws descend from",
+   "says": "Eggs, vinegar and butter cooked to a custard, poured over cold cabbage. Predates the mayonnaise jar.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Dressing for Cold Slaw",
+    "publisher": "Housekeeping in Old Virginia",
+    "year": 1879,
+    "license": "Public domain",
+    "source": "s:book-housekeeping-in-old-virginia",
+    "note": "Marion Cabell Tyree's receipt, in its own quantities: a cup of vinegar, two eggs well beaten, a teaspoonful each of salt and mustard, a tablespoonful each of sugar and butter, a little black pepper. It dresses about a head of cabbage."
+   },
+   "per_cup": [
+    {
+     "name": "cider vinegar",
+     "q": 0.125,
+     "unit": "cup"
+    },
+    {
+     "name": "eggs, well beaten",
+     "q": 0.25,
+     "unit": "egg"
+    },
+    {
+     "name": "butter",
+     "q": 0.125,
+     "unit": "tbsp"
+    },
+    {
+     "name": "sugar",
+     "q": 0.375,
+     "unit": "tsp",
+     "dial": "sweet"
+    },
+    {
+     "name": "dry mustard",
+     "q": 0.125,
+     "unit": "tsp"
+    },
+    {
+     "name": "salt",
+     "q": 0.125,
+     "unit": "tsp"
+    },
+    {
+     "name": "ground black pepper",
+     "q": 0.04,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    "Mix butter, salt, pepper, sugar and mustard; add the eggs last.",
+    "Boil the vinegar and pour it on, stirring the whole time.",
+    "Return it to the pan, boil a few minutes, cool it, and pour it over the cabbage."
+   ],
+   "verbatim": true
+  }
+ ],
+ "heats": [
+  {
+   "key": "none",
+   "label": "None",
+   "mult": 0.0
+  },
+  {
+   "key": "some",
+   "label": "Some",
+   "mult": 1.0
+  },
+  {
+   "key": "more",
+   "label": "More",
+   "mult": 2.0
+  }
+ ]
+}

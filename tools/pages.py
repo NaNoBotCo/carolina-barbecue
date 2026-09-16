@@ -167,9 +167,9 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
 <p class="mute">Pits somebody already bragged on, in print: a Beard award, a spot on a trail, a wood-fire ticket, an oral history taken at the pit, a magazine list. The count is how many different folks said so — not how good we think it is. They're all named on the pit's own page.</p>
 <div class="drive">{drive_cards}</div>
 
-<h2 id="gaps">What we ain't found yet</h2>
+<h2 id="gaps">Still missing</h2>
 <p class="mute">{gaps}</p>
-<h2>What the tags mean</h2>
+<h2>Reading the tags</h2>
 <table>{"".join(f'<tr><th>{E(t["icon"])} {E(t["label"])}</th><td>{E(t["evidence"])}</td></tr>' for t in tagvocab.get("entries", []))}</table>
 <p class="mute">Every tag names its evidence on the pit's own page. No evidence, no tag. A missing tag says nothing about the pit, only about what we've read.</p>
 
@@ -372,9 +372,9 @@ def sauce_map_multiples(states_geo: dict, by_base: dict, project, box, width=250
 def sauce_page(page, sauces: dict, recs: list, states_geo: dict, project, box, site_url: str) -> str:
     rows = [s for s in (sauces or {}).get("sauces", [])]
     sauce_recs = [r for r in recs if r["type"] == "sauce"]
-    body = ['<h1><span class="kind">Carolina Barbecue</span>What&#8217;s actually in the sauce</h1>',
-            '<p class="lede">Read off the label, not off the tongue: the ingredients in order, the sugar on the panel, the town it\'s made in. '
-            'Nobody tasted a thing. The argument over which one\'s right is settled elsewhere on this site, at length.</p>']
+    body = ['<h1><span class="kind">Carolina Barbecue</span>Inside the bottle</h1>',
+            '<p class="lede">Read off the label, not the tongue: ingredients in order, sugar on the panel, the town it comes from. '
+            'Nobody tasted a thing. Arguments over which one wins get settled elsewhere on this site, at length.</p>']
     if not rows:
         body.append('<p class="mute">The label survey has not been built yet — run the sauce harvest. The sauce pages themselves are up: '
                     + " · ".join(f'<a href="../sauce/{E(r["id"])}/index.html">{E(r["names"]["name"])}</a>' for r in sauce_recs) + "</p>")
@@ -700,7 +700,7 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
     med_gap = nearest[len(nearest) // 2] if nearest else 0
 
     body = ['<h1><span class="kind">Carolina Barbecue</span>Count it up</h1>',
-            '<p class="lede">What it all adds up to.</p>',
+            '<p class="lede">Adding it up.</p>',
             '<div class="facts">'
             + "".join(f'<div class="fact"><div class="n">{n}</div><div class="l">{E(l)}</div></div>' for n, l in [
                 (f"{stats['median']:.1f} mi", "median distance to a pit, anywhere in the two states"),
@@ -708,7 +708,7 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
                 (len(pl), "places"), (nrec, "recipes"), (len(edges), "links between pages")])
             + "</div>"]
 
-    body.append('<div class="viz"><h3>You are never far from a pit</h3>'
+    body.append('<div class="viz"><h3>Nowhere sits far from a pit</h3>'
                 f'<p class="note">Every point in North and South Carolina, shaded by the distance to the closest of the {len(lat_lon)} places on the map. '
                 f'Black dots are the places themselves. Half of both states is within {stats["median"]:.1f} miles of one.</p>'
                 f'<img src="../viz/near-the-nearest-pit.png" alt="A map of North and South Carolina shaded by distance to the nearest barbecue place; the coastal plain and the piedmont are dark, the mountains and the southern swamps pale." style="width:100%;border-radius:10px;display:block">'
@@ -718,20 +718,20 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
                 + '</table></details></div>')
 
     if years:
-        body.append('<div class="viz"><h3>Who has been at it longest</h3>'
+        body.append('<div class="viz"><h3>Who opened when</h3>'
                     f'<p class="note">The {len(years)} places here whose founding year is on a page. Stems stack where a year is crowded. '
                     'Hover one for the name.</p>' + viz.timeline_svg(years)
                     + '<details class="tbl"><summary>By decade</summary><table><tr><th>Decade</th><th>Pits</th></tr>'
                     + "".join(f"<tr><td>{d}s</td><td>{c}</td></tr>" for d, c in sorted(collections.Counter((y // 10) * 10 for y, _ in years).items()))
                     + "</table></details></div>")
 
-    body.append('<div class="viz"><h3>What is in the pantry</h3>'
+    body.append('<div class="viz"><h3>Every recipe reaches for pepper</h3>'
                 f'<p class="note">Across {nrec} recipes, counting each ingredient once per recipe. Measures and cutting words are dropped.</p>'
                 + viz.bars_svg(ing_rows, unit="recipes calling for it")
                 + '<details class="tbl"><summary>As a table</summary><table><tr><th>Ingredient word</th><th>Recipes</th></tr>'
                 + "".join(f"<tr><td>{E(w)}</td><td>{c}</td></tr>" for w, c in ing_rows) + "</table></details></div>")
 
-    body.append('<div class="viz"><h3>When they are open</h3>'
+    body.append('<div class="viz"><h3>Which days they open</h3>'
                 f'<p class="note">From the {nh} places whose days we could read. Saturday is the day nearly all of them keep. '
                 f'Sunday is the one they drop: {closed_su} of the {nh} are shut, and another {unk_su} have not published their days at all. '
                 'Monday is the next thinnest, which is the pit crew catching up. '
@@ -793,7 +793,7 @@ MAKE_TABS_CSS = """
 """
 
 
-def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str, rub: dict | None = None) -> str:
+def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str, rub: dict | None = None, slaw: dict | None = None) -> str:
     by_id = {r["id"]: r for r in recs}
     # every bottle we measured, so the result can be put beside them
     bottles = [{"n": s["name"], "b": s.get("base"), "g": s.get("sugar_g_per_tbsp")}
@@ -816,6 +816,13 @@ def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str, rub:
                           for o in opts) + "</div></div>")
 
     RDEF = {"level": rub["levels"][0]["key"], "meat": "shoulder", "heat": "medium"}
+    SDEF = {"kind": slaw["kinds"][0]["key"], "size": "head", "sweet": "some", "heat": "some"}
+
+    def sdial(name, key, opts):
+        return (f'<div class="dial"><b>{E(name)}</b><div class="opts" data-dial="{key}">'
+                + "".join(f'<button type="button" data-v="{E(o["key"])}" '
+                          f'aria-pressed="{"true" if o["key"] == SDEF[key] else "false"}">{E(o["label"])}</button>'
+                          for o in opts) + "</div></div>")
 
     def rdial(name, key, opts):
         return (f'<div class="dial"><b>{E(name)}</b><div class="opts" data-dial="{key}">'
@@ -825,12 +832,13 @@ def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str, rub:
 
     body = f"""
 <h1><span class="kind">Carolina Barbecue</span>Make it</h1>
-<p class="lede">A sauce or a rub, built from what this site can actually cite. Where a free recipe exists it is used and
-named; where none does, the page says the proportions are ours.</p>
+<p class="lede">Build a sauce, a rub or a slaw from sources this site can cite. Published recipes get named where they
+exist. Everything else says plainly that the proportions are ours.</p>
 
 <div class="tabs" role="tablist">
   <button type="button" role="tab" data-panel="sauce" aria-selected="true">A sauce</button>
   <button type="button" role="tab" data-panel="rub" aria-selected="false">A rub</button>
+  <button type="button" role="tab" data-panel="slaw" aria-selected="false">Slaw</button>
 </div>
 
 <section class="panel" id="panel-sauce">
@@ -855,6 +863,19 @@ named; where none does, the page says the proportions are ours.</p>
 <div class="recipe" id="rubout"></div>
 <p class="legend">Amounts per pound are this project's rule of thumb, not a pit's measurement — the proportions inside
 each level are the cited thing. A rub is easy to overdo and hard to undo; the block will take care of the rest.</p>
+</section>
+
+<section class="panel" id="panel-slaw" hidden>
+<p class="carolina-note">{E(slaw["carolina_note"])}</p>
+<div class="dials">
+  {sdial("Which slaw", "kind", [{"key": k["key"], "label": k["name"]} for k in slaw["kinds"]])}
+  {sdial("How much cabbage", "size", [{"key": z["key"], "label": z["label"]} for z in slaw["sizes"]])}
+  {sdial("Sweetness", "sweet", slaw["sweets"])}
+  {sdial("Heat", "heat", slaw["heats"])}
+</div>
+<div class="recipe" id="slawout"></div>
+<p class="legend">A medium head runs 2 lb and shreds to 8 cups; quantities scale off that. Three dressings follow
+the records' cited descriptions and say so. The 1879 one keeps its author's quantities.</p>
 </section>
 
 <p class="legend">Sugar is worked out from the quantities on screen: {builder["sugar_g_per_tbsp"]["sugar"]} g of sugar in a
@@ -1036,6 +1057,72 @@ function render(){{
   }});
 }}
 document.querySelector("#panel-rub .dials").addEventListener("click",function(e){{
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
+  [].forEach.call(g.querySelectorAll("button"),function(x){{x.setAttribute("aria-pressed",x===btn?"true":"false")}});
+  render();
+}});
+render();
+}})();
+
+/* ------------------------------------------------------------------ the slaw */
+(function(){{
+var S={esc_js(slaw)}, pick={{kind:S.kinds[0].key, size:"head", sweet:"some", heat:"some"}};
+function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]}})}}
+var FS=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function frac(v){{var w=Math.floor(v+1e-9),r=v-w,b="",bd=9;
+  for(var i=0;i<FS.length;i++){{var d=Math.abs(r-FS[i][0]); if(d<bd){{bd=d;b=FS[i][1];}}}}
+  if(r<0.06)return String(w||"0");
+  if(bd>0.08&&w===0)return (Math.round(v*100)/100).toString();
+  if(b==="1"){{w+=1;b="";}}
+  return (w?w+(b?" ":""):"")+b;}}
+function amount(q,unit){{
+  /* cups fall back to tablespoons and spoons to each other, so nothing reads as 0.06 cup */
+  if(q<=0)return null;
+  var plural=function(v,w){{return frac(v)+" "+w+(v>1.02?"s":"")}};
+  if(unit==="cup"){{ if(q<0.25) return plural(q*16,"tablespoon"); return plural(q,"cup"); }}
+  if(unit==="tbsp"){{ if(q<1) return plural(q*3,"teaspoon"); return plural(q,"tablespoon"); }}
+  if(unit==="tsp"){{ if(q>=3) return plural(q/3,"tablespoon"); return plural(q,"teaspoon"); }}
+  if(unit==="egg"){{ return frac(q); }}
+  return plural(q,unit);
+}}
+function kind(){{return S.kinds.filter(function(x){{return x.key===pick.kind}})[0]}}
+function render(){{
+  var K=kind(), Z=S.sizes.filter(function(x){{return x.key===pick.size}})[0];
+  var sw=S.sweets.filter(function(x){{return x.key===pick.sweet}})[0].mult;
+  var ht=S.heats.filter(function(x){{return x.key===pick.heat}})[0].mult;
+  var rows=K.per_cup.map(function(ing){{
+    var q=ing.q*Z.cups;
+    if(ing.dial==="sweet") q*=sw;
+    if(ing.dial==="heat") q*=ht;
+    return {{name:ing.name, txt:amount(q,ing.unit), opt:!!ing.optional}};
+  }});
+  var a=K.anchor, prov;
+  if(a.kind==="recipe") prov='<b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+' ('+esc(a.license)+'). '+esc(a.note);
+  else prov='<b>These proportions are ours.</b> '+esc(a.note);
+  document.getElementById("slawout").innerHTML=
+    '<h3>'+esc(K.name)+' — '+esc(Z.label.toLowerCase())+'</h3>'+
+    '<p class="says">'+esc(K.says)+' · '+esc(K.region)+'</p>'+
+    '<p class="per">Shreds to about <b>'+Z.cups+' cups</b> ('+Z.lb+' lb).</p>'+
+    '<ul><li><span class="q">'+Z.cups+' cups</span><span>cabbage, chopped fine</span></li>'+
+    rows.map(function(x){{
+      return '<li class="'+(x.txt?'':'zero')+'"><span class="q">'+esc(x.txt||'')+'</span><span>'+esc(x.name)+
+        (x.opt?' <span class="mute">(optional)</span>':'')+'</span></li>';}}).join("")+'</ul>'+
+    '<h4>How</h4><ol>'+K.steps.map(function(m){{return '<li>'+esc(m)+'</li>'}}).join("")+'</ol>'+
+    (K.swap?'<p class="per"><b>Or:</b> '+esc(K.swap)+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="slawcopy">Copy the slaw</button>'+
+    '<a class="btn ghost" href="../dish/'+esc(K.dish)+'/index.html">About this slaw</a></div>'+
+    '<p class="prov">'+prov+(K.verbatim?' Steps quoted from the receipt.':' Steps are ours.')+'</p>';
+  document.getElementById("slawcopy").addEventListener("click",function(){{
+    var txt=K.name+' — '+Z.label.toLowerCase()+'\\n\\n'+Z.cups+' cups  cabbage, chopped fine\\n'+
+      rows.filter(function(x){{return x.txt}}).map(function(x){{return x.txt+'  '+x.name}}).join('\\n')+
+      '\\n\\n'+K.steps.join('\\n')+'\\n\\nFrom Carolina Barbecue — {site_url}/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){{
+      var b=document.getElementById("slawcopy"); b.textContent="Copied";
+      setTimeout(function(){{b.textContent="Copy the slaw"}},1600);}},function(){{}});
+  }});
+}}
+document.querySelector("#panel-slaw .dials").addEventListener("click",function(e){{
   var btn=e.target.closest("button[data-v]"); if(!btn)return;
   var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
   [].forEach.call(g.querySelectorAll("button"),function(x){{x.setAttribute("aria-pressed",x===btn?"true":"false")}});

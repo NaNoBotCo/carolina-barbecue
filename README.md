@@ -35,11 +35,12 @@ Every page says what its neighbours are to it, in both directions.
   Six sauce regions: two start from a published recipe (a Wikibooks Eastern North Carolina
   sauce, CC BY-SA; Mary Randolph's 1824 pepper vinegar), one descends from Mrs. Hill's 1867
   "Sauce for Barbecues", and three say plainly that the proportions are this project's own.
-  Every result is drawn against the 68 measured bottles, which are mostly sweeter than
-  anything you would make. Four rub levels run from **salt and nothing else** — which is what
-  most whole-hog pits actually do — out through Ed Mitchell's four ingredients to a full
-  modern rub, with the Carolina fact stated at the top: the seasoning that decides the
-  flavour happens after the cook, at the chopping block.
+  Every result is drawn against the 68 measured bottles, which mostly out-sweeten anything
+  you would make. Four rub levels climb from **salt and nothing else** — which is what most
+  whole-hog pits do — through Ed Mitchell's four ingredients to a full modern rub, and the
+  panel opens by saying that the seasoning deciding the flavour lands after the cook, at the
+  chopping block. Four slaw dressings cover white, red, yellow and a boiled 1879 receipt
+  that predates the mayonnaise jar; red slaw points you back to the dip you just built.
 - **[Count it up](https://nanobotco.github.io/carolina-barbecue/numbers/)** — a map of
   the two states shaded by distance to the nearest pit (half of both is within 10.6
   miles of one), when the pits opened, what 142 recipes call for, which days they open,
