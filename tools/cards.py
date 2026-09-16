@@ -564,6 +564,23 @@ def main(argv: list[str]) -> int:
         "search": ("Search the directory", "Spelled however you spell it: barbeque, bar-b-q, 'cue. Near spellings are found and said to be near.", "search", None, None, None),
         "sources": ("Sources", "Every book, article, oral history, dataset and page the records cite, by id.", "sources", None, None, None),
         "stories": ("The stories", "The east-west war, how to order, and where all of this came from.", "long reads", None, None, "political-barbecue"),
+        "styles": ("Six ways to cook a hog", "Whole hog east of Raleigh, shoulders and a red dip in the Piedmont, mustard through the Midlands, hash and rice in the Dutch Fork.", "the styles", allmap,
+                   [(cov["records"].get("style", 0), "styles"), (2, "states"), (cov["records"].get("place", 0) + places["harvested"], "places")], "eastern-nc"),
+        "sauces": ("Vinegar, ketchup, mustard", "Three families and the arguments between them. Every bottle read off its own label instead of off a menu.", "the sauces", None,
+                   [(cov["records"].get("sauce", 0), "sauces"), (len(sauces.get("sauces", [])), "bottles read"), (3, "families")], "vinegar-pepper-sauce"),
+        "dishes": ("The rest of the tray", "Slaw, stew, hash, hushpuppies, banana pudding. Order the plate and you get half of them whether you asked or not.", "the sides", None,
+                   [(cov["records"].get("dish", 0), "dishes")], "brunswick-stew"),
+        "pit": ("Wood, coals and cuts", "Burn the wood down, shovel the coals, cook the meat over what is left. Everything else is a variation.", "the pit", None,
+                [(cov["records"].get("pit", 0), "entries")], "pork-shoulder"),
+        "people": ("The ones who tend it", "Pitmasters, families, writers and the people who kept the fire lit when nobody was writing it down.", "the people", None,
+                   [(cov["records"].get("person", 0), "people")], "ed-mitchell"),
+        "organizations": ("Who keeps score", "Societies, trails, archives and the campaigns that argue about all of it in public.", "the keepers", None,
+                          [(cov["records"].get("org", 0), "organizations")], "southern-foodways-alliance"),
+        "events": ("Pig pickins and politics", "Festivals, fundraisers, competitions, and the campaign barbecues that bought a vote with a plate.", "the gatherings", None,
+                   [(cov["records"].get("event", 0), "events")], "political-barbecue"),
+        "numbers": ("Barbecue, counted", "How far the styles reach, what the bottles hold, who cooks over wood, and where the map runs thin.", "the arithmetic", allmap,
+                    [(sum(cov["records"].values()), "records"), (cov["records"].get("place", 0) + places["harvested"], "places"), (cov["images"]["count"], "pictures"), (cov["recipes"], "recipes")], None),
+        "404": ("That pit has moved", "The page you came for is not here, but the whole directory is one click down.", "wrong turn", None, None, "roadside-barbecue-signs"),
     }
     for name, (title, lede, eb, panel, stats, photo_id) in pages.items():
         if want and name not in want:

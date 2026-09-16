@@ -197,6 +197,17 @@ def not_found(site_url: str, site_name: str, css: str, counts: dict) -> str:
 <title>Not here — {E(site_name)}</title>
 <meta name="robots" content="noindex,follow">
 <meta name="color-scheme" content="light dark">
+<meta name="description" content="That page is not here. The directory, the map and every machine-readable file are one click down.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{E(site_name)}">
+<meta property="og:title" content="That pit has moved">
+<meta property="og:description" content="The page you came for is not here, but the whole directory is one click down.">
+<meta property="og:url" content="{site_url}/404.html">
+<meta property="og:image" content="{site_url}/cards/404.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A roadside barbecue sign, with the note that this page is gone and the directory is not">
+<meta name="twitter:card" content="summary_large_image">
 <style>{css}</style>
 </head>
 <body>
