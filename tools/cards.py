@@ -560,7 +560,7 @@ def main(argv: list[str]) -> int:
         "art": ("Pigs that serve themselves", "The sign genre, the mascots, the 1830s election prints — every picture free to use, its licence beside it.", "pig art", None, None, "cannibal-pig-sign"),
         "places": ("Pits and places", "Every barbecue place in North and South Carolina we know of, on one map, with what each one has earned.", "the map", allmap, None, None),
         "words": ("The words, with their roots", "Barbecue from the Taíno barbacoa. Dip, slaw, hash, light bread, outside brown, Down East.", "vocabulary", None, None, "barbecue"),
-        "coverage": ("Where this stops", "The scope as an object: where every row comes from, how many places carry each tag, and what has not been read yet.", "coverage", None, None, None),
+        "coverage": ("Coverage", "The scope as an object: where every row comes from, how many places carry each tag, and what has not been read yet.", "coverage", None, None, None),
         "search": ("Search the directory", "Spelled however you spell it: barbeque, bar-b-q, 'cue. Near spellings are found and said to be near.", "search", None, None, None),
         "sources": ("Five hundred and ninety sources", "Every book, article, oral history, dataset and page the records cite, by id.", "sources", None, None, None),
         "stories": ("The stories", "The east-west war, how to order, and where all of this came from.", "long reads", None, None, "political-barbecue"),

@@ -170,7 +170,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Carolina <b>Barbecue</b></a>
-<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}make/index.html">Make it</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Where this stops</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
+<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}make/index.html">Make it</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Coverage</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
 <main>
 {body}
 {share_row(canonical, share_title or title) if canonical else ""}
@@ -850,7 +850,7 @@ def sources_page(sources: dict) -> str:
 
 
 def coverage_page(cov: dict) -> str:
-    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Where this stops</h1><p class="lede">{E(cov["scope"])}</p>'
+    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Coverage</h1><p class="lede">{E(cov["scope"])}</p>'
             '<h2>Records</h2><table>' + "".join(f"<tr><th>{E(DIR_OF[t])}</th><td>{n}</td></tr>" for t, n in cov["records"].items()) + "</table>"
             f'<h2>How records are made</h2><p>{E(cov["how_records_are_made"])}</p>'
             '<h2>Places</h2><table>' + "".join(f"<tr><th>{E(k.replace('_', ' '))}</th><td>{E(str(v))}</td></tr>" for k, v in cov["places"].items() if k != "osm_query") + "</table>"
