@@ -7,7 +7,7 @@
   /art/     handled by site.py's type index; this module supplies the gallery strip
 
 Imported by site.py. Everything renders at build time; the only client-side work is
-the reader's own geolocation (which never leaves the browser) and sorting.
+the reader's own geolocation and sorting.
 
 Chart colours are validated with the dataviz skill's checker against this site's own
 surfaces (light #fdfaf3, dark #1f1b18):
@@ -552,10 +552,10 @@ document.getElementById("again").addEventListener("click",function(){{
 
 # A side-view hog, facing left, in a 420×230 frame. The body is composed of simple shapes
 # so that each region can be painted separately: the regions are rectangles clipped to the
-# animal's own silhouette, which keeps the outline honest however the fills change.
+# animal's own silhouette, so the outline holds its shape however the fills change.
 # A side-view hog, facing left, in a 420x250 frame. The body is composed of simple shapes
 # so each region can be painted separately: the regions are rectangles clipped to the
-# animal's own silhouette, so the outline stays honest however the fills change.
+# animal's own silhouette, so the outline holds its shape however the fills change.
 HOG_SHAPES = (
     '<ellipse cx="228" cy="122" rx="112" ry="56"/>'
     '<ellipse cx="118" cy="128" rx="52" ry="42"/>'

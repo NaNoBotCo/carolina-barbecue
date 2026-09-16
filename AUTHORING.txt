@@ -54,8 +54,8 @@ FIELDS THAT CARRY THE WEIGHT
   confidence     high / medium / low. needs_verification: true when a fact is unchecked.
 
 WORDS
-  Reader-facing text is checked by validate.py. It refuses: load-bearing, honest,
-  authentic, inauthentic, purist, tourist, "real barbecue", "true barbecue".
+  Reader-facing text is checked by validate.py. The list it refuses lives in
+  tools/validate.py as BANNED, and ~/.claude/STYLE.md holds the wider one.
   Describe; do not rank. Gas cookers, chain restaurants, bottled sauces and
   Texas-style pits in Charleston are part of the living tradition and are
   described the same way as a wood pit. A campaign that certifies wood pits

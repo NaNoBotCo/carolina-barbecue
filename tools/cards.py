@@ -100,7 +100,7 @@ def fit_text(d: ImageDraw.ImageDraw, text: str, fnt_for, max_w: int, max_lines: 
         if len(lines) <= max_lines and all(d.textlength(l, font=f) <= max_w for l in lines):
             return f, lines
         size -= 3
-    # nothing fits: take what does and end it honestly
+    # nothing fits: take what does and end it with an ellipsis
     f = fnt_for(floor)
     avg = d.textlength("n", font=f) or 1
     cols = max(8, int(max_w / avg * 1.05))

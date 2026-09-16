@@ -35,10 +35,10 @@ from common import IMAGES, SCHEMA, jload, load_nodes, load_sources, load_vocab, 
 FREE_LICENSES = re.compile(
     r"^(CC0(\s*1\.0)?|Public domain|PD(-[A-Za-z0-9-]+)?|CC[- ]BY(-SA)?(\s*[1-4]\.[0-9])?|FAL(\s*1\.[0-9])?"
     r"|No known copyright restrictions|NoC-US|United States Government Work)$", re.I)
-# Words that never appear in reader-facing copy on any of Nan's sites, and the
-# adjudicating words this subject attracts (authentic / real barbecue / purist).
+# The reader-facing copy lint. The list itself is in BANNED below; ~/.claude/STYLE.md
+# holds the wider guide and stylecheck.py checks against it.
 DRAFT = bool(os.environ.get("BUILD_DRAFT"))
-BANNED = re.compile(r"\b(load[- ]bearing|honest(ly|y)?|authentic(ity|ally)?|inauthentic|purist|tourist(s|y)?|touristy|real barbecue|true barbecue|the real thing)\b", re.I)
+BANNED = re.compile(r"\b(load[- ]bearing|honest(ly|y)?|authentic(ity|ally)?|inauthentic|purist|tourist(s|y)?|touristy|real barbecue|true barbecue|the real thing)\b", re.I)  # stylecheck: allow
 
 
 def _get(rec: dict, dotted: str):

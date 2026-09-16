@@ -9,6 +9,11 @@ cd "$(dirname "$0")"
 DOMAIN="${CNAME:-$(head -1 docs/CNAME 2>/dev/null || true)}"
 if [ -n "$DOMAIN" ]; then SITE_URL="https://$DOMAIN"; else SITE_URL="https://nanobotco.github.io/carolina-barbecue"; fi
 
+STYLE="$HOME/.claude/bin/stylecheck.py"
+if [ -f "$STYLE" ]; then
+  python3 "$STYLE" tools data schema README.md README.txt AUTHORING.txt || {
+    echo "REFUSED: style. See ~/.claude/STYLE.md"; exit 4; }
+fi
 python3 tools/validate.py
 SITE_URL="$SITE_URL" python3 tools/build.py
 python3 tools/cards.py                     # draws only the cards that are missing

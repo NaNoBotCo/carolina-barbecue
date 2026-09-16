@@ -78,7 +78,7 @@ the place, and [the finder says so on its own page](https://nanobotco.github.io/
 
 ## Sharing
 
-Every page carries its own 1200x630 card, drawn from the pictures in the corpus — the pit's
+Pages carry their own 1200x630 card, drawn from the pictures in the corpus — the pit's
 own photograph where there is one, a picture from a page it points at where there is not,
 with its credit and licence. A place card shows the town, the tags it has earned and how
 many people have written it down; a sauce card shows where its sugar sits against a spoonful
