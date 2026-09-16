@@ -144,7 +144,7 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
     if thin:
         gaps += "Thin so far: " + ", ".join(f'{E(e["label"].lower())} ({counted[e["key"]]})' for e in thin) + ". "
     gaps += ('The directories we read are listed on <a href="../story/free-to-use/index.html">where all of this came from</a>. '
-             'A business that wants a tag it has earned can say so on its own site or in any of those directories, and we will read it there.')
+             'A business that wants a tag it has earned can say so on its own site or in any of those directories.')
     body = f"""
 <h1><span class="kind">Carolina Barbecue</span>Find the Q</h1>
 <p class="lede">Two questions: what's good near me, and what's worth the gas.</p>
@@ -171,7 +171,7 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
 <p class="mute">{gaps}</p>
 <h2>Tags</h2>
 <table>{"".join(f'<tr><th>{E(t["icon"])} {E(t["label"])}</th><td>{E(t["evidence"])}</td></tr>' for t in tagvocab.get("entries", []))}</table>
-<p class="mute">Every tag names its evidence on the pit's own page. No evidence, no tag. A missing tag says nothing about the pit, only about what we've read.</p>
+<p class="mute">A tag names its evidence on the pit's own page. A missing tag says nothing about the pit, only about what we've read.</p>
 
 <script>
 (function(){{
@@ -498,8 +498,7 @@ def quiz_page(page, quiz: dict, by_id: dict, site_url: str) -> str:
 <form id="qz">{"".join(forms)}
 <div class="cta"><button class="btn" id="tally" type="button">Tally it up</button><button class="btn ghost" id="again" type="button">Start over</button></div></form>
 <div id="verdict" aria-live="polite"></div>
-<p class="legend">Nothing here is stored or sent anywhere; the scoring runs in your browser and forgets you when you close the tab.
-Every result links to a style page, where the sources are.</p>
+<p class="legend">Every result links to a style page, where the sources are.</p>
 <style>
 .qz{{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:.8rem 1rem;margin:.9rem 0}}
 .qz legend{{font-weight:600;padding:0 .4rem}}

@@ -56,8 +56,8 @@ Every page says what its neighbours are to it, in both directions.
 Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some
 people will tell you not to order barbecue anyway. The finder has an **Open Sunday** chip
 and an **Open today** chip, and every row carries a seven-box week: filled is open, hollow
-is closed, and **dashed means nobody has published it** — which is never drawn as closed,
-because a reader will drive on this.
+is closed, and **dashed means nobody has published it** — a third state, drawn apart from
+closed, because a reader will drive on this.
 
 Of the 158 places whose days we could read, 91 open Sunday and 58 are shut; 224 more have
 not published their days at all. [The Sunday question](https://nanobotco.github.io/carolina-barbecue/story/the-sunday-question/)
@@ -68,10 +68,10 @@ barbecue is not the same — recorded as a belief, which this directory does not
 
 A place can be tagged Black-owned, woman-owned, LGBTQ+ welcoming, cooks over wood,
 whole hog, family-run, cash only, closes when sold out, buffet, weekends only, serves
-hash, closed. **Every tag names its evidence** — the owner's own words, a press profile
-that names the owner, a public directory, a certification list, or someone who stood
-there. Ownership and welcome tags are never inferred from a name or a photograph; the
-validator refuses them at the tradition and inference tiers.
+hash, closed. A tag names its evidence — the owner's own words, a press profile that
+names the owner, a public directory, a certification list, or someone who stood there.
+The validator currently rejects ownership and welcome tags at the tradition and
+inference tiers.
 
 A place with no tag has not been read yet. That is a fact about this project, not about
 the place, and [the finder says so on its own page](https://nanobotco.github.io/carolina-barbecue/near/#gaps).
@@ -80,13 +80,12 @@ the place, and [the finder says so on its own page](https://nanobotco.github.io/
 
 Every page carries its own 1200x630 card, drawn from the pictures in the corpus — the pit's
 own photograph where there is one, a picture from a page it points at where there is not,
-always credited and licensed. A place card shows the town, the tags it has earned and how
+with its credit and licence. A place card shows the town, the tags it has earned and how
 many people have written it down; a sauce card shows where its sugar sits against a spoonful
 of sugar; a word card shows the root. `tools/cards.py` draws all 190 in about a minute.
 
 Every page also has a Pass it on row: copy the link, or hand it to Bluesky, Mastodon, X,
-Facebook, Reddit, WhatsApp, email, or the phone's own share sheet. No third-party script,
-no tracking pixel, nothing loaded from anywhere else.
+Facebook, Reddit, WhatsApp, email, or the phone's own share sheet.
 
 ## For machines
 

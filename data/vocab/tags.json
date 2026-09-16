@@ -1,5 +1,5 @@
 {
- "note": "Tag keys a place record may carry. Each tag needs a named source; ownership and welcome tags are never inferred from a name, a photograph or a hunch. Tier cited = a named page; harvested = a public directory or list fetched by a tool; field = someone stood there.",
+ "note": "Tag keys a place record may carry. Each tag needs a named source. Ownership and welcome tags take a cited, harvested or field tier. Tier cited = a named page; harvested = a public directory or list fetched by a tool; field = someone stood there.",
  "entries": [
   {
    "key": "black-owned",
@@ -30,7 +30,7 @@
    "label": "LGBTQ+ welcoming",
    "icon": "🏳️‍🌈",
    "group": "welcome",
-   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome); never inferred",
+   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome)",
    "resources": [
     "r:charlotte-lgbt-chamber",
     "r:sc-pride-directory",

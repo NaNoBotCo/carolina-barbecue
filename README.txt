@@ -44,7 +44,7 @@ THE PIPELINE (in order)
 
 THE PAGES THAT ANSWER A QUESTION
 --------------------------------
-  /near/    Find the Q. Your browser's own location (it never leaves the browser) or
+  /near/    Find the Q. Your browser's own location, or
             a town you type, and every pit in both states sorted by distance, with
             filter chips for wood-cooked, whole hog, Black-owned, woman-owned and
             LGBTQ+ welcoming. Below it, "worth the drive": the pits other people have
@@ -64,11 +64,11 @@ TAGS, AND THE RULE BEHIND THEM
 ------------------------------
   A place can carry tags: Black-owned, woman-owned, LGBTQ+ welcoming, cooks over wood,
   whole hog, family-run, cash only, closes when sold out, buffet, weekends only, hash,
-  closed. EVERY tag names its evidence — the owner's own words, a press profile that
+  closed. A tag names its evidence — the owner's own words, a press profile that
   names the owner, a public directory, a certification list, or someone who stood
-  there. Ownership and welcome tags are never inferred from a name or a photograph;
-  the validator refuses them at the tradition and inference tiers. A place with no tag
-  has not been read yet: that is a fact about this project, not about the place.
+  there. The validator currently rejects ownership and welcome tags at the tradition
+  and inference tiers. A place with no tag has not been read yet: that is a fact
+  about this project, not about the place.
   data/vocab/tags.json holds the keys and what each one needs.
 
 WHAT A PAGE CARRIES

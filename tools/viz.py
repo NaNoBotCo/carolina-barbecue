@@ -295,9 +295,8 @@ DAY_ONE = {"Mo": "M", "Tu": "T", "We": "W", "Th": "T", "Fr": "F", "Sa": "S", "Su
 
 
 def day_strip(days: dict, w=176, h=26, title=True) -> str:
-    """Seven boxes, Monday to Sunday. Filled means open, hollow means closed, and a dashed
-    outline means nobody has told us — which is not the same thing and never drawn as if
-    it were. Sunday is drawn apart because Sunday is the question people ask."""
+    """Seven boxes, Monday to Sunday. Filled means open, hollow means closed, dashed means
+    nobody has told us. Sunday is drawn apart because Sunday is the question people ask."""
     if not days:
         return ""
     cell = (w - 10) / 7

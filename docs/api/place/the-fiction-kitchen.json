@@ -226,7 +226,7 @@
    "label": "LGBTQ+ welcoming",
    "icon": "🏳️‍🌈",
    "group": "welcome",
-   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome); never inferred",
+   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome)",
    "resources": [
     "r:charlotte-lgbt-chamber",
     "r:sc-pride-directory",

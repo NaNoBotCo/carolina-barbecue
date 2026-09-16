@@ -1,5 +1,5 @@
 {
- "note": "The builder starts from a real recipe wherever a free-to-use Carolina one exists, and says so on the page. Where none exists, the proportions are this project's own, composed to keep the ingredient order the labels print and to land on the sugar the bottles actually carry — marked inference, never passed off as a pit's recipe. The sugar figure under each result is computed from the quantities on screen, using 12.6 g of sugar in a tablespoon of sugar, 10 g in molasses and 3.7 g in ketchup, and it is drawn against the bottles measured for this site. A home sauce generally lands below them.",
+ "note": "The builder starts from a real recipe wherever a free-to-use Carolina one exists, and says so on the page. Where none exists, the proportions are this project's own, composed to keep the ingredient order the labels print and to land on the sugar the bottles actually carry. Those are marked inference. The sugar figure under each result is computed from the quantities on screen, using 12.6 g of sugar in a tablespoon of sugar, 10 g in molasses and 3.7 g in ketchup, and it is drawn against the bottles measured for this site. A home sauce generally lands below them.",
  "sugar_g_per_tbsp": {
   "brown sugar": 12.6,
   "sugar": 12.6,

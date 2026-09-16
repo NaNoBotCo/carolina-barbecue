@@ -41,8 +41,8 @@ FIELDS THAT CARRY THE WEIGHT
   sources[]      ids from data/sources/sources.json ONLY. Add new ones to
                  data/sources/new-<yourname>.json in the same shape; they are merged.
                  Wikipedia: s:wp-<slug>. A web page: s:web-<slug> with title, publisher,
-                 url, and the date you read it. A book: title, author, publisher, year —
-                 never an ISBN you did not see.
+                 url, and the date you read it. A book: title, author, publisher, year,
+                 and an ISBN if you have the book in front of you.
   provenance     default tier + per-field overrides. Tiers: cited, harvested, tradition,
                  inference, field. A date, a founding year, a death, a court case, a
                  price: cited or it is hedged.
@@ -64,7 +64,7 @@ WORDS
   summary. Every non-obvious word defined in a clause at first use.
   Prices, when a source gives them, go in with their date.
   Stories are told as stories: the 1980s columnists' war, the Piggie Park
-  case, the Lexington lineage, the 1830 wagon. Source-marked, never padded.
+  case, the Lexington lineage, the 1830 wagon. Source-marked.
 
 CAST LIST (the ids that exist or are being written; link only to these)
   style   eastern-nc lexington sc-mustard sc-pee-dee sc-light-tomato sc-heavy-tomato
@@ -103,11 +103,10 @@ SECOND WAVE FIELDS (added 2026-09-16)
   tags[]          on places: {tag, source, tier?, note?, since?, url?}. Keys in
                   data/vocab/tags.json: black-owned woman-owned lgbtq-friendly
                   wood-cooked whole-hog family-run cash-only sold-out-closes buffet
-                  weekends-only hash closed. EVERY tag names its evidence. Ownership
-                  and welcome tags (black-owned, woman-owned, lgbtq-friendly) come only
-                  from the owner's own words, a press profile that names the owner, or
-                  a public directory — never from a name, a photograph or a guess. A
-                  place with no evidence gets no tag; absence of a tag says nothing.
+                  weekends-only hash closed. A tag names its evidence. Ownership and
+                  welcome tags (black-owned, woman-owned, lgbtq-friendly) take the
+                  owner's own words, a press profile that names the owner, or a public
+                  directory. Absence of a tag says nothing about the place.
   recognitions[]  on places: {by, what, year?, source, url?}. `by` from
                   data/vocab/recognizers.json (james-beard ncbs-trail true-cue scba
                   sfa garner reed-holy-smoke fertel miller-black-smoke michelin

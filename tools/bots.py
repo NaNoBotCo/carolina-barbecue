@@ -59,8 +59,7 @@ def robots(site_url: str, site_name: str) -> str:
 
 def corpus_jsonl(recs: list, sources: dict, site_url: str) -> str:
     """One record per line, flattened to the text a retrieval system wants, with the
-    licence and the sources attached to each line so a passage can never be quoted
-    without them."""
+    licence and the sources attached to each line."""
     out = []
     for r in recs:
         t = r["text"]
@@ -141,8 +140,7 @@ def openapi(site_url: str, site_name: str, types: list, counts: dict) -> str:
             "description": ("One JSON record per node of the tradition. Every field carries a provenance tier — cited, "
                             "harvested, tradition, inference or field — and cites a source in /api/sources.json. "
                             "Records are CC BY 4.0. Place points come from OpenStreetMap under ODbL 1.0 and stay under it. "
-                            "Pictures carry their own licences, stated per file. No key, no rate limit, no account: these "
-                            "are static files on a static host."),
+                            "Pictures carry their own licences, stated per file. These are static files on a static host."),
             "license": {"name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/"},
             "contact": {"url": site_url + "/"},
         },

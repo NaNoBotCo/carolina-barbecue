@@ -1,5 +1,5 @@
 {
- "note": "The side-picker. Six questions, each answer gives points to styles. Nothing is stored anywhere but the reader's own browser, and only if they ask. The result links to the style's page; it is a game, not a verdict.",
+ "note": "The side-picker. Six questions, each answer gives points to styles. The result links to the style's page; it is a game, not a verdict.",
  "title": "Which side are you on?",
  "lede": "Six questions. At the end, a style claims you. Every Carolinian already knows the answer; this is for the rest of you.",
  "questions": [

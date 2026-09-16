@@ -212,10 +212,8 @@ def day_state(rec: dict | None, osm_hours: str | None) -> dict:
     """open / closed / unknown for each of the seven days.
 
     A record's own hours win, because someone read them off the door or a page and named
-    the source. OpenStreetMap fills the rest. A day nobody has told us about stays
-    UNKNOWN — it is never quietly called closed, which is the difference between a
-    directory that is useful and one that sends a reader to a locked door or, worse,
-    tells them a pit is shut when it is open.
+    the source. OpenStreetMap fills the rest. A day nobody has told us about comes back
+    UNKNOWN rather than closed, so the page can say which it is.
     """
     out = {d: "unknown" for d in DAYS}
     if osm_hours:
@@ -262,7 +260,7 @@ def coverage(recs: list[dict], osm: dict | None, sources: dict) -> dict:
         },
         "images": {"count": sum(len(r.get("images", [])) for r in recs), "licences_accepted": ["CC0", "Public domain", "CC BY", "CC BY-SA", "FAL"]},
         "tags": {k: sum(1 for r in recs for t in r.get("tags", []) if t["tag"] == k) for k in TAGS},
-        "tags_note": "A tag names its evidence (the owner's words, a press profile, a public directory or list). No evidence, no tag; absence of a tag says nothing about a place.",
+        "tags_note": "A tag names its evidence (the owner's words, a press profile, a public directory or list). Absence of a tag says nothing about a place.",
         "recognitions": sum(len(r.get("recognitions", [])) for r in recs),
         "recipes": sum(len(r.get("recipes", [])) for r in recs),
         "sources": len(sources),

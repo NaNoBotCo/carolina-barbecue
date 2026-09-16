@@ -838,7 +838,7 @@ def sources_page(sources: dict) -> str:
     kinds: dict = {}
     for s in sources.values():
         kinds.setdefault(s.get("kind", "other"), []).append(s)
-    body = f'<h1><span class="kind">{E(SITE_NAME)}</span>Sources <span class="count">({len(sources)})</span></h1><p class="lede">Every source a record may cite, by id. Cite anything else and the build refuses it.</p>'
+    body = f'<h1><span class="kind">{E(SITE_NAME)}</span>Sources <span class="count">({len(sources)})</span></h1><p class="lede">Every source a record cites, by id.</p>'
     for k in ("book", "wikipedia", "oral-history", "web", "org", "dataset", "article", "film", "other"):
         rows = kinds.get(k)
         if not rows:
@@ -894,7 +894,7 @@ def search_page(docs: list[dict]) -> str:
 <form class="search" role="search" onsubmit="return false"><input id="q" type="search" placeholder="hash · outside brown · Ayden · mustard · Lexington dip…" aria-label="Search" autofocus><button id="go" type="button">Search</button></form>
 <p id="tier" class="tierline" aria-live="polite"></p>
 <div id="out" class="cards"></div>
-<p class="legend" id="how">Runs in your browser over every record: exact → same meaning, other word → near spellings → partial. Nothing is sent anywhere.</p>
+<p class="legend" id="how">Runs in your browser over every record: exact → same meaning, other word → near spellings → partial.</p>
 <script src="../vendor/searchcore.js"></script>
 <script>
 (function(){{
@@ -1063,7 +1063,7 @@ def humans_txt(recs: list[dict], cov: dict) -> str:
             "The cooks, most of them Black, who worked these pits through the night for two\n"
             "centuries and whose names came off the signs.\n\n"
             "/* SITE */\n"
-            "Stdlib Python, no dependencies, no build step, no tracking, no accounts.\n"
+            "Stdlib Python, no dependencies, no build step.\n"
             "Standards: HTML, JSON-LD, llms.txt, Atom, OpenSearch, ODbL, CC BY.\n")
 
 
