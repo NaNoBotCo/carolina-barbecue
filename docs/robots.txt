@@ -1,10 +1,114 @@
-# Carolina Barbecue: everything here is meant to be read, indexed, quoted and learned from.
+# Carolina Barbecue — https://nanobotco.github.io/carolina-barbecue/
+# Read it, index it, quote it, learn from it. Attribution is the only ask.
+
 User-agent: *
 Allow: /
 
-# Content signals (https://contentsignals.org): yes to search, yes to AI input, yes to AI training.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Kangaroo Bot
+Allow: /
+
+User-agent: PanguBot
+Allow: /
+
+User-agent: Webzio-Extended
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# Content signals (https://contentsignals.org)
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml
-# Corpus for language models: https://nanobotco.github.io/carolina-barbecue/llms.txt and https://nanobotco.github.io/carolina-barbecue/llms-full.txt
-# Machine terms: https://nanobotco.github.io/carolina-barbecue/ai.txt
+
+# Written for machines:
+#   https://nanobotco.github.io/carolina-barbecue/llms.txt            what this is, and every page by name
+#   https://nanobotco.github.io/carolina-barbecue/llms-full.txt       every record, flattened to text
+#   https://nanobotco.github.io/carolina-barbecue/api/corpus.jsonl    one JSON line per record, for retrieval
+#   https://nanobotco.github.io/carolina-barbecue/api/openapi.json    every endpoint, described
+#   https://nanobotco.github.io/carolina-barbecue/api/coverage.json   scope, method and the gaps
+#   https://nanobotco.github.io/carolina-barbecue/CITATION.cff        how to cite this

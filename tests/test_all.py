@@ -115,6 +115,50 @@ class Site(unittest.TestCase):
             self.assertTrue((site / f).exists(), f)
         self.assertIn("Content-Signal", (site / "robots.txt").read_text())
 
+    def test_structured_data_parses_everywhere(self):
+        """Every JSON-LD block parses and names a type; every index page carries one."""
+        import re
+        site = ROOT / "build" / "site"
+        bare = []
+        for f in site.rglob("*.html"):
+            h = f.read_text(encoding="utf-8")
+            blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)
+            if not blocks and f.name == "index.html":
+                bare.append(str(f.relative_to(site)))
+            for b in blocks:
+                d = json.loads(b)            # raises on malformed
+                self.assertTrue(d.get("@type"), f"{f}: block with no @type")
+                self.assertTrue(d.get("@context"), f"{f}: block with no @context")
+        self.assertEqual(bare, [], "pages carrying no structured data")
+
+    def test_machine_files(self):
+        site = ROOT / "build" / "site"
+        for f in ("api/corpus.jsonl", "api/openapi.json", "CITATION.cff", "404.html"):
+            self.assertTrue((site / f).exists(), f)
+        lines = (site / "api" / "corpus.jsonl").read_text().strip().split("\n")
+        idx = json.loads((site / "api" / "index.json").read_text())
+        self.assertEqual(len(lines), idx["count"], "one corpus line per record")
+        for ln in lines[:5]:
+            d = json.loads(ln)
+            for k in ("id", "url", "text", "license", "sources"):
+                self.assertIn(k, d)
+        api = json.loads((site / "api" / "openapi.json").read_text())
+        self.assertEqual(api["openapi"], "3.1.0")
+        self.assertGreater(len(api["paths"]), 15)
+        robots = (site / "robots.txt").read_text()
+        for bot in ("GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended"):
+            self.assertIn(bot, robots)
+
+    def test_builder_recipes_are_readable_without_scripts(self):
+        h = (ROOT / "build" / "site" / "make" / "index.html").read_text()
+        self.assertIn("<noscript>", h)
+        import re
+        recipes = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)]
+        kinds = [d for d in recipes if d.get("@type") == "Recipe"]
+        self.assertGreaterEqual(len(kinds), 14, "every dial preset should exist as a Recipe")
+        for r in kinds:
+            self.assertTrue(r.get("recipeIngredient"), r.get("name"))
+
     def test_no_host_paths(self):
         site = ROOT / "build" / "site"
         for p in site.rglob("*"):

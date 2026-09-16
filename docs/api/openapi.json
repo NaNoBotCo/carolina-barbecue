@@ -1,0 +1,531 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Carolina Barbecue",
+  "version": "2026.09.16",
+  "summary": "Barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, organizations, events, vocabulary, art and long reads.",
+  "description": "One JSON record per node of the tradition. Every field carries a provenance tier — cited, harvested, tradition, inference or field — and cites a source in /api/sources.json. Records are CC BY 4.0. Place points come from OpenStreetMap under ODbL 1.0 and stay under it. Pictures carry their own licences, stated per file. No key, no rate limit, no account: these are static files on a static host.",
+  "license": {
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "contact": {
+   "url": "https://nanobotco.github.io/carolina-barbecue/"
+  }
+ },
+ "servers": [
+  {
+   "url": "https://nanobotco.github.io/carolina-barbecue"
+  }
+ ],
+ "externalDocs": {
+  "description": "Scope, method and gaps",
+  "url": "https://nanobotco.github.io/carolina-barbecue/api/coverage.json"
+ },
+ "paths": {
+  "/api/art/{id}.json": {
+   "get": {
+    "summary": "One art record",
+    "description": "The full record. 7 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/corpus.jsonl": {
+   "get": {
+    "summary": "The whole corpus as JSON Lines",
+    "description": "One record per line, flattened to text with its licence, sources and images. Written for retrieval.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/coverage.json": {
+   "get": {
+    "summary": "Scope, method and gaps",
+    "description": "What this covers, where each kind of row comes from, how many places carry each tag, and what has not been read.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/dish/{id}.json": {
+   "get": {
+    "summary": "One dish record",
+    "description": "The full record. 27 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/event/{id}.json": {
+   "get": {
+    "summary": "One event record",
+    "description": "The full record. 7 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/index.json": {
+   "get": {
+    "summary": "Every record, in brief",
+    "description": "id, type, name, aliases, region, facets, blurb, image and url for all records.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/kin.json": {
+   "get": {
+    "summary": "Every link between pages",
+    "description": "Directed edges: from, to, the relation, and the sentence the source page says about the target.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/nodes.json": {
+   "get": {
+    "summary": "Every record, in full",
+    "description": "The complete corpus, each record enriched with its kin, sources, tier labels and market or profile data.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/org/{id}.json": {
+   "get": {
+    "summary": "One org record",
+    "description": "The full record. 4 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/person/{id}.json": {
+   "get": {
+    "summary": "One person record",
+    "description": "The full record. 25 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/pit/{id}.json": {
+   "get": {
+    "summary": "One pit record",
+    "description": "The full record. 11 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/place/{id}.json": {
+   "get": {
+    "summary": "One place record",
+    "description": "The full record. 58 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/places.json": {
+   "get": {
+    "summary": "Every place on the map",
+    "description": "Curated pits plus every OpenStreetMap barbecue row in both states, with per-day open state. OpenStreetMap rows carry ODbL.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/sauce/{id}.json": {
+   "get": {
+    "summary": "One sauce record",
+    "description": "The full record. 15 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/sauces.json": {
+   "get": {
+    "summary": "Bottled sauces, measured",
+    "description": "Sixty-eight labels: ingredient order, sugar per tablespoon, sodium, the maker's town and coordinates.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/sources.json": {
+   "get": {
+    "summary": "The source registry",
+    "description": "Every source a record may cite, by id. Records cite only these.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/api/story/{id}.json": {
+   "get": {
+    "summary": "One story record",
+    "description": "The full record. 4 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/style/{id}.json": {
+   "get": {
+    "summary": "One style record",
+    "description": "The full record. 6 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/api/term/{id}.json": {
+   "get": {
+    "summary": "One term record",
+    "description": "The full record. 15 exist; ids are listed in /api/index.json.",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "kebab-case record id"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     },
+     "404": {
+      "description": "No record with that id"
+     }
+    }
+   }
+  },
+  "/feed.xml": {
+   "get": {
+    "summary": "Atom feed",
+    "description": "The most recently updated records.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/llms-full.txt": {
+   "get": {
+    "summary": "Every record as plain text",
+    "description": "The whole corpus, flattened.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/llms.txt": {
+   "get": {
+    "summary": "Orientation for language models",
+    "description": "Names this corpus and every page in it.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/nodes.csv": {
+   "get": {
+    "summary": "Every record as CSV",
+    "description": "One row per record.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/nodes.jsonl": {
+   "get": {
+    "summary": "Every record as JSON Lines",
+    "description": "One record per line, unflattened.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  },
+  "/sitemap.xml": {
+   "get": {
+    "summary": "Sitemap",
+    "description": "Every page, with lastmod and image extensions.",
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {}
+      }
+     }
+    }
+   }
+  }
+ }
+}

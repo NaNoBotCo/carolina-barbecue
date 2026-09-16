@@ -248,9 +248,21 @@ document.getElementById("town").addEventListener("keydown",function(e){{if(e.key
 }})();
 </script>
 """
+    nld = [{"@context": "https://schema.org", "@type": "WebPage", "@id": f"{site_url}/near/",
+            "name": "Find the Q", "url": f"{site_url}/near/", "isPartOf": {"@id": site_url + "/"}},
+           {"@context": "https://schema.org", "@type": "ItemList",
+            "name": "Pits others have written down", "numberOfItems": len(drive),
+            "description": "Ranked by how many different people recorded the place: an award, a trail, a wood-fire certification, an oral history, a magazine list.",
+            "itemListElement": [{"@type": "ListItem", "position": i + 1,
+                                 "item": {"@type": "Restaurant", "name": r["n"], "servesCuisine": "Barbecue",
+                                          **({"url": f'{site_url}/{r["u"]}'} if r.get("u") else {}),
+                                          "address": {"@type": "PostalAddress", "addressLocality": r["c"],
+                                                      "addressRegion": r["s"], "addressCountry": "US"},
+                                          "geo": {"@type": "GeoCoordinates", "latitude": r["la"], "longitude": r["lo"]}}}
+                                for i, r in enumerate(drive)]}]
     return page(f"Find the Q — Carolina Barbecue", body, 1,
                 "Barbecue near you in North and South Carolina, and the pits worth a drive: wood-cooked, whole hog, Black-owned, woman-owned, LGBTQ+ welcoming — each tag with its evidence.",
-                [{"@context": "https://schema.org", "@type": "WebPage", "name": "Find the Q", "url": f"{site_url}/near/"}],
+                nld,
                 f"{site_url}/near/", extra_head=f"<style>{NEAR_CSS}</style>", card="near",
                 og_alt="Find the Q: every barbecue pit in North and South Carolina, sorted from where you are")
 
@@ -526,7 +538,14 @@ document.getElementById("again").addEventListener("click",function(){{
 }})();
 </script>
 """
-    return page(f'{quiz["title"]} — Carolina Barbecue', body, 1, quiz["lede"], None, f"{site_url}/quiz/", card="quiz",
+    qld = [{"@context": "https://schema.org", "@type": "Quiz", "@id": f"{site_url}/quiz/",
+            "name": quiz["title"], "url": f"{site_url}/quiz/", "isPartOf": {"@id": site_url + "/"},
+            "about": {"@type": "Thing", "name": "Carolina barbecue styles"},
+            "educationalLevel": "beginner",
+            "hasPart": [{"@type": "Question", "name": q["q"],
+                         "suggestedAnswer": [{"@type": "Answer", "text": a.get("t", "")} for a in q.get("a", [])]}
+                        for q in quiz["questions"]]}]
+    return page(f'{quiz["title"]} — Carolina Barbecue', body, 1, quiz["lede"], qld, f"{site_url}/quiz/", card="quiz",
                 og_alt="Which side are you on? A six-question Carolina barbecue quiz")
 
 
@@ -621,9 +640,17 @@ def pig_page(page, by_id: dict, site_url: str) -> str:
         f'<p>{E(by_id[c]["blurb"][:170])}</p></div>' for c in cuts) + "</div>")
     body.append('<p class="legend">The drawing is this project\'s own, and it is a diagram rather than a butcher\'s chart: '
                 'the lines are where the styles differ, not where a knife goes. For the actual seams, a pork cutting chart from a state extension service is the thing to read.</p>')
+    pld = [{"@context": "https://schema.org", "@type": "WebPage", "@id": f"{site_url}/pig/",
+            "name": "The pig", "url": f"{site_url}/pig/", "isPartOf": {"@id": site_url + "/"},
+            "about": {"@type": "Thing", "name": "Pork cuts used in Carolina barbecue"},
+            "mainEntity": {"@type": "ItemList", "name": "Which cuts each style cooks",
+                           "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": label,
+                                                "description": gloss,
+                                                "url": f"{site_url}/style/{sid}/"}
+                                               for i, (sid, label, lit, gloss) in enumerate(PIG_STYLES)]}}]
     return page("The pig — Carolina Barbecue", "".join(body), 1,
                 "A diagram of the hog with what each Carolina barbecue style cooks: whole hog in the east and the Pee Dee, the shoulder in Lexington, hams and shoulders in the Midlands.",
-                None, f"{site_url}/pig/", extra_head=f"<style>{CHART_CSS}</style>", card="pig",
+                pld, f"{site_url}/pig/", extra_head=f"<style>{CHART_CSS}</style>", card="pig",
                 og_alt="A hog in side view with the cuts each Carolina barbecue style cooks")
 
 
@@ -748,9 +775,32 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
     body.append('<p class="legend">The distance map is computed on a grid of about two miles, clipped to the states\' own outlines '
                 '(Natural Earth, public domain) and measured against every place on the map, most of which come from OpenStreetMap under the ODbL. '
                 'Everything else is counted straight out of <a href="../api/nodes.json">the records</a>.</p>')
+    ld = [{"@context": "https://schema.org", "@type": "Dataset", "@id": f"{site_url}/numbers/",
+           "name": "Carolina barbecue, counted", "url": f"{site_url}/numbers/",
+           "description": ("Distance from any point in North and South Carolina to the nearest barbecue place; "
+                           "founding years; ingredient frequency across the recipes; days open; and the link "
+                           "structure of the corpus."),
+           "license": "https://creativecommons.org/licenses/by/4.0/",
+           "isAccessibleForFree": True, "creator": {"@type": "Person", "name": "NaN"},
+           "isPartOf": {"@id": site_url + "/"},
+           "measurementTechnique": ("Nearest-neighbour distance on a grid of about two miles, clipped to state "
+                                    "outlines; every other figure counted from the records."),
+           "variableMeasured": [
+               {"@type": "PropertyValue", "name": "Median distance to the nearest place",
+                "value": round(stats["median"], 1), "unitText": "miles"},
+               {"@type": "PropertyValue", "name": "Median distance between places",
+                "value": round(med_gap, 1), "unitText": "miles"},
+               {"@type": "PropertyValue", "name": "Places mapped", "value": len(pl)},
+               {"@type": "PropertyValue", "name": "Places closed Sunday", "value": closed_su},
+               {"@type": "PropertyValue", "name": "Recipes", "value": nrec},
+               {"@type": "PropertyValue", "name": "Links between pages", "value": len(edges)}],
+           "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json",
+                             "contentUrl": f"{site_url}/api/places.json"},
+                            {"@type": "DataDownload", "encodingFormat": "application/json",
+                             "contentUrl": f"{site_url}/api/coverage.json"}]}]
     return page("Numbers — Carolina Barbecue", "".join(body), 1,
                 "Carolina barbecue counted: how near the nearest pit is anywhere in the two states, when the pits opened, what the recipes call for, which days they open.",
-                None, f"{site_url}/numbers/", extra_head=f"<style>{CHART_CSS}</style>", card="numbers",
+                ld, f"{site_url}/numbers/", extra_head=f"<style>{CHART_CSS}</style>", card="numbers",
                 og_alt="A map of North and South Carolina shaded by distance to the nearest barbecue place")
 
 
@@ -794,6 +844,18 @@ MAKE_TABS_CSS = """
 
 
 def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str, rub: dict | None = None, slaw: dict | None = None) -> str:
+    import bots
+    presets = bots.builder_recipes(builder, rub, slaw, site_url)
+    noscript = bots.builders_noscript(presets)
+    make_ld = [{"@context": "https://schema.org", "@type": "WebPage", "@id": f"{site_url}/make/",
+                "name": "Make", "url": f"{site_url}/make/",
+                "description": "Build a Carolina barbecue sauce, rub or slaw by region and taste.",
+                "isPartOf": {"@id": site_url + "/"},
+                "mainEntity": {"@type": "ItemList", "numberOfItems": len(presets),
+                               "itemListElement": [{"@type": "ListItem", "position": i + 1,
+                                                    "item": {"@id": f'{site_url}/make/#{r["id"]}'}}
+                                                   for i, r in enumerate(presets)]}}]
+    make_ld += [bots.recipe_jsonld(r, site_url) for r in presets]
     by_id = {r["id"]: r for r in recs}
     # every bottle we measured, so the result can be put beside them
     bottles = [{"n": s["name"], "b": s.get("base"), "g": s.get("sugar_g_per_tbsp")}
@@ -835,6 +897,7 @@ def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str, rub:
 <p class="lede">Build a sauce, a rub or a slaw from sources this site can cite. Published recipes get named where they
 exist. Everything else says plainly that the proportions are ours.</p>
 
+{noscript}
 <div class="tabs" role="tablist">
   <button type="button" role="tab" data-panel="sauce" aria-selected="true">A sauce</button>
   <button type="button" role="tab" data-panel="rub" aria-selected="false">A rub</button>
@@ -1146,5 +1209,6 @@ tabs.addEventListener("click",function(e){{
 """
     return page("Make — Carolina Barbecue", body, 1,
                 "Build a Carolina barbecue sauce by region and taste, or a rub from salt alone out to a full modern one. Every proportion says whether it came from a published recipe, a named pitmaster, or this project.",
-                None, f"{site_url}/make/", extra_head=f"<style>{MAKE_CSS}{MAKE_TABS_CSS}{CHART_CSS}</style>", card="make",
+                make_ld, f"{site_url}/make/",
+                extra_head=f"<style>{MAKE_CSS}{MAKE_TABS_CSS}{CHART_CSS}</style>", card="make",
                 og_alt="Make a Carolina barbecue sauce or rub")

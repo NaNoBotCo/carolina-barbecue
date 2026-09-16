@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Carolina Barbecue"
+message: "If you use this data, please cite it."
+type: dataset
+authors:
+  - name: "NaN"
+    website: "https://nanobotco.github.io/carolina-barbecue/"
+url: "https://nanobotco.github.io/carolina-barbecue/"
+repository-code: "https://github.com/NaNoBotCo/carolina-barbecue"
+license: CC-BY-4.0
+date-released: "2026-09-16"
+abstract: >-
+  A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit
+  practice, places, people, organizations, events, vocabulary and art. One JSON
+  record per node, every field carrying a provenance tier and citing a named source.
+  Place points derive from OpenStreetMap under ODbL 1.0.
+keywords:
+  - barbecue
+  - North Carolina
+  - South Carolina
+  - foodways
+  - open data

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Not here — Carolina Barbecue</title>
+<meta name="robots" content="noindex,follow">
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#f6f1e7;--panel:#fdfaf3;--ink:#221d18;--mute:#6b6257;--line:#e2d9c6;--ember:#b5431f;--smoke:#4a4540;--gold:#b8860b;--mustard:#c9a227;--vinegar:#8c2f22;--focus:#1f5fa8;--chip:#efe7d6;
+  /* A barbecue house paints its sign; it does not set it in a book face. Headings take a
+     slab typewriter, labels take the engraved caps of a menu board, and the reading text
+     stays a warm old-style serif. All of it is already on the reader's machine. */
+  --display:"American Typewriter",Rockwell,"Bookman Old Style",Georgia,"Iowan Old Style",serif;
+  --sign:Copperplate,"Copperplate Gothic Light","Trajan Pro",Georgia,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --body:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,"Times New Roman",serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#171412;--panel:#1f1b18;--ink:#f1ebe0;--mute:#b3a898;--line:#332d27;--ember:#e8673c;--smoke:#cfc4b4;--gold:#e0b64a;--mustard:#e3bb3c;--vinegar:#e07a68;--focus:#8ab4f8;--chip:#2a241f}}
+:root[data-theme="dark"]{--bg:#171412;--panel:#1f1b18;--ink:#f1ebe0;--mute:#b3a898;--line:#332d27;--ember:#e8673c;--smoke:#cfc4b4;--gold:#e0b64a;--mustard:#e3bb3c;--vinegar:#e07a68;--focus:#8ab4f8;--chip:#2a241f}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
+a{color:var(--ember);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--vinegar)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--ember)}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.7rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--ember)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--ember)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--ember);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--vinegar)}
+figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--ember);background:var(--ember);color:#fff;cursor:pointer}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--ember);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--ember);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--ember)}
+.cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--mustard);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.wander{font-size:.85rem;color:var(--mute)}
+.pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--ember);font-weight:600}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow a.tg,.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;text-decoration:none;color:var(--ink)}
+.tagrow a.tg:hover{border-color:var(--ember)}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.welcome{border-color:#9b59b6}.tagrow .tg.pit{border-color:var(--ember)}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.acc b{color:var(--gold)}
+.recipe{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.8rem 0}
+.recipe h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.recipe .src{font-size:.82rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.recipe .txt{white-space:pre-wrap;margin:.5rem 0 0;font-size:.97rem}
+.recipe ul{margin:.4rem 0 0;padding-left:1.1rem}
+.sect{margin:1.2rem 0}
+.gal2{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;margin:.6rem 0}
+.gal2 figure{margin:0}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.04)}.search input{transition:box-shadow .2s}.search input:focus{box-shadow:0 0 0 4px color-mix(in srgb,var(--ember) 22%,transparent)}.mapwrap circle.p{transition:r .15s ease}.mapwrap circle.p:hover{r:6}}
+</style>
+</head>
+<body>
+<header class="top"><a class="brand" href="https://nanobotco.github.io/carolina-barbecue/">Carolina <b>Barbecue</b></a></header>
+<main>
+<h1><span class="kind">404</span>Nothing at that address</h1>
+<p class="lede">The page moved or never existed. Everything here is one of these:</p>
+<h2>Pages</h2><ul><li><a href="https://nanobotco.github.io/carolina-barbecue//">Directory</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/near/">Near me</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/places/">Map</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/sauce/">Sauce</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/make/">Make</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/pig/">Pig</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/art/">Art</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/stories/">Stories</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/numbers/">Numbers</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/words/">Words</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/sources/">Sources</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/coverage/">Coverage</a></li><li><a href="https://nanobotco.github.io/carolina-barbecue/search/">Search</a></li></ul>
+<h2>For machines</h2><ul><li><a href="https://nanobotco.github.io/carolina-barbecue/llms.txt">llms.txt</a> — orientation for language models</li><li><a href="https://nanobotco.github.io/carolina-barbecue/llms-full.txt">llms-full.txt</a> — every record as text</li><li><a href="https://nanobotco.github.io/carolina-barbecue/api/index.json">api/index.json</a> — every record in brief</li><li><a href="https://nanobotco.github.io/carolina-barbecue/api/corpus.jsonl">api/corpus.jsonl</a> — one JSON line per record, for retrieval</li><li><a href="https://nanobotco.github.io/carolina-barbecue/api/openapi.json">api/openapi.json</a> — every endpoint described</li><li><a href="https://nanobotco.github.io/carolina-barbecue/api/coverage.json">api/coverage.json</a> — scope, method and gaps</li><li><a href="https://nanobotco.github.io/carolina-barbecue/sitemap.xml">sitemap.xml</a> — every page</li></ul>
+<p class="legend">179 records. Records CC BY 4.0; place points OpenStreetMap under ODbL;
+pictures carry their own licences.</p>
+</main>
+</body>
+</html>

@@ -14,6 +14,10 @@ Records are CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Place poin
 - [Vocabularies: regions, types, facets](https://nanobotco.github.io/carolina-barbecue/api/vocab/regions.json)
 - [Sources registry](https://nanobotco.github.io/carolina-barbecue/api/sources.json)
 - [Full text of every record](https://nanobotco.github.io/carolina-barbecue/llms-full.txt)
+- [One JSON line per record, for retrieval](https://nanobotco.github.io/carolina-barbecue/api/corpus.jsonl)
+- [Every endpoint described](https://nanobotco.github.io/carolina-barbecue/api/openapi.json)
+- [Scope, method and gaps](https://nanobotco.github.io/carolina-barbecue/api/coverage.json)
+- [How to cite this](https://nanobotco.github.io/carolina-barbecue/CITATION.cff)
 
 ## Styles
 - [Eastern North Carolina barbecue](https://nanobotco.github.io/carolina-barbecue/style/eastern-nc/): The whole pig, split and cooked over coals or on a gas or electric cooker, then chopped — skin, ham, shoulder, loin and belly together, 'every part of the hog except the squeal' — and dressed after cooking with a thin…

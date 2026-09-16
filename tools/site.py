@@ -32,6 +32,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import BUILD, DATA, GEO, IMAGES, ROOT, SEARCH_CORE, TIER_LABEL, TYPES, VENDOR, jload  # noqa: E402
 import pages  # noqa: E402
 import viz  # noqa: E402
+import bots  # noqa: E402
 
 PIG_CUTS = {k: v for k, _, v, _ in pages.PIG_STYLES}
 
@@ -846,7 +847,20 @@ def sources_page(sources: dict) -> str:
             f'<li><code class="mute" style="font-size:.8rem">{E(s["id"])}</code> {E(s.get("title", ""))}' + (f' — {E(s["author"])}' if s.get("author") else "") + (f', {E(s["publisher"])}' if s.get("publisher") else "") + (f' {E(str(s["year"]))}' if s.get("year") else "") +
             (f' · <a href="{E(s["url"])}" rel="noopener">link</a>' if s.get("url") else "") + (f' <span class="mute">({E(s["license"])})</span>' if s.get("license") else "") + (f'<br><span class="mute" style="font-size:.85rem">{E(s["note"])}</span>' if s.get("note") else "") + "</li>"
             for s in sorted(rows, key=lambda s: s.get("title", ""))) + "</ul>"
-    return page(f"Sources — {SITE_NAME}", body, 1, "Every source the records cite.", None, f"{SITE_URL}/sources/", card="sources")
+    ld = [{"@context": "https://schema.org", "@type": "Collection", "@id": f"{SITE_URL}/sources/",
+           "name": "Sources", "url": f"{SITE_URL}/sources/", "isPartOf": {"@id": SITE_URL + "/"},
+           "description": "Every source a record may cite, by id.", "size": str(len(sources)),
+           "hasPart": [{"@type": {"book": "Book", "wikipedia": "Article", "article": "Article",
+                                  "oral-history": "CreativeWork", "dataset": "Dataset",
+                                  "org": "Organization", "film": "Movie"}.get(s.get("kind"), "CreativeWork"),
+                        "identifier": s["id"], "name": s.get("title", ""),
+                        **({"author": {"@type": "Person", "name": s["author"]}} if s.get("author") else {}),
+                        **({"publisher": {"@type": "Organization", "name": s["publisher"]}} if s.get("publisher") else {}),
+                        **({"datePublished": str(s["year"])} if s.get("year") else {}),
+                        **({"url": s["url"]} if s.get("url") else {}),
+                        **({"license": s["license"]} if s.get("license") else {})}
+                       for s in sorted(sources.values(), key=lambda x: x.get("title", ""))]}]
+    return page(f"Sources — {SITE_NAME}", body, 1, "Every source the records cite.", ld, f"{SITE_URL}/sources/", card="sources")
 
 
 def coverage_page(cov: dict) -> str:
@@ -859,7 +873,18 @@ def coverage_page(cov: dict) -> str:
             '<h2>Gaps</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
             '<h2>Tiers</h2><table>' + "".join(f"<tr><th>{E(k)}</th><td>{E(v)}</td></tr>" for k, v in cov["tiers"].items()) + "</table>"
             '<p class="mute">The same object as JSON: <a href="../api/coverage.json">api/coverage.json</a>.</p>')
-    return page(f"Coverage — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not have yet.", None, f"{SITE_URL}/coverage/", card="coverage")
+    ld = [{"@context": "https://schema.org", "@type": "Dataset", "@id": f"{SITE_URL}/coverage/",
+           "name": f"{SITE_NAME} — coverage", "url": f"{SITE_URL}/coverage/",
+           "description": cov["scope"], "isPartOf": {"@id": SITE_URL + "/"},
+           "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": True,
+           "measurementTechnique": cov["how_records_are_made"],
+           "variableMeasured": ([{"@type": "PropertyValue", "name": f"{k} records", "value": v}
+                                 for k, v in cov["records"].items()]
+                                + [{"@type": "PropertyValue", "name": f"places tagged {k}", "value": v}
+                                   for k, v in (cov.get("tags") or {}).items() if v]),
+           "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json",
+                             "contentUrl": f"{SITE_URL}/api/coverage.json"}]}]
+    return page(f"Coverage — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not have yet.", ld, f"{SITE_URL}/coverage/", card="coverage")
 
 
 def search_page(docs: list[dict]) -> str:
@@ -916,7 +941,13 @@ document.getElementById("q").addEventListener("input",function(){{if(index)run()
 }})();
 </script>
 """
-    return page(f"Search — {SITE_NAME}", body, 1, "Spell it however you spell it; we'll find it.", None, f"{SITE_URL}/search/", card="search")
+    ld = [{"@context": "https://schema.org", "@type": "SearchResultsPage", "@id": f"{SITE_URL}/search/",
+           "name": "Search", "url": f"{SITE_URL}/search/", "isPartOf": {"@id": SITE_URL + "/"},
+           "potentialAction": {"@type": "SearchAction",
+                               "target": {"@type": "EntryPoint",
+                                          "urlTemplate": f"{SITE_URL}/search/?q={{search_term_string}}"},
+                               "query-input": "required name=search_term_string"}}]
+    return page(f"Search — {SITE_NAME}", body, 1, "Spell it however you spell it; we'll find it.", ld, f"{SITE_URL}/search/", card="search")
 
 
 def manifest() -> str:
@@ -936,7 +967,12 @@ def llms_txt(recs: list[dict], cov: dict) -> str:
              "", f"Records are CC BY 4.0 ({DATA_LICENSE}). Place points are OpenStreetMap, ODbL 1.0 (share-alike). Pictures carry their own licences, stated per file. Scope and gaps: {SITE_URL}/api/coverage.json",
              "", "## Data", f"- [All records, JSON]({SITE_URL}/api/nodes.json)", f"- [Directory index, JSON]({SITE_URL}/api/index.json)", f"- [Every place, curated + OpenStreetMap]({SITE_URL}/api/places.json)",
              f"- [Kin edges]({SITE_URL}/api/kin.json)", f"- [JSONL]({SITE_URL}/nodes.jsonl) · [CSV]({SITE_URL}/nodes.csv)", f"- [Record schema]({SITE_URL}/schema/node.schema.json)",
-             f"- [Vocabularies: regions, types, facets]({SITE_URL}/api/vocab/regions.json)", f"- [Sources registry]({SITE_URL}/api/sources.json)", f"- [Full text of every record]({SITE_URL}/llms-full.txt)", ""]
+             f"- [Vocabularies: regions, types, facets]({SITE_URL}/api/vocab/regions.json)", f"- [Sources registry]({SITE_URL}/api/sources.json)",
+             f"- [Full text of every record]({SITE_URL}/llms-full.txt)",
+             f"- [One JSON line per record, for retrieval]({SITE_URL}/api/corpus.jsonl)",
+             f"- [Every endpoint described]({SITE_URL}/api/openapi.json)",
+             f"- [Scope, method and gaps]({SITE_URL}/api/coverage.json)",
+             f"- [How to cite this]({SITE_URL}/CITATION.cff)", ""]
     for t in TYPES:
         rs = sorted([r for r in recs if r["type"] == t], key=lambda r: r["names"]["name"].lower())
         if not rs:
@@ -1176,7 +1212,7 @@ def main() -> int:
     (SITE / "llms.txt").write_text(llms_txt(recs, cov), encoding="utf-8")
     (SITE / "llms-full.txt").write_text(llms_full(recs, sources), encoding="utf-8")
     (SITE / "sitemap.xml").write_text(sitemap(recs), encoding="utf-8")
-    (SITE / "robots.txt").write_text(robots(), encoding="utf-8")
+    (SITE / "robots.txt").write_text(bots.robots(SITE_URL, SITE_NAME), encoding="utf-8")
     (SITE / "opensearch.xml").write_text(opensearch(), encoding="utf-8")
     (SITE / "feed.xml").write_text(feed(recs), encoding="utf-8")
     (SITE / "manifest.webmanifest").write_text(manifest(), encoding="utf-8")
@@ -1188,16 +1224,48 @@ def main() -> int:
     (wk / "ai.txt").write_text(ai_txt(), encoding="utf-8")
     (SITE / "ai.txt").write_text(ai_txt(), encoding="utf-8")
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
+    # Written for a reader that cannot click: the corpus as lines, the API described,
+    # a citation, and a 404 that hands back the map.
+    (SITE / "api" / "corpus.jsonl").write_text(bots.corpus_jsonl(recs, sources, SITE_URL), encoding="utf-8")
+    (SITE / "api" / "openapi.json").write_text(
+        bots.openapi(SITE_URL, SITE_NAME, list(TYPES), cov["records"]), encoding="utf-8")
+    (SITE / "CITATION.cff").write_text(bots.citation_cff(SITE_URL, SITE_NAME, cov), encoding="utf-8")
+    (SITE / "404.html").write_text(
+        bots.not_found(SITE_URL, SITE_NAME, CSS, {"total": sum(cov["records"].values())}), encoding="utf-8")
     (SITE / "icon.svg").write_text(icon_svg(), encoding="utf-8")
     dumps(recs)
     n_html = sum(1 for _ in SITE.rglob("*.html"))
+    # Gate: every JSON-LD block must parse and name a type, and every index page must
+    # carry one. Broken structured data fails silently in a browser and poisons an index.
+    bad, bare = [], []
+    for f in SITE.rglob("*.html"):
+        h = f.read_text(encoding="utf-8")
+        blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)
+        if not blocks and f.name == "index.html":
+            bare.append(str(f.relative_to(SITE)))
+        for b in blocks:
+            try:
+                d = json.loads(b)
+                if not d.get("@type") or not d.get("@context"):
+                    bad.append((str(f.relative_to(SITE)), "no @type or @context"))
+            except json.JSONDecodeError as e:
+                bad.append((str(f.relative_to(SITE)), str(e)[:60]))
+    if bad or bare:
+        print("REFUSED: structured data")
+        for x in bad[:6]:
+            print("   malformed:", x)
+        for x in bare[:6]:
+            print("   no JSON-LD:", x)
+        return 3
+    n_ld = sum(len(re.findall(r"application/ld\+json", f.read_text(encoding="utf-8"))) for f in SITE.rglob("*.html"))
+
     # privacy gate: no host paths in anything published
     leaks = [p for p in SITE.rglob("*") if p.is_file() and p.suffix in (".html", ".json", ".txt", ".xml", ".csv", ".jsonl") and "/Users/" in p.read_text(encoding="utf-8", errors="ignore")]
     if leaks:
         print("REFUSED: host paths in", [str(p.relative_to(SITE)) for p in leaks][:5])
         return 2
     print(f"site: {n_html} pages · {len(recs)} records · {places['count']} places on the map · "
-          f"{saved/1e6:.0f} MB saved on pictures · {SITE} · {time.time()-t0:.1f}s")
+          f"{n_ld} structured-data blocks · {saved/1e6:.0f} MB saved on pictures · {time.time()-t0:.1f}s")
     return 0
 
 
