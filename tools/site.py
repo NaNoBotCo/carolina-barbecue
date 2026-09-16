@@ -1076,14 +1076,29 @@ def main() -> int:
         print("vendor/searchcore.js missing — run search-core/sync.py")
         return 1
     shutil.copy(core_js, SITE / "vendor" / "searchcore.js")
-    # pictures: only the files records name
+    # Pictures: only the files records name, and never at archive size. A 2 MB scan of a
+    # 1944 news photograph is the right thing to keep in data/; it is the wrong thing to
+    # send down a phone line. Originals stay put; the published copy is capped at 1600px.
+    saved = 0
     for r in recs:
         for im in r.get("images", []):
             src = IMAGES / im["file"]
-            if src.exists():
-                dst = SITE / "images" / im["file"]
-                dst.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy(src, dst)
+            if not src.exists():
+                continue
+            dst = SITE / "images" / im["file"]
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            try:
+                from PIL import Image as _Im
+                with _Im.open(src) as pic:
+                    if max(pic.size) > 1600 or src.stat().st_size > 600_000:
+                        pic = pic.convert("RGB")
+                        pic.thumbnail((1600, 1600), _Im.LANCZOS)
+                        pic.save(dst, "JPEG", quality=84, optimize=True, progressive=True)
+                        saved += src.stat().st_size - dst.stat().st_size
+                        continue
+            except Exception:  # noqa: BLE001
+                pass
+            shutil.copy(src, dst)
     # pages
     (SITE / "index.html").write_text(front_page(recs, by_id, places, types, cov), encoding="utf-8")
     (SITE / "wander.html").write_text(wander_page(recs), encoding="utf-8")
@@ -1155,7 +1170,8 @@ def main() -> int:
     if leaks:
         print("REFUSED: host paths in", [str(p.relative_to(SITE)) for p in leaks][:5])
         return 2
-    print(f"site: {n_html} pages · {len(recs)} records · {places['count']} places on the map · {SITE} · {time.time()-t0:.1f}s")
+    print(f"site: {n_html} pages · {len(recs)} records · {places['count']} places on the map · "
+          f"{saved/1e6:.0f} MB saved on pictures · {SITE} · {time.time()-t0:.1f}s")
     return 0
 
 
