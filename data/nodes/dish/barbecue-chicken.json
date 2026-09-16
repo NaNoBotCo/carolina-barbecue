@@ -114,7 +114,9 @@
   "s:web-samjones-menu",
   "s:book-mrs-hills-new-cook-book",
   "s:wikibooks-barbecue-rub",
-  "s:wikibooks-north-carolina-style-bbq-chicken"
+  "s:wikibooks-north-carolina-style-bbq-chicken",
+  "s:flickr-sfa",
+  "s:flickr"
  ],
  "provenance": {
   "default": {
@@ -140,6 +142,11 @@
     "tier": "cited",
     "source": "s:wikibooks-north-carolina-style-bbq-chicken",
     "note": "each recipe carries its own source, licence and page"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:flickr-sfa",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -209,7 +216,25 @@
    "note": "A dry rub, the other way a bird is seasoned before it goes on."
   }
  ],
- "images": [],
+ "images": [
+  {
+   "file": "barbecue-chicken/barbecue-chicken-chickens-on-the-pit.jpg",
+   "source": "flickr",
+   "title": "10 Chickens on the pit",
+   "url": "https://live.staticflickr.com/2468/3834225797_81dda4da89_h.jpg",
+   "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3834225797/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Alan Pike; Southern Foodways Alliance",
+   "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+   "alt": "Split chickens laid out in overlapping rows on the wire grate of a long pit, skin gone deep gold, filling the frame from the near corner into smoke at the far end. A chain hangs from the pit's hinged lid at the left; the pit stands against a whitewashed concrete-block wall on a concrete floor.",
+   "date": "2009-07",
+   "primary": true,
+   "sha256": "dc455e0d97c812aabf7b8be2796f0279d668d019f012e0ee2a422432731f0a52",
+   "width": 1600,
+   "height": 1199
+  }
+ ],
  "x_commons_files": [],
  "confidence": "high",
  "needs_verification": false,

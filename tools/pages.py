@@ -139,31 +139,31 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
              'A business that wants a tag it has earned can say so on its own site or in any of those directories, and we will read it there.')
     body = f"""
 <h1><span class="kind">Carolina Barbecue</span>Find the Q</h1>
-<p class="lede">Two questions, one page. What is good near me, and what is worth a tank of gas.</p>
+<p class="lede">Two questions: what's good near me, and what's worth the gas.</p>
 
 <div class="finder">
   <div class="row">
     <button class="btn" id="locate" type="button">📍 Use my location</button>
-    <input id="town" type="search" list="towns" placeholder="or type a town — Ayden, Lexington, Hemingway…" aria-label="Town">
+    <input id="town" type="search" list="towns" placeholder="or name a town — Ayden, Lexington, Hemingway…" aria-label="Town">
     <datalist id="towns">{"".join(f'<option value="{E(t)}">' for t in sorted(townpts))}</datalist>
     <button class="btn ghost" id="go" type="button">Search</button>
   </div>
   <div class="chips" id="chips" role="group" aria-label="Filters">{chips}
     <button type="button" data-tag="__page" aria-pressed="false">📄 Has a page here</button></div>
-  <p class="mute" style="font-size:.84rem;margin:.6rem 0 0" id="status">Your location is read by your own browser and stays there. Nothing is sent anywhere, nothing is stored.</p>
+  <p class="mute" style="font-size:.84rem;margin:.6rem 0 0" id="status">Your browser reads your location and keeps it. Nothing leaves this page.</p>
 </div>
 
 <div id="out"></div>
 
 <h2>Worth the drive</h2>
-<p class="mute">Places others have written down: a James Beard award, a spot on a trail, a wood-fire certification, an oral history recorded at the pit, a magazine's list. The count is how many different people said so, not how good we think it is. Every one is named on the place's own page.</p>
+<p class="mute">Pits somebody already bragged on, in print: a Beard award, a spot on a trail, a wood-fire ticket, an oral history taken at the pit, a magazine list. The count is how many different folks said so — not how good we think it is. They're all named on the pit's own page.</p>
 <div class="drive">{drive_cards}</div>
 
-<h2 id="gaps">What we have not found</h2>
+<h2 id="gaps">What we ain't found yet</h2>
 <p class="mute">{gaps}</p>
-<h2>How to read the tags</h2>
+<h2>What the tags mean</h2>
 <table>{"".join(f'<tr><th>{E(t["icon"])} {E(t["label"])}</th><td>{E(t["evidence"])}</td></tr>' for t in tagvocab.get("entries", []))}</table>
-<p class="mute">A tag names its evidence on the place's page. No evidence, no tag — and a missing tag says nothing about a place, only about what we have read.</p>
+<p class="mute">Every tag names its evidence on the pit's own page. No evidence, no tag. A missing tag says nothing about the pit, only about what we've read.</p>
 
 <script>
 (function(){{
@@ -346,13 +346,13 @@ def sauce_map_multiples(states_geo: dict, by_base: dict, project, box, width=250
 def sauce_page(page, sauces: dict, recs: list, states_geo: dict, project, box, site_url: str) -> str:
     rows = [s for s in (sauces or {}).get("sauces", [])]
     sauce_recs = [r for r in recs if r["type"] == "sauce"]
-    body = [f'<h1><span class="kind">Carolina Barbecue</span>What is actually in the sauce</h1>',
-            '<p class="lede">Every bottle on this page was read off its own label: the ingredient list in order, the sugar on the Nutrition Facts panel, the town the maker works in. '
-            'Nobody tasted anything. The argument about which sauce is correct is conducted elsewhere on this site, at length.</p>']
+    body = ['<h1><span class="kind">Carolina Barbecue</span>What&#8217;s actually in the sauce</h1>',
+            '<p class="lede">Read off the label, not off the tongue: the ingredients in order, the sugar on the panel, the town it\'s made in. '
+            'Nobody tasted a thing. The argument over which one\'s right is settled elsewhere on this site, at length.</p>']
     if not rows:
         body.append('<p class="mute">The label survey has not been built yet — run the sauce harvest. The sauce pages themselves are up: '
                     + " · ".join(f'<a href="../sauce/{E(r["id"])}/index.html">{E(r["names"]["name"])}</a>' for r in sauce_recs) + "</p>")
-        return page("What is in the sauce — Carolina Barbecue", "".join(body), 1, "The sauce spectrum.", None, f"{site_url}/sauce/",
+        return page("What's in the sauce — Carolina Barbecue", "".join(body), 1, "The sauce spectrum.", None, f"{site_url}/sauce/",
                     extra_head=f"<style>{CHART_CSS}</style>", card="sauce")
 
     withsugar = [s for s in rows if s.get("sugar_g_per_tbsp") is not None]
@@ -574,9 +574,9 @@ PIG_STYLES = [
 def pig_page(page, by_id: dict, site_url: str) -> str:
     cuts = [i for i in ("whole-hog", "pork-shoulder", "outside-brown", "pork-skins", "hash-and-rice", "boston-butt") if i in by_id]
     body = ['<h1><span class="kind">Carolina Barbecue</span>Which part of the pig</h1>',
-            '<p class="lede">Every argument on this site is, underneath, an argument about how much of the animal goes on the fire. '
-            'Here is the animal, and here is what each style takes off it.</p>',
-            '<div class="viz"><h3>The hog, as a pit crew divides it</h3>'
+            '<p class="lede">Every argument here comes down to how much of the hog goes on the fire. '
+            'Here\'s the hog, and here\'s what each style takes off it.</p>',
+            '<div class="viz"><h3>How a pit crew divides a hog</h3>'
             '<p class="note">Side view, facing left. A pit that cooks the whole hog uses all of this at once; a pit that cooks shoulders uses one block of it.</p>'
             + '<div style="max-width:620px;margin:0 auto">' + hog_svg(set(), ident="all") + "</div>"
             + '<table style="margin-top:.8rem">'
@@ -599,3 +599,125 @@ def pig_page(page, by_id: dict, site_url: str) -> str:
                 "A diagram of the hog with what each Carolina barbecue style cooks: whole hog in the east and the Pee Dee, the shoulder in Lexington, hams and shoulders in the Midlands.",
                 None, f"{site_url}/pig/", extra_head=f"<style>{CHART_CSS}</style>", card="pig",
                 og_alt="A hog in side view with the cuts each Carolina barbecue style cooks")
+
+
+# ---------------------------------------------------------------- the numbers
+
+import viz  # noqa: E402
+
+
+def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_dir) -> str:
+    import collections
+    import re as _re
+
+    pl = places["places"]
+    by_id = {r["id"]: r for r in recs}
+
+    # 1 — how near the nearest pit is, anywhere in the two states
+    out_png = site_dir / "viz" / "near-the-nearest-pit.png"
+    stats = viz.distance_png(geo, pl, out_png)
+
+    # 2 — when the pits opened
+    years = []
+    for r in recs:
+        y = (r.get("facets") or {}).get("founded")
+        if r["type"] == "place" and y and _re.fullmatch(r"\d{4}", str(y)):
+            years.append((int(y), r["names"]["name"]))
+
+    # 3 — what the recipes call for
+    stop = {"teaspoon", "teaspoons", "tablespoon", "tablespoons", "tbsp", "tsp", "cups", "cup", "quart", "pound",
+            "pounds", "ounce", "ounces", "optional", "ground", "minced", "chopped", "finely", "taste", "large",
+            "small", "fresh", "about", "into", "with", "plus", "each", "more", "than", "very", "well", "your",
+            "prepared", "granulated", "packed", "pieces", "piece", "inch", "size", "good", "half", "them", "from"}
+    words = collections.Counter()
+    nrec = 0
+    for r in recs:
+        for rc in r.get("recipes", []):
+            nrec += 1
+            seen = set()
+            for i in rc.get("ingredients", []):
+                for wd in _re.findall(r"[a-z]{4,}", i.lower()):
+                    if wd not in stop:
+                        seen.add(wd)
+            words.update(seen)
+    ing_rows = [(w, c) for w, c in words.most_common(16)]
+
+    # 4 — which days a barbecue house is open
+    days = viz.open_days([p["hours"] for p in pl if p.get("hours")])
+    nh = sum(1 for p in pl if p.get("hours"))
+    day_rows = [(viz.DAY_NAME[d], days[d]) for d in viz.DAYS]
+
+    # 5 — which kinds of page point at which
+    edges = []
+    for r in recs:
+        for k in r.get("kin_out", []):
+            t = by_id.get(k["to"])
+            if t:
+                edges.append({"from_type": r["type"], "to_type": t["type"]})
+    order = ["style", "sauce", "dish", "pit", "place", "person", "org", "event", "term", "art", "story"]
+    present = [t for t in order if any(e["from_type"] == t or e["to_type"] == t for e in edges)]
+    labels = {"style": "styles", "sauce": "sauces", "dish": "dishes", "pit": "the pit", "place": "places",
+              "person": "people", "org": "orgs", "event": "events", "term": "words", "art": "art", "story": "stories"}
+
+    # a few numbers worth stating plainly
+    lat_lon = [(p["lat"], p["lon"]) for p in pl if p.get("lat") is not None]
+    import math as _m
+    nearest = []
+    for i, (a, b) in enumerate(lat_lon):
+        best = min(((a - c) * 69) ** 2 + ((b - d) * 69 * _m.cos(_m.radians(a))) ** 2
+                   for j, (c, d) in enumerate(lat_lon) if i != j)
+        nearest.append(_m.sqrt(best))
+    nearest.sort()
+    med_gap = nearest[len(nearest) // 2] if nearest else 0
+
+    body = ['<h1><span class="kind">Carolina Barbecue</span>Count it up</h1>',
+            '<p class="lede">What it all adds up to.</p>',
+            '<div class="facts">'
+            + "".join(f'<div class="fact"><div class="n">{n}</div><div class="l">{E(l)}</div></div>' for n, l in [
+                (f"{stats['median']:.1f} mi", "median distance to a pit, anywhere in the two states"),
+                (f"{med_gap:.1f} mi", "median distance from one pit to the next"),
+                (len(pl), "places"), (nrec, "recipes"), (len(edges), "links between pages")])
+            + "</div>"]
+
+    body.append('<div class="viz"><h3>You are never far from a pit</h3>'
+                f'<p class="note">Every point in North and South Carolina, shaded by the distance to the closest of the {len(lat_lon)} places on the map. '
+                f'Black dots are the places themselves. Half of both states is within {stats["median"]:.1f} miles of one.</p>'
+                f'<img src="../viz/near-the-nearest-pit.png" alt="A map of North and South Carolina shaded by distance to the nearest barbecue place; the coastal plain and the piedmont are dark, the mountains and the southern swamps pale." style="width:100%;border-radius:10px;display:block">'
+                + viz.ramp_legend(stats["cuts"], stats["ramp"], "miles to the nearest pit")
+                + '<details class="tbl"><summary>The far corners</summary><table><tr><th>Miles to a pit</th><th>Where</th></tr>'
+                + "".join(f'<tr><td>{mi:.0f}</td><td>{lat:.2f}, {lon:.2f}</td></tr>' for mi, lat, lon in stats["worst"])
+                + '</table></details></div>')
+
+    if years:
+        body.append('<div class="viz"><h3>Who has been at it longest</h3>'
+                    f'<p class="note">The {len(years)} places here whose founding year is on a page. Stems stack where a year is crowded. '
+                    'Hover one for the name.</p>' + viz.timeline_svg(years)
+                    + '<details class="tbl"><summary>By decade</summary><table><tr><th>Decade</th><th>Pits</th></tr>'
+                    + "".join(f"<tr><td>{d}s</td><td>{c}</td></tr>" for d, c in sorted(collections.Counter((y // 10) * 10 for y, _ in years).items()))
+                    + "</table></details></div>")
+
+    body.append('<div class="viz"><h3>What is in the pantry</h3>'
+                f'<p class="note">Across {nrec} recipes, counting each ingredient once per recipe. Measures and cutting words are dropped.</p>'
+                + viz.bars_svg(ing_rows, unit="recipes calling for it")
+                + '<details class="tbl"><summary>As a table</summary><table><tr><th>Ingredient word</th><th>Recipes</th></tr>'
+                + "".join(f"<tr><td>{E(w)}</td><td>{c}</td></tr>" for w, c in ing_rows) + "</table></details></div>")
+
+    body.append('<div class="viz"><h3>When they are open</h3>'
+                f'<p class="note">From the opening hours of the {nh} places that publish them to OpenStreetMap. '
+                'Saturday is the day. Plenty of them are closed Sunday, gone to church.</p>'
+                + viz.bars_svg(day_rows, unit="places open", left=140)
+                + '<details class="tbl"><summary>As a table</summary><table><tr><th>Day</th><th>Open</th></tr>'
+                + "".join(f"<tr><td>{E(d)}</td><td>{c}</td></tr>" for d, c in day_rows) + "</table></details></div>")
+
+    body.append('<div class="viz"><h3>Who is kin to who</h3>'
+                f'<p class="note">Every one of the {len(edges)} links between pages, by the kind of page at each end. '
+                'The row points at the column.</p>'
+                + viz.kin_matrix_svg(edges, present, labels) + "</div>")
+
+    body.append('<p class="legend">The distance map is computed on a grid of about two miles, clipped to the states\' own outlines '
+                '(Natural Earth, public domain) and measured against every place on the map, most of which come from OpenStreetMap under the ODbL. '
+                'Everything else is counted straight out of <a href="../api/nodes.json">the records</a>.</p>')
+    return page("Count it up — Carolina Barbecue", "".join(body), 1,
+                "Carolina barbecue counted: how near the nearest pit is anywhere in the two states, when the pits opened, what the recipes call for, which days they open.",
+                None, f"{site_url}/numbers/", extra_head=f"<style>{CHART_CSS}</style>", card="numbers",
+                og_alt="A map of North and South Carolina shaded by distance to the nearest barbecue place")

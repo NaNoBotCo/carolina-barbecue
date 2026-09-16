@@ -23,7 +23,7 @@
   "osm_query": "[out:json][timeout:120];area[\"ISO3166-2\"=\"US-NC\"]->.nc;area[\"ISO3166-2\"=\"US-SC\"]->.sc;(nwr[\"cuisine\"~\"barbecue|bbq\",i](area.nc);nwr[\"cuisine\"~\"barbecue|bbq\",i](area.sc););out center tags;"
  },
  "images": {
-  "count": 133,
+  "count": 148,
   "licences_accepted": [
    "CC0",
    "Public domain",
@@ -49,7 +49,7 @@
  "tags_note": "A tag names its evidence (the owner's words, a press profile, a public directory or list). No evidence, no tag; absence of a tag says nothing about a place.",
  "recognitions": 118,
  "recipes": 142,
- "sources": 597,
+ "sources": 604,
  "not_yet": [
   "field observations (no record carries the field tier yet)",
   "menu prices with dates on most places",

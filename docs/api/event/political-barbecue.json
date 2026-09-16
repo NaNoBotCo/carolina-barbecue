@@ -121,7 +121,9 @@
   "s:osm",
   "s:flickr-commons",
   "s:flickr-ncsa",
-  "s:ncsa-condev"
+  "s:ncsa-condev",
+  "s:edgecombe-lena-martin",
+  "s:digitalnc"
  ],
  "provenance": {
   "default": {
@@ -143,6 +145,11 @@
     "tier": "harvested",
     "source": "s:ncsa-condev",
     "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[4]": {
+    "tier": "harvested",
+    "source": "s:edgecombe-lena-martin",
+    "note": "read on the item's own page 2026-09-16: “http://rightsstatements.org/vocab/NoC-US/1.0/”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -208,6 +215,21 @@
    "sha256": "6a1e0b8106ecad393c3bb17cba0994130ca47c7ea511505c91c5d3417df77eb2",
    "width": 2048,
    "height": 1827
+  },
+  {
+   "file": "political-barbecue/political-barbecue-nc-barbecue-tarboro-1898.jpg",
+   "source": "other",
+   "title": "N.C. Barbecue",
+   "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242383-PA2_23_1m.jpg/full/1600,/0/default.jpg",
+   "page_url": "https://lib.digitalnc.org/record/242383",
+   "license": "NoC-US",
+   "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+   "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+   "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+   "alt": "A sepia photograph mounted on card with a ruled border. A shallow trench of coals runs away from the camera down the middle of the frame, and split pig carcasses lie flat along it in a long row, smoke drifting up. Four or five men in hats stand along the trench; the nearest works the meat with a long-handled tool. A white canvas awning on poles runs the length of the right-hand side, and a loose length of the same canvas sweeps across the bottom corner. A carriage wheel shows at the right edge. Bare ground, scattered trees and open country behind.",
+   "date": "1898",
+   "primary": false,
+   "sha256": "e1d198447af553ef853c829495a3857132415528b648fdcd7d67faa619c70e41"
   }
  ],
  "confidence": "medium",
@@ -405,6 +427,25 @@
    "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
    "accessed": "2026-09-16",
    "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
+  },
+  {
+   "id": "s:edgecombe-lena-martin",
+   "kind": "dataset",
+   "title": "Lena Martin Photograph Collection",
+   "author": "Lena Pennington Martin (1877-1950)",
+   "publisher": "Edgecombe County Memorial Library, Tarboro, North Carolina; digitised by DigitalNC",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Photographs made at Tarboro in 1898, three of them of a barbecue cooked in shallow trenches. The library's catalogue links them to the Democratic party mass meeting of 18 October 1898 with the word 'possibly', and cross-references a fourth photograph from the same series showing a white-supremacy campaign banner. This project quotes the hedge rather than firming it up, and does not reproduce the banner photograph."
+  },
+  {
+   "id": "s:digitalnc",
+   "kind": "dataset",
+   "title": "DigitalNC",
+   "publisher": "North Carolina Digital Heritage Center, University of North Carolina at Chapel Hill",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Material digitised for North Carolina libraries, museums and archives, each item carrying its contributing institution's own rights statement. ⚠ The site is behind AWS WAF and answers an ordinary request with an empty HTTP 202, so tools/harvest_archives.py needs an aws-waf-token cookie taken from a browser session."
   }
  ],
  "tiers": {

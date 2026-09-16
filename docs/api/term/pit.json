@@ -128,7 +128,9 @@
   "s:wp-ed-mitchell-pitmaster",
   "s:wp-smokehouse",
   "s:wp-barbecue-in-the-united-states",
-  "s:wp-pig-pickin"
+  "s:wp-pig-pickin",
+  "s:edgecombe-lena-martin",
+  "s:digitalnc"
  ],
  "provenance": {
   "default": {
@@ -144,10 +146,31 @@
    "names.said": {
     "tier": "tradition",
     "note": "usage; the restaurant names are Backyard BBQ Pit (cast list) and Dickey's Barbecue Pit (Barbecue in the United States article)"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:edgecombe-lena-martin",
+    "note": "read on the item's own page 2026-09-16: “http://rightsstatements.org/vocab/NoC-US/1.0/”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
- "images": [],
+ "images": [
+  {
+   "file": "pit/pit-roast-pig-tarboro-1898.jpg",
+   "source": "other",
+   "title": "Roast Pig",
+   "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242419-PA2_31_1m.jpg/full/1600,/0/default.jpg",
+   "page_url": "https://lib.digitalnc.org/record/242419",
+   "license": "NoC-US",
+   "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+   "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+   "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+   "alt": "Smoke hangs in the air among tall bare-trunked trees. In the middle of the frame a man in a dark hat and coat stands in profile beside a low line of banked earth with meat and burning wood on it; two people sit on the ground to his left. Further back, small figures move around tables in a clearing. Across the foreground run the low ridges of a dug trench and a band of white canvas laid flat on the grass. Sepia print mounted on card.",
+   "date": "1898",
+   "primary": true,
+   "sha256": "eec226ab5219344d1048e4b731a679cdfb44057c9d3dd43ecb735cca06e02955"
+  }
+ ],
  "confidence": "high",
  "needs_verification": false,
  "updated": "2026-09-15",
@@ -333,6 +356,25 @@
    "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
    "license": "CC BY-SA 4.0",
    "note": "revision 1315979086"
+  },
+  {
+   "id": "s:edgecombe-lena-martin",
+   "kind": "dataset",
+   "title": "Lena Martin Photograph Collection",
+   "author": "Lena Pennington Martin (1877-1950)",
+   "publisher": "Edgecombe County Memorial Library, Tarboro, North Carolina; digitised by DigitalNC",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Photographs made at Tarboro in 1898, three of them of a barbecue cooked in shallow trenches. The library's catalogue links them to the Democratic party mass meeting of 18 October 1898 with the word 'possibly', and cross-references a fourth photograph from the same series showing a white-supremacy campaign banner. This project quotes the hedge rather than firming it up, and does not reproduce the banner photograph."
+  },
+  {
+   "id": "s:digitalnc",
+   "kind": "dataset",
+   "title": "DigitalNC",
+   "publisher": "North Carolina Digital Heritage Center, University of North Carolina at Chapel Hill",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Material digitised for North Carolina libraries, museums and archives, each item carrying its contributing institution's own rights statement. ⚠ The site is behind AWS WAF and answers an ordinary request with an empty HTTP 202, so tools/harvest_archives.py needs an aws-waf-token cookie taken from a browser session."
   }
  ],
  "tiers": {
@@ -350,7 +392,21 @@
    "source": "s:wp-whole-hog-barbecue"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "pit/pit-roast-pig-tarboro-1898.jpg",
+  "source": "other",
+  "title": "Roast Pig",
+  "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242419-PA2_31_1m.jpg/full/1600,/0/default.jpg",
+  "page_url": "https://lib.digitalnc.org/record/242419",
+  "license": "NoC-US",
+  "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+  "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+  "alt": "Smoke hangs in the air among tall bare-trunked trees. In the middle of the frame a man in a dark hat and coat stands in profile beside a low line of banked earth with meat and burning wood on it; two people sit on the ground to his left. Further back, small figures move around tables in a clearing. Across the foreground run the low ridges of a dug trench and a band of white canvas laid flat on the grass. Sepia print mounted on card.",
+  "date": "1898",
+  "primary": true,
+  "sha256": "eec226ab5219344d1048e4b731a679cdfb44057c9d3dd43ecb735cca06e02955"
+ },
  "tag_facts": [],
  "recognition_facts": [],
  "acclaim": 0,

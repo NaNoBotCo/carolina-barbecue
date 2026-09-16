@@ -98,7 +98,9 @@
   "s:web-ourstate-bs-barbecue",
   "s:sfa-bs-barbecue",
   "s:web-truecue-nc",
-  "s:web-barbecuebros-nc-trail"
+  "s:web-barbecuebros-nc-trail",
+  "s:flickr-sfa",
+  "s:flickr"
  ],
  "provenance": {
   "default": {
@@ -129,6 +131,16 @@
     "tier": "cited",
     "source": "s:sfa-bs-barbecue",
     "note": "The woman-owned tag rests on the SFA bio's 'took over the business'; neither Our State (2016) nor the SFA page uses the word owner, and neither describes the McLawhorns' race."
+   },
+   "images[2]": {
+    "tier": "harvested",
+    "source": "s:flickr-sfa",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[3]": {
+    "tier": "harvested",
+    "source": "s:flickr-sfa",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -164,6 +176,40 @@
    "date": "2023-09-19 20:09:52",
    "primary": false,
    "sha256": "85f1c372b03f7184588c4dc4b053e8914fbee64545bc01ab411ecf36f3d9d3a4"
+  },
+  {
+   "file": "bs-barbecue/bs-barbecue-taking-the-first-pig-off-the-pit.jpg",
+   "source": "flickr",
+   "title": "09 Arthur House taking the first pig off of the pit",
+   "url": "https://live.staticflickr.com/2529/3835017878_ecd192faa5_h.jpg",
+   "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3835017878/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Alan Pike; Southern Foodways Alliance",
+   "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+   "alt": "A man in a red T-shirt, green apron and red cap leans into a long open pit and pulls at a cooked hog with a black-gloved hand, opening the ribs and the crisped skin. A row of more cooked hogs recedes down the wire grate behind him, steam rising off them. A steel pan of bones sits on the pit edge by his elbow, a white towel hanging beside it.",
+   "date": "2009-07",
+   "primary": false,
+   "sha256": "f8b14abb0eb0938dea77e6409a5eb7bcb90f416de05e534246e76a17e6ad4337",
+   "width": 1600,
+   "height": 1199
+  },
+  {
+   "file": "bs-barbecue/bs-barbecue-bs-barbeque-road-sign.jpg",
+   "source": "flickr",
+   "title": "02 B's Barbecue Rd. Sign",
+   "url": "https://live.staticflickr.com/3552/3835019832_ce5a50bcbc_h.jpg",
+   "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3835019832/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Alan Pike; Southern Foodways Alliance",
+   "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+   "alt": "A green street-name blade bolted to a metal post against a blue sky with a few clouds. It reads B'S BARBEQUE in white capitals, with SR 1204 stacked at the left end and RD 700 at the right. Power lines, a utility pole and pine tops fill the lower background.",
+   "date": "2009-07",
+   "primary": false,
+   "sha256": "c4081d9b636a1f11c28cd4dc749370ae7725595eab5da274974e90d8c477141b",
+   "width": 1600,
+   "height": 1199
   }
  ],
  "updated": "2026-09-16",
@@ -337,6 +383,23 @@
    "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
    "accessed": "2026-09-16",
    "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  },
+  {
+   "id": "s:flickr-sfa",
+   "kind": "dataset",
+   "title": "Southern Foodways Alliance photographs on Flickr",
+   "publisher": "Southern Foodways Alliance, University of Mississippi",
+   "url": "https://www.flickr.com/photos/southernfoodwaysalliance/",
+   "accessed": "2026-09-16",
+   "note": "The Alliance's oral-history and Southern BBQ Trail photographs. ⚠ The account is split by project, not by subject: the 2007-2009 sets by Amy C. Evans and Alan Pike carry CC BY 2.0, while the 2012 North Carolina and South Carolina Barbecue Trail sets by Denny Culbert — which hold the Skylight Inn, Stamey's, Bum's, Short Sugar's, Grady's, Cook's, the Barbecue Center, Sweatman's, Hite's and Brown's — are all rights reserved. Nothing from the Culbert sets is used here."
+  },
+  {
+   "id": "s:flickr",
+   "kind": "dataset",
+   "title": "Flickr — individually licensed photographs",
+   "url": "https://www.flickr.com/creativecommons/",
+   "accessed": "2026-09-16",
+   "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
   }
  ],
  "tiers": {

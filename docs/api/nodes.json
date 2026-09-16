@@ -12716,7 +12716,9 @@
     "s:web-samjones-menu",
     "s:book-mrs-hills-new-cook-book",
     "s:wikibooks-barbecue-rub",
-    "s:wikibooks-north-carolina-style-bbq-chicken"
+    "s:wikibooks-north-carolina-style-bbq-chicken",
+    "s:flickr-sfa",
+    "s:flickr"
    ],
    "provenance": {
     "default": {
@@ -12742,6 +12744,11 @@
       "tier": "cited",
       "source": "s:wikibooks-north-carolina-style-bbq-chicken",
       "note": "each recipe carries its own source, licence and page"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:flickr-sfa",
+      "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -12811,7 +12818,25 @@
      "note": "A dry rub, the other way a bird is seasoned before it goes on."
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file": "barbecue-chicken/barbecue-chicken-chickens-on-the-pit.jpg",
+     "source": "flickr",
+     "title": "10 Chickens on the pit",
+     "url": "https://live.staticflickr.com/2468/3834225797_81dda4da89_h.jpg",
+     "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3834225797/",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Alan Pike; Southern Foodways Alliance",
+     "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+     "alt": "Split chickens laid out in overlapping rows on the wire grate of a long pit, skin gone deep gold, filling the frame from the near corner into smoke at the far end. A chain hangs from the pit's hinged lid at the left; the pit stands against a whitewashed concrete-block wall on a concrete floor.",
+     "date": "2009-07",
+     "primary": true,
+     "sha256": "dc455e0d97c812aabf7b8be2796f0279d668d019f012e0ee2a422432731f0a52",
+     "width": 1600,
+     "height": 1199
+    }
+   ],
    "x_commons_files": [],
    "confidence": "high",
    "needs_verification": false,
@@ -13014,6 +13039,23 @@
      "accessed": "2026-09-16",
      "license": "CC BY-SA 4.0",
      "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+    },
+    {
+     "id": "s:flickr-sfa",
+     "kind": "dataset",
+     "title": "Southern Foodways Alliance photographs on Flickr",
+     "publisher": "Southern Foodways Alliance, University of Mississippi",
+     "url": "https://www.flickr.com/photos/southernfoodwaysalliance/",
+     "accessed": "2026-09-16",
+     "note": "The Alliance's oral-history and Southern BBQ Trail photographs. ⚠ The account is split by project, not by subject: the 2007-2009 sets by Amy C. Evans and Alan Pike carry CC BY 2.0, while the 2012 North Carolina and South Carolina Barbecue Trail sets by Denny Culbert — which hold the Skylight Inn, Stamey's, Bum's, Short Sugar's, Grady's, Cook's, the Barbecue Center, Sweatman's, Hite's and Brown's — are all rights reserved. Nothing from the Culbert sets is used here."
+    },
+    {
+     "id": "s:flickr",
+     "kind": "dataset",
+     "title": "Flickr — individually licensed photographs",
+     "url": "https://www.flickr.com/creativecommons/",
+     "accessed": "2026-09-16",
+     "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
     }
    ],
    "tiers": {
@@ -13036,7 +13078,23 @@
      "note": "prices and hours as printed in 2016 and 2017; check before driving"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "barbecue-chicken/barbecue-chicken-chickens-on-the-pit.jpg",
+    "source": "flickr",
+    "title": "10 Chickens on the pit",
+    "url": "https://live.staticflickr.com/2468/3834225797_81dda4da89_h.jpg",
+    "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3834225797/",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "author": "Alan Pike; Southern Foodways Alliance",
+    "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+    "alt": "Split chickens laid out in overlapping rows on the wire grate of a long pit, skin gone deep gold, filling the frame from the near corner into smoke at the far end. A chain hangs from the pit's hinged lid at the left; the pit stands against a whitewashed concrete-block wall on a concrete floor.",
+    "date": "2009-07",
+    "primary": true,
+    "sha256": "dc455e0d97c812aabf7b8be2796f0279d668d019f012e0ee2a422432731f0a52",
+    "width": 1600,
+    "height": 1199
+   },
    "tag_facts": [],
    "recognition_facts": [],
    "acclaim": 0,
@@ -33507,7 +33565,8 @@
     "s:sfa-barbecue-center",
     "s:osm",
     "s:web-truecue-nc",
-    "s:web-barbecuebros-nc-trail"
+    "s:web-barbecuebros-nc-trail",
+    "s:flickr"
    ],
    "provenance": {
     "default": {
@@ -33528,12 +33587,35 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "city corrected from Thomasville to Lexington"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:flickr",
+      "note": "read on the item's own page 2026-09-16: “CC BY-SA 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
    "confidence": "high",
    "needs_verification": false,
-   "images": [],
+   "images": [
+    {
+     "file": "bar-b-q-center/bar-b-q-center-the-neon-sign.jpg",
+     "source": "flickr",
+     "title": "Bar-B-Q Center",
+     "url": "https://live.staticflickr.com/3254/2829091756_01bd879bdf_k.jpg",
+     "page_url": "https://www.flickr.com/photos/natecardozo/2829091756/",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "Nathan Cardozo",
+     "credit": "Nathan Cardozo via Flickr",
+     "alt": "A tall roadside sign on a pylon striped diagonally in maroon and yellow. The brown cabinet carries BAR·B·Q above CENTER in white letters outlined in bare neon tubing, and PIT-COOKED painted in plain white beneath. Below the cabinet hang small panels for American Express, MasterCard and Visa, and a second board reading CURB SERVICE. A plastic A-board on the pavement reads: QUART CHOPPED BARBECUE, PT SLAW, DZ ROLLS, $13.00. The brick corner of the restaurant is at the left and a four-lane road runs behind.",
+     "date": "",
+     "primary": true,
+     "sha256": "3e17b328f5c3011993cc2dcd7a558446cc2fb24a492200b99e2fa2690c5bcbfd",
+     "width": 1536,
+     "height": 2048
+    }
+   ],
    "updated": "2026-09-16",
    "tags": [
     {
@@ -33705,6 +33787,14 @@
      "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
      "accessed": "2026-09-16",
      "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+    },
+    {
+     "id": "s:flickr",
+     "kind": "dataset",
+     "title": "Flickr — individually licensed photographs",
+     "url": "https://www.flickr.com/creativecommons/",
+     "accessed": "2026-09-16",
+     "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
     }
    ],
    "tiers": {
@@ -33735,7 +33825,23 @@
      "note": "city corrected from Thomasville to Lexington"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "bar-b-q-center/bar-b-q-center-the-neon-sign.jpg",
+    "source": "flickr",
+    "title": "Bar-B-Q Center",
+    "url": "https://live.staticflickr.com/3254/2829091756_01bd879bdf_k.jpg",
+    "page_url": "https://www.flickr.com/photos/natecardozo/2829091756/",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "author": "Nathan Cardozo",
+    "credit": "Nathan Cardozo via Flickr",
+    "alt": "A tall roadside sign on a pylon striped diagonally in maroon and yellow. The brown cabinet carries BAR·B·Q above CENTER in white letters outlined in bare neon tubing, and PIT-COOKED painted in plain white beneath. Below the cabinet hang small panels for American Express, MasterCard and Visa, and a second board reading CURB SERVICE. A plastic A-board on the pavement reads: QUART CHOPPED BARBECUE, PT SLAW, DZ ROLLS, $13.00. The brick corner of the restaurant is at the left and a four-lane road runs behind.",
+    "date": "",
+    "primary": true,
+    "sha256": "3e17b328f5c3011993cc2dcd7a558446cc2fb24a492200b99e2fa2690c5bcbfd",
+    "width": 1536,
+    "height": 2048
+   },
    "tag_facts": [
     {
      "key": "wood-cooked",
@@ -36137,7 +36243,9 @@
     "s:web-ourstate-bs-barbecue",
     "s:sfa-bs-barbecue",
     "s:web-truecue-nc",
-    "s:web-barbecuebros-nc-trail"
+    "s:web-barbecuebros-nc-trail",
+    "s:flickr-sfa",
+    "s:flickr"
    ],
    "provenance": {
     "default": {
@@ -36168,6 +36276,16 @@
       "tier": "cited",
       "source": "s:sfa-bs-barbecue",
       "note": "The woman-owned tag rests on the SFA bio's 'took over the business'; neither Our State (2016) nor the SFA page uses the word owner, and neither describes the McLawhorns' race."
+     },
+     "images[2]": {
+      "tier": "harvested",
+      "source": "s:flickr-sfa",
+      "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[3]": {
+      "tier": "harvested",
+      "source": "s:flickr-sfa",
+      "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -36203,6 +36321,40 @@
      "date": "2023-09-19 20:09:52",
      "primary": false,
      "sha256": "85f1c372b03f7184588c4dc4b053e8914fbee64545bc01ab411ecf36f3d9d3a4"
+    },
+    {
+     "file": "bs-barbecue/bs-barbecue-taking-the-first-pig-off-the-pit.jpg",
+     "source": "flickr",
+     "title": "09 Arthur House taking the first pig off of the pit",
+     "url": "https://live.staticflickr.com/2529/3835017878_ecd192faa5_h.jpg",
+     "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3835017878/",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Alan Pike; Southern Foodways Alliance",
+     "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+     "alt": "A man in a red T-shirt, green apron and red cap leans into a long open pit and pulls at a cooked hog with a black-gloved hand, opening the ribs and the crisped skin. A row of more cooked hogs recedes down the wire grate behind him, steam rising off them. A steel pan of bones sits on the pit edge by his elbow, a white towel hanging beside it.",
+     "date": "2009-07",
+     "primary": false,
+     "sha256": "f8b14abb0eb0938dea77e6409a5eb7bcb90f416de05e534246e76a17e6ad4337",
+     "width": 1600,
+     "height": 1199
+    },
+    {
+     "file": "bs-barbecue/bs-barbecue-bs-barbeque-road-sign.jpg",
+     "source": "flickr",
+     "title": "02 B's Barbecue Rd. Sign",
+     "url": "https://live.staticflickr.com/3552/3835019832_ce5a50bcbc_h.jpg",
+     "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3835019832/",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Alan Pike; Southern Foodways Alliance",
+     "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+     "alt": "A green street-name blade bolted to a metal post against a blue sky with a few clouds. It reads B'S BARBEQUE in white capitals, with SR 1204 stacked at the left end and RD 700 at the right. Power lines, a utility pole and pine tops fill the lower background.",
+     "date": "2009-07",
+     "primary": false,
+     "sha256": "c4081d9b636a1f11c28cd4dc749370ae7725595eab5da274974e90d8c477141b",
+     "width": 1600,
+     "height": 1199
     }
    ],
    "updated": "2026-09-16",
@@ -36376,6 +36528,23 @@
      "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
      "accessed": "2026-09-16",
      "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+    },
+    {
+     "id": "s:flickr-sfa",
+     "kind": "dataset",
+     "title": "Southern Foodways Alliance photographs on Flickr",
+     "publisher": "Southern Foodways Alliance, University of Mississippi",
+     "url": "https://www.flickr.com/photos/southernfoodwaysalliance/",
+     "accessed": "2026-09-16",
+     "note": "The Alliance's oral-history and Southern BBQ Trail photographs. ⚠ The account is split by project, not by subject: the 2007-2009 sets by Amy C. Evans and Alan Pike carry CC BY 2.0, while the 2012 North Carolina and South Carolina Barbecue Trail sets by Denny Culbert — which hold the Skylight Inn, Stamey's, Bum's, Short Sugar's, Grady's, Cook's, the Barbecue Center, Sweatman's, Hite's and Brown's — are all rights reserved. Nothing from the Culbert sets is used here."
+    },
+    {
+     "id": "s:flickr",
+     "kind": "dataset",
+     "title": "Flickr — individually licensed photographs",
+     "url": "https://www.flickr.com/creativecommons/",
+     "accessed": "2026-09-16",
+     "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
     }
    ],
    "tiers": {
@@ -44703,7 +44872,12 @@
     "s:wp-skylight-inn-bbq",
     "s:osm",
     "s:web-truecue-nc",
-    "s:wp-james-beard-americas-classics"
+    "s:wp-james-beard-americas-classics",
+    "s:unc-nc-postcards",
+    "s:flickr-commons",
+    "s:flickr-unc",
+    "s:flickr-sfa",
+    "s:flickr"
    ],
    "provenance": {
     "default": {
@@ -44733,12 +44907,101 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "harvest row is named 'Lexington BBQ'"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:unc-nc-postcards",
+      "note": "read on the item's own page 2026-09-16: “Public Domain Work”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[1]": {
+      "tier": "harvested",
+      "source": "s:flickr-sfa",
+      "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[2]": {
+      "tier": "harvested",
+      "source": "s:flickr-sfa",
+      "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[3]": {
+      "tier": "harvested",
+      "source": "s:flickr-sfa",
+      "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
    "confidence": "high",
    "needs_verification": false,
-   "images": [],
+   "images": [
+    {
+     "file": "lexington-barbecue/lexington-barbecue-the-original-lexington-barbecue-postcard.jpg",
+     "source": "flickr",
+     "title": "The Original Lexington Barbecue -- North of Winston Salem, N.C. -- Hwy. 52 at Motor",
+     "url": "https://live.staticflickr.com/725/22475472794_191592a13b_o.jpg",
+     "page_url": "https://www.flickr.com/photos/unclibraries_commons/22475472794/",
+     "license": "Public domain",
+     "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+     "author": "University of North Carolina at Chapel Hill",
+     "credit": "North Carolina Postcards, North Carolina Collection Photographic Archives, Wilson Library, UNC-Chapel Hill",
+     "alt": "A black-and-white postcard of a single-storey roadside restaurant with a stone-faced lower wall and striped awnings over each window. A sign along the roof ridge reads LEXINGTON BAR-B-Q; a tall pole sign stands at the right edge of the frame, and two petrol pumps and a vending machine sit by the right-hand door. A light-coloured car of the early 1950s is parked at the left. Houses and trees on a rise behind. Printed beneath the image: “The Original LEXINGTON BARBECUE — North of Winston Salem, N. C. — Hwy. 52 at Motor Rd.”",
+     "date": "ca. 1930-1945",
+     "primary": true,
+     "sha256": "573472c89abdbd3725f6229e3b69f16f6a48f147e4b3be8ed7fdaec799027f63",
+     "width": 1200,
+     "height": 742
+    },
+    {
+     "file": "lexington-barbecue/lexington-barbecue-shoulders-loaded-on-the-pit.jpg",
+     "source": "flickr",
+     "title": "shoulders at Lexington BBQ",
+     "url": "https://live.staticflickr.com/3300/3500458139_a8595069af_h.jpg",
+     "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3500458139/",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Amy C. Evans; Southern Foodways Alliance",
+     "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+     "alt": "Raw pork shoulders packed close in rows on the steel grate of a long masonry pit, skin side up. The pit's side is painted brick, red below and blackened above, with a heavy hinged steel lid; a flattened cardboard box rests across the open end. Smoke and steam hang over the meat.",
+     "date": "2008-02",
+     "primary": false,
+     "sha256": "34a1b22d47e702750c5c7e2cf7baaca57fc2ac5f6f21e3aafc6a17409aab5949",
+     "width": 1600,
+     "height": 1064
+    },
+    {
+     "file": "lexington-barbecue/lexington-barbecue-slicing-a-cooked-shoulder.jpg",
+     "source": "flickr",
+     "title": "chopping shoulders at Lexington BBQ",
+     "url": "https://live.staticflickr.com/3320/3501274532_43e134e1ab_h.jpg",
+     "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3501274532/",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Amy C. Evans; Southern Foodways Alliance",
+     "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+     "alt": "A man in a blue apron works a long knife through a cooked pork shoulder on a red cutting board, holding the meat steady with his other hand; the crusted outside is dark and the cut face is pale. Two steel hotel pans stand in front of him, one heaped with pulled and chopped pork, the other holding larger pieces in their own juices. Two cleavers and a knife lie on a cloth at the left; stainless kitchen equipment behind.",
+     "date": "2008-02",
+     "primary": false,
+     "sha256": "1766e0c108db6c6607d5fc078ebc7569c8fa7aa036a5617141472d066e918f0a",
+     "width": 1600,
+     "height": 1064
+    },
+    {
+     "file": "lexington-barbecue/lexington-barbecue-tray-with-slaw-and-hushpuppies.jpg",
+     "source": "flickr",
+     "title": "bbq with slaw and hushpuppies at Lexington Barbecue",
+     "url": "https://live.staticflickr.com/3361/3500459381_7e06bf5ae5_h.jpg",
+     "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3500459381/",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Amy C. Evans; Southern Foodways Alliance",
+     "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+     "alt": "A paper boat on a formica counter holding chopped pork with flecks of dark bark and red pepper through it, and beside it a heaped mound of finely chopped slaw. Behind, a second paper boat of hushpuppies, a bottle of sauce with a yellow and red label, and a printed card.",
+     "date": "2008-02",
+     "primary": false,
+     "sha256": "c8bf89065b8d92652b069b0cad08683a8470ce5a1f2573c3ad96a62dc6095163",
+     "width": 1600,
+     "height": 1064
+    }
+   ],
    "updated": "2026-09-16",
    "tags": [
     {
@@ -44948,6 +45211,50 @@
      "publisher": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/List_of_James_Beard_America%27s_Classics",
      "accessed": "2026-09-16"
+    },
+    {
+     "id": "s:unc-nc-postcards",
+     "kind": "dataset",
+     "title": "North Carolina Postcards, North Carolina Collection Photographic Archives",
+     "publisher": "Wilson Library, University of North Carolina at Chapel Hill",
+     "url": "https://dcr.lib.unc.edu/",
+     "accessed": "2026-09-16",
+     "note": "Postcards of North Carolina businesses, streets and highways, mostly linen and chrome era, from the Durwood Barbour Collection (P077) and the North Carolina Postcard Collection (P052)."
+    },
+    {
+     "id": "s:flickr-commons",
+     "kind": "dataset",
+     "title": "Flickr Commons",
+     "publisher": "Flickr, with participating libraries, archives and museums",
+     "url": "https://www.flickr.com/commons/usage/",
+     "accessed": "2026-09-16",
+     "note": "Institutions publish photographs here under the rights statement 'No known copyright restrictions', which is not a public-domain declaration: the holding institution states it has found no copyright, shares that research without warranty, and asks the user to make an independent assessment before a new use. The statement is per photograph. The same institution's stream holds all-rights-reserved photographs alongside released ones, and the same negative sometimes appears both ways, so each file here was checked on its own page."
+    },
+    {
+     "id": "s:flickr-unc",
+     "kind": "dataset",
+     "title": "UNC Libraries Commons on Flickr Commons",
+     "publisher": "University of North Carolina at Chapel Hill Libraries",
+     "url": "https://www.flickr.com/photos/unclibraries_commons/",
+     "accessed": "2026-09-16",
+     "note": "North Carolina Postcards and other Wilson Library material, posted under the Public Domain Mark. The library's own repository at dcr.lib.unc.edu serves the same cards, but there the rights appear only as the free-text words 'Public Domain' typed into a metadata field; the Flickr copies carry a rights URI, which is the firmer of the two statements, so they are the ones this project took."
+    },
+    {
+     "id": "s:flickr-sfa",
+     "kind": "dataset",
+     "title": "Southern Foodways Alliance photographs on Flickr",
+     "publisher": "Southern Foodways Alliance, University of Mississippi",
+     "url": "https://www.flickr.com/photos/southernfoodwaysalliance/",
+     "accessed": "2026-09-16",
+     "note": "The Alliance's oral-history and Southern BBQ Trail photographs. ⚠ The account is split by project, not by subject: the 2007-2009 sets by Amy C. Evans and Alan Pike carry CC BY 2.0, while the 2012 North Carolina and South Carolina Barbecue Trail sets by Denny Culbert — which hold the Skylight Inn, Stamey's, Bum's, Short Sugar's, Grady's, Cook's, the Barbecue Center, Sweatman's, Hite's and Brown's — are all rights reserved. Nothing from the Culbert sets is used here."
+    },
+    {
+     "id": "s:flickr",
+     "kind": "dataset",
+     "title": "Flickr — individually licensed photographs",
+     "url": "https://www.flickr.com/creativecommons/",
+     "accessed": "2026-09-16",
+     "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
     }
    ],
    "tiers": {
@@ -44979,7 +45286,23 @@
      "note": "harvest row is named 'Lexington BBQ'"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "lexington-barbecue/lexington-barbecue-the-original-lexington-barbecue-postcard.jpg",
+    "source": "flickr",
+    "title": "The Original Lexington Barbecue -- North of Winston Salem, N.C. -- Hwy. 52 at Motor",
+    "url": "https://live.staticflickr.com/725/22475472794_191592a13b_o.jpg",
+    "page_url": "https://www.flickr.com/photos/unclibraries_commons/22475472794/",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "author": "University of North Carolina at Chapel Hill",
+    "credit": "North Carolina Postcards, North Carolina Collection Photographic Archives, Wilson Library, UNC-Chapel Hill",
+    "alt": "A black-and-white postcard of a single-storey roadside restaurant with a stone-faced lower wall and striped awnings over each window. A sign along the roof ridge reads LEXINGTON BAR-B-Q; a tall pole sign stands at the right edge of the frame, and two petrol pumps and a vending machine sit by the right-hand door. A light-coloured car of the early 1950s is parked at the left. Houses and trees on a rise behind. Printed beneath the image: “The Original LEXINGTON BARBECUE — North of Winston Salem, N. C. — Hwy. 52 at Motor Rd.”",
+    "date": "ca. 1930-1945",
+    "primary": true,
+    "sha256": "573472c89abdbd3725f6229e3b69f16f6a48f147e4b3be8ed7fdaec799027f63",
+    "width": 1200,
+    "height": 742
+   },
    "tag_facts": [
     {
      "key": "wood-cooked",
@@ -54950,7 +55273,8 @@
     "s:web-destination-bbq-sweatmans",
     "s:web-sweatmans-hours",
     "s:web-sfa-melvins-legendary-bar-b-q",
-    "s:osm"
+    "s:osm",
+    "s:flickr"
    ],
    "provenance": {
     "default": {
@@ -54986,12 +55310,35 @@
       "tier": "cited",
       "source": "s:web-destination-bbq-sweatmans",
       "note": "Margie Sweatman co-opened the house with her husband in 1977, but the family sold in 2011 and new owners took over in 2026, so no woman-owned and no family-run tag is set. The Southern Pride cabinet cookers are gas with wood for smoke, so no wood-cooked tag is set either."
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:flickr",
+      "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
    "confidence": "medium",
    "needs_verification": true,
-   "images": [],
+   "images": [
+    {
+     "file": "sweatmans-bar-b-que/sweatmans-bar-b-que-the-lot-at-holly-hill.jpg",
+     "source": "flickr",
+     "title": "Sweatman's Bar-b-que",
+     "url": "https://live.staticflickr.com/158/342412348_819961b534_k.jpg",
+     "page_url": "https://www.flickr.com/photos/joeshlabotnik/342412348/",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Joe Shlabotnik",
+     "credit": "Joe Shlabotnik via Flickr",
+     "alt": "A low white frame farmhouse with a railed porch stands under a wide evergreen oak, a smaller white outbuilding with a brick chimney beyond it to the right. About a dozen cars, SUVs and pickups are parked in a row on a rutted, puddled dirt lot in the foreground; two people stand between them. Bare pecan trees, a streetlight on a wooden pole, and a winter sky.",
+     "date": "",
+     "primary": true,
+     "sha256": "2bc41e94ebe01f814cb265374b57761ca6c9384dcd25b8f4d957e01ec7bf3ff6",
+     "width": 2048,
+     "height": 1541
+    }
+   ],
    "updated": "2026-09-16",
    "tags": [
     {
@@ -55170,6 +55517,14 @@
      "url": "https://www.openstreetmap.org/copyright",
      "license": "ODbL 1.0",
      "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    },
+    {
+     "id": "s:flickr",
+     "kind": "dataset",
+     "title": "Flickr — individually licensed photographs",
+     "url": "https://www.flickr.com/creativecommons/",
+     "accessed": "2026-09-16",
+     "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
     }
    ],
    "tiers": {
@@ -55201,7 +55556,23 @@
      "source": "s:web-sweatmans-hours"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "sweatmans-bar-b-que/sweatmans-bar-b-que-the-lot-at-holly-hill.jpg",
+    "source": "flickr",
+    "title": "Sweatman's Bar-b-que",
+    "url": "https://live.staticflickr.com/158/342412348_819961b534_k.jpg",
+    "page_url": "https://www.flickr.com/photos/joeshlabotnik/342412348/",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "author": "Joe Shlabotnik",
+    "credit": "Joe Shlabotnik via Flickr",
+    "alt": "A low white frame farmhouse with a railed porch stands under a wide evergreen oak, a smaller white outbuilding with a brick chimney beyond it to the right. About a dozen cars, SUVs and pickups are parked in a row on a rutted, puddled dirt lot in the foreground; two people stand between them. Bare pecan trees, a streetlight on a wooden pole, and a winter sky.",
+    "date": "",
+    "primary": true,
+    "sha256": "2bc41e94ebe01f814cb265374b57761ca6c9384dcd25b8f4d957e01ec7bf3ff6",
+    "width": 2048,
+    "height": 1541
+   },
    "tag_facts": [
     {
      "key": "whole-hog",
@@ -70713,7 +71084,9 @@
     "s:wp-whole-hog-barbecue",
     "s:wp-ed-mitchell-pitmaster",
     "s:wp-kingstree-south-carolina",
-    "s:ncpedia-barbecue"
+    "s:ncpedia-barbecue",
+    "s:edgecombe-lena-martin",
+    "s:digitalnc"
    ],
    "provenance": {
     "default": {
@@ -70725,6 +71098,11 @@
       "tier": "cited",
       "source": "s:wp-pig-pickin",
       "note": "the rental trade is general knowledge; the festivals are cited"
+     },
+     "images[3]": {
+      "tier": "harvested",
+      "source": "s:edgecombe-lena-martin",
+      "note": "read on the item's own page 2026-09-16: “http://rightsstatements.org/vocab/NoC-US/1.0/”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -70773,6 +71151,21 @@
      "date": "Taken on 22 March 2016",
      "primary": false,
      "sha256": "a920944d0fdd815f04bdc293592658b6464d9414d1fe85bf65280d74083021ba"
+    },
+    {
+     "file": "pig-pickin/pig-pickin-pigs-on-the-trench-tarboro-1898.jpg",
+     "source": "other",
+     "title": "Pigs",
+     "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242366-PA2_19_4m.jpg/full/1600,/0/default.jpg",
+     "page_url": "https://lib.digitalnc.org/record/242366",
+     "license": "NoC-US",
+     "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+     "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+     "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+     "alt": "The same cooking trench from the other end and further back: a long line of split pigs laid flat on the coals, running from the bottom of the frame up a low rise. A dozen people stand at the far end beside a white canvas awning stretched on poles, some in wide hats; a man walks towards the camera along the edge of the trench. A tall tree at the right, a hedgerow along the horizon, and an open field beyond. Sepia print mounted on card, its lower margin printed with the word Subject and a ruled line.",
+     "date": "1898",
+     "primary": false,
+     "sha256": "d1354e4b2cd57989ed697b2a83108f014260c631903de9423fbc6b75276c7a40"
     }
    ],
    "confidence": "high",
@@ -70978,6 +71371,25 @@
      "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
      "url": "https://www.ncpedia.org/barbecue",
      "publisher": "State Library of North Carolina"
+    },
+    {
+     "id": "s:edgecombe-lena-martin",
+     "kind": "dataset",
+     "title": "Lena Martin Photograph Collection",
+     "author": "Lena Pennington Martin (1877-1950)",
+     "publisher": "Edgecombe County Memorial Library, Tarboro, North Carolina; digitised by DigitalNC",
+     "url": "https://lib.digitalnc.org/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made at Tarboro in 1898, three of them of a barbecue cooked in shallow trenches. The library's catalogue links them to the Democratic party mass meeting of 18 October 1898 with the word 'possibly', and cross-references a fourth photograph from the same series showing a white-supremacy campaign banner. This project quotes the hedge rather than firming it up, and does not reproduce the banner photograph."
+    },
+    {
+     "id": "s:digitalnc",
+     "kind": "dataset",
+     "title": "DigitalNC",
+     "publisher": "North Carolina Digital Heritage Center, University of North Carolina at Chapel Hill",
+     "url": "https://lib.digitalnc.org/",
+     "accessed": "2026-09-16",
+     "note": "Material digitised for North Carolina libraries, museums and archives, each item carrying its contributing institution's own rights statement. ⚠ The site is behind AWS WAF and answers an ordinary request with an empty HTTP 202, so tools/harvest_archives.py needs an aws-waf-token cookie taken from a browser session."
     }
    ],
    "tiers": {
@@ -71357,7 +71769,9 @@
     "s:osm",
     "s:flickr-commons",
     "s:flickr-ncsa",
-    "s:ncsa-condev"
+    "s:ncsa-condev",
+    "s:edgecombe-lena-martin",
+    "s:digitalnc"
    ],
    "provenance": {
     "default": {
@@ -71379,6 +71793,11 @@
       "tier": "harvested",
       "source": "s:ncsa-condev",
       "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[4]": {
+      "tier": "harvested",
+      "source": "s:edgecombe-lena-martin",
+      "note": "read on the item's own page 2026-09-16: “http://rightsstatements.org/vocab/NoC-US/1.0/”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -71444,6 +71863,21 @@
      "sha256": "6a1e0b8106ecad393c3bb17cba0994130ca47c7ea511505c91c5d3417df77eb2",
      "width": 2048,
      "height": 1827
+    },
+    {
+     "file": "political-barbecue/political-barbecue-nc-barbecue-tarboro-1898.jpg",
+     "source": "other",
+     "title": "N.C. Barbecue",
+     "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242383-PA2_23_1m.jpg/full/1600,/0/default.jpg",
+     "page_url": "https://lib.digitalnc.org/record/242383",
+     "license": "NoC-US",
+     "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+     "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+     "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+     "alt": "A sepia photograph mounted on card with a ruled border. A shallow trench of coals runs away from the camera down the middle of the frame, and split pig carcasses lie flat along it in a long row, smoke drifting up. Four or five men in hats stand along the trench; the nearest works the meat with a long-handled tool. A white canvas awning on poles runs the length of the right-hand side, and a loose length of the same canvas sweeps across the bottom corner. A carriage wheel shows at the right edge. Bare ground, scattered trees and open country behind.",
+     "date": "1898",
+     "primary": false,
+     "sha256": "e1d198447af553ef853c829495a3857132415528b648fdcd7d67faa619c70e41"
     }
    ],
    "confidence": "medium",
@@ -71641,6 +72075,25 @@
      "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
      "accessed": "2026-09-16",
      "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
+    },
+    {
+     "id": "s:edgecombe-lena-martin",
+     "kind": "dataset",
+     "title": "Lena Martin Photograph Collection",
+     "author": "Lena Pennington Martin (1877-1950)",
+     "publisher": "Edgecombe County Memorial Library, Tarboro, North Carolina; digitised by DigitalNC",
+     "url": "https://lib.digitalnc.org/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made at Tarboro in 1898, three of them of a barbecue cooked in shallow trenches. The library's catalogue links them to the Democratic party mass meeting of 18 October 1898 with the word 'possibly', and cross-references a fourth photograph from the same series showing a white-supremacy campaign banner. This project quotes the hedge rather than firming it up, and does not reproduce the banner photograph."
+    },
+    {
+     "id": "s:digitalnc",
+     "kind": "dataset",
+     "title": "DigitalNC",
+     "publisher": "North Carolina Digital Heritage Center, University of North Carolina at Chapel Hill",
+     "url": "https://lib.digitalnc.org/",
+     "accessed": "2026-09-16",
+     "note": "Material digitised for North Carolina libraries, museums and archives, each item carrying its contributing institution's own rights statement. ⚠ The site is behind AWS WAF and answers an ordinary request with an empty HTTP 202, so tools/harvest_archives.py needs an aws-waf-token cookie taken from a browser session."
     }
    ],
    "tiers": {
@@ -71835,7 +72288,8 @@
     "s:moss-barbecue-history",
     "s:flickr-commons",
     "s:flickr-ncsa",
-    "s:ncsa-condev"
+    "s:ncsa-condev",
+    "s:greenville-union-bleachery"
    ],
    "provenance": {
     "default": {
@@ -71860,6 +72314,11 @@
       "tier": "harvested",
       "source": "s:ncsa-condev",
       "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[1]": {
+      "tier": "harvested",
+      "source": "s:greenville-union-bleachery",
+      "note": "read on the item's own page 2026-09-16: “Public Domain”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -71880,6 +72339,21 @@
      "sha256": "692460bd7dfa658e8884a320bee196ca1259943b4c8bced1709869397e4f9969",
      "width": 2048,
      "height": 1797
+    },
+    {
+     "file": "barbecue/barbecue-union-bleachery-annual-barbecue.jpg",
+     "source": "other",
+     "title": "Annual Barbecue",
+     "url": "https://greenvillelibrary.contentdm.oclc.org/iiif/2/p17168coll61:45/full/1400,/0/default.jpg",
+     "page_url": "https://cdm17168.contentdm.oclc.org/digital/collection/p17168coll61/id/45",
+     "license": "Public domain",
+     "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+     "author": "Greenville County Library System",
+     "credit": "Union Bleachery collection, Greenville County Library System; from the Union Bleachery Historical Society",
+     "alt": "A crowded outdoor serving line, printed as a newspaper halftone so the dot screen shows. Along the near side of long trestle tables, women in aprons and short sleeves serve: one ladles from a metal bucket, another lifts bread rolls out of a big open cardboard carton, a third fills a plate held out to her. Men in shirtsleeves, ties and summer hats file past on the far side with plates and bowls. Behind them the queue winds back uphill among trees past a wooden rail fence, dozens more people standing and sitting on the slope. A galvanised tub stands in the near corner.",
+     "date": "circa 1950s",
+     "primary": false,
+     "sha256": "70e8e9a36f1d81c71cf21027e80c80e816b380cff3fa83c9098751b649d87c99"
     }
    ],
    "confidence": "high",
@@ -71979,6 +72453,15 @@
      "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
      "accessed": "2026-09-16",
      "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
+    },
+    {
+     "id": "s:greenville-union-bleachery",
+     "kind": "dataset",
+     "title": "Union Bleachery collection",
+     "publisher": "Greenville County Library System, South Carolina; from the Union Bleachery Historical Society",
+     "url": "https://cdm17168.contentdm.oclc.org/digital/collection/p17168coll61",
+     "accessed": "2026-09-16",
+     "note": "Photographs of the Union Bleachery textile plant at Greenville, including the employees' annual barbecue at Paris Mountain State Park as printed in the company newsletter The Commentator. The item's Rights field reads 'Public Domain'. It is the only openly licensed South Carolina barbecue photograph this project has found."
     }
    ],
    "tiers": {
@@ -76086,7 +76569,9 @@
     "s:wp-ed-mitchell-pitmaster",
     "s:wp-smokehouse",
     "s:wp-barbecue-in-the-united-states",
-    "s:wp-pig-pickin"
+    "s:wp-pig-pickin",
+    "s:edgecombe-lena-martin",
+    "s:digitalnc"
    ],
    "provenance": {
     "default": {
@@ -76102,10 +76587,31 @@
      "names.said": {
       "tier": "tradition",
       "note": "usage; the restaurant names are Backyard BBQ Pit (cast list) and Dickey's Barbecue Pit (Barbecue in the United States article)"
+     },
+     "images[0]": {
+      "tier": "harvested",
+      "source": "s:edgecombe-lena-martin",
+      "note": "read on the item's own page 2026-09-16: “http://rightsstatements.org/vocab/NoC-US/1.0/”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
-   "images": [],
+   "images": [
+    {
+     "file": "pit/pit-roast-pig-tarboro-1898.jpg",
+     "source": "other",
+     "title": "Roast Pig",
+     "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242419-PA2_31_1m.jpg/full/1600,/0/default.jpg",
+     "page_url": "https://lib.digitalnc.org/record/242419",
+     "license": "NoC-US",
+     "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+     "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+     "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+     "alt": "Smoke hangs in the air among tall bare-trunked trees. In the middle of the frame a man in a dark hat and coat stands in profile beside a low line of banked earth with meat and burning wood on it; two people sit on the ground to his left. Further back, small figures move around tables in a clearing. Across the foreground run the low ridges of a dug trench and a band of white canvas laid flat on the grass. Sepia print mounted on card.",
+     "date": "1898",
+     "primary": true,
+     "sha256": "eec226ab5219344d1048e4b731a679cdfb44057c9d3dd43ecb735cca06e02955"
+    }
+   ],
    "confidence": "high",
    "needs_verification": false,
    "updated": "2026-09-15",
@@ -76291,6 +76797,25 @@
      "url": "https://en.wikipedia.org/wiki/Pig_pickin%27",
      "license": "CC BY-SA 4.0",
      "note": "revision 1315979086"
+    },
+    {
+     "id": "s:edgecombe-lena-martin",
+     "kind": "dataset",
+     "title": "Lena Martin Photograph Collection",
+     "author": "Lena Pennington Martin (1877-1950)",
+     "publisher": "Edgecombe County Memorial Library, Tarboro, North Carolina; digitised by DigitalNC",
+     "url": "https://lib.digitalnc.org/",
+     "accessed": "2026-09-16",
+     "note": "Photographs made at Tarboro in 1898, three of them of a barbecue cooked in shallow trenches. The library's catalogue links them to the Democratic party mass meeting of 18 October 1898 with the word 'possibly', and cross-references a fourth photograph from the same series showing a white-supremacy campaign banner. This project quotes the hedge rather than firming it up, and does not reproduce the banner photograph."
+    },
+    {
+     "id": "s:digitalnc",
+     "kind": "dataset",
+     "title": "DigitalNC",
+     "publisher": "North Carolina Digital Heritage Center, University of North Carolina at Chapel Hill",
+     "url": "https://lib.digitalnc.org/",
+     "accessed": "2026-09-16",
+     "note": "Material digitised for North Carolina libraries, museums and archives, each item carrying its contributing institution's own rights statement. ⚠ The site is behind AWS WAF and answers an ordinary request with an empty HTTP 202, so tools/harvest_archives.py needs an aws-waf-token cookie taken from a browser session."
     }
    ],
    "tiers": {
@@ -76308,7 +76833,21 @@
      "source": "s:wp-whole-hog-barbecue"
     }
    },
-   "primary_image": null,
+   "primary_image": {
+    "file": "pit/pit-roast-pig-tarboro-1898.jpg",
+    "source": "other",
+    "title": "Roast Pig",
+    "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242419-PA2_31_1m.jpg/full/1600,/0/default.jpg",
+    "page_url": "https://lib.digitalnc.org/record/242419",
+    "license": "NoC-US",
+    "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+    "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+    "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+    "alt": "Smoke hangs in the air among tall bare-trunked trees. In the middle of the frame a man in a dark hat and coat stands in profile beside a low line of banked earth with meat and burning wood on it; two people sit on the ground to his left. Further back, small figures move around tables in a clearing. Across the foreground run the low ridges of a dug trench and a band of white canvas laid flat on the grass. Sepia print mounted on card.",
+    "date": "1898",
+    "primary": true,
+    "sha256": "eec226ab5219344d1048e4b731a679cdfb44057c9d3dd43ecb735cca06e02955"
+   },
    "tag_facts": [],
    "recognition_facts": [],
    "acclaim": 0,
@@ -77640,7 +78179,9 @@
     "s:commons",
     "s:flickr-commons",
     "s:flickr-ncsa",
-    "s:ncsa-massengill"
+    "s:ncsa-massengill",
+    "s:unc-nc-postcards",
+    "s:flickr-unc"
    ],
    "provenance": {
     "default": {
@@ -77667,6 +78208,11 @@
       "tier": "harvested",
       "source": "s:ncsa-massengill",
       "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "images[8]": {
+      "tier": "harvested",
+      "source": "s:unc-nc-postcards",
+      "note": "read on the item's own page 2026-09-16: “Public Domain Work”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -77794,6 +78340,23 @@
      "sha256": "99447f5ae15f34994483a1ccc8a8ce7fa5e162f294d2057b14f6f9fc21428eb9",
      "width": 1670,
      "height": 1079
+    },
+    {
+     "file": "barbecue-postcards/barbecue-postcards-special-north-carolina-barbecue-charlotte.jpg",
+     "source": "flickr",
+     "title": "Charlotte, N.C. The Industrial Center of the New South, Special North Carolina Barbecue",
+     "url": "https://live.staticflickr.com/5775/22680294608_6f5f26a52f_o.jpg",
+     "page_url": "https://www.flickr.com/photos/unclibraries_commons/22680294608/",
+     "license": "Public domain",
+     "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+     "author": "University of North Carolina at Chapel Hill",
+     "credit": "North Carolina Postcards, North Carolina Collection Photographic Archives, Wilson Library, UNC-Chapel Hill",
+     "alt": "A hand-coloured postcard. Sixteen or so men in suits stand shoulder to shoulder behind a long white-clothed table set up among trees, most in bowler or straw hats, several holding glasses, one a bread roll. The table carries plates of food, tumblers and three big round metal basins. Overprinted across the lower part in red script: “Charlotte, N. C., The Industrial Center of the New South, Special North Carolina Barbecue.”",
+     "date": "ca. 1905-1915",
+     "primary": false,
+     "sha256": "ab56b302b5eeecc80e663ffc7d621ead529794c4bf6846baadd6269630ff8c4c",
+     "width": 1200,
+     "height": 765
     }
    ],
    "confidence": "medium",
@@ -77898,6 +78461,24 @@
      "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
      "accessed": "2026-09-16",
      "note": "North Carolina postcards, including linen-era and later chrome cards of named barbecue houses: Wilber's at Goldsboro, Parker's at Wilson, the Barbecue Lodge at Raleigh. Cards are undated in the collection's captions; the dates this project gives come from what is in the frame and are marked as such."
+    },
+    {
+     "id": "s:unc-nc-postcards",
+     "kind": "dataset",
+     "title": "North Carolina Postcards, North Carolina Collection Photographic Archives",
+     "publisher": "Wilson Library, University of North Carolina at Chapel Hill",
+     "url": "https://dcr.lib.unc.edu/",
+     "accessed": "2026-09-16",
+     "note": "Postcards of North Carolina businesses, streets and highways, mostly linen and chrome era, from the Durwood Barbour Collection (P077) and the North Carolina Postcard Collection (P052)."
+    },
+    {
+     "id": "s:flickr-unc",
+     "kind": "dataset",
+     "title": "UNC Libraries Commons on Flickr Commons",
+     "publisher": "University of North Carolina at Chapel Hill Libraries",
+     "url": "https://www.flickr.com/photos/unclibraries_commons/",
+     "accessed": "2026-09-16",
+     "note": "North Carolina Postcards and other Wilson Library material, posted under the Public Domain Mark. The library's own repository at dcr.lib.unc.edu serves the same cards, but there the rights appear only as the free-text words 'Public Domain' typed into a metadata field; the Flickr copies carry a rights URI, which is the firmer of the two statements, so they are the ones this project took."
     }
    ],
    "tiers": {
@@ -80095,7 +80676,8 @@
    "sources": [
     "s:commons-margolies",
     "s:commons",
-    "s:wp-maurice-bessinger"
+    "s:wp-maurice-bessinger",
+    "s:flickr"
    ],
    "provenance": {
     "default": {
@@ -80117,6 +80699,11 @@
       "tier": "harvested",
       "source": "s:commons",
       "note": "both described from the photographs; the plaque's wording, the House designation and the March 11, 1985 commissioning date are read off the tablet itself in Dennis Brown's 2008 photograph"
+     },
+     "images[6]": {
+      "tier": "harvested",
+      "source": "s:flickr",
+      "note": "read on the item's own page 2026-09-16: “CC BY-SA 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
      }
     }
    },
@@ -80210,6 +80797,23 @@
      "date": "2008-11-20",
      "primary": false,
      "sha256": "72786748eb2544f8e36f9b618f9de547eb27e75132af62dae01c840194b42433"
+    },
+    {
+     "file": "roadside-barbecue-signs/roadside-barbecue-signs-bar-b-q-center-lexington.jpg",
+     "source": "flickr",
+     "title": "Bar-B-Q Center",
+     "url": "https://live.staticflickr.com/3254/2829091756_01bd879bdf_k.jpg",
+     "page_url": "https://www.flickr.com/photos/natecardozo/2829091756/",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "Nathan Cardozo",
+     "credit": "Nathan Cardozo via Flickr",
+     "alt": "A roadside pylon sign at Lexington, North Carolina: a candy-striped maroon and yellow post carrying a brown cabinet lettered BAR·B·Q over CENTER in white with exposed neon tubes bent around each letter, and PIT-COOKED painted below with no neon. Small credit-card panels and a CURB SERVICE board hang underneath, and a changeable A-board at the kerb prices a quart of chopped barbecue, a pint of slaw and a dozen rolls at $13.00.",
+     "date": "",
+     "primary": false,
+     "sha256": "3e17b328f5c3011993cc2dcd7a558446cc2fb24a492200b99e2fa2690c5bcbfd",
+     "width": 1536,
+     "height": 2048
     }
    ],
    "confidence": "medium",
@@ -80305,6 +80909,14 @@
      "title": "Maurice Bessinger — Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Maurice_Bessinger",
      "license": "CC BY-SA 4.0"
+    },
+    {
+     "id": "s:flickr",
+     "kind": "dataset",
+     "title": "Flickr — individually licensed photographs",
+     "url": "https://www.flickr.com/creativecommons/",
+     "accessed": "2026-09-16",
+     "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
     }
    ],
    "tiers": {

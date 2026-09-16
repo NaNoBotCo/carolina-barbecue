@@ -4975,6 +4975,69 @@
    "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
    "accessed": "2026-09-16",
    "note": "Photographs of the Farmers Cooperative Exchange, including Raleigh street views. The Clyde Cooper's Barbecue frame is captioned 1963 by the archive; the cars in it read later than that, so the date is carried as the archive's and not as this project's."
+  },
+  {
+   "id": "s:flickr",
+   "kind": "dataset",
+   "title": "Flickr — individually licensed photographs",
+   "url": "https://www.flickr.com/creativecommons/",
+   "accessed": "2026-09-16",
+   "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
+  },
+  {
+   "id": "s:flickr-sfa",
+   "kind": "dataset",
+   "title": "Southern Foodways Alliance photographs on Flickr",
+   "publisher": "Southern Foodways Alliance, University of Mississippi",
+   "url": "https://www.flickr.com/photos/southernfoodwaysalliance/",
+   "accessed": "2026-09-16",
+   "note": "The Alliance's oral-history and Southern BBQ Trail photographs. ⚠ The account is split by project, not by subject: the 2007-2009 sets by Amy C. Evans and Alan Pike carry CC BY 2.0, while the 2012 North Carolina and South Carolina Barbecue Trail sets by Denny Culbert — which hold the Skylight Inn, Stamey's, Bum's, Short Sugar's, Grady's, Cook's, the Barbecue Center, Sweatman's, Hite's and Brown's — are all rights reserved. Nothing from the Culbert sets is used here."
+  },
+  {
+   "id": "s:flickr-unc",
+   "kind": "dataset",
+   "title": "UNC Libraries Commons on Flickr Commons",
+   "publisher": "University of North Carolina at Chapel Hill Libraries",
+   "url": "https://www.flickr.com/photos/unclibraries_commons/",
+   "accessed": "2026-09-16",
+   "note": "North Carolina Postcards and other Wilson Library material, posted under the Public Domain Mark. The library's own repository at dcr.lib.unc.edu serves the same cards, but there the rights appear only as the free-text words 'Public Domain' typed into a metadata field; the Flickr copies carry a rights URI, which is the firmer of the two statements, so they are the ones this project took."
+  },
+  {
+   "id": "s:unc-nc-postcards",
+   "kind": "dataset",
+   "title": "North Carolina Postcards, North Carolina Collection Photographic Archives",
+   "publisher": "Wilson Library, University of North Carolina at Chapel Hill",
+   "url": "https://dcr.lib.unc.edu/",
+   "accessed": "2026-09-16",
+   "note": "Postcards of North Carolina businesses, streets and highways, mostly linen and chrome era, from the Durwood Barbour Collection (P077) and the North Carolina Postcard Collection (P052)."
+  },
+  {
+   "id": "s:digitalnc",
+   "kind": "dataset",
+   "title": "DigitalNC",
+   "publisher": "North Carolina Digital Heritage Center, University of North Carolina at Chapel Hill",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Material digitised for North Carolina libraries, museums and archives, each item carrying its contributing institution's own rights statement. ⚠ The site is behind AWS WAF and answers an ordinary request with an empty HTTP 202, so tools/harvest_archives.py needs an aws-waf-token cookie taken from a browser session."
+  },
+  {
+   "id": "s:edgecombe-lena-martin",
+   "kind": "dataset",
+   "title": "Lena Martin Photograph Collection",
+   "author": "Lena Pennington Martin (1877-1950)",
+   "publisher": "Edgecombe County Memorial Library, Tarboro, North Carolina; digitised by DigitalNC",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Photographs made at Tarboro in 1898, three of them of a barbecue cooked in shallow trenches. The library's catalogue links them to the Democratic party mass meeting of 18 October 1898 with the word 'possibly', and cross-references a fourth photograph from the same series showing a white-supremacy campaign banner. This project quotes the hedge rather than firming it up, and does not reproduce the banner photograph."
+  },
+  {
+   "id": "s:greenville-union-bleachery",
+   "kind": "dataset",
+   "title": "Union Bleachery collection",
+   "publisher": "Greenville County Library System, South Carolina; from the Union Bleachery Historical Society",
+   "url": "https://cdm17168.contentdm.oclc.org/digital/collection/p17168coll61",
+   "accessed": "2026-09-16",
+   "note": "Photographs of the Union Bleachery textile plant at Greenville, including the employees' annual barbecue at Paris Mountain State Park as printed in the company newsletter The Commentator. The item's Rights field reads 'Public Domain'. It is the only openly licensed South Carolina barbecue photograph this project has found."
   }
  ]
 }

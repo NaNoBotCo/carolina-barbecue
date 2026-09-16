@@ -31,17 +31,26 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import BUILD, DATA, GEO, IMAGES, ROOT, SEARCH_CORE, TIER_LABEL, TYPES, VENDOR, jload  # noqa: E402
 import pages  # noqa: E402
+import viz  # noqa: E402
+
+PIG_CUTS = {k: v for k, _, v, _ in pages.PIG_STYLES}
 
 SITE = BUILD / "site"
 API = BUILD / "api"
 SITE_URL = os.environ.get("SITE_URL", "https://wichaa.net/barbecue").rstrip("/")
 SITE_NAME = "Carolina Barbecue"
-TAGLINE = "the pits, the plates, the words — North and South Carolina"
+TAGLINE = "the pits, the plates, and what to call 'em — North and South Carolina"
 DATA_LICENSE = "https://creativecommons.org/licenses/by/4.0/"   # the records' own licence — Nan's call; default CC BY 4.0
 AUTHOR = {"@type": "Person", "name": "NaN", "url": "https://wichaa.net"}
 E = html.escape
 PATH_OF = {"style": "style", "sauce": "sauce", "dish": "dish", "pit": "pit", "place": "place", "person": "person", "org": "org", "event": "event", "term": "word", "art": "art", "story": "story"}
 DIR_OF = {"style": "styles", "sauce": "sauces", "dish": "dishes", "pit": "pit", "place": "places", "person": "people", "org": "organizations", "event": "events", "term": "words", "art": "art", "story": "stories"}
+
+
+def clip(text: str, n: int) -> str:
+    """Cut at a word, and say that it was cut."""
+    t = (text or "").strip()
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:—-") + "…"
 
 
 def rel(depth: int) -> str:
@@ -57,42 +66,51 @@ def img_src(im: dict, depth: int) -> str:
 
 
 CSS = """
-:root{--bg:#f6f1e7;--panel:#fdfaf3;--ink:#221d18;--mute:#6b6257;--line:#e2d9c6;--ember:#b5431f;--smoke:#4a4540;--gold:#b8860b;--mustard:#c9a227;--vinegar:#8c2f22;--focus:#1f5fa8;--chip:#efe7d6}
+:root{--bg:#f6f1e7;--panel:#fdfaf3;--ink:#221d18;--mute:#6b6257;--line:#e2d9c6;--ember:#b5431f;--smoke:#4a4540;--gold:#b8860b;--mustard:#c9a227;--vinegar:#8c2f22;--focus:#1f5fa8;--chip:#efe7d6;
+  /* A barbecue house paints its sign; it does not set it in a book face. Headings take a
+     slab typewriter, labels take the engraved caps of a menu board, and the reading text
+     stays a warm old-style serif. All of it is already on the reader's machine. */
+  --display:"American Typewriter",Rockwell,"Bookman Old Style",Georgia,"Iowan Old Style",serif;
+  --sign:Copperplate,"Copperplate Gothic Light","Trajan Pro",Georgia,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --body:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,"Times New Roman",serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#171412;--panel:#1f1b18;--ink:#f1ebe0;--mute:#b3a898;--line:#332d27;--ember:#e8673c;--smoke:#cfc4b4;--gold:#e0b64a;--mustard:#e3bb3c;--vinegar:#e07a68;--focus:#8ab4f8;--chip:#2a241f}}
 :root[data-theme="dark"]{--bg:#171412;--panel:#1f1b18;--ink:#f1ebe0;--mute:#b3a898;--line:#332d27;--ember:#e8673c;--smoke:#cfc4b4;--gold:#e0b64a;--mustard:#e3bb3c;--vinegar:#e07a68;--focus:#8ab4f8;--chip:#2a241f}
 *{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;line-height:1.6}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
 a{color:var(--ember);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--vinegar)}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
 header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
 header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--ember)}
-nav.crumbs{font-size:.85rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
 main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
-h1{font-size:2rem;line-height:1.15;margin:.5rem 0 .3rem;font-weight:600}h1 .kind{display:block;font-size:.8rem;color:var(--gold);text-transform:uppercase;letter-spacing:.16em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;margin-bottom:.4rem}
-h2{font-size:1.25rem;margin:1.7rem 0 .5rem;border-bottom:1px solid var(--line);padding-bottom:.2rem;font-weight:600}h3{font-size:1.05rem;margin:1rem 0 .3rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
 .said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
 p{margin:.55rem 0}.prose p{margin:.7rem 0}
 .dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
-.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.12rem}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--ember)}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--ember)}
 .dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
 .count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
 .chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
 .tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--ember)}
 table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
 .kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
-.kin a.card b{display:block;font-size:1.02rem;color:var(--ember)}.kin a.card small{display:block;font-size:.72rem;color:var(--gold);text-transform:uppercase;letter-spacing:.14em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--ember);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
 .kin a.card:hover b{color:var(--vinegar)}
 figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
 .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
-.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-size:clamp(2rem,5vw,3.1rem)}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
 @media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
 .mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
-.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-size:1.7rem;font-weight:600;line-height:1}.fact .l{font-size:.78rem;color:var(--mute);margin-top:.25rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
 .search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--ember);background:var(--ember);color:#fff;cursor:pointer}
 .tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-weight:700;text-decoration:none;font-size:1.05rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
 footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
-.btn{display:inline-block;padding:.55rem 1rem;border-radius:999px;background:var(--ember);color:#fff;text-decoration:none;font-weight:600;border:2px solid var(--ember);font-family:-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.95rem}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--ember)}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--ember);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--ember);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--ember)}
 .cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
 .etym{background:var(--panel);border-left:4px solid var(--mustard);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
 .wander{font-size:.85rem;color:var(--mute)}
@@ -149,14 +167,14 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Carolina <b>Barbecue</b></a>
-<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Sources</a> · <a href="{r}coverage/index.html">Coverage</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">What we know</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
 <main>
 {body}
 {share_row(canonical, share_title or title) if canonical else ""}
 </main>
 <script>document.addEventListener("keydown",function(e){{if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="{r}wander.html"}});</script>
 <footer>
-<div class="bots">Machine-readable: <a href="{r}api/nodes.json">nodes.json</a> <a href="{r}api/places.json">places.json</a> <a href="{r}api/kin.json">kin.json</a> <a href="{r}nodes.jsonl">nodes.jsonl</a> <a href="{r}nodes.csv">nodes.csv</a> <a href="{r}llms-full.txt">llms-full.txt</a> <a href="{r}sitemap.xml">sitemap.xml</a> <a href="{r}feed.xml">feed.xml</a> <a href="{r}api/coverage.json">coverage</a> <a href="{r}api/sources.json">sources</a></div>
+<div class="bots">For the machines: <a href="{r}api/nodes.json">nodes.json</a> <a href="{r}api/places.json">places.json</a> <a href="{r}api/kin.json">kin.json</a> <a href="{r}nodes.jsonl">nodes.jsonl</a> <a href="{r}nodes.csv">nodes.csv</a> <a href="{r}llms-full.txt">llms-full.txt</a> <a href="{r}sitemap.xml">sitemap.xml</a> <a href="{r}feed.xml">feed.xml</a> <a href="{r}api/coverage.json">coverage</a> <a href="{r}api/sources.json">sources</a></div>
 <p>Records licensed <a href="{DATA_LICENSE}">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
 </footer>
 </body>
@@ -385,7 +403,7 @@ def kin_block(r: dict, by_id: dict, depth: int) -> str:
     if cards:
         out += f'<h2>Its kin</h2><div class="kin">{"".join(cards)}</div>'
     if back:
-        out += f'<h2>Pages that point here</h2><div class="kin">{"".join(back)}</div>'
+        out += f'<h2>Who points back</h2><div class="kin">{"".join(back)}</div>'
     return out
 
 
@@ -401,10 +419,26 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
         head += f'<p class="mute" style="margin:.1rem 0">also: {E(" · ".join(n["aliases"]))}</p>'
     if n.get("said"):
         head += f'<p class="said">{E(n["said"])}</p>'
-    body = head
+    hero = ""
     if r.get("primary_image"):
         im = r["primary_image"]
-        body += f'<figure><img src="{img_src(im, depth)}" alt="{E(im.get("alt", n["name"]))}" loading="eager"><figcaption>{E(im.get("alt", ""))} — {E(im.get("author", ""))}, <a href="{E(im.get("page_url", "#"))}">{E(im.get("license", ""))}</a></figcaption></figure>'
+        hero = (f'<figure class="hero-shot"><img src="{img_src(im, depth)}" alt="{E(im.get("alt", n["name"]))}" loading="eager">'
+                f'<figcaption>{E(im.get("alt", ""))} — {E(im.get("author", ""))}, '
+                f'<a href="{E(im.get("page_url", "#"))}" rel="noopener">{E(im.get("license", ""))}</a></figcaption></figure>')
+    elif r["type"] == "style":
+        cuts = PIG_CUTS.get(r["id"], set())
+        hero = (f'<figure class="hero-draw">{pages.hog_svg(cuts, label=False, ident=r["id"])}'
+                f'<figcaption>{E({5: "The whole animal goes on the pit.", 1: "The shoulder, and only the shoulder."}.get(len(cuts), "What this style takes off the hog."))}</figcaption></figure>')
+    elif r["type"] == "place" and r.get("geo"):
+        g = r["geo"]
+        others = [{"lat": (o.get("geo") or {}).get("lat"), "lon": (o.get("geo") or {}).get("lon"), "name": o["names"]["name"]}
+                  for o in by_id.values() if o["type"] == "place" and o["id"] != r["id"] and o.get("geo")]
+        hero = (f'<figure class="hero-draw">{viz.locator_svg(g["lat"], g["lon"], others, w=760, label=n["name"])}'
+                f'<figcaption>{E(n["name"])} and the pits around it.</figcaption></figure>')
+    elif r["type"] == "term" and (r.get("etymology") or {}).get("root"):
+        hero = (f'<figure class="hero-word"><b>{E(n["name"])}</b>'
+                f'<span>{E((r["etymology"]["root"])[:150])}</span></figure>')
+    body = head + hero
     body += f'<div class="prose"><p class="lede">{E(r["text"]["what"])}</p></div>'
     if et.get("root"):
         body += f'<div class="etym"><b>Root.</b> {marks(et["root"])}' + (f'<br><b>First seen.</b> {marks(et["first_attested"])}' if et.get("first_attested") else "") + (f'<br>{marks(et["note"])}' if et.get("note") else "") + f' {tier_chip({"tier": et.get("tier", ""), "source": et.get("source", "")})}</div>'
@@ -484,6 +518,19 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
             body += f'<div class="recipe">{head}{inner}</div>'
     if r.get("confusable_with"):
         body += "<h2>Not to be confused with</h2><ul>" + "".join(f'<li><b>{name_link(by_id[c["id"]], depth) if c["id"] in by_id else E(c["id"])}</b> — {E(c["tell"])}</li>' for c in r["confusable_with"]) + "</ul>"
+    if r["type"] in ("style", "sauce", "person", "dish", "event", "org") and GEO_CACHE:
+        pts = []
+        for o in by_id.values():
+            if o["type"] != "place" or not o.get("geo"):
+                continue
+            hit = (r["id"] in ((o.get("facets") or {}).get("styles") or [])
+                   or any(k["to"] == r["id"] for k in o.get("kin_out", []))
+                   or any(k["to"] == o["id"] for k in r.get("kin_out", [])))
+            if hit:
+                pts.append({"lat": o["geo"]["lat"], "lon": o["geo"]["lon"], "name": o["names"]["name"]})
+        if len(pts) >= 3:
+            body += (f'<h2>Where</h2><figure class="hero-draw half">{viz.where_svg(GEO_CACHE, pts, w=470, title=n["name"])}'
+                     f'<figcaption>{len(pts)} places on this page\'s own map.</figcaption></figure>')
     if r["type"] == "place" and r.get("geo"):
         g = r["geo"]
         others = []
@@ -496,7 +543,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
         others.sort(key=lambda x: x[0])
         near = others[:5]
         if near:
-            body += ('<h2>Near here</h2><p class="mute">Straight-line miles, so the road will be longer. '
+            body += ('<h2>Near here</h2><p class="mute">Crow-flies miles; the road is always longer. '
                      f'<a href="{rel(depth)}near/index.html">The finder</a> sorts every pit in both states from where you are.</p><ul>'
                      + "".join(f'<li><b>{d:g} mi</b> — {name_link(o, depth)}'
                                + (f' <span class="mute">{E((o.get("address") or {}).get("city", ""))}</span>' if (o.get("address") or {}).get("city") else "")
@@ -509,8 +556,8 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
     if r.get("source_list"):
         body += "<h2>Sources</h2><ul>" + "".join(
             f'<li>{E(s.get("title", s["id"]))}' + (f' — {E(s["author"])}' if s.get("author") else "") + (f', {E(str(s["year"]))}' if s.get("year") else "") + (f' · <a href="{E(s["url"])}" rel="noopener">link</a>' if s.get("url") else "") + "</li>" for s in r["source_list"]) + "</ul>"
-    body += ('<p class="legend">Provenance marks: <span class="chip tier-cited">Cited</span> a named source, linked · <span class="chip tier-harvested">Harvested</span> fetched from an open dataset · '
-             '<span class="chip tier-tradition">Tradition</span> general knowledge of the tradition, hedged · <span class="chip tier-inference">Inference</span> this project\'s reasoning · <span class="chip tier-field">Field</span> someone stood there. '
+    body += ('<p class="legend">Where it came from: <span class="chip tier-cited">Cited</span> a source we name · <span class="chip tier-harvested">Harvested</span> pulled from an open dataset · '
+             '<span class="chip tier-tradition">Tradition</span> what the tradition says, hedged · <span class="chip tier-inference">Inference</span> this project\'s reasoning · <span class="chip tier-field">Field</span> somebody stood there. '
              f'<a href="{rel(depth)}api/{E(r["type"])}/{E(r["id"])}.json">This record as JSON</a>.</p>')
     og = f"{SITE_URL}/images/{r['primary_image']['file']}" if r.get("primary_image") else ""
     return page(f"{n['name']} — {SITE_NAME}", body, depth, r["blurb"], node_jsonld(r), f"{SITE_URL}/{url_of(r)}", og_image=og,
@@ -556,7 +603,8 @@ def type_index(t: dict, recs: list[dict], by_id: dict) -> str:
         if len(groups) > 1:
             body += f'<h2>{E(GROUP_LABEL.get(g, str(g)))} <span class="count">({len(members)})</span></h2>'
         body += '<div class="cards">' + "".join(
-            f'<div class="card">' + (f'<img src="{img_src(r["primary_image"], depth)}" alt="" loading="lazy" style="width:100%;border-radius:8px;margin-bottom:.4rem">' if r.get("primary_image") else "") +
+            f'<div class="card">' + (f'<a href="{rel(depth)}{url_of(r)}index.html"><img class="thumb" src="{rel(depth)}cards/{E(r["type"])}__{E(r["id"])}.jpg" alt="" loading="lazy"></a>'
+                                      if (CARDS_DIR / f'{r["type"]}__{r["id"]}.jpg').exists() else "") +
             f'<a class="t" href="{rel(depth)}{url_of(r)}index.html">{E(r["names"]["name"])}</a>' + (f'<p class="mute" style="font-size:.8rem">{E(", ".join(r["names"]["aliases"][:3]))}</p>' if r["names"].get("aliases") else "") +
             f'<p>{E(r["blurb"])}</p></div>' for r in members) + "</div>"
     if t["key"] == "term":
@@ -609,6 +657,7 @@ def share_row(url: str, title: str) -> str:
             'else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>')
 
 
+GEO_CACHE: dict = {}
 TAGV: dict = {}
 
 
@@ -620,8 +669,8 @@ def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
     for p in rows:
         by_state.setdefault(p.get("state") or "unknown", {}).setdefault(p.get("county") or "—", []).append(p)
     body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Pits and places <span class="count">({places["count"]})</span></h1>'
-            f'<p class="lede">{places["curated"]} written up, {places["harvested"]} more from OpenStreetMap as of {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}. '
-            f'Ember dots have a page; grey dots are OpenStreetMap rows with a name, an address and nothing else yet. A place missing here is missing from the map data or not yet written, not gone.</p>'
+            f'<p class="lede">{places["curated"]} written up, {places["harvested"]} more off OpenStreetMap as of {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}. '
+            f'Ember dots have a page. Grey dots have a name and an address and nothing else yet. If a pit\'s not here, we haven\'t read it — that don\'t mean it\'s gone.</p>'
             f'<div class="mapwrap">{svg}</div>'
             + '<div class="chips" id="plchips" role="group" aria-label="Filter the list">'
             + "".join(f'<button type="button" data-tag="{E(k)}" aria-pressed="false">{E(v.get("icon", ""))} {E(v.get("label", k))}</button>'
@@ -678,7 +727,7 @@ def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
       if(ul) [].slice.call(ul.children).forEach(function(li){ if(!li.hidden) any=true; });
       h.hidden=!any; if(ul) ul.hidden=!any;
     });
-    count.textContent = keys.length ? (shown + ' of ' + items.length + ' places match. A place with no tag has not been read yet \u2014 that is a fact about us, not about the place.') : '';
+    count.textContent = keys.length ? (shown + ' of ' + items.length + ' places match. A pit with no tag has not been read yet \u2014 that is a fact about us, not about the place.') : '';
   }
   chips.addEventListener('click', function(e){
     var b=e.target.closest('button[data-tag]'); if(!b) return;
@@ -687,7 +736,7 @@ def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
 })();
 </script>
 """
-    body += '<p class="legend">Point data © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> — the derived table at <a href="../api/places.json">api/places.json</a> is offered under the same licence. State outlines: Natural Earth, public domain.</p>'
+    body += '<p class="legend">Point data © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> — the table we built from it, <a href="../api/places.json">api/places.json</a>, goes out under the same licence. State outlines: Natural Earth, public domain.</p>'
     jl = [{"@context": "https://schema.org", "@type": "Dataset", "name": f"Barbecue places in North and South Carolina — {SITE_NAME}", "url": f"{SITE_URL}/places/", "license": "https://opendatacommons.org/licenses/odbl/1-0/",
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/api/places.json"}], "creator": AUTHOR}]
     return page(f"Pits and places — {SITE_NAME}", body, depth, "Every barbecue place in North and South Carolina we know of, on one map: the pits written up here plus every OpenStreetMap row.", jl, f"{SITE_URL}/places/", card="places")
@@ -698,20 +747,27 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
     counts = coverage["records"]
     svg = map_svg(places["places"], by_id, depth, 620)
     facts = [(len(recs), "records"), (counts.get("place", 0), "pits written up"), (places["harvested"], "more places from OSM"), (sum(len(r.get("kin_out", [])) for r in recs), "kin links"), (counts.get("term", 0), "words with roots")]
-    body = (f'<div class="hero"><div><h1><span class="kind">a directory of a living tradition</span>Carolina Barbecue</h1><p class="sub">{E(TAGLINE)}.</p>'
-            f'<p>Whole hogs over coals in the east, shoulders and a red dip in the Piedmont, mustard in the Midlands, hash over rice, vinegar and pepper on everything down the Pee Dee. '
-            f'One page per style, sauce, dish, pit, place, person, organization, event and word, each saying what the others are to it, each field marked with where it came from.</p>'
-            f'<div class="cta"><a class="btn" href="near/index.html">📍 Find the Q near me</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What is in the sauce</a><a class="btn ghost" href="quiz/index.html">Which side are you on?</a><a class="btn ghost" href="wander.html">🎲 A page at random</a></div></div>'
+    shot = next((r for r in recs if r["id"] == "whole-hog" and r.get("images")), None) or next((r for r in recs if r["type"] == "place" and r.get("images")), None)
+    banner = ""
+    if shot:
+        im = shot["images"][0]
+        banner = (f'<figure class="hero-shot wide"><img src="images/{E(im["file"])}" alt="{E(im.get("alt", ""))}" loading="eager">'
+                  f'<figcaption>{E(clip(im.get("alt", ""), 130))} — {E(im.get("author", ""))}, {E(im.get("license", ""))}</figcaption></figure>')
+    body = (banner + f'<div class="hero"><div><h1><span class="kind">a directory of a living tradition</span>Carolina Barbecue</h1><p class="sub">{E(TAGLINE)}.</p>'
+            f'<p>Whole hogs over coals in the east. Shoulders and a red dip in the Piedmont. '
+            f'Mustard in the Midlands. Hash over rice down the Pee Dee.</p>'
+            f'<div class="cta"><a class="btn" href="near/index.html">📍 Find the Q near me</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the sauce</a><a class="btn ghost" href="numbers/index.html">Count it up</a><a class="btn ghost" href="quiz/index.html">Which side are you on?</a><a class="btn ghost" href="wander.html">🎲 A page at random</a></div></div>'
             f'<div class="mapwrap">{svg}</div></div>'
             '<div class="facts">' + "".join(f'<div class="fact"><div class="n">{n:,}</div><div class="l">{E(l)}</div></div>' for n, l in facts) + "</div>")
     # the loudest thing on the page after the map: what is worth driving for
     drive = sorted([r for r in recs if r["type"] == "place" and r.get("acclaim")], key=lambda r: (-r["acclaim"], r["names"]["name"]))[:6]
     if drive:
-        body += ('<h2>Worth the drive</h2><p class="mute">Pits other people have written down — a Beard award, a trail, a wood-fire certification, an oral history recorded at the pit. '
-                 'The count is how many different people said so. <a href="near/index.html">Find one near you →</a></p><div class="cards">'
+        body += ('<h2>Worth the drive</h2><p class="mute">Pits somebody already bragged on, in print: a Beard award, a spot on a trail, a wood-fire ticket, an oral history taken at the pit. '
+                 'The count is how many different folks said so — not our opinion. <a href="near/index.html">Find one near you →</a></p><div class="cards">'
                  + "".join(
                      f'<div class="card">'
-                     + (f'<img src="images/{E(r["primary_image"]["file"])}" alt="" loading="lazy" style="width:100%;border-radius:8px;margin-bottom:.4rem">' if r.get("primary_image") else "")
+                     + (f'<a href="{url_of(r)}index.html"><img class="thumb" src="cards/{E(r["type"])}__{E(r["id"])}.jpg" alt="" loading="lazy"></a>'
+                        if (CARDS_DIR / f'{r["type"]}__{r["id"]}.jpg').exists() else "")
                      + f'<a class="t" href="{url_of(r)}index.html">{E(r["names"]["name"])}</a> <span class="stars">{"●" * min(r["acclaim"], 5)}</span>'
                      f'<p>{E((r.get("address") or {}).get("city", ""))}{", " if (r.get("address") or {}).get("city") else ""}{E((r.get("facets") or {}).get("state", ""))} — '
                      f'{E(", ".join(x.get("label", "") for x in r.get("recognition_facts", [])[:3]))}</p>'
@@ -722,8 +778,8 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
     art = [r for r in recs if r["type"] == "art" and r.get("images")]
     shots = [(im, r) for r in art for im in r["images"]][:8]
     if shots:
-        body += ('<h2>Pigs that serve themselves, and other art</h2>'
-                 '<p class="mute">The sign genre, the mascots, the 1830s election prints. Every picture free to use, its licence beside it. '
+        body += ('<h2>Pigs that serve themselves</h2>'
+                 '<p class="mute">Signs, mascots, and the 1830s election prints. All free to use, licence beside each one. '
                  '<a href="art/index.html">The whole gallery →</a></p><div class="gal2">'
                  + "".join(f'<figure><a href="{url_of(r)}index.html"><img src="images/{E(im["file"])}" alt="{E(im.get("alt", ""))}" loading="lazy"></a>'
                            f'<figcaption>{E(r["names"]["name"])} — {E(im.get("author", ""))}, {E(im.get("license", ""))}</figcaption></figure>' for im, r in shots)
@@ -734,11 +790,11 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
              + (f'<div class="pitch"><h2 style="border:0;margin-top:0">{E(riv["names"]["name"])}</h2><p>{E(riv["blurb"])}</p>'
                 f'<p><a class="btn" href="{url_of(riv)}index.html">Take a side →</a></p></div>' if riv else "")
              + '<div class="pitch"><h2 style="border:0;margin-top:0">Which side are you on?</h2>'
-               '<p>Six questions about sauce, slaw and how you order. At the end a style claims you. It is not binding.</p>'
+               '<p>Six questions about sauce, slaw and how you order. At the end a style claims you. It don\'t hold up in court.</p>'
                '<p><a class="btn" href="quiz/index.html">Take the quiz →</a></p></div></div>')
     body += directory_sections(recs, types, depth, limit=8)
-    body += (f'<h2>Reading the marks</h2><p class="mute">Plain prose is cited to a source listed on the page. <mark class="tier">Tradition holds —</mark> marks general knowledge of the tradition, hedged. '
-             f'<mark class="tier">Inference —</mark> marks this project\'s own reasoning. Every record is also JSON under <a href="api/index.json">/api/</a>; the scope and the gaps are stated at <a href="coverage/index.html">coverage</a>.</p>')
+    body += (f'<h2>Reading the marks</h2><p class="mute">Plain prose is cited, and the source is on the page. <mark class="tier">Tradition holds —</mark> is what the tradition says, hedged. '
+             f'<mark class="tier">Inference —</mark> is us reasoning. It\'s all JSON too, under <a href="api/index.json">/api/</a>, and what we don\'t have is at <a href="coverage/index.html">what we know</a>.</p>')
     jl = [{"@context": "https://schema.org", "@type": "Dataset", "name": SITE_NAME, "description": f"A structured directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, organizations, events and vocabulary, one JSON record per node with per-field provenance.",
            "url": SITE_URL + "/", "license": DATA_LICENSE, "creator": AUTHOR, "isAccessibleForFree": True, "keywords": ["barbecue", "North Carolina", "South Carolina", "whole hog", "Lexington", "mustard sauce", "hash", "pig pickin'"],
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/api/nodes.json"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"{SITE_URL}/nodes.csv"},
@@ -760,7 +816,7 @@ def sources_page(sources: dict) -> str:
     kinds: dict = {}
     for s in sources.values():
         kinds.setdefault(s.get("kind", "other"), []).append(s)
-    body = f'<h1><span class="kind">{E(SITE_NAME)}</span>Sources <span class="count">({len(sources)})</span></h1><p class="lede">Every source a record may cite. Records cite these ids; the validator refuses any other.</p>'
+    body = f'<h1><span class="kind">{E(SITE_NAME)}</span>Where we got it <span class="count">({len(sources)})</span></h1><p class="lede">Every source a record may cite, by id. Cite anything else and the build refuses it.</p>'
     for k in ("book", "wikipedia", "oral-history", "web", "org", "dataset", "article", "film", "other"):
         rows = kinds.get(k)
         if not rows:
@@ -773,13 +829,13 @@ def sources_page(sources: dict) -> str:
 
 
 def coverage_page(cov: dict) -> str:
-    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Coverage</h1><p class="lede">{E(cov["scope"])}</p>'
+    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>What we know, and what we don\'t</h1><p class="lede">{E(cov["scope"])}</p>'
             '<h2>Records</h2><table>' + "".join(f"<tr><th>{E(DIR_OF[t])}</th><td>{n}</td></tr>" for t, n in cov["records"].items()) + "</table>"
             f'<h2>How records are made</h2><p>{E(cov["how_records_are_made"])}</p>'
             '<h2>Places</h2><table>' + "".join(f"<tr><th>{E(k.replace('_', ' '))}</th><td>{E(str(v))}</td></tr>" for k, v in cov["places"].items() if k != "osm_query") + "</table>"
             f'<p class="mute" style="font-size:.85rem">Overpass query: <code>{E(cov["places"].get("osm_query") or "")}</code></p>'
             f'<h2>Pictures</h2><p>{cov["images"]["count"]} on file. Licences accepted: {E(", ".join(cov["images"]["licences_accepted"]))}.</p>'
-            '<h2>Not yet</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
+            '<h2>Ain\'t got it yet</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
             '<h2>Tiers</h2><table>' + "".join(f"<tr><th>{E(k)}</th><td>{E(v)}</td></tr>" for k, v in cov["tiers"].items()) + "</table>"
             '<p class="mute">The same object as JSON: <a href="../api/coverage.json">api/coverage.json</a>.</p>')
     return page(f"Coverage — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not have yet.", None, f"{SITE_URL}/coverage/", card="coverage")
@@ -788,7 +844,7 @@ def coverage_page(cov: dict) -> str:
 def search_page(docs: list[dict]) -> str:
     body = f"""
 <h1><span class="kind">{E(SITE_NAME)}</span>Search</h1>
-<p class="lede">Spelled however you spell it: barbeque, bar-b-q, 'cue. Near spellings are found and said to be near.</p>
+<p class="lede">Barbeque, bar-b-q, 'cue, however you spell it. If we had to stretch to find it, we say so.</p>
 <form class="search" role="search" onsubmit="return false"><input id="q" type="search" placeholder="hash · outside brown · Ayden · mustard · Lexington dip…" aria-label="Search" autofocus><button id="go" type="button">Search</button></form>
 <p id="tier" class="tierline" aria-live="polite"></p>
 <div id="out" class="cards"></div>
@@ -839,7 +895,7 @@ document.getElementById("q").addEventListener("input",function(){{if(index)run()
 }})();
 </script>
 """
-    return page(f"Search — {SITE_NAME}", body, 1, "Search the directory; misspellings and near spellings understood.", None, f"{SITE_URL}/search/", card="search")
+    return page(f"Search — {SITE_NAME}", body, 1, "Spell it however you spell it; we'll find it.", None, f"{SITE_URL}/search/", card="search")
 
 
 def manifest() -> str:
@@ -1053,11 +1109,14 @@ def main() -> int:
     if sauces:
         shutil.copy(DATA / "harvest" / "sauces.json", SITE / "api" / "sauces.json")
     geo = jload(GEO / "states.json")
+    global GEO_CACHE
+    GEO_CACHE = geo
     box = (-84.4, 31.9, -75.3, 36.7)
     for name, html_text in (("near", pages.near_page(page, places, recs, tagvocab, SITE_URL)),
                             ("sauce", pages.sauce_page(page, sauces, recs, geo, project, box, SITE_URL)),
                             ("pig", pages.pig_page(page, by_id, SITE_URL)),
-                            ("quiz", pages.quiz_page(page, jload(DATA / "vocab" / "quiz.json"), by_id, SITE_URL))):
+                            ("quiz", pages.quiz_page(page, jload(DATA / "vocab" / "quiz.json"), by_id, SITE_URL)),
+                            ("numbers", pages.numbers_page(page, recs, places, geo, SITE_URL, SITE))):
         d = SITE / name
         d.mkdir(exist_ok=True)
         (d / "index.html").write_text(html_text, encoding="utf-8")

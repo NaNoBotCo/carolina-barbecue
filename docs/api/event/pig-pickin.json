@@ -163,7 +163,9 @@
   "s:wp-whole-hog-barbecue",
   "s:wp-ed-mitchell-pitmaster",
   "s:wp-kingstree-south-carolina",
-  "s:ncpedia-barbecue"
+  "s:ncpedia-barbecue",
+  "s:edgecombe-lena-martin",
+  "s:digitalnc"
  ],
  "provenance": {
   "default": {
@@ -175,6 +177,11 @@
     "tier": "cited",
     "source": "s:wp-pig-pickin",
     "note": "the rental trade is general knowledge; the festivals are cited"
+   },
+   "images[3]": {
+    "tier": "harvested",
+    "source": "s:edgecombe-lena-martin",
+    "note": "read on the item's own page 2026-09-16: “http://rightsstatements.org/vocab/NoC-US/1.0/”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -223,6 +230,21 @@
    "date": "Taken on 22 March 2016",
    "primary": false,
    "sha256": "a920944d0fdd815f04bdc293592658b6464d9414d1fe85bf65280d74083021ba"
+  },
+  {
+   "file": "pig-pickin/pig-pickin-pigs-on-the-trench-tarboro-1898.jpg",
+   "source": "other",
+   "title": "Pigs",
+   "url": "https://lib.digitalnc.org/nanna/api/multimedia/image/v2/recid:242366-PA2_19_4m.jpg/full/1600,/0/default.jpg",
+   "page_url": "https://lib.digitalnc.org/record/242366",
+   "license": "NoC-US",
+   "license_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+   "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+   "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+   "alt": "The same cooking trench from the other end and further back: a long line of split pigs laid flat on the coals, running from the bottom of the frame up a low rise. A dozen people stand at the far end beside a white canvas awning stretched on poles, some in wide hats; a man walks towards the camera along the edge of the trench. A tall tree at the right, a hedgerow along the horizon, and an open field beyond. Sepia print mounted on card, its lower margin printed with the word Subject and a ruled line.",
+   "date": "1898",
+   "primary": false,
+   "sha256": "d1354e4b2cd57989ed697b2a83108f014260c631903de9423fbc6b75276c7a40"
   }
  ],
  "confidence": "high",
@@ -428,6 +450,25 @@
    "title": "NCpedia — Barbecue (Encyclopedia of North Carolina)",
    "url": "https://www.ncpedia.org/barbecue",
    "publisher": "State Library of North Carolina"
+  },
+  {
+   "id": "s:edgecombe-lena-martin",
+   "kind": "dataset",
+   "title": "Lena Martin Photograph Collection",
+   "author": "Lena Pennington Martin (1877-1950)",
+   "publisher": "Edgecombe County Memorial Library, Tarboro, North Carolina; digitised by DigitalNC",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Photographs made at Tarboro in 1898, three of them of a barbecue cooked in shallow trenches. The library's catalogue links them to the Democratic party mass meeting of 18 October 1898 with the word 'possibly', and cross-references a fourth photograph from the same series showing a white-supremacy campaign banner. This project quotes the hedge rather than firming it up, and does not reproduce the banner photograph."
+  },
+  {
+   "id": "s:digitalnc",
+   "kind": "dataset",
+   "title": "DigitalNC",
+   "publisher": "North Carolina Digital Heritage Center, University of North Carolina at Chapel Hill",
+   "url": "https://lib.digitalnc.org/",
+   "accessed": "2026-09-16",
+   "note": "Material digitised for North Carolina libraries, museums and archives, each item carrying its contributing institution's own rights statement. ⚠ The site is behind AWS WAF and answers an ordinary request with an empty HTTP 202, so tools/harvest_archives.py needs an aws-waf-token cookie taken from a browser session."
   }
  ],
  "tiers": {

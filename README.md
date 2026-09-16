@@ -15,7 +15,7 @@ Every page says what its neighbours are to it, in both directions.
 | places on the map | 373 — the written-up pits plus every OpenStreetMap barbecue row in both states |
 | recipes | 142, free to use: 79 public-domain cookbook texts in full, 58 from Wikibooks under CC BY-SA, 5 ingredients-only |
 | sauce labels read | 68 bottles: sugar per tablespoon, what comes first on the list, the maker's town |
-| pictures | 115, each with its licence and photographer |
+| pictures | 115, each with its licence and photographer, plus 190 share cards drawn from them |
 | sources | 590 |
 
 ## The pages that answer a question
@@ -31,6 +31,10 @@ Every page says what its neighbours are to it, in both directions.
   tablespoon of table sugar is 12.6 g.
 - **[Which part of the pig](https://nanobotco.github.io/carolina-barbecue/pig/)** — a
   drawn hog, and a small one per style showing what that style takes off it.
+- **[Count it up](https://nanobotco.github.io/carolina-barbecue/numbers/)** — a map of
+  the two states shaded by distance to the nearest pit (half of both is within 10.6
+  miles of one), when the pits opened, what 142 recipes call for, which days they open,
+  and a matrix of which kind of page points at which.
 - **[The Great Divide](https://nanobotco.github.io/carolina-barbecue/story/the-great-divide/)**
   — the columnists' war, the 2006 bills, the 2007 compromise, and the part both camps skip.
 - **[Pig art](https://nanobotco.github.io/carolina-barbecue/art/)** — the pig that

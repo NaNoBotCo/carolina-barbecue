@@ -84,7 +84,9 @@
   "s:commons",
   "s:flickr-commons",
   "s:flickr-ncsa",
-  "s:ncsa-massengill"
+  "s:ncsa-massengill",
+  "s:unc-nc-postcards",
+  "s:flickr-unc"
  ],
  "provenance": {
   "default": {
@@ -111,6 +113,11 @@
     "tier": "harvested",
     "source": "s:ncsa-massengill",
     "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[8]": {
+    "tier": "harvested",
+    "source": "s:unc-nc-postcards",
+    "note": "read on the item's own page 2026-09-16: “Public Domain Work”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -238,6 +245,23 @@
    "sha256": "99447f5ae15f34994483a1ccc8a8ce7fa5e162f294d2057b14f6f9fc21428eb9",
    "width": 1670,
    "height": 1079
+  },
+  {
+   "file": "barbecue-postcards/barbecue-postcards-special-north-carolina-barbecue-charlotte.jpg",
+   "source": "flickr",
+   "title": "Charlotte, N.C. The Industrial Center of the New South, Special North Carolina Barbecue",
+   "url": "https://live.staticflickr.com/5775/22680294608_6f5f26a52f_o.jpg",
+   "page_url": "https://www.flickr.com/photos/unclibraries_commons/22680294608/",
+   "license": "Public domain",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "author": "University of North Carolina at Chapel Hill",
+   "credit": "North Carolina Postcards, North Carolina Collection Photographic Archives, Wilson Library, UNC-Chapel Hill",
+   "alt": "A hand-coloured postcard. Sixteen or so men in suits stand shoulder to shoulder behind a long white-clothed table set up among trees, most in bowler or straw hats, several holding glasses, one a bread roll. The table carries plates of food, tumblers and three big round metal basins. Overprinted across the lower part in red script: “Charlotte, N. C., The Industrial Center of the New South, Special North Carolina Barbecue.”",
+   "date": "ca. 1905-1915",
+   "primary": false,
+   "sha256": "ab56b302b5eeecc80e663ffc7d621ead529794c4bf6846baadd6269630ff8c4c",
+   "width": 1200,
+   "height": 765
   }
  ],
  "confidence": "medium",
@@ -342,6 +366,24 @@
    "url": "https://www.flickr.com/photos/north-carolina-state-archives/",
    "accessed": "2026-09-16",
    "note": "North Carolina postcards, including linen-era and later chrome cards of named barbecue houses: Wilber's at Goldsboro, Parker's at Wilson, the Barbecue Lodge at Raleigh. Cards are undated in the collection's captions; the dates this project gives come from what is in the frame and are marked as such."
+  },
+  {
+   "id": "s:unc-nc-postcards",
+   "kind": "dataset",
+   "title": "North Carolina Postcards, North Carolina Collection Photographic Archives",
+   "publisher": "Wilson Library, University of North Carolina at Chapel Hill",
+   "url": "https://dcr.lib.unc.edu/",
+   "accessed": "2026-09-16",
+   "note": "Postcards of North Carolina businesses, streets and highways, mostly linen and chrome era, from the Durwood Barbour Collection (P077) and the North Carolina Postcard Collection (P052)."
+  },
+  {
+   "id": "s:flickr-unc",
+   "kind": "dataset",
+   "title": "UNC Libraries Commons on Flickr Commons",
+   "publisher": "University of North Carolina at Chapel Hill Libraries",
+   "url": "https://www.flickr.com/photos/unclibraries_commons/",
+   "accessed": "2026-09-16",
+   "note": "North Carolina Postcards and other Wilson Library material, posted under the Public Domain Mark. The library's own repository at dcr.lib.unc.edu serves the same cards, but there the rights appear only as the free-text words 'Public Domain' typed into a metadata field; the Flickr copies carry a rights URI, which is the firmer of the two statements, so they are the ones this project took."
   }
  ],
  "tiers": {

@@ -143,7 +143,12 @@
   "s:wp-skylight-inn-bbq",
   "s:osm",
   "s:web-truecue-nc",
-  "s:wp-james-beard-americas-classics"
+  "s:wp-james-beard-americas-classics",
+  "s:unc-nc-postcards",
+  "s:flickr-commons",
+  "s:flickr-unc",
+  "s:flickr-sfa",
+  "s:flickr"
  ],
  "provenance": {
   "default": {
@@ -173,12 +178,101 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "harvest row is named 'Lexington BBQ'"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:unc-nc-postcards",
+    "note": "read on the item's own page 2026-09-16: “Public Domain Work”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[1]": {
+    "tier": "harvested",
+    "source": "s:flickr-sfa",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[2]": {
+    "tier": "harvested",
+    "source": "s:flickr-sfa",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[3]": {
+    "tier": "harvested",
+    "source": "s:flickr-sfa",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
  "confidence": "high",
  "needs_verification": false,
- "images": [],
+ "images": [
+  {
+   "file": "lexington-barbecue/lexington-barbecue-the-original-lexington-barbecue-postcard.jpg",
+   "source": "flickr",
+   "title": "The Original Lexington Barbecue -- North of Winston Salem, N.C. -- Hwy. 52 at Motor",
+   "url": "https://live.staticflickr.com/725/22475472794_191592a13b_o.jpg",
+   "page_url": "https://www.flickr.com/photos/unclibraries_commons/22475472794/",
+   "license": "Public domain",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "author": "University of North Carolina at Chapel Hill",
+   "credit": "North Carolina Postcards, North Carolina Collection Photographic Archives, Wilson Library, UNC-Chapel Hill",
+   "alt": "A black-and-white postcard of a single-storey roadside restaurant with a stone-faced lower wall and striped awnings over each window. A sign along the roof ridge reads LEXINGTON BAR-B-Q; a tall pole sign stands at the right edge of the frame, and two petrol pumps and a vending machine sit by the right-hand door. A light-coloured car of the early 1950s is parked at the left. Houses and trees on a rise behind. Printed beneath the image: “The Original LEXINGTON BARBECUE — North of Winston Salem, N. C. — Hwy. 52 at Motor Rd.”",
+   "date": "ca. 1930-1945",
+   "primary": true,
+   "sha256": "573472c89abdbd3725f6229e3b69f16f6a48f147e4b3be8ed7fdaec799027f63",
+   "width": 1200,
+   "height": 742
+  },
+  {
+   "file": "lexington-barbecue/lexington-barbecue-shoulders-loaded-on-the-pit.jpg",
+   "source": "flickr",
+   "title": "shoulders at Lexington BBQ",
+   "url": "https://live.staticflickr.com/3300/3500458139_a8595069af_h.jpg",
+   "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3500458139/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Amy C. Evans; Southern Foodways Alliance",
+   "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+   "alt": "Raw pork shoulders packed close in rows on the steel grate of a long masonry pit, skin side up. The pit's side is painted brick, red below and blackened above, with a heavy hinged steel lid; a flattened cardboard box rests across the open end. Smoke and steam hang over the meat.",
+   "date": "2008-02",
+   "primary": false,
+   "sha256": "34a1b22d47e702750c5c7e2cf7baaca57fc2ac5f6f21e3aafc6a17409aab5949",
+   "width": 1600,
+   "height": 1064
+  },
+  {
+   "file": "lexington-barbecue/lexington-barbecue-slicing-a-cooked-shoulder.jpg",
+   "source": "flickr",
+   "title": "chopping shoulders at Lexington BBQ",
+   "url": "https://live.staticflickr.com/3320/3501274532_43e134e1ab_h.jpg",
+   "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3501274532/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Amy C. Evans; Southern Foodways Alliance",
+   "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+   "alt": "A man in a blue apron works a long knife through a cooked pork shoulder on a red cutting board, holding the meat steady with his other hand; the crusted outside is dark and the cut face is pale. Two steel hotel pans stand in front of him, one heaped with pulled and chopped pork, the other holding larger pieces in their own juices. Two cleavers and a knife lie on a cloth at the left; stainless kitchen equipment behind.",
+   "date": "2008-02",
+   "primary": false,
+   "sha256": "1766e0c108db6c6607d5fc078ebc7569c8fa7aa036a5617141472d066e918f0a",
+   "width": 1600,
+   "height": 1064
+  },
+  {
+   "file": "lexington-barbecue/lexington-barbecue-tray-with-slaw-and-hushpuppies.jpg",
+   "source": "flickr",
+   "title": "bbq with slaw and hushpuppies at Lexington Barbecue",
+   "url": "https://live.staticflickr.com/3361/3500459381_7e06bf5ae5_h.jpg",
+   "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3500459381/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Amy C. Evans; Southern Foodways Alliance",
+   "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+   "alt": "A paper boat on a formica counter holding chopped pork with flecks of dark bark and red pepper through it, and beside it a heaped mound of finely chopped slaw. Behind, a second paper boat of hushpuppies, a bottle of sauce with a yellow and red label, and a printed card.",
+   "date": "2008-02",
+   "primary": false,
+   "sha256": "c8bf89065b8d92652b069b0cad08683a8470ce5a1f2573c3ad96a62dc6095163",
+   "width": 1600,
+   "height": 1064
+  }
+ ],
  "updated": "2026-09-16",
  "tags": [
   {

@@ -114,7 +114,9 @@
   "s:web-samjones-menu",
   "s:book-mrs-hills-new-cook-book",
   "s:wikibooks-barbecue-rub",
-  "s:wikibooks-north-carolina-style-bbq-chicken"
+  "s:wikibooks-north-carolina-style-bbq-chicken",
+  "s:flickr-sfa",
+  "s:flickr"
  ],
  "provenance": {
   "default": {
@@ -140,6 +142,11 @@
     "tier": "cited",
     "source": "s:wikibooks-north-carolina-style-bbq-chicken",
     "note": "each recipe carries its own source, licence and page"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:flickr-sfa",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -209,7 +216,25 @@
    "note": "A dry rub, the other way a bird is seasoned before it goes on."
   }
  ],
- "images": [],
+ "images": [
+  {
+   "file": "barbecue-chicken/barbecue-chicken-chickens-on-the-pit.jpg",
+   "source": "flickr",
+   "title": "10 Chickens on the pit",
+   "url": "https://live.staticflickr.com/2468/3834225797_81dda4da89_h.jpg",
+   "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3834225797/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Alan Pike; Southern Foodways Alliance",
+   "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+   "alt": "Split chickens laid out in overlapping rows on the wire grate of a long pit, skin gone deep gold, filling the frame from the near corner into smoke at the far end. A chain hangs from the pit's hinged lid at the left; the pit stands against a whitewashed concrete-block wall on a concrete floor.",
+   "date": "2009-07",
+   "primary": true,
+   "sha256": "dc455e0d97c812aabf7b8be2796f0279d668d019f012e0ee2a422432731f0a52",
+   "width": 1600,
+   "height": 1199
+  }
+ ],
  "x_commons_files": [],
  "confidence": "high",
  "needs_verification": false,
@@ -412,6 +437,23 @@
    "accessed": "2026-09-16",
    "license": "CC BY-SA 4.0",
    "note": "Text of the Wikibooks Cookbook is licensed CC BY-SA 4.0; copied here with the page named and the licence carried along. Wiki links and the page's own notes are dropped; the wording of the ingredients and the steps is the page's."
+  },
+  {
+   "id": "s:flickr-sfa",
+   "kind": "dataset",
+   "title": "Southern Foodways Alliance photographs on Flickr",
+   "publisher": "Southern Foodways Alliance, University of Mississippi",
+   "url": "https://www.flickr.com/photos/southernfoodwaysalliance/",
+   "accessed": "2026-09-16",
+   "note": "The Alliance's oral-history and Southern BBQ Trail photographs. ⚠ The account is split by project, not by subject: the 2007-2009 sets by Amy C. Evans and Alan Pike carry CC BY 2.0, while the 2012 North Carolina and South Carolina Barbecue Trail sets by Denny Culbert — which hold the Skylight Inn, Stamey's, Bum's, Short Sugar's, Grady's, Cook's, the Barbecue Center, Sweatman's, Hite's and Brown's — are all rights reserved. Nothing from the Culbert sets is used here."
+  },
+  {
+   "id": "s:flickr",
+   "kind": "dataset",
+   "title": "Flickr — individually licensed photographs",
+   "url": "https://www.flickr.com/creativecommons/",
+   "accessed": "2026-09-16",
+   "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
   }
  ],
  "tiers": {
@@ -434,7 +476,23 @@
    "note": "prices and hours as printed in 2016 and 2017; check before driving"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "barbecue-chicken/barbecue-chicken-chickens-on-the-pit.jpg",
+  "source": "flickr",
+  "title": "10 Chickens on the pit",
+  "url": "https://live.staticflickr.com/2468/3834225797_81dda4da89_h.jpg",
+  "page_url": "https://www.flickr.com/photos/southernfoodwaysalliance/3834225797/",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Alan Pike; Southern Foodways Alliance",
+  "credit": "Southern Foodways Alliance, Southern BBQ Trail",
+  "alt": "Split chickens laid out in overlapping rows on the wire grate of a long pit, skin gone deep gold, filling the frame from the near corner into smoke at the far end. A chain hangs from the pit's hinged lid at the left; the pit stands against a whitewashed concrete-block wall on a concrete floor.",
+  "date": "2009-07",
+  "primary": true,
+  "sha256": "dc455e0d97c812aabf7b8be2796f0279d668d019f012e0ee2a422432731f0a52",
+  "width": 1600,
+  "height": 1199
+ },
  "tag_facts": [],
  "recognition_facts": [],
  "acclaim": 0,

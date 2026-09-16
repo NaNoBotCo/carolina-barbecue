@@ -302,11 +302,12 @@ def read_photo(ref: str, user: str = "") -> dict:
 
 # ------------------------------------------------------------------ listing
 def lite_rows(html: str) -> list[dict]:
-    """Search, album and tag pages server-render a photo-lite model per result: id,
-    title, description, licence and every rendition. Good enough to triage from, never
-    good enough to download from — --harvest re-reads each photograph's own page."""
+    """Every result a listing page server-rendered, with id, title, description, licence
+    and renditions. Search pages use photo-lite-models and album, tag and photostream
+    pages use photo-models, so both are read. Good enough to triage from, never good
+    enough to download from — --harvest re-reads each photograph's own page."""
     rows = []
-    for m in models(html, "photo-lite-models"):
+    for m in models(html, "photo-lite-models") + [x for x in models(html, "photo-models") if "title" in x]:
         pid = str(m.get("id") or "")
         if not pid:
             continue
@@ -314,11 +315,14 @@ def lite_rows(html: str) -> list[dict]:
         label, lurl, _w, _u, free = LICENSES.get(num, ("?", "", set(), "", False))
         sizes = sizes_of(m)
         pick = biggest(sizes)
-        path = m.get("pathAlias") or ""
+        owner = m.get("owner")
+        owner = owner if isinstance(owner, dict) else {}
+        owner = owner.get("data", owner) if isinstance(owner.get("data"), dict) else owner
+        path = m.get("pathAlias") or owner.get("pathAlias") or ""
         rows.append({
             "id": pid, "title": m.get("title") or "", "description": (m.get("description") or "")[:400],
             "page_url": f"https://www.flickr.com/photos/{path}/{pid}/" if path else "",
-            "holder": m.get("realname") or m.get("username") or "",
+            "holder": m.get("realname") or m.get("username") or owner.get("username") or owner.get("realname") or "",
             "license_num": num, "license": label, "license_url": lurl, "free": free,
             "width": (pick[1]["width"] if pick else 0), "height": (pick[1]["height"] if pick else 0),
         })
@@ -347,7 +351,14 @@ def walk(target: str) -> list[dict]:
         raise SystemExit("a bare album id needs its account: pass the full album URL")
     else:
         url = f"https://www.flickr.com/photos/{t}/"
-    return lite_rows(get(url))
+    rows = lite_rows(get(url))
+    # album and photostream models carry no pathAlias, so a row from one has no page_url
+    # until the account the walk was pointed at is put back in
+    m = re.search(r"/photos/([^/]+)", url)
+    for r in rows:
+        if not r["page_url"] and m:
+            r["page_url"] = f"https://www.flickr.com/photos/{m.group(1)}/{r['id']}/"
+    return rows
 
 
 def write_triage(name: str, rows: list[dict]):

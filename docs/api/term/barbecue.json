@@ -68,7 +68,8 @@
   "s:moss-barbecue-history",
   "s:flickr-commons",
   "s:flickr-ncsa",
-  "s:ncsa-condev"
+  "s:ncsa-condev",
+  "s:greenville-union-bleachery"
  ],
  "provenance": {
   "default": {
@@ -93,6 +94,11 @@
     "tier": "harvested",
     "source": "s:ncsa-condev",
     "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "images[1]": {
+    "tier": "harvested",
+    "source": "s:greenville-union-bleachery",
+    "note": "read on the item's own page 2026-09-16: “Public Domain”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -113,6 +119,21 @@
    "sha256": "692460bd7dfa658e8884a320bee196ca1259943b4c8bced1709869397e4f9969",
    "width": 2048,
    "height": 1797
+  },
+  {
+   "file": "barbecue/barbecue-union-bleachery-annual-barbecue.jpg",
+   "source": "other",
+   "title": "Annual Barbecue",
+   "url": "https://greenvillelibrary.contentdm.oclc.org/iiif/2/p17168coll61:45/full/1400,/0/default.jpg",
+   "page_url": "https://cdm17168.contentdm.oclc.org/digital/collection/p17168coll61/id/45",
+   "license": "Public domain",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "author": "Greenville County Library System",
+   "credit": "Union Bleachery collection, Greenville County Library System; from the Union Bleachery Historical Society",
+   "alt": "A crowded outdoor serving line, printed as a newspaper halftone so the dot screen shows. Along the near side of long trestle tables, women in aprons and short sleeves serve: one ladles from a metal bucket, another lifts bread rolls out of a big open cardboard carton, a third fills a plate held out to her. Men in shirtsleeves, ties and summer hats file past on the far side with plates and bowls. Behind them the queue winds back uphill among trees past a wooden rail fence, dozens more people standing and sitting on the slope. A galvanised tub stands in the near corner.",
+   "date": "circa 1950s",
+   "primary": false,
+   "sha256": "70e8e9a36f1d81c71cf21027e80c80e816b380cff3fa83c9098751b649d87c99"
   }
  ],
  "confidence": "high",
@@ -212,6 +233,15 @@
    "url": "https://www.flickr.com/photos/north-carolina-state-archives/albums/",
    "accessed": "2026-09-16",
    "note": "Photographs made by the state's own News Bureau for publicity use, many of them mounted on printed subject sheets with the locality and date written in by hand. John Hemmer and Bill Sharpe are the photographers named on the barbecue sheets. The sheets are the caption: the pencil on them is quoted in this project's alt text as writing on the object, not as a finding of fact."
+  },
+  {
+   "id": "s:greenville-union-bleachery",
+   "kind": "dataset",
+   "title": "Union Bleachery collection",
+   "publisher": "Greenville County Library System, South Carolina; from the Union Bleachery Historical Society",
+   "url": "https://cdm17168.contentdm.oclc.org/digital/collection/p17168coll61",
+   "accessed": "2026-09-16",
+   "note": "Photographs of the Union Bleachery textile plant at Greenville, including the employees' annual barbecue at Paris Mountain State Park as printed in the company newsletter The Commentator. The item's Rights field reads 'Public Domain'. It is the only openly licensed South Carolina barbecue photograph this project has found."
   }
  ],
  "tiers": {

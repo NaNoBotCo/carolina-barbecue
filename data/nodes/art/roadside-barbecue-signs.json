@@ -99,7 +99,8 @@
  "sources": [
   "s:commons-margolies",
   "s:commons",
-  "s:wp-maurice-bessinger"
+  "s:wp-maurice-bessinger",
+  "s:flickr"
  ],
  "provenance": {
   "default": {
@@ -121,6 +122,11 @@
     "tier": "harvested",
     "source": "s:commons",
     "note": "both described from the photographs; the plaque's wording, the House designation and the March 11, 1985 commissioning date are read off the tablet itself in Dennis Brown's 2008 photograph"
+   },
+   "images[6]": {
+    "tier": "harvested",
+    "source": "s:flickr",
+    "note": "read on the item's own page 2026-09-16: “CC BY-SA 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
@@ -214,6 +220,23 @@
    "date": "2008-11-20",
    "primary": false,
    "sha256": "72786748eb2544f8e36f9b618f9de547eb27e75132af62dae01c840194b42433"
+  },
+  {
+   "file": "roadside-barbecue-signs/roadside-barbecue-signs-bar-b-q-center-lexington.jpg",
+   "source": "flickr",
+   "title": "Bar-B-Q Center",
+   "url": "https://live.staticflickr.com/3254/2829091756_01bd879bdf_k.jpg",
+   "page_url": "https://www.flickr.com/photos/natecardozo/2829091756/",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Nathan Cardozo",
+   "credit": "Nathan Cardozo via Flickr",
+   "alt": "A roadside pylon sign at Lexington, North Carolina: a candy-striped maroon and yellow post carrying a brown cabinet lettered BAR·B·Q over CENTER in white with exposed neon tubes bent around each letter, and PIT-COOKED painted below with no neon. Small credit-card panels and a CURB SERVICE board hang underneath, and a changeable A-board at the kerb prices a quart of chopped barbecue, a pint of slaw and a dozen rolls at $13.00.",
+   "date": "",
+   "primary": false,
+   "sha256": "3e17b328f5c3011993cc2dcd7a558446cc2fb24a492200b99e2fa2690c5bcbfd",
+   "width": 1536,
+   "height": 2048
   }
  ],
  "confidence": "medium",

@@ -1,0 +1,64 @@
+{
+ "note": "What tools/harvest_archives.py is to fetch from library and archive repositories, and where each item goes. Everything here was found through DPLA and then verified on the holding institution's own item page, which is the only place the rights were read. Alt text is written by hand from looking at the picture.",
+ "written": "2026-09-16",
+ "items": [
+  {
+   "key": "nc-barbecue-1898",
+   "record": "political-barbecue",
+   "holder_kind": "digitalnc",
+   "record_id": "242383",
+   "file": "PA2_23_1m.jpg",
+   "slug": "nc-barbecue-tarboro-1898",
+   "width": 1600,
+   "date": "1898",
+   "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+   "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+   "source": "Edgecombe County Memorial Library via DigitalNC",
+   "alt": "A sepia photograph mounted on card with a ruled border. A shallow trench of coals runs away from the camera down the middle of the frame, and split pig carcasses lie flat along it in a long row, smoke drifting up. Four or five men in hats stand along the trench; the nearest works the meat with a long-handled tool. A white canvas awning on poles runs the length of the right-hand side, and a loose length of the same canvas sweeps across the bottom corner. A carriage wheel shows at the right edge. Bare ground, scattered trees and open country behind."
+  },
+  {
+   "key": "pigs-1898",
+   "record": "pig-pickin",
+   "holder_kind": "digitalnc",
+   "record_id": "242366",
+   "file": "PA2_19_4m.jpg",
+   "slug": "pigs-on-the-trench-tarboro-1898",
+   "width": 1600,
+   "date": "1898",
+   "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+   "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+   "source": "Edgecombe County Memorial Library via DigitalNC",
+   "alt": "The same cooking trench from the other end and further back: a long line of split pigs laid flat on the coals, running from the bottom of the frame up a low rise. A dozen people stand at the far end beside a white canvas awning stretched on poles, some in wide hats; a man walks towards the camera along the edge of the trench. A tall tree at the right, a hedgerow along the horizon, and an open field beyond. Sepia print mounted on card, its lower margin printed with the word Subject and a ruled line."
+  },
+  {
+   "key": "roast-pig-1898",
+   "record": "pit",
+   "holder_kind": "digitalnc",
+   "record_id": "242419",
+   "file": "PA2_31_1m.jpg",
+   "slug": "roast-pig-tarboro-1898",
+   "width": 1600,
+   "date": "1898",
+   "author": "Lena Pennington Martin (1877-1950); Edgecombe County Memorial Library",
+   "credit": "Lena Martin Photograph Collection, Edgecombe County Memorial Library, via DigitalNC",
+   "source": "Edgecombe County Memorial Library via DigitalNC",
+   "alt": "Smoke hangs in the air among tall bare-trunked trees. In the middle of the frame a man in a dark hat and coat stands in profile beside a low line of banked earth with meat and burning wood on it; two people sit on the ground to his left. Further back, small figures move around tables in a clearing. Across the foreground run the low ridges of a dug trench and a band of white canvas laid flat on the grass. Sepia print mounted on card."
+  },
+  {
+   "key": "union-bleachery-annual-barbecue",
+   "record": "barbecue",
+   "holder_kind": "contentdm",
+   "base": "https://cdm17168.contentdm.oclc.org",
+   "iiif": "https://greenvillelibrary.contentdm.oclc.org/iiif/2",
+   "alias": "p17168coll61",
+   "item_id": "45",
+   "slug": "union-bleachery-annual-barbecue",
+   "width": 1400,
+   "date": "circa 1950s",
+   "author": "Greenville County Library System",
+   "credit": "Union Bleachery collection, Greenville County Library System; from the Union Bleachery Historical Society",
+   "source": "Greenville County Library System",
+   "alt": "A crowded outdoor serving line, printed as a newspaper halftone so the dot screen shows. Along the near side of long trestle tables, women in aprons and short sleeves serve: one ladles from a metal bucket, another lifts bread rolls out of a big open cardboard carton, a third fills a plate held out to her. Men in shirtsleeves, ties and summer hats file past on the far side with plates and bowls. Behind them the queue winds back uphill among trees past a wooden rail fence, dozens more people standing and sitting on the slope. A galvanised tub stands in the near corner."
+  }
+ ]
+}

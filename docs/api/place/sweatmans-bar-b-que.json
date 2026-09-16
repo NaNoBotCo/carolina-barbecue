@@ -120,7 +120,8 @@
   "s:web-destination-bbq-sweatmans",
   "s:web-sweatmans-hours",
   "s:web-sfa-melvins-legendary-bar-b-q",
-  "s:osm"
+  "s:osm",
+  "s:flickr"
  ],
  "provenance": {
   "default": {
@@ -156,12 +157,35 @@
     "tier": "cited",
     "source": "s:web-destination-bbq-sweatmans",
     "note": "Margie Sweatman co-opened the house with her husband in 1977, but the family sold in 2011 and new owners took over in 2026, so no woman-owned and no family-run tag is set. The Southern Pride cabinet cookers are gas with wood for smoke, so no wood-cooked tag is set either."
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:flickr",
+    "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
  "confidence": "medium",
  "needs_verification": true,
- "images": [],
+ "images": [
+  {
+   "file": "sweatmans-bar-b-que/sweatmans-bar-b-que-the-lot-at-holly-hill.jpg",
+   "source": "flickr",
+   "title": "Sweatman's Bar-b-que",
+   "url": "https://live.staticflickr.com/158/342412348_819961b534_k.jpg",
+   "page_url": "https://www.flickr.com/photos/joeshlabotnik/342412348/",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Joe Shlabotnik",
+   "credit": "Joe Shlabotnik via Flickr",
+   "alt": "A low white frame farmhouse with a railed porch stands under a wide evergreen oak, a smaller white outbuilding with a brick chimney beyond it to the right. About a dozen cars, SUVs and pickups are parked in a row on a rutted, puddled dirt lot in the foreground; two people stand between them. Bare pecan trees, a streetlight on a wooden pole, and a winter sky.",
+   "date": "",
+   "primary": true,
+   "sha256": "2bc41e94ebe01f814cb265374b57761ca6c9384dcd25b8f4d957e01ec7bf3ff6",
+   "width": 2048,
+   "height": 1541
+  }
+ ],
  "updated": "2026-09-16",
  "tags": [
   {
@@ -340,6 +364,14 @@
    "url": "https://www.openstreetmap.org/copyright",
    "license": "ODbL 1.0",
    "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:flickr",
+   "kind": "dataset",
+   "title": "Flickr — individually licensed photographs",
+   "url": "https://www.flickr.com/creativecommons/",
+   "accessed": "2026-09-16",
+   "note": "Photographs uploaded by individuals under a Creative Commons licence of their own choosing. The licence is per photograph and the uploader can change it at any time, so what was granted is the statement read on the page on the date in each sidecar. Share-alike files are complied with rather than avoided: the licence and the photographer ride with the file."
   }
  ],
  "tiers": {
@@ -371,7 +403,23 @@
    "source": "s:web-sweatmans-hours"
   }
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "sweatmans-bar-b-que/sweatmans-bar-b-que-the-lot-at-holly-hill.jpg",
+  "source": "flickr",
+  "title": "Sweatman's Bar-b-que",
+  "url": "https://live.staticflickr.com/158/342412348_819961b534_k.jpg",
+  "page_url": "https://www.flickr.com/photos/joeshlabotnik/342412348/",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Joe Shlabotnik",
+  "credit": "Joe Shlabotnik via Flickr",
+  "alt": "A low white frame farmhouse with a railed porch stands under a wide evergreen oak, a smaller white outbuilding with a brick chimney beyond it to the right. About a dozen cars, SUVs and pickups are parked in a row on a rutted, puddled dirt lot in the foreground; two people stand between them. Bare pecan trees, a streetlight on a wooden pole, and a winter sky.",
+  "date": "",
+  "primary": true,
+  "sha256": "2bc41e94ebe01f814cb265374b57761ca6c9384dcd25b8f4d957e01ec7bf3ff6",
+  "width": 2048,
+  "height": 1541
+ },
  "tag_facts": [
   {
    "key": "whole-hog",

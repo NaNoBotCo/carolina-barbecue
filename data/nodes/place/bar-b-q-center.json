@@ -114,7 +114,8 @@
   "s:sfa-barbecue-center",
   "s:osm",
   "s:web-truecue-nc",
-  "s:web-barbecuebros-nc-trail"
+  "s:web-barbecuebros-nc-trail",
+  "s:flickr"
  ],
  "provenance": {
   "default": {
@@ -135,12 +136,35 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "city corrected from Thomasville to Lexington"
+   },
+   "images[0]": {
+    "tier": "harvested",
+    "source": "s:flickr",
+    "note": "read on the item's own page 2026-09-16: “CC BY-SA 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
    }
   }
  },
  "confidence": "high",
  "needs_verification": false,
- "images": [],
+ "images": [
+  {
+   "file": "bar-b-q-center/bar-b-q-center-the-neon-sign.jpg",
+   "source": "flickr",
+   "title": "Bar-B-Q Center",
+   "url": "https://live.staticflickr.com/3254/2829091756_01bd879bdf_k.jpg",
+   "page_url": "https://www.flickr.com/photos/natecardozo/2829091756/",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Nathan Cardozo",
+   "credit": "Nathan Cardozo via Flickr",
+   "alt": "A tall roadside sign on a pylon striped diagonally in maroon and yellow. The brown cabinet carries BAR·B·Q above CENTER in white letters outlined in bare neon tubing, and PIT-COOKED painted in plain white beneath. Below the cabinet hang small panels for American Express, MasterCard and Visa, and a second board reading CURB SERVICE. A plastic A-board on the pavement reads: QUART CHOPPED BARBECUE, PT SLAW, DZ ROLLS, $13.00. The brick corner of the restaurant is at the left and a four-lane road runs behind.",
+   "date": "",
+   "primary": true,
+   "sha256": "3e17b328f5c3011993cc2dcd7a558446cc2fb24a492200b99e2fa2690c5bcbfd",
+   "width": 1536,
+   "height": 2048
+  }
+ ],
  "updated": "2026-09-16",
  "tags": [
   {
