@@ -56,24 +56,38 @@ TRIAGE = IMAGES / "_triage"
 PLAN = HARVEST / "flickr-plan.json"
 DELAY = 1.5  # seconds between page fetches
 
-# Flickr's licence ids. `words` is what the photo page prints in the licence link's
-# title attribute; a page whose words disagree with its number is refused rather than
-# guessed at, because the number is the only half of the pair this table knows.
+# Flickr's licence ids, with the two things a photo page prints beside each: the words
+# in the licence link's title attribute, and the URL that link points at. A page is
+# believed only when its number, its words and its URL all say the same licence.
+#
+# `words` is a set because Flickr has printed several wordings for the same id over the
+# years and still serves a mixture: id 4 appears as "CC BY 2.0" and as "Attribution
+# License", id 10 as "Public Domain Work" and as "Public Domain Mark". A wording not on
+# this list is refused, not guessed at — that refusal is how this list grew, and the URL
+# leg is what makes widening it safe: a wording can drift, a deed URL names the licence.
 LICENSES = {
-    0:  ("All rights reserved", "", "", False),
-    1:  ("CC BY-NC-SA 2.0", "https://creativecommons.org/licenses/by-nc-sa/2.0/", "Attribution-NonCommercial-ShareAlike", False),
-    2:  ("CC BY-NC 2.0", "https://creativecommons.org/licenses/by-nc/2.0/", "Attribution-NonCommercial", False),
-    3:  ("CC BY-NC-ND 2.0", "https://creativecommons.org/licenses/by-nc-nd/2.0/", "Attribution-NonCommercial-NoDerivs", False),
-    4:  ("CC BY 2.0", "https://creativecommons.org/licenses/by/2.0/", "Attribution", True),
-    5:  ("CC BY-SA 2.0", "https://creativecommons.org/licenses/by-sa/2.0/", "Attribution-ShareAlike", True),
-    6:  ("CC BY-ND 2.0", "https://creativecommons.org/licenses/by-nd/2.0/", "Attribution-NoDerivs", False),
-    7:  ("No known copyright restrictions", "https://www.flickr.com/commons/usage/", "No known copyright restrictions", True),
-    8:  ("United States Government Work", "http://www.usa.gov/copyright.shtml", "United States Government Work", True),
-    9:  ("CC0 1.0", "https://creativecommons.org/publicdomain/zero/1.0/", "Public Domain Dedication", True),
-    10: ("Public domain", "https://creativecommons.org/publicdomain/mark/1.0/", "Public Domain Mark", True),
+    0:  ("All rights reserved", "", {"all rights reserved"}, "", False),
+    1:  ("CC BY-NC-SA 2.0", "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+         {"cc by-nc-sa 2.0", "attribution-noncommercial-sharealike", "attribution-noncommercial-sharealike license"}, "licenses/by-nc-sa/2.0", False),
+    2:  ("CC BY-NC 2.0", "https://creativecommons.org/licenses/by-nc/2.0/",
+         {"cc by-nc 2.0", "attribution-noncommercial", "attribution-noncommercial license"}, "licenses/by-nc/2.0", False),
+    3:  ("CC BY-NC-ND 2.0", "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+         {"cc by-nc-nd 2.0", "attribution-noncommercial-noderivs", "attribution-noncommercial-noderivs license"}, "licenses/by-nc-nd/2.0", False),
+    4:  ("CC BY 2.0", "https://creativecommons.org/licenses/by/2.0/",
+         {"cc by 2.0", "attribution", "attribution license"}, "licenses/by/2.0", True),
+    5:  ("CC BY-SA 2.0", "https://creativecommons.org/licenses/by-sa/2.0/",
+         {"cc by-sa 2.0", "attribution-sharealike", "attribution-sharealike license"}, "licenses/by-sa/2.0", True),
+    6:  ("CC BY-ND 2.0", "https://creativecommons.org/licenses/by-nd/2.0/",
+         {"cc by-nd 2.0", "attribution-noderivs", "attribution-noderivs license"}, "licenses/by-nd/2.0", False),
+    7:  ("No known copyright restrictions", "https://www.flickr.com/commons/usage/",
+         {"no known copyright restrictions"}, "flickr.com/commons/usage", True),
+    8:  ("United States Government Work", "http://www.usa.gov/copyright.shtml",
+         {"united states government work", "u.s. government work"}, "usa.gov/copyright", True),
+    9:  ("CC0 1.0", "https://creativecommons.org/publicdomain/zero/1.0/",
+         {"cc0 1.0", "cc0", "public domain dedication", "no copyright"}, "publicdomain/zero/1.0", True),
+    10: ("Public domain", "https://creativecommons.org/publicdomain/mark/1.0/",
+         {"public domain mark", "public domain work", "public domain"}, "publicdomain/mark/1.0", True),
 }
-# The words a page may print for each id. Matched case-insensitively, substring both
-# ways, so "CC BY 2.0" and "Attribution" and "Attribution License" all satisfy id 4.
 SIZE_ORDER = ["k", "h", "l", "b", "c", "z", "m", "n", "w", "s", "q", "sq", "t", "o"]
 
 
@@ -176,10 +190,10 @@ def rights_from_page(html: str) -> dict:
 
     1. the numeric licence id in the page's photo model
     2. the words in the title attribute of the <a rel="license"> the page renders
-    3. the licence URL in the JSON-LD ImageObject
+    3. the licence URL — on that same anchor, and again in the JSON-LD ImageObject
 
-    Returns {num, words, href, label, license_url, free, agreed}. agreed is False when
-    the three disagree, and a disagreement is a refusal, not a tie-break.
+    Returns {num, words, href, ld, label, license_url, free, agreed, why}. `agreed` is
+    False when the three disagree, and a disagreement is a refusal, never a tie-break.
     """
     nums = sorted({int(m.group(1)) for m in re.finditer(r'"license":(\d+)[,}]', html)})
     anchors = re.findall(r'<a\s[^>]*rel="license[^"]*"[^>]*>', html)
@@ -205,22 +219,23 @@ def rights_from_page(html: str) -> dict:
         if ld:
             break
     num = nums[0] if len(nums) == 1 else (nums[-1] if nums else None)
+    base = {"num": num, "words": words, "href": href, "ld": ld}
     if num is None or num not in LICENSES:
-        return {"num": num, "words": words, "href": href, "ld": ld, "label": "", "license_url": "",
-                "free": False, "agreed": False, "why": f"no licence id on the page (found {nums})"}
-    label, lurl, expect, free = LICENSES[num]
-    w = words.lower()
-    e = expect.lower()
-    ok_words = bool(w) and (e in w or w in e or (w.startswith("attribution") and e.startswith("attribution") and w == e))
-    if not ok_words and num in (4, 5, 6, 1, 2, 3):
-        # Flickr writes these as "Attribution License", "Attribution-ShareAlike License", etc.
-        ok_words = w.replace(" license", "").strip() == e
-    if not ok_words:
-        return {"num": num, "words": words, "href": href, "ld": ld, "label": label, "license_url": lurl,
-                "free": False, "agreed": False,
-                "why": f"licence id {num} says {expect!r} but the page prints {words!r}"}
-    return {"num": num, "words": words, "href": href or lurl, "ld": ld, "label": label,
-            "license_url": lurl, "free": free, "agreed": True, "why": ""}
+        return {**base, "label": "", "license_url": "", "free": False, "agreed": False,
+                "why": f"no licence id on the page (found {nums})"}
+    label, lurl, ok_words, frag, free = LICENSES[num]
+    w = re.sub(r"\s+", " ", words).strip().lower()
+    if w not in ok_words:
+        return {**base, "label": label, "license_url": lurl, "free": False, "agreed": False,
+                "why": f"licence id {num} is {label}, but the page prints {words!r}, which is not a "
+                       f"wording this tool knows for it — look at the page before widening the list"}
+    seen = (href + " " + ld).lower()
+    if frag and frag not in seen:
+        return {**base, "label": label, "license_url": lurl, "free": False, "agreed": False,
+                "why": f"licence id {num} is {label}, but the page's licence link points at {href or ld!r}, "
+                       f"which does not contain {frag!r}"}
+    return {**base, "href": href or lurl, "label": label, "license_url": lurl,
+            "free": free, "agreed": True, "why": ""}
 
 
 PHOTOGRAPHER = re.compile(
@@ -296,7 +311,7 @@ def lite_rows(html: str) -> list[dict]:
         if not pid:
             continue
         num = m.get("license")
-        label, lurl, _w, free = LICENSES.get(num, ("?", "", "", False))
+        label, lurl, _w, _u, free = LICENSES.get(num, ("?", "", set(), "", False))
         sizes = sizes_of(m)
         pick = biggest(sizes)
         path = m.get("pathAlias") or ""
