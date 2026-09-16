@@ -286,3 +286,52 @@ def ramp_legend(cuts: list, ramp: list, unit: str) -> str:
                      f'<small style="font-size:.72rem;color:var(--mute)">{E(lab)}</small></span>')
     return (f'<div style="display:flex;gap:.35rem;flex-wrap:wrap;align-items:flex-end;margin:.6rem 0 .2rem">'
             + "".join(cells) + f'<span style="font-size:.8rem;color:var(--mute);margin-left:.5rem">{E(unit)}</span></div>')
+
+
+# ------------------------------------------------------------------ the week
+
+DAY_ORDER = ("Mo", "Tu", "We", "Th", "Fr", "Sa", "Su")
+DAY_ONE = {"Mo": "M", "Tu": "T", "We": "W", "Th": "T", "Fr": "F", "Sa": "S", "Su": "S"}
+
+
+def day_strip(days: dict, w=176, h=26, title=True) -> str:
+    """Seven boxes, Monday to Sunday. Filled means open, hollow means closed, and a dashed
+    outline means nobody has told us — which is not the same thing and never drawn as if
+    it were. Sunday is drawn apart because Sunday is the question people ask."""
+    if not days:
+        return ""
+    cell = (w - 10) / 7
+    out = [f'<svg class="daystrip" viewBox="0 0 {w} {h}" role="img" aria-label="'
+           + E(", ".join(f"{DAY_NAME[d]} {days.get(d, 'unknown')}" for d in DAY_ORDER)) + '">']
+    for i, d in enumerate(DAY_ORDER):
+        st = days.get(d, "unknown")
+        x = i * cell + (10 if d == "Su" else 0)
+        fill = {"open": "var(--ember)", "closed": "none", "unknown": "none"}[st]
+        stroke = {"open": "var(--ember)", "closed": "var(--mute)", "unknown": "var(--line)"}[st]
+        dash = ' stroke-dasharray="2.5 2.5"' if st == "unknown" else ""
+        col = {"open": "#fff", "closed": "var(--mute)", "unknown": "var(--line)"}[st]
+        out.append(f'<rect x="{x + 1.5:.1f}" y="3" width="{cell - 3:.1f}" height="{h - 8}" rx="4" fill="{fill}" '
+                   f'stroke="{stroke}" stroke-width="1.6"{dash}/>'
+                   f'<text x="{x + cell / 2:.1f}" y="{h / 2 + 4.5:.0f}" text-anchor="middle" fill="{col}" '
+                   f'style="font:700 11px -apple-system,sans-serif">{DAY_ONE[d]}</text>')
+        if title:
+            out.append(f'<title>{E(DAY_NAME[d])}: {E(st)}</title>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def day_key() -> str:
+    return ('<span class="daykey"><i class="on"></i> open <i class="off"></i> closed '
+            '<i class="unk"></i> not published</span>')
+
+
+DAY_CSS = """
+.daystrip{height:26px;width:176px;display:block}
+.daykey{font-size:.76rem;color:var(--mute);display:inline-flex;align-items:center;gap:.3rem;font-family:var(--ui,sans-serif)}
+.daykey i{width:.7rem;height:.9rem;border-radius:3px;display:inline-block;margin-left:.5rem}
+.daykey i.on{background:var(--ember);border:1.6px solid var(--ember)}
+.daykey i.off{border:1.6px solid var(--mute)}
+.daykey i.unk{border:1.6px dashed var(--line)}
+.sunday-yes{color:var(--ember);font-weight:700}
+.sunday-no{color:var(--mute)}
+"""

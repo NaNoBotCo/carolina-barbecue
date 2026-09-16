@@ -126,6 +126,10 @@
     "tier": "harvested",
     "source": "s:ncsa-massengill",
     "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-parkersbbqwilson"
    }
   }
  },
@@ -176,5 +180,21 @@
    "what": "a feature",
    "source": "s:web-ourstate-parkers"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Seven days, 9 to 7; take-out to 7:30.",
+  "source": "s:web-parkersbbqwilson",
+  "url": "https://parkersbbqwilson.com/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ }
 }

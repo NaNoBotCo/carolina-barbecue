@@ -125,6 +125,10 @@
    "text.today": {
     "tier": "cited",
     "source": "s:web-carolina-bbq-new-ellenton"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-carolina-bbq-new-ellenton"
    }
   }
  },
@@ -178,6 +182,23 @@
  ],
  "images": [],
  "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday 11 to 1:30, Thursday to Saturday 11 to 8.",
+  "source": "s:web-carolina-bbq-new-ellenton",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
  "blurb": "A mustard-sauce buffet house on South Main Street in New Ellenton, Aiken County, founded by Willie Mae Walker and her son Jess.",
  "region_terms": [
   {

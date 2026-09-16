@@ -119,7 +119,8 @@
   "s:web-melvins-press",
   "s:web-truecue-sc",
   "s:sfa-oral-histories",
-  "s:osm"
+  "s:osm",
+  "s:web-melvins-hours"
  ],
  "provenance": {
   "default": {
@@ -146,6 +147,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "Nominatim matched the Folly Road house number; the OSM barbecue harvest holds a bare node at the same spot"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-melvins-hours"
    }
   }
  },
@@ -204,5 +209,24 @@
   }
  ],
  "images": [],
- "updated": "2026-09-16"
+ "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday to Saturday 10:30 to 9; closed Sundays.",
+  "source": "s:web-melvins-hours",
+  "url": "https://melvinsbbq.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "both the James Island and Mount Pleasant houses."
+ }
 }

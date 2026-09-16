@@ -41,6 +41,19 @@ Every page says what its neighbours are to it, in both directions.
   serves itself, the mascots, the 1830s election prints.
 - **[Which side are you on?](https://nanobotco.github.io/carolina-barbecue/quiz/)**
 
+## Hours, and the Sunday question
+
+Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some
+people will tell you not to order barbecue anyway. The finder has an **Open Sunday** chip
+and an **Open today** chip, and every row carries a seven-box week: filled is open, hollow
+is closed, and **dashed means nobody has published it** — which is never drawn as closed,
+because a reader will drive on this.
+
+Of the 158 places whose days we could read, 91 open Sunday and 58 are shut; 224 more have
+not published their days at all. [The Sunday question](https://nanobotco.github.io/carolina-barbecue/story/the-sunday-question/)
+lays out the cooking-week reason, the church reason, and the belief that late-week
+barbecue is not the same — recorded as a belief, which this directory does not test.
+
 ## The rule behind the tags
 
 A place can be tagged Black-owned, woman-owned, LGBTQ+ welcoming, cooks over wood,

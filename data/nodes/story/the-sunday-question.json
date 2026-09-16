@@ -1,0 +1,99 @@
+{
+ "schema": 1,
+ "id": "the-sunday-question",
+ "type": "story",
+ "names": {
+  "name": "The Sunday question",
+  "aliases": [
+   "closed Sunday",
+   "Sunday barbecue"
+  ],
+  "said": "Ask a Carolina pit man about Sunday and you will get an answer about Thursday."
+ },
+ "region": [
+  "carolinas"
+ ],
+ "facets": {
+  "kind": "essay",
+  "state": "both"
+ },
+ "text": {
+  "what": "Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some people will tell you not to order barbecue anyway. Neither is about the meat being worse on a Sunday. Both are about when the fire was lit. This page lays out what can be counted, what the pits themselves say, and what is belief — and this directory does not take a side."
+ },
+ "sections": [
+  {
+   "h": "What the days actually show",
+   "text": "Of the places here whose days we could read, Saturday is kept by nearly all of them and Sunday is the one they drop. Monday is the next thinnest. The rest of the map has not published its days at all, and that is a hole in this directory rather than a finding about the Carolinas.\n\n*Inference —* the shape is the cooking week, not the calendar. A pit that cooks whole hogs overnight needs the crew rested and the pits cleaned before it starts again, so the quiet end of the week lands where the trade is thinnest."
+  },
+  {
+   "h": "Why the pit is cold on Sunday",
+   "text": "Our State, writing about Wilber's in Goldsboro, put it as plainly as anyone: the only day the pit isn't fired up is Sunday, when the restaurant is closed. The fire and the opening hours are the same fact stated twice.\n\nThat sentence has since been overtaken, and the way it was overtaken is the point. Wilber's closed in 2019, reopened in 2020, and now posts Sunday hours itself. A pit's week is a business decision that gets revisited, not a law — which is why this directory dates what it knows and says who said it.\n\nChurch is the other half, and the two have never been in competition: a Sunday closing suits a staff at service in the morning and a town that eats at home after it. *Tradition holds —* a pit that has cooked through Friday night and sold out Saturday has nothing left to sell on Sunday even if it wanted to, which is why 'closed Sunday' and 'closes when it runs out' so often sit on the same door."
+  },
+  {
+   "h": "The belief about Sunday meat",
+   "text": "*Tradition holds —* that barbecue eaten late in the week, Sunday included, is not the same as barbecue eaten the day it came off the pit; that what you are served on a slow day is the tail of a cook that started days earlier; and that a pit which is busy is a pit that is cooking fresh. Some people will not order barbecue on a Sunday for that reason, and some will not order it on a Monday for the same one.\n\nThis directory records the belief and does not test it. Nobody here has tasted anything, and a pit that reheats well is not a lesser pit. What the belief is useful for is reading a door: a place that cooks to sell out and closes is telling you its schedule, and a place open seven days is telling you a different one. Both are ways of running a barbecue house, and the Carolinas are full of both."
+  },
+  {
+   "h": "How to use the filter",
+   "text": "The finder has an Open Sunday chip and an Open today chip. They show only the pits a source actually says are open, so a pit whose days nobody has published is left out of the answer rather than guessed at — which keeps the list short and keeps a guess off the map. If you know a pit's days, that is exactly the kind of thing this directory is missing."
+  }
+ ],
+ "kin": [
+  {
+   "to": "wilbers-barbecue",
+   "as": "the pit Our State used to describe as dark on Sunday, and which now posts Sunday hours — the example and its own correction.",
+   "rel": "place"
+  },
+  {
+   "to": "whole-hog",
+   "as": "the cut that sets the schedule — an overnight cook is why the week has a shape at all.",
+   "rel": "pit"
+  },
+  {
+   "to": "eastern-nc",
+   "as": "the style most likely to cook to a number and stop when it is gone.",
+   "rel": "style"
+  },
+  {
+   "to": "pitmaster",
+   "as": "whose week this is, and who needs the day off.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Our State — Pit Stop: 22 Essential North Carolina Barbecue Joints",
+   "url": "https://www.ourstate.com/pit-stop-26-essential-north-carolina-barbecue-joints/"
+  }
+ ],
+ "sources": [
+  "s:web-ourstate-pit-stop",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ourstate-pit-stop"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "counted from the days this site could read, most of them OpenStreetMap opening_hours; the second paragraph is marked inference in the text"
+   },
+   "sections[2].text": {
+    "tier": "tradition",
+    "note": "a belief held in the trade and among eaters. No source tests it and this project does not; it is recorded as belief and marked as such inline."
+   },
+   "sections[1].text": {
+    "tier": "cited",
+    "source": "s:web-ourstate-pit-stop",
+    "note": "the Our State line is quoted as published; the reopening and the current Sunday hours are on the Wilber's record, read from the restaurant's own site 2026-09-16"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": false,
+ "updated": "2026-09-16"
+}

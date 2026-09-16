@@ -107,6 +107,10 @@
    "text.today": {
     "tier": "cited",
     "source": "s:web-destination-bbq-shulers"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-shulers"
    }
   }
  },
@@ -173,6 +177,18 @@
  ],
  "images": [],
  "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Thursday to Saturday, 11:30 to 8.",
+  "source": "s:web-destination-bbq-shulers",
+  "url": "https://destination-bbq.com/stores/shulers-barbecue/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
  "blurb": "An all-you-can-eat barbecue house on Highway 38 between Latta and Sellers, in Dillon County in the Pee Dee, opened in 1996 by Norton and Lynn Hughes and named for Norton's father Shuler Hughes, who made the sauce in…",
  "region_terms": [
   {

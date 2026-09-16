@@ -76,7 +76,8 @@
   "s:web-bpr-rad-2025",
   "s:web-mountainx-obama-2010",
   "s:web-12bones-news",
-  "s:osm"
+  "s:osm",
+  "s:web-12bones-home"
  ],
  "provenance": {
   "default": {
@@ -98,6 +99,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "Nominatim matched 12 Bones Brewing at the same Arden address; the OSM barbecue harvest holds a bare '12 Bones' node in Asheville with no address"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-12bones-home"
    }
   }
  },
@@ -151,6 +156,23 @@
  ],
  "images": [],
  "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Seven days a week, 11 a.m. to 8 p.m.",
+  "source": "s:web-12bones-home",
+  "url": "https://12bones.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Arden is the only location the company lists."
+ },
  "blurb": "A mountain barbecue house now trading from Hendersonville Road in Arden, south of Asheville, after Hurricane Helene took its River Arts District room in September 2024.",
  "region_terms": [
   {
@@ -239,6 +261,14 @@
    "url": "https://www.openstreetmap.org/copyright",
    "license": "ODbL 1.0",
    "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-12bones-home",
+   "kind": "web",
+   "title": "12 Bones Smokehouse — hours and locations",
+   "publisher": "12 Bones Smokehouse (official site)",
+   "url": "https://12bones.com/",
+   "accessed": "2026-09-16"
   }
  ],
  "tiers": {

@@ -120,6 +120,10 @@
     "tier": "cited",
     "source": "s:web-fuzzys-bbq",
     "note": "three sources, three sets of hours; the NC Pork Council also gives a different street, which four other sources contradict"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-fuzzys-bbq"
    }
   }
  },
@@ -168,6 +172,21 @@
  ],
  "images": [],
  "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Tuesday to Saturday, from seven in the morning.",
+  "source": "s:web-fuzzys-bbq",
+  "url": "https://fuzzysbbqmadison.com/ABOUT_US_.html",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the restaurant's page gives Monday to Saturday and Sunday; the NC Pork Council gives Tuesday to Saturday, closed Sunday and Monday. Sunday and Monday are left unstated."
+ },
  "blurb": "A pork-shoulder house on Highway Street in Madison, Rockingham County, opened in 1954 by T.H. 'Fuzzy' Nelson and in the Nelson family since.",
  "region_terms": [
   {

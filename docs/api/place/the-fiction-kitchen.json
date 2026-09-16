@@ -101,6 +101,10 @@
    "text.how": {
     "tier": "inference",
     "note": "from the menu description in the cited piece; the kitchen's method is not published"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-fiction-kitchen"
    }
   }
  },
@@ -108,6 +112,24 @@
  "confidence": "medium",
  "needs_verification": true,
  "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday for dinner; lunch Friday, Saturday and Sunday.",
+  "source": "s:web-fiction-kitchen",
+  "url": "https://www.thefictionkitchen.com/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
  "blurb": "A vegetarian and vegan restaurant in Raleigh whose menu carries a Southern-style pulled barbecue made without pork, served with the slaw and the sides a Carolina plate expects.",
  "region_terms": [
   {

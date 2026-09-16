@@ -91,7 +91,8 @@
   "s:web-city-paper-home-team-20-years-2026",
   "s:osm",
   "s:web-truecue-sc",
-  "s:web-destination-bbq-hash-map"
+  "s:web-destination-bbq-hash-map",
+  "s:web-home-team-west-ashley"
  ],
  "provenance": {
   "default": {
@@ -117,6 +118,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-city-paper-home-team-20-years-2026"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-home-team-west-ashley"
    }
   }
  },
@@ -148,6 +153,23 @@
    "url": "http://www.truecue.org/true-cue-sc"
   }
  ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Open daily, 11 a.m. to midnight.",
+  "source": "s:web-home-team-west-ashley",
+  "url": "https://hometeambbq.com/locations/west-ashley/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the West Ashley original; the other six houses keep their own hours."
+ },
  "blurb": "A Charleston barbecue company that began in November 2006 when Aaron Siegel, a Culinary Institute-trained cook from Atlanta, turned Bunch's, a mid-century gas station at 1205 Ashley River Road in West Ashley, into Fiery…",
  "region_terms": [
   {
@@ -255,6 +277,14 @@
    "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/",
    "accessed": "2026-09-16",
    "note": "147 South Carolina places named as serving hash; harvested to data/harvest/sc-hash-list.json. Hash is not a wood claim."
+  },
+  {
+   "id": "s:web-home-team-west-ashley",
+   "kind": "web",
+   "title": "Home Team BBQ — West Ashley",
+   "publisher": "Home Team BBQ (official site)",
+   "url": "https://hometeambbq.com/locations/west-ashley/",
+   "accessed": "2026-09-16"
   }
  ],
  "tiers": {

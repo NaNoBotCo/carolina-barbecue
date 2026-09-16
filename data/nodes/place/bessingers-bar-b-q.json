@@ -156,6 +156,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "street from OSM; city and postcode from the restaurant listings"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-top100bbq-bessingers"
    }
   }
  },
@@ -189,5 +193,22 @@
    "what": "listed as 100-Mile Barbecue — a house worth a hundred-mile drive",
    "source": "s:web-top100bbq-bessingers"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Seven days, 10:30 a.m. to 9:30 p.m.; buffet Friday and Saturday evenings and Sunday midday.",
+  "source": "s:web-top100bbq-bessingers",
+  "url": "https://top100bbq.com/index.php/100-mile-barbecue/77-resturants/79-bessingers-bar-be-que",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the Barbeque Association's listing is undated; OpenStreetMap recorded 11 to 9 in November 2023."
+ }
 }

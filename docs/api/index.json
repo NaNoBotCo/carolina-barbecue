@@ -1,6 +1,6 @@
 {
  "built": "2026-09-16",
- "count": 178,
+ "count": 179,
  "nodes": [
   {
    "id": "eastern-nc",
@@ -6011,6 +6011,33 @@
    "needs_verification": false,
    "updated": "2026-09-16",
    "url": "story/the-great-divide/"
+  },
+  {
+   "id": "the-sunday-question",
+   "type": "story",
+   "name": "The Sunday question",
+   "aliases": [
+    "closed Sunday",
+    "Sunday barbecue"
+   ],
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "essay",
+    "state": "both"
+   },
+   "state": "both",
+   "blurb": "Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some people will tell you not to order barbecue anyway. Neither is about the meat being worse on a Sunday.",
+   "image": null,
+   "confidence": "medium",
+   "tags": [],
+   "acclaim": 0,
+   "has_recipes": false,
+   "has_profile": false,
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "url": "story/the-sunday-question/"
   }
  ]
 }

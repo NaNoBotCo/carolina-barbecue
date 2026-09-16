@@ -162,6 +162,10 @@
     "tier": "harvested",
     "source": "s:flickr",
     "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-sweatmans"
    }
   }
  },
@@ -216,5 +220,22 @@
    "url": "https://www.southernfoodways.org/interview/sweatmans-bar-b-que/",
    "note": "Harold 'Bub' Sweatman."
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Mo",
+   "Tu",
+   "We"
+  ],
+  "text": "Friday and Saturday, 11:30 to 8.",
+  "source": "s:web-destination-bbq-sweatmans",
+  "url": "https://destination-bbq.com/stores/sweatmans-bar-b-que/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the restaurant's own page gives Friday and Saturday; Destination BBQ lists Thursday to Sunday. Thursday and Sunday are left unstated."
+ }
 }

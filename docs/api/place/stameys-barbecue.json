@@ -143,6 +143,10 @@
    "address": {
     "tier": "harvested",
     "source": "s:osm"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
    }
   }
  },
@@ -184,6 +188,22 @@
    "source": "s:sfa-stameys-barbecue"
   }
  ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Monday to Saturday, 11 to 9.",
+  "source": "s:osm",
+  "url": "https://www.openstreetmap.org/way/324238125",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OSM way/324238125, checked 2026-08-08: the Battleground Avenue house, with no rule either way for Sunday. The Gate City Boulevard restaurant is not in the harvest."
+ },
  "blurb": "The Greensboro pork-shoulder house of the Stamey family, opened by Warner Stamey in 1953 as a drive-in on High Point Road (now West Gate City Boulevard) and run by his grandson Chip since 1993, with a second restaurant…",
  "region_terms": [
   {

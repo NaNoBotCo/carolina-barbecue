@@ -127,6 +127,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-destination-bbq-coopers"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-coopers"
    }
   }
  },
@@ -181,5 +185,23 @@
    "source": "s:web-garden-gun-coopers-2014",
    "year": 2014
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday to Saturday 7 to 7; lunch buffet Wednesday to Saturday, 10:30 to 2.",
+  "source": "s:web-destination-bbq-coopers",
+  "url": "https://destination-bbq.com/stores/coopers-country-store/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ }
 }

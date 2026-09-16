@@ -101,6 +101,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-eatokra-bobbee-os"
    }
   }
  },
@@ -137,5 +141,22 @@
   }
  ],
  "images": [],
- "updated": "2026-09-16"
+ "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Seven days, from 11 a.m.",
+  "source": "s:web-eatokra-bobbee-os",
+  "url": "https://www.eatokra.com/businesses/bobbee-o-s-bbq",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "EatOkra's listing read 2026-09-16: Sunday 11 to 7, Monday to Thursday 11 to 9, Friday and Saturday 11 to 11. A directory, not the house."
+ }
 }

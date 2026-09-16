@@ -143,6 +143,10 @@
    "address": {
     "tier": "harvested",
     "source": "s:osm"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
    }
   }
  },
@@ -183,5 +187,21 @@
    "what": "an oral history recorded with the pit",
    "source": "s:sfa-stameys-barbecue"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Monday to Saturday, 11 to 9.",
+  "source": "s:osm",
+  "url": "https://www.openstreetmap.org/way/324238125",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OSM way/324238125, checked 2026-08-08: the Battleground Avenue house, with no rule either way for Sunday. The Gate City Boulevard restaurant is not in the harvest."
+ }
 }

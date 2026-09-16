@@ -127,6 +127,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-destination-bbq-coopers"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-coopers"
    }
   }
  },
@@ -182,6 +186,24 @@
    "year": 2014
   }
  ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday to Saturday 7 to 7; lunch buffet Wednesday to Saturday, 10:30 to 2.",
+  "source": "s:web-destination-bbq-coopers",
+  "url": "https://destination-bbq.com/stores/coopers-country-store/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
  "blurb": "A whitewashed general store on US 521 near Salters, south of Kingstree in Williamsburg County, that sells hardware, groceries, gasoline, diesel, propane, plow points, cast-iron cookware, live crickets — and, from a…",
  "region_terms": [
   {

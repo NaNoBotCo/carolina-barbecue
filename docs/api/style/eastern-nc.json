@@ -873,6 +873,13 @@
    "name": "The Great Divide",
    "as": "one of the two combatants: whole hog, clear vinegar, white slaw, cornbread.",
    "rel": "part"
+  },
+  {
+   "from": "the-sunday-question",
+   "type": "story",
+   "name": "The Sunday question",
+   "as": "the style most likely to cook to a number and stop when it is gone.",
+   "rel": "style"
   }
  ]
 }

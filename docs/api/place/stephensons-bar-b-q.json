@@ -104,6 +104,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-ourstate-stephensons"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-ourstate-stephensons"
    }
   }
  },
@@ -146,6 +150,17 @@
    "year": 2014
   }
  ],
+ "hours": {
+  "closed": [
+   "Su"
+  ],
+  "text": "Closed Sundays.",
+  "source": "s:web-ourstate-stephensons",
+  "url": "https://www.ourstate.com/stephensons-barbecue/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Our State (2014) names the Sunday closing and nothing else; the other six days are not published here."
+ },
  "blurb": "A family barbecue house on N.C. 50 at Willow Spring, in western Johnston County south of Raleigh, opened in July 1958 by hog farmer Paul Stephenson and run since his death by his son Andy.",
  "region_terms": [
   {

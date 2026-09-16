@@ -77,6 +77,10 @@ def text_fields(rec: dict):
         yield f"sections[{i}].text", sec.get("text", "")
     for i, tg in enumerate(rec.get("tags") or []):
         yield f"tags[{i}].note", tg.get("note", "")
+    h = rec.get("hours") or {}
+    for k in ("text", "note", "seasonal"):
+        if h.get(k):
+            yield f"hours.{k}", h[k]
     for i, rg in enumerate(rec.get("recognitions") or []):
         yield f"recognitions[{i}].what", rg.get("what", "") + " " + rg.get("note", "")
 
@@ -143,6 +147,15 @@ def validate_all(strict=False, quiet=False) -> int:
             for v in vals:
                 if spec["values"] and v not in spec["values"]:
                     warns.append(f"{tag}: facet {fk}={v!r} not among known values")
+        hrs = r.get("hours") or {}
+        if hrs:
+            if hrs.get("source") and hrs["source"] not in sources:
+                errors.append(f"{tag}: hours.source {hrs['source']} not in sources.json")
+            both = set(hrs.get("open", [])) & set(hrs.get("closed", []))
+            if both:
+                errors.append(f"{tag}: hours lists {sorted(both)} as both open and closed")
+            if not hrs.get("open") and not hrs.get("closed"):
+                warns.append(f"{tag}: hours names no day either way")
         for i, tg in enumerate(r.get("tags", [])):
             if tg["tag"] not in tagkeys:
                 errors.append(f"{tag}: tags[{i}] {tg['tag']!r} not in tags.json")

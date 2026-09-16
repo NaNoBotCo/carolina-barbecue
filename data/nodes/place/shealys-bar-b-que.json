@@ -122,6 +122,10 @@
     "tier": "cited",
     "source": "s:web-shealys-home",
     "note": "OSM tags the building 240 E Columbia Ave; the restaurant gives 340"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-shealys-home"
    }
   }
  },
@@ -163,5 +167,24 @@
    "source": "s:web-sc-house-h4503-shealys-2019",
    "year": 2019
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "We",
+   "Su"
+  ],
+  "text": "Monday, Tuesday and Thursday to Saturday; buffet 11 to 9, carry-out from 10.",
+  "source": "s:web-shealys-home",
+  "url": "https://www.shealysbbq.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "OpenStreetMap records the same days."
+ }
 }

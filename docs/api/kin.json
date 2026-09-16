@@ -13760,6 +13760,38 @@
    "as": "whose Black Smoke follows the cooks both camps forgot to argue about.",
    "rel": "person",
    "from": "the-great-divide"
+  },
+  {
+   "to": "wilbers-barbecue",
+   "type": "place",
+   "name": "Wilber's Barbecue",
+   "as": "the pit Our State used to describe as dark on Sunday, and which now posts Sunday hours — the example and its own correction.",
+   "rel": "place",
+   "from": "the-sunday-question"
+  },
+  {
+   "to": "whole-hog",
+   "type": "pit",
+   "name": "whole hog",
+   "as": "the cut that sets the schedule — an overnight cook is why the week has a shape at all.",
+   "rel": "pit",
+   "from": "the-sunday-question"
+  },
+  {
+   "to": "eastern-nc",
+   "type": "style",
+   "name": "Eastern North Carolina barbecue",
+   "as": "the style most likely to cook to a number and stop when it is gone.",
+   "rel": "style",
+   "from": "the-sunday-question"
+  },
+  {
+   "to": "pitmaster",
+   "type": "term",
+   "name": "pitmaster",
+   "as": "whose week this is, and who needs the day off.",
+   "rel": "term",
+   "from": "the-sunday-question"
   }
  ]
 }

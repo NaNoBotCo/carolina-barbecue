@@ -82,6 +82,10 @@ NEAR_CSS = """
 .hit{display:grid;grid-template-columns:auto 1fr auto;gap:.2rem .8rem;align-items:baseline;padding:.55rem 0;border-bottom:1px solid var(--line)}
 .hit .mi{font-variant-numeric:tabular-nums;font-weight:700;color:var(--ember);white-space:nowrap;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
 .hit .nm{font-weight:600}.hit .wh{grid-column:2;font-size:.86rem;color:var(--mute)}
+.hit .wk{grid-column:2;display:flex;align-items:center;gap:.55rem;margin-top:.3rem;font-size:.8rem;color:var(--mute)}
+.hit .wk em{font-style:normal;color:var(--ember);font-weight:600}
+.nohours{font-size:.8rem;color:var(--line)}
+.daystrip{height:26px;width:176px;display:block;flex:0 0 auto}
 .hit .tg{grid-column:2;font-size:.8rem;display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.15rem}
 .hit .go{font-size:.82rem;white-space:nowrap}
 .drive{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:.9rem}
@@ -106,6 +110,8 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
             "n": p["name"], "u": p.get("url"), "la": round(p["lat"], 4), "lo": round(p["lon"], 4),
             "c": p.get("city") or "", "co": p.get("county") or "", "s": p.get("state") or "",
             "t": p.get("tags") or [], "a": p.get("recognitions") or 0, "rb": p.get("recognized_by") or [],
+            "d": "".join((p.get("days") or {}).get(k, "unknown")[0] for k in ("Mo", "Tu", "We", "Th", "Fr", "Sa", "Su")),
+            "so": bool(p.get("sold_out")), "ht": p.get("hours_text") or "",
             "b": (p.get("blurb") or "")[:150], "w": p.get("website") or "", "h": p.get("hours") or "",
             "st": p.get("styles") or [], "sc": p.get("status") or "",
         })
@@ -117,7 +123,9 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
     tags = [e for e in tagvocab.get("entries", []) if e["key"] in {t for r in rows for t in r["t"]}]
     drive = sorted([r for r in rows if r["a"] >= 1 and r["u"]], key=lambda r: (-r["a"], r["n"]))[:18]
 
-    chips = "".join(f'<button type="button" data-tag="{E(t["key"])}" aria-pressed="false">{E(t["icon"])} {E(t["label"])}</button>' for t in tags)
+    chips = ('<button type="button" data-tag="__sun" aria-pressed="false" title="A source says this one opens on Sunday">&#9788; Open Sunday</button>'
+             '<button type="button" data-tag="__today" aria-pressed="false" title="Uses your own clock">&#128337; Open today</button>'
+             + "".join(f'<button type="button" data-tag="{E(t["key"])}" aria-pressed="false">{E(t["icon"])} {E(t["label"])}</button>' for t in tags))
     drive_cards = "".join(
         f'<div class="card"><b><a href="../{E(r["u"])}index.html">{E(r["n"])}</a></b>'
         f'<span class="stars" aria-hidden="true">{"●" * min(r["a"], 5)}</span> '
@@ -174,11 +182,28 @@ function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{retu
 function miles(a,b,c,d){{var R=3958.8,p=Math.PI/180,x=(c-a)*p,y=(d-b)*p,
   h=Math.sin(x/2)*Math.sin(x/2)+Math.cos(a*p)*Math.cos(c*p)*Math.sin(y/2)*Math.sin(y/2);
   return 2*R*Math.asin(Math.sqrt(h))}}
+var TODAY=(new Date().getDay()+6)%7;   /* JS counts Sunday 0; this week starts Monday */
 function keep(r){{
   for(var k in on){{ if(!on[k]) continue;
     if(k==="__page"){{ if(!r.u) return false; }}
+    /* 'o' open, 'c' closed, 'u' nobody told us. A chip asks for OPEN, so 'u' is out —
+       a pit we have not read is not evidence of anything either way. */
+    else if(k==="__sun"){{ if(r.d.charAt(6)!=="o") return false; }}
+    else if(k==="__today"){{ if(r.d.charAt(TODAY)!=="o") return false; }}
     else if(r.t.indexOf(k)<0) return false; }}
   return true}}
+var DAYL=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],DAY1=["M","T","W","T","F","S","S"];
+function strip(d){{
+  if(!d||d==="uuuuuuu")return '<span class="nohours">hours not published</span>';
+  var w=176,c=(w-10)/7,o='<svg class="daystrip" viewBox="0 0 '+w+' 26" role="img" aria-label="'+
+    d.split("").map(function(x,i){{return DAYL[i]+" "+({{o:"open",c:"closed",u:"not published"}}[x])}}).join(", ")+'">';
+  for(var i=0;i<7;i++){{var x=i*c+(i===6?10:0),st=d.charAt(i);
+    var fill=st==="o"?"var(--ember)":"none",stroke=st==="o"?"var(--ember)":st==="c"?"var(--mute)":"var(--line)";
+    var dash=st==="u"?' stroke-dasharray="2.5 2.5"':'',col=st==="o"?"#fff":st==="c"?"var(--mute)":"var(--line)";
+    o+='<rect x="'+(x+1.5).toFixed(1)+'" y="3" width="'+(c-3).toFixed(1)+'" height="18" rx="4" fill="'+fill+'" stroke="'+stroke+'" stroke-width="1.6"'+dash+'/>'+
+       '<text x="'+(x+c/2).toFixed(1)+'" y="17" text-anchor="middle" fill="'+col+'" style="font:700 11px -apple-system,sans-serif">'+DAY1[i]+'</text>';}}
+  return o+'</svg>';
+}}
 function render(){{
   var out=document.getElementById("out");
   if(!here){{out.innerHTML="";return}}
@@ -192,7 +217,8 @@ function render(){{
     var where=[r.c,r.co?r.co+" County":"",r.s].filter(Boolean).join(" · ");
     var go=r.u?'<a class="go" href="../'+esc(r.u)+'index.html">page →</a>':(r.w?'<a class="go" href="'+esc(r.w)+'" rel="noopener">site →</a>':'<span class="go mute">no page yet</span>');
     return '<div class="hit"><span class="mi">'+h.d.toFixed(1)+' mi</span><span class="nm">'+nm+acc+'</span>'+go+
-      '<span class="wh">'+esc(where)+(r.h?' · '+esc(r.h):'')+(r.b?' — '+esc(r.b.slice(0,110))+'…':'')+'</span>'+
+      '<span class="wh">'+esc(where)+(r.b?' — '+esc(r.b.slice(0,110))+'…':'')+'</span>'+
+      '<span class="wk">'+strip(r.d)+(r.so?' <em>till it runs out</em>':'')+(r.ht?' <em>'+esc(r.ht)+'</em>':(r.h?' <span class="mute">'+esc(r.h)+'</span>':''))+'</span>'+
       (tg?'<span class="tg">'+tg+'</span>':'')+'</div>';
   }}).join("");
 }}
@@ -643,8 +669,11 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
     ing_rows = [(w, c) for w, c in words.most_common(16)]
 
     # 4 — which days a barbecue house is open
-    days = viz.open_days([p["hours"] for p in pl if p.get("hours")])
-    nh = sum(1 for p in pl if p.get("hours"))
+    known = [p for p in pl if any(v != "unknown" for v in (p.get("days") or {}).values())]
+    nh = len(known)
+    days = {d: sum(1 for p in known if (p.get("days") or {}).get(d) == "open") for d in viz.DAYS}
+    closed_su = sum(1 for p in known if (p.get("days") or {}).get("Su") == "closed")
+    unk_su = len(pl) - nh
     day_rows = [(viz.DAY_NAME[d], days[d]) for d in viz.DAYS]
 
     # 5 — which kinds of page point at which
@@ -703,8 +732,10 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
                 + "".join(f"<tr><td>{E(w)}</td><td>{c}</td></tr>" for w, c in ing_rows) + "</table></details></div>")
 
     body.append('<div class="viz"><h3>When they are open</h3>'
-                f'<p class="note">From the opening hours of the {nh} places that publish them to OpenStreetMap. '
-                'Saturday is the day. Plenty of them are closed Sunday, gone to church.</p>'
+                f'<p class="note">From the {nh} places whose days we could read. Saturday is the day nearly all of them keep. '
+                f'Sunday is the one they drop: {closed_su} of the {nh} are shut, and another {unk_su} have not published their days at all. '
+                'Monday is the next thinnest, which is the pit crew catching up. '
+                '<a href="../story/the-sunday-question/index.html">Why Sunday →</a></p>'
                 + viz.bars_svg(day_rows, unit="places open", left=140)
                 + '<details class="tbl"><summary>As a table</summary><table><tr><th>Day</th><th>Open</th></tr>'
                 + "".join(f"<tr><td>{E(d)}</td><td>{c}</td></tr>" for d, c in day_rows) + "</table></details></div>")

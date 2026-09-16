@@ -1726,7 +1726,7 @@ geo: 35.46609, -82.51633 (street)
 - kin → pork-shoulder (pit): the cut behind its pulled pork, beside the ribs it is better known for.
 - kin → barbecue-tray (dish): the plate in the mountains, where the glazed rib rather than the chopped shoulder is the order.
 - kin → buxton-hall-barbecue (place): the other Asheville barbecue name of the same decade; Buxton Hall closed in 2023, 12 Bones lost its river room to Helene in 2024.
-sources: s:web-exploreasheville-12-bones — Bryan & Angela King — 12 Bones Smokehouse; s:web-ourstate-12-bones-2024 — 12 Bones Smokehouse; s:web-bpr-rad-2025 — Businesses spring back to life in flood-ravaged parts of Asheville's River Arts District; s:web-mountainx-obama-2010 — Obamas visit Asheville; s:web-12bones-news — 12 Bones Smokehouse — in the news; s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina
+sources: s:web-exploreasheville-12-bones — Bryan & Angela King — 12 Bones Smokehouse; s:web-ourstate-12-bones-2024 — 12 Bones Smokehouse; s:web-bpr-rad-2025 — Businesses spring back to life in flood-ravaged parts of Asheville's River Arts District; s:web-mountainx-obama-2010 — Obamas visit Asheville; s:web-12bones-news — 12 Bones Smokehouse — in the news; s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina; s:web-12bones-home — 12 Bones Smokehouse — hours and locations
 provenance default: cited · confidence: medium · needs_verification: True · updated: 2026-09-16
 
 ## Allen & Son Barbeque (place)
@@ -1936,7 +1936,7 @@ geo: 34.70625, -82.22974 (street)
 - kin → pork-shoulder (pit): the cut behind its pulled pork, beside a Texas board of brisket and sausage.
 - kin → campaign-for-real-barbecue (org): certified the pit as cooking on wood or charcoal alone.
 - kin → lewis-barbecue (place): the other Carolina house built on Central Texas method rather than a local one, three hours east in Charleston.
-sources: s:web-eatbobbys-roots — Our Roots — Bobby's BBQ; s:web-eatbobbys-press — Press — Bobby's BBQ; s:web-truecue-sc — True 'Cue SC — certified pits; s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina
+sources: s:web-eatbobbys-roots — Our Roots — Bobby's BBQ; s:web-eatbobbys-press — Press — Bobby's BBQ; s:web-truecue-sc — True 'Cue SC — certified pits; s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina; s:web-eatbobbys-hours — Bobby's BBQ — hours
 provenance default: cited · confidence: medium · needs_verification: True · updated: 2026-09-16
 
 ## Brown's Bar-B-Que (place)
@@ -2282,7 +2282,7 @@ geo: 32.7969462, -79.9978283 (street)
 - kin → rodney-scotts-whole-hog-bbq (place): the whole-hog house on King Street, 2017 to 2026.
 - kin → henrys-smokehouse (place): Greenville's older barbecue house; Home Team's Greenville store opened in 2021.
 - kin → fundraiser-barbecue (event): its Rock the Block (since 2017) and Holy Smokes festival (since 2021) are the modern fundraiser barbecue.
-sources: s:web-home-team-our-story — Our Story — Home Team BBQ; s:web-city-paper-home-team-20-years-2026 — Home Team BBQ celebrates 20 years (July 23, 2026); s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina; s:web-truecue-sc — True 'Cue SC — certified pits; s:web-destination-bbq-hash-map — The South Carolina BBQ Hash Map
+sources: s:web-home-team-our-story — Our Story — Home Team BBQ; s:web-city-paper-home-team-20-years-2026 — Home Team BBQ celebrates 20 years (July 23, 2026); s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina; s:web-truecue-sc — True 'Cue SC — certified pits; s:web-destination-bbq-hash-map — The South Carolina BBQ Hash Map; s:web-home-team-west-ashley — Home Team BBQ — West Ashley
 provenance default: cited · confidence: high · needs_verification: False · updated: 2026-09-16
 
 ## Hursey's Bar-B-Q (place)
@@ -2505,7 +2505,7 @@ geo: 33.97086, -81.077535 (street)
 - image: https://nanobotco.github.io/carolina-barbecue/images/maurices-piggie-park/maurices-piggie-park-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg · Public domain · John Margolies · https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709630.tif
 - image: https://nanobotco.github.io/carolina-barbecue/images/maurices-piggie-park/maurices-piggie-park-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-897b1ae.jpg · Public domain · John Margolies · https://commons.wikimedia.org/wiki/File%3ABessinger%27s_Bar-B-Q_sign%2C_West_Columbia%2C_South_Carolina_LCCN2017709631.tif
 - image: https://nanobotco.github.io/carolina-barbecue/images/maurices-piggie-park/maurices-piggie-park-plate-of-food-at-maurice-s-gourmet-bbq.jpg · CC BY-SA 2.0 · Nathan Cardozo · https://commons.wikimedia.org/wiki/File%3APlate_of_food_at_Maurice%27s_Gourmet_BBQ.jpg
-sources: s:wp-maurice-bessinger — Maurice Bessinger — Wikipedia; s:wp-newman-v-piggie-park-enterprises-inc — Newman v. Piggie Park Enterprises, Inc. — Wikipedia; s:wp-barbecue-in-south-carolina — Barbecue in South Carolina — Wikipedia; s:web-piggiepark-history — Uncover Our Rich History — Maurice's Piggie Park BBQ; s:web-piggiepark-home — Maurice's Piggie Park BBQ — locations; s:web-wis-maurices-fire-2024 — Maurice's Piggie Park continues to serve hungry customers week after fire takes out BBQ operations center (November 3, 2024); s:web-abc4-maurices-reopens-2024 — Maurice's Piggie Park reopens main location after fire (November 2, 2024); s:web-abc4-maurices-rebuild-2024 — Owner of Maurice's BBQ determined to rebuild and move past family's controversial history (October 29, 2024); s:web-baltimore-sun-bessinger-2002 — S.C. barbecue king stands his ground (September 22, 2002); s:web-seattle-times-piggie-park-2002 — Confederate flag still flies over Piggie Park — Ariel Sabar (October 5, 2002); s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina; s:web-destination-bbq-hash-map — The South Carolina BBQ Hash Map; s:web-truecue-sc — True 'Cue SC — certified pits
+sources: s:wp-maurice-bessinger — Maurice Bessinger — Wikipedia; s:wp-newman-v-piggie-park-enterprises-inc — Newman v. Piggie Park Enterprises, Inc. — Wikipedia; s:wp-barbecue-in-south-carolina — Barbecue in South Carolina — Wikipedia; s:web-piggiepark-history — Uncover Our Rich History — Maurice's Piggie Park BBQ; s:web-piggiepark-home — Maurice's Piggie Park BBQ — locations; s:web-wis-maurices-fire-2024 — Maurice's Piggie Park continues to serve hungry customers week after fire takes out BBQ operations center (November 3, 2024); s:web-abc4-maurices-reopens-2024 — Maurice's Piggie Park reopens main location after fire (November 2, 2024); s:web-abc4-maurices-rebuild-2024 — Owner of Maurice's BBQ determined to rebuild and move past family's controversial history (October 29, 2024); s:web-baltimore-sun-bessinger-2002 — S.C. barbecue king stands his ground (September 22, 2002); s:web-seattle-times-piggie-park-2002 — Confederate flag still flies over Piggie Park — Ariel Sabar (October 5, 2002); s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina; s:web-destination-bbq-hash-map — The South Carolina BBQ Hash Map; s:web-truecue-sc — True 'Cue SC — certified pits; s:web-piggiepark-west-columbia — Maurice's Piggie Park — West Columbia, Charleston Highway
 provenance default: cited · confidence: high · needs_verification: True · updated: 2026-09-16
 
 ## McCabe's Bar-B-Q (place)
@@ -2580,7 +2580,7 @@ geo: 32.75317, -79.97224 (street)
 - kin → campaign-for-real-barbecue (org): certified both houses after the return to wood.
 - not to be confused with bessingers-bar-b-q: Brothers, two businesses, one highway apart. Bessinger's is Thomas Bessinger's, on Savannah Highway in West Ashley, run by his sons Tommy and Michael. Melvin's is Thomas's brother Melvin's, on Folly Road and in Mount Pleasant, run by David. Melvin left the shared partnership in 1982.
 - not to be confused with maurices-piggie-park: Same grandfather, different branch and different state of mind. Maurice's is Maurice Bessinger's Columbia chain, whose name also carries a 1968 Supreme Court case and the flag fight of 2000. Melvin's is his brother Melvin's Charleston business, which has no part in that history.
-sources: s:web-melvins-story — Our Story — Melvin's BBQ; s:web-sfa-melvins-legendary-bar-b-q — Melvin's Legendary Bar-B-Q — David Bessinger, interviewed by Rien Fertel, June 26, 2012; s:web-melvins-press — Press — Melvin's BBQ; s:web-truecue-sc — True 'Cue SC — certified pits; s:sfa-oral-histories — Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina); s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina
+sources: s:web-melvins-story — Our Story — Melvin's BBQ; s:web-sfa-melvins-legendary-bar-b-q — Melvin's Legendary Bar-B-Q — David Bessinger, interviewed by Rien Fertel, June 26, 2012; s:web-melvins-press — Press — Melvin's BBQ; s:web-truecue-sc — True 'Cue SC — certified pits; s:sfa-oral-histories — Southern Foodways Alliance oral history collection — barbecue projects (North Carolina, South Carolina); s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina; s:web-melvins-hours — Melvin's Legendary Bar-B-Q — hours
 provenance default: cited · confidence: high · needs_verification: True · updated: 2026-09-16
 
 ## Midway BBQ (place)
@@ -2672,7 +2672,7 @@ geo: 35.265807, -81.480884 (street)
 - kin → hushpuppies (dish): on the plate.
 - kin → warner-stamey (person): took the Lexington method to Shelby in the 1930s, the decade before the Bridges began.
 - kin → southern-foodways-alliance (org): recorded the third generation in 2011.
-sources: s:sfa-red-bridges-barbecue-lodge — Red Bridges Barbecue Lodge — Natalie Ramsey and Chase Webb, interviewed by Rien T. Fertel, 19 Nov 2011; s:web-bridgesbbq-history — History — Bridges BBQ Lodge, Shelby; s:web-wbtv-red-bridges-80 — BBQ is king in North Carolina: Shelby barbecue restaurant celebrates 80 years — WBTV (24 Jun 2026); s:sfa-stameys-barbecue — Stamey's Barbecue — Chip Stamey, interviewed by Rien T. Fertel, 18 Nov 2011; s:web-truecue-nc — True 'Cue NC — certified pits; s:web-barbecuebros-nc-trail — NC Historic Barbecue Trail
+sources: s:sfa-red-bridges-barbecue-lodge — Red Bridges Barbecue Lodge — Natalie Ramsey and Chase Webb, interviewed by Rien T. Fertel, 19 Nov 2011; s:web-bridgesbbq-history — History — Bridges BBQ Lodge, Shelby; s:web-wbtv-red-bridges-80 — BBQ is king in North Carolina: Shelby barbecue restaurant celebrates 80 years — WBTV (24 Jun 2026); s:sfa-stameys-barbecue — Stamey's Barbecue — Chip Stamey, interviewed by Rien T. Fertel, 18 Nov 2011; s:web-truecue-nc — True 'Cue NC — certified pits; s:web-barbecuebros-nc-trail — NC Historic Barbecue Trail; s:web-bridgesbbq-hours — Hours & Location — Bridges BBQ, Shelby
 provenance default: cited · confidence: high · needs_verification: True · updated: 2026-09-16
 
 ## Rodney Scott's Whole Hog BBQ (place)
@@ -4638,6 +4638,22 @@ what: North Carolina cooks barbecue two ways and has never agreed to disagree ab
 - kin → adrian-miller (person): whose Black Smoke follows the cooks both camps forgot to argue about.
 sources: s:wp-barbecue-in-north-carolina — Barbecue in North Carolina — Wikipedia; s:web-ncga-hb433-2007 — North Carolina House Bill 433 (2007): Lexington Barbecue Festival / Official Food Festival of the Piedmont Triad; s:reed-holy-smoke — Holy Smoke: The Big Book of North Carolina Barbecue; s:miller-black-smoke — Black Smoke: African Americans and the United States of Barbecue; s:wp-barbecue-in-south-carolina — Barbecue in South Carolina — Wikipedia; s:sc-parks-sauce-map — South Carolina Department of Parks, Recreation & Tourism — the four barbecue sauce regions
 provenance default: cited · confidence: high · needs_verification: False · updated: 2026-09-16
+
+## The Sunday question (story)
+URL: https://nanobotco.github.io/carolina-barbecue/story/the-sunday-question/
+JSON: https://nanobotco.github.io/carolina-barbecue/api/story/the-sunday-question.json
+id: the-sunday-question
+aliases: closed Sunday · Sunday barbecue
+said: Ask a Carolina pit man about Sunday and you will get an answer about Thursday.
+facets: kind=essay · state=both
+region: The Carolinas
+what: Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some people will tell you not to order barbecue anyway. Neither is about the meat being worse on a Sunday. Both are about when the fire was lit. This page lays out what can be counted, what the pits themselves say, and what is belief — and this directory does not take a side.
+- kin → wilbers-barbecue (place): the pit Our State used to describe as dark on Sunday, and which now posts Sunday hours — the example and its own correction.
+- kin → whole-hog (pit): the cut that sets the schedule — an overnight cook is why the week has a shape at all.
+- kin → eastern-nc (style): the style most likely to cook to a number and stop when it is gone.
+- kin → pitmaster (term): whose week this is, and who needs the day off.
+sources: s:web-ourstate-pit-stop — Pit Stop: 22 Essential North Carolina Barbecue Joints; s:osm — OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina
+provenance default: cited · confidence: medium · needs_verification: False · updated: 2026-09-16
 
 ## Where all of this came from (story)
 URL: https://nanobotco.github.io/carolina-barbecue/story/free-to-use/

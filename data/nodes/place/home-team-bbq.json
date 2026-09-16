@@ -91,7 +91,8 @@
   "s:web-city-paper-home-team-20-years-2026",
   "s:osm",
   "s:web-truecue-sc",
-  "s:web-destination-bbq-hash-map"
+  "s:web-destination-bbq-hash-map",
+  "s:web-home-team-west-ashley"
  ],
  "provenance": {
   "default": {
@@ -117,6 +118,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-city-paper-home-team-20-years-2026"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-home-team-west-ashley"
    }
   }
  },
@@ -147,5 +152,22 @@
    "source": "s:web-truecue-sc",
    "url": "http://www.truecue.org/true-cue-sc"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Open daily, 11 a.m. to midnight.",
+  "source": "s:web-home-team-west-ashley",
+  "url": "https://hometeambbq.com/locations/west-ashley/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the West Ashley original; the other six houses keep their own hours."
+ }
 }

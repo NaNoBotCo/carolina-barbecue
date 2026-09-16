@@ -76,7 +76,8 @@
   "s:web-bpr-rad-2025",
   "s:web-mountainx-obama-2010",
   "s:web-12bones-news",
-  "s:osm"
+  "s:osm",
+  "s:web-12bones-home"
  ],
  "provenance": {
   "default": {
@@ -98,6 +99,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "Nominatim matched 12 Bones Brewing at the same Arden address; the OSM barbecue harvest holds a bare '12 Bones' node in Asheville with no address"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-12bones-home"
    }
   }
  },
@@ -150,5 +155,22 @@
   }
  ],
  "images": [],
- "updated": "2026-09-16"
+ "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Seven days a week, 11 a.m. to 8 p.m.",
+  "source": "s:web-12bones-home",
+  "url": "https://12bones.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Arden is the only location the company lists."
+ }
 }

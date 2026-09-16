@@ -109,6 +109,10 @@
    "address": {
     "tier": "harvested",
     "source": "s:osm"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
    }
   }
  },
@@ -150,5 +154,22 @@
    "source": "s:web-ourstate-hurseys",
    "year": 2014
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Daily, 11 to 9.",
+  "source": "s:osm",
+  "url": "https://www.openstreetmap.org/way/371725551",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OSM way/371725551 gives Su-Sa 11:00-21:00 for the South Church Street house; the other Hursey's keep their own hours."
+ }
 }

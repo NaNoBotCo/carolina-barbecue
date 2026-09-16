@@ -117,6 +117,10 @@
     "tier": "cited",
     "source": "s:web-luellasbbq",
     "note": "the restaurant's own pages, read 2026-09-16; no independent 2026 confirmation, and nothing on Helene's effect here"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-luellasbbq"
    }
   }
  },
@@ -152,5 +156,22 @@
   }
  ],
  "images": [],
- "updated": "2026-09-16"
+ "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Eleven to nine, daily.",
+  "source": "s:web-luellasbbq",
+  "url": "https://www.luellasbbq.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "both the Merrimon Avenue and Biltmore Park rooms."
+ }
 }

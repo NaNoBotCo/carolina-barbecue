@@ -141,6 +141,10 @@
     "tier": "harvested",
     "source": "s:flickr",
     "note": "read on the item's own page 2026-09-16: “CC BY-SA 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
    }
   }
  },
@@ -204,5 +208,21 @@
    "what": "a feature",
    "source": "s:web-ourstate-bar-b-q-center"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Monday to Saturday, 11 to 9.",
+  "source": "s:osm",
+  "url": "https://www.openstreetmap.org/way/427932015",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OSM way/427932015 gives Mo-Sa 11:00-21:00 and no rule either way for Sunday."
+ }
 }

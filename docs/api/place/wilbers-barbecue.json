@@ -147,6 +147,10 @@
     "tier": "harvested",
     "source": "s:ncsa-massengill",
     "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-wilbersbbq"
    }
   }
  },
@@ -260,6 +264,21 @@
    "source": "s:reed-holy-smoke"
   }
  ],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3.",
+  "source": "s:web-wilbersbbq",
+  "url": "https://www.wilbersbbq.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Monday and Tuesday are not published. Our State's account of a pit that is cold on Sunday predates these hours."
+ },
  "blurb": "A whole-hog pit on U.S. 70 east of Goldsboro, Wayne County, opened in 1962 by Wilberdean 'Wilber' Shirley and cooked the same way since: split hogs over oak coals in open pits in a cinder-block cookhouse behind a…",
  "region_terms": [
   {
@@ -634,6 +653,13 @@
    "type": "art",
    "name": "the pig mascot",
    "as": "whose pig turns on a weather vane over Goldsboro rather than standing on a sign.",
+   "rel": "place"
+  },
+  {
+   "from": "the-sunday-question",
+   "type": "story",
+   "name": "The Sunday question",
+   "as": "the pit Our State used to describe as dark on Sunday, and which now posts Sunday hours — the example and its own correction.",
    "rel": "place"
   }
  ]

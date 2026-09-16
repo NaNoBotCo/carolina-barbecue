@@ -103,6 +103,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-true-bbq"
    }
   }
  },
@@ -162,5 +166,24 @@
   }
  ],
  "images": [],
- "updated": "2026-09-16"
+ "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo",
+   "Tu",
+   "We"
+  ],
+  "text": "Thursday to Saturday, 11 to 8.",
+  "source": "s:web-destination-bbq-true-bbq",
+  "url": "https://destination-bbq.com/stores/true-bbq/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Destination BBQ posts Thursday, Friday and Saturday — three days. The West Columbia house."
+ }
 }

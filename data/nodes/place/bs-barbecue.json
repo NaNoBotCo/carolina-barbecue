@@ -141,6 +141,10 @@
     "tier": "harvested",
     "source": "s:flickr-sfa",
     "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-ourstate-bs-barbecue"
    }
   }
  },
@@ -280,5 +284,21 @@
    "source": "s:web-ourstate-a-day-at-bs",
    "year": 2016
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Tuesday to Saturday from 9 a.m., until it runs out.",
+  "sold_out": true,
+  "source": "s:web-ourstate-bs-barbecue",
+  "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "days from Our State (2012), the 9 a.m. opening from the 2016 piece; there is no telephone to check."
+ }
 }

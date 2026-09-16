@@ -114,6 +114,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "not in the OSM barbecue harvest; Nominatim matched the restaurant object at the street address"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-johntanner-tarheel-q-2026"
    }
   }
  },
@@ -149,5 +153,24 @@
   }
  ],
  "images": [],
- "updated": "2026-09-16"
+ "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday to Saturday; closed Sunday.",
+  "source": "s:web-johntanner-tarheel-q-2026",
+  "url": "https://johntannersbbqblog.wordpress.com/2026/04/18/tarheel-q-lexington-north-carolina-2/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "from a directory listing rather than the restaurant's own site, which refused the fetch."
+ }
 }

@@ -389,6 +389,13 @@
    "name": "pit",
    "as": "the person; the word is built on this one.",
    "rel": "term"
+  },
+  {
+   "from": "the-sunday-question",
+   "type": "story",
+   "name": "The Sunday question",
+   "as": "whose week this is, and who needs the day off.",
+   "rel": "term"
   }
  ]
 }

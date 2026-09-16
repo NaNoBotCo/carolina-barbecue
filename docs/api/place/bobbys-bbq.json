@@ -73,7 +73,8 @@
   "s:web-eatbobbys-roots",
   "s:web-eatbobbys-press",
   "s:web-truecue-sc",
-  "s:osm"
+  "s:osm",
+  "s:web-eatbobbys-hours"
  ],
  "provenance": {
   "default": {
@@ -99,6 +100,10 @@
    "address": {
     "tier": "harvested",
     "source": "s:osm"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-eatbobbys-hours"
    }
   }
  },
@@ -147,6 +152,25 @@
  ],
  "images": [],
  "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo",
+   "Tu",
+   "We"
+  ],
+  "text": "Thursday to Saturday, 11 to 9.",
+  "source": "s:web-eatbobbys-hours",
+  "url": "https://eatbobbys.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the site posts Thursday, Friday and Saturday — three days."
+ },
  "blurb": "A Texas-leaning smokehouse on North Main Street in Fountain Inn, Greenville County, owned by Octavius Nelson, called Tay, and his wife Sarah.",
  "region_terms": [
   {
@@ -213,6 +237,14 @@
    "url": "https://www.openstreetmap.org/copyright",
    "license": "ODbL 1.0",
    "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+  },
+  {
+   "id": "s:web-eatbobbys-hours",
+   "kind": "web",
+   "title": "Bobby's BBQ — hours",
+   "publisher": "Bobby's BBQ (official site)",
+   "url": "https://eatbobbys.com/",
+   "accessed": "2026-09-16"
   }
  ],
  "tiers": {

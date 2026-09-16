@@ -101,11 +101,33 @@
    "text.how": {
     "tier": "inference",
     "note": "from the menu description in the cited piece; the kitchen's method is not published"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-fiction-kitchen"
    }
   }
  },
  "images": [],
  "confidence": "medium",
  "needs_verification": true,
- "updated": "2026-09-16"
+ "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday for dinner; lunch Friday, Saturday and Sunday.",
+  "source": "s:web-fiction-kitchen",
+  "url": "https://www.thefictionkitchen.com/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ }
 }

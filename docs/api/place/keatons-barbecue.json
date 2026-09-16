@@ -100,6 +100,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-ncfolk-keatons"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-keatonsoriginalbbq"
    }
   }
  },
@@ -152,6 +156,25 @@
    "year": 2017
   }
  ],
+ "hours": {
+  "open": [
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo"
+  ],
+  "text": "Tuesday 11 to 2; Wednesday to Saturday 11 to 2 and 5 to 8.",
+  "source": "s:web-keatonsoriginalbbq",
+  "url": "https://www.keatonsoriginalbbq.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the restaurant warns that its hours vary."
+ },
  "blurb": "A chicken house in the crossroads community of Cleveland, Rowan County, west of Salisbury, where since 1953 the chicken has been fried (or baked) and then dipped whole in a hot vinegar-and-tomato barbecue sauce …",
  "region_terms": [
   {

@@ -1,6 +1,6 @@
 {
  "built": "2026-09-16",
- "count": 178,
+ "count": 179,
  "nodes": [
   {
    "schema": 1,
@@ -877,6 +877,13 @@
      "name": "The Great Divide",
      "as": "one of the two combatants: whole hog, clear vinegar, white slaw, cornbread.",
      "rel": "part"
+    },
+    {
+     "from": "the-sunday-question",
+     "type": "story",
+     "name": "The Sunday question",
+     "as": "the style most likely to cook to a number and stop when it is gone.",
+     "rel": "style"
     }
    ]
   },
@@ -31983,6 +31990,13 @@
      "name": "Going the whole hog — the 1830s barbecue lithographs",
      "as": "the cooking the phrase is a pun on, and the meat of the colonial rally.",
      "rel": "pit"
+    },
+    {
+     "from": "the-sunday-question",
+     "type": "story",
+     "name": "The Sunday question",
+     "as": "the cut that sets the schedule — an overnight cook is why the week has a shape at all.",
+     "rel": "pit"
     }
    ]
   },
@@ -32064,7 +32078,8 @@
     "s:web-bpr-rad-2025",
     "s:web-mountainx-obama-2010",
     "s:web-12bones-news",
-    "s:osm"
+    "s:osm",
+    "s:web-12bones-home"
    ],
    "provenance": {
     "default": {
@@ -32086,6 +32101,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "Nominatim matched 12 Bones Brewing at the same Arden address; the OSM barbecue harvest holds a bare '12 Bones' node in Asheville with no address"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-12bones-home"
      }
     }
    },
@@ -32139,6 +32158,23 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Seven days a week, 11 a.m. to 8 p.m.",
+    "source": "s:web-12bones-home",
+    "url": "https://12bones.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "Arden is the only location the company lists."
+   },
    "blurb": "A mountain barbecue house now trading from Hendersonville Road in Arden, south of Asheville, after Hurricane Helene took its River Arts District room in September 2024.",
    "region_terms": [
     {
@@ -32227,6 +32263,14 @@
      "url": "https://www.openstreetmap.org/copyright",
      "license": "ODbL 1.0",
      "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    },
+    {
+     "id": "s:web-12bones-home",
+     "kind": "web",
+     "title": "12 Bones Smokehouse — hours and locations",
+     "publisher": "12 Bones Smokehouse (official site)",
+     "url": "https://12bones.com/",
+     "accessed": "2026-09-16"
     }
    ],
    "tiers": {
@@ -33592,6 +33636,10 @@
       "tier": "harvested",
       "source": "s:flickr",
       "note": "read on the item's own page 2026-09-16: “CC BY-SA 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "hours": {
+      "tier": "harvested",
+      "source": "s:osm"
      }
     }
    },
@@ -33656,6 +33704,22 @@
      "source": "s:web-ourstate-bar-b-q-center"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "text": "Monday to Saturday, 11 to 9.",
+    "source": "s:osm",
+    "url": "https://www.openstreetmap.org/way/427932015",
+    "tier": "harvested",
+    "checked": "2026-09-16",
+    "note": "OSM way/427932015 gives Mo-Sa 11:00-21:00 and no rule either way for Sunday."
+   },
    "blurb": "A pork-shoulder pit and ice-cream counter on North Main Street in Lexington, Davidson County, that began in 1955 as a dairy bar, put a shoulder on a pit one slow winter, and has been the Conrad family's since: Sonny…",
    "region_terms": [
     {
@@ -34215,6 +34279,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "street from OSM; city and postcode from the restaurant listings"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-top100bbq-bessingers"
      }
     }
    },
@@ -34249,6 +34317,23 @@
      "source": "s:web-top100bbq-bessingers"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Seven days, 10:30 a.m. to 9:30 p.m.; buffet Friday and Saturday evenings and Sunday midday.",
+    "source": "s:web-top100bbq-bessingers",
+    "url": "https://top100bbq.com/index.php/100-mile-barbecue/77-resturants/79-bessingers-bar-be-que",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the Barbeque Association's listing is undated; OpenStreetMap recorded 11 to 9 in November 2023."
+   },
    "blurb": "A Bessinger family barbecue house at 1602 Savannah Highway in Charleston's West Ashley.",
    "region_terms": [
     {
@@ -34683,6 +34768,10 @@
       "tier": "cited",
       "source": "s:web-destination-bbq-big-t",
       "note": "no founding year in any source read; Destination BBQ says only that Brown has served the Columbia area for over thirty years"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-big-t"
      }
     }
    },
@@ -34742,6 +34831,25 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo",
+     "Tu"
+    ],
+    "text": "Wednesday to Saturday, from 11.",
+    "source": "s:web-destination-bbq-big-t",
+    "url": "https://destination-bbq.com/stores/big-ts-bar-b-que-3/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the Gadsden house; the Garners Ferry Road house in Columbia keeps its own hours."
+   },
    "blurb": "A Black-owned wood-burning pit on Congaree Road at Gadsden, in lower Richland County below Columbia, run by Larry Brown, known as Teddy and as Big T, who has sold barbecue to the Columbia area for more than thirty…",
    "region_terms": [
     {
@@ -35089,6 +35197,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-eatokra-bobbee-os"
      }
     }
    },
@@ -35126,6 +35238,23 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Seven days, from 11 a.m.",
+    "source": "s:web-eatokra-bobbee-os",
+    "url": "https://www.eatokra.com/businesses/bobbee-o-s-bbq",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "EatOkra's listing read 2026-09-16: Sunday 11 to 7, Monday to Thursday 11 to 9, Friday and Saturday 11 to 11. A directory, not the house."
+   },
    "blurb": "A Black-owned barbecue counter on Statesville Road in north Charlotte, opened in 2008 by Bob Steven Roberts after four years working on his sauce.",
    "region_terms": [
     {
@@ -35361,7 +35490,8 @@
     "s:web-eatbobbys-roots",
     "s:web-eatbobbys-press",
     "s:web-truecue-sc",
-    "s:osm"
+    "s:osm",
+    "s:web-eatbobbys-hours"
    ],
    "provenance": {
     "default": {
@@ -35387,6 +35517,10 @@
      "address": {
       "tier": "harvested",
       "source": "s:osm"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-eatbobbys-hours"
      }
     }
    },
@@ -35435,6 +35569,25 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo",
+     "Tu",
+     "We"
+    ],
+    "text": "Thursday to Saturday, 11 to 9.",
+    "source": "s:web-eatbobbys-hours",
+    "url": "https://eatbobbys.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the site posts Thursday, Friday and Saturday — three days."
+   },
    "blurb": "A Texas-leaning smokehouse on North Main Street in Fountain Inn, Greenville County, owned by Octavius Nelson, called Tay, and his wife Sarah.",
    "region_terms": [
     {
@@ -35501,6 +35654,14 @@
      "url": "https://www.openstreetmap.org/copyright",
      "license": "ODbL 1.0",
      "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    },
+    {
+     "id": "s:web-eatbobbys-hours",
+     "kind": "web",
+     "title": "Bobby's BBQ — hours",
+     "publisher": "Bobby's BBQ (official site)",
+     "url": "https://eatbobbys.com/",
+     "accessed": "2026-09-16"
     }
    ],
    "tiers": {
@@ -35764,6 +35925,10 @@
       "tier": "cited",
       "source": "s:web-sfa-browns-bar-b-q",
       "note": "The SFA page, re-read 2026-09-16, names no owner, describes no fuel and does not describe the family's race; no black-owned, no woman-owned and no wood-cooked tag is set. Angela Brown appears only as an interviewee."
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-browns"
      }
     }
    },
@@ -35808,6 +35973,24 @@
      "note": "Angela Brown and Thomas M. Brown Jr., interviewed by Rien Fertel, June 17, 2012."
     }
    ],
+   "hours": {
+    "open": [
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "closed": [
+     "Mo",
+     "Tu"
+    ],
+    "text": "Wednesday to Saturday 11 to 9, Sunday 11 to 3.",
+    "source": "s:web-destination-bbq-browns",
+    "url": "https://destination-bbq.com/stores/browns-bar-b-q/",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "A farm family's buffet house on the Williamsburg County Highway north of Kingstree, in the Pee Dee, opened in 1981 as a take-out window by Thomas M.",
    "region_terms": [
     {
@@ -36286,6 +36469,10 @@
       "tier": "harvested",
       "source": "s:flickr-sfa",
       "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-ourstate-bs-barbecue"
      }
     }
    },
@@ -36426,6 +36613,22 @@
      "year": 2016
     }
    ],
+   "hours": {
+    "open": [
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "text": "Tuesday to Saturday from 9 a.m., until it runs out.",
+    "sold_out": true,
+    "source": "s:web-ourstate-bs-barbecue",
+    "url": "https://www.ourstate.com/a-day-at-bs-barbecue-greenville/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "days from Our State (2012), the 9 a.m. opening from the 2016 piece; there is no telephone to check."
+   },
    "blurb": "A whole-hog and chicken pit on the edge of Greenville, Pitt County, in a converted country store on a road the county named for it.",
    "region_terms": [
     {
@@ -38061,6 +38264,10 @@
      "text.today": {
       "tier": "cited",
       "source": "s:web-carolina-bbq-new-ellenton"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-carolina-bbq-new-ellenton"
      }
     }
    },
@@ -38114,6 +38321,23 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo",
+     "Tu"
+    ],
+    "text": "Wednesday 11 to 1:30, Thursday to Saturday 11 to 8.",
+    "source": "s:web-carolina-bbq-new-ellenton",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "A mustard-sauce buffet house on South Main Street in New Ellenton, Aiken County, founded by Willie Mae Walker and her son Jess.",
    "region_terms": [
     {
@@ -38500,6 +38724,10 @@
       "tier": "harvested",
       "source": "s:ncsa-fcx",
       "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "hours": {
+      "tier": "harvested",
+      "source": "s:osm"
      }
     }
    },
@@ -38543,6 +38771,22 @@
      "note": "Debbie Holt, interviewed by Rien T. Fertel, November 22, 2011."
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "text": "Monday to Saturday, 10 to 6.",
+    "source": "s:osm",
+    "url": "https://www.openstreetmap.org/node/3307013373",
+    "tier": "harvested",
+    "checked": "2026-09-16",
+    "note": "OSM node/3307013373 gives Mo-Sa 10:00-18:00 and no rule either way for Sunday."
+   },
    "blurb": "Raleigh's downtown barbecue house since New Year's Day 1938, when Clyde Cooper opened on East Davie Street with fifty dollars borrowed from a brother-in-law; it moved around the corner to 327 South Wilmington Street in…",
    "region_terms": [
     {
@@ -39299,6 +39543,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-destination-bbq-coopers"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-coopers"
      }
     }
    },
@@ -39354,6 +39602,24 @@
      "year": 2014
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su"
+    ],
+    "text": "Monday to Saturday 7 to 7; lunch buffet Wednesday to Saturday, 10:30 to 2.",
+    "source": "s:web-destination-bbq-coopers",
+    "url": "https://destination-bbq.com/stores/coopers-country-store/",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "A whitewashed general store on US 521 near Salters, south of Kingstree in Williamsburg County, that sells hardware, groceries, gasoline, diesel, propane, plow points, cast-iron cookware, live crickets — and, from a…",
    "region_terms": [
     {
@@ -39771,6 +40037,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-dukessc-whitman"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-dukes-chestnut"
      }
     }
    },
@@ -39821,6 +40091,19 @@
      "note": "Tony Kittrell, interviewed June 4, 2012."
     }
    ],
+   "hours": {
+    "open": [
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "text": "Thursday to Saturday, 11 to 7.",
+    "source": "s:web-destination-bbq-dukes-chestnut",
+    "url": "https://destination-bbq.com/stores/dukes-bar-b-que-3/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the Chestnut Street house. The Whitman Street house lists the same days, but its own site reads temporarily closed."
+   },
    "blurb": "The name on a dozen or more buffet houses across the Midlands and Lowcountry, all descended from the sons of Manuel Dukes of Orangeburg County, who learned pit cooking from a Rowesville pitmaster and catered the…",
    "region_terms": [
     {
@@ -40348,6 +40631,10 @@
       "tier": "cited",
       "source": "s:web-fuzzys-bbq",
       "note": "three sources, three sets of hours; the NC Pork Council also gives a different street, which four other sources contradict"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-fuzzys-bbq"
      }
     }
    },
@@ -40396,6 +40683,21 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "text": "Tuesday to Saturday, from seven in the morning.",
+    "source": "s:web-fuzzys-bbq",
+    "url": "https://fuzzysbbqmadison.com/ABOUT_US_.html",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the restaurant's page gives Monday to Saturday and Sunday; the NC Pork Council gives Tuesday to Saturday, closed Sunday and Monday. Sunday and Monday are left unstated."
+   },
    "blurb": "A pork-shoulder house on Highway Street in Madison, Rockingham County, opened in 1954 by T.H. 'Fuzzy' Nelson and in the Nelson family since.",
    "region_terms": [
     {
@@ -41292,6 +41594,10 @@
      "address": {
       "tier": "harvested",
       "source": "s:osm"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-henrys-home"
      }
     }
    },
@@ -41331,6 +41637,23 @@
      "source": "s:web-henrys-blog-2024"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Monday to Saturday 11 to 8, Sunday 11 to 3.",
+    "source": "s:web-henrys-home",
+    "url": "https://henryssmokehouse.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the same hours at the Simpsonville house."
+   },
    "blurb": "An Upstate barbecue house at 240 Wade Hampton Boulevard on the edge of downtown Greenville, opened by Beau Hammond — in 1991 by the company's own account, in 1992 by the Greenville Journal's — in a small building that…",
    "region_terms": [
     {
@@ -41754,6 +42077,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-hites-about"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-hites-about"
      }
     }
    },
@@ -41801,6 +42128,25 @@
      "url": "http://www.truecue.org/true-cue-sc"
     }
    ],
+   "hours": {
+    "open": [
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo",
+     "Tu",
+     "We",
+     "Th"
+    ],
+    "text": "Friday and Saturday only, 10 to 6.",
+    "source": "s:web-hites-about",
+    "url": "https://www.hitesbbq.com/about-hites-bar",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "Destination BBQ recorded 8 to 7 Friday and 8 to 6 Saturday; the days agree."
+   },
    "blurb": "A take-out barbecue stand on Dreher Road in West Columbia, open only on Friday and Saturday, where the Hite family has cooked whole hogs and hams over oak and hickory coals since 1957.",
    "region_terms": [
     {
@@ -42152,7 +42498,8 @@
     "s:web-city-paper-home-team-20-years-2026",
     "s:osm",
     "s:web-truecue-sc",
-    "s:web-destination-bbq-hash-map"
+    "s:web-destination-bbq-hash-map",
+    "s:web-home-team-west-ashley"
    ],
    "provenance": {
     "default": {
@@ -42178,6 +42525,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-city-paper-home-team-20-years-2026"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-home-team-west-ashley"
      }
     }
    },
@@ -42209,6 +42560,23 @@
      "url": "http://www.truecue.org/true-cue-sc"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Open daily, 11 a.m. to midnight.",
+    "source": "s:web-home-team-west-ashley",
+    "url": "https://hometeambbq.com/locations/west-ashley/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the West Ashley original; the other six houses keep their own hours."
+   },
    "blurb": "A Charleston barbecue company that began in November 2006 when Aaron Siegel, a Culinary Institute-trained cook from Atlanta, turned Bunch's, a mid-century gas station at 1205 Ashley River Road in West Ashley, into Fiery…",
    "region_terms": [
     {
@@ -42316,6 +42684,14 @@
      "url": "https://destination-bbq.com/south-carolina-bbq-hash-map/",
      "accessed": "2026-09-16",
      "note": "147 South Carolina places named as serving hash; harvested to data/harvest/sc-hash-list.json. Hash is not a wood claim."
+    },
+    {
+     "id": "s:web-home-team-west-ashley",
+     "kind": "web",
+     "title": "Home Team BBQ — West Ashley",
+     "publisher": "Home Team BBQ (official site)",
+     "url": "https://hometeambbq.com/locations/west-ashley/",
+     "accessed": "2026-09-16"
     }
    ],
    "tiers": {
@@ -42531,6 +42907,10 @@
      "address": {
       "tier": "harvested",
       "source": "s:osm"
+     },
+     "hours": {
+      "tier": "harvested",
+      "source": "s:osm"
      }
     }
    },
@@ -42573,6 +42953,23 @@
      "year": 2014
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Daily, 11 to 9.",
+    "source": "s:osm",
+    "url": "https://www.openstreetmap.org/way/371725551",
+    "tier": "harvested",
+    "checked": "2026-09-16",
+    "note": "OSM way/371725551 gives Su-Sa 11:00-21:00 for the South Church Street house; the other Hursey's keep their own hours."
+   },
    "blurb": "The Burlington, Alamance County, barbecue business of the Hursey family: Sylvester and Daisy Hursey began smoking pork over a backyard pit in 1945 with a sauce of their own, moved to a cafe in Gibsonville with two big…",
    "region_terms": [
     {
@@ -43837,6 +44234,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-ncfolk-keatons"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-keatonsoriginalbbq"
      }
     }
    },
@@ -43889,6 +44290,25 @@
      "year": 2017
     }
    ],
+   "hours": {
+    "open": [
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo"
+    ],
+    "text": "Tuesday 11 to 2; Wednesday to Saturday 11 to 2 and 5 to 8.",
+    "source": "s:web-keatonsoriginalbbq",
+    "url": "https://www.keatonsoriginalbbq.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the restaurant warns that its hours vary."
+   },
    "blurb": "A chicken house in the crossroads community of Cleveland, Rowan County, west of Salisbury, where since 1953 the chicken has been fried (or baked) and then dipped whole in a hot vinegar-and-tomato barbecue sauce …",
    "region_terms": [
     {
@@ -44492,6 +44912,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "OSM spells the street 'Nasseau'; the restaurant's spelling is used"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-lewis-charleston"
      }
     }
    },
@@ -44516,6 +44940,23 @@
      "url": "http://www.truecue.org/true-cue-sc"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Tuesday to Saturday 11 to 10, Sunday and Monday 11 to 9.",
+    "source": "s:web-lewis-charleston",
+    "url": "https://www.lewisbarbecue.com/location/lewis-barbecue-charleston/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the Charleston house; Greenville and Atlanta keep their own hours."
+   },
    "blurb": "A Central Texas-style barbecue restaurant at 464 North Nassau Street on the upper peninsula of Charleston, opened in June 2016 by John Lewis, a pitmaster from El Paso who cooked in Austin with Franklin Barbecue and then…",
    "region_terms": [
     {
@@ -44927,6 +45368,10 @@
       "tier": "harvested",
       "source": "s:flickr-sfa",
       "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-lexbbq-about"
      }
     }
    },
@@ -45038,6 +45483,25 @@
      "source": "s:web-ourstate-lexington-barbecue"
     }
    ],
+   "hours": {
+    "open": [
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo"
+    ],
+    "text": "Tuesday to Saturday, 10 to 9.",
+    "source": "s:web-lexbbq-about",
+    "url": "https://www.lexbbq.com/about-us",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "OpenStreetMap lists Monday hours as well; the restaurant's own page is followed here."
+   },
    "blurb": "The pork-shoulder pit on Smokehouse Lane in Lexington, Davidson County, that Wayne Monk opened in 1962 at 26 after working under Warner Stamey, and that he owns with his son Rick.",
    "region_terms": [
     {
@@ -45664,6 +46128,10 @@
       "tier": "cited",
       "source": "s:web-luellasbbq",
       "note": "the restaurant's own pages, read 2026-09-16; no independent 2026 confirmation, and nothing on Helene's effect here"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-luellasbbq"
      }
     }
    },
@@ -45700,6 +46168,23 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Eleven to nine, daily.",
+    "source": "s:web-luellasbbq",
+    "url": "https://www.luellasbbq.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "both the Merrimon Avenue and Biltmore Park rooms."
+   },
    "blurb": "An Asheville barbecue house on Merrimon Avenue with a second room at Biltmore Park, opened in 2007 by Jeff Miller and named for his grandmother and his daughter. Jeff and Ashley Miller own it.",
    "region_terms": [
     {
@@ -46010,7 +46495,8 @@
     "s:web-seattle-times-piggie-park-2002",
     "s:osm",
     "s:web-destination-bbq-hash-map",
-    "s:web-truecue-sc"
+    "s:web-truecue-sc",
+    "s:web-piggiepark-west-columbia"
    ],
    "provenance": {
     "default": {
@@ -46046,6 +46532,10 @@
       "tier": "cited",
       "source": "s:web-piggiepark-history",
       "note": "The company's history names Maurice Bessinger's daughter Debbie among those who 'carry on the family's BBQ heritage'. That is not a statement of ownership, so no woman-owned tag is set."
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-piggiepark-west-columbia"
      }
     }
    },
@@ -46128,6 +46618,23 @@
      "url": "http://www.truecue.org/true-cue-sc"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Sunday to Thursday 10 to 9, Friday and Saturday 10 to 10.",
+    "source": "s:web-piggiepark-west-columbia",
+    "url": "https://www.piggiepark.com/locations/west-columbia/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the West Columbia house; the seven other Pit-Stops keep their own hours."
+   },
    "blurb": "A chain of eight barbecue restaurants around Columbia run from the original drive-in at 1600 Charleston Highway, West Columbia, where Maurice Bessinger and his brother Joe Jr. opened in 1953.",
    "region_terms": [
     {
@@ -46317,6 +46824,14 @@
      "url": "http://www.truecue.org/true-cue-sc",
      "accessed": "2026-09-16",
      "note": "65 entries listed on 2026-09-16."
+    },
+    {
+     "id": "s:web-piggiepark-west-columbia",
+     "kind": "web",
+     "title": "Maurice's Piggie Park — West Columbia, Charleston Highway",
+     "publisher": "Maurice's Piggie Park (official site)",
+     "url": "https://www.piggiepark.com/locations/west-columbia/",
+     "accessed": "2026-09-16"
     }
    ],
    "tiers": {
@@ -46649,6 +47164,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-destination-bbq-mccabes"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-mccabes"
      }
     }
    },
@@ -46713,6 +47232,19 @@
      "source": "s:web-discoversc-mccabes"
     }
    ],
+   "hours": {
+    "open": [
+     "Fr",
+     "Sa"
+    ],
+    "text": "Friday and Saturday, 11 to 2.",
+    "seasonal": "closed the month of January",
+    "source": "s:web-destination-bbq-mccabes",
+    "url": "https://destination-bbq.com/stores/mccabes/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the state tourism office's older listing gives Thursday to Saturday, so Thursday is left unstated."
+   },
    "blurb": "A family buffet house on North Brooks Street in Manning, Clarendon County, where the McCabes cook whole hogs, shoulders and hams together for ten to twelve hours over wood coals, on pits David McCabe built in a screened…",
    "region_terms": [
     {
@@ -47483,7 +48015,8 @@
     "s:web-melvins-press",
     "s:web-truecue-sc",
     "s:sfa-oral-histories",
-    "s:osm"
+    "s:osm",
+    "s:web-melvins-hours"
    ],
    "provenance": {
     "default": {
@@ -47510,6 +48043,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "Nominatim matched the Folly Road house number; the OSM barbecue harvest holds a bare node at the same spot"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-melvins-hours"
      }
     }
    },
@@ -47569,6 +48106,25 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su"
+    ],
+    "text": "Monday to Saturday 10:30 to 9; closed Sundays.",
+    "source": "s:web-melvins-hours",
+    "url": "https://melvinsbbq.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "both the James Island and Mount Pleasant houses."
+   },
    "blurb": "A Charleston mustard-sauce house with rooms on Folly Road on James Island and on Houston Northcutt Boulevard in Mount Pleasant, opened in 1982 by Melvin Bessinger with his son David after Melvin left the partnership…",
    "region_terms": [
     {
@@ -47692,6 +48248,14 @@
      "url": "https://www.openstreetmap.org/copyright",
      "license": "ODbL 1.0",
      "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    },
+    {
+     "id": "s:web-melvins-hours",
+     "kind": "web",
+     "title": "Melvin's Legendary Bar-B-Q — hours",
+     "publisher": "Melvin's Legendary Bar-B-Q (official site)",
+     "url": "https://melvinsbbq.com/",
+     "accessed": "2026-09-16"
     }
    ],
    "tiers": {
@@ -47932,6 +48496,10 @@
      "address": {
       "tier": "harvested",
       "source": "s:osm"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-midway-bbq-home"
      }
     }
    },
@@ -47970,6 +48538,24 @@
      "note": "Jay Allen, interviewed by Rien Fertel, June 12, 2012."
     }
    ],
+   "hours": {
+    "open": [
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo"
+    ],
+    "text": "Tuesday to Friday 10 to 6, Saturday 10 to 4.",
+    "source": "s:web-midway-bbq-home",
+    "url": "https://midway-bbq.com/bbq-restaurant/",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "A hash house and meat market on Main Street in Buffalo, a mill village in Union County in the Upstate, in business since about 1941 and the last of the nearly fifty hash houses the county once had.",
    "region_terms": [
     {
@@ -48709,6 +49295,10 @@
       "tier": "harvested",
       "source": "s:ncsa-massengill",
       "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-parkersbbqwilson"
      }
     }
    },
@@ -48760,6 +49350,22 @@
      "source": "s:web-ourstate-parkers"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Seven days, 9 to 7; take-out to 7:30.",
+    "source": "s:web-parkersbbqwilson",
+    "url": "https://parkersbbqwilson.com/",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "A large eastern barbecue house on U.S. 301 south of Wilson, opened in August 1946 by brothers Graham and Ralph Parker and their cousin Henry Parker Brewer, and owned since 1987 by Donald Williams, who started there in…",
    "region_terms": [
     {
@@ -49120,7 +49726,8 @@
     "s:web-wbtv-red-bridges-80",
     "s:sfa-stameys-barbecue",
     "s:web-truecue-nc",
-    "s:web-barbecuebros-nc-trail"
+    "s:web-barbecuebros-nc-trail",
+    "s:web-bridgesbbq-hours"
    ],
    "provenance": {
     "default": {
@@ -49146,6 +49753,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "via Nominatim"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-bridgesbbq-hours"
      }
     }
    },
@@ -49195,6 +49806,25 @@
      "note": "Natalie Ramsey and Chase Webb, interviewed by Rien T. Fertel, November 19, 2020."
     }
    ],
+   "hours": {
+    "open": [
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "closed": [
+     "Mo",
+     "Tu"
+    ],
+    "text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3; it can sell out before closing.",
+    "sold_out": true,
+    "source": "s:web-bridgesbbq-hours",
+    "url": "https://www.bridgesbbq.com/location/bridges-bbq/",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "The Shelby, Cleveland County, pork-shoulder house of the Bridges family, begun in 1946 by Red Bridges, an Army cook home from the war, and his wife Lyttle, and run by their daughter Debbie Bridges-Webb with her children…",
    "region_terms": [
     {
@@ -49305,6 +49935,14 @@
      "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
      "accessed": "2026-09-16",
      "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+    },
+    {
+     "id": "s:web-bridgesbbq-hours",
+     "kind": "web",
+     "title": "Hours & Location — Bridges BBQ, Shelby",
+     "publisher": "Red Bridges Barbecue Lodge (official site)",
+     "url": "https://www.bridgesbbq.com/location/bridges-bbq/",
+     "accessed": "2026-09-16"
     }
    ],
    "tiers": {
@@ -50134,6 +50772,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-samjonesbbq"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-samjonesbbq"
      }
     }
    },
@@ -50164,6 +50806,23 @@
      "url": "http://www.truecue.org/true-cue-nc"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Monday to Saturday 11 to 9, Sunday 11 to 8:30.",
+    "source": "s:web-samjonesbbq",
+    "url": "https://www.samjonesbbq.com/about",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the same hours at Winterville and Raleigh."
+   },
    "blurb": "A whole-hog restaurant in Winterville, Pitt County, opened on November 10, 2015 by Sam Jones, grandson of the Skylight Inn's founder Pete Jones, with his partner Michael Letchworth, and a second house in downtown…",
    "region_terms": [
     {
@@ -50641,6 +51300,10 @@
       "tier": "cited",
       "source": "s:web-scetv-scotts-backroad-bites-2021",
       "note": "SCETV (August 31, 2021) names Ella Scott as a co-founder — 'The restaurant was founded in 1972 by Ella and Roosevelt “Rosie” Scott' — but the store has been run since May 2024 by Sam Wilson and Dominic Scott, so no current woman-owned tag is set. No source read on 2026-09-16 — the SCETV feature, the SFA interview, the SFA South Carolina project page or the Wikipedia articles — describes the Scotts as Black or the business as Black-owned, so no black-owned tag is set either."
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-scotts"
      }
     }
    },
@@ -50690,6 +51353,25 @@
      "note": "Rodney Scott, interviewed by Rien Fertel, June 2012."
     }
    ],
+   "hours": {
+    "open": [
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo",
+     "Tu"
+    ],
+    "text": "Wednesday to Saturday from 9:30, closing about five.",
+    "source": "s:web-destination-bbq-scotts",
+    "url": "https://destination-bbq.com/stores/scotts-bar-b-que/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "cash only. The listing read 2026-09-16 gives 9:30 to 5, and to 5:30 on Friday."
+   },
    "blurb": "A whole-hog pit behind a country store on the Hemingway Highway in Williamsburg County, in the Pee Dee.",
    "region_terms": [
     {
@@ -51602,6 +52284,10 @@
       "tier": "cited",
       "source": "s:web-shealys-home",
       "note": "OSM tags the building 240 E Columbia Ave; the restaurant gives 340"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-shealys-home"
      }
     }
    },
@@ -51644,6 +52330,25 @@
      "year": 2019
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "We",
+     "Su"
+    ],
+    "text": "Monday, Tuesday and Thursday to Saturday; buffet 11 to 9, carry-out from 10.",
+    "source": "s:web-shealys-home",
+    "url": "https://www.shealysbbq.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "OpenStreetMap records the same days."
+   },
    "blurb": "A buffet house on East Columbia Avenue in Batesburg-Leesville, Lexington County, opened in June 1969 by Victor and Sara Shealy with their teenage children Tommy and Nancy, and family-run since.",
    "region_terms": [
     {
@@ -52428,6 +53133,10 @@
      "text.today": {
       "tier": "cited",
       "source": "s:web-destination-bbq-shulers"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-shulers"
      }
     }
    },
@@ -52494,6 +53203,18 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "text": "Thursday to Saturday, 11:30 to 8.",
+    "source": "s:web-destination-bbq-shulers",
+    "url": "https://destination-bbq.com/stores/shulers-barbecue/",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "An all-you-can-eat barbecue house on Highway 38 between Latta and Sellers, in Dillon County in the Pee Dee, opened in 1996 by Norton and Lynn Hughes and named for Norton's father Shuler Hughes, who made the sauce in…",
    "region_terms": [
     {
@@ -52857,6 +53578,10 @@
       "tier": "cited",
       "source": "s:wp-skylight-inn-bbq",
       "note": "hours and address as published by the restaurant; check before driving"
+     },
+     "hours": {
+      "tier": "harvested",
+      "source": "s:osm"
      }
     }
    },
@@ -52923,6 +53648,25 @@
      "year": 2016
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su"
+    ],
+    "text": "Monday to Saturday, 10 to 7.",
+    "source": "s:osm",
+    "url": "https://www.openstreetmap.org/node/2955593931",
+    "tier": "harvested",
+    "checked": "2026-09-16",
+    "note": "OSM node/2955593931 gives Mo-Sa 10:00-19:00 and Su off; the row carries no check date. Wikipedia's account of the restaurant's published hours also gives Monday to Saturday."
+   },
    "blurb": "A whole-hog pit in Ayden, Pitt County, opened by Walter B. 'Pete' Jones on July 8, 1947 and run by his family since.",
    "region_terms": [
     {
@@ -54453,6 +55197,10 @@
      "address": {
       "tier": "harvested",
       "source": "s:osm"
+     },
+     "hours": {
+      "tier": "harvested",
+      "source": "s:osm"
      }
     }
    },
@@ -54494,6 +55242,22 @@
      "source": "s:sfa-stameys-barbecue"
     }
    ],
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "text": "Monday to Saturday, 11 to 9.",
+    "source": "s:osm",
+    "url": "https://www.openstreetmap.org/way/324238125",
+    "tier": "harvested",
+    "checked": "2026-09-16",
+    "note": "OSM way/324238125, checked 2026-08-08: the Battleground Avenue house, with no rule either way for Sunday. The Gate City Boulevard restaurant is not in the harvest."
+   },
    "blurb": "The Greensboro pork-shoulder house of the Stamey family, opened by Warner Stamey in 1953 as a drive-in on High Point Road (now West Gate City Boulevard) and run by his grandson Chip since 1993, with a second restaurant…",
    "region_terms": [
     {
@@ -54932,6 +55696,10 @@
      "address": {
       "tier": "cited",
       "source": "s:web-ourstate-stephensons"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-ourstate-stephensons"
      }
     }
    },
@@ -54974,6 +55742,17 @@
      "year": 2014
     }
    ],
+   "hours": {
+    "closed": [
+     "Su"
+    ],
+    "text": "Closed Sundays.",
+    "source": "s:web-ourstate-stephensons",
+    "url": "https://www.ourstate.com/stephensons-barbecue/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "Our State (2014) names the Sunday closing and nothing else; the other six days are not published here."
+   },
    "blurb": "A family barbecue house on N.C. 50 at Willow Spring, in western Johnston County south of Raleigh, opened in July 1958 by hog farmer Paul Stephenson and run since his death by his son Andy.",
    "region_terms": [
     {
@@ -55315,6 +56094,10 @@
       "tier": "harvested",
       "source": "s:flickr",
       "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-sweatmans"
      }
     }
    },
@@ -55370,6 +56153,23 @@
      "note": "Harold 'Bub' Sweatman."
     }
    ],
+   "hours": {
+    "open": [
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Mo",
+     "Tu",
+     "We"
+    ],
+    "text": "Friday and Saturday, 11:30 to 8.",
+    "source": "s:web-destination-bbq-sweatmans",
+    "url": "https://destination-bbq.com/stores/sweatmans-bar-b-que/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "the restaurant's own page gives Friday and Saturday; Destination BBQ lists Thursday to Sunday. Thursday and Sunday are left unstated."
+   },
    "blurb": "A whole-hog barbecue house in an old farmhouse on Eutaw Road outside Holly Hill, in Orangeburg County, the mustard belt of the Midlands.",
    "region_terms": [
     {
@@ -55818,6 +56618,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "not in the OSM barbecue harvest; Nominatim matched the restaurant object at the street address"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-johntanner-tarheel-q-2026"
      }
     }
    },
@@ -55854,6 +56658,25 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Mo",
+     "Tu",
+     "We",
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su"
+    ],
+    "text": "Monday to Saturday; closed Sunday.",
+    "source": "s:web-johntanner-tarheel-q-2026",
+    "url": "https://johntannersbbqblog.wordpress.com/2026/04/18/tarheel-q-lexington-north-carolina-2/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "from a directory listing rather than the restaurant's own site, which refused the fetch."
+   },
    "blurb": "A pork-shoulder pit on US 64 west of Lexington, Davidson County, cooking on brick masonry pits behind the building. Leon and Becky Simmons have owned it since December 2017.",
    "region_terms": [
     {
@@ -56154,6 +56977,10 @@
      "text.how": {
       "tier": "inference",
       "note": "from the menu description in the cited piece; the kitchen's method is not published"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-fiction-kitchen"
      }
     }
    },
@@ -56161,6 +56988,24 @@
    "confidence": "medium",
    "needs_verification": true,
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "closed": [
+     "Mo",
+     "Tu"
+    ],
+    "text": "Wednesday to Saturday for dinner; lunch Friday, Saturday and Sunday.",
+    "source": "s:web-fiction-kitchen",
+    "url": "https://www.thefictionkitchen.com/",
+    "tier": "cited",
+    "checked": "2026-09-16"
+   },
    "blurb": "A vegetarian and vegan restaurant in Raleigh whose menu carries a Southern-style pulled barbecue made without pork, served with the slaw and the sides a Carolina plate expects.",
    "region_terms": [
     {
@@ -56396,6 +57241,10 @@
       "tier": "harvested",
       "source": "s:osm",
       "note": "not in the OSM barbecue harvest; Nominatim matched the house number"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-destination-bbq-true-bbq"
      }
     }
    },
@@ -56456,6 +57305,25 @@
    ],
    "images": [],
    "updated": "2026-09-16",
+   "hours": {
+    "open": [
+     "Th",
+     "Fr",
+     "Sa"
+    ],
+    "closed": [
+     "Su",
+     "Mo",
+     "Tu",
+     "We"
+    ],
+    "text": "Thursday to Saturday, 11 to 8.",
+    "source": "s:web-destination-bbq-true-bbq",
+    "url": "https://destination-bbq.com/stores/true-bbq/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "Destination BBQ posts Thursday, Friday and Saturday — three days. The West Columbia house."
+   },
    "blurb": "A Black-owned pit on D Avenue in West Columbia, opened in 2010 by the brothers Ernest and Milton Zanders after years of selling from street corners and events. The wood-fired pits are visible from the front parking lot.",
    "region_terms": [
     {
@@ -56836,6 +57704,10 @@
       "tier": "harvested",
       "source": "s:ncsa-massengill",
       "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+     },
+     "hours": {
+      "tier": "cited",
+      "source": "s:web-wilbersbbq"
      }
     }
    },
@@ -56949,6 +57821,21 @@
      "source": "s:reed-holy-smoke"
     }
    ],
+   "hours": {
+    "open": [
+     "We",
+     "Th",
+     "Fr",
+     "Sa",
+     "Su"
+    ],
+    "text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3.",
+    "source": "s:web-wilbersbbq",
+    "url": "https://www.wilbersbbq.com/",
+    "tier": "cited",
+    "checked": "2026-09-16",
+    "note": "Monday and Tuesday are not published. Our State's account of a pit that is cold on Sunday predates these hours."
+   },
    "blurb": "A whole-hog pit on U.S. 70 east of Goldsboro, Wayne County, opened in 1962 by Wilberdean 'Wilber' Shirley and cooked the same way since: split hogs over oak coals in open pits in a cinder-block cookhouse behind a…",
    "region_terms": [
     {
@@ -57323,6 +58210,13 @@
      "type": "art",
      "name": "the pig mascot",
      "as": "whose pig turns on a weather vane over Goldsboro rather than standing on a sign.",
+     "rel": "place"
+    },
+    {
+     "from": "the-sunday-question",
+     "type": "story",
+     "name": "The Sunday question",
+     "as": "the pit Our State used to describe as dark on Sunday, and which now posts Sunday hours — the example and its own correction.",
      "rel": "place"
     }
    ]
@@ -77280,6 +78174,13 @@
      "name": "pit",
      "as": "the person; the word is built on this one.",
      "rel": "term"
+    },
+    {
+     "from": "the-sunday-question",
+     "type": "story",
+     "name": "The Sunday question",
+     "as": "whose week this is, and who needs the day off.",
+     "rel": "term"
     }
    ]
   },
@@ -81862,6 +82763,174 @@
     "text.what": {
      "tier": "cited",
      "source": "s:wp-barbecue-in-north-carolina"
+    }
+   },
+   "primary_image": null,
+   "tag_facts": [],
+   "recognition_facts": [],
+   "acclaim": 0,
+   "kin_in": []
+  },
+  {
+   "schema": 1,
+   "id": "the-sunday-question",
+   "type": "story",
+   "names": {
+    "name": "The Sunday question",
+    "aliases": [
+     "closed Sunday",
+     "Sunday barbecue"
+    ],
+    "said": "Ask a Carolina pit man about Sunday and you will get an answer about Thursday."
+   },
+   "region": [
+    "carolinas"
+   ],
+   "facets": {
+    "kind": "essay",
+    "state": "both"
+   },
+   "text": {
+    "what": "Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some people will tell you not to order barbecue anyway. Neither is about the meat being worse on a Sunday. Both are about when the fire was lit. This page lays out what can be counted, what the pits themselves say, and what is belief — and this directory does not take a side."
+   },
+   "sections": [
+    {
+     "h": "What the days actually show",
+     "text": "Of the places here whose days we could read, Saturday is kept by nearly all of them and Sunday is the one they drop. Monday is the next thinnest. The rest of the map has not published its days at all, and that is a hole in this directory rather than a finding about the Carolinas.\n\n*Inference —* the shape is the cooking week, not the calendar. A pit that cooks whole hogs overnight needs the crew rested and the pits cleaned before it starts again, so the quiet end of the week lands where the trade is thinnest."
+    },
+    {
+     "h": "Why the pit is cold on Sunday",
+     "text": "Our State, writing about Wilber's in Goldsboro, put it as plainly as anyone: the only day the pit isn't fired up is Sunday, when the restaurant is closed. The fire and the opening hours are the same fact stated twice.\n\nThat sentence has since been overtaken, and the way it was overtaken is the point. Wilber's closed in 2019, reopened in 2020, and now posts Sunday hours itself. A pit's week is a business decision that gets revisited, not a law — which is why this directory dates what it knows and says who said it.\n\nChurch is the other half, and the two have never been in competition: a Sunday closing suits a staff at service in the morning and a town that eats at home after it. *Tradition holds —* a pit that has cooked through Friday night and sold out Saturday has nothing left to sell on Sunday even if it wanted to, which is why 'closed Sunday' and 'closes when it runs out' so often sit on the same door."
+    },
+    {
+     "h": "The belief about Sunday meat",
+     "text": "*Tradition holds —* that barbecue eaten late in the week, Sunday included, is not the same as barbecue eaten the day it came off the pit; that what you are served on a slow day is the tail of a cook that started days earlier; and that a pit which is busy is a pit that is cooking fresh. Some people will not order barbecue on a Sunday for that reason, and some will not order it on a Monday for the same one.\n\nThis directory records the belief and does not test it. Nobody here has tasted anything, and a pit that reheats well is not a lesser pit. What the belief is useful for is reading a door: a place that cooks to sell out and closes is telling you its schedule, and a place open seven days is telling you a different one. Both are ways of running a barbecue house, and the Carolinas are full of both."
+    },
+    {
+     "h": "How to use the filter",
+     "text": "The finder has an Open Sunday chip and an Open today chip. They show only the pits a source actually says are open, so a pit whose days nobody has published is left out of the answer rather than guessed at — which keeps the list short and keeps a guess off the map. If you know a pit's days, that is exactly the kind of thing this directory is missing."
+    }
+   ],
+   "kin": [
+    {
+     "to": "wilbers-barbecue",
+     "as": "the pit Our State used to describe as dark on Sunday, and which now posts Sunday hours — the example and its own correction.",
+     "rel": "place"
+    },
+    {
+     "to": "whole-hog",
+     "as": "the cut that sets the schedule — an overnight cook is why the week has a shape at all.",
+     "rel": "pit"
+    },
+    {
+     "to": "eastern-nc",
+     "as": "the style most likely to cook to a number and stop when it is gone.",
+     "rel": "style"
+    },
+    {
+     "to": "pitmaster",
+     "as": "whose week this is, and who needs the day off.",
+     "rel": "term"
+    }
+   ],
+   "links": [
+    {
+     "label": "Our State — Pit Stop: 22 Essential North Carolina Barbecue Joints",
+     "url": "https://www.ourstate.com/pit-stop-26-essential-north-carolina-barbecue-joints/"
+    }
+   ],
+   "sources": [
+    "s:web-ourstate-pit-stop",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:web-ourstate-pit-stop"
+    },
+    "fields": {
+     "sections[0].text": {
+      "tier": "harvested",
+      "source": "s:osm",
+      "note": "counted from the days this site could read, most of them OpenStreetMap opening_hours; the second paragraph is marked inference in the text"
+     },
+     "sections[2].text": {
+      "tier": "tradition",
+      "note": "a belief held in the trade and among eaters. No source tests it and this project does not; it is recorded as belief and marked as such inline."
+     },
+     "sections[1].text": {
+      "tier": "cited",
+      "source": "s:web-ourstate-pit-stop",
+      "note": "the Our State line is quoted as published; the reopening and the current Sunday hours are on the Wilber's record, read from the restaurant's own site 2026-09-16"
+     }
+    }
+   },
+   "images": [],
+   "confidence": "medium",
+   "needs_verification": false,
+   "updated": "2026-09-16",
+   "blurb": "Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some people will tell you not to order barbecue anyway. Neither is about the meat being worse on a Sunday.",
+   "region_terms": [
+    {
+     "key": "carolinas",
+     "name": "The Carolinas",
+     "state": null,
+     "note": "both states together; use when a node belongs to the whole tradition"
+    }
+   ],
+   "kin_out": [
+    {
+     "to": "wilbers-barbecue",
+     "type": "place",
+     "name": "Wilber's Barbecue",
+     "as": "the pit Our State used to describe as dark on Sunday, and which now posts Sunday hours — the example and its own correction.",
+     "rel": "place"
+    },
+    {
+     "to": "whole-hog",
+     "type": "pit",
+     "name": "whole hog",
+     "as": "the cut that sets the schedule — an overnight cook is why the week has a shape at all.",
+     "rel": "pit"
+    },
+    {
+     "to": "eastern-nc",
+     "type": "style",
+     "name": "Eastern North Carolina barbecue",
+     "as": "the style most likely to cook to a number and stop when it is gone.",
+     "rel": "style"
+    },
+    {
+     "to": "pitmaster",
+     "type": "term",
+     "name": "pitmaster",
+     "as": "whose week this is, and who needs the day off.",
+     "rel": "term"
+    }
+   ],
+   "source_list": [
+    {
+     "id": "s:web-ourstate-pit-stop",
+     "kind": "web",
+     "title": "Pit Stop: 22 Essential North Carolina Barbecue Joints",
+     "publisher": "Our State",
+     "url": "https://www.ourstate.com/pit-stop-26-essential-north-carolina-barbecue-joints/",
+     "accessed": "2026-09-16",
+     "note": "of Wilber's: 'the only day the pit isn't fired up is Sunday, when the restaurant is closed'; of Morris Barbeque: 'only open on Saturdays — a tradition that began in 1956'"
+    },
+    {
+     "id": "s:osm",
+     "kind": "dataset",
+     "title": "OpenStreetMap — places tagged cuisine=barbecue in North Carolina and South Carolina",
+     "url": "https://www.openstreetmap.org/copyright",
+     "license": "ODbL 1.0",
+     "note": "harvested by tools/harvest_osm.py via the Overpass API; share-alike"
+    }
+   ],
+   "tiers": {
+    "text.what": {
+     "tier": "cited",
+     "source": "s:web-ourstate-pit-stop"
     }
    },
    "primary_image": null,

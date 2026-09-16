@@ -126,6 +126,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-hites-about"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-hites-about"
    }
   }
  },
@@ -173,6 +177,25 @@
    "url": "http://www.truecue.org/true-cue-sc"
   }
  ],
+ "hours": {
+  "open": [
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo",
+   "Tu",
+   "We",
+   "Th"
+  ],
+  "text": "Friday and Saturday only, 10 to 6.",
+  "source": "s:web-hites-about",
+  "url": "https://www.hitesbbq.com/about-hites-bar",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Destination BBQ recorded 8 to 7 Friday and 8 to 6 Saturday; the days agree."
+ },
  "blurb": "A take-out barbecue stand on Dreher Road in West Columbia, open only on Friday and Saturday, where the Hite family has cooked whole hogs and hams over oak and hickory coals since 1957.",
  "region_terms": [
   {

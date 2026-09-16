@@ -152,6 +152,10 @@
     "tier": "cited",
     "source": "s:web-sfa-browns-bar-b-q",
     "note": "The SFA page, re-read 2026-09-16, names no owner, describes no fuel and does not describe the family's race; no black-owned, no woman-owned and no wood-cooked tag is set. Angela Brown appears only as an interviewee."
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-browns"
    }
   }
  },
@@ -196,6 +200,24 @@
    "note": "Angela Brown and Thomas M. Brown Jr., interviewed by Rien Fertel, June 17, 2012."
   }
  ],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday 11 to 9, Sunday 11 to 3.",
+  "source": "s:web-destination-bbq-browns",
+  "url": "https://destination-bbq.com/stores/browns-bar-b-q/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
  "blurb": "A farm family's buffet house on the Williamsburg County Highway north of Kingstree, in the Pee Dee, opened in 1981 as a take-out window by Thomas M.",
  "region_terms": [
   {

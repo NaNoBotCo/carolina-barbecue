@@ -121,6 +121,10 @@
     "tier": "cited",
     "source": "s:wp-skylight-inn-bbq",
     "note": "hours and address as published by the restaurant; check before driving"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
    }
   }
  },
@@ -186,5 +190,24 @@
    "source": "s:fertel-one-true-barbecue",
    "year": 2016
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday to Saturday, 10 to 7.",
+  "source": "s:osm",
+  "url": "https://www.openstreetmap.org/node/2955593931",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OSM node/2955593931 gives Mo-Sa 10:00-19:00 and Su off; the row carries no check date. Wikipedia's account of the restaurant's published hours also gives Monday to Saturday."
+ }
 }

@@ -154,6 +154,10 @@
    "address": {
     "tier": "harvested",
     "source": "s:osm"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-henrys-home"
    }
   }
  },
@@ -192,5 +196,22 @@
    "what": "a South's Best list",
    "source": "s:web-henrys-blog-2024"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Monday to Saturday 11 to 8, Sunday 11 to 3.",
+  "source": "s:web-henrys-home",
+  "url": "https://henryssmokehouse.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the same hours at the Simpsonville house."
+ }
 }

@@ -691,6 +691,80 @@
    "type": "object",
    "description": "free-form; used by the side-picker for style records",
    "additionalProperties": true
+  },
+  "hours": {
+   "type": "object",
+   "description": "When a place is open, as days rather than a timetable. A day in `open` is open; a day in `closed` is closed; a day in neither is NOT KNOWN, which is never the same thing as closed. `text` is how the place itself puts it.",
+   "additionalProperties": false,
+   "required": [
+    "source"
+   ],
+   "properties": {
+    "open": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "enum": [
+       "Mo",
+       "Tu",
+       "We",
+       "Th",
+       "Fr",
+       "Sa",
+       "Su"
+      ]
+     }
+    },
+    "closed": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "enum": [
+       "Mo",
+       "Tu",
+       "We",
+       "Th",
+       "Fr",
+       "Sa",
+       "Su"
+      ]
+     }
+    },
+    "text": {
+     "type": "string",
+     "description": "the hours in the place's own words, e.g. 'Wednesday to Saturday, until it runs out'"
+    },
+    "sold_out": {
+     "type": "boolean",
+     "description": "true when the posted closing time yields to the meat running out"
+    },
+    "seasonal": {
+     "type": "string"
+    },
+    "source": {
+     "type": "string",
+     "pattern": "^s:"
+    },
+    "url": {
+     "type": "string",
+     "pattern": "^https?://"
+    },
+    "tier": {
+     "type": "string",
+     "enum": [
+      "cited",
+      "harvested",
+      "field"
+     ]
+    },
+    "checked": {
+     "type": "string",
+     "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "note": {
+     "type": "string"
+    }
+   }
   }
  },
  "$defs": {

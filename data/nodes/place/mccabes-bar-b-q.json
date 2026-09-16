@@ -129,6 +129,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-destination-bbq-mccabes"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-mccabes"
    }
   }
  },
@@ -192,5 +196,18 @@
    "what": "listed among the South's top fifty barbecue houses",
    "source": "s:web-discoversc-mccabes"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Fr",
+   "Sa"
+  ],
+  "text": "Friday and Saturday, 11 to 2.",
+  "seasonal": "closed the month of January",
+  "source": "s:web-destination-bbq-mccabes",
+  "url": "https://destination-bbq.com/stores/mccabes/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the state tourism office's older listing gives Thursday to Saturday, so Thursday is left unstated."
+ }
 }

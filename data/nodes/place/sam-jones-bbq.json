@@ -132,6 +132,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-samjonesbbq"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-samjonesbbq"
    }
   }
  },
@@ -161,5 +165,22 @@
    "source": "s:web-truecue-nc",
    "url": "http://www.truecue.org/true-cue-nc"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Monday to Saturday 11 to 9, Sunday 11 to 8:30.",
+  "source": "s:web-samjonesbbq",
+  "url": "https://www.samjonesbbq.com/about",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the same hours at Winterville and Raleigh."
+ }
 }

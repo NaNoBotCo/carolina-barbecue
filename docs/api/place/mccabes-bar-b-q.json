@@ -129,6 +129,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-destination-bbq-mccabes"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-mccabes"
    }
   }
  },
@@ -193,6 +197,19 @@
    "source": "s:web-discoversc-mccabes"
   }
  ],
+ "hours": {
+  "open": [
+   "Fr",
+   "Sa"
+  ],
+  "text": "Friday and Saturday, 11 to 2.",
+  "seasonal": "closed the month of January",
+  "source": "s:web-destination-bbq-mccabes",
+  "url": "https://destination-bbq.com/stores/mccabes/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the state tourism office's older listing gives Thursday to Saturday, so Thursday is left unstated."
+ },
  "blurb": "A family buffet house on North Brooks Street in Manning, Clarendon County, where the McCabes cook whole hogs, shoulders and hams together for ten to twelve hours over wood coals, on pits David McCabe built in a screened…",
  "region_terms": [
   {

@@ -147,6 +147,10 @@
     "tier": "harvested",
     "source": "s:ncsa-massengill",
     "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-wilbersbbq"
    }
   }
  },
@@ -259,5 +263,20 @@
    "what": "named in the book",
    "source": "s:reed-holy-smoke"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3.",
+  "source": "s:web-wilbersbbq",
+  "url": "https://www.wilbersbbq.com/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Monday and Tuesday are not published. Our State's account of a pit that is cold on Sunday predates these hours."
+ }
 }

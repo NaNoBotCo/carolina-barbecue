@@ -151,6 +151,10 @@
    "address": {
     "tier": "cited",
     "source": "s:web-dukessc-whitman"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-dukes-chestnut"
    }
   }
  },
@@ -200,5 +204,18 @@
    "url": "https://www.southernfoodways.org/interview/dukes-bar-b-que/",
    "note": "Tony Kittrell, interviewed June 4, 2012."
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Thursday to Saturday, 11 to 7.",
+  "source": "s:web-destination-bbq-dukes-chestnut",
+  "url": "https://destination-bbq.com/stores/dukes-bar-b-que-3/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the Chestnut Street house. The Whitman Street house lists the same days, but its own site reads temporarily closed."
+ }
 }

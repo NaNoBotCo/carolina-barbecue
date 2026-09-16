@@ -13,6 +13,17 @@
  },
  "places": [
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-12-bones",
    "name": "12 Bones",
    "state": "NC",
@@ -42,6 +53,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Seven days a week, 11 a.m. to 8 p.m.",
+   "sold_out": false,
    "id": "12-bones-smokehouse",
    "name": "12 Bones Smokehouse",
    "state": "NC",
@@ -72,6 +94,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-3-daughters-bbq-seafood-and-chicken",
    "name": "3 Daughters BBQ, Seafood & Chicken",
    "state": "NC",
@@ -101,6 +134,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-abrams",
    "name": "Abrams",
    "state": "NC",
@@ -130,6 +174,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "allen-and-son",
    "name": "Allen & Son Barbeque",
    "state": "NC",
@@ -163,6 +218,17 @@
    "image": "allen-and-son/allen-and-son-allen-son-barbecue-5165581564.jpg"
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "alston-bridges-barbecue",
    "name": "Alston Bridges Barbecue",
    "state": "NC",
@@ -189,9 +255,21 @@
     "Our State magazine",
     "Other named recognition"
    ],
-   "image": null
+   "image": null,
+   "osm_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00"
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-aviator-smokehouse",
    "name": "Aviator Smokehouse",
    "state": "NC",
@@ -221,6 +299,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Tuesday to Saturday from 9 a.m., until it runs out.",
+   "sold_out": true,
    "id": "bs-barbecue",
    "name": "B's Barbecue",
    "state": "NC",
@@ -257,6 +346,17 @@
    "image": "bs-barbecue/bs-barbecue-cooked-and-chopped-hogs-at-b-s-barbecue.jpg"
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "backyard-bbq-pit",
    "name": "Backyard BBQ Pit",
    "state": "NC",
@@ -280,9 +380,21 @@
    ],
    "recognitions": 0,
    "recognized_by": [],
-   "image": null
+   "image": null,
+   "osm_hours": "Mo-Th 11:30-22:00; Fr-Sa 11:30-23:00; Su 12:00-21:00"
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Monday to Saturday, 11 to 9.",
+   "sold_out": false,
    "id": "bar-b-q-center",
    "name": "Bar-B-Q Center",
    "state": "NC",
@@ -315,6 +427,17 @@
    "image": "bar-b-q-center/bar-b-q-center-the-neon-sign.jpg"
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bar-b-q-king",
    "name": "Bar-B-Q King",
    "state": "NC",
@@ -348,6 +471,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-barbecue-shack",
    "name": "Barbecue Shack",
    "state": "NC",
@@ -377,6 +511,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "closed",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-barbeque-house",
    "name": "Barbeque House",
    "state": "NC",
@@ -410,6 +555,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bbq-joes",
    "name": "BBQ Joe's",
    "state": "NC",
@@ -439,6 +595,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bears-smokehouse",
    "name": "Bear's Smokehouse",
    "state": "NC",
@@ -468,6 +635,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-big-mikes-bbq",
    "name": "Big Mike's BBQ",
    "state": "NC",
@@ -497,6 +675,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-big-mikes-bbq-restaurant",
    "name": "Big Mikes BBQ Restaurant",
    "state": "NC",
@@ -526,6 +715,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-big-nicks-bbq",
    "name": "Big Nick's BBQ",
    "state": "NC",
@@ -555,6 +755,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-big-nicks-bbq-murphy",
    "name": "Big Nick's BBQ",
    "state": "NC",
@@ -584,6 +795,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-biscuits-brisket-and-beer",
    "name": "Biscuits Brisket & Beer",
    "state": "NC",
@@ -613,6 +835,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-black-powder-smokehouse",
    "name": "Black Powder Smokehouse",
    "state": "NC",
@@ -646,6 +879,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Seven days, from 11 a.m.",
+   "sold_out": false,
    "id": "bobbee-os-bbq",
    "name": "Bobbee O's BBQ",
    "state": "NC",
@@ -674,6 +918,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bold-bites",
    "name": "Bold Bites",
    "state": "NC",
@@ -703,6 +958,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-boss-hog-bbq",
    "name": "Boss Hog BBQ",
    "state": "NC",
@@ -732,6 +998,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-boulevard-barbeque",
    "name": "Boulevard Barbeque",
    "state": "NC",
@@ -761,6 +1038,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-brannan-schlitz-bbq",
    "name": "Brannan Schlitz BBQ",
    "state": "NC",
@@ -790,6 +1078,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-briggs-bar-b-que-and-grill",
    "name": "Briggs Bar-B-Que & Grill",
    "state": "NC",
@@ -819,6 +1118,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-buffalo-wings",
    "name": "Buffalo Wings",
    "state": "NC",
@@ -848,6 +1158,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "bums-restaurant",
    "name": "Bum's Restaurant",
    "state": "NC",
@@ -881,6 +1202,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bunns-barbeque",
    "name": "Bunn's Barbeque",
    "state": "NC",
@@ -910,6 +1242,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "buxton-hall-barbecue",
    "name": "Buxton Hall Barbecue",
    "state": "NC",
@@ -942,6 +1285,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-camel-city-bbq-factory",
    "name": "Camel City BBQ Factory",
    "state": "NC",
@@ -971,6 +1325,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-captain-bobs-bbq-and-seafood",
    "name": "Captain Bob's BBQ & Seafood",
    "state": "NC",
@@ -1000,6 +1365,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-carolina-bar-b-q",
    "name": "Carolina Bar-B-Q",
    "state": "NC",
@@ -1033,6 +1409,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-carolina-barbeque",
    "name": "Carolina Barbeque",
    "state": "NC",
@@ -1066,6 +1453,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-charlie-graingers",
    "name": "Charlie Graingers",
    "state": "NC",
@@ -1095,6 +1493,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-checkered-flag-bar-b-que",
    "name": "Checkered Flag Bar-B-Que",
    "state": "NC",
@@ -1124,6 +1533,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-city-barbecue",
    "name": "City Barbecue",
    "state": "NC",
@@ -1153,6 +1573,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-city-barbeque",
    "name": "City Barbeque",
    "state": "NC",
@@ -1182,6 +1613,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-city-barbeque-35310--80747",
    "name": "City Barbeque",
    "state": "NC",
@@ -1211,6 +1653,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-city-barbeque-36104--79820",
    "name": "City Barbeque",
    "state": "NC",
@@ -1240,6 +1693,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-city-barbeque-raleigh",
    "name": "City Barbeque",
    "state": "NC",
@@ -1269,6 +1733,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-city-barbeque-and-catering",
    "name": "City Barbeque and Catering",
    "state": "NC",
@@ -1298,6 +1773,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-city-bbq",
    "name": "City BBQ",
    "state": "NC",
@@ -1327,6 +1813,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Monday to Saturday, 10 to 6.",
+   "sold_out": false,
    "id": "clyde-coopers",
    "name": "Clyde Cooper's BBQ",
    "state": "NC",
@@ -1356,6 +1853,17 @@
    "image": "clyde-coopers/clyde-coopers-east-davie-street-1963.jpg"
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "cooks-barbecue",
    "name": "Cook's Barbecue",
    "state": "NC",
@@ -1386,6 +1894,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-country-barbecue-express",
    "name": "Country Barbecue Express",
    "state": "NC",
@@ -1415,6 +1934,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-country-barbeque",
    "name": "Country Barbeque",
    "state": "NC",
@@ -1444,6 +1974,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-countryside-bbq",
    "name": "Countryside BBQ",
    "state": "NC",
@@ -1473,6 +2014,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-crave-hot-dogs-and-bbq",
    "name": "Crave Hot Dogs and BBQ",
    "state": "NC",
@@ -1502,6 +2054,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-currituck-bbq-company",
    "name": "Currituck BBQ Company",
    "state": "NC",
@@ -1531,6 +2094,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dannys-bar-b-que",
    "name": "Danny's Bar-B-Que",
    "state": "NC",
@@ -1560,6 +2134,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dickeys-barbecue-pit-southern-pines",
    "name": "Dickey's Barbecue Pit",
    "state": "NC",
@@ -1589,6 +2174,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dickeys-barbecue-pit-waynesville",
    "name": "Dickey's Barbecue Pit",
    "state": "NC",
@@ -1618,6 +2214,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dickeys-barbecue-pit-canton",
    "name": "Dickey's Barbecue Pit",
    "state": "NC",
@@ -1647,6 +2254,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dickeys-barbecue-pit-albemarle",
    "name": "Dickey's Barbecue Pit",
    "state": "NC",
@@ -1676,6 +2294,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dickeys-barbecue-pit-35861--78706",
    "name": "Dickey's Barbecue Pit",
    "state": "NC",
@@ -1705,6 +2334,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dickeys-bbq-pit",
    "name": "Dickey's BBQ Pit",
    "state": "NC",
@@ -1734,6 +2374,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-doc-browns-bbq",
    "name": "Doc Brown's BBQ",
    "state": "NC",
@@ -1763,6 +2414,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dollar-general",
    "name": "Dollar General",
    "state": "NC",
@@ -1792,6 +2454,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-em-r-wings",
    "name": "Em R Wings",
    "state": "NC",
@@ -1821,6 +2494,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-embers-bbq",
    "name": "Embers BBQ",
    "state": "NC",
@@ -1850,6 +2534,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-flat-rock-wood-room",
    "name": "Flat Rock Wood Room",
    "state": "NC",
@@ -1879,6 +2574,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fountain-view-restaurant",
    "name": "Fountain View Restaurant",
    "state": "NC",
@@ -1908,6 +2614,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fred-chasons-grandsons",
    "name": "Fred Chason's Grandsons",
    "state": "NC",
@@ -1937,6 +2654,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fullers-country-style-buffet",
    "name": "Fuller's Country Style Buffet",
    "state": "NC",
@@ -1966,6 +2694,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Tuesday to Saturday, from seven in the morning.",
+   "sold_out": false,
    "id": "fuzzys-bar-b-q",
    "name": "Fuzzy's Bar-B-Q",
    "state": "NC",
@@ -1998,6 +2737,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-garys-bar-b-cue",
    "name": "Gary's Bar-B-Cue",
    "state": "NC",
@@ -2027,6 +2777,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "gradys-barbecue",
    "name": "Grady's Barbecue",
    "state": "NC",
@@ -2062,6 +2823,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-green-river-bbq",
    "name": "Green River BBQ",
    "state": "NC",
@@ -2095,6 +2867,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-gyu-kaku",
    "name": "Gyu-Kaku",
    "state": "NC",
@@ -2124,6 +2907,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-gyu-kaku-36137--79859",
    "name": "Gyu-Kaku",
    "state": "NC",
@@ -2153,6 +2947,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hannahs-bbq",
    "name": "Hannah's BBQ",
    "state": "NC",
@@ -2182,6 +2987,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hendrix-barbecue",
    "name": "Hendrix Barbecue",
    "state": "NC",
@@ -2211,6 +3027,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hendrix-real-pit-barbeque",
    "name": "Hendrix Real Pit Barbeque",
    "state": "NC",
@@ -2240,6 +3067,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-henry-james-bbq",
    "name": "Henry James BBQ",
    "state": "NC",
@@ -2269,6 +3107,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-high-point-korean-bbq",
    "name": "High Point Korean BBQ",
    "state": "NC",
@@ -2298,6 +3147,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hillbillys-barbeque-and-steaks",
    "name": "Hillbilly's Barbeque and Steaks",
    "state": "NC",
@@ -2327,6 +3187,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hog-heaven",
    "name": "Hog Heaven",
    "state": "NC",
@@ -2356,6 +3227,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hops-bar-b-q",
    "name": "Hop's Bar-B-Q",
    "state": "NC",
@@ -2385,6 +3267,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-howard-station",
    "name": "Howard Station",
    "state": "NC",
@@ -2414,6 +3307,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hubba-hubba-smokehouse",
    "name": "Hubba Hubba Smokehouse",
    "state": "NC",
@@ -2447,6 +3351,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-huli-sues-bbq-and-grill",
    "name": "Huli Sue's BBQ and Grill",
    "state": "NC",
@@ -2476,6 +3391,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Daily, 11 to 9.",
+   "sold_out": false,
    "id": "hurseys-bar-b-q",
    "name": "Hursey's Bar-B-Q",
    "state": "NC",
@@ -2507,6 +3433,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hursey-s-carolina-bbq",
    "name": "Hursey’s Carolina BBQ",
    "state": "NC",
@@ -2536,6 +3473,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hursey-s-pig-pickin-bar-b-q",
    "name": "Hursey’s Pig Pickin’ Bar–B–Q",
    "state": "NC",
@@ -2565,6 +3513,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-iron-hen-caf",
    "name": "Iron Hen Café",
    "state": "NC",
@@ -2594,6 +3553,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "jack-cobb-and-son",
    "name": "Jack Cobb & Son Barbecue Place",
    "state": "NC",
@@ -2629,6 +3599,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jds-smokehouse",
    "name": "JD's Smokehouse",
    "state": "NC",
@@ -2662,6 +3643,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jim-n-nicks-hickory",
    "name": "Jim 'N Nick's",
    "state": "NC",
@@ -2691,6 +3683,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jim-n-nicks-36032--79957",
    "name": "Jim 'N Nick's",
    "state": "NC",
@@ -2720,6 +3723,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jim-n-nicks",
    "name": "Jim n Nick's",
    "state": "NC",
@@ -2749,6 +3763,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-johnnys-barbecue",
    "name": "Johnny's Barbecue",
    "state": "NC",
@@ -2778,6 +3803,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-johnson-family-barbecue",
    "name": "Johnson Family Barbecue",
    "state": "NC",
@@ -2807,6 +3843,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Tuesday 11 to 2; Wednesday to Saturday 11 to 2 and 5 to 8.",
+   "sold_out": false,
    "id": "keatons-barbecue",
    "name": "Keaton's Barbecue",
    "state": "NC",
@@ -2835,6 +3882,17 @@
    "image": "keatons-barbecue/keatons-barbecue-keaton-s-bbq-cheerwine-sweet-tea.jpg"
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-kennedy-q",
    "name": "Kennedy Q",
    "state": "NC",
@@ -2864,6 +3922,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "kepleys-barbecue",
    "name": "Kepley's Bar-B-Q",
    "state": "NC",
@@ -2890,9 +3959,21 @@
    "recognized_by": [
     "Garden & Gun"
    ],
-   "image": null
+   "image": null,
+   "osm_hours": "Th-Mo 11:00-17:00"
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-kings-restaurant",
    "name": "King's Restaurant",
    "state": "NC",
@@ -2922,6 +4003,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-kpot-korean-bbq-and-hot-pot",
    "name": "KPOT Korean BBQ & Hot Pot",
    "state": "NC",
@@ -2951,6 +4043,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-lancaster-s-bbq",
    "name": "Lancaster’s BBQ",
    "state": "NC",
@@ -2980,6 +4083,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-lawrence-barbeque",
    "name": "Lawrence Barbeque",
    "state": "NC",
@@ -3013,6 +4127,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-lawrence-barbeque-35788--78780",
    "name": "Lawrence Barbeque",
    "state": "NC",
@@ -3046,6 +4171,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-lenny-and-vcs-king-of-turkey-bbq",
    "name": "Lenny & VCs King of Turkey BBQ",
    "state": "NC",
@@ -3075,6 +4211,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Tuesday to Saturday, 10 to 9.",
+   "sold_out": false,
    "id": "lexington-barbecue",
    "name": "Lexington Barbecue",
    "state": "NC",
@@ -3106,6 +4253,17 @@
    "image": "lexington-barbecue/lexington-barbecue-the-original-lexington-barbecue-postcard.jpg"
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-lexington-style-trimmings",
    "name": "Lexington Style Trimmings",
    "state": "NC",
@@ -3135,6 +4293,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-little-pigs-bbq-asheville",
    "name": "Little Pigs BBQ",
    "state": "NC",
@@ -3164,6 +4333,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-little-richards-bar-b-que",
    "name": "Little Richard's Bar-B-Que",
    "state": "NC",
@@ -3197,6 +4377,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-little-richards-bbq",
    "name": "Little Richard's BBQ",
    "state": "NC",
@@ -3230,6 +4421,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-longleaf-swine",
    "name": "Longleaf Swine",
    "state": "NC",
@@ -3259,6 +4461,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-longleaf-swine-raleigh",
    "name": "Longleaf Swine",
    "state": "NC",
@@ -3288,6 +4501,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Eleven to nine, daily.",
+   "sold_out": false,
    "id": "luellas-bar-b-que",
    "name": "Luella's Bar-B-Que",
    "state": "NC",
@@ -3318,6 +4542,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-lynchs-bbq-and-grill",
    "name": "Lynch's BBQ & Grill",
    "state": "NC",
@@ -3347,6 +4582,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-macs",
    "name": "Mac's",
    "state": "NC",
@@ -3376,6 +4622,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "closed",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-macs-speed-shop",
    "name": "Mac's Speed Shop",
    "state": "NC",
@@ -3405,6 +4662,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-macs-speed-shop-charlotte",
    "name": "Mac's Speed Shop",
    "state": "NC",
@@ -3434,6 +4702,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-macs-speed-shop-3",
    "name": "Mac's Speed Shop",
    "state": "NC",
@@ -3463,6 +4742,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mavericks-smokehouse-and-taproom",
    "name": "Maverick's Smokehouse and Taproom",
    "state": "NC",
@@ -3492,6 +4782,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "closed",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mckoys-smokehouse-and-saloon",
    "name": "McKoy's Smokehouse and Saloon",
    "state": "NC",
@@ -3521,6 +4822,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "meltons-barbecue",
    "name": "Melton's Barbecue",
    "state": "NC",
@@ -3548,6 +4860,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-midwood-smokehouse",
    "name": "Midwood Smokehouse",
    "state": "NC",
@@ -3582,6 +4905,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-midwood-smokehouse-charlotte",
    "name": "Midwood Smokehouse",
    "state": "NC",
@@ -3616,6 +4950,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mint-hill-rock-store-bar-b-que",
    "name": "Mint Hill Rock Store Bar B Que",
    "state": "NC",
@@ -3645,6 +4990,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-moes-original-bbq-36011--78923",
    "name": "Moe's Original BBQ",
    "state": "NC",
@@ -3674,6 +5030,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-moes-original-bbq-woodfin",
    "name": "Moe's Original BBQ Woodfin",
    "state": "NC",
@@ -3703,6 +5070,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-moores-olde-tyme-barbeque",
    "name": "Moore's Olde Tyme Barbeque",
    "state": "NC",
@@ -3732,6 +5110,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "morris-barbeque",
    "name": "Morris Barbeque",
    "state": "NC",
@@ -3763,6 +5152,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mountain-view-bbq-and-deli",
    "name": "Mountain View BBQ & Deli",
    "state": "NC",
@@ -3792,6 +5192,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-ni-armors-hawaiian-and-polynesian-bbq",
    "name": "Ni Armor's Hawaiian & Polynesian BBQ",
    "state": "NC",
@@ -3821,6 +5232,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-noble-smoke",
    "name": "Noble Smoke",
    "state": "NC",
@@ -3850,6 +5272,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-ole-carlolina-barbeque",
    "name": "Ole Carlolina Barbeque",
    "state": "NC",
@@ -3879,6 +5312,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-ole-time-barbecue",
    "name": "Ole Time Barbecue",
    "state": "NC",
@@ -3908,6 +5352,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-parkers",
    "name": "Parker's",
    "state": "NC",
@@ -3937,6 +5392,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Seven days, 9 to 7; take-out to 7:30.",
+   "sold_out": false,
    "id": "parkers-barbecue",
    "name": "Parker's Barbecue",
    "state": "NC",
@@ -3967,6 +5433,17 @@
    "image": "parkers-barbecue/parkers-barbecue-postcard-us-301-wilson.jpg"
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-picnic",
    "name": "Picnic",
    "state": "NC",
@@ -4000,6 +5477,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-piggys-ice-cream-harrys-grille",
    "name": "Piggy's Ice Cream-Harry's Grille",
    "state": "NC",
@@ -4029,6 +5517,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-pigman-s-bar-b-que",
    "name": "Pigman’s Bar-B-Que",
    "state": "NC",
@@ -4058,6 +5557,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-pik-n-pig",
    "name": "Pik N Pig",
    "state": "NC",
@@ -4091,6 +5601,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-prime-barbecue",
    "name": "Prime Barbecue",
    "state": "NC",
@@ -4124,6 +5645,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-qinji-hawaiian-bbq-and-ramen",
    "name": "Qinji Hawaiian BBQ & Ramen",
    "state": "NC",
@@ -4153,6 +5685,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-rallypoint-sport-grill",
    "name": "RallyPoint Sport Grill",
    "state": "NC",
@@ -4182,6 +5725,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-randys-barbecue",
    "name": "Randy's Barbecue",
    "state": "NC",
@@ -4211,6 +5765,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3; it can sell out before closing.",
+   "sold_out": true,
    "id": "red-bridges-barbecue-lodge",
    "name": "Red Bridges Barbecue Lodge",
    "state": "NC",
@@ -4243,6 +5808,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-red-hot-and-blue",
    "name": "Red Hot & Blue",
    "state": "NC",
@@ -4272,6 +5848,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-red-wolff-kitchen",
    "name": "Red Wolff Kitchen",
    "state": "NC",
@@ -4301,6 +5888,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-redneck-bbq-lab",
    "name": "Redneck BBQ Lab",
    "state": "NC",
@@ -4330,6 +5928,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-rib-country-bbq",
    "name": "Rib Country BBQ",
    "state": "NC",
@@ -4359,6 +5968,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-ricks-nc-bbq",
    "name": "Rick's NC BBQ",
    "state": "NC",
@@ -4388,6 +6008,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sacks",
    "name": "Sack's",
    "state": "NC",
@@ -4417,6 +6048,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Monday to Saturday 11 to 9, Sunday 11 to 8:30.",
+   "sold_out": false,
    "id": "sam-jones-bbq",
    "name": "Sam Jones BBQ",
    "state": "NC",
@@ -4446,6 +6088,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "scotts-famous-barbecue",
    "name": "Scott's Famous Barbecue",
    "state": "NC",
@@ -4475,6 +6128,17 @@
    "image": "scotts-famous-barbecue/scotts-famous-barbecue-adam-scotts-place-goldsboro-1944.jpg"
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-seoul-food-meat-co",
    "name": "Seoul Food Meat Co.",
    "state": "NC",
@@ -4504,6 +6168,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shanes-rib-shack-35302--80748",
    "name": "Shane's Rib Shack",
    "state": "NC",
@@ -4533,6 +6208,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shanes-rib-shack-35167--80973",
    "name": "Shane's Rib Shack",
    "state": "NC",
@@ -4562,6 +6248,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shaws-barbecue-house",
    "name": "Shaw's Barbecue House",
    "state": "NC",
@@ -4591,6 +6288,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "short-sugars",
    "name": "Short Sugar's Pit Bar-B-Q",
    "state": "NC",
@@ -4620,9 +6328,21 @@
     "Southern Foodways Alliance",
     "Our State magazine"
    ],
-   "image": null
+   "image": null,
+   "osm_hours": "Mo-Sa 06:00-19:00"
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shortstops-burgers-and-shakes",
    "name": "ShortStops (Burgers & Shakes)",
    "state": "NC",
@@ -4652,6 +6372,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday to Saturday, 10 to 7.",
+   "sold_out": false,
    "id": "skylight-inn",
    "name": "Skylight Inn BBQ",
    "state": "NC",
@@ -4687,6 +6418,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfield-chicken-and-bbq",
    "name": "Smithfield Chicken & BBQ",
    "state": "NC",
@@ -4716,6 +6458,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "smithfields-chicken-n-bar-b-q",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4740,6 +6493,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4769,6 +6533,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-34760--79481",
    "name": "smithfield's chicken 'n Bar-B-Q",
    "state": "NC",
@@ -4798,6 +6573,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-garner",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4827,6 +6613,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-36335--78437",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4856,6 +6653,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-morrisville",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4885,6 +6693,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-rocky-mount",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4914,6 +6733,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-knightdale",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4943,6 +6773,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-35457--79142",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -4972,6 +6813,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-34666--79003",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -5001,6 +6853,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-bar-b-q-goldsboro",
    "name": "Smithfield's Chicken 'N Bar-B-Q",
    "state": "NC",
@@ -5030,6 +6893,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-n-barbeque",
    "name": "Smithfield's Chicken 'N Barbeque",
    "state": "NC",
@@ -5059,6 +6933,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-and-barbeque",
    "name": "Smithfield's Chicken and Barbeque",
    "state": "NC",
@@ -5088,6 +6973,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smithfields-chicken-and-bbq",
    "name": "Smithfield's Chicken and BBQ",
    "state": "NC",
@@ -5117,6 +7013,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smoke-and-barrel",
    "name": "Smoke and Barrel",
    "state": "NC",
@@ -5146,6 +7053,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smoke-on-bbq",
    "name": "Smoke On BBQ",
    "state": "NC",
@@ -5175,6 +7093,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smokehouse-at-steves",
    "name": "Smokehouse at Steve's",
    "state": "NC",
@@ -5208,6 +7137,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smokey-joes-barbecue",
    "name": "Smokey Joe's Barbecue",
    "state": "NC",
@@ -5241,6 +7181,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smoky-mountain-barbecue",
    "name": "Smoky Mountain Barbecue",
    "state": "NC",
@@ -5270,6 +7221,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sonnys-bbq-35367--80713",
    "name": "Sonny's BBQ",
    "state": "NC",
@@ -5299,6 +7261,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sooeys-bbq-and-rib-shack",
    "name": "Sooey's BBQ & Rib Shack",
    "state": "NC",
@@ -5328,6 +7301,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-southland-restaurant",
    "name": "Southland Restaurant",
    "state": "NC",
@@ -5357,6 +7341,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "speedy-lohrs-barbecue",
    "name": "Speedy Lohr's Barbecue",
    "state": "NC",
@@ -5387,6 +7382,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-speedy-lohrs-bbq",
    "name": "Speedy Lohr's BBQ",
    "state": "NC",
@@ -5420,6 +7426,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "speedys-barbecue",
    "name": "Speedy's Barbecue",
    "state": "NC",
@@ -5449,6 +7466,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Monday to Saturday, 11 to 9.",
+   "sold_out": false,
    "id": "stameys-barbecue",
    "name": "Stamey's Barbecue",
    "state": "NC",
@@ -5480,6 +7508,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-stameys-barbeque",
    "name": "Stamey's Barbeque",
    "state": "NC",
@@ -5514,6 +7553,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-stateline-bbq",
    "name": "Stateline BBQ",
    "state": "NC",
@@ -5543,6 +7593,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "closed"
+   },
+   "hours_text": "Closed Sundays.",
+   "sold_out": false,
    "id": "stephensons-bar-b-q",
    "name": "Stephenson's Bar-B-Q",
    "state": "NC",
@@ -5574,6 +7635,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-stewarts-tavern",
    "name": "Stewart's Tavern",
    "state": "NC",
@@ -5603,6 +7675,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-stick-burnin-bbq-company",
    "name": "Stick Burnin' BBQ Company",
    "state": "NC",
@@ -5632,6 +7715,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-stokelys-bbq",
    "name": "Stokely's BBQ",
    "state": "NC",
@@ -5661,6 +7755,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-stus-food-truck",
    "name": "Stu's Food Truck",
    "state": "NC",
@@ -5690,6 +7795,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-stubbs-and-sons-bbq",
    "name": "Stubbs and Sons BBQ",
    "state": "NC",
@@ -5719,6 +7835,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sweet-lews-bbq",
    "name": "Sweet Lew's BBQ",
    "state": "NC",
@@ -5752,6 +7879,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday to Saturday; closed Sunday.",
+   "sold_out": false,
    "id": "tarheel-q",
    "name": "Tarheel Q",
    "state": "NC",
@@ -5782,6 +7920,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-ten-o-six",
    "name": "Ten O Six",
    "state": "NC",
@@ -5811,6 +7960,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-terry-house-barbecue",
    "name": "Terry House Barbecue",
    "state": "NC",
@@ -5840,6 +8000,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-crazy-pig-in-davidson",
    "name": "The Crazy Pig in Davidson",
    "state": "NC",
@@ -5869,6 +8040,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Wednesday to Saturday for dinner; lunch Friday, Saturday and Sunday.",
+   "sold_out": false,
    "id": "the-fiction-kitchen",
    "name": "The Fiction Kitchen",
    "state": "NC",
@@ -5894,6 +8076,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-improper-pig",
    "name": "The Improper Pig",
    "state": "NC",
@@ -5923,6 +8116,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-improper-pig-35052--80773",
    "name": "The Improper Pig",
    "state": "NC",
@@ -5952,6 +8156,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-original-carolina-barbecue-of-garner-inc",
    "name": "The Original Carolina Barbecue of Garner, Inc.",
    "state": "NC",
@@ -5981,6 +8196,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-original-q-shack",
    "name": "The Original Q Shack",
    "state": "NC",
@@ -6010,6 +8236,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-pedalin-pig",
    "name": "The Pedalin' Pig",
    "state": "NC",
@@ -6039,6 +8276,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-pig",
    "name": "The Pig",
    "state": "NC",
@@ -6068,6 +8316,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-pit",
    "name": "The Pit",
    "state": "NC",
@@ -6097,6 +8356,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-red-pig",
    "name": "The Red Pig",
    "state": "NC",
@@ -6126,6 +8396,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-smoke-pit",
    "name": "The Smoke Pit",
    "state": "NC",
@@ -6155,6 +8436,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-tickle-my-ribs",
    "name": "Tickle My Ribs",
    "state": "NC",
@@ -6184,6 +8476,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-tomahawk-toss",
    "name": "Tomahawk Toss",
    "state": "NC",
@@ -6213,6 +8516,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-toyars-bbq-and-hotpot-restaurant",
    "name": "Toyar's BBQ & Hotpot Restaurant",
    "state": "NC",
@@ -6242,6 +8556,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-transfer-co-food-hall",
    "name": "Transfer Co. Food Hall",
    "state": "NC",
@@ -6271,6 +8596,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-troutmans-bbq",
    "name": "Troutman's BBQ",
    "state": "NC",
@@ -6305,6 +8641,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-whiskey-trail-pub-and-grill",
    "name": "Whiskey Trail Pub and Grill",
    "state": "NC",
@@ -6334,6 +8681,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3.",
+   "sold_out": false,
    "id": "wilbers-barbecue",
    "name": "Wilber's Barbecue",
    "state": "NC",
@@ -6367,6 +8725,17 @@
    "image": "wilbers-barbecue/wilbers-barbecue-barbecue-pit.jpg"
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-willie-brooks-bbq",
    "name": "Willie Brooks BBQ",
    "state": "NC",
@@ -6396,6 +8765,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-woodard-family-bbq-and-grill",
    "name": "Woodard Family BBQ & Grill",
    "state": "NC",
@@ -6425,6 +8805,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-521-bbq-and-grill",
    "name": "521 BBQ & Grill",
    "state": "SC",
@@ -6454,6 +8845,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-b-c-steak-and-bbq",
    "name": "B C Steak & BBQ",
    "state": "SC",
@@ -6483,6 +8885,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bar-b-que-house",
    "name": "Bar-B-Que House",
    "state": "SC",
@@ -6517,6 +8930,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bar-b-que-house-north-myrtle-beach",
    "name": "Bar-B-Que House",
    "state": "SC",
@@ -6551,6 +8975,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bbq-barn",
    "name": "BBQ Barn",
    "state": "SC",
@@ -6580,6 +9015,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bearded-bros-bbq",
    "name": "Bearded Bros BBQ",
    "state": "SC",
@@ -6609,6 +9055,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Seven days, 10:30 a.m. to 9:30 p.m.; buffet Friday and Saturday evenings and Sunday midday.",
+   "sold_out": false,
    "id": "bessingers-bar-b-q",
    "name": "Bessinger's Bar-B-Q",
    "state": "SC",
@@ -6639,6 +9096,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-big-cliffs-bbq",
    "name": "Big Cliff's BBQ",
    "state": "SC",
@@ -6668,6 +9136,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-big-ds-bbq-trough",
    "name": "Big D's BBQ Trough",
    "state": "SC",
@@ -6697,6 +9176,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-big-ds-house-of-bbq",
    "name": "Big D's House of BBQ",
    "state": "SC",
@@ -6726,6 +9216,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Wednesday to Saturday, from 11.",
+   "sold_out": false,
    "id": "big-t-bar-b-q",
    "name": "Big T Bar-B-Q",
    "state": "SC",
@@ -6758,6 +9259,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Thursday to Saturday, 11 to 9.",
+   "sold_out": false,
    "id": "bobbys-bbq",
    "name": "Bobby's BBQ",
    "state": "SC",
@@ -6788,6 +9300,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bobbys-bbq-33539--81830",
    "name": "Bobby's BBQ",
    "state": "SC",
@@ -6821,6 +9344,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-brasstown-creek",
    "name": "Brasstown Creek",
    "state": "SC",
@@ -6850,6 +9384,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-brisket",
    "name": "Brisket",
    "state": "SC",
@@ -6879,6 +9424,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-brown-derby-ii",
    "name": "Brown Derby II",
    "state": "SC",
@@ -6908,6 +9464,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Wednesday to Saturday 11 to 9, Sunday 11 to 3.",
+   "sold_out": false,
    "id": "browns-bar-b-que",
    "name": "Brown's Bar-B-Que",
    "state": "SC",
@@ -6939,6 +9506,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bubbas-bbq-bash",
    "name": "Bubbas BBQ Bash",
    "state": "SC",
@@ -6968,6 +9546,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-buckys-bar-b-q",
    "name": "Bucky's Bar-B-Q",
    "state": "SC",
@@ -7002,6 +9591,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bullies-bbq",
    "name": "Bullies BBQ",
    "state": "SC",
@@ -7031,6 +9631,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "cannons-bbq",
    "name": "Cannon's BBQ",
    "state": "SC",
@@ -7059,6 +9670,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Wednesday 11 to 1:30, Thursday to Saturday 11 to 8.",
+   "sold_out": false,
    "id": "carolina-bar-b-que",
    "name": "Carolina Bar-B-Que",
    "state": "SC",
@@ -7092,6 +9714,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-carolina-barbecue",
    "name": "Carolina Barbecue",
    "state": "SC",
@@ -7125,6 +9758,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-carolina-bbq",
    "name": "Carolina BBQ",
    "state": "SC",
@@ -7158,6 +9802,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-charlies-bar-b-que",
    "name": "Charlie's Bar-B-Que",
    "state": "SC",
@@ -7187,6 +9842,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-circle-m-barbecue",
    "name": "Circle M Barbecue",
    "state": "SC",
@@ -7220,6 +9886,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday to Saturday 7 to 7; lunch buffet Wednesday to Saturday, 10:30 to 2.",
+   "sold_out": false,
    "id": "coopers-country-store",
    "name": "Cooper's Country Store",
    "state": "SC",
@@ -7253,6 +9930,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-country-cousins-b-b-q",
    "name": "Country Cousins B-B-Q",
    "state": "SC",
@@ -7282,6 +9970,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-courtneys-bbq",
    "name": "Courtney's BBQ",
    "state": "SC",
@@ -7311,6 +10010,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-cws-wings-and-ribs",
    "name": "CW's Wings and Ribs",
    "state": "SC",
@@ -7340,6 +10050,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-d-and-h-bar-b-que",
    "name": "D&H Bar-B-Que",
    "state": "SC",
@@ -7369,6 +10090,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dickeys-barbecue-pit",
    "name": "Dickey's Barbecue Pit",
    "state": "SC",
@@ -7398,6 +10130,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-doko-smoke-bbq",
    "name": "Doko Smoke BBQ",
    "state": "SC",
@@ -7427,6 +10170,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dukes-bar-b-que-aiken",
    "name": "Duke's Bar-B-Que Aiken",
    "state": "SC",
@@ -7456,6 +10210,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dukes-barbecue",
    "name": "Duke's Barbecue",
    "state": "SC",
@@ -7485,6 +10250,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Thursday to Saturday, 11 to 7.",
+   "sold_out": false,
    "id": "dukes-bar-b-que",
    "name": "Dukes Bar-B-Que",
    "state": "SC",
@@ -7517,6 +10293,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-dukes-doggs-and-bbq",
    "name": "Dukes Doggs & BBQ",
    "state": "SC",
@@ -7546,6 +10333,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-eastside-soul-food",
    "name": "Eastside Soul Food",
    "state": "SC",
@@ -7575,6 +10373,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-eatery-express",
    "name": "Eatery Express",
    "state": "SC",
@@ -7604,6 +10413,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-famous-daves",
    "name": "Famous Dave's",
    "state": "SC",
@@ -7633,6 +10453,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-farm-boys-barbeque",
    "name": "Farm Boy's Barbeque",
    "state": "SC",
@@ -7662,6 +10493,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fat-daddys-bbq-and-hash-house",
    "name": "Fat Daddy's BBQ and Hash House",
    "state": "SC",
@@ -7691,6 +10533,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "closed",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fire-and-spice",
    "name": "Fire and Spice",
    "state": "SC",
@@ -7720,6 +10573,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fork-grove-barbecue",
    "name": "Fork Grove Barbecue",
    "state": "SC",
@@ -7753,6 +10617,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fort-mill-bbq-company",
    "name": "Fort Mill BBQ Company",
    "state": "SC",
@@ -7782,6 +10657,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-fullbelly-bbq",
    "name": "Fullbelly BBQ",
    "state": "SC",
@@ -7811,6 +10697,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-galp-o-gaucho-brazilian-steakhouse",
    "name": "Galpão Gaucho Brazilian Steakhouse",
    "state": "SC",
@@ -7840,6 +10737,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-game-day-barbecue",
    "name": "Game Day Barbecue",
    "state": "SC",
@@ -7873,6 +10781,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-granddaddys-bbq",
    "name": "GrandDaddy's BBQ",
    "state": "SC",
@@ -7902,6 +10821,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-granny-and-papaws-southern-kitchen-and-bbq",
    "name": "Granny & Papaw's  Southern Kitchen & BBQ",
    "state": "SC",
@@ -7931,6 +10861,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hawg-heaven-barbeque",
    "name": "Hawg Heaven Barbeque",
    "state": "SC",
@@ -7960,6 +10901,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-heavenly-hogs-bbq",
    "name": "Heavenly Hogs BBQ",
    "state": "SC",
@@ -7989,6 +10941,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Monday to Saturday 11 to 8, Sunday 11 to 3.",
+   "sold_out": false,
    "id": "henrys-smokehouse",
    "name": "Henry's Smokehouse",
    "state": "SC",
@@ -8021,6 +10984,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-henrys-smokehouse",
    "name": "Henry's Smokehouse",
    "state": "SC",
@@ -8054,6 +11028,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "closed",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Friday and Saturday only, 10 to 6.",
+   "sold_out": false,
    "id": "hites-bar-b-q",
    "name": "Hite's Bar-B-Que",
    "state": "SC",
@@ -8086,6 +11071,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-holt-bros-bbq",
    "name": "Holt Bros BBQ",
    "state": "SC",
@@ -8115,6 +11111,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-holt-bros-bbq-34193--79809",
    "name": "Holt Bros. BBQ",
    "state": "SC",
@@ -8144,6 +11151,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Open daily, 11 a.m. to midnight.",
+   "sold_out": false,
    "id": "home-team-bbq",
    "name": "Home Team BBQ",
    "state": "SC",
@@ -8171,6 +11189,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-home-team-bbq",
    "name": "Home Team BBQ",
    "state": "SC",
@@ -8207,6 +11236,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-home-team-bbq-33999--81016",
    "name": "Home Team BBQ",
    "state": "SC",
@@ -8243,6 +11283,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-home-team-bbq-mount-pleasant",
    "name": "Home Team BBQ",
    "state": "SC",
@@ -8279,6 +11330,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-home-team-bbq-sullivans-island",
    "name": "Home Team BBQ",
    "state": "SC",
@@ -8315,6 +11377,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-hugh-babys",
    "name": "Hugh-Baby's",
    "state": "SC",
@@ -8344,6 +11417,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-ironhead-barbeque",
    "name": "Ironhead Barbeque",
    "state": "SC",
@@ -8373,6 +11457,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "jackie-hites-bar-b-q",
    "name": "Jackie Hite's Bar-B-Q",
    "state": "SC",
@@ -8406,6 +11501,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jbs-smokeshack",
    "name": "JB's Smokeshack",
    "state": "SC",
@@ -8435,6 +11541,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jim-n-nicks-32872--80022",
    "name": "Jim 'N Nick's",
    "state": "SC",
@@ -8464,6 +11581,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jim-n-nicks-spartanburg",
    "name": "Jim 'N Nick's",
    "state": "SC",
@@ -8493,6 +11621,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jim-n-nicks-3",
    "name": "Jim 'N Nick's",
    "state": "SC",
@@ -8522,6 +11661,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-jim-n-nicks-bar-b-q",
    "name": "Jim 'N Nick's Bar-B-Q",
    "state": "SC",
@@ -8551,6 +11701,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-king-bbq",
    "name": "King BBQ",
    "state": "SC",
@@ -8580,6 +11741,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Tuesday to Saturday 11 to 10, Sunday and Monday 11 to 9.",
+   "sold_out": false,
    "id": "lewis-barbecue",
    "name": "Lewis Barbecue",
    "state": "SC",
@@ -8606,6 +11778,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-lewis-barbecue-greenville",
    "name": "Lewis Barbecue",
    "state": "SC",
@@ -8639,6 +11822,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-little-pigs-bar-b-q",
    "name": "Little Pigs Bar-B-Q",
    "state": "SC",
@@ -8668,6 +11862,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-little-pigs-bar-bq",
    "name": "Little Pigs Bar-BQ",
    "state": "SC",
@@ -8697,6 +11902,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-little-pigs-bbq",
    "name": "Little Pigs BBQ",
    "state": "SC",
@@ -8726,6 +11942,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-little-pigs-bbq-easley",
    "name": "Little Pigs BBQ",
    "state": "SC",
@@ -8755,6 +11982,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-macs-speed-shop-greenville",
    "name": "Mac's Speed Shop",
    "state": "SC",
@@ -8784,6 +12022,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-main-street-bar-b-que",
    "name": "Main Street Bar-B-Que",
    "state": "SC",
@@ -8813,6 +12062,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-martins-bar-b-que-joint",
    "name": "Martin's Bar-B-Que Joint",
    "state": "SC",
@@ -8842,6 +12102,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-maurices",
    "name": "Maurice's",
    "state": "SC",
@@ -8871,6 +12142,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-maurices-bbq",
    "name": "Maurice's BBQ",
    "state": "SC",
@@ -8900,6 +12182,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-maurices-bbq-33993--80979",
    "name": "Maurice's BBQ",
    "state": "SC",
@@ -8929,6 +12222,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-maurices-bbq-33956--81233",
    "name": "Maurice's BBQ",
    "state": "SC",
@@ -8958,6 +12262,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Sunday to Thursday 10 to 9, Friday and Saturday 10 to 10.",
+   "sold_out": false,
    "id": "maurices-piggie-park",
    "name": "Maurice's Piggie Park BBQ",
    "state": "SC",
@@ -8988,6 +12303,17 @@
    "image": "maurices-piggie-park/maurices-piggie-park-bessinger-s-bar-b-q-sign-west-columbia-south-carolin-825aefd.jpg"
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Friday and Saturday, 11 to 2.",
+   "sold_out": false,
    "id": "mccabes-bar-b-q",
    "name": "McCabe's Bar-B-Q",
    "state": "SC",
@@ -9023,6 +12349,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday to Saturday 10:30 to 9; closed Sundays.",
+   "sold_out": false,
    "id": "melvins-legendary-bar-b-que",
    "name": "Melvin's Legendary Bar-B-Que",
    "state": "SC",
@@ -9056,6 +12393,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-melvins-ribs-and-que",
    "name": "Melvin's Ribs & Que",
    "state": "SC",
@@ -9085,6 +12433,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-middleton-and-maker-village-bbq",
    "name": "MIDDLETON & MAKER VILLAGE BBQ",
    "state": "SC",
@@ -9114,6 +12473,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Tuesday to Friday 10 to 6, Saturday 10 to 4.",
+   "sold_out": false,
    "id": "midway-bbq",
    "name": "Midway BBQ",
    "state": "SC",
@@ -9142,6 +12512,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-midwood-smokehouse-33992--80975",
    "name": "Midwood Smokehouse",
    "state": "SC",
@@ -9171,6 +12552,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mike-and-jeffs-bbq",
    "name": "Mike & Jeffs BBQ",
    "state": "SC",
@@ -9200,6 +12592,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mission-bbq",
    "name": "Mission BBQ",
    "state": "SC",
@@ -9229,6 +12632,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-moes-original-bar-b-que",
    "name": "Moe's Original Bar B Que",
    "state": "SC",
@@ -9258,6 +12672,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-moes-original-bbq",
    "name": "Moe's Original BBQ",
    "state": "SC",
@@ -9287,6 +12712,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-moohogz-craft-bbq",
    "name": "MooHogz Craft BBQ",
    "state": "SC",
@@ -9316,6 +12752,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mutts",
    "name": "Mutt's",
    "state": "SC",
@@ -9345,6 +12792,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mutts-bbq",
    "name": "Mutt's BBQ",
    "state": "SC",
@@ -9374,6 +12832,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-mutts-bbq-easley",
    "name": "Mutt's BBQ",
    "state": "SC",
@@ -9403,6 +12872,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-old-south-bbq",
    "name": "Old South BBQ",
    "state": "SC",
@@ -9432,6 +12912,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-one-hot-mamas-american-grille",
    "name": "One Hot Mama's American Grille",
    "state": "SC",
@@ -9461,6 +12952,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-palmetto-pig",
    "name": "Palmetto Pig",
    "state": "SC",
@@ -9490,6 +12992,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-po-boys-bar-b-q",
    "name": "Po Boys Bar-B-Q",
    "state": "SC",
@@ -9519,6 +13032,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-poogans-smokehouse",
    "name": "Poogan's Smokehouse",
    "state": "SC",
@@ -9548,6 +13072,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-prices-bbq",
    "name": "Price's BBQ",
    "state": "SC",
@@ -9581,6 +13116,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "closed",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-radd-dews-bar-b-que-pit",
    "name": "Radd Dew's Bar-B-Que Pit",
    "state": "SC",
@@ -9610,6 +13156,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-railroad-bbq",
    "name": "Railroad BBQ",
    "state": "SC",
@@ -9639,6 +13196,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-roberts-bar-b-que",
    "name": "Robert's Bar-b-que",
    "state": "SC",
@@ -9668,6 +13236,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "rodney-scotts-whole-hog-bbq",
    "name": "Rodney Scott's Whole Hog BBQ",
    "state": "SC",
@@ -9700,6 +13279,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-roller-mills-smokehouse",
    "name": "Roller Mills Smokehouse",
    "state": "SC",
@@ -9729,6 +13319,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-s-b-h-bbq-co",
    "name": "S.B.H. BBQ CO.",
    "state": "SC",
@@ -9758,6 +13359,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-saltwater-cowboys",
    "name": "Saltwater Cowboys",
    "state": "SC",
@@ -9787,6 +13399,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Wednesday to Saturday from 9:30, closing about five.",
+   "sold_out": false,
    "id": "scotts-bar-b-que",
    "name": "Scott's Bar-B-Que",
    "state": "SC",
@@ -9819,6 +13442,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-scotts-bar-b-que",
    "name": "Scott's Bar-B-Que",
    "state": "SC",
@@ -9852,6 +13486,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shanes-rib-shack",
    "name": "Shane's Rib Shack",
    "state": "SC",
@@ -9881,6 +13526,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shanes-rib-shack-34787--82478",
    "name": "Shane's Rib Shack",
    "state": "SC",
@@ -9910,6 +13566,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shanes-rib-shack-spartanburg",
    "name": "Shane's Rib Shack",
    "state": "SC",
@@ -9939,6 +13606,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday, Tuesday and Thursday to Saturday; buffet 11 to 9, carry-out from 10.",
+   "sold_out": false,
    "id": "shealys-bar-b-que",
    "name": "Shealy's Bar-B-Que",
    "state": "SC",
@@ -9970,6 +13648,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sheltons-smoking-butts",
    "name": "Sheltons Smoking Butts",
    "state": "SC",
@@ -9999,6 +13688,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Thursday to Saturday, 11:30 to 8.",
+   "sold_out": false,
    "id": "shulers-bar-b-que",
    "name": "Shuler's Bar-B-Que",
    "state": "SC",
@@ -10032,6 +13732,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smittys-smokin-soul-food",
    "name": "Smitty's Smokin' Soul Food",
    "state": "SC",
@@ -10065,6 +13776,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smitty-s-smokin-soulfood",
    "name": "Smitty’s Smokin’ Soulfood",
    "state": "SC",
@@ -10094,6 +13816,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smoky-blues-barbeque",
    "name": "Smok'y Blues Barbeque",
    "state": "SC",
@@ -10123,6 +13856,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smokin-pig",
    "name": "Smokin Pig",
    "state": "SC",
@@ -10152,6 +13896,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smokin-pig-express",
    "name": "Smokin Pig Express",
    "state": "SC",
@@ -10181,6 +13936,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smokin-wings-n-things",
    "name": "Smokin Wings N Things",
    "state": "SC",
@@ -10210,6 +13976,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-smoky-dreams",
    "name": "Smoky Dreams",
    "state": "SC",
@@ -10239,6 +14016,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sombrero-restaurant",
    "name": "Sombrero Restaurant",
    "state": "SC",
@@ -10268,6 +14056,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sonnys-bbq",
    "name": "Sonny's BBQ",
    "state": "SC",
@@ -10297,6 +14096,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-southern-smoke-bbq",
    "name": "Southern Smoke BBQ",
    "state": "SC",
@@ -10326,6 +14136,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-steelhorse-smokehouse",
    "name": "Steelhorse Smokehouse",
    "state": "SC",
@@ -10355,6 +14176,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sticky-fingers-rib-house",
    "name": "Sticky Fingers Rib House",
    "state": "SC",
@@ -10384,6 +14216,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "unknown",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "unknown"
+   },
+   "hours_text": "Friday and Saturday, 11:30 to 8.",
+   "sold_out": false,
    "id": "sweatmans-bar-b-que",
    "name": "Sweatman's Bar-B-Que",
    "state": "SC",
@@ -10414,6 +14257,17 @@
    "image": "sweatmans-bar-b-que/sweatmans-bar-b-que-the-lot-at-holly-hill.jpg"
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-swig-and-swine",
    "name": "Swig & Swine",
    "state": "SC",
@@ -10451,6 +14305,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-swig-and-swine-32784--79998",
    "name": "Swig & Swine",
    "state": "SC",
@@ -10488,6 +14353,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-swig-n-swine",
    "name": "Swig N Swine",
    "state": "SC",
@@ -10517,6 +14393,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-baarr-b-q-place",
    "name": "The BAARR-B-Q Place",
    "state": "SC",
@@ -10546,6 +14433,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-company-store-and-restaurant",
    "name": "The Company Store & Restaurant",
    "state": "SC",
@@ -10575,6 +14473,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-kakery-at-stone-house",
    "name": "The Kakery at Stone House",
    "state": "SC",
@@ -10604,6 +14513,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-smokin-pig",
    "name": "The Smokin' Pig",
    "state": "SC",
@@ -10633,6 +14553,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-smokin-pig-pendleton",
    "name": "The Smokin' Pig",
    "state": "SC",
@@ -10662,6 +14593,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-the-wreckfish-bar-and-grill",
    "name": "The Wreckfish Bar & Grill",
    "state": "SC",
@@ -10691,6 +14633,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-this-little-piggy",
    "name": "This Little Piggy",
    "state": "SC",
@@ -10720,6 +14673,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-thornys-steakhouse-and-saloon",
    "name": "Thorny's Steakhouse & Saloon",
    "state": "SC",
@@ -10749,6 +14713,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-toms-bbq",
    "name": "Tom's BBQ",
    "state": "SC",
@@ -10778,6 +14753,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Thursday to Saturday, 11 to 8.",
+   "sold_out": false,
    "id": "true-bbq",
    "name": "True BBQ",
    "state": "SC",
@@ -10810,6 +14796,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-twin-palmetto",
    "name": "Twin Palmetto",
    "state": "SC",
@@ -10839,6 +14836,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-wards-bar-b-q",
    "name": "Ward's Bar-b-q",
    "state": "SC",
@@ -10868,6 +14876,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-westwood-bbq",
    "name": "Westwood BBQ",
    "state": "SC",
@@ -10897,6 +14916,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-wholly-smokin",
    "name": "Wholly Smokin'",
    "state": "SC",
@@ -10926,6 +14956,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-wholy-smoke-bbq-and-seafood",
    "name": "Wholy Smoke BBQ & seafood",
    "state": "SC",
@@ -10955,6 +14996,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-willie-jewells-bar-b-q",
    "name": "Willie Jewell's Bar-B-Q",
    "state": "SC",
@@ -10984,6 +15036,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "closed",
+    "Th": "closed",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-wises-bar-b-q-house",
    "name": "Wise's Bar-B-Q House",
    "state": "SC",
@@ -11013,6 +15076,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-woodstone-barbecue",
    "name": "Woodstone Barbecue",
    "state": "SC",
@@ -11042,6 +15116,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-bbq-house",
    "name": "BBQ House",
    "state": "unknown",
@@ -11071,6 +15156,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-shepard-barbecue",
    "name": "Shepard Barbecue",
    "state": "unknown",
@@ -11100,6 +15196,17 @@
    "image": null
   },
   {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
    "id": "osm-sunny-daze-smokehouse",
    "name": "Sunny Daze Smokehouse",
    "state": "unknown",

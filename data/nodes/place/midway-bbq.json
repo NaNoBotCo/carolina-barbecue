@@ -123,6 +123,10 @@
    "address": {
     "tier": "harvested",
     "source": "s:osm"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-midway-bbq-home"
    }
   }
  },
@@ -160,5 +164,23 @@
    "url": "https://www.southernfoodways.org/interview/midway-bbq/",
    "note": "Jay Allen, interviewed by Rien Fertel, June 12, 2012."
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo"
+  ],
+  "text": "Tuesday to Friday 10 to 6, Saturday 10 to 4.",
+  "source": "s:web-midway-bbq-home",
+  "url": "https://midway-bbq.com/bbq-restaurant/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ }
 }

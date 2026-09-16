@@ -171,6 +171,10 @@
     "tier": "cited",
     "source": "s:web-scetv-scotts-backroad-bites-2021",
     "note": "SCETV (August 31, 2021) names Ella Scott as a co-founder — 'The restaurant was founded in 1972 by Ella and Roosevelt “Rosie” Scott' — but the store has been run since May 2024 by Sam Wilson and Dominic Scott, so no current woman-owned tag is set. No source read on 2026-09-16 — the SCETV feature, the SFA interview, the SFA South Carolina project page or the Wikipedia articles — describes the Scotts as Black or the business as Black-owned, so no black-owned tag is set either."
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-scotts"
    }
   }
  },
@@ -219,5 +223,24 @@
    "url": "https://www.southernfoodways.org/interview/scotts-bar-b-que/",
    "note": "Rodney Scott, interviewed by Rien Fertel, June 2012."
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday from 9:30, closing about five.",
+  "source": "s:web-destination-bbq-scotts",
+  "url": "https://destination-bbq.com/stores/scotts-bar-b-que/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "cash only. The listing read 2026-09-16 gives 9:30 to 5, and to 5:30 on Friday."
+ }
 }

@@ -213,6 +213,7 @@ Records are CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Place poin
 ## Stories
 - [How to order](https://nanobotco.github.io/carolina-barbecue/story/how-to-order/): At a Carolina barbecue counter the words are short and they mean particular things. Barbecue is the meat, not the event. A tray has no bread; a plate does.
 - [The Great Divide](https://nanobotco.github.io/carolina-barbecue/story/the-great-divide/): North Carolina cooks barbecue two ways and has never agreed to disagree about it. East of Raleigh the whole hog goes on the pit and the sauce is vinegar, salt and pepper with no tomato in it.
+- [The Sunday question](https://nanobotco.github.io/carolina-barbecue/story/the-sunday-question/): Sunday is the day a Carolina barbecue house is most likely to be shut, and the day some people will tell you not to order barbecue anyway. Neither is about the meat being worse on a Sunday.
 - [Where all of this came from](https://nanobotco.github.io/carolina-barbecue/story/free-to-use/): Everything on this site is built from things anyone can open: public-domain cookbooks, openly licensed encyclopaedias and photographs, open map data, oral histories published by the people who recorded them, and the…
 
 ## Optional

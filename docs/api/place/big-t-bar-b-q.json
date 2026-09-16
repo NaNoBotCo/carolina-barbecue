@@ -119,6 +119,10 @@
     "tier": "cited",
     "source": "s:web-destination-bbq-big-t",
     "note": "no founding year in any source read; Destination BBQ says only that Brown has served the Columbia area for over thirty years"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-destination-bbq-big-t"
    }
   }
  },
@@ -178,6 +182,25 @@
  ],
  "images": [],
  "updated": "2026-09-16",
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday, from 11.",
+  "source": "s:web-destination-bbq-big-t",
+  "url": "https://destination-bbq.com/stores/big-ts-bar-b-que-3/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the Gadsden house; the Garners Ferry Road house in Columbia keeps its own hours."
+ },
  "blurb": "A Black-owned wood-burning pit on Congaree Road at Gadsden, in lower Richland County below Columbia, run by Larry Brown, known as Teddy and as Big T, who has sold barbecue to the Columbia area for more than thirty…",
  "region_terms": [
   {

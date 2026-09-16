@@ -12,7 +12,7 @@
   "event": 7,
   "term": 15,
   "art": 7,
-  "story": 3
+  "story": 4
  },
  "how_records_are_made": "Hand-written JSON, one per node, each field carrying a provenance tier (cited / harvested / tradition / inference / field). Cited fields name a source in sources.json. Tradition fields are general knowledge of the tradition and are hedged in the text.",
  "places": {
@@ -21,6 +21,13 @@
   "osm_fetched_at": "2026-09-16T03:25:25Z",
   "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
   "osm_query": "[out:json][timeout:120];area[\"ISO3166-2\"=\"US-NC\"]->.nc;area[\"ISO3166-2\"=\"US-SC\"]->.sc;(nwr[\"cuisine\"~\"barbecue|bbq\",i](area.nc);nwr[\"cuisine\"~\"barbecue|bbq\",i](area.sc););out center tags;"
+ },
+ "hours": {
+  "places_with_any_day_known": 158,
+  "open_sunday": 91,
+  "closed_sunday": 58,
+  "sunday_unknown": 224,
+  "reading_an_absence": "A day is 'unknown' unless a source said so. Unknown is never rendered as closed."
  },
  "images": {
   "count": 148,
@@ -49,7 +56,7 @@
  "tags_note": "A tag names its evidence (the owner's words, a press profile, a public directory or list). No evidence, no tag; absence of a tag says nothing about a place.",
  "recognitions": 118,
  "recipes": 142,
- "sources": 604,
+ "sources": 611,
  "not_yet": [
   "field observations (no record carries the field tier yet)",
   "menu prices with dates on most places",

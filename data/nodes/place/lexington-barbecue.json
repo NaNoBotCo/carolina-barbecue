@@ -198,6 +198,10 @@
     "tier": "harvested",
     "source": "s:flickr-sfa",
     "note": "read on the item's own page 2026-09-16: “CC BY 2.0”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-lexbbq-about"
    }
   }
  },
@@ -308,5 +312,24 @@
    "what": "a feature",
    "source": "s:web-ourstate-lexington-barbecue"
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo"
+  ],
+  "text": "Tuesday to Saturday, 10 to 9.",
+  "source": "s:web-lexbbq-about",
+  "url": "https://www.lexbbq.com/about-us",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "OpenStreetMap lists Monday hours as well; the restaurant's own page is followed here."
+ }
 }

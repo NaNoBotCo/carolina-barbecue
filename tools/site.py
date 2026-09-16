@@ -116,6 +116,9 @@ footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.8
 .wander{font-size:.85rem;color:var(--mute)}
 .pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
 mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--ember);font-weight:600}
 .two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
 .pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
 .tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
@@ -162,7 +165,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <link rel="search" type="application/opensearchdescription+xml" title="{E(SITE_NAME)}" href="{r}opensearch.xml">
 <link rel="alternate" type="application/atom+xml" title="{E(SITE_NAME)} updates" href="{r}feed.xml">
 {extra_head}
-<style>{CSS}{SHARE_CSS}</style>
+<style>{CSS}{SHARE_CSS}{viz.DAY_CSS}</style>
 {ld}
 </head>
 <body>
@@ -449,6 +452,23 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
         body += '<div class="acc"><b>Written down by</b> ' + " · ".join(
             (f'<a href="{E(x["url"])}" rel="noopener">{E(x.get("label", x["key"]))}</a>' if x.get("url") else E(x.get("label", x["key"])))
             + (f' ({E(str(x["year"]))})' if x.get("year") else "") for x in r["recognition_facts"]) + "</div>"
+    if r["type"] == "place":
+        row = PLACE_DAYS.get(r["id"])
+        hrs = r.get("hours") or {}
+        if row and any(v != "unknown" for v in row.values()):
+            src = hrs.get("source") or ("s:osm" if not hrs else "")
+            body += ('<h2>When they are open</h2><div class="whenbox">'
+                     + viz.day_strip(row)
+                     + (f'<p class="hrs">{E(hrs["text"])}</p>' if hrs.get("text") else "")
+                     + ('<p class="hrs sold">Closes when the meat runs out, whatever the clock says.</p>' if hrs.get("sold_out") else "")
+                     + f'<p class="mute" style="font-size:.82rem">{viz.day_key()}'
+                     + (f' · {tier_chip({"tier": hrs.get("tier", "cited"), "source": src})}' if src else "")
+                     + (f' · checked {E(hrs["checked"])}' if hrs.get("checked") else "")
+                     + ' · <a href="../../story/the-sunday-question/index.html">why so many close Sunday</a></p></div>')
+        elif r["type"] == "place":
+            body += ('<h2>When they are open</h2><p class="mute">Nobody has published this one\'s days where we could read them. '
+                     'That is a gap in this directory, not a closed door — call ahead, and see '
+                     '<a href="../../story/the-sunday-question/index.html">the Sunday question</a>.</p>')
     for key, title in (("story", "The story"), ("how", "How it is done"), ("today", "Today"), ("notes", "Notes")):
         if r["text"].get(key):
             body += f'<h2>{title} {tier_chip(r["tiers"].get(f"text.{key}"))}</h2><div class="prose">{prose(r["text"][key])}</div>'
@@ -658,6 +678,7 @@ def share_row(url: str, title: str) -> str:
 
 
 GEO_CACHE: dict = {}
+PLACE_DAYS: dict = {}
 TAGV: dict = {}
 
 
@@ -1063,6 +1084,8 @@ def main() -> int:
     by_id = {r["id"]: r for r in recs}
     sources = {s["id"]: s for s in jload(API / "sources.json")["sources"]}
     places = jload(API / "places.json")
+    global PLACE_DAYS
+    PLACE_DAYS = {p["id"]: p.get("days") or {} for p in places["places"]}
     types = jload(API / "vocab" / "types.json")
     cov = jload(API / "coverage.json")
     if SITE.exists():

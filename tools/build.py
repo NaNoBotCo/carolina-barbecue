@@ -150,7 +150,9 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
             continue
         g = r.get("geo") or {}
         a = r.get("address") or {}
-        rows.append({"id": r["id"], "name": r["names"]["name"], "state": a.get("state") or (r.get("facets") or {}).get("state"), "city": a.get("city", ""),
+        hrs = r.get("hours") or {}
+        rows.append({"days": day_state(r, None), "hours_text": hrs.get("text", ""), "sold_out": bool(hrs.get("sold_out")),
+                     "id": r["id"], "name": r["names"]["name"], "state": a.get("state") or (r.get("facets") or {}).get("state"), "city": a.get("city", ""),
                      "county": a.get("county", ""), "lat": g.get("lat"), "lon": g.get("lon"), "styles": (r.get("facets") or {}).get("styles") or [],
                      "status": (r.get("facets") or {}).get("status"), "founded": (r.get("facets") or {}).get("founded"), "fuel": (r.get("facets") or {}).get("fuel"),
                      "curated": True, "url": f"place/{r['id']}/", "blurb": r["blurb"], "tier": tier_for(r, "text.what").get("tier"), "osm_id": None,
@@ -160,6 +162,7 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
         for al in r["names"].get("aliases", []):
             curated_names[_norm(al)] = rows[-1]
     n_osm = 0
+    by_rec = {r["id"]: r for r in recs if r["type"] == "place"}
     towns = (load_harvest("osm-towns") or {}).get("rows", {})
     # wood-cooked from the harvested public lists, matched by name (+ state) — tier harvested
     wood: dict = {}
@@ -173,6 +176,12 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
         hit = curated_names.get(key)
         if hit and hit["lat"] is not None and abs(hit["lat"] - p["lat"]) < 0.05 and abs(hit["lon"] - p["lon"]) < 0.05:
             hit["osm_id"] = p["osm_id"]
+            # The curated row keeps its own everything, but it should not throw away days
+            # OpenStreetMap already knows just because someone wrote the place up. The
+            # record's own hours still win, day by day, inside day_state().
+            if t.get("opening_hours") and all(v == "unknown" for v in hit["days"].values()):
+                hit["days"] = day_state(by_rec.get(hit["id"]), t["opening_hours"])
+                hit["osm_hours"] = t["opening_hours"]
             continue
         t = p["tags"]
         st = p["state"] if p["state"] in ("NC", "SC") else (state_by_geo(p["lat"], p["lon"]) or "unknown")
@@ -183,7 +192,8 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
             tags.append("wood-cooked")
         if (t.get("lgbtq") or "").lower() in ("welcome", "primary", "only") or (t.get("lgbtq:signed") or "").lower() == "yes":
             tags.append("lgbtq-friendly")
-        rows.append({"id": "osm-" + p["slug"], "name": p["name"], "state": st, "city": t.get("addr:city") or tw.get("town", ""), "county": tw.get("county", ""), "lat": p["lat"], "lon": p["lon"],
+        rows.append({"days": day_state(None, t.get("opening_hours")), "hours_text": "", "sold_out": False,
+                     "id": "osm-" + p["slug"], "name": p["name"], "state": st, "city": t.get("addr:city") or tw.get("town", ""), "county": tw.get("county", ""), "lat": p["lat"], "lon": p["lon"],
                      "styles": [], "status": None, "founded": t.get("start_date"), "fuel": None, "curated": False, "url": None, "blurb": "",
                      "tier": "harvested", "osm_id": p["osm_id"], "website": t.get("website"), "phone": t.get("phone"), "hours": t.get("opening_hours"),
                      "street": " ".join(x for x in (t.get("addr:housenumber"), t.get("addr:street")) if x), "postcode": t.get("addr:postcode"), "cuisine": t.get("cuisine"),
@@ -193,6 +203,37 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
     return {"built": time.strftime("%Y-%m-%d"), "count": len(rows), "curated": len(rows) - n_osm, "harvested": n_osm,
             "harvest": {k: (osm or {}).get(k) for k in ("source", "license", "license_url", "attribution", "fetched_at", "osm_base")} if osm else None,
             "places": rows}
+
+
+DAYS = ("Mo", "Tu", "We", "Th", "Fr", "Sa", "Su")
+
+
+def day_state(rec: dict | None, osm_hours: str | None) -> dict:
+    """open / closed / unknown for each of the seven days.
+
+    A record's own hours win, because someone read them off the door or a page and named
+    the source. OpenStreetMap fills the rest. A day nobody has told us about stays
+    UNKNOWN — it is never quietly called closed, which is the difference between a
+    directory that is useful and one that sends a reader to a locked door or, worse,
+    tells them a pit is shut when it is open.
+    """
+    out = {d: "unknown" for d in DAYS}
+    if osm_hours:
+        import sys as _s
+        from pathlib import Path as _P
+        _s.path.insert(0, str(_P(__file__).resolve().parent))
+        import viz
+        got = viz.open_days([osm_hours])
+        # a published timetable that names some days is taken to close the others
+        if any(got.values()):
+            for d in DAYS:
+                out[d] = "open" if got[d] else "closed"
+    h = (rec or {}).get("hours") or {}
+    for d in h.get("closed", []):
+        out[d] = "closed"
+    for d in h.get("open", []):
+        out[d] = "open"
+    return out
 
 
 def _norm(s: str) -> str:
@@ -215,6 +256,10 @@ def coverage(recs: list[dict], osm: dict | None, sources: dict) -> dict:
             "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
             "osm_query": (osm or {}).get("query"),
         },
+        "hours": {
+            "places_with_any_day_known": 0, "open_sunday": 0, "closed_sunday": 0, "sunday_unknown": 0,
+            "reading_an_absence": "A day is 'unknown' unless a source said so. Unknown is never rendered as closed.",
+        },
         "images": {"count": sum(len(r.get("images", [])) for r in recs), "licences_accepted": ["CC0", "Public domain", "CC BY", "CC BY-SA", "FAL"]},
         "tags": {k: sum(1 for r in recs for t in r.get("tags", []) if t["tag"] == k) for k in TAGS},
         "tags_note": "A tag names its evidence (the owner's words, a press profile, a public directory or list). No evidence, no tag; absence of a tag says nothing about a place.",
@@ -225,6 +270,13 @@ def coverage(recs: list[dict], osm: dict | None, sources: dict) -> dict:
                     "photographs for most records", "oral-history links per person"],
         "tiers": TIER_LABEL,
     }
+
+
+def hours_coverage(rows: list) -> dict:
+    su = [r["days"]["Su"] for r in rows]
+    return {"places_with_any_day_known": sum(1 for r in rows if any(v != "unknown" for v in r["days"].values())),
+            "open_sunday": su.count("open"), "closed_sunday": su.count("closed"), "sunday_unknown": su.count("unknown"),
+            "reading_an_absence": "A day is 'unknown' unless a source said so. Unknown is never rendered as closed."}
 
 
 def main() -> int:
@@ -253,8 +305,11 @@ def main() -> int:
     for a in ("regions", "types", "facets"):
         jdump(load_vocab(a), API / "vocab" / f"{a}.json")
     jdump(jload(SOURCES), API / "sources.json")
-    jdump(places_table(recs, osm), API / "places.json")
-    jdump(coverage(recs, osm, sources), API / "coverage.json")
+    ptab = places_table(recs, osm)
+    jdump(ptab, API / "places.json")
+    cov = coverage(recs, osm, sources)
+    cov["hours"] = hours_coverage(ptab["places"])
+    jdump(cov, API / "coverage.json")
     docs = [search_doc(r) for r in recs]
     jdump({"built": time.strftime("%Y-%m-%dT%H:%M:%S"), "docs": docs}, BUILD / "searchdocs.json")
     ng = mine_thesaurus(recs)

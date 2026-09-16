@@ -95,7 +95,8 @@
   "s:web-wbtv-red-bridges-80",
   "s:sfa-stameys-barbecue",
   "s:web-truecue-nc",
-  "s:web-barbecuebros-nc-trail"
+  "s:web-barbecuebros-nc-trail",
+  "s:web-bridgesbbq-hours"
  ],
  "provenance": {
   "default": {
@@ -121,6 +122,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "via Nominatim"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-bridgesbbq-hours"
    }
   }
  },
@@ -170,6 +175,25 @@
    "note": "Natalie Ramsey and Chase Webb, interviewed by Rien T. Fertel, November 19, 2020."
   }
  ],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3; it can sell out before closing.",
+  "sold_out": true,
+  "source": "s:web-bridgesbbq-hours",
+  "url": "https://www.bridgesbbq.com/location/bridges-bbq/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
  "blurb": "The Shelby, Cleveland County, pork-shoulder house of the Bridges family, begun in 1946 by Red Bridges, an Army cook home from the war, and his wife Lyttle, and run by their daughter Debbie Bridges-Webb with her children…",
  "region_terms": [
   {
@@ -280,6 +304,14 @@
    "url": "https://barbecuebros.co/nc-historic-barbecue-trail/",
    "accessed": "2026-09-16",
    "note": "Page updated 2017-12-04. Stands in for the NC Barbecue Society's own roster: ncbbqsociety.com did not resolve on 2026-09-16 and the Wayback Machine holds no snapshot of its trail page."
+  },
+  {
+   "id": "s:web-bridgesbbq-hours",
+   "kind": "web",
+   "title": "Hours & Location — Bridges BBQ, Shelby",
+   "publisher": "Red Bridges Barbecue Lodge (official site)",
+   "url": "https://www.bridgesbbq.com/location/bridges-bbq/",
+   "accessed": "2026-09-16"
   }
  ],
  "tiers": {

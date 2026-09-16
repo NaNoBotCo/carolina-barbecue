@@ -130,7 +130,8 @@
   "s:web-seattle-times-piggie-park-2002",
   "s:osm",
   "s:web-destination-bbq-hash-map",
-  "s:web-truecue-sc"
+  "s:web-truecue-sc",
+  "s:web-piggiepark-west-columbia"
  ],
  "provenance": {
   "default": {
@@ -166,6 +167,10 @@
     "tier": "cited",
     "source": "s:web-piggiepark-history",
     "note": "The company's history names Maurice Bessinger's daughter Debbie among those who 'carry on the family's BBQ heritage'. That is not a statement of ownership, so no woman-owned tag is set."
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-piggiepark-west-columbia"
    }
   }
  },
@@ -248,6 +253,23 @@
    "url": "http://www.truecue.org/true-cue-sc"
   }
  ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "text": "Sunday to Thursday 10 to 9, Friday and Saturday 10 to 10.",
+  "source": "s:web-piggiepark-west-columbia",
+  "url": "https://www.piggiepark.com/locations/west-columbia/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the West Columbia house; the seven other Pit-Stops keep their own hours."
+ },
  "blurb": "A chain of eight barbecue restaurants around Columbia run from the original drive-in at 1600 Charleston Highway, West Columbia, where Maurice Bessinger and his brother Joe Jr. opened in 1953.",
  "region_terms": [
   {
@@ -437,6 +459,14 @@
    "url": "http://www.truecue.org/true-cue-sc",
    "accessed": "2026-09-16",
    "note": "65 entries listed on 2026-09-16."
+  },
+  {
+   "id": "s:web-piggiepark-west-columbia",
+   "kind": "web",
+   "title": "Maurice's Piggie Park — West Columbia, Charleston Highway",
+   "publisher": "Maurice's Piggie Park (official site)",
+   "url": "https://www.piggiepark.com/locations/west-columbia/",
+   "accessed": "2026-09-16"
   }
  ],
  "tiers": {

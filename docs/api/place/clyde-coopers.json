@@ -146,6 +146,10 @@
     "tier": "harvested",
     "source": "s:ncsa-fcx",
     "note": "read on the photograph's own Flickr page 2026-09-16: “No known copyright restrictions”; the file, its sha256 and that statement are in the sidecar beside it"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
    }
   }
  },
@@ -189,6 +193,22 @@
    "note": "Debbie Holt, interviewed by Rien T. Fertel, November 22, 2011."
   }
  ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "text": "Monday to Saturday, 10 to 6.",
+  "source": "s:osm",
+  "url": "https://www.openstreetmap.org/node/3307013373",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OSM node/3307013373 gives Mo-Sa 10:00-18:00 and no rule either way for Sunday."
+ },
  "blurb": "Raleigh's downtown barbecue house since New Year's Day 1938, when Clyde Cooper opened on East Davie Street with fifty dollars borrowed from a brother-in-law; it moved around the corner to 327 South Wilmington Street in…",
  "region_terms": [
   {

@@ -5038,6 +5038,63 @@
    "url": "https://cdm17168.contentdm.oclc.org/digital/collection/p17168coll61",
    "accessed": "2026-09-16",
    "note": "Photographs of the Union Bleachery textile plant at Greenville, including the employees' annual barbecue at Paris Mountain State Park as printed in the company newsletter The Commentator. The item's Rights field reads 'Public Domain'. It is the only openly licensed South Carolina barbecue photograph this project has found."
+  },
+  {
+   "id": "s:web-ourstate-pit-stop",
+   "kind": "web",
+   "title": "Pit Stop: 22 Essential North Carolina Barbecue Joints",
+   "publisher": "Our State",
+   "url": "https://www.ourstate.com/pit-stop-26-essential-north-carolina-barbecue-joints/",
+   "accessed": "2026-09-16",
+   "note": "of Wilber's: 'the only day the pit isn't fired up is Sunday, when the restaurant is closed'; of Morris Barbeque: 'only open on Saturdays — a tradition that began in 1956'"
+  },
+  {
+   "id": "s:web-12bones-home",
+   "kind": "web",
+   "title": "12 Bones Smokehouse — hours and locations",
+   "publisher": "12 Bones Smokehouse (official site)",
+   "url": "https://12bones.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-eatbobbys-hours",
+   "kind": "web",
+   "title": "Bobby's BBQ — hours",
+   "publisher": "Bobby's BBQ (official site)",
+   "url": "https://eatbobbys.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bridgesbbq-hours",
+   "kind": "web",
+   "title": "Hours & Location — Bridges BBQ, Shelby",
+   "publisher": "Red Bridges Barbecue Lodge (official site)",
+   "url": "https://www.bridgesbbq.com/location/bridges-bbq/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-home-team-west-ashley",
+   "kind": "web",
+   "title": "Home Team BBQ — West Ashley",
+   "publisher": "Home Team BBQ (official site)",
+   "url": "https://hometeambbq.com/locations/west-ashley/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-piggiepark-west-columbia",
+   "kind": "web",
+   "title": "Maurice's Piggie Park — West Columbia, Charleston Highway",
+   "publisher": "Maurice's Piggie Park (official site)",
+   "url": "https://www.piggiepark.com/locations/west-columbia/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-melvins-hours",
+   "kind": "web",
+   "title": "Melvin's Legendary Bar-B-Q — hours",
+   "publisher": "Melvin's Legendary Bar-B-Q (official site)",
+   "url": "https://melvinsbbq.com/",
+   "accessed": "2026-09-16"
   }
  ]
 }

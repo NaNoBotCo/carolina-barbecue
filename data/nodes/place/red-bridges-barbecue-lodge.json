@@ -95,7 +95,8 @@
   "s:web-wbtv-red-bridges-80",
   "s:sfa-stameys-barbecue",
   "s:web-truecue-nc",
-  "s:web-barbecuebros-nc-trail"
+  "s:web-barbecuebros-nc-trail",
+  "s:web-bridgesbbq-hours"
  ],
  "provenance": {
   "default": {
@@ -121,6 +122,10 @@
     "tier": "harvested",
     "source": "s:osm",
     "note": "via Nominatim"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-bridgesbbq-hours"
    }
   }
  },
@@ -169,5 +174,24 @@
    "url": "https://www.southernfoodways.org/interview/red-bridges-barbecue-lodge/",
    "note": "Natalie Ramsey and Chase Webb, interviewed by Rien T. Fertel, November 19, 2020."
   }
- ]
+ ],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday 11 to 7, Sunday 11 to 3; it can sell out before closing.",
+  "sold_out": true,
+  "source": "s:web-bridgesbbq-hours",
+  "url": "https://www.bridgesbbq.com/location/bridges-bbq/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ }
 }
