@@ -32,7 +32,7 @@ import sys
 import textwrap
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageStat
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import BUILD, DATA, GEO, IMAGES, ROOT, jload  # noqa: E402
@@ -354,17 +354,32 @@ def photo_ground(ph: Image.Image, strength=1.0):
     ratio = max(W / ph.width, H / ph.height)
     ph = ph.resize((max(1, int(ph.width * ratio)), max(1, int(ph.height * ratio))), Image.LANCZOS)
     img.paste(ph, ((W - ph.width) // 2, (H - ph.height) // 2))
-    # horizontal scrim: solid ink at the left edge, gone by 70% across
+    # How bright is the picture where the type actually lands? A pale engraving and a
+    # dark pit shot need different scrims, so measure instead of guessing.
+    band = ImageStat.Stat(img.crop((0, int(H * 0.10), int(W * 0.64), int(H * 0.76))).convert("L")).mean[0]
+    boost = min(1.0, max(0.0, (band - 66) / 84.0))      # 0 already dark · 1 washing out
+    plate = 0.26 + 0.17 * boost                          # opaque out to here
+    fade = 0.76 + 0.11 * boost                           # clear from here on
+    curve = 0.85 - 0.30 * boost                          # fuller through the middle
+    # horizontal scrim: solid ink at the left edge, gone before the picture gets going
     grad = Image.new("L", (W, 1), 0)
     for x in range(W):
         t = x / W
-        v = 252 if t < 0.26 else int(252 * max(0.0, (0.76 - t) / 0.5) ** 0.85)
+        v = 252 if t < plate else int(252 * max(0.0, (fade - t) / (fade - plate)) ** curve)
         grad.putpixel((x, 0), int(v * strength))
+    # soften the detail where the type lands: a highlight in the wrong place eats a letter
+    soft = Image.new("L", (W, 1), 0)
+    for x in range(W):
+        t = x / W
+        soft.putpixel((x, 0), 255 if t < plate else int(255 * max(0.0, (fade - t) / (fade - plate))))
+    img.paste(img.filter(ImageFilter.GaussianBlur(3.4 + 2.2 * boost)), (0, 0), soft.resize((W, H)))
     img.paste(Image.new("RGB", (W, H), INK), (0, 0), grad.resize((W, H)))
     # a bottom band so the footer line always has ground under it
+    foot = ImageStat.Stat(img.crop((0, int(H * 0.86), W, H)).convert("L")).mean[0]
+    fb = min(1.0, max(0.0, (foot - 46) / 90.0))
     bot = Image.new("L", (1, H), 0)
     for y in range(H):
-        bot.putpixel((0, y), int(210 * max(0.0, (y - H * 0.80) / (H * 0.20)) ** 1.1))
+        bot.putpixel((0, y), int((206 + 44 * fb) * max(0.0, (y - H * (0.80 - 0.06 * fb)) / (H * 0.20)) ** 1.1))
     img.paste(Image.new("RGB", (W, H), INK), (0, 0), bot.resize((W, H)))
     d = ImageDraw.Draw(img)
     d.rectangle([0, 0, 10, H], fill=EMBER)
@@ -564,23 +579,23 @@ def main(argv: list[str]) -> int:
         "search": ("Search the directory", "Spelled however you spell it: barbeque, bar-b-q, 'cue. Near spellings are found and said to be near.", "search", None, None, None),
         "sources": ("Sources", "Every book, article, oral history, dataset and page the records cite, by id.", "sources", None, None, None),
         "stories": ("The stories", "The east-west war, how to order, and where all of this came from.", "long reads", None, None, "political-barbecue"),
-        "styles": ("Six ways to cook a hog", "Whole hog east of Raleigh, shoulders and a red dip in the Piedmont, mustard through the Midlands, hash and rice in the Dutch Fork.", "the styles", allmap,
+        "styles": ("Six ways to cook a hog", "Whole hog east of Raleigh, shoulders and red dip in the Piedmont, mustard through the Midlands.", "the styles", allmap,
                    [(cov["records"].get("style", 0), "styles"), (2, "states"), (cov["records"].get("place", 0) + places["harvested"], "places")], "eastern-nc"),
-        "sauces": ("Vinegar, ketchup, mustard", "Three families and the arguments between them. Every bottle read off its own label instead of off a menu.", "the sauces", None,
+        "sauces": ("Vinegar, ketchup, mustard", "Three families and the arguments between them. Every bottle read off its own label, not off a menu.", "the sauces", None,
                    [(cov["records"].get("sauce", 0), "sauces"), (len(sauces.get("sauces", [])), "bottles read"), (3, "families")], "vinegar-pepper-sauce"),
-        "dishes": ("The rest of the tray", "Slaw, stew, hash, hushpuppies, banana pudding. Order the plate and you get half of them whether you asked or not.", "the sides", None,
+        "dishes": ("The rest of the tray", "Slaw, stew, hash, hushpuppies, banana pudding. Order a plate and half of them turn up anyway.", "the sides", None,
                    [(cov["records"].get("dish", 0), "dishes")], "brunswick-stew"),
-        "pit": ("Wood, coals and cuts", "Burn the wood down, shovel the coals, cook the meat over what is left. Everything else is a variation.", "the pit", None,
+        "pit": ("Wood, coals and cuts", "Burn the wood down, shovel the coals, cook over the embers. The rest is variation.", "the pit", None,
                 [(cov["records"].get("pit", 0), "entries")], "pork-shoulder"),
-        "people": ("The ones who tend it", "Pitmasters, families, writers and the people who kept the fire lit when nobody was writing it down.", "the people", None,
+        "people": ("The ones who tend it", "Pitmasters, families, writers, and everyone who kept the fire lit.", "the people", None,
                    [(cov["records"].get("person", 0), "people")], "ed-mitchell"),
-        "organizations": ("Who keeps score", "Societies, trails, archives and the campaigns that argue about all of it in public.", "the keepers", None,
+        "organizations": ("Who keeps score", "Societies, trails, archives, and the campaigns that argue in public.", "the keepers", None,
                           [(cov["records"].get("org", 0), "organizations")], "southern-foodways-alliance"),
-        "events": ("Pig pickins and politics", "Festivals, fundraisers, competitions, and the campaign barbecues that bought a vote with a plate.", "the gatherings", None,
+        "events": ("Pig pickins and politics", "Festivals, fundraisers, competitions, and the barbecues that bought a vote with a plate.", "the gatherings", None,
                    [(cov["records"].get("event", 0), "events")], "political-barbecue"),
         "numbers": ("Barbecue, counted", "How far the styles reach, what the bottles hold, who cooks over wood, and where the map runs thin.", "the arithmetic", allmap,
                     [(sum(cov["records"].values()), "records"), (cov["records"].get("place", 0) + places["harvested"], "places"), (cov["images"]["count"], "pictures"), (cov["recipes"], "recipes")], None),
-        "404": ("That pit has moved", "The page you came for is not here, but the whole directory is one click down.", "wrong turn", None, None, "roadside-barbecue-signs"),
+        "404": ("That pit has moved", "That page is gone. The directory is one click down.", "wrong turn", None, None, "roadside-barbecue-signs"),
     }
     for name, (title, lede, eb, panel, stats, photo_id) in pages.items():
         if want and name not in want:
