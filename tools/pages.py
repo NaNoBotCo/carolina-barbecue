@@ -770,7 +770,8 @@ MAKE_CSS = """
 .recipe .says{color:var(--mute);font-style:italic;margin:0 0 .9rem}
 .recipe ul{list-style:none;margin:.2rem 0 1rem;padding:0}
 .recipe li{display:flex;gap:.7rem;padding:.3rem 0;border-bottom:1px dotted var(--line);font-size:1rem}
-.recipe li .q{flex:0 0 7.5rem;text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.recipe li .q{flex:0 0 9.5rem;text-align:right;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:520px){.recipe li{flex-direction:column;gap:0}.recipe li .q{text-align:left;flex:none}}
 .recipe li.zero{display:none}
 .recipe ol{margin:.2rem 0 1rem;padding-left:1.2rem}.recipe ol li{display:list-item;border:0;padding:.15rem 0}
 .recipe .prov{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);padding-top:.7rem;margin-top:.4rem}
@@ -827,7 +828,7 @@ ketchup. The bottles it is drawn against were read off their own labels for
 var B={esc_js(builder)}, BOTTLES={esc_js(bottles)};
 var pick={{base:B.bases[0].key, heat:"medium", sweet:"sweet", batch:"quart"}};
 function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]}})}}
-var FRAC=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.1875,"³⁄₁₆"],[0.125,"⅛"]];
+var FRAC=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
 function nice(tbsp){{
   /* the kitchen unit a cook would actually reach for */
   if(tbsp<=0) return null;
