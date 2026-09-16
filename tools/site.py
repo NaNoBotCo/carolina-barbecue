@@ -170,7 +170,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Carolina <b>Barbecue</b></a>
-<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Find the Q</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The sauce</a> · <a href="{r}make/index.html">Make it</a> · <a href="{r}pig/index.html">The pig</a> · <a href="{r}art/index.html">Pig art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Coverage</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
+<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Near me</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">Sauce</a> · <a href="{r}make/index.html">Make</a> · <a href="{r}pig/index.html">Pig</a> · <a href="{r}art/index.html">Art</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Sources</a> · <a href="{r}coverage/index.html">Coverage</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Wander</a></nav></header>
 <main>
 {body}
 {share_row(canonical, share_title or title) if canonical else ""}
@@ -777,7 +777,7 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
     body = (banner + f'<div class="hero"><div><h1><span class="kind">a directory of a living tradition</span>Carolina Barbecue</h1><p class="sub">{E(TAGLINE)}.</p>'
             f'<p>Whole hogs over coals in the east. Shoulders and a red dip in the Piedmont. '
             f'Mustard in the Midlands. Hash over rice down the Pee Dee.</p>'
-            f'<div class="cta"><a class="btn" href="near/index.html">📍 Find the Q near me</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the sauce</a><a class="btn ghost" href="make/index.html">Make a sauce or a rub</a><a class="btn ghost" href="numbers/index.html">Count it up</a><a class="btn ghost" href="quiz/index.html">Which side are you on?</a><a class="btn ghost" href="wander.html">🎲 A page at random</a></div></div>'
+            f'<div class="cta"><a class="btn" href="near/index.html">📍 Find the Q near me</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the sauce</a><a class="btn ghost" href="make/index.html">Make a sauce or a rub</a><a class="btn ghost" href="numbers/index.html">Numbers</a><a class="btn ghost" href="quiz/index.html">Which side are you on?</a><a class="btn ghost" href="wander.html">🎲 A page at random</a></div></div>'
             f'<div class="mapwrap">{svg}</div></div>'
             '<div class="facts">' + "".join(f'<div class="fact"><div class="n">{n:,}</div><div class="l">{E(l)}</div></div>' for n, l in facts) + "</div>")
     # the loudest thing on the page after the map: what is worth driving for
@@ -837,7 +837,7 @@ def sources_page(sources: dict) -> str:
     kinds: dict = {}
     for s in sources.values():
         kinds.setdefault(s.get("kind", "other"), []).append(s)
-    body = f'<h1><span class="kind">{E(SITE_NAME)}</span>Where we got it <span class="count">({len(sources)})</span></h1><p class="lede">Every source a record may cite, by id. Cite anything else and the build refuses it.</p>'
+    body = f'<h1><span class="kind">{E(SITE_NAME)}</span>Sources <span class="count">({len(sources)})</span></h1><p class="lede">Every source a record may cite, by id. Cite anything else and the build refuses it.</p>'
     for k in ("book", "wikipedia", "oral-history", "web", "org", "dataset", "article", "film", "other"):
         rows = kinds.get(k)
         if not rows:
@@ -856,7 +856,7 @@ def coverage_page(cov: dict) -> str:
             '<h2>Places</h2><table>' + "".join(f"<tr><th>{E(k.replace('_', ' '))}</th><td>{E(str(v))}</td></tr>" for k, v in cov["places"].items() if k != "osm_query") + "</table>"
             f'<p class="mute" style="font-size:.85rem">Overpass query: <code>{E(cov["places"].get("osm_query") or "")}</code></p>'
             f'<h2>Pictures</h2><p>{cov["images"]["count"]} on file. Licences accepted: {E(", ".join(cov["images"]["licences_accepted"]))}.</p>'
-            '<h2>Still missing</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
+            '<h2>Gaps</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
             '<h2>Tiers</h2><table>' + "".join(f"<tr><th>{E(k)}</th><td>{E(v)}</td></tr>" for k, v in cov["tiers"].items()) + "</table>"
             '<p class="mute">The same object as JSON: <a href="../api/coverage.json">api/coverage.json</a>.</p>')
     return page(f"Coverage — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not have yet.", None, f"{SITE_URL}/coverage/", card="coverage")

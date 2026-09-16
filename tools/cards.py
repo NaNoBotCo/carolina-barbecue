@@ -562,7 +562,7 @@ def main(argv: list[str]) -> int:
         "words": ("The words, with their roots", "Barbecue from the Taíno barbacoa. Dip, slaw, hash, light bread, outside brown, Down East.", "vocabulary", None, None, "barbecue"),
         "coverage": ("Coverage", "The scope as an object: where every row comes from, how many places carry each tag, and what has not been read yet.", "coverage", None, None, None),
         "search": ("Search the directory", "Spelled however you spell it: barbeque, bar-b-q, 'cue. Near spellings are found and said to be near.", "search", None, None, None),
-        "sources": ("Five hundred and ninety sources", "Every book, article, oral history, dataset and page the records cite, by id.", "sources", None, None, None),
+        "sources": ("Sources", "Every book, article, oral history, dataset and page the records cite, by id.", "sources", None, None, None),
         "stories": ("The stories", "The east-west war, how to order, and where all of this came from.", "long reads", None, None, "political-barbecue"),
     }
     for name, (title, lede, eb, panel, stats, photo_id) in pages.items():
