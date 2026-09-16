@@ -752,3 +752,192 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
                 "Carolina barbecue counted: how near the nearest pit is anywhere in the two states, when the pits opened, what the recipes call for, which days they open.",
                 None, f"{site_url}/numbers/", extra_head=f"<style>{CHART_CSS}</style>", card="numbers",
                 og_alt="A map of North and South Carolina shaded by distance to the nearest barbecue place")
+
+
+# ---------------------------------------------------------------- make a sauce
+
+MAKE_CSS = """
+.dials{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;background:var(--panel);
+  border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:.6rem 0 1.2rem}
+.dial b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);
+  font-family:var(--sign,sans-serif);margin-bottom:.4rem}
+.dial .opts{display:flex;flex-wrap:wrap;gap:.35rem}
+.dial button{font:inherit;font-size:.86rem;font-family:var(--ui,sans-serif);padding:.32rem .72rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.dial button[aria-pressed=true]{background:var(--ember);border-color:var(--ember);color:#fff}
+.recipe{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem}
+.recipe h3{margin:.1rem 0 .1rem;font-size:1.3rem}
+.recipe .says{color:var(--mute);font-style:italic;margin:0 0 .9rem}
+.recipe ul{list-style:none;margin:.2rem 0 1rem;padding:0}
+.recipe li{display:flex;gap:.7rem;padding:.3rem 0;border-bottom:1px dotted var(--line);font-size:1rem}
+.recipe li .q{flex:0 0 7.5rem;text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.recipe li.zero{display:none}
+.recipe ol{margin:.2rem 0 1rem;padding-left:1.2rem}.recipe ol li{display:list-item;border:0;padding:.15rem 0}
+.recipe .prov{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);padding-top:.7rem;margin-top:.4rem}
+.sugarline{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:.2rem 0 .3rem}
+.sugarline b{font-size:1.5rem;font-family:var(--display,serif)}
+.nearby{font-size:.88rem;color:var(--mute);margin:.5rem 0 0}
+.mk-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+"""
+
+
+def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str) -> str:
+    by_id = {r["id"]: r for r in recs}
+    # every bottle we measured, so the result can be put beside them
+    bottles = [{"n": s["name"], "b": s.get("base"), "g": s.get("sugar_g_per_tbsp")}
+               for s in sauces.get("sauces", []) if s.get("sugar_g_per_tbsp") is not None]
+    for b in builder["bases"]:
+        rec = by_id.get(b["sauce"])
+        b["href"] = f"../sauce/{b['sauce']}/index.html" if rec else ""
+        st = by_id.get(b["style"])
+        b["style_href"] = f"../style/{b['style']}/index.html" if st else ""
+        b["style_name"] = st["names"]["name"] if st else ""
+
+    # The page opens on the recipe as its source has it — heat and sweetness at 1.0 — so the
+    # first thing a reader sees is the cited proportions, and the dials move away from them.
+    DEFAULTS = {"base": builder["bases"][0]["key"], "heat": "medium", "sweet": "sweet", "batch": "quart"}
+
+    def dial(name, key, opts):
+        return (f'<div class="dial"><b>{E(name)}</b><div class="opts" data-dial="{key}">'
+                + "".join(f'<button type="button" data-v="{E(o["key"])}" '
+                          f'aria-pressed="{"true" if o["key"] == DEFAULTS[key] else "false"}">{E(o["label"])}</button>'
+                          for o in opts) + "</div></div>")
+
+    body = f"""
+<h1><span class="kind">Carolina Barbecue</span>Make a sauce</h1>
+<p class="lede">Pick a region and how you like it. The quantities come from a real recipe where a free one exists,
+and are this project's own where none does — it says which, every time.</p>
+
+<div class="dials">
+  {dial("Region", "base", [{"key": b["key"], "label": b["name"]} for b in builder["bases"]])}
+  {dial("Heat", "heat", builder["heats"])}
+  {dial("Sweetness", "sweet", builder["sweets"])}
+  {dial("How much", "batch", builder["batches"])}
+</div>
+
+<div class="recipe" id="out"></div>
+
+<p class="legend">Sugar is worked out from the quantities on screen: {builder["sugar_g_per_tbsp"]["sugar"]} g of sugar in a
+tablespoon of sugar, {builder["sugar_g_per_tbsp"]["molasses"]} g in molasses, {builder["sugar_g_per_tbsp"]["ketchup"]} g in
+ketchup. The bottles it is drawn against were read off their own labels for
+<a href="../sauce/index.html">the sauce page</a>.</p>
+
+<script>
+(function(){{
+var B={esc_js(builder)}, BOTTLES={esc_js(bottles)};
+var pick={{base:B.bases[0].key, heat:"medium", sweet:"sweet", batch:"quart"}};
+function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]}})}}
+var FRAC=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.1875,"³⁄₁₆"],[0.125,"⅛"]];
+function nice(tbsp){{
+  /* the kitchen unit a cook would actually reach for */
+  if(tbsp<=0) return null;
+  var p=function(v,w){{return frac(v)+" "+w+(Math.abs(v-1)<0.02?"":"s")}};
+  if(tbsp>=16) return p(tbsp/16,"cup");
+  if(tbsp>=1) return p(tbsp,"tablespoon");
+  return p(tbsp*3,"teaspoon");
+}}
+function frac(v){{
+  var whole=Math.floor(v+1e-9), rem=v-whole, best="", bd=9;
+  for(var i=0;i<FRAC.length;i++){{var d=Math.abs(rem-FRAC[i][0]); if(d<bd){{bd=d;best=FRAC[i][1];}}}}
+  if(rem<0.06) return String(whole||"0");
+  if(bd>0.06&&whole===0) return (Math.round(v*100)/100).toString();
+  if(best==="1"){{whole+=1;best="";}}
+  return (whole?whole+(best?" ":""):"")+best;
+}}
+function base(){{return B.bases.filter(function(b){{return b.key===pick.base}})[0]}}
+function mult(list,key){{var m=list.filter(function(x){{return x.key===key}})[0]; return m?m.mult:1}}
+function compute(){{
+  var b=base(), tbsp=B.batches.filter(function(x){{return x.key===pick.batch}})[0].tbsp;
+  var hm=mult(B.heats,pick.heat), sm=mult(B.sweets,pick.sweet);
+  var rows=[], vol=0, sugar=0;
+  b.ingredients.forEach(function(ing){{
+    var f=ing.per_tbsp;
+    if(ing.dial==="heat") f*=hm;
+    if(ing.dial==="sweet") f*=sm;
+    var q=f*tbsp;
+    vol+=q;
+    if(ing.sugar) sugar+=q*B.sugar_g_per_tbsp[ing.sugar];
+    rows.push({{name:ing.name, q:q, hint:ing.unit_hint||""}});
+  }});
+  return {{b:b, rows:rows, vol:vol, sugar:vol>0?sugar/vol:0, tbsp:tbsp}};
+}}
+function scale(g){{
+  /* the same 0 to 12.6 scale the sauce page uses */
+  var w=420, x0=10, x1=w-10, pos=function(v){{return x0+(x1-x0)*Math.min(v/12.6,1)}};
+  var o='<svg viewBox="0 0 '+w+' 64" role="img" aria-label="Where this sauce sits for sugar against the bottles measured for this site">';
+  o+='<rect x="'+x0+'" y="26" width="'+(x1-x0)+'" height="8" rx="4" fill="var(--chip)"/>';
+  BOTTLES.forEach(function(bt){{ o+='<circle cx="'+pos(bt.g).toFixed(1)+'" cy="30" r="3.4" fill="var(--mute)" opacity=".65"><title>'+esc(bt.n)+' — '+bt.g+' g</title></circle>'; }});
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="11" fill="var(--ember)" opacity=".25"/>';
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="7" fill="var(--ember)" stroke="var(--panel)" stroke-width="2"/>';
+  o+='<text x="'+x0+'" y="56" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">0 g</text>';
+  o+='<text x="'+x1+'" y="56" text-anchor="end" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">12.6 g — a spoonful of sugar</text>';
+  return o+'</svg>';
+}}
+function gap(g,key){{
+  /* the distance between what you just built and what the shelf sells, which is nearly
+     all sugar — the site's own measurement, not an opinion about either one */
+  var mine=BOTTLES.filter(function(b){{return b.b===key}}).map(function(b){{return b.g}}).sort(function(a,c){{return a-c}});
+  if(mine.length<2) return "";
+  var med=mine[Math.floor(mine.length/2)];
+  var d=med-g;
+  if(Math.abs(d)<0.6) return '<p class="nearby">That is about where the bottles of this kind sit — a median of '+med+' g.</p>';
+  if(d>0) return '<p class="nearby">A bottle of this kind carries about <b>'+med+' g</b>, so the shelf is '+
+    (d/Math.max(g,0.1)>=2?'several times':'a good deal')+' sweeter than this. Closing that gap means adding sugar until it is '+
+    'roughly a quarter of the jar by weight, which is what those labels describe.</p>';
+  return '<p class="nearby">That is sweeter than the bottles of this kind, which sit around '+med+' g.</p>';
+}}function render(){{
+  var r=compute(), b=r.b, a=b.anchor;
+  var heat=B.heats.filter(function(x){{return x.key===pick.heat}})[0].label.toLowerCase();
+  var sweet=B.sweets.filter(function(x){{return x.key===pick.sweet}})[0].label.toLowerCase();
+  var batch=B.batches.filter(function(x){{return x.key===pick.batch}})[0].label;
+  var ing=r.rows.map(function(x){{
+    var q=nice(x.q);
+    return '<li class="'+(q?'':'zero')+'"><span class="q">'+esc(q||'')+'</span><span>'+esc(x.name)+
+      (x.hint?' <span class="mute">('+esc(x.hint)+')</span>':'')+'</span></li>';
+  }}).join("");
+  var near=BOTTLES.filter(function(bt){{return bt.b===b.key}})
+      .sort(function(p,q){{return Math.abs(p.g-r.sugar)-Math.abs(q.g-r.sugar)}}).slice(0,3);
+  var prov;
+  if(a.kind==="recipe") prov='Built on <b>'+esc(a.title)+'</b>'+(a.year?', '+a.year:'')+', '+esc(a.publisher)+
+      ' — '+esc(a.license)+(a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the recipe</a>':'')+'. '+esc(a.note||'');
+  else if(a.kind==="ancestor") prov='Descends from <b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+
+      ' ('+esc(a.license)+'). '+esc(a.note||'');
+  else prov='<b>These proportions are this project\\'s own.</b> '+esc(a.note||'');
+  document.getElementById("out").innerHTML=
+    '<h3>'+esc(b.name)+', '+esc(heat)+', '+esc(sweet)+' — '+esc(batch)+'</h3>'+
+    '<p class="says">'+esc(b.says)+' · '+esc(b.region)+'</p>'+
+    '<ul>'+ing+'</ul>'+
+    '<h4>How</h4><ol>'+b.method.map(function(m){{return '<li>'+esc(m)+'</li>'}}).join("")+'</ol>'+
+    '<div class="sugarline"><b>'+r.sugar.toFixed(1)+' g</b><span class="mute">of sugar in a tablespoon of it</span></div>'+
+    scale(r.sugar)+
+    gap(r.sugar,b.key)+
+    (near.length?'<p class="nearby">Nearest bottles on the shelf: '+near.map(function(x){{return esc(x.n)+' ('+x.g+' g)'}}).join(' · ')+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="copy">Copy the recipe</button>'+
+    (b.href?'<a class="btn ghost" href="'+b.href+'">About this sauce</a>':'')+
+    (b.style_href?'<a class="btn ghost" href="'+b.style_href+'">'+esc(b.style_name)+'</a>':'')+'</div>'+
+    '<p class="prov">'+prov+' Method '+(b.method_tier==="cited"?'as published':b.method_tier==="tradition"?'as the tradition has it':'is ours')+'.</p>';
+  document.getElementById("copy").addEventListener("click",function(){{
+    var txt=b.name+' sauce — '+heat+', '+sweet+', '+batch+'\\n\\n'+
+      r.rows.filter(function(x){{return nice(x.q)}}).map(function(x){{return nice(x.q)+'  '+x.name}}).join('\\n')+
+      '\\n\\n'+b.method.join('\\n')+'\\n\\n'+r.sugar.toFixed(1)+' g sugar per tablespoon.\\n'+
+      'From Carolina Barbecue — {site_url}/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){{
+      document.getElementById("copy").textContent="Copied";
+      setTimeout(function(){{document.getElementById("copy").textContent="Copy the recipe"}},1600);}},function(){{}});
+  }});
+}}
+document.querySelector(".dials").addEventListener("click",function(e){{
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var group=btn.closest("[data-dial]"), k=group.dataset.dial;
+  pick[k]=btn.dataset.v;
+  [].forEach.call(group.querySelectorAll("button"),function(x){{x.setAttribute("aria-pressed",x===btn?"true":"false")}});
+  render();
+}});
+render();
+}})();
+</script>
+"""
+    return page("Make a sauce — Carolina Barbecue", body, 1,
+                "Build a Carolina barbecue sauce by region and taste: vinegar and pepper, Lexington dip, light tomato, mustard, heavy tomato or pepper vinegar, with the sugar worked out and the source of every proportion named.",
+                None, f"{site_url}/make/", extra_head=f"<style>{MAKE_CSS}{CHART_CSS}</style>", card="make",
+                og_alt="Make a Carolina barbecue sauce by region and taste")

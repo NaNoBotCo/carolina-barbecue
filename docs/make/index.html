@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Make a sauce — Carolina Barbecue</title>
+<meta name="description" content="Build a Carolina barbecue sauce by region and taste: vinegar and pepper, Lexington dip, light tomato, mustard, heavy tomato or pepper vinegar, with the sugar worked out and the source of every proportion named.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="Carolina Barbecue"><meta property="og:locale" content="en_US">
+<meta property="og:title" content="Make a sauce — Carolina Barbecue"><meta property="og:description" content="Build a Carolina barbecue sauce by region and taste: vinegar and pepper, Lexington dip, light tomato, mustard, heavy tomato or pepper vinegar, with the sugar worked out and the source of every proport"><meta property="og:type" content="website">
+<meta property="og:image" content="https://nanobotco.github.io/carolina-barbecue/cards/make.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Make a Carolina barbecue sauce by region and taste"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/carolina-barbecue/cards/make.jpg"><meta name="twitter:image:alt" content="Make a Carolina barbecue sauce by region and taste"><meta name="twitter:title" content="Make a sauce — Carolina Barbecue"><meta name="twitter:description" content="Build a Carolina barbecue sauce by region and taste: vinegar and pepper, Lexington dip, light tomato, mustard, heavy tomato or pepper vinegar, with the sugar worked out and the source of every proport">
+<link rel="canonical" href="https://nanobotco.github.io/carolina-barbecue/make/">
+
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#b5431f">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Carolina Barbecue" href="../opensearch.xml">
+<link rel="alternate" type="application/atom+xml" title="Carolina Barbecue updates" href="../feed.xml">
+<style>
+.dials{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;background:var(--panel);
+  border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:.6rem 0 1.2rem}
+.dial b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);
+  font-family:var(--sign,sans-serif);margin-bottom:.4rem}
+.dial .opts{display:flex;flex-wrap:wrap;gap:.35rem}
+.dial button{font:inherit;font-size:.86rem;font-family:var(--ui,sans-serif);padding:.32rem .72rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.dial button[aria-pressed=true]{background:var(--ember);border-color:var(--ember);color:#fff}
+.recipe{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem}
+.recipe h3{margin:.1rem 0 .1rem;font-size:1.3rem}
+.recipe .says{color:var(--mute);font-style:italic;margin:0 0 .9rem}
+.recipe ul{list-style:none;margin:.2rem 0 1rem;padding:0}
+.recipe li{display:flex;gap:.7rem;padding:.3rem 0;border-bottom:1px dotted var(--line);font-size:1rem}
+.recipe li .q{flex:0 0 7.5rem;text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.recipe li.zero{display:none}
+.recipe ol{margin:.2rem 0 1rem;padding-left:1.2rem}.recipe ol li{display:list-item;border:0;padding:.15rem 0}
+.recipe .prov{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);padding-top:.7rem;margin-top:.4rem}
+.sugarline{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:.2rem 0 .3rem}
+.sugarline b{font-size:1.5rem;font-family:var(--display,serif)}
+.nearby{font-size:.88rem;color:var(--mute);margin:.5rem 0 0}
+.mk-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+
+.viz{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.viz h3{margin:.1rem 0 .2rem;font-size:1.06rem}.viz .note{font-size:.86rem;color:var(--mute);margin:.1rem 0 .7rem}
+.viz svg{width:100%;height:auto;display:block;overflow:visible}
+.viz .axis{font:500 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .rowlab{font:600 13px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--ink)}
+.viz .vallab{font:600 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .grid{stroke:var(--line);stroke-width:1}
+.viz .dot{fill:var(--ember);stroke:var(--panel);stroke-width:2}
+.viz .med{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
+.viz .seg{stroke:var(--panel);stroke-width:2}
+.viz figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
+.legend-row{display:flex;flex-wrap:wrap;gap:.45rem .9rem;margin:.5rem 0 .2rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.legend-row span{display:inline-flex;align-items:center;gap:.35rem;color:var(--ink)}
+.legend-row i{width:.78rem;height:.78rem;border-radius:3px;display:inline-block}
+details.tbl{margin:.6rem 0 0}details.tbl summary{cursor:pointer;font-size:.86rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+details.tbl table{font-size:.86rem;margin-top:.5rem}
+.smallmult{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.9rem;margin-top:.7rem}
+.smallmult figure{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:.5rem .55rem}
+.smallmult figcaption{font-size:.84rem;color:var(--ink);font-weight:600;margin:0 0 .25rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.smallmult figcaption small{display:block;font-weight:400;color:var(--mute);font-size:.76rem}
+</style>
+<style>
+:root{--bg:#f6f1e7;--panel:#fdfaf3;--ink:#221d18;--mute:#6b6257;--line:#e2d9c6;--ember:#b5431f;--smoke:#4a4540;--gold:#b8860b;--mustard:#c9a227;--vinegar:#8c2f22;--focus:#1f5fa8;--chip:#efe7d6;
+  /* A barbecue house paints its sign; it does not set it in a book face. Headings take a
+     slab typewriter, labels take the engraved caps of a menu board, and the reading text
+     stays a warm old-style serif. All of it is already on the reader's machine. */
+  --display:"American Typewriter",Rockwell,"Bookman Old Style",Georgia,"Iowan Old Style",serif;
+  --sign:Copperplate,"Copperplate Gothic Light","Trajan Pro",Georgia,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --body:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,"Times New Roman",serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#171412;--panel:#1f1b18;--ink:#f1ebe0;--mute:#b3a898;--line:#332d27;--ember:#e8673c;--smoke:#cfc4b4;--gold:#e0b64a;--mustard:#e3bb3c;--vinegar:#e07a68;--focus:#8ab4f8;--chip:#2a241f}}
+:root[data-theme="dark"]{--bg:#171412;--panel:#1f1b18;--ink:#f1ebe0;--mute:#b3a898;--line:#332d27;--ember:#e8673c;--smoke:#cfc4b4;--gold:#e0b64a;--mustard:#e3bb3c;--vinegar:#e07a68;--focus:#8ab4f8;--chip:#2a241f}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
+a{color:var(--ember);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--vinegar)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--ember)}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.7rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--ember)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--ember)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--ember);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--vinegar)}
+figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--ember);background:var(--ember);color:#fff;cursor:pointer}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--ember);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--ember);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--ember)}
+.cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--mustard);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.wander{font-size:.85rem;color:var(--mute)}
+.pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--ember);font-weight:600}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow a.tg,.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;text-decoration:none;color:var(--ink)}
+.tagrow a.tg:hover{border-color:var(--ember)}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.welcome{border-color:#9b59b6}.tagrow .tg.pit{border-color:var(--ember)}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.acc b{color:var(--gold)}
+.recipe{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.8rem 0}
+.recipe h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.recipe .src{font-size:.82rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.recipe .txt{white-space:pre-wrap;margin:.5rem 0 0;font-size:.97rem}
+.recipe ul{margin:.4rem 0 0;padding-left:1.1rem}
+.sect{margin:1.2rem 0}
+.gal2{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;margin:.6rem 0}
+.gal2 figure{margin:0}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.04)}.search input{transition:box-shadow .2s}.search input:focus{box-shadow:0 0 0 4px color-mix(in srgb,var(--ember) 22%,transparent)}.mapwrap circle.p{transition:r .15s ease}.mapwrap circle.p:hover{r:6}}
+
+.shareme{margin:2.6rem 0 .4rem;padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.95rem;margin-bottom:.55rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.87rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;padding:.4rem .85rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--ember);color:var(--ember)}
+.shareme .said{font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--ember);color:#fff;background:var(--ember)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+
+.daystrip{height:26px;width:176px;display:block}
+.daykey{font-size:.76rem;color:var(--mute);display:inline-flex;align-items:center;gap:.3rem;font-family:var(--ui,sans-serif)}
+.daykey i{width:.7rem;height:.9rem;border-radius:3px;display:inline-block;margin-left:.5rem}
+.daykey i.on{background:var(--ember);border:1.6px solid var(--ember)}
+.daykey i.off{border:1.6px solid var(--mute)}
+.daykey i.unk{border:1.6px dashed var(--line)}
+.sunday-yes{color:var(--ember);font-weight:700}
+.sunday-no{color:var(--mute)}
+</style>
+
+</head>
+<body>
+<header class="top"><a class="brand" href="../index.html">Carolina <b>Barbecue</b></a>
+<nav class="crumbs"><a href="../index.html">Directory</a> · <a href="../near/index.html">Find the Q</a> · <a href="../places/index.html">Map</a> · <a href="../sauce/index.html">The sauce</a> · <a href="../make/index.html">Make one</a> · <a href="../pig/index.html">The pig</a> · <a href="../art/index.html">Pig art</a> · <a href="../stories/index.html">Stories</a> · <a href="../quiz/index.html">Quiz</a> · <a href="../search/index.html">Search</a> · <a href="../words/index.html">Words</a> · <a href="../sources/index.html">Where we got it</a> · <a href="../coverage/index.html">What we know</a> · <a href="../api/index.json">API</a> · <a href="../llms.txt">llms.txt</a> · <a class="wander" href="../wander.html" title="a page at random">🎲 Take a ride</a></nav></header>
+<main>
+
+<h1><span class="kind">Carolina Barbecue</span>Make a sauce</h1>
+<p class="lede">Pick a region and how you like it. The quantities come from a real recipe where a free one exists,
+and are this project's own where none does — it says which, every time.</p>
+
+<div class="dials">
+  <div class="dial"><b>Region</b><div class="opts" data-dial="base"><button type="button" data-v="vinegar-pepper" aria-pressed="true">Vinegar and pepper</button><button type="button" data-v="lexington-dip" aria-pressed="false">Lexington dip</button><button type="button" data-v="light-tomato" aria-pressed="false">Light tomato</button><button type="button" data-v="mustard" aria-pressed="false">Mustard</button><button type="button" data-v="heavy-tomato" aria-pressed="false">Heavy tomato</button><button type="button" data-v="pepper-vinegar" aria-pressed="false">Pepper vinegar</button></div></div>
+  <div class="dial"><b>Heat</b><div class="opts" data-dial="heat"><button type="button" data-v="none" aria-pressed="false">No heat</button><button type="button" data-v="mild" aria-pressed="false">Mild</button><button type="button" data-v="medium" aria-pressed="true">Medium</button><button type="button" data-v="hot" aria-pressed="false">Hot</button></div></div>
+  <div class="dial"><b>Sweetness</b><div class="opts" data-dial="sweet"><button type="button" data-v="dry" aria-pressed="false">Not sweet</button><button type="button" data-v="little" aria-pressed="false">A little</button><button type="button" data-v="sweet" aria-pressed="true">Sweet</button><button type="button" data-v="sweeter" aria-pressed="false">Sweeter</button></div></div>
+  <div class="dial"><b>How much</b><div class="opts" data-dial="batch"><button type="button" data-v="pint" aria-pressed="false">a pint</button><button type="button" data-v="quart" aria-pressed="true">a quart</button><button type="button" data-v="gallon" aria-pressed="false">a gallon</button></div></div>
+</div>
+
+<div class="recipe" id="out"></div>
+
+<p class="legend">Sugar is worked out from the quantities on screen: 12.6 g of sugar in a
+tablespoon of sugar, 10.0 g in molasses, 3.7 g in
+ketchup. The bottles it is drawn against were read off their own labels for
+<a href="../sauce/index.html">the sauce page</a>.</p>
+
+<script>
+(function(){
+var B={"note": "The builder starts from a real recipe wherever a free-to-use Carolina one exists, and says so on the page. Where none exists, the proportions are this project's own, composed to keep the ingredient order the labels print and to land on the sugar the bottles actually carry — marked inference, never passed off as a pit's recipe. The sugar figure under each result is computed from the quantities on screen, using 12.6 g of sugar in a tablespoon of sugar, 10 g in molasses and 3.7 g in ketchup, and it is drawn against the bottles measured for this site. A home sauce generally lands below them.", "sugar_g_per_tbsp": {"brown sugar": 12.6, "sugar": 12.6, "molasses": 10.0, "ketchup": 3.7, "honey": 17.0}, "tbsp_per": {"tsp": 0.3333, "tbsp": 1, "cup": 16, "quart": 64, "gallon": 256}, "batches": [{"key": "pint", "label": "a pint", "tbsp": 32}, {"key": "quart", "label": "a quart", "tbsp": 64}, {"key": "gallon", "label": "a gallon", "tbsp": 256}], "heats": [{"key": "none", "label": "No heat", "mult": 0.0}, {"key": "mild", "label": "Mild", "mult": 0.5}, {"key": "medium", "label": "Medium", "mult": 1.0}, {"key": "hot", "label": "Hot", "mult": 2.0}], "sweets": [{"key": "dry", "label": "Not sweet", "mult": 0.0}, {"key": "little", "label": "A little", "mult": 0.5}, {"key": "sweet", "label": "Sweet", "mult": 1.0}, {"key": "sweeter", "label": "Sweeter", "mult": 1.8}], "bases": [{"key": "vinegar-pepper", "sauce": "vinegar-pepper-sauce", "style": "eastern-nc", "name": "Vinegar and pepper", "region": "Eastern North Carolina and the Pee Dee", "says": "Thin, clear, sharp. Nothing to thicken it and nothing to hide behind.", "anchor": {"kind": "recipe", "title": "Eastern North Carolina Barbecue Sauce", "publisher": "Wikibooks Cookbook", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Eastern_North_Carolina_Barbecue_Sauce", "source": "s:wikibooks-eastern-nc-sauce", "note": "scaled down from its ¾ gallon of vinegar; the proportions are the recipe's own"}, "ingredients": [{"name": "cider vinegar", "per_tbsp": 0.855, "role": "body"}, {"name": "salt", "per_tbsp": 0.0083, "role": "season"}, {"name": "ground black pepper", "per_tbsp": 0.0167, "role": "heat", "dial": "heat"}, {"name": "crushed red pepper", "per_tbsp": 0.0167, "role": "heat", "dial": "heat"}, {"name": "molasses", "per_tbsp": 0.0667, "role": "sweet", "dial": "sweet", "sugar": "molasses"}], "method": ["Stir everything together cold until the salt is gone.", "Let it stand an hour at least, overnight if you can, so the pepper opens up.", "Shake before it goes near the meat; it separates and is meant to."], "method_tier": "tradition", "href": "../sauce/vinegar-pepper-sauce/index.html", "style_href": "../style/eastern-nc/index.html", "style_name": "Eastern North Carolina barbecue"}, {"key": "lexington-dip", "sauce": "lexington-dip", "style": "lexington", "name": "Lexington dip", "region": "The North Carolina Piedmont", "says": "The eastern sauce with ketchup and a little sugar stirred in. Still thin enough to pour.", "anchor": {"kind": "composed", "note": "No free-to-use Lexington recipe exists — every pit keeps its own. These proportions follow the order the record gives: vinegar, ketchup or tomato, water, salt, pepper, a little sugar. They come out well short of the 3.5 g of sugar a tablespoon of the average bottled dip carries, which is the point: the shelf is sweeter than the pit."}, "ingredients": [{"name": "cider vinegar", "per_tbsp": 0.55, "role": "body"}, {"name": "water", "per_tbsp": 0.22, "role": "body"}, {"name": "ketchup", "per_tbsp": 0.16, "role": "colour", "sugar": "ketchup"}, {"name": "brown sugar", "per_tbsp": 0.028, "role": "sweet", "dial": "sweet", "sugar": "brown sugar"}, {"name": "salt", "per_tbsp": 0.008, "role": "season"}, {"name": "ground black pepper", "per_tbsp": 0.01, "role": "heat", "dial": "heat"}, {"name": "crushed red pepper", "per_tbsp": 0.014, "role": "heat", "dial": "heat"}], "method": ["Warm the vinegar and water enough to take the sugar and salt into solution.", "Whisk in the ketchup, then the peppers, off the heat.", "Let it sit until it is cool and the colour has evened out."], "method_tier": "inference", "href": "../sauce/lexington-dip/index.html", "style_href": "../style/lexington/index.html", "style_name": "Lexington-style barbecue"}, {"key": "light-tomato", "sauce": "light-tomato-sauce", "style": "sc-light-tomato", "name": "Light tomato", "region": "The Pee Dee and the upper Midlands", "says": "Vinegar and pepper reddened with ketchup — thin, not sticky.", "anchor": {"kind": "composed", "note": "Composed the same way as the dip, with less ketchup. Like the dip, it lands under the bottles — the two light-tomato bottles on file measure about 2 g of sugar a tablespoon."}, "ingredients": [{"name": "cider vinegar", "per_tbsp": 0.62, "role": "body"}, {"name": "water", "per_tbsp": 0.2, "role": "body"}, {"name": "ketchup", "per_tbsp": 0.115, "role": "colour", "sugar": "ketchup"}, {"name": "brown sugar", "per_tbsp": 0.018, "role": "sweet", "dial": "sweet", "sugar": "brown sugar"}, {"name": "salt", "per_tbsp": 0.008, "role": "season"}, {"name": "crushed red pepper", "per_tbsp": 0.016, "role": "heat", "dial": "heat"}, {"name": "ground black pepper", "per_tbsp": 0.008, "role": "heat", "dial": "heat"}], "method": ["Stir the sugar and salt into the vinegar and water until they go.", "Whisk in the ketchup and the pepper.", "Stand it an hour before you use it."], "method_tier": "inference", "href": "../sauce/light-tomato-sauce/index.html", "style_href": "../style/sc-light-tomato/index.html", "style_name": "Light tomato barbecue"}, {"key": "mustard", "sauce": "mustard-sauce", "style": "sc-mustard", "name": "Mustard", "region": "The South Carolina Midlands", "says": "Yellow mustard, vinegar, sugar, pepper. The German counties' sauce.", "anchor": {"kind": "ancestor", "title": "Sauce for Barbecues (receipt 335)", "publisher": "Mrs. Hill's New Cook-Book", "year": 1867, "license": "Public domain", "source": "s:book-mrs-hills-new-cook-book", "note": "Mrs. Hill's 1867 basting sauce — butter, a large spoonful of mustard, red and black pepper, salt, and vinegar 'until the sauce has a strong acid taste' — is the documented ancestor, not the modern Midlands bottle. The mustard-forward proportions here are this project's own; the butter is left out, because the modern sauce is a dressing rather than a baste. It comes out far drier than the bottles, which measure about 5.3 g of sugar a tablespoon."}, "ingredients": [{"name": "prepared yellow mustard", "per_tbsp": 0.52, "role": "body"}, {"name": "cider vinegar", "per_tbsp": 0.3, "role": "body"}, {"name": "brown sugar", "per_tbsp": 0.055, "role": "sweet", "dial": "sweet", "sugar": "brown sugar"}, {"name": "water", "per_tbsp": 0.07, "role": "body"}, {"name": "salt", "per_tbsp": 0.007, "role": "season"}, {"name": "ground black pepper", "per_tbsp": 0.01, "role": "heat", "dial": "heat"}, {"name": "cayenne", "per_tbsp": 0.005, "role": "heat", "dial": "heat"}], "method": ["Whisk the mustard and vinegar smooth before anything else goes in.", "Add the sugar, salt and pepper and warm it gently, without boiling, until the sugar is gone.", "Cool it. It thickens a little as it goes."], "method_tier": "inference", "href": "../sauce/mustard-sauce/index.html", "style_href": "../style/sc-mustard/index.html", "style_name": "South Carolina mustard barbecue"}, {"key": "heavy-tomato", "sauce": "heavy-tomato-sauce", "style": "sc-heavy-tomato", "name": "Heavy tomato", "region": "The Upstate and the western counties", "says": "Tomato, brown sugar or molasses, vinegar, cooked down until it clings.", "anchor": {"kind": "composed", "note": "The Wikibooks sauce nearest this one is Kansas City's, a different animal, and is not used here. These proportions keep the label order the Upstate bottles print. Even cooked down it sits under their measured 5 g a tablespoon; turn the sweetness up if you want the shelf's version."}, "ingredients": [{"name": "ketchup", "per_tbsp": 0.56, "role": "body", "sugar": "ketchup"}, {"name": "cider vinegar", "per_tbsp": 0.2, "role": "body"}, {"name": "water", "per_tbsp": 0.1, "role": "body"}, {"name": "brown sugar", "per_tbsp": 0.055, "role": "sweet", "dial": "sweet", "sugar": "brown sugar"}, {"name": "molasses", "per_tbsp": 0.02, "role": "sweet", "dial": "sweet", "sugar": "molasses"}, {"name": "Worcestershire sauce", "per_tbsp": 0.03, "role": "season"}, {"name": "salt", "per_tbsp": 0.005, "role": "season"}, {"name": "ground black pepper", "per_tbsp": 0.008, "role": "heat", "dial": "heat"}, {"name": "cayenne", "per_tbsp": 0.004, "role": "heat", "dial": "heat"}], "method": ["Put everything in a pan together and bring it to the barest simmer.", "Hold it there twenty minutes, stirring, until it coats the back of a spoon.", "Cool it before bottling; it thickens again cold."], "method_tier": "inference", "href": "../sauce/heavy-tomato-sauce/index.html", "style_href": "../style/sc-heavy-tomato/index.html", "style_name": "Heavy tomato barbecue"}, {"key": "pepper-vinegar", "sauce": "texas-pete", "style": "eastern-nc", "name": "Pepper vinegar", "region": "The table, not the pit", "says": "The bottle beside the sauce, not instead of it.", "anchor": {"kind": "recipe", "title": "Pepper Vinegar", "publisher": "The Virginia House-Wife", "year": 1824, "license": "Public domain", "source": "s:book-virginia-house-wife", "note": "Mary Randolph's 1824 receipt, verbatim in the proportions she gives: a dozen ripe pods, three pints of vinegar boiled away to one quart. The pods are strained out, so the finished quart is vinegar."}, "ingredients": [{"name": "cider or white vinegar", "per_tbsp": 0.98, "role": "body"}, {"name": "ripe hot peppers, stemmed and halved", "per_tbsp": 0.19, "role": "heat", "dial": "heat", "unit_hint": "about 12 pods to a quart"}, {"name": "salt", "per_tbsp": 0.004, "role": "season"}], "method": ["Halve the pods and put them in the vinegar.", "Boil three pints away to a quart, as Randolph has it, then strain.", "Bottle it. It keeps, and it gets hotter for a week or two."], "method_tier": "cited", "href": "../sauce/texas-pete/index.html", "style_href": "../style/eastern-nc/index.html", "style_name": "Eastern North Carolina barbecue"}]}, BOTTLES=[{"n": "George's Original Barbecue Sauce", "b": "lexington-dip", "g": 3.5}, {"n": "George's Hot Barbecue Sauce", "b": "lexington-dip", "g": 3.5}, {"n": "George's Special Barbecue Sauce", "b": "light-tomato", "g": 3.01}, {"n": "Carolina Treet Original Cooking Barbecue Sauce", "b": "other", "g": 0.5}, {"n": "Scott's Barbecue Sauce", "b": "vinegar-pepper", "g": 0.0}, {"n": "Texas Pete Eastern Carolina BBQ Sauce", "b": "light-tomato", "g": 1.0}, {"n": "Texas Pete Sweet Flame BBQ Sauce", "b": "heavy-tomato", "g": 4.0}, {"n": "Bone Suckin' Sauce Sweet Southern", "b": "heavy-tomato", "g": 6.0}, {"n": "Bone Suckin' Spicy Sweet Southern", "b": "heavy-tomato", "g": 6.0}, {"n": "HT Traders Peppery Vinegar Eastern Carolina Barbecue Sauce", "b": "lexington-dip", "g": 2.01}, {"n": "HT Traders Carolina Mustard Barbecue Sauce", "b": "mustard", "g": 5.5}, {"n": "Food Lion Eastern Carolina Pepper & Vinegar BBQ Sauce", "b": "lexington-dip", "g": 1.5}, {"n": "Brookwood Farms Carolina Vinegar BBQ Sauce", "b": "vinegar-pepper", "g": 1.0}, {"n": "Cackalacky Sweet Sauce", "b": "heavy-tomato", "g": 5.0}, {"n": "Cackalacky Pepper Sauce", "b": "hot-sauce", "g": 0.0}, {"n": "Golding Farms Honey Mustard Dipping Sauce", "b": "mustard", "g": 3.5}, {"n": "Taste of Inspirations Carolina-Style Mustard BBQ Sauce", "b": "heavy-tomato", "g": 5.51}, {"n": "Sam Jones Sweet BBQ Sauce", "b": "other", "g": 5.0}, {"n": "Lewis Barbecue Original Red Barbecue Sauce", "b": "heavy-tomato", "g": 3.0}, {"n": "Rodney Scott Carolina-Style Tangy Pepper Barbecue Sauce", "b": "vinegar-pepper", "g": 1.5}, {"n": "Rodney Scott Carolina-Style Sweet BBQ Sauce", "b": "other", "g": 4.5}, {"n": "Heinz Carolina Vinegar Style BBQ Sauce", "b": "lexington-dip", "g": 3.99}, {"n": "Heinz Carolina Sweet Mustard Style BBQ Sauce", "b": "mustard", "g": 5.0}, {"n": "Cattlemen's Carolina Tangy Gold BBQ Sauce", "b": "mustard", "g": 6.49}, {"n": "Lillie's Q No. 12 Eastern North Carolina Vinegar ENC Barbeque Sauce", "b": "vinegar-pepper", "g": 0.5}, {"n": "Lillie's Q No. 27 South Carolina Mustard Gold Barbeque Sauce", "b": "mustard", "g": 4.5}, {"n": "Lillie's Q No. 40 Western North Carolina Tomato Barbeque Sauce", "b": "heavy-tomato", "g": 5.0}, {"n": "Trader Joe's Carolina Gold Barbeque Sauce", "b": "mustard", "g": 6.49}, {"n": "True Made Foods E. Carolina Pitmaster BBQ Sauce", "b": "vinegar-pepper", "g": 0.0}];
+var pick={base:B.bases[0].key, heat:"medium", sweet:"sweet", batch:"quart"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FRAC=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.1875,"³⁄₁₆"],[0.125,"⅛"]];
+function nice(tbsp){
+  /* the kitchen unit a cook would actually reach for */
+  if(tbsp<=0) return null;
+  var p=function(v,w){return frac(v)+" "+w+(Math.abs(v-1)<0.02?"":"s")};
+  if(tbsp>=16) return p(tbsp/16,"cup");
+  if(tbsp>=1) return p(tbsp,"tablespoon");
+  return p(tbsp*3,"teaspoon");
+}
+function frac(v){
+  var whole=Math.floor(v+1e-9), rem=v-whole, best="", bd=9;
+  for(var i=0;i<FRAC.length;i++){var d=Math.abs(rem-FRAC[i][0]); if(d<bd){bd=d;best=FRAC[i][1];}}
+  if(rem<0.06) return String(whole||"0");
+  if(bd>0.06&&whole===0) return (Math.round(v*100)/100).toString();
+  if(best==="1"){whole+=1;best="";}
+  return (whole?whole+(best?" ":""):"")+best;
+}
+function base(){return B.bases.filter(function(b){return b.key===pick.base})[0]}
+function mult(list,key){var m=list.filter(function(x){return x.key===key})[0]; return m?m.mult:1}
+function compute(){
+  var b=base(), tbsp=B.batches.filter(function(x){return x.key===pick.batch})[0].tbsp;
+  var hm=mult(B.heats,pick.heat), sm=mult(B.sweets,pick.sweet);
+  var rows=[], vol=0, sugar=0;
+  b.ingredients.forEach(function(ing){
+    var f=ing.per_tbsp;
+    if(ing.dial==="heat") f*=hm;
+    if(ing.dial==="sweet") f*=sm;
+    var q=f*tbsp;
+    vol+=q;
+    if(ing.sugar) sugar+=q*B.sugar_g_per_tbsp[ing.sugar];
+    rows.push({name:ing.name, q:q, hint:ing.unit_hint||""});
+  });
+  return {b:b, rows:rows, vol:vol, sugar:vol>0?sugar/vol:0, tbsp:tbsp};
+}
+function scale(g){
+  /* the same 0 to 12.6 scale the sauce page uses */
+  var w=420, x0=10, x1=w-10, pos=function(v){return x0+(x1-x0)*Math.min(v/12.6,1)};
+  var o='<svg viewBox="0 0 '+w+' 64" role="img" aria-label="Where this sauce sits for sugar against the bottles measured for this site">';
+  o+='<rect x="'+x0+'" y="26" width="'+(x1-x0)+'" height="8" rx="4" fill="var(--chip)"/>';
+  BOTTLES.forEach(function(bt){ o+='<circle cx="'+pos(bt.g).toFixed(1)+'" cy="30" r="3.4" fill="var(--mute)" opacity=".65"><title>'+esc(bt.n)+' — '+bt.g+' g</title></circle>'; });
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="11" fill="var(--ember)" opacity=".25"/>';
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="7" fill="var(--ember)" stroke="var(--panel)" stroke-width="2"/>';
+  o+='<text x="'+x0+'" y="56" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">0 g</text>';
+  o+='<text x="'+x1+'" y="56" text-anchor="end" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">12.6 g — a spoonful of sugar</text>';
+  return o+'</svg>';
+}
+function gap(g,key){
+  /* the distance between what you just built and what the shelf sells, which is nearly
+     all sugar — the site's own measurement, not an opinion about either one */
+  var mine=BOTTLES.filter(function(b){return b.b===key}).map(function(b){return b.g}).sort(function(a,c){return a-c});
+  if(mine.length<2) return "";
+  var med=mine[Math.floor(mine.length/2)];
+  var d=med-g;
+  if(Math.abs(d)<0.6) return '<p class="nearby">That is about where the bottles of this kind sit — a median of '+med+' g.</p>';
+  if(d>0) return '<p class="nearby">A bottle of this kind carries about <b>'+med+' g</b>, so the shelf is '+
+    (d/Math.max(g,0.1)>=2?'several times':'a good deal')+' sweeter than this. Closing that gap means adding sugar until it is '+
+    'roughly a quarter of the jar by weight, which is what those labels describe.</p>';
+  return '<p class="nearby">That is sweeter than the bottles of this kind, which sit around '+med+' g.</p>';
+}function render(){
+  var r=compute(), b=r.b, a=b.anchor;
+  var heat=B.heats.filter(function(x){return x.key===pick.heat})[0].label.toLowerCase();
+  var sweet=B.sweets.filter(function(x){return x.key===pick.sweet})[0].label.toLowerCase();
+  var batch=B.batches.filter(function(x){return x.key===pick.batch})[0].label;
+  var ing=r.rows.map(function(x){
+    var q=nice(x.q);
+    return '<li class="'+(q?'':'zero')+'"><span class="q">'+esc(q||'')+'</span><span>'+esc(x.name)+
+      (x.hint?' <span class="mute">('+esc(x.hint)+')</span>':'')+'</span></li>';
+  }).join("");
+  var near=BOTTLES.filter(function(bt){return bt.b===b.key})
+      .sort(function(p,q){return Math.abs(p.g-r.sugar)-Math.abs(q.g-r.sugar)}).slice(0,3);
+  var prov;
+  if(a.kind==="recipe") prov='Built on <b>'+esc(a.title)+'</b>'+(a.year?', '+a.year:'')+', '+esc(a.publisher)+
+      ' — '+esc(a.license)+(a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the recipe</a>':'')+'. '+esc(a.note||'');
+  else if(a.kind==="ancestor") prov='Descends from <b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+
+      ' ('+esc(a.license)+'). '+esc(a.note||'');
+  else prov='<b>These proportions are this project\'s own.</b> '+esc(a.note||'');
+  document.getElementById("out").innerHTML=
+    '<h3>'+esc(b.name)+', '+esc(heat)+', '+esc(sweet)+' — '+esc(batch)+'</h3>'+
+    '<p class="says">'+esc(b.says)+' · '+esc(b.region)+'</p>'+
+    '<ul>'+ing+'</ul>'+
+    '<h4>How</h4><ol>'+b.method.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>'+
+    '<div class="sugarline"><b>'+r.sugar.toFixed(1)+' g</b><span class="mute">of sugar in a tablespoon of it</span></div>'+
+    scale(r.sugar)+
+    gap(r.sugar,b.key)+
+    (near.length?'<p class="nearby">Nearest bottles on the shelf: '+near.map(function(x){return esc(x.n)+' ('+x.g+' g)'}).join(' · ')+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="copy">Copy the recipe</button>'+
+    (b.href?'<a class="btn ghost" href="'+b.href+'">About this sauce</a>':'')+
+    (b.style_href?'<a class="btn ghost" href="'+b.style_href+'">'+esc(b.style_name)+'</a>':'')+'</div>'+
+    '<p class="prov">'+prov+' Method '+(b.method_tier==="cited"?'as published':b.method_tier==="tradition"?'as the tradition has it':'is ours')+'.</p>';
+  document.getElementById("copy").addEventListener("click",function(){
+    var txt=b.name+' sauce — '+heat+', '+sweet+', '+batch+'\n\n'+
+      r.rows.filter(function(x){return nice(x.q)}).map(function(x){return nice(x.q)+'  '+x.name}).join('\n')+
+      '\n\n'+b.method.join('\n')+'\n\n'+r.sugar.toFixed(1)+' g sugar per tablespoon.\n'+
+      'From Carolina Barbecue — https://nanobotco.github.io/carolina-barbecue/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      document.getElementById("copy").textContent="Copied";
+      setTimeout(function(){document.getElementById("copy").textContent="Copy the recipe"},1600);},function(){});
+  });
+}
+document.querySelector(".dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var group=btn.closest("[data-dial]"), k=group.dataset.dial;
+  pick[k]=btn.dataset.v;
+  [].forEach.call(group.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+</script>
+
+<section class="shareme" data-url="https://nanobotco.github.io/carolina-barbecue/make/" data-title="Make a sauce — Carolina Barbecue"><b>Pass it on</b><div class="row"><button type="button" class="copy" data-sh="copy">Copy link</button><button type="button" data-sh="native" hidden>Share…</button><a href="https://bsky.app/intent/compose?text=Make%20a%20sauce%20%E2%80%94%20Carolina%20Barbecue%20https%3A%2F%2Fnanobotco.github.io%2Fcarolina-barbecue%2Fmake%2F" target="_blank" rel="noopener">Bluesky</a><a href="https://mastodonshare.com/?text=Make%20a%20sauce%20%E2%80%94%20Carolina%20Barbecue&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fcarolina-barbecue%2Fmake%2F" target="_blank" rel="noopener">Mastodon</a><a href="https://twitter.com/intent/tweet?text=Make%20a%20sauce%20%E2%80%94%20Carolina%20Barbecue&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fcarolina-barbecue%2Fmake%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanobotco.github.io%2Fcarolina-barbecue%2Fmake%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnanobotco.github.io%2Fcarolina-barbecue%2Fmake%2F&amp;title=Make%20a%20sauce%20%E2%80%94%20Carolina%20Barbecue" target="_blank" rel="noopener">Reddit</a><a href="https://api.whatsapp.com/send?text=Make%20a%20sauce%20%E2%80%94%20Carolina%20Barbecue%20https%3A%2F%2Fnanobotco.github.io%2Fcarolina-barbecue%2Fmake%2F" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:?subject=Make%20a%20sauce%20%E2%80%94%20Carolina%20Barbecue&amp;body=https%3A%2F%2Fnanobotco.github.io%2Fcarolina-barbecue%2Fmake%2F" target="_blank" rel="noopener">Email</a><span class="said" aria-live="polite"></span></div></section><script>(function(){var s=document.currentScript.previousElementSibling;var n=s.querySelector('[data-sh="native"]');if(navigator.share)n.hidden=false;s.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(function(){said.textContent="copied"},function(){said.textContent=url});}else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>
+</main>
+<script>document.addEventListener("keydown",function(e){if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="../wander.html"});</script>
+<footer>
+<div class="bots">For the machines: <a href="../api/nodes.json">nodes.json</a> <a href="../api/places.json">places.json</a> <a href="../api/kin.json">kin.json</a> <a href="../nodes.jsonl">nodes.jsonl</a> <a href="../nodes.csv">nodes.csv</a> <a href="../llms-full.txt">llms-full.txt</a> <a href="../sitemap.xml">sitemap.xml</a> <a href="../feed.xml">feed.xml</a> <a href="../api/coverage.json">coverage</a> <a href="../api/sources.json">sources</a></div>
+<p>Records licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
+</footer>
+</body>
+</html>
