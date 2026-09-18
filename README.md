@@ -123,7 +123,7 @@ python3 -m unittest discover -s tests
 
 Records CC BY-SA 4.0. Place points © OpenStreetMap contributors under ODbL 1.0
 (share-alike). Pictures carry their own licences, stated per file. Code MIT. See
-[LICENSE](LICENSE).
+[LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
 
 **Commercial licence.** If share-alike doesn't fit your use — a corpus, a
 product, a model — a commercial licence is available.
