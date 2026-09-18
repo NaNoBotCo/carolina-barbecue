@@ -112,3 +112,16 @@ Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml
 #   https://nanobotco.github.io/carolina-barbecue/api/openapi.json    every endpoint, described
 #   https://nanobotco.github.io/carolina-barbecue/api/coverage.json   scope, method and the gaps
 #   https://nanobotco.github.io/carolina-barbecue/CITATION.cff        how to cite this
+
+# — roster of sibling sites, generated from data/fleet.json —
+Sitemap: https://motdang.net/sitemap.xml
+Sitemap: https://wichaa.net/sitemap.xml
+Sitemap: https://nanobotco.github.io/amulet-atlas/sitemap.xml
+Sitemap: https://nanobotco.github.io/buffalo-wings/sitemap.xml
+Sitemap: https://nanobotco.github.io/pink-box/sitemap.xml
+Sitemap: https://nanobotco.github.io/basque-tables/sitemap.xml
+Sitemap: https://nanobotco.github.io/pinot-noir/sitemap.xml
+Sitemap: https://nanobotco.github.io/care-abroad/sitemap.xml
+Sitemap: https://nanobotco.github.io/index/sitemap.xml
+Sitemap: https://nanobotco.github.io/uptake/sitemap.xml
+Sitemap: https://nanobotco.github.io/sitemap.xml
