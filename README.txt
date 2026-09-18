@@ -117,3 +117,13 @@ REFRESHING THE HARVESTS
 NOT HERE YET
 ------------
   A host. Share cards. Field observations. Pictures for most records.
+
+
+LICENCE
+Records, prose and pages: CC BY-SA 4.0. Other layers — upstream data,
+pictures, tools — keep their own terms, set out in LICENSE.
+
+COMMERCIAL LICENCE
+If share-alike doesn't fit your use — a corpus, a product, a model — a
+commercial licence is available. Open an issue and say what you need:
+https://github.com/NaNoBotCo/carolina-barbecue/issues
