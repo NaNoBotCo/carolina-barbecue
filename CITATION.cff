@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it as below."
+title: "Carolina Barbecue"
+abstract: "A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it."
+type: dataset
+authors:
+  - name: "NaN"
+    website: "https://github.com/NaNoBotCo"
+repository-code: "https://github.com/NaNoBotCo/carolina-barbecue"
+url: "https://nanobotco.github.io/carolina-barbecue/"
+license:
+  - CC-BY-SA-4.0
+  - MIT
+date-released: "2026-09-18"
