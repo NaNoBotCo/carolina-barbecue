@@ -128,3 +128,7 @@ Records CC BY-SA 4.0. Place points © OpenStreetMap contributors under ODbL 1.0
 **Commercial licence.** If share-alike doesn't fit your use — a corpus, a
 product, a model — a commercial licence is available.
 [Open an issue](https://github.com/NaNoBotCo/carolina-barbecue/issues) and say what you need.
+
+---
+
+Contact: Nan · nan@motdang.net · Sponsor: [Ko-fi](https://ko-fi.com/defiantchiangmai) · [Patreon](https://www.patreon.com/nanobotco)
