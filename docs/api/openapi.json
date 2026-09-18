@@ -2,7 +2,7 @@
  "openapi": "3.1.0",
  "info": {
   "title": "Carolina Barbecue",
-  "version": "2026.09.16",
+  "version": "2026.09.18",
   "summary": "Barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, organizations, events, vocabulary, art and long reads.",
   "description": "One JSON record per node of the tradition. Every field carries a provenance tier — cited, harvested, tradition, inference or field — and cites a source in /api/sources.json. Records are CC BY 4.0. Place points come from OpenStreetMap under ODbL 1.0 and stay under it. Pictures carry their own licences, stated per file. These are static files on a static host.",
   "license": {
