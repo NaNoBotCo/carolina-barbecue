@@ -188,7 +188,7 @@ def not_found(site_url: str, site_name: str, css: str, counts: dict) -> str:
         ("api/coverage.json", "scope, method and gaps"),
         ("sitemap.xml", "every page")])
     return f"""<!doctype html>
-<html lang="en">
+<html lang="en" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -207,6 +207,9 @@ def not_found(site_url: str, site_name: str, css: str, counts: dict) -> str:
 <meta property="og:image:alt" content="A roadside barbecue sign, with the note that this page is gone and the directory is not">
 <meta name="twitter:card" content="summary_large_image">
 <style>{css}</style>
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head>
 <body>
 <header class="top"><a class="brand" href="{site_url}/">Carolina <b>Barbecue</b></a></header>
