@@ -15,6 +15,7 @@ if [ -f "$STYLE" ]; then
     echo "REFUSED: style. See ~/.claude/STYLE.md"; exit 4; }
 fi
 python3 tools/validate.py
+python3 tools/roads.py                     # road miles the cache lacks; warns and goes on offline
 SITE_URL="$SITE_URL" python3 tools/build.py
 python3 tools/cards.py                     # draws only the cards that are missing
 SITE_URL="$SITE_URL" python3 tools/site.py
